@@ -1,11 +1,18 @@
 package it.aredegalli.coachly.exercise.dto;
 
 import java.util.UUID;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-public record TagDto(
-        UUID id,
-        String code,
-        String tagType,
-        String translations
-) {
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class TagDto {
+    private UUID id;
+    private String code;
+    private String tagType;
+    private String translations;
 }

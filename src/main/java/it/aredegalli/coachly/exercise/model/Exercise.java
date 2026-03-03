@@ -6,10 +6,15 @@ import it.aredegalli.coachly.exercise.enums.MechanicsType;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.RiskLevel;
 import it.aredegalli.coachly.exercise.enums.Visibility;
+import it.aredegalli.coachly.exercise.model.converter.DifficultyLevelConverter;
+import it.aredegalli.coachly.exercise.model.converter.ForceTypeConverter;
+import it.aredegalli.coachly.exercise.model.converter.MechanicsTypeConverter;
+import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
+import it.aredegalli.coachly.exercise.model.converter.RiskLevelConverter;
+import it.aredegalli.coachly.exercise.model.converter.VisibilityConverter;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -29,15 +34,15 @@ public class Exercise {
     @Column(name = "name", nullable = false, length = 255)
     private String name;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = DifficultyLevelConverter.class)
     @Column(name = "difficulty", nullable = false, columnDefinition = "exercises.difficulty_level")
     private DifficultyLevel difficulty;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = MechanicsTypeConverter.class)
     @Column(name = "mechanics", nullable = false, columnDefinition = "exercises.mechanics_type")
     private MechanicsType mechanics;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = ForceTypeConverter.class)
     @Column(name = "force", columnDefinition = "exercises.force_type")
     private ForceType force;
 
@@ -47,7 +52,7 @@ public class Exercise {
     @Column(name = "bodyweight", nullable = false)
     private boolean bodyweight;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = RiskLevelConverter.class)
     @Column(name = "overall_risk", nullable = false, columnDefinition = "exercises.risk_level")
     private RiskLevel overallRisk;
 
@@ -57,11 +62,11 @@ public class Exercise {
     @Column(name = "owner_user_id")
     private UUID ownerUserId;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = VisibilityConverter.class)
     @Column(name = "visibility", nullable = false, columnDefinition = "exercises.visibility")
     private Visibility visibility;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = RecordStatusConverter.class)
     @Column(name = "status", nullable = false, columnDefinition = "exercises.record_status")
     private RecordStatus status;
 

@@ -3,10 +3,12 @@ package it.aredegalli.coachly.exercise.model;
 import it.aredegalli.coachly.exercise.enums.MediaPurpose;
 import it.aredegalli.coachly.exercise.enums.MediaType;
 import it.aredegalli.coachly.exercise.enums.Visibility;
+import it.aredegalli.coachly.exercise.model.converter.MediaPurposeConverter;
+import it.aredegalli.coachly.exercise.model.converter.MediaTypeConverter;
+import it.aredegalli.coachly.exercise.model.converter.VisibilityConverter;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -30,11 +32,11 @@ public class ExerciseMedia {
     @JoinColumn(name = "exercise_id", nullable = false)
     private Exercise exercise;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = MediaTypeConverter.class)
     @Column(name = "type", nullable = false, columnDefinition = "exercises.media_type")
     private MediaType type;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = MediaPurposeConverter.class)
     @Column(name = "purpose", nullable = false, columnDefinition = "exercises.media_purpose")
     private MediaPurpose purpose;
 
@@ -53,7 +55,7 @@ public class ExerciseMedia {
     @Column(name = "is_primary", nullable = false)
     private boolean primary;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = VisibilityConverter.class)
     @Column(name = "visibility", nullable = false, columnDefinition = "exercises.visibility")
     private Visibility visibility;
 

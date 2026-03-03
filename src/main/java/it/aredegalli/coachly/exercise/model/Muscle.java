@@ -1,10 +1,10 @@
 package it.aredegalli.coachly.exercise.model;
 
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
+import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -27,7 +27,7 @@ public class Muscle {
     @Column(name = "group_code", nullable = false, length = 50)
     private String groupCode;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = RecordStatusConverter.class)
     @Column(name = "status", nullable = false, columnDefinition = "exercises.record_status")
     private RecordStatus status;
 

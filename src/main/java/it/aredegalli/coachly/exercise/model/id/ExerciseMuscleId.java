@@ -1,10 +1,10 @@
 package it.aredegalli.coachly.exercise.model.id;
 
 import it.aredegalli.coachly.exercise.enums.InvolvementLevel;
+import it.aredegalli.coachly.exercise.model.converter.InvolvementLevelConverter;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
@@ -18,7 +18,7 @@ public class ExerciseMuscleId implements Serializable {
     @Column(name = "muscle_id", nullable = false)
     private UUID muscleId;
 
-    @Enumerated(EnumType.STRING)
+    @Convert(converter = InvolvementLevelConverter.class)
     @Column(name = "involvement", nullable = false, columnDefinition = "exercises.involvement_level")
     private InvolvementLevel involvement;
 

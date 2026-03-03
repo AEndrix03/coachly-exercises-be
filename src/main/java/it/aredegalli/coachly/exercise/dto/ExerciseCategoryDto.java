@@ -1,10 +1,17 @@
 package it.aredegalli.coachly.exercise.dto;
 
 import java.util.UUID;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-public record ExerciseCategoryDto(
-        UUID exerciseId,
-        UUID categoryId,
-        boolean primary
-) {
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ExerciseCategoryDto {
+    private UUID exerciseId;
+    private UUID categoryId;
+    private boolean primary;
 }

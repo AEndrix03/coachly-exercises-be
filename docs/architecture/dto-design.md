@@ -7,7 +7,8 @@ I DTO in `src/main/java/it/aredegalli/coachly/exercise/dto` rappresentano il pay
 - Campi tecnici esclusi: `createdAt`, `updatedAt`, `deletedAt`, `status`.
 - Nessun riferimento JPA nei DTO (`@ManyToOne`, `@EmbeddedId`), solo valori semplici.
 - Per tabelle di join sono esposte chiavi esplicite (`exerciseId`, `muscleId`, ecc.) invece di id embeddati.
-- Tutti i DTO sono `record` Java per immutabilita, leggibilita e payload snello.
+- Tutti i DTO sono classi Lombok (`@Data`, `@Builder`, `@NoArgsConstructor`, `@AllArgsConstructor`) per uso pratico in service/controller.
+- Gli enum di dominio usano costanti uppercase in Java; il mapping JPA converte automaticamente verso i valori lowercase del database.
 
 ## Mappatura sintetica
 - `ExerciseDto`: dati funzionali dell'esercizio + ownership/visibility e `translations`.
