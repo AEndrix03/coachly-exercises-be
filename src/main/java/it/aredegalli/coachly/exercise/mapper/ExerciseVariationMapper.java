@@ -9,7 +9,11 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
 
-@Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
+@Mapper(
+        componentModel = "spring",
+        unmappedTargetPolicy = ReportingPolicy.IGNORE,
+        imports = {ExerciseVariationId.class}
+)
 public interface ExerciseVariationMapper {
 
     @Mapping(target = "baseExerciseId", source = "baseExercise.id")

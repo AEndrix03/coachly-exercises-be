@@ -24,3 +24,4 @@ Con MapStruct nel `pom.xml`, i mapper Entity <-> DTO possono essere introdotti i
 - La compilazione usa `maven-compiler-plugin` con annotation processors espliciti.
 - Ordine raccomandato: `lombok`, `lombok-mapstruct-binding`, `mapstruct-processor`.
 - Il binding evita errori MapStruct su getter/setter/costruttori generati da Lombok durante l'annotation processing.
+- Nei mapper che usano `expression = "java(new ...Id(...))"`, dichiarare il tipo in `@Mapper(imports = {...})` per evitare errori di import nei `*MapperImpl` generati.
