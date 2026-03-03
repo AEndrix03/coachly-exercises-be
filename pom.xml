@@ -66,6 +66,11 @@
 		</dependency>
 
 		<!-- Exercises Lib -->
+		<dependency>
+			<groupId>it.aredegalli.coachly</groupId>
+			<artifactId>exercises-be-lib</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- Private -->
 		<dependency>
