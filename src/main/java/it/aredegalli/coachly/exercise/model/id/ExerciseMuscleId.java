@@ -1,6 +1,6 @@
 package it.aredegalli.coachly.exercise.model.id;
 
-import it.aredegalli.coachly.exercise.model.enums.InvolvementLevel;
+import it.aredegalli.coachly.exercise.enums.InvolvementLevel;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;

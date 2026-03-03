@@ -1,4 +1,4 @@
-package it.aredegalli.coachly.exercise.model.enums;
+package it.aredegalli.coachly.exercise.enums;
 
 public enum DifficultyLevel {
     beginner,

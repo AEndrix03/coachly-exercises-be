@@ -1,11 +1,11 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.model.enums.DifficultyLevel;
-import it.aredegalli.coachly.exercise.model.enums.ForceType;
-import it.aredegalli.coachly.exercise.model.enums.MechanicsType;
-import it.aredegalli.coachly.exercise.model.enums.RecordStatus;
-import it.aredegalli.coachly.exercise.model.enums.RiskLevel;
-import it.aredegalli.coachly.exercise.model.enums.Visibility;
+import it.aredegalli.coachly.exercise.enums.DifficultyLevel;
+import it.aredegalli.coachly.exercise.enums.ForceType;
+import it.aredegalli.coachly.exercise.enums.MechanicsType;
+import it.aredegalli.coachly.exercise.enums.RecordStatus;
+import it.aredegalli.coachly.exercise.enums.RiskLevel;
+import it.aredegalli.coachly.exercise.enums.Visibility;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

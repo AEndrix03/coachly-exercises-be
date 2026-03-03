@@ -1,6 +1,6 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.model.enums.RecordStatus;
+import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

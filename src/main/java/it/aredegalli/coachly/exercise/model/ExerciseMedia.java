@@ -1,8 +1,8 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.model.enums.MediaPurpose;
-import it.aredegalli.coachly.exercise.model.enums.MediaType;
-import it.aredegalli.coachly.exercise.model.enums.Visibility;
+import it.aredegalli.coachly.exercise.enums.MediaPurpose;
+import it.aredegalli.coachly.exercise.enums.MediaType;
+import it.aredegalli.coachly.exercise.enums.Visibility;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
