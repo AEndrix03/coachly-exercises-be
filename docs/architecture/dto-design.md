@@ -19,3 +19,8 @@ I DTO in `src/main/java/it/aredegalli/coachly/exercise/dto` rappresentano il pay
 
 ## Nota operativa
 Con MapStruct nel `pom.xml`, i mapper Entity <-> DTO possono essere introdotti in `service`/`controller` senza leak di dettagli JPA all'esterno.
+
+## Build note: MapStruct + Lombok
+- La compilazione usa `maven-compiler-plugin` con annotation processors espliciti.
+- Ordine raccomandato: `lombok`, `lombok-mapstruct-binding`, `mapstruct-processor`.
+- Il binding evita errori MapStruct su getter/setter/costruttori generati da Lombok durante l'annotation processing.
