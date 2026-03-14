@@ -21,9 +21,6 @@ import it.aredegalli.coachly.exercise.repository.ExerciseMuscleRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseTagRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseVariationRepository;
-import jakarta.persistence.criteria.Subquery;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -96,25 +93,29 @@ public class ExerciseService {
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
-        Specification<Exercise> specification = hasActiveStatus();
-        specification = andIfPresent(specification, matchesDifficulty(filter.getDifficultyLevel()));
-        specification = andIfPresent(specification, matchesMechanics(filter.getMechanicsType()));
-        specification = andIfPresent(specification, matchesForce(filter.getForceType()));
-        specification = andIfPresent(specification, matchesUnilateral(filter.getIsUnilateral()));
-        specification = andIfPresent(specification, matchesBodyweight(filter.getIsBodyweight()));
-        specification = andIfPresent(specification, matchesCategories(categoryIds));
-        specification = andIfPresent(specification, matchesMuscles(muscleIds));
-
-        List<Exercise> exercises = exerciseRepository.findAll(specification, Sort.by(Sort.Direction.ASC, "name"));
+        List<Exercise> exercises = exerciseRepository.findAllByStatusOrderByNameAsc(RecordStatus.ACTIVE).stream()
+            .filter(exercise -> matchesDifficulty(exercise, filter.getDifficultyLevel()))
+            .filter(exercise -> matchesMechanics(exercise, filter.getMechanicsType()))
+            .filter(exercise -> matchesForce(exercise, filter.getForceType()))
+            .filter(exercise -> matchesUnilateral(exercise, filter.getIsUnilateral()))
+            .filter(exercise -> matchesBodyweight(exercise, filter.getIsBodyweight()))
+            .toList();
         if (exercises.isEmpty()) {
             return List.of();
         }
+
+        Map<UUID, List<ExerciseCategory>> categoriesByExercise = groupByExerciseId(
+            exerciseCategoryRepository.findAllByExerciseIds(exercises.stream().map(Exercise::getId).toList()),
+            relation -> relation.getExercise().getId()
+        );
         Map<UUID, List<ExerciseMuscle>> musclesByExercise = groupByExerciseId(
             exerciseMuscleRepository.findAllByExerciseIds(exercises.stream().map(Exercise::getId).toList()),
             relation -> relation.getExercise().getId()
         );
 
         return exercises.stream()
+            .filter(exercise -> matchesCategories(categoriesByExercise.getOrDefault(exercise.getId(), List.of()), categoryIds))
+            .filter(exercise -> matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleIds))
             .filter(exercise -> exerciseRetrieveMapper.matchesText(exercise, filter.getTextFilter(), filter.getLangFilter()))
             .filter(exercise -> exerciseRetrieveMapper.matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleTextTokens))
             .map(exerciseRetrieveMapper::toSummary)
@@ -173,82 +174,45 @@ public class ExerciseService {
             .collect(Collectors.groupingBy(extractor, LinkedHashMap::new, Collectors.toList()));
     }
 
-    private Specification<Exercise> andIfPresent(Specification<Exercise> base, Specification<Exercise> other) {
-        return other == null ? base : base.and(other);
-    }
-
-    private Specification<Exercise> hasActiveStatus() {
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("status"), RecordStatus.ACTIVE);
-    }
-
-    private Specification<Exercise> matchesDifficulty(String difficultyLevel) {
+    private boolean matchesDifficulty(Exercise exercise, String difficultyLevel) {
         DifficultyLevel difficulty = parseEnum(DifficultyLevel.class, difficultyLevel);
-        if (difficulty == null) {
-            return null;
-        }
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("difficulty"), difficulty);
+        return difficulty == null || exercise.getDifficulty() == difficulty;
     }
 
-    private Specification<Exercise> matchesMechanics(String mechanicsType) {
+    private boolean matchesMechanics(Exercise exercise, String mechanicsType) {
         MechanicsType mechanics = parseEnum(MechanicsType.class, mechanicsType);
-        if (mechanics == null) {
-            return null;
-        }
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("mechanics"), mechanics);
+        return mechanics == null || exercise.getMechanics() == mechanics;
     }
 
-    private Specification<Exercise> matchesForce(String forceType) {
+    private boolean matchesForce(Exercise exercise, String forceType) {
         ForceType force = parseEnum(ForceType.class, forceType);
-        if (force == null) {
-            return null;
-        }
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("force"), force);
+        return force == null || exercise.getForce() == force;
     }
 
-    private Specification<Exercise> matchesUnilateral(Boolean isUnilateral) {
-        if (isUnilateral == null) {
-            return null;
-        }
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("unilateral"), isUnilateral);
+    private boolean matchesUnilateral(Exercise exercise, Boolean isUnilateral) {
+        return isUnilateral == null || exercise.isUnilateral() == isUnilateral;
     }
 
-    private Specification<Exercise> matchesBodyweight(Boolean isBodyweight) {
-        if (isBodyweight == null) {
-            return null;
-        }
-        return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("bodyweight"), isBodyweight);
+    private boolean matchesBodyweight(Exercise exercise, Boolean isBodyweight) {
+        return isBodyweight == null || exercise.isBodyweight() == isBodyweight;
     }
 
-    private Specification<Exercise> matchesCategories(List<UUID> categoryIds) {
+    private boolean matchesCategories(List<ExerciseCategory> categories, List<UUID> categoryIds) {
         if (categoryIds.isEmpty()) {
-            return null;
+            return true;
         }
-        return (root, query, criteriaBuilder) -> {
-            Subquery<UUID> subquery = query.subquery(UUID.class);
-            var exerciseCategory = subquery.from(ExerciseCategory.class);
-            subquery.select(exerciseCategory.get("exercise").get("id"))
-                .where(
-                    criteriaBuilder.equal(exerciseCategory.get("exercise").get("id"), root.get("id")),
-                    exerciseCategory.get("category").get("id").in(categoryIds)
-                );
-            return criteriaBuilder.exists(subquery);
-        };
+        return categories.stream()
+            .map(relation -> relation.getCategory().getId())
+            .anyMatch(categoryIds::contains);
     }
 
-    private Specification<Exercise> matchesMuscles(List<UUID> muscleIds) {
+    private boolean matchesMuscles(List<ExerciseMuscle> muscles, List<UUID> muscleIds) {
         if (muscleIds.isEmpty()) {
-            return null;
+            return true;
         }
-        return (root, query, criteriaBuilder) -> {
-            Subquery<UUID> subquery = query.subquery(UUID.class);
-            var exerciseMuscle = subquery.from(ExerciseMuscle.class);
-            subquery.select(exerciseMuscle.get("exercise").get("id"))
-                .where(
-                    criteriaBuilder.equal(exerciseMuscle.get("exercise").get("id"), root.get("id")),
-                    exerciseMuscle.get("muscle").get("id").in(muscleIds)
-                );
-            return criteriaBuilder.exists(subquery);
-        };
+        return muscles.stream()
+            .map(relation -> relation.getMuscle().getId())
+            .anyMatch(muscleIds::contains);
     }
 
     private List<String> safeTokens(List<String> rawTokens) {
