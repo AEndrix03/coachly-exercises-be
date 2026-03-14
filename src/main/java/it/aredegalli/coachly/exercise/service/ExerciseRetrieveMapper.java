@@ -70,44 +70,42 @@ public class ExerciseRetrieveMapper {
             .forceType(enumValue(exercise.getForce()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
-            .environment(ExerciseDetailDto.EnvironmentDto.builder().build())
-            .instructions(List.of())
-            .movementPattern(ExerciseDetailDto.MovementPatternDto.builder().build())
             .variants(variations.stream().map(this::toVariant).toList())
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
             .safety(List.of(toSafety(exercise, translations)))
-            .safetyContraindications(List.of())
             .muscles(muscles.stream().map(this::toMuscle).toList())
             .equipments(equipments.stream().map(this::toEquipment).toList())
             .tags(tags.stream().map(this::toTag).toList())
             .build();
     }
 
-    public boolean matchesText(ExerciseDetailDto detail, String rawTextFilter, String rawLangFilter) {
+    public boolean matchesText(Exercise exercise, String rawTextFilter, String rawLangFilter) {
         if (rawTextFilter == null || rawTextFilter.isBlank()) {
             return true;
         }
 
+        TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         String textFilter = normalize(rawTextFilter);
         List<String> languageCandidates = languageCandidates(rawLangFilter);
-        return matchesI18n(detail.getNameI18n(), languageCandidates, textFilter)
-            || matchesI18n(detail.getDescriptionI18n(), languageCandidates, textFilter)
-            || matchesI18n(detail.getTipsI18n(), languageCandidates, textFilter);
+        return matchesI18n(translations.fieldMap("nameI18n", "name"), languageCandidates, textFilter)
+            || matchesI18n(translations.fieldMap("descriptionI18n", "description"), languageCandidates, textFilter)
+            || matchesI18n(translations.fieldMap("tipsI18n", "tips"), languageCandidates, textFilter);
     }
 
-    public boolean matchesMuscles(ExerciseDetailDto detail, List<String> rawMuscleTokens) {
+    public boolean matchesMuscles(List<ExerciseMuscle> muscles, List<String> rawMuscleTokens) {
         if (rawMuscleTokens == null || rawMuscleTokens.isEmpty()) {
             return true;
         }
 
         List<String> tokens = rawMuscleTokens.stream().map(this::normalize).toList();
-        return detail.getMuscles().stream().anyMatch(muscleAssociation -> {
-            ExerciseDetailDto.NamedResourceDto muscle = muscleAssociation.getMuscle();
+        return muscles.stream().anyMatch(exerciseMuscle -> {
+            Muscle muscle = exerciseMuscle.getMuscle();
             if (muscle == null) {
                 return false;
             }
-            Map<String, String> names = muscle.getNameI18n() == null ? Map.of() : muscle.getNameI18n();
+            TranslationEnvelope translations = parseTranslations(muscle.getTranslations());
+            Map<String, String> names = translations.fieldMap("nameI18n", "name");
             return tokens.stream().anyMatch(token ->
                 containsNormalized(muscle.getId() == null ? null : muscle.getId().toString(), token)
                     || containsNormalized(muscle.getCode(), token)
@@ -129,7 +127,6 @@ public class ExerciseRetrieveMapper {
             .forceType(enumValue(variantExercise.getForce()))
             .isUnilateral(variantExercise.isUnilateral())
             .isBodyweight(variantExercise.isBodyweight())
-            .variationType(null)
             .difficultyDelta(variation.getDifficultyDelta())
             .build();
     }
@@ -180,8 +177,6 @@ public class ExerciseRetrieveMapper {
                 .nameI18n(translations.fieldMap("nameI18n", "name"))
                 .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
                 .build())
-            .involvementLevel(null)
-            .primaryContractionType(null)
             .activationPercentage(exerciseMuscle.getActivationPercentage())
             .build();
     }

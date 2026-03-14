@@ -89,7 +89,7 @@ public class ExerciseService {
     }
 
     @Transactional(readOnly = true)
-    public List<ExerciseDetailDto> getFilteredExercises(ExerciseFilterDto filter) {
+    public List<ExerciseSummaryDto> getFilteredExercises(ExerciseFilterDto filter) {
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
         List<UUID> categoryIds = parseUuidTokens(categoryTokens);
@@ -105,13 +105,19 @@ public class ExerciseService {
             .and(matchesCategories(categoryIds))
             .and(matchesMuscles(muscleIds));
 
-        List<ExerciseDetailDto> details = buildDetailDtos(
-            exerciseRepository.findAll(specification, Sort.by(Sort.Direction.ASC, "name"))
+        List<Exercise> exercises = exerciseRepository.findAll(specification, Sort.by(Sort.Direction.ASC, "name"));
+        if (exercises.isEmpty()) {
+            return List.of();
+        }
+        Map<UUID, List<ExerciseMuscle>> musclesByExercise = groupByExerciseId(
+            exerciseMuscleRepository.findAllByExerciseIds(exercises.stream().map(Exercise::getId).toList()),
+            relation -> relation.getExercise().getId()
         );
 
-        return details.stream()
-            .filter(detail -> exerciseRetrieveMapper.matchesText(detail, filter.getTextFilter(), filter.getLangFilter()))
-            .filter(detail -> exerciseRetrieveMapper.matchesMuscles(detail, muscleTextTokens))
+        return exercises.stream()
+            .filter(exercise -> exerciseRetrieveMapper.matchesText(exercise, filter.getTextFilter(), filter.getLangFilter()))
+            .filter(exercise -> exerciseRetrieveMapper.matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleTextTokens))
+            .map(exerciseRetrieveMapper::toSummary)
             .toList();
     }
 

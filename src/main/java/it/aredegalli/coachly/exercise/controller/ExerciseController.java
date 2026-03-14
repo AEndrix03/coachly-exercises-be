@@ -35,7 +35,7 @@ public class ExerciseController {
     }
 
     @GetMapping("/filtered")
-    public List<ExerciseDetailDto> getFilteredExercises(
+    public List<ExerciseSummaryDto> getFilteredExercises(
         @RequestParam(required = false) String textFilter,
         @RequestParam(required = false) String langFilter,
         @RequestParam(required = false) String difficultyLevel,
