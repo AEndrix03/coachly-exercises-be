@@ -71,14 +71,16 @@ public class ExerciseService {
 
     @Transactional(readOnly = true)
     public List<ExerciseSummaryDto> getExercises() {
-        return exerciseRepository.findAllByStatusOrderByNameAsc(RecordStatus.ACTIVE).stream()
+        return exerciseRepository.findAllByOrderByNameAsc().stream()
+            .filter(this::isActive)
             .map(exerciseRetrieveMapper::toSummary)
             .toList();
     }
 
     @Transactional(readOnly = true)
     public ExerciseDetailDto getExerciseDetails(UUID exerciseId) {
-        Exercise exercise = exerciseRepository.findByIdAndStatus(exerciseId, RecordStatus.ACTIVE)
+        Exercise exercise = exerciseRepository.findById(exerciseId)
+            .filter(this::isActive)
             .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
         return buildDetailDtos(List.of(exercise)).stream()
             .findFirst()
@@ -93,7 +95,8 @@ public class ExerciseService {
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
-        List<Exercise> exercises = exerciseRepository.findAllByStatusOrderByNameAsc(RecordStatus.ACTIVE).stream()
+        List<Exercise> exercises = exerciseRepository.findAllByOrderByNameAsc().stream()
+            .filter(this::isActive)
             .filter(exercise -> matchesDifficulty(exercise, filter.getDifficultyLevel()))
             .filter(exercise -> matchesMechanics(exercise, filter.getMechanicsType()))
             .filter(exercise -> matchesForce(exercise, filter.getForceType()))
@@ -172,6 +175,10 @@ public class ExerciseService {
         }
         return relations.stream()
             .collect(Collectors.groupingBy(extractor, LinkedHashMap::new, Collectors.toList()));
+    }
+
+    private boolean isActive(Exercise exercise) {
+        return exercise.getStatus() == RecordStatus.ACTIVE;
     }
 
     private boolean matchesDifficulty(Exercise exercise, String difficultyLevel) {
