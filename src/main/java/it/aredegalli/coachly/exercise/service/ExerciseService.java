@@ -39,6 +39,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class ExerciseService {
@@ -96,14 +97,18 @@ public class ExerciseService {
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
-        Specification<Exercise> specification = Specification.where(hasActiveStatus())
-            .and(matchesDifficulty(filter.getDifficultyLevel()))
-            .and(matchesMechanics(filter.getMechanicsType()))
-            .and(matchesForce(filter.getForceType()))
-            .and(matchesUnilateral(filter.getIsUnilateral()))
-            .and(matchesBodyweight(filter.getIsBodyweight()))
-            .and(matchesCategories(categoryIds))
-            .and(matchesMuscles(muscleIds));
+        Specification<Exercise> specification = Stream.of(
+                hasActiveStatus(),
+                matchesDifficulty(filter.getDifficultyLevel()),
+                matchesMechanics(filter.getMechanicsType()),
+                matchesForce(filter.getForceType()),
+                matchesUnilateral(filter.getIsUnilateral()),
+                matchesBodyweight(filter.getIsBodyweight()),
+                matchesCategories(categoryIds),
+                matchesMuscles(muscleIds)
+            )
+            .filter(java.util.Objects::nonNull)
+            .reduce(Specification.where(null), Specification::and);
 
         List<Exercise> exercises = exerciseRepository.findAll(specification, Sort.by(Sort.Direction.ASC, "name"));
         if (exercises.isEmpty()) {
