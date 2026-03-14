@@ -39,7 +39,6 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Service
 public class ExerciseService {
@@ -97,18 +96,14 @@ public class ExerciseService {
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
-        Specification<Exercise> specification = Stream.of(
-                hasActiveStatus(),
-                matchesDifficulty(filter.getDifficultyLevel()),
-                matchesMechanics(filter.getMechanicsType()),
-                matchesForce(filter.getForceType()),
-                matchesUnilateral(filter.getIsUnilateral()),
-                matchesBodyweight(filter.getIsBodyweight()),
-                matchesCategories(categoryIds),
-                matchesMuscles(muscleIds)
-            )
-            .filter(java.util.Objects::nonNull)
-            .reduce(Specification.where(null), Specification::and);
+        Specification<Exercise> specification = hasActiveStatus();
+        specification = andIfPresent(specification, matchesDifficulty(filter.getDifficultyLevel()));
+        specification = andIfPresent(specification, matchesMechanics(filter.getMechanicsType()));
+        specification = andIfPresent(specification, matchesForce(filter.getForceType()));
+        specification = andIfPresent(specification, matchesUnilateral(filter.getIsUnilateral()));
+        specification = andIfPresent(specification, matchesBodyweight(filter.getIsBodyweight()));
+        specification = andIfPresent(specification, matchesCategories(categoryIds));
+        specification = andIfPresent(specification, matchesMuscles(muscleIds));
 
         List<Exercise> exercises = exerciseRepository.findAll(specification, Sort.by(Sort.Direction.ASC, "name"));
         if (exercises.isEmpty()) {
@@ -176,6 +171,10 @@ public class ExerciseService {
         }
         return relations.stream()
             .collect(Collectors.groupingBy(extractor, LinkedHashMap::new, Collectors.toList()));
+    }
+
+    private Specification<Exercise> andIfPresent(Specification<Exercise> base, Specification<Exercise> other) {
+        return other == null ? base : base.and(other);
     }
 
     private Specification<Exercise> hasActiveStatus() {
