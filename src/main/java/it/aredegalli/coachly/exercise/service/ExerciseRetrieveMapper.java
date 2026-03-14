@@ -29,11 +29,7 @@ public class ExerciseRetrieveMapper {
 
     private static final TypeReference<Map<String, Object>> MAP_TYPE = new TypeReference<>() {};
 
-    private final ObjectMapper objectMapper;
-
-    public ExerciseRetrieveMapper(ObjectMapper objectMapper) {
-        this.objectMapper = objectMapper;
-    }
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     public ExerciseSummaryDto toSummary(Exercise exercise) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
