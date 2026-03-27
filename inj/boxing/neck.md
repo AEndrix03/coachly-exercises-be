@@ -132,3 +132,44 @@
 - Frontal Cervical Isometric | Isometrico Cervicale Frontale | diff: beginner
 - Posterior Cervical Isometric | Isometrico Cervicale Posteriore | diff: beginner
 - 4-Direction Isometric Circuit | Circuito Isometrico 4 Direzioni | diff: intermediate
+
+---
+
+## Partner Neck Rotation Isometric
+- **IT**: Isometria di Rotazione del Collo con Partner
+- **Difficulty**: intermediate
+- **Mechanics**: isolation
+- **Force**: static
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Scalene Middle
+- **Secondary Muscles**: Splenius Cervicis, Levator Scapulae, Trapezius - Upper
+- **Equipment**: Partner
+- **Tags**: boxing, neck, impact-prep, isometric
+
+**Variants:**
+- Lead-Side Neck Rotation Isometric | Isometria di Rotazione del Collo Lato Avanzato | diff: intermediate | spot: false
+- Rear-Side Neck Rotation Isometric | Isometria di Rotazione del Collo Lato Posteriore | diff: intermediate | spot: false
+
+---
+
+## Supine Neck Retraction Lift
+- **IT**: Sollevamento in Retrazione Cervicale Supino
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: static
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Scalene Anterior, Scalene Middle
+- **Secondary Muscles**: Splenius Capitis, Trapezius - Upper, Levator Scapulae
+- **Equipment**: Exercise Mat
+- **Tags**: boxing, neck, posture, resilience
+
+**Variants:**
+- Supine Neck Retraction Hold | Tenuta in Retrazione Cervicale Supino | diff: beginner | spot: false
+- Supine Neck Retraction Lift with Reach | Sollevamento in Retrazione Cervicale con Reach | diff: intermediate | spot: false
+

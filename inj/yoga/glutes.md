@@ -141,3 +141,24 @@
 - **Tags**: yoga, glutes, balance, standing, intermediate
 
 **Variants:**
+
+---
+
+## Chair Pose (Utkatasana)
+- **IT**: Posizione della Sedia
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: static
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Gluteus Maximus, Gluteus Medius, Gluteus Minimus
+- **Secondary Muscles**: Rectus Femoris, Erector Spinae, Deltoid - Anterior
+- **Equipment**: Yoga Mat
+- **Tags**: yoga, glutes, standing, heat
+
+**Variants:**
+- Twisted Chair Pose (Parivrtta Utkatasana) | Posizione della Sedia Ruotata | diff: intermediate | spot: false
+- Chair Pose on Toes (Utkatasana) | Posizione della Sedia sulle Punte | diff: intermediate | spot: false
+

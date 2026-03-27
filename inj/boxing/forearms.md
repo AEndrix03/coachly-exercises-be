@@ -153,3 +153,24 @@
 - Timed Grip Squeeze | Stretta Presa a Tempo | diff: beginner
 - Graded Gripper Squeeze | Stretta Gripper Graduato | diff: intermediate
 - Rice Bucket Grip Training | Allenamento Presa nel Riso | diff: intermediate
+
+---
+
+## Rice Bucket Grip Series
+- **IT**: Serie di Presa nel Secchio di Riso
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: pull
+- **Unilateral**: false
+- **Bodyweight**: false
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Flexor Digitorum Superficialis, Extensor Digitorum, Flexor Carpi Ulnaris
+- **Secondary Muscles**: Flexor Carpi Radialis, Pronator Teres, Brachioradialis
+- **Equipment**: Rice Bucket
+- **Tags**: boxing, grip, conditioning, forearms
+
+**Variants:**
+- Rice Bucket Twist Series | Serie di Rotazioni nel Secchio di Riso | diff: beginner | spot: false
+- Rice Bucket Punch Series | Serie di Pugni nel Secchio di Riso | diff: intermediate | spot: false
+

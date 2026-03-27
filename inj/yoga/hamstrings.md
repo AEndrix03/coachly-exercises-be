@@ -137,3 +137,24 @@
 
 **Variants:**
 - Open-Hip Variation | Variante Anca Aperta | diff: beginner | spot: false
+
+---
+
+## Standing Split (Urdhva Prasarita Eka Padasana)
+- **IT**: Spaccata in Piedi
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: static
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Biceps Femoris - Long Head, Semitendinosus, Semimembranosus
+- **Secondary Muscles**: Gluteus Maximus, Erector Spinae, Gastrocnemius - Medial Head
+- **Equipment**: Yoga Mat
+- **Tags**: yoga, hamstrings, balance, fold
+
+**Variants:**
+- Supported Standing Split (Urdhva Prasarita Eka Padasana) | Spaccata in Piedi Supportata | diff: beginner | spot: false
+- Standing Split with Blocks (Urdhva Prasarita Eka Padasana) | Spaccata in Piedi con Blocchi | diff: intermediate | spot: false
+

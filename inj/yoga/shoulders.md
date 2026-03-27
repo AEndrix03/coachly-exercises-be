@@ -138,3 +138,24 @@
 - **Tags**: yoga, shoulders, inversion, restore, beginner
 
 **Variants:**
+
+---
+
+## Cow Face Arms (Gomukhasana Arms)
+- **IT**: Braccia della Posizione del Muso di Mucca
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: static
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Deltoid - Posterior, Infraspinatus, Subscapularis
+- **Secondary Muscles**: Teres Minor, Supraspinatus, Triceps Brachii - Long Head
+- **Equipment**: Yoga Strap
+- **Tags**: yoga, shoulders, bind, mobility
+
+**Variants:**
+- Cow Face Arms with Strap (Gomukhasana Arms) | Braccia della Posizione del Muso di Mucca con Cinghia | diff: beginner | spot: false
+- Seated Cow Face Arms (Gomukhasana Arms) | Braccia della Posizione del Muso di Mucca da Seduto | diff: beginner | spot: false
+

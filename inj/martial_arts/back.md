@@ -140,3 +140,44 @@
 - Wide-Grip Pull-Up | Trazioni Presa Larga | diff: intermediate
 - Commando Pull-Up | Trazioni Commando | diff: advanced
 - L-Sit Pull-Up | Trazioni L-Sit | diff: advanced
+
+---
+
+## Standing Clinch Snap-Down Pull
+- **IT**: Trazione Snap-Down in Clinch
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Latissimus Dorsi, Rhomboid Major, Trapezius - Middle
+- **Secondary Muscles**: Biceps Brachii - Short Head, Erector Spinae, Deltoid - Posterior
+- **Equipment**: Partner
+- **Tags**: martial_arts, clinch, pull, grappling
+
+**Variants:**
+- Alternating Clinch Snap-Down Pull | Trazione Snap-Down in Clinch Alternata | diff: intermediate | spot: false
+- Banded Clinch Snap-Down Pull | Trazione Snap-Down in Clinch con Banda | diff: intermediate | spot: false
+
+---
+
+## Overhook Row Drill
+- **IT**: Drill di Remata in Overhook
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Latissimus Dorsi, Teres Major, Rhomboid Major
+- **Secondary Muscles**: Biceps Brachii - Long Head, Trapezius - Lower, Erector Spinae
+- **Equipment**: Resistance Band
+- **Tags**: martial_arts, clinch, control, pulling
+
+**Variants:**
+- Isometric Overhook Row Drill | Drill di Remata in Overhook Isometrico | diff: intermediate | spot: false
+- Partner Overhook Row Drill | Drill di Remata in Overhook con Partner | diff: advanced | spot: false
+

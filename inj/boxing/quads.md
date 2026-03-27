@@ -108,3 +108,64 @@
 - Step-In Lunge with Cross | Affondata con Diretto | diff: intermediate
 - Walking Lunge with Punches | Affondata in Camminata con Pugni | diff: intermediate
 - Weighted Step-In Lunge | Affondata Avanzante con Peso | diff: advanced
+
+---
+
+## Pendulum Step Drill
+- **IT**: Drill di Passo Pendolo
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Rectus Femoris, Vastus Lateralis, Vastus Medialis
+- **Secondary Muscles**: Tensor Fasciae Latae, Gastrocnemius - Medial Head, Gluteus Medius
+- **Equipment**: None (Bodyweight)
+- **Tags**: boxing, footwork, rhythm, legs
+
+**Variants:**
+- Fast Pendulum Step Drill | Drill di Passo Pendolo Veloce | diff: intermediate | spot: false
+- Pendulum Step Drill with Jab | Drill di Passo Pendolo con Jab | diff: intermediate | spot: false
+
+---
+
+## Split Squat with Punch-Out
+- **IT**: Split Squat con Estensione del Pugno
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: push
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Rectus Femoris, Vastus Lateralis, Vastus Medialis
+- **Secondary Muscles**: Gluteus Maximus, Deltoid - Anterior, External Oblique
+- **Equipment**: None (Bodyweight)
+- **Tags**: boxing, unilateral, punch-mechanics, leg-drive
+
+**Variants:**
+- Rear-Foot-Elevated Split Squat with Punch-Out | Split Squat Bulgaro con Estensione del Pugno | diff: advanced | spot: false
+- Tempo Split Squat with Punch-Out | Split Squat a Tempo con Estensione del Pugno | diff: intermediate | spot: false
+
+---
+
+## Duck Walk in Boxing Stance
+- **IT**: Camminata Accovacciata in Guardia
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Rectus Femoris, Vastus Lateralis, Vastus Intermedius
+- **Secondary Muscles**: Gluteus Maximus, Tensor Fasciae Latae, Soleus
+- **Equipment**: None (Bodyweight)
+- **Tags**: boxing, stance, endurance, quads
+
+**Variants:**
+- Forward Duck Walk in Boxing Stance | Camminata Accovacciata Avanti in Guardia | diff: intermediate | spot: false
+- Lateral Duck Walk in Boxing Stance | Camminata Accovacciata Laterale in Guardia | diff: advanced | spot: false
+

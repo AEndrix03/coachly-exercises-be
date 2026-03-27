@@ -137,3 +137,44 @@
 - Band Face Pull | Face Pull con Elastico | diff: beginner
 - High-Angle Face Pull | Face Pull Alto | diff: intermediate
 - Face Pull with External Rotation | Face Pull con Rotazione Esterna | diff: intermediate
+
+---
+
+## Slip Rope Drill
+- **IT**: Drill Sotto la Corda
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Trapezius - Middle, Rhomboid Major, Erector Spinae
+- **Secondary Muscles**: External Oblique, Deltoid - Posterior, Gastrocnemius - Medial Head
+- **Equipment**: Slip Rope
+- **Tags**: boxing, defense, posture, footwork
+
+**Variants:**
+- Reactive Slip Rope Drill | Slip Rope Reattivo | diff: intermediate | spot: false
+- Slip Rope Drill with Counters | Slip Rope con Contrattacchi | diff: intermediate | spot: false
+
+---
+
+## Resistance Band Guard Retraction
+- **IT**: Retrazione della Guardia con Banda
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: pull
+- **Unilateral**: false
+- **Bodyweight**: false
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Rhomboid Major, Rhomboid Minor, Trapezius - Middle
+- **Secondary Muscles**: Deltoid - Posterior, Infraspinatus, Biceps Brachii - Short Head
+- **Equipment**: Resistance Band
+- **Tags**: boxing, posture, scapula, prehab
+
+**Variants:**
+- Single-Arm Guard Retraction | Retrazione della Guardia a Un Braccio | diff: beginner | spot: false
+- Tempo Guard Retraction | Retrazione della Guardia a Tempo | diff: intermediate | spot: false
+

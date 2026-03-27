@@ -151,3 +151,24 @@
 **Variants:**
 - Overhead Reach with Band | Allungamento Sopratesta con Elastico | diff: beginner
 - Overhead Reach in Ground Position | Allungamento Sopratesta a Terra | diff: intermediate
+
+---
+
+## Pummeling Drill
+- **IT**: Drill di Pummeling
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Deltoid - Anterior, Deltoid - Posterior, Infraspinatus
+- **Secondary Muscles**: Trapezius - Upper, Rhomboid Major, Biceps Brachii - Short Head
+- **Equipment**: Partner
+- **Tags**: martial_arts, clinch, shoulders, endurance
+
+**Variants:**
+- Fast Pummeling Drill | Drill di Pummeling Veloce | diff: intermediate | spot: false
+- Resistance Band Pummeling Drill | Drill di Pummeling con Banda | diff: intermediate | spot: false
+

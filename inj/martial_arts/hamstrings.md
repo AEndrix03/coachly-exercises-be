@@ -88,3 +88,84 @@
 - Prone Hamstring Curl | Curl Femorali Prono | diff: beginner
 - Standing Hamstring Curl with Band | Curl Femorali in Piedi con Elastico | diff: beginner
 - Slider Hamstring Curl | Curl Femorali con Cursore | diff: intermediate
+
+---
+
+## Nordic Curl for Kick Recovery
+- **IT**: Nordic Curl per Recupero del Calcio
+- **Difficulty**: advanced
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: high
+- **Spotter**: false
+- **Primary Muscles**: Biceps Femoris - Long Head, Semitendinosus, Semimembranosus
+- **Secondary Muscles**: Gluteus Maximus, Gastrocnemius - Medial Head, Erector Spinae
+- **Equipment**: Nordic Bench
+- **Tags**: martial_arts, hamstrings, eccentric, kick-control
+
+**Variants:**
+- Assisted Nordic Curl for Kick Recovery | Nordic Curl Assistito per Recupero del Calcio | diff: intermediate | spot: false
+- Paused Nordic Curl for Kick Recovery | Nordic Curl con Pausa per Recupero del Calcio | diff: advanced | spot: false
+
+---
+
+## Single-Leg Romanian Deadlift for Balance Kicking
+- **IT**: Romanian Deadlift su Una Gamba per Equilibrio nei Calci
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: true
+- **Bodyweight**: false
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Biceps Femoris - Long Head, Semitendinosus, Semimembranosus
+- **Secondary Muscles**: Gluteus Maximus, Erector Spinae, Gluteus Medius
+- **Equipment**: Kettlebell
+- **Tags**: martial_arts, balance, hinge, kick
+
+**Variants:**
+- Bodyweight Single-Leg Romanian Deadlift for Balance Kicking | Romanian Deadlift su Una Gamba a Corpo Libero per Equilibrio nei Calci | diff: beginner | spot: false
+- Contralateral Single-Leg Romanian Deadlift for Balance Kicking | Romanian Deadlift Controlaterale su Una Gamba per Equilibrio nei Calci | diff: advanced | spot: false
+
+---
+
+## Band-Assisted Leg Recoil Drill
+- **IT**: Drill di Richiamo della Gamba con Banda
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: true
+- **Bodyweight**: false
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Biceps Femoris - Short Head, Semitendinosus, Semimembranosus
+- **Secondary Muscles**: Gluteus Maximus, Gastrocnemius - Lateral Head, External Oblique
+- **Equipment**: Resistance Band
+- **Tags**: martial_arts, recoil, speed, hamstrings
+
+**Variants:**
+- Fast Band-Assisted Leg Recoil Drill | Drill Veloce di Richiamo della Gamba con Banda | diff: intermediate | spot: false
+- Paused Band-Assisted Leg Recoil Drill | Drill di Richiamo della Gamba con Banda con Pausa | diff: advanced | spot: false
+
+---
+
+## Sliding Leg Curl for Guard Retention
+- **IT**: Leg Curl Scivolato per Mantenimento della Guardia
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: pull
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Semitendinosus, Semimembranosus, Biceps Femoris - Long Head
+- **Secondary Muscles**: Gluteus Maximus, Rectus Abdominis, Gastrocnemius - Medial Head
+- **Equipment**: Sliders
+- **Tags**: martial_arts, guard, grappling, hamstrings
+
+**Variants:**
+- Single-Leg Sliding Leg Curl for Guard Retention | Leg Curl Scivolato su Una Gamba per Mantenimento della Guardia | diff: advanced | spot: false
+- Tempo Sliding Leg Curl for Guard Retention | Leg Curl Scivolato a Tempo per Mantenimento della Guardia | diff: intermediate | spot: false
+

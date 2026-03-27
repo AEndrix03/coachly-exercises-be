@@ -115,3 +115,44 @@
 - **Tags**: yoga, adductors, hips, advanced
 
 **Variants:**
+
+---
+
+## Garland Pose (Malasana)
+- **IT**: Posizione della Ghirlanda
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: static
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Adductor Longus, Adductor Magnus, Gracilis
+- **Secondary Muscles**: Gluteus Maximus, Erector Spinae, Soleus
+- **Equipment**: Yoga Mat
+- **Tags**: yoga, adductors, squat, grounding
+
+**Variants:**
+- Supported Garland Pose (Malasana) | Posizione della Ghirlanda Supportata | diff: beginner | spot: false
+- Prayer Garland Pose (Malasana) | Posizione della Ghirlanda in Preghiera | diff: beginner | spot: false
+
+---
+
+## Reclining Bound Angle Pose (Supta Baddha Konasana)
+- **IT**: Posizione dell'Angolo Chiuso Sdraiata
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: static
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Adductor Longus, Adductor Brevis, Gracilis
+- **Secondary Muscles**: Pectineus, Diaphragm, Psoas Major
+- **Equipment**: Yoga Mat
+- **Tags**: yoga, adductors, restorative, opening
+
+**Variants:**
+- Bolstered Reclining Bound Angle Pose (Supta Baddha Konasana) | Posizione dell'Angolo Chiuso Sdraiata con Supporto | diff: beginner | spot: false
+- Reclining Bound Angle Pose with Straps (Supta Baddha Konasana) | Posizione dell'Angolo Chiuso Sdraiata con Cinghia | diff: beginner | spot: false
+

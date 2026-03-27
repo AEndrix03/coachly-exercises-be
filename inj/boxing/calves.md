@@ -156,3 +156,24 @@
 - Single-Leg Calf Raise | Sollevamento Polpaccio Monogamba | diff: intermediate
 - Weighted Calf Raise | Sollevamento Polpaccio con Peso | diff: intermediate
 - Explosive Calf Raise (Bounce) | Sollevamento Polpaccio Esplosivo | diff: intermediate
+
+---
+
+## Split Stance Bounce Drill
+- **IT**: Drill di Rimbalzo in Guardia
+- **Difficulty**: beginner
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Gastrocnemius - Medial Head, Gastrocnemius - Lateral Head, Soleus
+- **Secondary Muscles**: Tibialis Anterior, Fibularis Longus, Gluteus Medius
+- **Equipment**: None (Bodyweight)
+- **Tags**: boxing, footwork, rhythm, calves
+
+**Variants:**
+- Fast Split Stance Bounce Drill | Drill di Rimbalzo Veloce in Guardia | diff: intermediate | spot: false
+- Split Stance Bounce Drill with Jab | Drill di Rimbalzo in Guardia con Jab | diff: intermediate | spot: false
+

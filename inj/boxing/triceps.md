@@ -110,3 +110,64 @@
 - Bench Dip | Dip su Panca | diff: beginner
 - Weighted Dip | Dip con Peso | diff: advanced
 - Ring Dip | Dip agli Anelli | diff: advanced
+
+---
+
+## Band Straight Punch Lockout
+- **IT**: Lockout del Pugno Diretto con Banda
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: push
+- **Unilateral**: true
+- **Bodyweight**: false
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Triceps Brachii - Lateral Head, Triceps Brachii - Medial Head
+- **Secondary Muscles**: Deltoid - Anterior, Serratus Anterior, Triceps Brachii - Long Head
+- **Equipment**: Resistance Band
+- **Tags**: boxing, lockout, speed, accessory
+
+**Variants:**
+- Alternating Band Straight Punch Lockout | Lockout Alternato del Pugno Diretto con Banda | diff: beginner | spot: false
+- Tempo Band Straight Punch Lockout | Lockout del Pugno Diretto con Banda a Tempo | diff: intermediate | spot: false
+
+---
+
+## Plyometric Push-Up to Punch-Out
+- **IT**: Push-Up Pliometrico con Punch-Out
+- **Difficulty**: advanced
+- **Mechanics**: compound
+- **Force**: push
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Triceps Brachii - Long Head, Triceps Brachii - Lateral Head, Pectoralis Major - Mid Sternal Head
+- **Secondary Muscles**: Deltoid - Anterior, Serratus Anterior, External Oblique
+- **Equipment**: None (Bodyweight)
+- **Tags**: boxing, explosive, push, transfer
+
+**Variants:**
+- Knee Plyometric Push-Up to Punch-Out | Push-Up Pliometrico in Ginocchio con Punch-Out | diff: intermediate | spot: false
+- Alternating Punch-Out Plyometric Push-Up | Push-Up Pliometrico con Punch-Out Alternato | diff: advanced | spot: false
+
+---
+
+## Medicine Ball Chest Pass from Stance
+- **IT**: Chest Pass con Palla Medica dalla Guardia
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: push
+- **Unilateral**: false
+- **Bodyweight**: false
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Triceps Brachii - Lateral Head, Triceps Brachii - Medial Head, Pectoralis Major - Mid Sternal Head
+- **Secondary Muscles**: Deltoid - Anterior, Serratus Anterior, External Oblique
+- **Equipment**: Medicine Ball
+- **Tags**: boxing, power, extension, stance
+
+**Variants:**
+- Rotational Medicine Ball Chest Pass from Stance | Chest Pass Rotazionale con Palla Medica dalla Guardia | diff: intermediate | spot: false
+- Step-In Medicine Ball Chest Pass from Stance | Chest Pass con Passo Avanti dalla Guardia | diff: intermediate | spot: false
+

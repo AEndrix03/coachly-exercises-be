@@ -130,3 +130,44 @@
 - Clinch Knee Strike | Ginocchiata in Clinch | diff: intermediate
 - Flying Knee | Ginocchiata Volante | diff: advanced
 - Knee Strike with Resistance | Ginocchiata con Resistenza | diff: intermediate
+
+---
+
+## Jumping Knee Strike
+- **IT**: Ginocchiata in Salto
+- **Difficulty**: advanced
+- **Mechanics**: compound
+- **Force**: dynamic
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Rectus Femoris, Vastus Lateralis, Vastus Medialis
+- **Secondary Muscles**: Gluteus Maximus, Iliacus, Gastrocnemius - Medial Head
+- **Equipment**: Heavy Bag
+- **Tags**: martial_arts, knee-strike, power, explosive
+
+**Variants:**
+- Rear-Knee Jumping Knee Strike | Ginocchiata in Salto con Ginocchio Posteriore | diff: advanced | spot: false
+- Step-In Jumping Knee Strike | Ginocchiata in Salto con Passo di Entrata | diff: advanced | spot: false
+
+---
+
+## Split Stance Shot Recovery
+- **IT**: Recupero dallo Shot in Split Stance
+- **Difficulty**: intermediate
+- **Mechanics**: compound
+- **Force**: push
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Rectus Femoris, Vastus Lateralis, Vastus Intermedius
+- **Secondary Muscles**: Gluteus Maximus, Erector Spinae, Soleus
+- **Equipment**: None (Bodyweight)
+- **Tags**: martial_arts, takedown, recovery, quads
+
+**Variants:**
+- Fast Split Stance Shot Recovery | Recupero Rapido dallo Shot in Split Stance | diff: intermediate | spot: false
+- Banded Split Stance Shot Recovery | Recupero dallo Shot in Split Stance con Banda | diff: advanced | spot: false
+
