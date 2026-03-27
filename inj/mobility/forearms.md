@@ -13,8 +13,8 @@
 
 ---
 
-## Wrist CARs (Controlled Articular Rotations)
-- **IT**: Rotazioni Articolari Controllate del Polso
+## Wrist CARs
+- **IT**: CARs del Polso
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -22,19 +22,17 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Flexor Carpi Radialis, Extensor Carpi Radialis Longus, Flexor Carpi Ulnaris
-- **Secondary Muscles**: Extensor Carpi Ulnaris, Pronator Teres, Supinator
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, forearms, wrists, cars, dynamic, beginner, recovery
-- **Duration**: 3-5 reps per direction per wrist
+- **Tags**: mobility, forearms, control, structured
 
 **Variants:**
-- Wrist CARs with Fist | CARs Polso con Pugno | diff: beginner
+- Supported Wrist CARs | Supported Wrist CARs | diff: beginner | spot: false
+- Loaded Wrist CARs | Loaded Wrist CARs | diff: advanced | spot: false
 
----
-
-## Wrist Circles
-- **IT**: Cerchi di Polso
+## Palm Pulses
+- **IT**: Palm Pulses
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -42,19 +40,17 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Flexor Carpi Radialis, Extensor Carpi Radialis Longus, Flexor Carpi Ulnaris
-- **Secondary Muscles**: Pronator Teres, Supinator, Brachioradialis
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, forearms, wrists, dynamic, beginner, warm_up, recovery
-- **Duration**: 10-15 circles per direction
+- **Tags**: mobility, forearms, control, structured
 
 **Variants:**
-- Interlaced Wrist Circles | Cerchi Polso con Mani Intrecciate | diff: beginner
+- Supported Palm Pulses | Supported Palm Pulses | diff: beginner | spot: false
+- Loaded Palm Pulses | Loaded Palm Pulses | diff: advanced | spot: false
 
----
-
-## Wrist Flexion and Extension Mobility
-- **IT**: Mobilità Flessione ed Estensione del Polso
+## Fingertip Rock
+- **IT**: Fingertip Rock
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -62,19 +58,53 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Flexor Carpi Radialis, Extensor Carpi Radialis Longus, Flexor Carpi Ulnaris, Extensor Carpi Ulnaris
-- **Secondary Muscles**: Flexor Digitorum Superficialis, Extensor Digitorum
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, forearms, wrists, dynamic, beginner, warm_up, recovery
-- **Duration**: 10-15 reps each direction
+- **Tags**: mobility, forearms, control, structured
 
 **Variants:**
-- Wrist Flexion/Extension on Floor | Flessione/Estensione Polso sul Pavimento | diff: beginner
+- Supported Fingertip Rock | Supported Fingertip Rock | diff: beginner | spot: false
+- Loaded Fingertip Rock | Loaded Fingertip Rock | diff: advanced | spot: false
 
----
+## Wrist Extension Lift-Off
+- **IT**: Wrist Estensione Sollevamento-Off
+- **Difficulty**: advanced
+- **Mechanics**: isolation
+- **Force**: push
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, forearms, control, structured
 
-## Prayer and Reverse Prayer Mobilization
-- **IT**: Mobilizzazione Preghiera e Preghiera Inversa
+**Variants:**
+- Supported Wrist Extension Lift-Off | Supported Wrist Estensione Sollevamento-Off | diff: beginner | spot: false
+- Loaded Wrist Extension Lift-Off | Loaded Wrist Estensione Sollevamento-Off | diff: advanced | spot: false
+
+## Wrist Flexion Rockback
+- **IT**: Wrist Flessione Rockback
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: pull
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, forearms, control, structured
+
+**Variants:**
+- Supported Wrist Flexion Rockback | Supported Wrist Flessione Rockback | diff: beginner | spot: false
+- Loaded Wrist Flexion Rockback | Loaded Wrist Flessione Rockback | diff: advanced | spot: false
+
+## Supination-Pronation Flow
+- **IT**: Supination-Pronation Flow
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -82,19 +112,35 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Flexor Carpi Radialis, Extensor Carpi Radialis Longus, Pronator Teres
-- **Secondary Muscles**: Flexor Digitorum Superficialis, Extensor Digitorum, Supinator
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, forearms, wrists, dynamic, beginner, recovery
-- **Duration**: 10-15 reps alternating
+- **Tags**: mobility, forearms, control, structured
 
 **Variants:**
-- Prayer Hold Static | Preghiera Statica | diff: beginner
+- Supported Supination-Pronation Flow | Supported Supination-Pronation Flow | diff: beginner | spot: false
+- Loaded Supination-Pronation Flow | Loaded Supination-Pronation Flow | diff: advanced | spot: false
 
----
+## Radial-Ulnar Deviation Drill
+- **IT**: Radial-Ulnar Deviation Drill
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, forearms, control, structured
 
-## Forearm Rotation Mobility (Pronation/Supination)
-- **IT**: Mobilità Rotazione Avambraccio (Pronazione/Supinazione)
+**Variants:**
+- Supported Radial-Ulnar Deviation Drill | Supported Radial-Ulnar Deviation Drill | diff: beginner | spot: false
+- Loaded Radial-Ulnar Deviation Drill | Loaded Radial-Ulnar Deviation Drill | diff: advanced | spot: false
+
+## Hanging Wrist Decompression
+- **IT**: Hanging Wrist Decompression
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -102,12 +148,11 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Pronator Teres, Supinator
-- **Secondary Muscles**: Brachioradialis, Extensor Carpi Radialis Longus
+- **Primary Muscles**: Brachioradialis, Flexor Carpi Radialis, Flexor Carpi Ulnaris, Extensor Carpi Radialis Longus, Extensor Carpi Radialis Brevis, Extensor Carpi Ulnaris, Pronator Teres, Supinator, Flexor Digitorum Superficialis, Extensor Digitorum
+- **Secondary Muscles**: Finger Flexors, Finger Extensors, Biceps Brachii
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, forearms, dynamic, beginner, warm_up, recovery
-- **Duration**: 10-15 reps per side
+- **Tags**: mobility, forearms, control, structured
 
 **Variants:**
-- Forearm Rotation with Dowel | Rotazione Avambraccio con Bastone | diff: beginner
-- Forearm Rotation with Dumbbell | Rotazione Avambraccio con Manubrio | diff: intermediate
+- Supported Hanging Wrist Decompression | Supported Hanging Wrist Decompression | diff: beginner | spot: false
+- Loaded Hanging Wrist Decompression | Loaded Hanging Wrist Decompression | diff: advanced | spot: false

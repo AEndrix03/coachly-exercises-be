@@ -11,89 +11,8 @@
 
 ---
 
-## Neck CARs (Controlled Articular Rotations)
-- **IT**: Rotazioni Articolari Controllate del Collo
-- **Difficulty**: intermediate
-- **Mechanics**: isolation
-- **Force**: dynamic
-- **Unilateral**: false
-- **Bodyweight**: true
-- **Risk**: low
-- **Spotter**: false
-- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis
-- **Secondary Muscles**: Trapezius - Upper, Levator Scapulae, Scalene Anterior
-- **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, cars, dynamic, intermediate, recovery
-- **Duration**: 3-5 reps per direction, slow and controlled
-
-**Variants:**
-- Neck CARs Seated | CARs Collo Seduto | diff: beginner
-
----
-
-## Chin Tucks
-- **IT**: Retrazione del Mento
-- **Difficulty**: beginner
-- **Mechanics**: isolation
-- **Force**: dynamic
-- **Unilateral**: false
-- **Bodyweight**: true
-- **Risk**: low
-- **Spotter**: false
-- **Primary Muscles**: Deep Cervical Flexors, Longus Colli
-- **Secondary Muscles**: Sternocleidomastoid, Splenius Capitis, Trapezius - Upper
-- **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, posture, dynamic, beginner, recovery, rehabilitation
-- **Duration**: 10-15 reps, hold 3-5 sec each
-
-**Variants:**
-- Chin Tucks Supine | Retrazione Mento Supino | diff: beginner
-- Chin Tucks with Resistance Band | Retrazione con Elastico | diff: intermediate
-
----
-
-## Cervical Retraction
-- **IT**: Retrazione Cervicale
-- **Difficulty**: beginner
-- **Mechanics**: isolation
-- **Force**: dynamic
-- **Unilateral**: false
-- **Bodyweight**: true
-- **Risk**: low
-- **Spotter**: false
-- **Primary Muscles**: Deep Cervical Flexors, Longus Colli, Longus Capitis
-- **Secondary Muscles**: Sternocleidomastoid, Trapezius - Upper
-- **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, posture, dynamic, beginner, recovery, rehabilitation
-- **Duration**: 10-15 reps
-
-**Variants:**
-- Cervical Retraction with Extension | Retrazione Cervicale con Estensione | diff: intermediate
-
----
-
-## Neck Semi-Circle Mobility
-- **IT**: Semi-Cerchio Mobilità del Collo
-- **Difficulty**: beginner
-- **Mechanics**: isolation
-- **Force**: dynamic
-- **Unilateral**: false
-- **Bodyweight**: true
-- **Risk**: low
-- **Spotter**: false
-- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Trapezius - Upper
-- **Secondary Muscles**: Levator Scapulae, Scalene Anterior, Splenius Cervicis
-- **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, dynamic, beginner, warm_up, recovery
-- **Duration**: 5-10 slow reps each direction
-
-**Variants:**
-- Neck Semi-Circle Forward Only | Semi-Cerchio Anteriore | diff: beginner
-
----
-
-## Levator Scapulae Mobilization
-- **IT**: Mobilizzazione del Muscolo Elevatore della Scapola
+## Neck CARs
+- **IT**: CARs del Collo
 - **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
@@ -101,31 +20,137 @@
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Levator Scapulae
-- **Secondary Muscles**: Trapezius - Upper, Splenius Cervicis
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, shoulders, dynamic, beginner, recovery
-- **Duration**: 10-15 gentle mobilizations per side
+- **Tags**: mobility, neck, control, structured
 
 **Variants:**
-- Levator Scapulae Stretch with Arm Behind | Elevatore Scapola con Braccio Dietro | diff: beginner
+- Supported Neck CARs | Supported Neck CARs | diff: beginner | spot: false
+- Loaded Neck CARs | Loaded Neck CARs | diff: advanced | spot: false
 
----
+## Chin Tuck with Lift
+- **IT**: Chin Tuck with Sollevamento
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: push
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
 
-## Neck CARS with Shoulders Depressed
-- **IT**: CARs del Collo con Spalle Abbassate
-- **Difficulty**: intermediate
+**Variants:**
+- Supported Chin Tuck with Lift | Supported Chin Tuck with Sollevamento | diff: beginner | spot: false
+- Loaded Chin Tuck with Lift | Loaded Chin Tuck with Sollevamento | diff: advanced | spot: false
+
+## Controlled Neck Flexion
+- **IT**: Controlled Neck Flessione
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: dynamic
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
+
+**Variants:**
+- Supported Controlled Neck Flexion | Supported Controlled Neck Flessione | diff: beginner | spot: false
+- Loaded Controlled Neck Flexion | Loaded Controlled Neck Flessione | diff: advanced | spot: false
+
+## Cervical Rotation Lift-Off
+- **IT**: Cervical Rotazione Sollevamento-Off
+- **Difficulty**: advanced
+- **Mechanics**: isolation
+- **Force**: push
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: medium
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
+
+**Variants:**
+- Supported Cervical Rotation Lift-Off | Supported Cervical Rotazione Sollevamento-Off | diff: beginner | spot: false
+- Loaded Cervical Rotation Lift-Off | Loaded Cervical Rotazione Sollevamento-Off | diff: advanced | spot: false
+
+## Lateral Neck Glide
+- **IT**: Lateral Neck Glide
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: dynamic
+- **Unilateral**: true
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
+
+**Variants:**
+- Supported Lateral Neck Glide | Supported Lateral Neck Glide | diff: beginner | spot: false
+- Loaded Lateral Neck Glide | Loaded Lateral Neck Glide | diff: advanced | spot: false
+
+## Suboccipital Nods
+- **IT**: Suboccipital Nods
+- **Difficulty**: beginner
 - **Mechanics**: isolation
 - **Force**: dynamic
 - **Unilateral**: false
 - **Bodyweight**: true
 - **Risk**: low
 - **Spotter**: false
-- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Scalene Anterior
-- **Secondary Muscles**: Trapezius - Upper, Levator Scapulae
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
 - **Equipment**: None (Bodyweight)
-- **Tags**: mobility, neck, cars, dynamic, intermediate, recovery
-- **Duration**: 3-5 reps per direction
+- **Tags**: mobility, neck, control, structured
 
 **Variants:**
-- Neck CARs Seated with Hands on Lap | CARs Collo Seduto Mani in Grembo | diff: beginner
+- Supported Suboccipital Nods | Supported Suboccipital Nods | diff: beginner | spot: false
+- Loaded Suboccipital Nods | Loaded Suboccipital Nods | diff: advanced | spot: false
+
+## Levator Scap Glide
+- **IT**: Levator Scap Glide
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: dynamic
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
+
+**Variants:**
+- Supported Levator Scap Glide | Supported Levator Scap Glide | diff: beginner | spot: false
+- Loaded Levator Scap Glide | Loaded Levator Scap Glide | diff: advanced | spot: false
+
+## Scalenes Opener with Reach
+- **IT**: Scalenes Apertura with Reach
+- **Difficulty**: beginner
+- **Mechanics**: isolation
+- **Force**: static
+- **Unilateral**: false
+- **Bodyweight**: true
+- **Risk**: low
+- **Spotter**: false
+- **Primary Muscles**: Sternocleidomastoid, Splenius Capitis, Splenius Cervicis, Trapezius - Upper, Levator Scapulae, Scalene Anterior, Scalene Middle, Scalene Posterior
+- **Secondary Muscles**: Upper Trapezius, Levator Scapulae, Deep Cervical Flexors
+- **Equipment**: None (Bodyweight)
+- **Tags**: mobility, neck, control, structured
+
+**Variants:**
+- Supported Scalenes Opener with Reach | Supported Scalenes Apertura with Reach | diff: beginner | spot: false
+- Loaded Scalenes Opener with Reach | Loaded Scalenes Apertura with Reach | diff: advanced | spot: false
