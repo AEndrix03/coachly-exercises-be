@@ -11,7 +11,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Safety Bar Squat','intermediate','compound','push',false,false,'medium',true,NULL,'public','active',
+    VALUES (v_ex_id,'Safety Bar Squat','intermediate','compound','push',false,false,'medium',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Squat con Safety Bar','description','Esecuzione tecnica di Squat con Safety Bar: setup stabile e core in tenuta, controlla l''eccentrica senza compensi. Usa un ROM utile e chiudi ogni ripetizione con contrazione attiva.'),
             'en',jsonb_build_object('name','Safety Bar Squat','description','Technical execution of Safety Bar Squat: stable setup and core braced, control the eccentric without compensations. Use a useful range and finish each rep with active contraction.')

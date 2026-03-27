@@ -1,4 +1,4 @@
-﻿-- =============================================================
+-- =============================================================
 -- Exercise: Band Pull-Apart
 -- Disciplines: home_workout
 -- =============================================================
@@ -34,16 +34,16 @@ BEGIN
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Overhead Band Pull-Apart') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Overhead Band Pull-Apart','intermediate','isolation','pull',false,false,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Overhead Band Pull-Apart','intermediate','compound','static',false,false,'medium',false,NULL,'public','active',
             jsonb_build_object('it',jsonb_build_object('name','Apertura con Elastico sopra la Testa','description','Variante di Band Pull-Apart che modifica leva o tempo per lavorare lo stesso schema. Mantieni un setup solido e muoviti in controllo senza perdere posizione.'),
                                'en',jsonb_build_object('name','Overhead Band Pull-Apart','description','Variation of Band Pull-Apart that changes leverage or tempo to target the same pattern. Keep the same tight setup and move under control without losing position.')),NOW(),NOW());
         SELECT id INTO v_id FROM exercises.muscle WHERE code='rhomboid_major'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',75,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.category WHERE code='home_workout'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='resistance_band'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Overhead Band Pull-Apart';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 END $$;
 

@@ -45,7 +45,7 @@ BEGIN
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Smith Machine Incline Press') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Smith Machine Incline Press','beginner','compound','push',false,false,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Smith Machine Incline Press','beginner','compound','static',false,false,'medium',false,NULL,'public','active',
             jsonb_build_object('it',jsonb_build_object('name','Panca Inclinata al Multipower','description','Versione inclinata della panca al multipower. Colpisce la porzione clavicolare del pettorale con la sicurezza della guida meccanica; ideale per chi non ha spotter disponibile ma vuole allenare il petto alto con carichi elevati.'),'en',jsonb_build_object('name','Smith Machine Incline Press','description','Inclined version of the Smith machine bench press. Targets the clavicular pectoral with the safety of mechanical guidance; ideal for those without a spotter who want to train the upper chest with heavy loads.')),NOW(),NOW());
         SELECT id INTO v_id FROM exercises.muscle WHERE code='pec_major_upper'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',68,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.muscle WHERE code='deltoid_anterior'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',40,NOW()) ON CONFLICT DO NOTHING; END IF;
@@ -54,17 +54,17 @@ BEGIN
         SELECT id INTO v_id FROM exercises.equipment WHERE code='smith_machine'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='incline_bench'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,false,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_push','upper_body','bilateral','hypertrophy','machine_tag','gym_required') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Smith Machine Incline Press';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
     -- Smith Machine Decline Press
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Smith Machine Decline Press') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Smith Machine Decline Press','beginner','compound','push',false,false,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Smith Machine Decline Press','beginner','compound','static',false,false,'medium',false,NULL,'public','active',
             jsonb_build_object('it',jsonb_build_object('name','Panca Declinata al Multipower','description','Panca declinata al multipower per la porzione inferiore del pettorale. La guida meccanica compensa la posizione scomoda della panca declinata, rendendo l''esercizio accessibile anche senza assistente.'),'en',jsonb_build_object('name','Smith Machine Decline Press','description','Decline Smith machine press targeting the lower pectoral. The mechanical guidance compensates for the awkward declined position, making the exercise accessible without an assistant.')),NOW(),NOW());
         SELECT id INTO v_id FROM exercises.muscle WHERE code='pec_major_lower'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',68,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.muscle WHERE code='pec_major_mid'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',38,NOW()) ON CONFLICT DO NOTHING; END IF;
@@ -73,17 +73,17 @@ BEGIN
         SELECT id INTO v_id FROM exercises.equipment WHERE code='smith_machine'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='decline_bench'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,false,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_push','upper_body','bilateral','hypertrophy','machine_tag','gym_required') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Smith Machine Decline Press';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
     -- Smith Machine Close Grip Press
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Smith Machine Close Grip Press') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Smith Machine Close Grip Press','beginner','compound','push',false,false,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Smith Machine Close Grip Press','beginner','compound','static',false,false,'medium',false,NULL,'public','active',
             jsonb_build_object('it',jsonb_build_object('name','Panca Presa Stretta al Multipower','description','Versione a presa stretta della panca al multipower, ideale per allenare i tricipiti in sicurezza senza spotter. Ottimo per principianti che desiderano sviluppare i tricipiti con carichi progressivi in piena sicurezza.'),'en',jsonb_build_object('name','Smith Machine Close Grip Press','description','Close grip bench press variation in the Smith machine, ideal for training triceps safely without a spotter. Great for beginners who want to develop triceps with progressive loads in complete safety.')),NOW(),NOW());
         SELECT id INTO v_id FROM exercises.muscle WHERE code='triceps_long_head'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',60,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.muscle WHERE code='triceps_lateral_head'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',55,NOW()) ON CONFLICT DO NOTHING; END IF;
@@ -92,10 +92,10 @@ BEGIN
         SELECT id INTO v_id FROM exercises.equipment WHERE code='smith_machine'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='flat_bench'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,false,1,NOW()) ON CONFLICT DO NOTHING; END IF;
         FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_push','upper_body','bilateral','hypertrophy','machine_tag','gym_required') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Smith Machine Close Grip Press';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
 END $$;

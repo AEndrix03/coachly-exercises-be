@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -35,11 +36,12 @@ def _load_driver():
 
 @dataclass(frozen=True)
 class DbConfig:
-    host: str
+    url: str | None
+    host: str | None
     port: int
     dbname: str
-    user: str
-    password: str
+    user: str | None
+    password: str | None
     schema: str
 
 
@@ -47,11 +49,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Execute all SQL seed files in sql/exercises."
     )
-    parser.add_argument("--host", required=True, help="PostgreSQL host")
+    parser.add_argument("--url", help="PostgreSQL connection URL")
+    parser.add_argument("--host", help="PostgreSQL host")
     parser.add_argument("--port", type=int, default=5432, help="PostgreSQL port")
-    parser.add_argument("--dbname", required=True, help="Database name")
-    parser.add_argument("--user", required=True, help="Database user")
-    parser.add_argument("--password", required=True, help="Database password")
+    parser.add_argument("--dbname", help="Database name")
+    parser.add_argument("--user", help="Database user")
+    parser.add_argument("--password", help="Database password")
     parser.add_argument("--schema", required=True, help="Target schema name")
     parser.add_argument(
         "--sql-dir",
@@ -82,6 +85,8 @@ def iter_sql_files(sql_dir: Path) -> list[Path]:
 
 
 def open_connection(driver_name: str, driver, config: DbConfig):
+    if config.url:
+        return driver.connect(config.url)
     if driver_name == "psycopg":
         return driver.connect(
             host=config.host,
@@ -109,7 +114,7 @@ def set_schema(conn, schema: str) -> None:
 
 
 def execute_file(conn, sql_file: Path) -> None:
-    sql_text = sql_file.read_text(encoding="utf-8")
+    sql_text = sql_file.read_text(encoding="utf-8-sig")
     with conn.cursor() as cur:
         cur.execute(sql_text)
 
@@ -125,14 +130,25 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
+    env_url = os.getenv("COACHLY_DB_URL")
+    env_user = os.getenv("COACHLY_DB_USERNAME")
+    env_password = os.getenv("COACHLY_DB_PASSWORD")
+
     config = DbConfig(
+        url=args.url or env_url,
         host=args.host,
         port=args.port,
-        dbname=args.dbname,
-        user=args.user,
-        password=args.password,
+        dbname=args.dbname or "",
+        user=args.user or env_user or "",
+        password=args.password or env_password or "",
         schema=args.schema,
     )
+
+    if not config.url and not (config.host and config.dbname and config.user and config.password):
+        raise SystemExit(
+            "Provide either --url or --host/--dbname/--user/--password. "
+            "Environment fallback is COACHLY_DB_URL, COACHLY_DB_USERNAME, COACHLY_DB_PASSWORD."
+        )
 
     driver_name, driver = _load_driver()
     sql_files = iter_sql_files(args.sql_dir)

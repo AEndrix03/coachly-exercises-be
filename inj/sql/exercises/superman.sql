@@ -1,4 +1,4 @@
-﻿-- =============================================================
+-- =============================================================
 -- Exercise: Superman
 -- Disciplines: home_workout
 -- =============================================================
@@ -38,7 +38,7 @@ BEGIN
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Single-Arm Superman') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Single-Arm Superman','beginner','isolation','pull',true,true,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Single-Arm Superman','beginner','compound','static',true,true,'medium',false,NULL,'public','active',
             jsonb_build_object(
                 'it',jsonb_build_object('name','Superman con un Braccio','description','Esegui il Superman sollevando una sola braccia alla volta per aumentare il controllo anti-rotazione del tronco. Mantieni bacino e gabbia toracica stabili, alternando i lati.'),
                 'en',jsonb_build_object('name','Single-Arm Superman','description','Perform the Superman by lifting one arm at a time to increase anti-rotation control. Keep the pelvis and ribcage stable and alternate sides.')
@@ -46,17 +46,17 @@ BEGIN
         SELECT id INTO v_id FROM exercises.muscle WHERE code='erector_spinae'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.category WHERE code='home_workout'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='none_bodyweight'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Single-Arm Superman';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
     -- Variant: Alternating Superman
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Alternating Superman') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Alternating Superman','beginner','isolation','pull',false,true,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Alternating Superman','beginner','compound','static',false,true,'medium',false,NULL,'public','active',
             jsonb_build_object(
                 'it',jsonb_build_object('name','Superman Alternato','description','Alterna il sollevamento di braccio e gamba opposti per rinforzare la catena posteriore e la stabilita del tronco. Mantieni movimenti lenti e controllati senza compensi.'),
                 'en',jsonb_build_object('name','Alternating Superman','description','Alternate lifting opposite arm and leg to strengthen the posterior chain and trunk stability. Keep the movement slow and controlled with no compensations.')
@@ -64,17 +64,17 @@ BEGIN
         SELECT id INTO v_id FROM exercises.muscle WHERE code='erector_spinae'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.category WHERE code='home_workout'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='none_bodyweight'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Alternating Superman';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
     -- Variant: Superman Hold
     IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Superman Hold') THEN
         v_var_id := gen_random_uuid();
         INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-        VALUES(v_var_id,'Superman Hold','intermediate','isolation','static',false,true,'low',false,NULL,'public','active',
+        VALUES (v_var_id,'Superman Hold','intermediate','compound','static',false,true,'medium',false,NULL,'public','active',
             jsonb_build_object(
                 'it',jsonb_build_object('name','Superman Isometrico','description','Solleva braccia e gambe e mantieni la posizione per tempo, respirando senza perdere l''assetto. Interrompi prima che la lombare compensi con eccessiva estensione.'),
                 'en',jsonb_build_object('name','Superman Hold','description','Lift arms and legs and hold for time while breathing without losing position. Stop before the low back compensates with excessive extension.')
@@ -82,10 +82,10 @@ BEGIN
         SELECT id INTO v_id FROM exercises.muscle WHERE code='erector_spinae'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',75,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.category WHERE code='home_workout'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='none_bodyweight'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Superman Hold';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,1,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
 END ;

@@ -11,7 +11,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Sumo Deadlift','intermediate','compound','pull',false,false,'medium',false,NULL,'public','active',
+    VALUES (v_ex_id,'Sumo Deadlift','advanced','compound','pull',false,false,'high',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Stacco Sumo','description','Stance larga con punte aperte e mani interne, crea tensione su dorsali e core. Spingi il pavimento via mantenendo il bilanciere vicino e chiudi con estensione d''anca senza iperestendere.'),
             'en',jsonb_build_object('name','Sumo Deadlift','description','Wide stance with toes out and hands inside, build tension through lats and core. Push the floor away keeping the bar close and finish with hip extension without overextending.')

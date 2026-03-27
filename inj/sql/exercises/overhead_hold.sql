@@ -14,7 +14,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Overhead Hold','intermediate','compound','static',false,false,'medium',false,NULL,'public','active',
+    VALUES (v_ex_id,'Overhead Hold','beginner','compound','static',false,false,'low',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Overhead Tenuta','description','Tenuta isometrica con il bilanciere o manubri sopra la testa a braccia tese: sviluppa la stabilita della spalla, del core e la resistenza dei muscoli rotatori. Fondamentale per il weightlifting (jerk e snatch lockout) e come rinforzo preventivo per la cuffia dei rotatori.'),
             'en',jsonb_build_object('name','Overhead Hold','description','Isometric hold with barbell or dumbbells overhead with arms extended: develops shoulder stability, core endurance, and rotator cuff muscle resistance. Fundamental for weightlifting (jerk and snatch lockout) and as preventive rotator cuff strengthening.')),
@@ -45,10 +45,10 @@ BEGIN
         SELECT id INTO v_id FROM exercises.muscle WHERE code='deltoid_anterior'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',55,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.category WHERE code='olympic_weightlifting'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,false,NOW()) ON CONFLICT DO NOTHING; END IF;
         SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,2,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,2,NOW()) ON CONFLICT DO NOTHING;
     ELSE
         SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Single-Arm Overhead Hold';
-        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,2,NOW()) ON CONFLICT DO NOTHING;
+        INSERT INTO exercises.exercise_variation (base_exercise_id, variant_exercise_id, difficulty_delta, created_at) VALUES(v_ex_id,v_var_id,2,NOW()) ON CONFLICT DO NOTHING;
     END IF;
 
 END $$;

@@ -11,7 +11,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Terminal Knee Extension','beginner','isolation','push',true,false,'low',false,NULL,'public','active',
+    VALUES (v_ex_id,'Terminal Knee Extension','beginner','isolation','dynamic',false,true,'low',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Estensione Terminale del Ginocchio','description','Esecuzione tecnica di Estensione Terminale del Ginocchio: setup stabile e core in tenuta, controlla l''eccentrica senza compensi. Usa un ROM utile e chiudi ogni ripetizione con contrazione attiva.'),
             'en',jsonb_build_object('name','Terminal Knee Extension','description','Technical execution of Terminal Knee Extension: stable setup and core braced, control the eccentric without compensations. Use a useful range and finish each rep with active contraction.')

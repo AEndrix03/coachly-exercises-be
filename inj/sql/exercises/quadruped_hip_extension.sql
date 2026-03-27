@@ -1,4 +1,4 @@
-﻿-- =============================================================
+-- =============================================================
 -- Exercise: Quadruped Hip Extension
 -- Disciplines: home_workout
 -- =============================================================
@@ -11,7 +11,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Quadruped Hip Extension','beginner','isolation','push',true,true,'low',false,NULL,'public','active',
+    VALUES (v_ex_id,'Quadruped Hip Extension','beginner','compound','dynamic',false,true,'low',false,NULL,'public','active',
         jsonb_build_object('it',jsonb_build_object('name','Estensione dell''Anca in Quadrupedia','description','Imposta una posizione stabile e metti in brace il core prima di iniziare. Muoviti in un ROM controllato, mantieni l''allineamento articolare e chiudi ogni ripetizione con tensione totale.'),
                            'en',jsonb_build_object('name','Quadruped Hip Extension','description','Set up in a stable position and brace the core before starting the movement. Move through a controlled range of motion, keep joint alignment clean, and finish each rep with full-body tension.')),NOW(),NOW());
 

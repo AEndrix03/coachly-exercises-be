@@ -11,7 +11,7 @@ BEGIN
     v_ex_id := gen_random_uuid();
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'JM Press','advanced','compound','push',false,false,'medium',true,NULL,'public','active',
+    VALUES (v_ex_id,'JM Press','advanced','compound','push',false,false,'medium',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','JM Press','description','Ibrido tra skull crusher e close grip bench press, ideato da JM Blakley. Partire con il bilanciere sopra il petto come in panca, abbassare i gomiti verso il lato mentre il bilanciere scende verso il collo/mento (non il petto), poi estendere esplosivamente. Massimizza il lavoro dei tricipiti con un profilo di carico unico. Richiede tecnica precisa per evitare infortuni.'),
             'en',jsonb_build_object('name','JM Press','description','Hybrid between skull crusher and close grip bench press, invented by JM Blakley. Start with the barbell above the chest as in bench, flare elbows outward as the bar descends toward the neck/chin (not chest), then extend explosively. Maximizes triceps work with a unique loading profile. Requires precise technique to avoid injury.')),
