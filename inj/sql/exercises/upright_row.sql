@@ -1,0 +1,103 @@
+﻿-- =============================================================
+-- Exercise: Upright Row
+-- Disciplines: crossfit
+-- =============================================================
+DO 
+DECLARE
+    v_ex_id  UUID;
+    v_var_id UUID;
+    v_id     UUID;
+BEGIN
+    IF EXISTS (SELECT 1 FROM exercises.exercise WHERE name = 'Upright Row') THEN
+        RAISE NOTICE 'Already exists: Upright Row'; RETURN;
+    END IF;
+    v_ex_id := gen_random_uuid();
+
+    INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+    VALUES (
+        v_ex_id, 'Upright Row', 'intermediate', 'compound', 'dynamic',
+        false, false, 'medium', false, NULL, 'public', 'active',
+        jsonb_build_object(
+            'it', jsonb_build_object('name','Upright Row','description','Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),
+            'en', jsonb_build_object('name','Upright Row','description','Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')
+        ),
+        NOW(), NOW()
+    );
+
+    -- MUSCLES
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'primary',75,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- CATEGORIES
+    SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_ex_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- EQUIPMENT
+
+    -- TAGS
+    FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_pull','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_ex_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+
+    -- VARIANTS
+    -- Dumbbell Upright Row
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Dumbbell Upright Row') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Dumbbell Upright Row','beginner','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Remata con Manubri','description','Variante di Upright Row. Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),'en',jsonb_build_object('name','Dumbbell Upright Row','description','Variation of Upright Row. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_pull','bilateral','dumbbell_tag','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Dumbbell Upright Row';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Cable Upright Row
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Cable Upright Row') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Cable Upright Row','beginner','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Remata al Cavo','description','Variante di Upright Row. Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),'en',jsonb_build_object('name','Cable Upright Row','description','Variation of Upright Row. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_pull','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Cable Upright Row';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Kettlebell Upright Row
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Kettlebell Upright Row') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Kettlebell Upright Row','beginner','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Remata con Kettlebell','description','Variante di Upright Row. Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),'en',jsonb_build_object('name','Kettlebell Upright Row','description','Variation of Upright Row. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='kettlebell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_pull','bilateral','kettlebell_tag','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Kettlebell Upright Row';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Wide-Grip Upright Row
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Wide-Grip Upright Row') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Wide-Grip Upright Row','intermediate','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Remata Presa Larga','description','Variante di Upright Row. Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),'en',jsonb_build_object('name','Wide-Grip Upright Row','description','Variation of Upright Row. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','horizontal_pull','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Wide-Grip Upright Row';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+END ;
+
+

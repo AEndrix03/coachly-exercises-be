@@ -1,0 +1,120 @@
+﻿-- =============================================================
+-- Exercise: Wrist Curl
+-- =============================================================
+DO $$
+DECLARE v_ex_id UUID; v_var_id UUID; v_id UUID;
+BEGIN
+    IF EXISTS (SELECT 1 FROM exercises.exercise WHERE name = 'Wrist Curl') THEN
+        SELECT id INTO v_ex_id FROM exercises.exercise WHERE name = 'Wrist Curl';
+        SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL AND v_ex_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_ex_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        RAISE NOTICE 'Already exists, category updated: Wrist Curl'; RETURN;
+    END IF;
+    v_ex_id := gen_random_uuid();
+
+    INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
+        overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+    VALUES (v_ex_id,'Wrist Curl','beginner','isolation','pull',
+        false,false,'low',false,NULL,'public','active',
+        jsonb_build_object(
+            'it',jsonb_build_object('name','Curl del Polso','description','Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
+            'en',jsonb_build_object('name','Wrist Curl','description','Forearm work: support the forearm on a bench or thigh and move only the wrist (or rotation) under control. Use light loads and moderate volume to respect the tendons.')
+        ), NOW(), NOW());
+
+    -- MUSCLES
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_radialis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'primary',80,NOW()) ON CONFLICT DO NOTHING; END IF;
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_ulnaris'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'primary',75,NOW()) ON CONFLICT DO NOTHING; END IF;
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_digitorum_superfic'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'secondary',55,NOW()) ON CONFLICT DO NOTHING; END IF;
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='pronator_teres'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'secondary',50,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- CATEGORIES
+    SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_ex_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- EQUIPMENT
+    SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_ex_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- TAGS
+    FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('isolation','bilateral','upper_body','hypertrophy','strength','gym_required','dumbbell_tag','beginner_safe')
+    LOOP INSERT INTO exercises.exercise_tag VALUES(v_ex_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Dumbbell Wrist Curl') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
+            overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Dumbbell Wrist Curl','beginner','isolation','pull',false,false,'low',false,
+            NULL,'public','active',jsonb_build_object('it',jsonb_build_object('name','Curl del Polso con Manubrio','description','Variante di Curl del Polso - Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
+                                 'en',jsonb_build_object('name','Dumbbell Wrist Curl','description','Variation of Wrist Curl - Forearm work: support the forearm on a bench or thigh and move only the wrist (or rotation) under control. Use light loads and moderate volume to respect the tendons.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_radialis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_ulnaris'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_digitorum_superfic'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='pronator_teres'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('isolation','bilateral','upper_body','hypertrophy','strength','gym_required','dumbbell_tag','beginner_safe') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Dumbbell Wrist Curl';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Cable Wrist Curl') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
+            overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Cable Wrist Curl','beginner','isolation','pull',false,false,'low',false,
+            NULL,'public','active',jsonb_build_object('it',jsonb_build_object('name','Curl del Polso ai Cavi','description','Variante di Curl del Polso - Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
+                                 'en',jsonb_build_object('name','Cable Wrist Curl','description','Variation of Wrist Curl - Forearm work: support the forearm on a bench or thigh and move only the wrist (or rotation) under control. Use light loads and moderate volume to respect the tendons.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_radialis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_ulnaris'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_digitorum_superfic'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='pronator_teres'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('isolation','bilateral','upper_body','hypertrophy','strength','gym_required','dumbbell_tag','beginner_safe') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Cable Wrist Curl';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Single Arm Wrist Curl') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
+            overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Single Arm Wrist Curl','beginner','isolation','pull',true,false,'low',false,
+            NULL,'public','active',jsonb_build_object('it',jsonb_build_object('name','Curl del Polso Monobraccia','description','Variante di Curl del Polso - Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
+                                 'en',jsonb_build_object('name','Single Arm Wrist Curl','description','Variation of Wrist Curl - Forearm work: support the forearm on a bench or thigh and move only the wrist (or rotation) under control. Use light loads and moderate volume to respect the tendons.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_radialis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_ulnaris'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_digitorum_superfic'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='pronator_teres'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('isolation','bilateral','upper_body','hypertrophy','strength','gym_required','dumbbell_tag','beginner_safe') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Single Arm Wrist Curl';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Behind the Back Wrist Curl') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
+            overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Behind the Back Wrist Curl','beginner','isolation','pull',false,false,'low',false,
+            NULL,'public','active',jsonb_build_object('it',jsonb_build_object('name','Curl del Polso Dietro la Schiena','description','Variante di Curl del Polso - Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
+                                 'en',jsonb_build_object('name','Behind the Back Wrist Curl','description','Variation of Wrist Curl - Forearm work: support the forearm on a bench or thigh and move only the wrist (or rotation) under control. Use light loads and moderate volume to respect the tendons.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_radialis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_carpi_ulnaris'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='flexor_digitorum_superfic'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='pronator_teres'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'secondary',45,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='bodybuilding'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.equipment WHERE code='dumbbell'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_equipment VALUES(v_var_id,v_id,true,true,1,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('isolation','bilateral','upper_body','hypertrophy','strength','gym_required','dumbbell_tag','beginner_safe') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Behind the Back Wrist Curl';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+END $$;
+

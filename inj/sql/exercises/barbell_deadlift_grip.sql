@@ -1,0 +1,101 @@
+﻿-- =============================================================
+-- Exercise: Barbell Deadlift (Grip)
+-- Disciplines: crossfit
+-- =============================================================
+DO 
+DECLARE
+    v_ex_id  UUID;
+    v_var_id UUID;
+    v_id     UUID;
+BEGIN
+    IF EXISTS (SELECT 1 FROM exercises.exercise WHERE name = 'Barbell Deadlift (Grip)') THEN
+        RAISE NOTICE 'Already exists: Barbell Deadlift (Grip)'; RETURN;
+    END IF;
+    v_ex_id := gen_random_uuid();
+
+    INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+    VALUES (
+        v_ex_id, 'Barbell Deadlift (Grip)', 'intermediate', 'compound', 'dynamic',
+        false, false, 'medium', false, NULL, 'public', 'active',
+        jsonb_build_object(
+            'it', jsonb_build_object('name','Barbell Deadlift (Grip)','description','Bilanciere sopra meta piede, bracing e poi spingi il pavimento tenendo il bilanciere vicino alle gambe. Chiudi in estensione senza iperestendere e scendi controllato.'),
+            'en', jsonb_build_object('name','Barbell Deadlift (Grip)','description','Set the bar over midfoot, brace, and push the floor away while keeping the bar close to the body. Stand tall to lock out without overextending the lower back, then lower under control.')
+        ),
+        NOW(), NOW()
+    );
+
+    -- MUSCLES
+    SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_ex_id,v_id,'primary',75,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- CATEGORIES
+    SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_ex_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+
+    -- EQUIPMENT
+
+    -- TAGS
+    FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','hip_hinge','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_ex_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+
+    -- VARIANTS
+    -- Overhand Grip Deadlift
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Overhand Grip Deadlift') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Overhand Grip Deadlift','intermediate','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Stacco con Presa Prona','description','Variante di Barbell Deadlift (Grip). Bilanciere sopra meta piede, bracing e poi spingi il pavimento tenendo il bilanciere vicino alle gambe. Chiudi in estensione senza iperestendere e scendi controllato.'),'en',jsonb_build_object('name','Overhand Grip Deadlift','description','Variation of Barbell Deadlift (Grip). Set the bar over midfoot, brace, and push the floor away while keeping the bar close to the body. Stand tall to lock out without overextending the lower back, then lower under control.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','hip_hinge','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Overhand Grip Deadlift';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Mixed Grip Deadlift
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Mixed Grip Deadlift') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Mixed Grip Deadlift','intermediate','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Stacco con Presa Mista','description','Variante di Barbell Deadlift (Grip). Bilanciere sopra meta piede, bracing e poi spingi il pavimento tenendo il bilanciere vicino alle gambe. Chiudi in estensione senza iperestendere e scendi controllato.'),'en',jsonb_build_object('name','Mixed Grip Deadlift','description','Variation of Barbell Deadlift (Grip). Set the bar over midfoot, brace, and push the floor away while keeping the bar close to the body. Stand tall to lock out without overextending the lower back, then lower under control.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','hip_hinge','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Mixed Grip Deadlift';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Hook Grip Deadlift
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Hook Grip Deadlift') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Hook Grip Deadlift','advanced','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Stacco con Hook Grip','description','Variante di Barbell Deadlift (Grip). Bilanciere sopra meta piede, bracing e poi spingi il pavimento tenendo il bilanciere vicino alle gambe. Chiudi in estensione senza iperestendere e scendi controllato.'),'en',jsonb_build_object('name','Hook Grip Deadlift','description','Variation of Barbell Deadlift (Grip). Set the bar over midfoot, brace, and push the floor away while keeping the bar close to the body. Stand tall to lock out without overextending the lower back, then lower under control.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','hip_hinge','bilateral','advanced_only','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Hook Grip Deadlift';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+    -- Double Overhand
+    IF NOT EXISTS (SELECT 1 FROM exercises.exercise WHERE name='Double Overhand') THEN
+        v_var_id := gen_random_uuid();
+        INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
+        VALUES(v_var_id,'Double Overhand','intermediate','compound','dynamic',false,false,'medium',false,NULL,'public','active',
+            jsonb_build_object('it',jsonb_build_object('name','Presa Doppia Prona','description','Variante di Barbell Deadlift (Grip). Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.'),'en',jsonb_build_object('name','Double Overhand','description','Variation of Barbell Deadlift (Grip). Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.')),NOW(),NOW());
+        SELECT id INTO v_id FROM exercises.muscle WHERE code='rectus_abdominis'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_muscle VALUES(v_var_id,v_id,'primary',70,NOW()) ON CONFLICT DO NOTHING; END IF;
+        SELECT id INTO v_id FROM exercises.category WHERE code='crossfit'; IF v_id IS NOT NULL THEN INSERT INTO exercises.exercise_category VALUES(v_var_id,v_id,true,NOW()) ON CONFLICT DO NOTHING; END IF;
+        FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','bilateral','crossfit_movement') LOOP INSERT INTO exercises.exercise_tag VALUES(v_var_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    ELSE
+        SELECT id INTO v_var_id FROM exercises.exercise WHERE name='Double Overhand';
+        INSERT INTO exercises.exercise_variation VALUES(v_ex_id,v_var_id,0,NOW()) ON CONFLICT DO NOTHING;
+    END IF;
+
+END ;
+
+
