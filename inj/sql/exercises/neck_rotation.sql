@@ -13,7 +13,7 @@ BEGIN
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
         overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Neck Rotation (Manual Resistance)','beginner','isolation','dynamic',
+    VALUES (v_ex_id,'Neck Rotation (Manual Resistance)','beginner','isolation','static',
         true,false,'low',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Rotazione del Collo (Resistenza Manuale)','description','Allenamento collo: ripetizioni lente e controllate mantenendo mento rientrato e colonna neutra. Aumenta il carico gradualmente e interrompi se compare dolore acuto.'),

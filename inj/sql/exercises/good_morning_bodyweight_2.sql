@@ -2,7 +2,7 @@
 -- Exercise: Good Morning (Bodyweight)
 -- Disciplines: home_workout
 -- =============================================================
-DO 
+DO $$
 DECLARE v_ex_id UUID; v_var_id UUID; v_id UUID;
 BEGIN
     IF EXISTS (SELECT 1 FROM exercises.exercise WHERE name = 'Good Morning (Bodyweight)') THEN
@@ -34,4 +34,4 @@ BEGIN
     FOR v_id IN SELECT id FROM exercises.tag WHERE code IN('compound','hip_hinge','bilateral','lower_body','no_equipment','home_friendly','beginner_safe')
     LOOP INSERT INTO exercises.exercise_tag VALUES(v_ex_id,v_id,NOW()) ON CONFLICT DO NOTHING; END LOOP;
 
-END ;
+END $$;

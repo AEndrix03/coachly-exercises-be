@@ -13,7 +13,7 @@ BEGIN
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
         overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Bear Crawl','intermediate','compound','dynamic',
+    VALUES (v_ex_id,'Bear Crawl','intermediate','compound','static',
         false,true,'low',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Camminata dell''Orso','description','Esercizio: imposta una posizione stabile e lavora con ripetizioni controllate, curando ROM e tensione. Mantieni respirazione e postura per ridurre compensi.'),

@@ -13,7 +13,7 @@ BEGIN
 
     INSERT INTO exercises.exercise (id,name,difficulty,mechanics,force,unilateral,bodyweight,
         overall_risk,spotter_required,owner_user_id,visibility,status,translations,created_at,updated_at)
-    VALUES (v_ex_id,'Pronation / Supination','beginner','isolation','dynamic',
+    VALUES (v_ex_id,'Pronation / Supination','beginner','isolation','static',
         true,false,'low',false,NULL,'public','active',
         jsonb_build_object(
             'it',jsonb_build_object('name','Pronazione / Supinazione','description','Lavoro avambracci: stabilizza l''avambraccio su panca o coscia e muovi solo il polso (o la rotazione) in controllo. Carichi leggeri e volume moderato per rispettare i tendini.'),
