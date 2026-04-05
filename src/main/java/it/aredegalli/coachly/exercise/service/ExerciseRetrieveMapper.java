@@ -35,6 +35,8 @@ public class ExerciseRetrieveMapper {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseSummaryDto.builder()
             .id(exercise.getId())
+            .createdBy(exercise.getEffectiveCreatedByUserId())
+            .personal(exercise.getEffectiveCreatedByUserId() != null)
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips"))
@@ -58,6 +60,8 @@ public class ExerciseRetrieveMapper {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseDetailDto.builder()
             .id(exercise.getId())
+            .createdBy(exercise.getEffectiveCreatedByUserId())
+            .personal(exercise.getEffectiveCreatedByUserId() != null)
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips"))

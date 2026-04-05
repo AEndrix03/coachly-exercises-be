@@ -1,5 +1,8 @@
 package it.aredegalli.coachly.exercise.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import it.aredegalli.coachly.exercise.dto.command.ExerciseUpsertRequestDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseDetailDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseFilterDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseSummaryDto;
@@ -7,6 +10,8 @@ import it.aredegalli.coachly.exercise.enums.DifficultyLevel;
 import it.aredegalli.coachly.exercise.enums.ForceType;
 import it.aredegalli.coachly.exercise.enums.MechanicsType;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
+import it.aredegalli.coachly.exercise.enums.RiskLevel;
+import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Exercise;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
@@ -32,6 +37,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.HashMap;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
@@ -48,6 +54,7 @@ public class ExerciseService {
     private final ExerciseTagRepository exerciseTagRepository;
     private final ExerciseVariationRepository exerciseVariationRepository;
     private final ExerciseRetrieveMapper exerciseRetrieveMapper;
+    private final ObjectMapper objectMapper;
 
     public ExerciseService(
         ExerciseRepository exerciseRepository,
@@ -57,7 +64,8 @@ public class ExerciseService {
         ExerciseMuscleRepository exerciseMuscleRepository,
         ExerciseTagRepository exerciseTagRepository,
         ExerciseVariationRepository exerciseVariationRepository,
-        ExerciseRetrieveMapper exerciseRetrieveMapper
+        ExerciseRetrieveMapper exerciseRetrieveMapper,
+        ObjectMapper objectMapper
     ) {
         this.exerciseRepository = exerciseRepository;
         this.exerciseCategoryRepository = exerciseCategoryRepository;
@@ -67,20 +75,22 @@ public class ExerciseService {
         this.exerciseTagRepository = exerciseTagRepository;
         this.exerciseVariationRepository = exerciseVariationRepository;
         this.exerciseRetrieveMapper = exerciseRetrieveMapper;
+        this.objectMapper = objectMapper;
     }
 
     @Transactional(readOnly = true)
     public List<ExerciseSummaryDto> getExercises() {
-        return exerciseRepository.findAllByOrderByNameAsc().stream()
+        return exerciseRepository.findAllByStatusAndOwnerUserIdIsNullAndCreatedByUserIdIsNullOrderByNameAsc(RecordStatus.ACTIVE).stream()
             .filter(this::isActive)
             .map(exerciseRetrieveMapper::toSummary)
             .toList();
     }
 
     @Transactional(readOnly = true)
-    public ExerciseDetailDto getExerciseDetails(UUID exerciseId) {
+    public ExerciseDetailDto getExerciseDetails(UUID userId, UUID exerciseId) {
         Exercise exercise = exerciseRepository.findById(exerciseId)
             .filter(this::isActive)
+            .filter(ex -> canAccessExercise(userId, ex))
             .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
         return buildDetailDtos(List.of(exercise)).stream()
             .findFirst()
@@ -88,14 +98,15 @@ public class ExerciseService {
     }
 
     @Transactional(readOnly = true)
-    public List<ExerciseSummaryDto> getFilteredExercises(ExerciseFilterDto filter) {
+    public List<ExerciseSummaryDto> getFilteredExercises(UUID userId, ExerciseFilterDto filter) {
+        ExerciseScope scope = ExerciseScope.parse(filter.getScope());
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
         List<UUID> categoryIds = parseUuidTokens(categoryTokens);
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
-        List<Exercise> exercises = exerciseRepository.findAllByOrderByNameAsc().stream()
+        List<Exercise> exercises = findByScope(userId, scope).stream()
             .filter(this::isActive)
             .filter(exercise -> matchesDifficulty(exercise, filter.getDifficultyLevel()))
             .filter(exercise -> matchesMechanics(exercise, filter.getMechanicsType()))
@@ -123,6 +134,51 @@ public class ExerciseService {
             .filter(exercise -> exerciseRetrieveMapper.matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleTextTokens))
             .map(exerciseRetrieveMapper::toSummary)
             .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public List<ExerciseSummaryDto> getMyExercises(UUID userId) {
+        return exerciseRepository.findPersonalExercises(RecordStatus.ACTIVE, userId).stream()
+            .map(exerciseRetrieveMapper::toSummary)
+            .toList();
+    }
+
+    @Transactional
+    public ExerciseDetailDto createPersonalExercise(UUID userId, ExerciseUpsertRequestDto request) {
+        Exercise exercise = new Exercise();
+        applyUpsert(exercise, request);
+        exercise.setOwnerUserId(userId);
+        exercise.setCreatedByUserId(userId);
+        exercise.setVisibility(Visibility.PRIVATE);
+        exercise.setStatus(RecordStatus.ACTIVE);
+        exercise.setCreatedAt(java.time.OffsetDateTime.now());
+        exercise.setUpdatedAt(java.time.OffsetDateTime.now());
+        Exercise saved = exerciseRepository.save(exercise);
+        return getExerciseDetails(userId, saved.getId());
+    }
+
+    @Transactional
+    public ExerciseDetailDto updatePersonalExercise(UUID userId, UUID exerciseId, ExerciseUpsertRequestDto request) {
+        Exercise exercise = exerciseRepository.findById(exerciseId)
+            .filter(this::isActive)
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
+        ensureOwner(userId, exercise);
+        applyUpsert(exercise, request);
+        exercise.setUpdatedAt(java.time.OffsetDateTime.now());
+        Exercise saved = exerciseRepository.save(exercise);
+        return getExerciseDetails(userId, saved.getId());
+    }
+
+    @Transactional
+    public void deletePersonalExercise(UUID userId, UUID exerciseId) {
+        Exercise exercise = exerciseRepository.findById(exerciseId)
+            .filter(this::isActive)
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
+        ensureOwner(userId, exercise);
+        exercise.setStatus(RecordStatus.ARCHIVED);
+        exercise.setDeletedAt(java.time.OffsetDateTime.now());
+        exercise.setUpdatedAt(java.time.OffsetDateTime.now());
+        exerciseRepository.save(exercise);
     }
 
     private List<ExerciseDetailDto> buildDetailDtos(List<Exercise> exercises) {
@@ -179,6 +235,80 @@ public class ExerciseService {
 
     private boolean isActive(Exercise exercise) {
         return exercise.getStatus() == RecordStatus.ACTIVE;
+    }
+
+    private List<Exercise> findByScope(UUID userId, ExerciseScope scope) {
+        return switch (scope) {
+            case DEFAULT -> exerciseRepository.findAllByStatusAndOwnerUserIdIsNullAndCreatedByUserIdIsNullOrderByNameAsc(RecordStatus.ACTIVE);
+            case MINE -> {
+                if (userId == null) {
+                    throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
+                }
+                yield exerciseRepository.findPersonalExercises(RecordStatus.ACTIVE, userId);
+            }
+            case COMMUNITY -> {
+                if (userId == null) {
+                    throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
+                }
+                yield exerciseRepository.findCommunityExercises(RecordStatus.ACTIVE, userId);
+            }
+        };
+    }
+
+    private boolean canAccessExercise(UUID userId, Exercise exercise) {
+        UUID owner = exercise.getEffectiveCreatedByUserId();
+        return owner == null || (userId != null && owner.equals(userId));
+    }
+
+    private void ensureOwner(UUID userId, Exercise exercise) {
+        UUID owner = exercise.getEffectiveCreatedByUserId();
+        if (userId == null || owner == null || !owner.equals(userId)) {
+            throw new ResponseStatusException(HttpStatus.FORBIDDEN, "Exercise is not editable by current user");
+        }
+    }
+
+    private void applyUpsert(Exercise exercise, ExerciseUpsertRequestDto request) {
+        Map<String, String> nameI18n = normalizeI18n(request.getNameI18n());
+        if (nameI18n.isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "nameI18n is required");
+        }
+
+        exercise.setName(nameI18n.values().stream().findFirst().orElseThrow());
+        exercise.setDifficulty(Optional.ofNullable(parseEnum(DifficultyLevel.class, request.getDifficultyLevel())).orElse(DifficultyLevel.BEGINNER));
+        exercise.setMechanics(Optional.ofNullable(parseEnum(MechanicsType.class, request.getMechanicsType())).orElse(MechanicsType.COMPOUND));
+        exercise.setForce(parseEnum(ForceType.class, request.getForceType()));
+        exercise.setUnilateral(Boolean.TRUE.equals(request.getIsUnilateral()));
+        exercise.setBodyweight(Boolean.TRUE.equals(request.getIsBodyweight()));
+        exercise.setSpotterRequired(Boolean.TRUE.equals(request.getSpotterRequired()));
+        exercise.setOverallRisk(Optional.ofNullable(parseEnum(RiskLevel.class, request.getOverallRiskLevel())).orElse(RiskLevel.LOW));
+
+        Map<String, Object> translations = new HashMap<>();
+        translations.put("nameI18n", nameI18n);
+        translations.put("descriptionI18n", normalizeI18n(request.getDescriptionI18n()));
+        translations.put("tipsI18n", normalizeI18n(request.getTipsI18n()));
+        exercise.setTranslations(serializeJson(translations));
+    }
+
+    private Map<String, String> normalizeI18n(Map<String, String> input) {
+        if (input == null || input.isEmpty()) {
+            return Map.of();
+        }
+        return input.entrySet().stream()
+            .filter(e -> e.getKey() != null && !e.getKey().isBlank() && e.getValue() != null && !e.getValue().isBlank())
+            .collect(Collectors.toMap(
+                e -> e.getKey().trim().toLowerCase(Locale.ROOT),
+                e -> e.getValue().trim(),
+                (a, b) -> b,
+                LinkedHashMap::new
+            ));
+    }
+
+    private String serializeJson(Map<String, Object> input) {
+        try {
+            return objectMapper.writeValueAsString(input);
+        } catch (JsonProcessingException ex) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to serialize exercise translations");
+        }
     }
 
     private boolean matchesDifficulty(Exercise exercise, String difficultyLevel) {

@@ -62,6 +62,9 @@ public class Exercise {
     @Column(name = "owner_user_id")
     private UUID ownerUserId;
 
+    @Column(name = "created_by")
+    private UUID createdByUserId;
+
     @Convert(converter = VisibilityConverter.class)
     @Column(name = "visibility", nullable = false, columnDefinition = "exercises.visibility")
     private Visibility visibility;
@@ -160,6 +163,18 @@ public class Exercise {
 
     public void setOwnerUserId(UUID ownerUserId) {
         this.ownerUserId = ownerUserId;
+    }
+
+    public UUID getCreatedByUserId() {
+        return createdByUserId;
+    }
+
+    public void setCreatedByUserId(UUID createdByUserId) {
+        this.createdByUserId = createdByUserId;
+    }
+
+    public UUID getEffectiveCreatedByUserId() {
+        return createdByUserId != null ? createdByUserId : ownerUserId;
     }
 
     public Visibility getVisibility() {
