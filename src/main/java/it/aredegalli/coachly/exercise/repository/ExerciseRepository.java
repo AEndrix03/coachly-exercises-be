@@ -1,7 +1,6 @@
 package it.aredegalli.coachly.exercise.repository;
 
 import it.aredegalli.coachly.exercise.model.Exercise;
-import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -12,23 +11,31 @@ import org.springframework.data.repository.query.Param;
 public interface ExerciseRepository extends JpaRepository<Exercise, UUID>, JpaSpecificationExecutor<Exercise> {
     List<Exercise> findAllByOrderByNameAsc();
 
-    List<Exercise> findAllByStatusAndOwnerUserIdIsNullAndCreatedByUserIdIsNullOrderByNameAsc(RecordStatus status);
-
-    @Query("""
-        select e
-        from Exercise e
-        where e.status = :status
-          and (e.createdByUserId = :userId or e.ownerUserId = :userId)
+    @Query(value = """
+        select e.*
+        from exercises.exercise e
+        where cast(e.status as text) = :status
+          and e.owner_user_id is null
+          and e.created_by is null
         order by e.name asc
-        """)
-    List<Exercise> findPersonalExercises(@Param("status") RecordStatus status, @Param("userId") UUID userId);
+        """, nativeQuery = true)
+    List<Exercise> findDefaultExercises(@Param("status") String status);
 
-    @Query("""
-        select e
-        from Exercise e
-        where e.status = :status
-          and (e.ownerUserId is null and e.createdByUserId is null or e.createdByUserId = :userId or e.ownerUserId = :userId)
+    @Query(value = """
+        select e.*
+        from exercises.exercise e
+        where cast(e.status as text) = :status
+          and (e.created_by = :userId or e.owner_user_id = :userId)
         order by e.name asc
-        """)
-    List<Exercise> findCommunityExercises(@Param("status") RecordStatus status, @Param("userId") UUID userId);
+        """, nativeQuery = true)
+    List<Exercise> findPersonalExercises(@Param("status") String status, @Param("userId") UUID userId);
+
+    @Query(value = """
+        select e.*
+        from exercises.exercise e
+        where cast(e.status as text) = :status
+          and (e.owner_user_id is null and e.created_by is null or e.created_by = :userId or e.owner_user_id = :userId)
+        order by e.name asc
+        """, nativeQuery = true)
+    List<Exercise> findCommunityExercises(@Param("status") String status, @Param("userId") UUID userId);
 }

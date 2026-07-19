@@ -46,6 +46,8 @@ import java.util.stream.Collectors;
 @Service
 public class ExerciseService {
 
+    private static final String ACTIVE_STATUS = RecordStatus.ACTIVE.name().toLowerCase(Locale.ROOT);
+
     private final ExerciseRepository exerciseRepository;
     private final ExerciseCategoryRepository exerciseCategoryRepository;
     private final ExerciseEquipmentRepository exerciseEquipmentRepository;
@@ -78,7 +80,7 @@ public class ExerciseService {
 
     @Transactional(readOnly = true)
     public List<ExerciseSummaryDto> getExercises() {
-        return exerciseRepository.findAllByStatusAndOwnerUserIdIsNullAndCreatedByUserIdIsNullOrderByNameAsc(RecordStatus.ACTIVE).stream()
+        return exerciseRepository.findDefaultExercises(ACTIVE_STATUS).stream()
             .filter(this::isActive)
             .map(exerciseRetrieveMapper::toSummary)
             .toList();
@@ -151,7 +153,7 @@ public class ExerciseService {
 
     @Transactional(readOnly = true)
     public List<ExerciseSummaryDto> getMyExercises(UUID userId) {
-        return exerciseRepository.findPersonalExercises(RecordStatus.ACTIVE, userId).stream()
+        return exerciseRepository.findPersonalExercises(ACTIVE_STATUS, userId).stream()
             .map(exerciseRetrieveMapper::toSummary)
             .toList();
     }
@@ -252,18 +254,18 @@ public class ExerciseService {
 
     private List<Exercise> findByScope(UUID userId, ExerciseScope scope) {
         return switch (scope) {
-            case DEFAULT -> exerciseRepository.findAllByStatusAndOwnerUserIdIsNullAndCreatedByUserIdIsNullOrderByNameAsc(RecordStatus.ACTIVE);
+            case DEFAULT -> exerciseRepository.findDefaultExercises(ACTIVE_STATUS);
             case MINE -> {
                 if (userId == null) {
                     throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
                 }
-                yield exerciseRepository.findPersonalExercises(RecordStatus.ACTIVE, userId);
+                yield exerciseRepository.findPersonalExercises(ACTIVE_STATUS, userId);
             }
             case COMMUNITY -> {
                 if (userId == null) {
                     throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
                 }
-                yield exerciseRepository.findCommunityExercises(RecordStatus.ACTIVE, userId);
+                yield exerciseRepository.findCommunityExercises(ACTIVE_STATUS, userId);
             }
         };
     }
