@@ -64,7 +64,6 @@ public class ExerciseController {
         @RequestParam(required = false) String muscleIds
     ) {
         ExerciseFilterDto filter = ExerciseFilterDto.builder()
-            .scope(scope)
             .textFilter(textFilter)
             .langFilter(langFilter)
             .difficultyLevel(difficultyLevel)
@@ -75,7 +74,7 @@ public class ExerciseController {
             .categoryIds(splitCsv(categoryIds))
             .muscleIds(splitCsv(muscleIds))
             .build();
-        return exerciseService.getFilteredExercises(currentUserIdNullable(), filter);
+        return exerciseService.getFilteredExercises(currentUserIdNullable(), scope, filter);
     }
 
     @PostMapping

@@ -54,7 +54,7 @@ public class ExerciseService {
     private final ExerciseTagRepository exerciseTagRepository;
     private final ExerciseVariationRepository exerciseVariationRepository;
     private final ExerciseRetrieveMapper exerciseRetrieveMapper;
-    private final ObjectMapper objectMapper;
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     public ExerciseService(
         ExerciseRepository exerciseRepository,
@@ -64,8 +64,7 @@ public class ExerciseService {
         ExerciseMuscleRepository exerciseMuscleRepository,
         ExerciseTagRepository exerciseTagRepository,
         ExerciseVariationRepository exerciseVariationRepository,
-        ExerciseRetrieveMapper exerciseRetrieveMapper,
-        ObjectMapper objectMapper
+        ExerciseRetrieveMapper exerciseRetrieveMapper
     ) {
         this.exerciseRepository = exerciseRepository;
         this.exerciseCategoryRepository = exerciseCategoryRepository;
@@ -75,7 +74,6 @@ public class ExerciseService {
         this.exerciseTagRepository = exerciseTagRepository;
         this.exerciseVariationRepository = exerciseVariationRepository;
         this.exerciseRetrieveMapper = exerciseRetrieveMapper;
-        this.objectMapper = objectMapper;
     }
 
     @Transactional(readOnly = true)
@@ -98,8 +96,8 @@ public class ExerciseService {
     }
 
     @Transactional(readOnly = true)
-    public List<ExerciseSummaryDto> getFilteredExercises(UUID userId, ExerciseFilterDto filter) {
-        ExerciseScope scope = ExerciseScope.parse(filter.getScope());
+    public List<ExerciseSummaryDto> getFilteredExercises(UUID userId, String rawScope, ExerciseFilterDto filter) {
+        ExerciseScope scope = ExerciseScope.parse(rawScope);
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
         List<UUID> categoryIds = parseUuidTokens(categoryTokens);
