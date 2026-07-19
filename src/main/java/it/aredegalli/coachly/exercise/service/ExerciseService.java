@@ -128,9 +128,24 @@ public class ExerciseService {
         return exercises.stream()
             .filter(exercise -> matchesCategories(categoriesByExercise.getOrDefault(exercise.getId(), List.of()), categoryIds))
             .filter(exercise -> matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleIds))
-            .filter(exercise -> exerciseRetrieveMapper.matchesText(exercise, filter.getTextFilter(), filter.getLangFilter()))
-            .filter(exercise -> exerciseRetrieveMapper.matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleTextTokens))
-            .map(exerciseRetrieveMapper::toSummary)
+            .map(exercise -> Map.entry(
+                exercise,
+                exerciseRetrieveMapper.searchScore(
+                    exercise,
+                    musclesByExercise.getOrDefault(exercise.getId(), List.of()),
+                    filter.getTextFilter(),
+                    filter.getLangFilter()
+                )
+            ))
+            .filter(entry -> filter.getTextFilter() == null || filter.getTextFilter().isBlank() || entry.getValue() > 0)
+            .filter(entry -> muscleTextTokens.isEmpty() || exerciseRetrieveMapper.matchesMuscles(
+                musclesByExercise.getOrDefault(entry.getKey().getId(), List.of()), muscleTextTokens
+            ))
+            .sorted(
+                Map.Entry.<Exercise, Integer>comparingByValue().reversed()
+                    .thenComparing(entry -> entry.getKey().getName(), String.CASE_INSENSITIVE_ORDER)
+            )
+            .map(entry -> exerciseRetrieveMapper.toSummary(entry.getKey()))
             .toList();
     }
 

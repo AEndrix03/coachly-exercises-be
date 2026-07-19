@@ -23,6 +23,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.text.Normalizer;
 
 @Component
 public class ExerciseRetrieveMapper {
@@ -77,16 +78,44 @@ public class ExerciseRetrieveMapper {
     }
 
     public boolean matchesText(Exercise exercise, String rawTextFilter, String rawLangFilter) {
-        if (rawTextFilter == null || rawTextFilter.isBlank()) {
-            return true;
+        return rawTextFilter == null || rawTextFilter.isBlank()
+            || searchScore(exercise, List.of(), rawTextFilter, rawLangFilter) > 0;
+    }
+
+    /**
+     * Scores lexical matches across every translated name, description, tip and
+     * muscle name. Name matches deliberately dominate; prefix and close-word
+     * matches keep searches useful for partial terms and minor typos.
+     */
+    public int searchScore(
+        Exercise exercise,
+        List<ExerciseMuscle> muscles,
+        String rawQuery,
+        String rawLangFilter
+    ) {
+        if (rawQuery == null || rawQuery.isBlank()) {
+            return 0;
         }
 
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
-        String textFilter = normalize(rawTextFilter);
-        List<String> languageCandidates = languageCandidates(rawLangFilter);
-        return matchesI18n(translations.fieldMap("nameI18n", "name"), languageCandidates, textFilter)
-            || matchesI18n(translations.fieldMap("descriptionI18n", "description"), languageCandidates, textFilter)
-            || matchesI18n(translations.fieldMap("tipsI18n", "tips"), languageCandidates, textFilter);
+        String query = normalize(rawQuery);
+        List<String> languages = languageCandidates(rawLangFilter);
+        int score = scoreI18n(translations.fieldMap("nameI18n", "name"), languages, query, 1000, 180);
+        score += scoreI18n(translations.fieldMap("descriptionI18n", "description"), languages, query, 260, 45);
+        score += scoreI18n(translations.fieldMap("tipsI18n", "tips"), languages, query, 120, 25);
+
+        for (ExerciseMuscle relation : muscles) {
+            if (relation.getMuscle() == null) {
+                continue;
+            }
+            Muscle muscle = relation.getMuscle();
+            TranslationEnvelope muscleTranslations = parseTranslations(muscle.getTranslations());
+            score += scoreI18n(
+                muscleTranslations.fieldMap("nameI18n", "name"), languages, query, 320, 70
+            );
+            score += lexicalScore(muscle.getCode(), query, 180, 40);
+        }
+        return score;
     }
 
     public boolean matchesMuscles(List<ExerciseMuscle> muscles, List<String> rawMuscleTokens) {
@@ -223,6 +252,77 @@ public class ExerciseRetrieveMapper {
         return containsAnyNormalized(values.values(), textFilter);
     }
 
+    private int scoreI18n(
+        Map<String, String> values,
+        List<String> languageCandidates,
+        String query,
+        int phraseWeight,
+        int tokenWeight
+    ) {
+        if (values == null || values.isEmpty()) {
+            return 0;
+        }
+        int score = 0;
+        for (Map.Entry<String, String> entry : values.entrySet()) {
+            int languageBoost = languageCandidates.contains(normalize(entry.getKey())) ? 25 : 0;
+            score = Math.max(score, lexicalScore(entry.getValue(), query, phraseWeight, tokenWeight) + languageBoost);
+        }
+        return score;
+    }
+
+    private int lexicalScore(String value, String query, int phraseWeight, int tokenWeight) {
+        String candidate = normalize(value);
+        if (candidate.isEmpty() || query.isEmpty()) {
+            return 0;
+        }
+        if (candidate.equals(query)) {
+            return phraseWeight;
+        }
+        int score = candidate.startsWith(query) ? (phraseWeight * 3) / 4
+            : candidate.contains(query) ? phraseWeight / 2 : 0;
+        for (String token : query.split("[^\\p{L}\\p{N}]+")) {
+            if (token.length() < 2) {
+                continue;
+            }
+            for (String word : candidate.split("[^\\p{L}\\p{N}]+")) {
+                if (word.equals(token)) {
+                    score += tokenWeight;
+                } else if (word.startsWith(token) || token.startsWith(word)) {
+                    score += (tokenWeight * 2) / 3;
+                } else if (isSimilarWord(word, token)) {
+                    score += tokenWeight / 2;
+                }
+            }
+        }
+        return score;
+    }
+
+    private boolean isSimilarWord(String candidate, String query) {
+        if (candidate.length() < 4 || query.length() < 4) {
+            return false;
+        }
+        int maxDistance = Math.max(1, Math.min(candidate.length(), query.length()) / 4);
+        if (Math.abs(candidate.length() - query.length()) > maxDistance) {
+            return false;
+        }
+        return levenshteinDistance(candidate, query) <= maxDistance;
+    }
+
+    private int levenshteinDistance(String left, String right) {
+        int[] previous = new int[right.length() + 1];
+        for (int j = 0; j <= right.length(); j++) previous[j] = j;
+        for (int i = 1; i <= left.length(); i++) {
+            int[] current = new int[right.length() + 1];
+            current[0] = i;
+            for (int j = 1; j <= right.length(); j++) {
+                current[j] = Math.min(Math.min(current[j - 1], previous[j]), previous[j - 1]) +
+                    (left.charAt(i - 1) == right.charAt(j - 1) ? 0 : 1);
+            }
+            previous = current;
+        }
+        return previous[right.length()];
+    }
+
     private boolean containsAnyNormalized(Collection<String> values, String token) {
         return values.stream().anyMatch(value -> containsNormalized(value, token));
     }
@@ -244,7 +344,14 @@ public class ExerciseRetrieveMapper {
     }
 
     private String normalize(String value) {
-        return value == null ? "" : value.trim().toLowerCase(Locale.ROOT).replace('-', '_');
+        if (value == null) {
+            return "";
+        }
+        return Normalizer.normalize(value, Normalizer.Form.NFD)
+            .replaceAll("\\p{M}", "")
+            .trim()
+            .toLowerCase(Locale.ROOT)
+            .replace('-', '_');
     }
 
     private String enumValue(Enum<?> value) {
