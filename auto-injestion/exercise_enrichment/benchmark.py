@@ -7,7 +7,7 @@ def run(client, records, schema, sample_size=40):
     for record in sample:
         started=time.perf_counter(); valid=False; error=None
         try:
-            response=client.chat(json.dumps({"original":record,"schema":schema}),schema)
+            response=client.chat(json.dumps({"original":record,"schema":schema}, default=str),schema)
             content=response.get("message",{}).get("content",response.get("response",response)); json.loads(content) if isinstance(content,str) else content; valid=True
         except Exception as exc: error=str(exc)
         results.append({"exercise_id":str(record.get("id")),"valid":valid,"duration_ms":round((time.perf_counter()-started)*1000,2),"error":error})
