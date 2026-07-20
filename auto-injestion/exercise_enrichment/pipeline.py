@@ -59,7 +59,7 @@ def enrich(settings, records):
         pool=GeminiPool(settings.gemini_api_key,settings.gemini_models)
         pending=[r for r in records if not (out/(str(r.get("id"))+".json")).exists()]
         def handle(response, record):
-            rid=str(record.get("id")); raw=response.get("response",response); proposal=json.loads(raw) if isinstance(raw,str) else raw; validation=validate_proposal(proposal,record); target=out/(rid+".json"); target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8"); return rid,validation
+            rid=str(record.get("id")); raw=response.get("response",response); proposal=json.loads(raw) if isinstance(raw,str) else raw; validation=validate_proposal(proposal,record); target=out/(rid+".json"); target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8"); print(f"[enrich] {rid} {validation['status']}",flush=True); return rid,validation
         results=pool.process(pending,schema,handle)
         for item in results:
             if isinstance(item,tuple): db.execute("UPDATE enrichment_job SET status=?,attempts=attempts+1,completed_at=datetime('now') WHERE exercise_id=?",(item[1]["status"],item[0]))
