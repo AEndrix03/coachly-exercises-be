@@ -10,5 +10,8 @@ dev = ["pytest", "pytest-cov", "ruff", "mypy"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
+[tool.setuptools]
+packages = ["exercise_enrichment"]
+
 [tool.ruff]
 line-length = 100

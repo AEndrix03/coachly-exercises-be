@@ -4,6 +4,8 @@ Pipeline stageda per scansione del progetto Spring, snapshot/audit del dataset e
 
 Installazione: `python -m pip install -e .`
 
+La connessione viene letta da `.env` tramite `COACHLY_DB_*`; il file non va committato.
+
 Esecuzione dalla directory `auto-injestion`:
 
 ```bash

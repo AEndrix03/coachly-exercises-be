@@ -3,6 +3,7 @@ import hashlib, json, sqlite3, time
 from .spring_scan import scan_project
 from .ollama import OllamaClient
 from .validation import validate_proposal
+from .database import extract_rows
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True); path.write_text(json.dumps(value, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -14,12 +15,13 @@ def extract(settings):
     dump=root/"exercises_dump.json"
     if dump.exists():
         raw=json.loads(dump.read_text(encoding="utf-8")); records=raw if isinstance(raw,list) else raw.get("exercises", raw.get("data", []))
-    else:
-        # DB extraction is deliberately isolated; no LLM-generated SQL is ever executed.
-        records=[]
+    elif settings.database_url:
+        # DB extraction is deterministic; no LLM-generated SQL is ever executed.
+        records=extract_rows(settings.database_url, "exercise", settings.schema)
+    else: records=[]
     (out/"raw").mkdir(parents=True, exist_ok=True)
     with (out/"raw/exercises.jsonl").open("w", encoding="utf-8") as f:
-        for record in records[:settings.max_records]: f.write(json.dumps(record, ensure_ascii=False)+"\n")
+        for record in records[:settings.max_records]: f.write(json.dumps(record, ensure_ascii=False, default=str)+"\n")
     write_json(out/"metadata/domain_schema.json", {"generated_from": manifest, "record_count": len(records)})
     return manifest, records
 

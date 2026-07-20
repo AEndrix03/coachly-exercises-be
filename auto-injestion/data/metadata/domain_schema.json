@@ -7,10 +7,10 @@
     "entities": [
       {
         "name": "Category",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Category.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"category\", schema = \"exercises\")\npublic"
         ],
         "table": "category",
         "fields": [
@@ -74,10 +74,10 @@
       },
       {
         "name": "Equipment",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Equipment.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"equipment\", schema = \"exercises\")\npublic"
         ],
         "table": "equipment",
         "fields": [
@@ -141,10 +141,10 @@
       },
       {
         "name": "Exercise",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Exercise.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise",
         "fields": [
@@ -271,10 +271,10 @@
       },
       {
         "name": "ExerciseCategory",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseCategory.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_category\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_category",
         "fields": [
@@ -317,10 +317,10 @@
       },
       {
         "name": "ExerciseEquipment",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseEquipment.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_equipment\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_equipment",
         "fields": [
@@ -377,10 +377,10 @@
       },
       {
         "name": "ExerciseMedia",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMedia.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_media\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_media",
         "fields": [
@@ -465,10 +465,10 @@
       },
       {
         "name": "ExerciseMuscle",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMuscle.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_muscle\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_muscle",
         "fields": [
@@ -511,10 +511,10 @@
       },
       {
         "name": "ExerciseTag",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseTag.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_tag\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_tag",
         "fields": [
@@ -550,10 +550,10 @@
       },
       {
         "name": "ExerciseVariation",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseVariation.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"exercise_variation\", schema = \"exercises\")\npublic"
         ],
         "table": "exercise_variation",
         "fields": [
@@ -596,10 +596,10 @@
       },
       {
         "name": "Muscle",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Muscle.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"muscle\", schema = \"exercises\")\npublic"
         ],
         "table": "muscle",
         "fields": [
@@ -663,10 +663,10 @@
       },
       {
         "name": "Tag",
-        "package": "it.aredegalli.coachly.exercise.model",
+        "package": "package it.aredegalli.coachly.exercise.model;",
         "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Tag.java",
         "annotations": [
-          "@Entity"
+          "@Entity\n@Table(name = \"tag\", schema = \"exercises\")\npublic"
         ],
         "table": "tag",
         "fields": [
@@ -727,152 +727,14 @@
             "column_definition": ""
           }
         ]
-      },
-      {
-        "name": "ExerciseCategoryId",
-        "package": "it.aredegalli.coachly.exercise.model.id",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseCategoryId.java",
-        "annotations": [
-          "@Embeddable"
-        ],
-        "table": "exercisecategoryid",
-        "fields": [
-          {
-            "name": "exerciseId",
-            "java_type": "UUID",
-            "column": "exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "categoryId",
-            "java_type": "UUID",
-            "column": "category_id",
-            "nullable": false,
-            "column_definition": ""
-          }
-        ]
-      },
-      {
-        "name": "ExerciseEquipmentId",
-        "package": "it.aredegalli.coachly.exercise.model.id",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseEquipmentId.java",
-        "annotations": [
-          "@Embeddable"
-        ],
-        "table": "exerciseequipmentid",
-        "fields": [
-          {
-            "name": "exerciseId",
-            "java_type": "UUID",
-            "column": "exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "equipmentId",
-            "java_type": "UUID",
-            "column": "equipment_id",
-            "nullable": false,
-            "column_definition": ""
-          }
-        ]
-      },
-      {
-        "name": "ExerciseMuscleId",
-        "package": "it.aredegalli.coachly.exercise.model.id",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseMuscleId.java",
-        "annotations": [
-          "@Embeddable"
-        ],
-        "table": "exercisemuscleid",
-        "fields": [
-          {
-            "name": "exerciseId",
-            "java_type": "UUID",
-            "column": "exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "muscleId",
-            "java_type": "UUID",
-            "column": "muscle_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "involvement",
-            "java_type": "InvolvementLevel",
-            "column": "involvement",
-            "nullable": false,
-            "column_definition": "exercises.involvement_level"
-          }
-        ]
-      },
-      {
-        "name": "ExerciseTagId",
-        "package": "it.aredegalli.coachly.exercise.model.id",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseTagId.java",
-        "annotations": [
-          "@Embeddable"
-        ],
-        "table": "exercisetagid",
-        "fields": [
-          {
-            "name": "exerciseId",
-            "java_type": "UUID",
-            "column": "exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "tagId",
-            "java_type": "UUID",
-            "column": "tag_id",
-            "nullable": false,
-            "column_definition": ""
-          }
-        ]
-      },
-      {
-        "name": "ExerciseVariationId",
-        "package": "it.aredegalli.coachly.exercise.model.id",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseVariationId.java",
-        "annotations": [
-          "@Embeddable"
-        ],
-        "table": "exercisevariationid",
-        "fields": [
-          {
-            "name": "baseExerciseId",
-            "java_type": "UUID",
-            "column": "base_exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "variantExerciseId",
-            "java_type": "UUID",
-            "column": "variant_exercise_id",
-            "nullable": false,
-            "column_definition": ""
-          },
-          {
-            "name": "variationType",
-            "java_type": "String",
-            "column": "variation_type",
-            "nullable": false,
-            "column_definition": ""
-          }
-        ]
       }
     ],
     "enums": [
       {
         "name": "ExerciseScope",
-        "package": "it.aredegalli.coachly.exercise.service",
-        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\service\\ExerciseScope.java"
+        "package": "package it.aredegalli.coachly.exercise.service;",
+        "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\service\\ExerciseScope.java",
+        "annotations": []
       }
     ],
     "converters": [
@@ -1420,7 +1282,7 @@
       "inj\\sql\\exercises\\wrist_push_up.sql",
       "inj\\sql\\exercises\\wrist_roller.sql"
     ],
-    "entities_found": 16,
+    "entities_found": 11,
     "enums_found": 1,
     "converters_found": 9,
     "relations_found": 6,
