@@ -6,6 +6,8 @@ from .pipeline import enrich
 from .database import metadata,schema_diff
 from .global_analysis import analyze
 from .staging import create_staging,promote
+from .benchmark import run as benchmark_run
+from .verification import verify_staging
 app=typer.Typer(no_args_is_help=True)
 
 def cfg(spring_project=None,ollama_url=None,model=None): return Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model)
@@ -41,5 +43,12 @@ def promote_cmd(spring_project:Path=Path(".")):
 @app.command("report")
 def report_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result={**audit(records),"global":analyze(records)}; report(s,result); typer.echo(str(s.data_dir/"reports"))
-for name in ("verify-staging","resume","benchmark"):
-    app.command(name)(lambda name=name: typer.echo(name+" requires the corresponding external service or staged dataset."))
+@app.command("verify-staging")
+def verify_staging_cmd(spring_project:Path=Path(".")):
+    s=Settings.load(spring_project=spring_project); _,records=extract(s); result=verify_staging(s.database_url,s.staging_schema,len(records),s.data_dir/"proposals"); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/staging_verification.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["verified"] else 3)
+@app.command("resume")
+def resume_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct"):
+    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
+@app.command("benchmark")
+def benchmark_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct"):
+    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); schema={"type":"object","required":["exercise_id","proposed","overall_confidence"]}; result=benchmark_run(__import__('exercise_enrichment.ollama',fromlist=['OllamaClient']).OllamaClient(s.ollama_url,s.model),records,schema); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/benchmark.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["passed"] else 3)
