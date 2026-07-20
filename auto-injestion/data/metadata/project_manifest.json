@@ -1,0 +1,1428 @@
+{
+  "project_root": "C:\\Users\\redeg\\Documents\\Progetti\\Coachly\\services\\coachly-exercises-be",
+  "build_system": "maven",
+  "java_source_root": "C:\\Users\\redeg\\Documents\\Progetti\\Coachly\\services\\coachly-exercises-be\\src\\main\\java",
+  "resource_root": "C:\\Users\\redeg\\Documents\\Progetti\\Coachly\\services\\coachly-exercises-be\\src\\main\\resources",
+  "entities": [
+    {
+      "name": "Category",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Category.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "category",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "code",
+          "java_type": "String",
+          "column": "code",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "displayOrder",
+          "java_type": "int",
+          "column": "display_order",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "status",
+          "java_type": "RecordStatus",
+          "column": "status",
+          "nullable": false,
+          "column_definition": "exercises.record_status"
+        },
+        {
+          "name": "deletedAt",
+          "java_type": "OffsetDateTime",
+          "column": "deleted_at",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "translations",
+          "java_type": "String",
+          "column": "translations",
+          "nullable": false,
+          "column_definition": "jsonb"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "updatedAt",
+          "java_type": "OffsetDateTime",
+          "column": "updated_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "Equipment",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Equipment.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "equipment",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "code",
+          "java_type": "String",
+          "column": "code",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "category",
+          "java_type": "String",
+          "column": "category",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "status",
+          "java_type": "RecordStatus",
+          "column": "status",
+          "nullable": false,
+          "column_definition": "exercises.record_status"
+        },
+        {
+          "name": "deletedAt",
+          "java_type": "OffsetDateTime",
+          "column": "deleted_at",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "translations",
+          "java_type": "String",
+          "column": "translations",
+          "nullable": false,
+          "column_definition": "jsonb"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "updatedAt",
+          "java_type": "OffsetDateTime",
+          "column": "updated_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "Exercise",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Exercise.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "name",
+          "java_type": "String",
+          "column": "name",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "difficulty",
+          "java_type": "DifficultyLevel",
+          "column": "difficulty",
+          "nullable": false,
+          "column_definition": "exercises.difficulty_level"
+        },
+        {
+          "name": "mechanics",
+          "java_type": "MechanicsType",
+          "column": "mechanics",
+          "nullable": false,
+          "column_definition": "exercises.mechanics_type"
+        },
+        {
+          "name": "force",
+          "java_type": "ForceType",
+          "column": "force",
+          "nullable": true,
+          "column_definition": "exercises.force_type"
+        },
+        {
+          "name": "unilateral",
+          "java_type": "boolean",
+          "column": "unilateral",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "bodyweight",
+          "java_type": "boolean",
+          "column": "bodyweight",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "overallRisk",
+          "java_type": "RiskLevel",
+          "column": "overall_risk",
+          "nullable": false,
+          "column_definition": "exercises.risk_level"
+        },
+        {
+          "name": "spotterRequired",
+          "java_type": "boolean",
+          "column": "spotter_required",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "ownerUserId",
+          "java_type": "UUID",
+          "column": "owner_user_id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "createdByUserId",
+          "java_type": "UUID",
+          "column": "created_by",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "visibility",
+          "java_type": "Visibility",
+          "column": "visibility",
+          "nullable": false,
+          "column_definition": "exercises.visibility"
+        },
+        {
+          "name": "status",
+          "java_type": "RecordStatus",
+          "column": "status",
+          "nullable": false,
+          "column_definition": "exercises.record_status"
+        },
+        {
+          "name": "deletedAt",
+          "java_type": "OffsetDateTime",
+          "column": "deleted_at",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "translations",
+          "java_type": "String",
+          "column": "translations",
+          "nullable": false,
+          "column_definition": "jsonb"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "updatedAt",
+          "java_type": "OffsetDateTime",
+          "column": "updated_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseCategory",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseCategory.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_category",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "ExerciseCategoryId",
+          "column": "id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "exercise",
+          "java_type": "Exercise",
+          "column": "exercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "category",
+          "java_type": "Category",
+          "column": "category",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "primary",
+          "java_type": "boolean",
+          "column": "is_primary",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseEquipment",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseEquipment.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_equipment",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "ExerciseEquipmentId",
+          "column": "id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "exercise",
+          "java_type": "Exercise",
+          "column": "exercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "equipment",
+          "java_type": "Equipment",
+          "column": "equipment",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "required",
+          "java_type": "boolean",
+          "column": "required",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "primary",
+          "java_type": "boolean",
+          "column": "is_primary",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "quantityNeeded",
+          "java_type": "int",
+          "column": "quantity_needed",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseMedia",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMedia.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_media",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "exercise",
+          "java_type": "Exercise",
+          "column": "exercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "type",
+          "java_type": "MediaType",
+          "column": "type",
+          "nullable": false,
+          "column_definition": "exercises.media_type"
+        },
+        {
+          "name": "purpose",
+          "java_type": "MediaPurpose",
+          "column": "purpose",
+          "nullable": false,
+          "column_definition": "exercises.media_purpose"
+        },
+        {
+          "name": "url",
+          "java_type": "String",
+          "column": "url",
+          "nullable": false,
+          "column_definition": "text"
+        },
+        {
+          "name": "thumbnailUrl",
+          "java_type": "String",
+          "column": "thumbnail_url",
+          "nullable": true,
+          "column_definition": "text"
+        },
+        {
+          "name": "viewAngle",
+          "java_type": "String",
+          "column": "view_angle",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "displayOrder",
+          "java_type": "int",
+          "column": "display_order",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "primary",
+          "java_type": "boolean",
+          "column": "is_primary",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "visibility",
+          "java_type": "Visibility",
+          "column": "visibility",
+          "nullable": false,
+          "column_definition": "exercises.visibility"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseMuscle",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMuscle.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_muscle",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "ExerciseMuscleId",
+          "column": "id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "exercise",
+          "java_type": "Exercise",
+          "column": "exercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "muscle",
+          "java_type": "Muscle",
+          "column": "muscle",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "activationPercentage",
+          "java_type": "Integer",
+          "column": "activation_percentage",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseTag",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseTag.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_tag",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "ExerciseTagId",
+          "column": "id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "exercise",
+          "java_type": "Exercise",
+          "column": "exercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "tag",
+          "java_type": "Tag",
+          "column": "tag",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseVariation",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseVariation.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "exercise_variation",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "ExerciseVariationId",
+          "column": "id",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "baseExercise",
+          "java_type": "Exercise",
+          "column": "baseExercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "variantExercise",
+          "java_type": "Exercise",
+          "column": "variantExercise",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "difficultyDelta",
+          "java_type": "Integer",
+          "column": "difficulty_delta",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "Muscle",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Muscle.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "muscle",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "code",
+          "java_type": "String",
+          "column": "code",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "groupCode",
+          "java_type": "String",
+          "column": "group_code",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "status",
+          "java_type": "RecordStatus",
+          "column": "status",
+          "nullable": false,
+          "column_definition": "exercises.record_status"
+        },
+        {
+          "name": "deletedAt",
+          "java_type": "OffsetDateTime",
+          "column": "deleted_at",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "translations",
+          "java_type": "String",
+          "column": "translations",
+          "nullable": false,
+          "column_definition": "jsonb"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "updatedAt",
+          "java_type": "OffsetDateTime",
+          "column": "updated_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "package": "it.aredegalli.coachly.exercise.model",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Tag.java",
+      "annotations": [
+        "@Entity"
+      ],
+      "table": "tag",
+      "fields": [
+        {
+          "name": "id",
+          "java_type": "UUID",
+          "column": "id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "code",
+          "java_type": "String",
+          "column": "code",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "tagType",
+          "java_type": "String",
+          "column": "tag_type",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "status",
+          "java_type": "RecordStatus",
+          "column": "status",
+          "nullable": false,
+          "column_definition": "exercises.record_status"
+        },
+        {
+          "name": "deletedAt",
+          "java_type": "OffsetDateTime",
+          "column": "deleted_at",
+          "nullable": true,
+          "column_definition": ""
+        },
+        {
+          "name": "translations",
+          "java_type": "String",
+          "column": "translations",
+          "nullable": false,
+          "column_definition": "jsonb"
+        },
+        {
+          "name": "createdAt",
+          "java_type": "OffsetDateTime",
+          "column": "created_at",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "updatedAt",
+          "java_type": "OffsetDateTime",
+          "column": "updated_at",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseCategoryId",
+      "package": "it.aredegalli.coachly.exercise.model.id",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseCategoryId.java",
+      "annotations": [
+        "@Embeddable"
+      ],
+      "table": "exercisecategoryid",
+      "fields": [
+        {
+          "name": "exerciseId",
+          "java_type": "UUID",
+          "column": "exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "categoryId",
+          "java_type": "UUID",
+          "column": "category_id",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseEquipmentId",
+      "package": "it.aredegalli.coachly.exercise.model.id",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseEquipmentId.java",
+      "annotations": [
+        "@Embeddable"
+      ],
+      "table": "exerciseequipmentid",
+      "fields": [
+        {
+          "name": "exerciseId",
+          "java_type": "UUID",
+          "column": "exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "equipmentId",
+          "java_type": "UUID",
+          "column": "equipment_id",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseMuscleId",
+      "package": "it.aredegalli.coachly.exercise.model.id",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseMuscleId.java",
+      "annotations": [
+        "@Embeddable"
+      ],
+      "table": "exercisemuscleid",
+      "fields": [
+        {
+          "name": "exerciseId",
+          "java_type": "UUID",
+          "column": "exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "muscleId",
+          "java_type": "UUID",
+          "column": "muscle_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "involvement",
+          "java_type": "InvolvementLevel",
+          "column": "involvement",
+          "nullable": false,
+          "column_definition": "exercises.involvement_level"
+        }
+      ]
+    },
+    {
+      "name": "ExerciseTagId",
+      "package": "it.aredegalli.coachly.exercise.model.id",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseTagId.java",
+      "annotations": [
+        "@Embeddable"
+      ],
+      "table": "exercisetagid",
+      "fields": [
+        {
+          "name": "exerciseId",
+          "java_type": "UUID",
+          "column": "exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "tagId",
+          "java_type": "UUID",
+          "column": "tag_id",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    },
+    {
+      "name": "ExerciseVariationId",
+      "package": "it.aredegalli.coachly.exercise.model.id",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\id\\ExerciseVariationId.java",
+      "annotations": [
+        "@Embeddable"
+      ],
+      "table": "exercisevariationid",
+      "fields": [
+        {
+          "name": "baseExerciseId",
+          "java_type": "UUID",
+          "column": "base_exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "variantExerciseId",
+          "java_type": "UUID",
+          "column": "variant_exercise_id",
+          "nullable": false,
+          "column_definition": ""
+        },
+        {
+          "name": "variationType",
+          "java_type": "String",
+          "column": "variation_type",
+          "nullable": false,
+          "column_definition": ""
+        }
+      ]
+    }
+  ],
+  "enums": [
+    {
+      "name": "ExerciseScope",
+      "package": "it.aredegalli.coachly.exercise.service",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\service\\ExerciseScope.java"
+    }
+  ],
+  "converters": [
+    {
+      "name": "DifficultyLevelConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\DifficultyLevelConverter.java"
+    },
+    {
+      "name": "ForceTypeConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\ForceTypeConverter.java"
+    },
+    {
+      "name": "InvolvementLevelConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\InvolvementLevelConverter.java"
+    },
+    {
+      "name": "MechanicsTypeConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\MechanicsTypeConverter.java"
+    },
+    {
+      "name": "MediaPurposeConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\MediaPurposeConverter.java"
+    },
+    {
+      "name": "MediaTypeConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\MediaTypeConverter.java"
+    },
+    {
+      "name": "RecordStatusConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\RecordStatusConverter.java"
+    },
+    {
+      "name": "RiskLevelConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\RiskLevelConverter.java"
+    },
+    {
+      "name": "VisibilityConverter",
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\converter\\VisibilityConverter.java"
+    }
+  ],
+  "relations": [
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseCategory.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseEquipment.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMedia.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseMuscle.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseTag.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\ExerciseVariation.java",
+      "annotations": [
+        "ManyToOne",
+        "JoinColumn"
+      ]
+    }
+  ],
+  "jsonb_fields": [
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Category.java",
+      "name": "translations",
+      "java_type": "String",
+      "column": "translations",
+      "nullable": false,
+      "column_definition": "jsonb"
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Equipment.java",
+      "name": "translations",
+      "java_type": "String",
+      "column": "translations",
+      "nullable": false,
+      "column_definition": "jsonb"
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Exercise.java",
+      "name": "translations",
+      "java_type": "String",
+      "column": "translations",
+      "nullable": false,
+      "column_definition": "jsonb"
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Muscle.java",
+      "name": "translations",
+      "java_type": "String",
+      "column": "translations",
+      "nullable": false,
+      "column_definition": "jsonb"
+    },
+    {
+      "file": "src\\main\\java\\it\\aredegalli\\coachly\\exercise\\model\\Tag.java",
+      "name": "translations",
+      "java_type": "String",
+      "column": "translations",
+      "nullable": false,
+      "column_definition": "jsonb"
+    }
+  ],
+  "migrations": [
+    "sql\\2026-04-05_add_created_by_to_exercise.sql",
+    "inj\\sql\\00_reference\\01_muscles.sql",
+    "inj\\sql\\00_reference\\02_categories.sql",
+    "inj\\sql\\00_reference\\03_equipment.sql",
+    "inj\\sql\\00_reference\\04_tags.sql",
+    "inj\\sql\\exercises\\21s_curl.sql",
+    "inj\\sql\\exercises\\4_way_neck_machine.sql",
+    "inj\\sql\\exercises\\ab_mat_sit_up.sql",
+    "inj\\sql\\exercises\\ab_wheel_rollout.sql",
+    "inj\\sql\\exercises\\active_bar_hang.sql",
+    "inj\\sql\\exercises\\active_hang.sql",
+    "inj\\sql\\exercises\\air_squat.sql",
+    "inj\\sql\\exercises\\alternating_dumbbell_floor_press.sql",
+    "inj\\sql\\exercises\\ankle_plantarflexion.sql",
+    "inj\\sql\\exercises\\ankling_drill.sql",
+    "inj\\sql\\exercises\\archer_chin_up.sql",
+    "inj\\sql\\exercises\\arch_body_hold.sql",
+    "inj\\sql\\exercises\\assault_bike_air_bike.sql",
+    "inj\\sql\\exercises\\assisted_nordic_curl.sql",
+    "inj\\sql\\exercises\\assisted_pistol_squat.sql",
+    "inj\\sql\\exercises\\axle_deadlift_hold.sql",
+    "inj\\sql\\exercises\\back_extension.sql",
+    "inj\\sql\\exercises\\back_extension_floor.sql",
+    "inj\\sql\\exercises\\back_lever_hold.sql",
+    "inj\\sql\\exercises\\ball_squeeze.sql",
+    "inj\\sql\\exercises\\banded_high_knee_march.sql",
+    "inj\\sql\\exercises\\band_bicep_curl.sql",
+    "inj\\sql\\exercises\\band_calf_raise.sql",
+    "inj\\sql\\exercises\\band_external_rotation_press_out.sql",
+    "inj\\sql\\exercises\\band_neck_resistance.sql",
+    "inj\\sql\\exercises\\band_pull_apart.sql",
+    "inj\\sql\\exercises\\band_pushdown.sql",
+    "inj\\sql\\exercises\\band_tricep_pushdown.sql",
+    "inj\\sql\\exercises\\barbell_back_squat.sql",
+    "inj\\sql\\exercises\\barbell_bench_press.sql",
+    "inj\\sql\\exercises\\barbell_bent_over_row.sql",
+    "inj\\sql\\exercises\\barbell_curl.sql",
+    "inj\\sql\\exercises\\barbell_deadlift_grip.sql",
+    "inj\\sql\\exercises\\barbell_good_morning.sql",
+    "inj\\sql\\exercises\\barbell_hip_thrust.sql",
+    "inj\\sql\\exercises\\barbell_hold.sql",
+    "inj\\sql\\exercises\\barbell_overhead_press.sql",
+    "inj\\sql\\exercises\\barbell_shrug.sql",
+    "inj\\sql\\exercises\\barbell_shrug_neck_focus.sql",
+    "inj\\sql\\exercises\\barbell_wrist_curl.sql",
+    "inj\\sql\\exercises\\battle_rope_waves.sql",
+    "inj\\sql\\exercises\\bayesian_curl.sql",
+    "inj\\sql\\exercises\\bear_crawl.sql",
+    "inj\\sql\\exercises\\bear_crawl_hold.sql",
+    "inj\\sql\\exercises\\bear_crawl_push_up.sql",
+    "inj\\sql\\exercises\\bear_plank.sql",
+    "inj\\sql\\exercises\\bent_knee_calf_raise.sql",
+    "inj\\sql\\exercises\\bent_over_dumbbell_row.sql",
+    "inj\\sql\\exercises\\bird_dog.sql",
+    "inj\\sql\\exercises\\board_press.sql",
+    "inj\\sql\\exercises\\bodyweight_squat.sql",
+    "inj\\sql\\exercises\\bodyweight_triceps_extension.sql",
+    "inj\\sql\\exercises\\body_saw_plank.sql",
+    "inj\\sql\\exercises\\bottom_up_kettlebell_press.sql",
+    "inj\\sql\\exercises\\box_jump.sql",
+    "inj\\sql\\exercises\\box_jump_calf_raise.sql",
+    "inj\\sql\\exercises\\bradford_press.sql",
+    "inj\\sql\\exercises\\bridge_heel_curl.sql",
+    "inj\\sql\\exercises\\broad_jump.sql",
+    "inj\\sql\\exercises\\bulgarian_split_squat.sql",
+    "inj\\sql\\exercises\\burpee.sql",
+    "inj\\sql\\exercises\\burpee_box_jump_over.sql",
+    "inj\\sql\\exercises\\cable_chest_press.sql",
+    "inj\\sql\\exercises\\cable_crunch.sql",
+    "inj\\sql\\exercises\\cable_curl.sql",
+    "inj\\sql\\exercises\\cable_fly.sql",
+    "inj\\sql\\exercises\\cable_hip_adduction.sql",
+    "inj\\sql\\exercises\\cable_kickback.sql",
+    "inj\\sql\\exercises\\cable_overhead_press.sql",
+    "inj\\sql\\exercises\\cable_overhead_triceps_extension_with_rope.sql",
+    "inj\\sql\\exercises\\cable_pull_through.sql",
+    "inj\\sql\\exercises\\cable_seated_row.sql",
+    "inj\\sql\\exercises\\calf_raise.sql",
+    "inj\\sql\\exercises\\calisthenics_back.sql",
+    "inj\\sql\\exercises\\calisthenics_chest.sql",
+    "inj\\sql\\exercises\\chest_dip.sql",
+    "inj\\sql\\exercises\\chest_dip_between_chairs.sql",
+    "inj\\sql\\exercises\\chest_squeeze_press.sql",
+    "inj\\sql\\exercises\\chest_supported_row.sql",
+    "inj\\sql\\exercises\\chest_to_bar_pull_up.sql",
+    "inj\\sql\\exercises\\chin_up.sql",
+    "inj\\sql\\exercises\\chin_up_doorframe_bar.sql",
+    "inj\\sql\\exercises\\clamshell.sql",
+    "inj\\sql\\exercises\\clean_and_jerk.sql",
+    "inj\\sql\\exercises\\clean_pull.sql",
+    "inj\\sql\\exercises\\close_grip_bench_press.sql",
+    "inj\\sql\\exercises\\close_grip_chin_up.sql",
+    "inj\\sql\\exercises\\close_grip_handstand_push_up.sql",
+    "inj\\sql\\exercises\\close_grip_lat_pulldown.sql",
+    "inj\\sql\\exercises\\commando_pull_up.sql",
+    "inj\\sql\\exercises\\competition_bench_press.sql",
+    "inj\\sql\\exercises\\controlled_mountain_climber.sql",
+    "inj\\sql\\exercises\\conventional_deadlift.sql",
+    "inj\\sql\\exercises\\copenhagen_plank.sql",
+    "inj\\sql\\exercises\\cossack_squat.sql",
+    "inj\\sql\\exercises\\crunch.sql",
+    "inj\\sql\\exercises\\cuban_press.sql",
+    "inj\\sql\\exercises\\curtsy_lunge.sql",
+    "inj\\sql\\exercises\\cyclist_squat.sql",
+    "inj\\sql\\exercises\\deadlift.sql",
+    "inj\\sql\\exercises\\dead_bug.sql",
+    "inj\\sql\\exercises\\dead_bug_march.sql",
+    "inj\\sql\\exercises\\decline_barbell_bench_press.sql",
+    "inj\\sql\\exercises\\decline_dumbbell_bench_press.sql",
+    "inj\\sql\\exercises\\dips.sql",
+    "inj\\sql\\exercises\\dip_triceps_focused.sql",
+    "inj\\sql\\exercises\\donkey_calf_raise.sql",
+    "inj\\sql\\exercises\\donkey_kick.sql",
+    "inj\\sql\\exercises\\doorframe_curl.sql",
+    "inj\\sql\\exercises\\doorframe_row.sql",
+    "inj\\sql\\exercises\\double_under.sql",
+    "inj\\sql\\exercises\\double_under_skipping.sql",
+    "inj\\sql\\exercises\\drag_curl.sql",
+    "inj\\sql\\exercises\\dumbbell_bench_press.sql",
+    "inj\\sql\\exercises\\dumbbell_bicep_curl.sql",
+    "inj\\sql\\exercises\\dumbbell_curl.sql",
+    "inj\\sql\\exercises\\dumbbell_flat_fly.sql",
+    "inj\\sql\\exercises\\dumbbell_front_raise.sql",
+    "inj\\sql\\exercises\\dumbbell_hamstring_curl.sql",
+    "inj\\sql\\exercises\\dumbbell_lateral_raise.sql",
+    "inj\\sql\\exercises\\dumbbell_press_pl.sql",
+    "inj\\sql\\exercises\\dumbbell_pullover.sql",
+    "inj\\sql\\exercises\\dumbbell_row.sql",
+    "inj\\sql\\exercises\\dumbbell_shoulder_press.sql",
+    "inj\\sql\\exercises\\eccentric_calf_raise.sql",
+    "inj\\sql\\exercises\\elevated_pike_push_up.sql",
+    "inj\\sql\\exercises\\external_rotation.sql",
+    "inj\\sql\\exercises\\ez_bar_curl.sql",
+    "inj\\sql\\exercises\\face_pull.sql",
+    "inj\\sql\\exercises\\false_grip_hang.sql",
+    "inj\\sql\\exercises\\farmer_carry.sql",
+    "inj\\sql\\exercises\\farmer_carry_march.sql",
+    "inj\\sql\\exercises\\farmer_s_carry.sql",
+    "inj\\sql\\exercises\\farmer_walk.sql",
+    "inj\\sql\\exercises\\farmer_walk_on_toes.sql",
+    "inj\\sql\\exercises\\fingertip_hang.sql",
+    "inj\\sql\\exercises\\fingertip_plank.sql",
+    "inj\\sql\\exercises\\finger_extension.sql",
+    "inj\\sql\\exercises\\fire_hydrant.sql",
+    "inj\\sql\\exercises\\floor_press.sql",
+    "inj\\sql\\exercises\\frog_pump.sql",
+    "inj\\sql\\exercises\\front_foot_elevated_split_squat.sql",
+    "inj\\sql\\exercises\\front_lever_curl.sql",
+    "inj\\sql\\exercises\\front_lever_hold.sql",
+    "inj\\sql\\exercises\\front_lever_row.sql",
+    "inj\\sql\\exercises\\front_lever_tuck_hold.sql",
+    "inj\\sql\\exercises\\front_rack_reverse_lunge.sql",
+    "inj\\sql\\exercises\\front_squat.sql",
+    "inj\\sql\\exercises\\ghd_back_extension.sql",
+    "inj\\sql\\exercises\\glute_bridge.sql",
+    "inj\\sql\\exercises\\glute_ham_raise.sql",
+    "inj\\sql\\exercises\\goblet_squat.sql",
+    "inj\\sql\\exercises\\good_morning.sql",
+    "inj\\sql\\exercises\\good_morning_bodyweight.sql",
+    "inj\\sql\\exercises\\good_morning_bodyweight_2.sql",
+    "inj\\sql\\exercises\\grip_trainer.sql",
+    "inj\\sql\\exercises\\hack_squat.sql",
+    "inj\\sql\\exercises\\half_kneeling_landmine_press.sql",
+    "inj\\sql\\exercises\\hamstring_walkout.sql",
+    "inj\\sql\\exercises\\handstand_hold.sql",
+    "inj\\sql\\exercises\\handstand_push_up.sql",
+    "inj\\sql\\exercises\\handstand_shrug.sql",
+    "inj\\sql\\exercises\\handstand_walk.sql",
+    "inj\\sql\\exercises\\hanging_knee_raise.sql",
+    "inj\\sql\\exercises\\hanging_leg_raise.sql",
+    "inj\\sql\\exercises\\heel_drop.sql",
+    "inj\\sql\\exercises\\hex_press.sql",
+    "inj\\sql\\exercises\\high_cable_crossover_lower_chest.sql",
+    "inj\\sql\\exercises\\high_knees.sql",
+    "inj\\sql\\exercises\\high_pull.sql",
+    "inj\\sql\\exercises\\hip_abduction_machine.sql",
+    "inj\\sql\\exercises\\hip_adduction_machine.sql",
+    "inj\\sql\\exercises\\hip_airplane.sql",
+    "inj\\sql\\exercises\\hip_bridge_walkout.sql",
+    "inj\\sql\\exercises\\hip_hinge_good_morning.sql",
+    "inj\\sql\\exercises\\hip_thrust.sql",
+    "inj\\sql\\exercises\\hip_thrust_bridge.sql",
+    "inj\\sql\\exercises\\hip_thrust_with_couch.sql",
+    "inj\\sql\\exercises\\hollow_body_hold.sql",
+    "inj\\sql\\exercises\\hollow_hold.sql",
+    "inj\\sql\\exercises\\hyperextension.sql",
+    "inj\\sql\\exercises\\incline_barbell_bench_press.sql",
+    "inj\\sql\\exercises\\incline_barbell_press_pl.sql",
+    "inj\\sql\\exercises\\incline_dumbbell_bench_press.sql",
+    "inj\\sql\\exercises\\internal_rotation.sql",
+    "inj\\sql\\exercises\\isometric_calf_raise_hold.sql",
+    "inj\\sql\\exercises\\isometric_chin_up_hold.sql",
+    "inj\\sql\\exercises\\jm_press.sql",
+    "inj\\sql\\exercises\\jump_rope.sql",
+    "inj\\sql\\exercises\\jump_rope_bounce.sql",
+    "inj\\sql\\exercises\\jump_rope_skipping.sql",
+    "inj\\sql\\exercises\\jump_squat.sql",
+    "inj\\sql\\exercises\\kettlebell_curl.sql",
+    "inj\\sql\\exercises\\kettlebell_swing.sql",
+    "inj\\sql\\exercises\\knuckle_push_up.sql",
+    "inj\\sql\\exercises\\korean_dip.sql",
+    "inj\\sql\\exercises\\landmine_chest_press.sql",
+    "inj\\sql\\exercises\\landmine_press.sql",
+    "inj\\sql\\exercises\\landmine_row.sql",
+    "inj\\sql\\exercises\\landmine_shoulder_press.sql",
+    "inj\\sql\\exercises\\larsen_press.sql",
+    "inj\\sql\\exercises\\lateral_band_walk.sql",
+    "inj\\sql\\exercises\\lateral_bound_stick.sql",
+    "inj\\sql\\exercises\\lateral_line_hop.sql",
+    "inj\\sql\\exercises\\lateral_raise.sql",
+    "inj\\sql\\exercises\\lat_pulldown.sql",
+    "inj\\sql\\exercises\\leg_extension.sql",
+    "inj\\sql\\exercises\\leg_press.sql",
+    "inj\\sql\\exercises\\leg_press_calf_raise.sql",
+    "inj\\sql\\exercises\\leg_raise.sql",
+    "inj\\sql\\exercises\\low_cable_crossover_upper_chest.sql",
+    "inj\\sql\\exercises\\lunge.sql",
+    "inj\\sql\\exercises\\lunge_to_knee_drive.sql",
+    "inj\\sql\\exercises\\lying_leg_curl.sql",
+    "inj\\sql\\exercises\\lying_leg_curl_with_band.sql",
+    "inj\\sql\\exercises\\l_sit.sql",
+    "inj\\sql\\exercises\\l_sit_hold.sql",
+    "inj\\sql\\exercises\\machine_chest_press.sql",
+    "inj\\sql\\exercises\\machine_curl.sql",
+    "inj\\sql\\exercises\\machine_lateral_raise.sql",
+    "inj\\sql\\exercises\\machine_row.sql",
+    "inj\\sql\\exercises\\machine_shoulder_press.sql",
+    "inj\\sql\\exercises\\maltese_lean.sql",
+    "inj\\sql\\exercises\\manual_neck_resistance_extension.sql",
+    "inj\\sql\\exercises\\manual_neck_resistance_flexion.sql",
+    "inj\\sql\\exercises\\manual_neck_resistance_lateral_flexion.sql",
+    "inj\\sql\\exercises\\medicine_ball_chest_pass.sql",
+    "inj\\sql\\exercises\\medicine_ball_slam.sql",
+    "inj\\sql\\exercises\\monster_walk.sql",
+    "inj\\sql\\exercises\\mountain_climber.sql",
+    "inj\\sql\\exercises\\neck_harness_extension.sql",
+    "inj\\sql\\exercises\\neck_rotation.sql",
+    "inj\\sql\\exercises\\negative_chin_up.sql",
+    "inj\\sql\\exercises\\neutral_grip_chin_up.sql",
+    "inj\\sql\\exercises\\nordic_curl.sql",
+    "inj\\sql\\exercises\\nordic_hamstring_curl.sql",
+    "inj\\sql\\exercises\\nordic_ham_curl.sql",
+    "inj\\sql\\exercises\\offset_push_up.sql",
+    "inj\\sql\\exercises\\one_arm_chin_up_progression.sql",
+    "inj\\sql\\exercises\\one_arm_dead_hang.sql",
+    "inj\\sql\\exercises\\overhead_hold.sql",
+    "inj\\sql\\exercises\\overhead_squat.sql",
+    "inj\\sql\\exercises\\overhead_triceps_extension.sql",
+    "inj\\sql\\exercises\\overhead_tricep_extension_with_dumbbell.sql",
+    "inj\\sql\\exercises\\pallof_press.sql",
+    "inj\\sql\\exercises\\pallof_press_with_band.sql",
+    "inj\\sql\\exercises\\parallel_bar_dip.sql",
+    "inj\\sql\\exercises\\parallel_bar_leg_raise.sql",
+    "inj\\sql\\exercises\\passive_bar_hang.sql",
+    "inj\\sql\\exercises\\pec_deck_chest_fly_machine.sql",
+    "inj\\sql\\exercises\\pike_compression_lift.sql",
+    "inj\\sql\\exercises\\pike_hold.sql",
+    "inj\\sql\\exercises\\pin_press.sql",
+    "inj\\sql\\exercises\\pistol_squat.sql",
+    "inj\\sql\\exercises\\pistol_squat_progression.sql",
+    "inj\\sql\\exercises\\planche_lean_push_up.sql",
+    "inj\\sql\\exercises\\plank.sql",
+    "inj\\sql\\exercises\\plate_halo.sql",
+    "inj\\sql\\exercises\\plate_neck_curl.sql",
+    "inj\\sql\\exercises\\plate_pinch.sql",
+    "inj\\sql\\exercises\\plate_pinch_hold.sql",
+    "inj\\sql\\exercises\\plate_raise.sql",
+    "inj\\sql\\exercises\\pogo_jump.sql",
+    "inj\\sql\\exercises\\power_clean.sql",
+    "inj\\sql\\exercises\\power_clean_grip.sql",
+    "inj\\sql\\exercises\\press_to_handstand.sql",
+    "inj\\sql\\exercises\\pronation_supination.sql",
+    "inj\\sql\\exercises\\prone_y_raise.sql",
+    "inj\\sql\\exercises\\push_jerk.sql",
+    "inj\\sql\\exercises\\push_press.sql",
+    "inj\\sql\\exercises\\push_up.sql",
+    "inj\\sql\\exercises\\quadruped_hip_extension.sql",
+    "inj\\sql\\exercises\\rack_pull.sql",
+    "inj\\sql\\exercises\\rear_delt_fly.sql",
+    "inj\\sql\\exercises\\renegade_row.sql",
+    "inj\\sql\\exercises\\renegade_row_plank.sql",
+    "inj\\sql\\exercises\\resistance_band_calf_raise.sql",
+    "inj\\sql\\exercises\\resistance_band_chest_fly.sql",
+    "inj\\sql\\exercises\\resistance_band_curl.sql",
+    "inj\\sql\\exercises\\resistance_band_hip_adduction.sql",
+    "inj\\sql\\exercises\\reverse_barbell_curl.sql",
+    "inj\\sql\\exercises\\reverse_hyperextension.sql",
+    "inj\\sql\\exercises\\reverse_hyperextension_on_couch.sql",
+    "inj\\sql\\exercises\\reverse_lunge.sql",
+    "inj\\sql\\exercises\\reverse_sled_march.sql",
+    "inj\\sql\\exercises\\reverse_snow_angel.sql",
+    "inj\\sql\\exercises\\reverse_wrist_curl.sql",
+    "inj\\sql\\exercises\\ring_chin_up.sql",
+    "inj\\sql\\exercises\\ring_pull_up.sql",
+    "inj\\sql\\exercises\\ring_row.sql",
+    "inj\\sql\\exercises\\ring_support_hold.sql",
+    "inj\\sql\\exercises\\romanian_deadlift.sql",
+    "inj\\sql\\exercises\\romanian_deadlift_with_dumbbells.sql",
+    "inj\\sql\\exercises\\rope_climb.sql",
+    "inj\\sql\\exercises\\rope_pull_through.sql",
+    "inj\\sql\\exercises\\rowing_ergometer.sql",
+    "inj\\sql\\exercises\\rowing_machine.sql",
+    "inj\\sql\\exercises\\running.sql",
+    "inj\\sql\\exercises\\running_sprint.sql",
+    "inj\\sql\\exercises\\russian_twist.sql",
+    "inj\\sql\\exercises\\safety_bar_squat.sql",
+    "inj\\sql\\exercises\\seated_cable_row_single_arm.sql",
+    "inj\\sql\\exercises\\seated_calf_raise.sql",
+    "inj\\sql\\exercises\\seated_hip_adduction.sql",
+    "inj\\sql\\exercises\\seated_leg_curl.sql",
+    "inj\\sql\\exercises\\seated_leg_lift.sql",
+    "inj\\sql\\exercises\\seated_pike_lift.sql",
+    "inj\\sql\\exercises\\shoulder_tap.sql",
+    "inj\\sql\\exercises\\shrimp_squat.sql",
+    "inj\\sql\\exercises\\side_lunge.sql",
+    "inj\\sql\\exercises\\side_plank.sql",
+    "inj\\sql\\exercises\\single_arm_cable_press.sql",
+    "inj\\sql\\exercises\\single_arm_cable_row.sql",
+    "inj\\sql\\exercises\\single_arm_dumbbell_push_press.sql",
+    "inj\\sql\\exercises\\single_arm_overhead_carry.sql",
+    "inj\\sql\\exercises\\single_leg_bridge_curl.sql",
+    "inj\\sql\\exercises\\single_leg_calf_raise.sql",
+    "inj\\sql\\exercises\\single_leg_glute_bridge.sql",
+    "inj\\sql\\exercises\\single_leg_hop.sql",
+    "inj\\sql\\exercises\\single_leg_rdl.sql",
+    "inj\\sql\\exercises\\single_leg_sliding_curl.sql",
+    "inj\\sql\\exercises\\single_leg_squat_pistol.sql",
+    "inj\\sql\\exercises\\sissy_squat.sql",
+    "inj\\sql\\exercises\\sit_up.sql",
+    "inj\\sql\\exercises\\skater_squat.sql",
+    "inj\\sql\\exercises\\ski_erg.sql",
+    "inj\\sql\\exercises\\skull_crusher.sql",
+    "inj\\sql\\exercises\\skull_crusher_with_dumbbell.sql",
+    "inj\\sql\\exercises\\sled_push.sql",
+    "inj\\sql\\exercises\\sled_toe_push.sql",
+    "inj\\sql\\exercises\\slider_leg_curl.sql",
+    "inj\\sql\\exercises\\sliding_leg_curl.sql",
+    "inj\\sql\\exercises\\slingshot_bench_press.sql",
+    "inj\\sql\\exercises\\smith_machine_bench_press.sql",
+    "inj\\sql\\exercises\\smith_machine_overhead_press.sql",
+    "inj\\sql\\exercises\\smith_machine_squat.sql",
+    "inj\\sql\\exercises\\snatch.sql",
+    "inj\\sql\\exercises\\sphinx_push_up.sql",
+    "inj\\sql\\exercises\\spider_curl.sql",
+    "inj\\sql\\exercises\\split_squat.sql",
+    "inj\\sql\\exercises\\split_squat_jump.sql",
+    "inj\\sql\\exercises\\split_stance_calf_pulse.sql",
+    "inj\\sql\\exercises\\spoto_press.sql",
+    "inj\\sql\\exercises\\sprinter_curl.sql",
+    "inj\\sql\\exercises\\squat_jump.sql",
+    "inj\\sql\\exercises\\stair_calf_raise.sql",
+    "inj\\sql\\exercises\\standing_band_hip_flexion.sql",
+    "inj\\sql\\exercises\\standing_calf_raise.sql",
+    "inj\\sql\\exercises\\standing_hip_abduction_with_band.sql",
+    "inj\\sql\\exercises\\standing_leg_curl.sql",
+    "inj\\sql\\exercises\\step_up.sql",
+    "inj\\sql\\exercises\\step_up_to_knee_drive.sql",
+    "inj\\sql\\exercises\\step_up_with_knee_drive.sql",
+    "inj\\sql\\exercises\\stiff_leg_deadlift.sql",
+    "inj\\sql\\exercises\\straight_bar_dip.sql",
+    "inj\\sql\\exercises\\strict_press.sql",
+    "inj\\sql\\exercises\\strict_press_overhead_press.sql",
+    "inj\\sql\\exercises\\strict_pull_up.sql",
+    "inj\\sql\\exercises\\suitcase_carry.sql",
+    "inj\\sql\\exercises\\sumo_deadlift.sql",
+    "inj\\sql\\exercises\\sumo_deadlift_high_pull.sql",
+    "inj\\sql\\exercises\\sumo_deficit_deadlift.sql",
+    "inj\\sql\\exercises\\sumo_rack_pull.sql",
+    "inj\\sql\\exercises\\sumo_squat.sql",
+    "inj\\sql\\exercises\\superman.sql",
+    "inj\\sql\\exercises\\suspension_row.sql",
+    "inj\\sql\\exercises\\svend_press.sql",
+    "inj\\sql\\exercises\\swiss_ball_leg_curl.sql",
+    "inj\\sql\\exercises\\table_row.sql",
+    "inj\\sql\\exercises\\tall_kneeling_band_press.sql",
+    "inj\\sql\\exercises\\tate_press.sql",
+    "inj\\sql\\exercises\\terminal_knee_extension.sql",
+    "inj\\sql\\exercises\\terminal_knee_extension_with_band.sql",
+    "inj\\sql\\exercises\\thick_bar_deadlift_hold.sql",
+    "inj\\sql\\exercises\\thruster.sql",
+    "inj\\sql\\exercises\\tibialis_raise.sql",
+    "inj\\sql\\exercises\\tibialis_wall_raise.sql",
+    "inj\\sql\\exercises\\toes_to_bar.sql",
+    "inj\\sql\\exercises\\toes_to_bar_grip.sql",
+    "inj\\sql\\exercises\\toe_walk.sql",
+    "inj\\sql\\exercises\\towel_chin_up.sql",
+    "inj\\sql\\exercises\\towel_curl.sql",
+    "inj\\sql\\exercises\\towel_hang.sql",
+    "inj\\sql\\exercises\\towel_pull_up.sql",
+    "inj\\sql\\exercises\\towel_row.sql",
+    "inj\\sql\\exercises\\triceps_dip_machine.sql",
+    "inj\\sql\\exercises\\triceps_dip_parallel_bar.sql",
+    "inj\\sql\\exercises\\triceps_kickback.sql",
+    "inj\\sql\\exercises\\triceps_overhead_extension.sql",
+    "inj\\sql\\exercises\\triceps_pushdown.sql",
+    "inj\\sql\\exercises\\triceps_push_down.sql",
+    "inj\\sql\\exercises\\tricep_dip_between_chairs.sql",
+    "inj\\sql\\exercises\\tricep_kickback_with_dumbbell.sql",
+    "inj\\sql\\exercises\\turkish_get_up.sql",
+    "inj\\sql\\exercises\\turkish_get_up_to_elbow.sql",
+    "inj\\sql\\exercises\\typewriter_chin_up.sql",
+    "inj\\sql\\exercises\\underhand_barbell_row.sql",
+    "inj\\sql\\exercises\\upright_row.sql",
+    "inj\\sql\\exercises\\v_sit.sql",
+    "inj\\sql\\exercises\\v_up.sql",
+    "inj\\sql\\exercises\\wall_ball_shot.sql",
+    "inj\\sql\\exercises\\wall_handstand_shoulder_tap.sql",
+    "inj\\sql\\exercises\\wall_march.sql",
+    "inj\\sql\\exercises\\wall_sit.sql",
+    "inj\\sql\\exercises\\wall_slide_reach.sql",
+    "inj\\sql\\exercises\\wall_triceps_extension.sql",
+    "inj\\sql\\exercises\\wall_walk.sql",
+    "inj\\sql\\exercises\\wide_stance_back_squat.sql",
+    "inj\\sql\\exercises\\wide_stance_good_morning.sql",
+    "inj\\sql\\exercises\\woodchop.sql",
+    "inj\\sql\\exercises\\wrestler_bridge.sql",
+    "inj\\sql\\exercises\\wrist_curl.sql",
+    "inj\\sql\\exercises\\wrist_push_up.sql",
+    "inj\\sql\\exercises\\wrist_roller.sql"
+  ],
+  "entities_found": 16,
+  "enums_found": 1,
+  "converters_found": 9,
+  "relations_found": 6,
+  "jsonb_fields_found": 5,
+  "migrations_found": 419
+}
