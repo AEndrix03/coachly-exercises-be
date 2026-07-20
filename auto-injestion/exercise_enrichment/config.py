@@ -6,7 +6,7 @@ class Settings(BaseModel):
     spring_project: Path = Path("../coachly-exercise-service")
     data_dir: Path = Path("data")
     ollama_url: str = "http://localhost:11434"
-    model: str = "qwen3:4b-instruct"
+    model: str = "qwen3:4b"
     embedding_model: str = "embeddinggemma"
     database_url: str | None = None
     schema: str = "exercises"

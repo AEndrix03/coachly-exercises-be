@@ -22,14 +22,14 @@ def extract_cmd(spring_project:Path=Path(".")):
 def audit_cmd(spring_project:Path=Path(".")):
     s=cfg(spring_project); _,records=extract(s); result=audit(records); report(s,result); typer.echo(json.dumps(result,indent=2))
 @app.command()
-def run(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct",max_records:int|None=None,auto_promote:bool=False):
+def run(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b",max_records:int|None=None,auto_promote:bool=False):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model,max_records=max_records,auto_promote=auto_promote)
     manifest,records=extract(s); dbmeta=metadata(s.database_url,s.schema); diff=schema_diff(manifest,dbmeta); report(s,{**audit(records),"schema_diff":diff}); init_jobs(s.data_dir/"pipeline.sqlite",records,s.model)
     if s.database_url and not diff["compatible"]: raise typer.Exit(code=3)
     if not result["valid"]: raise typer.Exit(code=2)
     typer.echo("STAGING VALIDATED\nRun `python -m exercise_enrichment promote` to apply the validated dataset.")
 @app.command("enrich")
-def enrich_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct"):
+def enrich_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
 @app.command("validate")
 def validate_cmd(spring_project:Path=Path(".")):
@@ -47,8 +47,8 @@ def report_cmd(spring_project:Path=Path(".")):
 def verify_staging_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result=verify_staging(s.database_url,s.staging_schema,len(records),s.data_dir/"proposals"); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/staging_verification.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["verified"] else 3)
 @app.command("resume")
-def resume_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct"):
+def resume_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
 @app.command("benchmark")
-def benchmark_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b-instruct"):
+def benchmark_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); schema={"type":"object","required":["exercise_id","proposed","overall_confidence"]}; result=benchmark_run(__import__('exercise_enrichment.ollama',fromlist=['OllamaClient']).OllamaClient(s.ollama_url,s.model),records,schema); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/benchmark.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["passed"] else 3)
