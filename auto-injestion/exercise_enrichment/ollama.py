@@ -6,5 +6,5 @@ class OllamaClient:
     def health(self):
         r=httpx.get(self.base_url+"/api/tags",timeout=self.timeout); return r.is_success
     def chat(self, prompt, schema):
-        payload={"model":self.model,"messages":[{"role":"system","content":"Return only JSON conforming to the supplied schema."},{"role":"user","content":prompt}],"stream":False,"format":schema,"options":{"temperature":0.1,"seed":42}}
+        payload={"model":self.model,"messages":[{"role":"system","content":"Return only JSON conforming to the supplied schema."},{"role":"user","content":prompt}],"stream":False,"think":False,"format":schema,"options":{"temperature":0.1,"seed":42}}
         return httpx.post(self.base_url+"/api/chat",json=payload,timeout=self.timeout).raise_for_status().json()

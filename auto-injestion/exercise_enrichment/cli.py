@@ -8,6 +8,7 @@ from .global_analysis import analyze
 from .staging import create_staging,promote
 from .benchmark import run as benchmark_run
 from .verification import verify_staging
+from .gemini import GeminiClient
 app=typer.Typer(no_args_is_help=True)
 
 def cfg(spring_project=None,ollama_url=None,model=None): return Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model)
@@ -50,5 +51,5 @@ def verify_staging_cmd(spring_project:Path=Path(".")):
 def resume_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
 @app.command("benchmark")
-def benchmark_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
-    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); schema={"type":"object","required":["exercise_id","proposed","overall_confidence"]}; result=benchmark_run(__import__('exercise_enrichment.ollama',fromlist=['OllamaClient']).OllamaClient(s.ollama_url,s.model),records,schema); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/benchmark.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["passed"] else 3)
+def benchmark_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b",sample_size:int=40):
+    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); schema={"type":"object","required":["exercise_id","proposed","overall_confidence"]}; client=GeminiClient(s.gemini_api_key,s.gemini_model) if s.gemini_api_key else __import__('exercise_enrichment.ollama',fromlist=['OllamaClient']).OllamaClient(s.ollama_url,s.model); result=benchmark_run(client,records,schema,sample_size); (s.data_dir/"reports").mkdir(parents=True,exist_ok=True); (s.data_dir/"reports/benchmark.json").write_text(json.dumps(result,indent=2),encoding="utf-8"); typer.echo(json.dumps(result,indent=2)); raise typer.Exit(code=0 if result["passed"] else 3)

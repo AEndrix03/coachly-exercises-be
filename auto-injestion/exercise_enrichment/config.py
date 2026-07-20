@@ -7,6 +7,9 @@ class Settings(BaseModel):
     data_dir: Path = Path("data")
     ollama_url: str = "http://localhost:11434"
     model: str = "qwen3:4b"
+    gemini_api_key: str | None = None
+    gemini_model: str = "gemini-2.5-flash"
+    gemini_models: list[str] = ["gemma-4-31b-it", "gemma-4-26b-it"]
     embedding_model: str = "embeddinggemma"
     database_url: str | None = None
     schema: str = "exercises"
@@ -30,7 +33,10 @@ class Settings(BaseModel):
         values.update({k: v for k, v in overrides.items() if v is not None})
         values.setdefault("database_url", os.getenv("DATABASE_URL") or _database_url_from_env())
         values.setdefault("ollama_url", os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"))
-        values.setdefault("model", os.getenv("OLLAMA_GENERATION_MODEL", "qwen3:4b-instruct"))
+        values.setdefault("model", os.getenv("OLLAMA_GENERATION_MODEL", "qwen3:4b"))
+        values.setdefault("gemini_api_key", os.getenv("GEMINI_API_KEY"))
+        values.setdefault("gemini_model", os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+        values.setdefault("gemini_models", [x.strip() for x in os.getenv("GEMINI_MODELS", "gemma-4-31b-it,gemma-4-26b-it").split(",") if x.strip()])
         return cls.model_validate(values)
 
 def _database_url_from_env():

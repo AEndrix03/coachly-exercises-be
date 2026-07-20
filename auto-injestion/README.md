@@ -5,6 +5,7 @@ Pipeline stageda per scansione del progetto Spring, snapshot/audit del dataset e
 Installazione: `python -m pip install -e .`
 
 La connessione viene letta da `.env` tramite `COACHLY_DB_*`; il file non va committato.
+Per Gemini sono usati due worker in parallelo, `gemma-4-31b-it` e `gemma-4-26b-it`, con massimo 30 richieste/minuto per modello e retry dopo 429.
 
 Esecuzione dalla directory `auto-injestion`:
 
