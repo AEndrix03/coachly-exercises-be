@@ -1,6 +1,8 @@
 from pathlib import Path
 import hashlib, json, sqlite3, time
 from .spring_scan import scan_project
+from .ollama import OllamaClient
+from .validation import validate_proposal
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True); path.write_text(json.dumps(value, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -44,3 +46,22 @@ def report(settings, audit_result):
     write_json(settings.data_dir/"reports/initial_audit.json",audit_result)
     html="<html><body><h1>Exercise enrichment audit</h1><p>Total: %s</p><p>Issues: %s</p></body></html>"%(audit_result["total"],audit_result["issue_count"])
     p=settings.data_dir/"reports/initial_audit.html"; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(html,encoding="utf-8")
+
+def enrich(settings, records):
+    """Process resumably; model output is persisted only as a proposal."""
+    client=OllamaClient(settings.ollama_url, settings.model); out=settings.data_dir/"proposals"; out.mkdir(parents=True,exist_ok=True)
+    init_jobs(settings.data_dir/"pipeline.sqlite",records,settings.model); db=sqlite3.connect(settings.data_dir/"pipeline.sqlite")
+    schema={"type":"object","required":["exercise_id","proposed","overall_confidence"],"properties":{"exercise_id":{"type":"string"},"proposed":{"type":"object"},"overall_confidence":{"type":"number","minimum":0,"maximum":1}}}
+    done=0
+    for r in records:
+        rid=str(r.get("id")); target=out/(rid+".json")
+        if target.exists(): continue
+        prompt=json.dumps({"original":r,"rules":"Use only supplied original/catalog values. Never invent codes, UUIDs or percentages.","schema":schema},ensure_ascii=False)
+        try:
+            response=client.chat(prompt,schema); raw=response.get("message",{}).get("content",response.get("response",response)); proposal=json.loads(raw) if isinstance(raw,str) else raw
+            validation=validate_proposal(proposal,r)
+            target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8")
+            db.execute("UPDATE enrichment_job SET status=?,attempts=attempts+1,output_path=?,completed_at=datetime('now') WHERE exercise_id=?",(validation["status"],str(target),rid)); done+=1
+        except Exception as exc:
+            db.execute("UPDATE enrichment_job SET status='REJECTED',attempts=attempts+1,error_message=? WHERE exercise_id=?",(str(exc),rid))
+    db.commit(); db.close(); return done

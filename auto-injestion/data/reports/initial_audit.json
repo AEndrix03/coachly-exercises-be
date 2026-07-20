@@ -2,5 +2,701 @@
   "total": 2524,
   "issue_count": 0,
   "issues": [],
-  "valid": true
+  "valid": true,
+  "global": {
+    "duplicate_candidates": [
+      {
+        "left": "00b2457e-fe42-492e-b396-c690186a3de2",
+        "right": "d9591eaf-f03d-4a70-aba0-b9fe5c36e986",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "07994b14-a72c-4b6b-b186-e7a7c17724ae",
+        "right": "33aecf44-b630-4307-860d-68a4deadcb2d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "07c0b438-e662-460e-ba17-791835bc88c1",
+        "right": "33db0473-798e-403a-8ceb-988844cbaac7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "07c0b438-e662-460e-ba17-791835bc88c1",
+        "right": "2c679c47-5e6b-472f-b675-6496bf11f592",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "07ee725f-6511-490f-bfea-abb5eab7e418",
+        "right": "f39f2600-8ea5-47c2-8028-6177020ac62f",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "09772fdf-fd5d-4a48-aba7-72a91b0e4f01",
+        "right": "4682df3f-0a32-4342-abdc-94b2bb24dbdf",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "09cb666b-0115-4299-9e12-07aa91b16a24",
+        "right": "b71de54b-894f-49d2-a749-7957f180557d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "0b2cb9d1-13b1-44db-8ecc-ab10c672906d",
+        "right": "57d788f5-3741-4cd1-9604-3f828506b4d6",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "0bd69bee-fc95-4367-84fc-ebbaecb221b2",
+        "right": "23e1be85-d26f-4d8d-95f1-c595371011b2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "0f95662b-d6d0-4289-aebd-8495044302f0",
+        "right": "235379df-af72-4bdb-9b13-9a48a9443614",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "12bc7869-0bef-4d6b-bea3-534c75c7a793",
+        "right": "c05a6389-39b5-415e-a8d6-0985d36fcbc7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "14f9fd9e-e473-4f9e-a7fc-08ad0eb76150",
+        "right": "6a23592a-e5c5-4bc1-8a34-292c2e13c9ef",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "14f9fd9e-e473-4f9e-a7fc-08ad0eb76150",
+        "right": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "1756acba-88d6-4ef0-8946-16fa18e2e52a",
+        "right": "9ed70ae2-3cbd-4619-8dcb-cf96f9fc56ef",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "1ae1bed5-66b8-42e5-b72c-c129076c787c",
+        "right": "a99381ed-6027-45df-88bb-27332b2aef70",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "1c061207-e6a6-4db5-a232-98145ffb65dc",
+        "right": "910eb6c4-15e8-4daa-90a6-36b6c5ed8f79",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "219b0cc6-6c6e-48b2-beae-6571cae17e90",
+        "right": "7abbcb61-1a8c-4c3b-925f-e86c88d6e48b",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "23038e34-22e8-4d21-9813-1ba3aff6a6c8",
+        "right": "462e3428-1359-4d2f-9a91-ad9ea91bb0cc",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "235379df-af72-4bdb-9b13-9a48a9443614",
+        "right": "0f95662b-d6d0-4289-aebd-8495044302f0",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "23d6ef89-d9d1-4a63-9a54-db6980f4c6ae",
+        "right": "4b86acac-8553-4054-a6a0-512abd16755b",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "23e1be85-d26f-4d8d-95f1-c595371011b2",
+        "right": "0bd69bee-fc95-4367-84fc-ebbaecb221b2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "24fa66b0-3f2a-4c6e-a497-73168804a643",
+        "right": "d174efbb-c1a9-4fb3-b755-11af62928ac3",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "2a9a243d-25b3-473c-9dff-04bd7473df0c",
+        "right": "dc9bb059-7ab1-44eb-b78c-21b27282a144",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "2c679c47-5e6b-472f-b675-6496bf11f592",
+        "right": "07c0b438-e662-460e-ba17-791835bc88c1",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "3115c05f-40a5-416a-bbc7-0ef81ef64a9f",
+        "right": "f48ab31f-7d1e-4853-9ebf-ae1ed3d88576",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "31627ac4-a79d-4b24-a111-70d805d87c36",
+        "right": "aa07dd5b-d76a-4693-b74d-cec31cc2f851",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "33880605-51bc-4105-a1af-f3fde610c15e",
+        "right": "e1247fb0-f50f-4df1-9c73-22b68096e890",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "33aecf44-b630-4307-860d-68a4deadcb2d",
+        "right": "07994b14-a72c-4b6b-b186-e7a7c17724ae",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "33db0473-798e-403a-8ceb-988844cbaac7",
+        "right": "07c0b438-e662-460e-ba17-791835bc88c1",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "34df6c16-3276-412f-816a-67d1e1838512",
+        "right": "daa4d062-3415-40c8-bf48-98aa7433a371",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "35033e90-8bb7-424a-a19b-1bd08a496bb5",
+        "right": "c61a00d7-d300-4cde-99af-596185806ba4",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "3714095b-4401-4275-bb70-c952e6a11551",
+        "right": "b84758c2-a82a-42e2-9343-d3e19fbbd0e7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "3c45de55-c538-459f-9113-ae490333c8bb",
+        "right": "f3761b0b-92c1-4508-8354-525255a0f6be",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4120a232-5829-4b55-bbc1-ea80e82c3954",
+        "right": "c96d9223-b708-42f1-91fc-f183cf00c0a1",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "42ebc834-481b-4c81-9c83-36ccb54a5b1a",
+        "right": "dd6d4cf6-71d5-49c2-bdad-d18fad436f4d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "462e3428-1359-4d2f-9a91-ad9ea91bb0cc",
+        "right": "23038e34-22e8-4d21-9813-1ba3aff6a6c8",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4682df3f-0a32-4342-abdc-94b2bb24dbdf",
+        "right": "09772fdf-fd5d-4a48-aba7-72a91b0e4f01",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "right": "b25ab5ff-4eda-4cdc-a255-83986a1b028a",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "right": "65b6a1bd-b824-4164-bf7b-b8c87fcfda51",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "right": "14f9fd9e-e473-4f9e-a7fc-08ad0eb76150",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "4b86acac-8553-4054-a6a0-512abd16755b",
+        "right": "23d6ef89-d9d1-4a63-9a54-db6980f4c6ae",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "5464c6cd-8dc1-46f1-809f-a0ec3448b1a4",
+        "right": "91af7f42-4af7-4918-9686-94a28ff1b1e7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "54ea45a7-324b-4add-b63e-0f65f8bfe09e",
+        "right": "8afb399e-05a1-401e-8e9e-56ae80e4e704",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "56864ac9-baba-451d-872d-95b41a8a3c3e",
+        "right": "d7049252-c3d1-47bc-ba1a-070c4296e1ab",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "56bb3a43-9eab-401c-a7bc-9ceabdb00c96",
+        "right": "da4d1403-46c3-4c75-90cf-e427df7b469e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "57d788f5-3741-4cd1-9604-3f828506b4d6",
+        "right": "0b2cb9d1-13b1-44db-8ecc-ab10c672906d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "59316a49-8578-4be8-b39c-a3a98b387b3e",
+        "right": "83584b55-78bb-41c4-95a8-47d8592f9026",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "5b51434e-ac73-4522-bb6f-9fe6aa26a1a3",
+        "right": "f526398b-1f6e-4aa6-8736-e078fb820b1d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "5b51434e-ac73-4522-bb6f-9fe6aa26a1a3",
+        "right": "a200aba0-ff72-4305-a39d-b7d918e8ba3e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "65b6a1bd-b824-4164-bf7b-b8c87fcfda51",
+        "right": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "686fb09b-4ba1-42df-bfc4-0e39ad33ec47",
+        "right": "77775a31-3a68-4012-afd3-b7c1559350df",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "6a23592a-e5c5-4bc1-8a34-292c2e13c9ef",
+        "right": "b25ab5ff-4eda-4cdc-a255-83986a1b028a",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "6a23592a-e5c5-4bc1-8a34-292c2e13c9ef",
+        "right": "14f9fd9e-e473-4f9e-a7fc-08ad0eb76150",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "6e256930-c871-4cb2-b94e-3c430b1ef261",
+        "right": "fd77f5a5-38b2-484d-a14b-199f46216d98",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "7388d3b5-ca47-4d81-a5bf-ef25d65e4991",
+        "right": "ed751569-2579-4c5d-92bc-89f4de0fc4bb",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "754129bf-ef59-4b91-926d-d0515e2edec4",
+        "right": "ae2a87ad-2996-4526-928a-e9c2897e7901",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "77775a31-3a68-4012-afd3-b7c1559350df",
+        "right": "686fb09b-4ba1-42df-bfc4-0e39ad33ec47",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "7abbcb61-1a8c-4c3b-925f-e86c88d6e48b",
+        "right": "219b0cc6-6c6e-48b2-beae-6571cae17e90",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "7cf5d82e-5383-44b3-a8bb-20d13d2c8a60",
+        "right": "92245ab0-e1c3-4208-89d3-f39c879fcf4d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "81ce111a-c5dd-497f-aa08-ab6d1a2be562",
+        "right": "b94e04e2-6e46-4ee8-867d-9994efb6040f",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "83584b55-78bb-41c4-95a8-47d8592f9026",
+        "right": "59316a49-8578-4be8-b39c-a3a98b387b3e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "8afb399e-05a1-401e-8e9e-56ae80e4e704",
+        "right": "54ea45a7-324b-4add-b63e-0f65f8bfe09e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "910eb6c4-15e8-4daa-90a6-36b6c5ed8f79",
+        "right": "1c061207-e6a6-4db5-a232-98145ffb65dc",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "91af7f42-4af7-4918-9686-94a28ff1b1e7",
+        "right": "5464c6cd-8dc1-46f1-809f-a0ec3448b1a4",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "92245ab0-e1c3-4208-89d3-f39c879fcf4d",
+        "right": "7cf5d82e-5383-44b3-a8bb-20d13d2c8a60",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "95ccfadd-7130-44c5-8039-128707e2374c",
+        "right": "fefc262a-ac5c-4580-8a7e-ec562c3df440",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "97c8f8f7-ade3-4c05-8116-4197c2912dec",
+        "right": "a5f8738f-6614-4f8d-9d7b-5103c6c9e04d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "97c8f8f7-ade3-4c05-8116-4197c2912dec",
+        "right": "a5b5d4f2-61a2-479d-853c-120ab93248ea",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "987eac38-923e-402b-a508-a34156fc90c3",
+        "right": "c05a6389-39b5-415e-a8d6-0985d36fcbc7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "9ac6b1cc-0550-4885-82dc-d304d7e7e273",
+        "right": "c70e4d1c-f2e1-43db-8a25-19672d157e21",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "9e47cc4d-cf47-4907-a7eb-044bab464835",
+        "right": "e00ebe1e-88aa-4cba-9e1f-249c8537f124",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "9ed70ae2-3cbd-4619-8dcb-cf96f9fc56ef",
+        "right": "1756acba-88d6-4ef0-8946-16fa18e2e52a",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a13cc71f-1ac9-4d17-9873-1fc1e9d75370",
+        "right": "d523dfab-f06b-4c06-8493-3445394032d2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a200aba0-ff72-4305-a39d-b7d918e8ba3e",
+        "right": "5b51434e-ac73-4522-bb6f-9fe6aa26a1a3",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a431a37a-f443-4a89-9e1a-d8adfa42ffa2",
+        "right": "b6f87b84-155a-4470-afbc-0e920e610401",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a5b5d4f2-61a2-479d-853c-120ab93248ea",
+        "right": "a5f8738f-6614-4f8d-9d7b-5103c6c9e04d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a5b5d4f2-61a2-479d-853c-120ab93248ea",
+        "right": "97c8f8f7-ade3-4c05-8116-4197c2912dec",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a5f8738f-6614-4f8d-9d7b-5103c6c9e04d",
+        "right": "a5b5d4f2-61a2-479d-853c-120ab93248ea",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a5f8738f-6614-4f8d-9d7b-5103c6c9e04d",
+        "right": "97c8f8f7-ade3-4c05-8116-4197c2912dec",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a944b1e6-1ca8-4503-93ea-f4935e46fdc1",
+        "right": "eab0b6ba-0abc-435b-8f64-911681fdf94f",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "a99381ed-6027-45df-88bb-27332b2aef70",
+        "right": "1ae1bed5-66b8-42e5-b72c-c129076c787c",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "aa07dd5b-d76a-4693-b74d-cec31cc2f851",
+        "right": "31627ac4-a79d-4b24-a111-70d805d87c36",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "ae2a87ad-2996-4526-928a-e9c2897e7901",
+        "right": "754129bf-ef59-4b91-926d-d0515e2edec4",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "aea5759b-0596-480e-b8ee-b65ebc725278",
+        "right": "fc6732bb-6466-410a-b8a1-ead6aef4f060",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b227ff2f-2497-4acb-8bc5-68e85cb52414",
+        "right": "de87052e-7be7-42f6-9d68-e6edbc45d3e0",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b25ab5ff-4eda-4cdc-a255-83986a1b028a",
+        "right": "6a23592a-e5c5-4bc1-8a34-292c2e13c9ef",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b25ab5ff-4eda-4cdc-a255-83986a1b028a",
+        "right": "4891da91-e39d-454d-9d8f-6ea3a7818dfe",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b6f87b84-155a-4470-afbc-0e920e610401",
+        "right": "a431a37a-f443-4a89-9e1a-d8adfa42ffa2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b71de54b-894f-49d2-a749-7957f180557d",
+        "right": "09cb666b-0115-4299-9e12-07aa91b16a24",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b84758c2-a82a-42e2-9343-d3e19fbbd0e7",
+        "right": "3714095b-4401-4275-bb70-c952e6a11551",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "b94e04e2-6e46-4ee8-867d-9994efb6040f",
+        "right": "81ce111a-c5dd-497f-aa08-ab6d1a2be562",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "bd5d1d2f-a770-4887-91e1-15ed02e5ce58",
+        "right": "bf01f8a7-3b33-4050-972a-2d057b3a0e40",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "be8f1280-c817-4424-a8f9-f0d61159351d",
+        "right": "e63a7ccc-07f4-4506-b630-ebea086191f7",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "bf01f8a7-3b33-4050-972a-2d057b3a0e40",
+        "right": "bd5d1d2f-a770-4887-91e1-15ed02e5ce58",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "bfd715f5-9bb4-4913-ac44-25d6a8ea20fe",
+        "right": "d0c6c4bb-40f7-4ec1-8301-5c390ab5cbd0",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c0543089-f054-4ff4-9ba3-f8284e4dca1d",
+        "right": "d979cb34-a309-4a00-a331-093ab2dd5b28",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c05a6389-39b5-415e-a8d6-0985d36fcbc7",
+        "right": "987eac38-923e-402b-a508-a34156fc90c3",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c05a6389-39b5-415e-a8d6-0985d36fcbc7",
+        "right": "12bc7869-0bef-4d6b-bea3-534c75c7a793",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c172e0c2-50c0-4980-908d-e35a05d03965",
+        "right": "f540c580-bbb4-4b35-a7d3-00de510d4c15",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c22356dc-323a-4fb1-8e61-1a1e750d39b1",
+        "right": "ee7cbef6-df11-490b-8469-e1d3ab404f67",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c4e72f5e-372c-49ac-84d0-0b161ef37073",
+        "right": "f0bead58-b5b8-48da-86ca-1c9468e1f688",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c61a00d7-d300-4cde-99af-596185806ba4",
+        "right": "35033e90-8bb7-424a-a19b-1bd08a496bb5",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c70e4d1c-f2e1-43db-8a25-19672d157e21",
+        "right": "9ac6b1cc-0550-4885-82dc-d304d7e7e273",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "c96d9223-b708-42f1-91fc-f183cf00c0a1",
+        "right": "4120a232-5829-4b55-bbc1-ea80e82c3954",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d0c6c4bb-40f7-4ec1-8301-5c390ab5cbd0",
+        "right": "bfd715f5-9bb4-4913-ac44-25d6a8ea20fe",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d174efbb-c1a9-4fb3-b755-11af62928ac3",
+        "right": "24fa66b0-3f2a-4c6e-a497-73168804a643",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d523dfab-f06b-4c06-8493-3445394032d2",
+        "right": "a13cc71f-1ac9-4d17-9873-1fc1e9d75370",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d7049252-c3d1-47bc-ba1a-070c4296e1ab",
+        "right": "56864ac9-baba-451d-872d-95b41a8a3c3e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d9591eaf-f03d-4a70-aba0-b9fe5c36e986",
+        "right": "00b2457e-fe42-492e-b396-c690186a3de2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "d979cb34-a309-4a00-a331-093ab2dd5b28",
+        "right": "c0543089-f054-4ff4-9ba3-f8284e4dca1d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "da4d1403-46c3-4c75-90cf-e427df7b469e",
+        "right": "56bb3a43-9eab-401c-a7bc-9ceabdb00c96",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "da846f13-c9ff-4d6c-8045-1cfd3fa7f1ad",
+        "right": "e2ba6aa0-86cb-42e5-8269-81bb406ffa01",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "daa4d062-3415-40c8-bf48-98aa7433a371",
+        "right": "34df6c16-3276-412f-816a-67d1e1838512",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "dc9bb059-7ab1-44eb-b78c-21b27282a144",
+        "right": "2a9a243d-25b3-473c-9dff-04bd7473df0c",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "dd146c0a-2625-4c57-a67a-8d024f61c6ee",
+        "right": "f76ef5fc-7b37-4fea-8d91-bd385a4f1a65",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "dd6d4cf6-71d5-49c2-bdad-d18fad436f4d",
+        "right": "42ebc834-481b-4c81-9c83-36ccb54a5b1a",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "de87052e-7be7-42f6-9d68-e6edbc45d3e0",
+        "right": "b227ff2f-2497-4acb-8bc5-68e85cb52414",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "e00ebe1e-88aa-4cba-9e1f-249c8537f124",
+        "right": "9e47cc4d-cf47-4907-a7eb-044bab464835",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "e1247fb0-f50f-4df1-9c73-22b68096e890",
+        "right": "33880605-51bc-4105-a1af-f3fde610c15e",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "e2ba6aa0-86cb-42e5-8269-81bb406ffa01",
+        "right": "da846f13-c9ff-4d6c-8045-1cfd3fa7f1ad",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "e63a7ccc-07f4-4506-b630-ebea086191f7",
+        "right": "be8f1280-c817-4424-a8f9-f0d61159351d",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "e86ba10d-6bc2-405d-b280-97c893c65ded",
+        "right": "f16ac2c1-6164-450d-aacf-e152b60a2fd6",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "eab0b6ba-0abc-435b-8f64-911681fdf94f",
+        "right": "a944b1e6-1ca8-4503-93ea-f4935e46fdc1",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "ed751569-2579-4c5d-92bc-89f4de0fc4bb",
+        "right": "7388d3b5-ca47-4d81-a5bf-ef25d65e4991",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "ee7cbef6-df11-490b-8469-e1d3ab404f67",
+        "right": "c22356dc-323a-4fb1-8e61-1a1e750d39b1",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "effddfb6-383b-4710-848c-4dfd2f19dbd2",
+        "right": "f9527356-2d3f-47bb-b98e-d54695f4bc83",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f0bead58-b5b8-48da-86ca-1c9468e1f688",
+        "right": "c4e72f5e-372c-49ac-84d0-0b161ef37073",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f16ac2c1-6164-450d-aacf-e152b60a2fd6",
+        "right": "e86ba10d-6bc2-405d-b280-97c893c65ded",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f3761b0b-92c1-4508-8354-525255a0f6be",
+        "right": "3c45de55-c538-459f-9113-ae490333c8bb",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f39f2600-8ea5-47c2-8028-6177020ac62f",
+        "right": "07ee725f-6511-490f-bfea-abb5eab7e418",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f48ab31f-7d1e-4853-9ebf-ae1ed3d88576",
+        "right": "3115c05f-40a5-416a-bbc7-0ef81ef64a9f",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f526398b-1f6e-4aa6-8736-e078fb820b1d",
+        "right": "5b51434e-ac73-4522-bb6f-9fe6aa26a1a3",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f540c580-bbb4-4b35-a7d3-00de510d4c15",
+        "right": "c172e0c2-50c0-4980-908d-e35a05d03965",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f76ef5fc-7b37-4fea-8d91-bd385a4f1a65",
+        "right": "dd146c0a-2625-4c57-a67a-8d024f61c6ee",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "f9527356-2d3f-47bb-b98e-d54695f4bc83",
+        "right": "effddfb6-383b-4710-848c-4dfd2f19dbd2",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "fc6732bb-6466-410a-b8a1-ead6aef4f060",
+        "right": "aea5759b-0596-480e-b8ee-b65ebc725278",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "fd77f5a5-38b2-484d-a14b-199f46216d98",
+        "right": "6e256930-c871-4cb2-b94e-3c430b1ef261",
+        "classification": "SAME_EXERCISE"
+      },
+      {
+        "left": "fefc262a-ac5c-4580-8a7e-ec562c3df440",
+        "right": "95ccfadd-7130-44c5-8039-128707e2374c",
+        "classification": "SAME_EXERCISE"
+      }
+    ],
+    "variation_cycles": [],
+    "valid": false
+  }
 }
