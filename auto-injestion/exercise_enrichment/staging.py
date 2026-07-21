@@ -12,7 +12,7 @@ def create_staging(database_url, source_schema, staging_schema):
 def import_proposals(database_url, source_schema, staging_schema, proposals_dir):
     """Copy source first, then apply only explicitly present scalar proposal fields."""
     if not database_url: return {"imported":False,"reason":"DATABASE_URL is not configured"}
-import json
+    import json
     from pathlib import Path
     import psycopg
     allowed={"name","difficulty","mechanics","force","unilateral","bodyweight","overall_risk","spotter_required","visibility","translations"}; applied=0
