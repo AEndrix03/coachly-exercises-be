@@ -12,7 +12,7 @@ def create_staging(database_url, source_schema, staging_schema):
 def import_proposals(database_url, source_schema, staging_schema, proposals_dir):
     """Copy source first, then apply only explicitly present scalar proposal fields."""
     if not database_url: return {"imported":False,"reason":"DATABASE_URL is not configured"}
-    import json
+import json
     from pathlib import Path
     import psycopg
     allowed={"name","difficulty","mechanics","force","unilateral","bodyweight","overall_risk","spotter_required","visibility","translations"}; applied=0
@@ -26,12 +26,18 @@ def import_proposals(database_url, source_schema, staging_schema, proposals_dir)
             if "translations" in values and isinstance(values["translations"],dict): values["translations"]=json.dumps(values["translations"],ensure_ascii=False)
             sets=", ".join(f'"{k}"=%s' for k in values); cur.execute(f'UPDATE "{staging_schema}"."exercise" SET {sets}, updated_at=now() WHERE id=%s',list(values.values())+[proposal.get("exercise_id")]); applied+=cur.rowcount
             exercise_id=proposal.get("exercise_id")
+            for candidate in proposal.get("proposed",{}).get("new_tag_candidates",[]):
+                code="".join(ch.lower() if ch.isalnum() else "_" for ch in str(candidate)).strip("_")[:150]
+                if code:
+                    cur.execute(f'''INSERT INTO "{staging_schema}"."tag"(id,code,tag_type,status,translations,created_at,updated_at) VALUES(gen_random_uuid(),%s,'llm_candidate','active','{{}}'::jsonb,now(),now()) ON CONFLICT (code) DO NOTHING''',(code,))
             for code in proposal.get("proposed",{}).get("tags",[]):
                 cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_tag"(exercise_id,tag_id,created_at) SELECT %s,id,now() FROM "{staging_schema}"."tag" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
             for code in proposal.get("proposed",{}).get("categories",[]):
                 cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_category"(exercise_id,category_id,is_primary,created_at) SELECT %s,id,false,now() FROM "{staging_schema}"."category" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
             for code in proposal.get("proposed",{}).get("equipment",[]):
                 cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_equipment"(exercise_id,equipment_id,required,is_primary,quantity_needed,created_at) SELECT %s,id,true,false,1,now() FROM "{staging_schema}"."equipment" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
+            for target in proposal.get("proposed",{}).get("variations",[]):
+                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_variation"(base_exercise_id,variant_exercise_id,variation_type,difficulty_delta,created_at) SELECT %s,id,'related',NULL,now() FROM "{staging_schema}"."exercise" WHERE id::text=%s AND id<>%s ON CONFLICT DO NOTHING''',(exercise_id,str(target),exercise_id))
     return {"imported":True,"applied_rows":applied}
 
 def promote(database_url, staging_schema, source_schema):
