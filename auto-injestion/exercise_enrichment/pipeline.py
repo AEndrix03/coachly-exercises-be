@@ -94,7 +94,7 @@ def enrich(settings, records):
     if settings.gemini_api_key:
         available = catalogs(settings.database_url, settings.db_schema)
         pending = []
-        prompt_version = "v4"
+        prompt_version = "v5"
         archive_dir = settings.data_dir / "proposals_previous"
         for record in records:
             target = proposals_dir / f"{record.get('id')}.json"

@@ -103,8 +103,9 @@ Regole di affidabilita e qualita:
 5. Compila sempre italiano e inglese naturale, semanticamente equivalenti, senza campi inglesi vuoti. Non tradurre alla lettera se risulta innaturale.
 6. description_it e description_en: una o due frasi fattuali e concise che identificano esattamente il movimento; niente marketing, preamboli, benefici generici, diagnosi o dettagli ripetuti.
 7. execution_tips_it/en e safety_tips_it/en: 3-5 punti pratici, completi e specifici del gesto. Includi setup, traiettoria, respirazione/controllo quando pertinenti e i rischi tecnici reali; non ripetere la descrizione. Ogni punto deve restare sotto 22 parole.
+   Non prescrivere velocita esplosiva, carichi, angoli numerici, dolore, infortuni o tecniche avanzate se non sono intrinseci e indispensabili al movimento.
 8. Elenca in modo completo muscoli, categorie, attrezzatura e tag pertinenti usando solo i codici disponibili. Non aggiungere attrezzi opzionali come se fossero necessari, ne muscoli non coinvolti in modo rilevante.
-9. Conserva e aggiungi solo varianti realmente pertinenti. Se serve un nuovo tag o esercizio, usa rispettivamente new_tag_candidates o new_exercise_candidates, ma solo quando la denominazione e reale e specifica.
+9. Non assegnare tag editoriali o di popolarita (popular, coachly_pick, underrated, time_efficient): non sono deducibili dal gesto. Conserva e aggiungi solo varianti realmente pertinenti. Se serve un nuovo tag o esercizio, usa rispettivamente new_tag_candidates o new_exercise_candidates, ma solo quando la denominazione e reale e specifica.
 
 INPUT:
 """ + json.dumps({"original": record}, default=str, ensure_ascii=False)
