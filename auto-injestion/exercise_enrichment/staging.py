@@ -26,6 +26,10 @@ import json
             if "translations" in values and isinstance(values["translations"],dict): values["translations"]=json.dumps(values["translations"],ensure_ascii=False)
             sets=", ".join(f'"{k}"=%s' for k in values); cur.execute(f'UPDATE "{staging_schema}"."exercise" SET {sets}, updated_at=now() WHERE id=%s',list(values.values())+[proposal.get("exercise_id")]); applied+=cur.rowcount
             exercise_id=proposal.get("exercise_id")
+            for candidate in proposal.get("proposed",{}).get("new_exercise_candidates",[]):
+                name=str(candidate).strip()
+                if name:
+                    cur.execute(f'''INSERT INTO "{staging_schema}"."exercise"(id,name,difficulty,mechanics,force,unilateral,bodyweight,overall_risk,spotter_required,visibility,status,translations,created_at,updated_at) SELECT gen_random_uuid(),%s,'beginner','compound',NULL,false,false,'low',false,'public','active','{{}}'::jsonb,now(),now() WHERE NOT EXISTS (SELECT 1 FROM "{staging_schema}"."exercise" WHERE lower(name)=lower(%s))''',(name,name))
             for candidate in proposal.get("proposed",{}).get("new_tag_candidates",[]):
                 code="".join(ch.lower() if ch.isalnum() else "_" for ch in str(candidate)).strip("_")[:150]
                 if code:
