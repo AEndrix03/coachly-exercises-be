@@ -1,8 +1,9 @@
 from pathlib import Path
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 import os, yaml
 
 class Settings(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
     spring_project: Path = Path("../coachly-exercise-service")
     data_dir: Path = Path("data")
     ollama_url: str = "http://localhost:11434"
@@ -12,7 +13,7 @@ class Settings(BaseModel):
     gemini_models: list[str] = ["gemma-4-31b-it", "gemma-4-26b-a4b-it"]
     embedding_model: str = "embeddinggemma"
     database_url: str | None = None
-    schema: str = "exercises"
+    db_schema: str = Field(default="exercises", alias="schema")
     staging_schema: str = "exercises_staging"
     workers: int = 1
     max_records: int | None = None

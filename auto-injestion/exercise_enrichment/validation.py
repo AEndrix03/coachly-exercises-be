@@ -7,7 +7,7 @@ def validate_proposal(proposal, original, catalogs=None, confidence=(.85,.65)):
     try: UUID(str(proposal["exercise_id"]))
     except (KeyError,ValueError,TypeError): errors.append("INVALID_EXERCISE_ID")
     for field, key in (("muscles","muscles"),("categories","categories"),("equipment","equipment"),("tags","tags")):
-        allowed=set(catalogs.get(field, []))
+        allowed={item.get("code") if isinstance(item, dict) else item for item in catalogs.get(field, [])}
         for item in proposal.get("proposed",{}).get(key,[]):
             code=item.get("code") if isinstance(item,dict) else item
             if allowed and code not in allowed: errors.append("UNKNOWN_"+field.upper()+":"+str(code))

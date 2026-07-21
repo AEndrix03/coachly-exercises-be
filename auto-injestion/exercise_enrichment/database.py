@@ -29,8 +29,13 @@ def catalogs(database_url, schema="exercises"):
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
         result={}
         for table, key in (("muscle", "muscles"), ("category", "categories"), ("equipment", "equipment"), ("tag", "tags")):
-            cur.execute(f'SELECT code FROM "{schema}"."{table}" WHERE deleted_at IS NULL ORDER BY code')
-            result[key]=[r[0] for r in cur.fetchall()]
+            cur.execute(f'SELECT code, translations FROM "{schema}"."{table}" WHERE deleted_at IS NULL ORDER BY code')
+            entries=[]
+            for code, translations in cur.fetchall():
+                if isinstance(translations, str):
+                    translations=json.loads(translations)
+                entries.append({"code":code,"name_it":translations.get("it",{}).get("name",code),"name_en":translations.get("en",{}).get("name",code)})
+            result[key]=entries
         cur.execute(f'SELECT id,name FROM "{schema}"."exercise" WHERE deleted_at IS NULL ORDER BY name')
         result["exercises"]=[{"id":str(r[0]),"name":r[1]} for r in cur.fetchall()]
         return result

@@ -2,6 +2,7 @@ from pathlib import Path
 import hashlib
 import json
 import sqlite3
+import shutil
 
 from .database import catalogs, extract_rows
 from .ollama import OllamaClient
@@ -24,7 +25,7 @@ def extract(settings):
         raw = json.loads(dump.read_text(encoding="utf-8"))
         records = raw if isinstance(raw, list) else raw.get("exercises", raw.get("data", []))
     elif settings.database_url:
-        records = extract_rows(settings.database_url, "exercise", settings.schema)
+        records = extract_rows(settings.database_url, "exercise", settings.db_schema)
     else:
         records = []
     if settings.max_records is not None:
@@ -91,14 +92,27 @@ def enrich(settings, records):
     schema = _gemini_schema()
 
     if settings.gemini_api_key:
-        available = catalogs(settings.database_url, settings.schema)
+        available = catalogs(settings.database_url, settings.db_schema)
         pending = []
+        prompt_version = "v4"
+        archive_dir = settings.data_dir / "proposals_previous"
         for record in records:
-            if (proposals_dir / f"{record.get('id')}.json").exists():
-                continue
+            target = proposals_dir / f"{record.get('id')}.json"
+            if target.exists():
+                try:
+                    existing = json.loads(target.read_text(encoding="utf-8"))
+                except json.JSONDecodeError:
+                    existing = {}
+                if existing.get("prompt_version") == prompt_version:
+                    continue
+                archive_dir.mkdir(parents=True, exist_ok=True)
+                shutil.move(str(target), str(archive_dir / f"{record.get('id')}.pre-{prompt_version}.json"))
             candidate = dict(record)
-            candidate["_allowed_catalogs"] = {key: values for key, values in available.items() if key != "exercises"}
-            candidate["_candidate_variations"] = available.get("exercises", [])[:30]
+            candidate["_allowed_catalogs"] = {
+                key: [f"{item['code']} | {item['name_it']} | {item['name_en']}" for item in values]
+                for key, values in available.items() if key != "exercises"
+            }
+            candidate["_candidate_variations"] = [f"{item['id']} | {item['name']}" for item in available.get("exercises", [])[:30]]
             pending.append(candidate)
 
         def handle(response, record):
@@ -125,7 +139,7 @@ def enrich(settings, records):
             proposal = {"exercise_id": exercise_id, "proposed": proposed, "overall_confidence": flat.get("confidence", 0), "changes": ["translations", "catalog_relations"]}
             validation = validate_proposal(proposal, record, available)
             target = proposals_dir / f"{exercise_id}.json"
-            target.write_text(json.dumps({"exercise_id": exercise_id, "proposal": proposal, "validation": validation}, ensure_ascii=False, indent=2), encoding="utf-8")
+            target.write_text(json.dumps({"exercise_id": exercise_id, "prompt_version": prompt_version, "proposal": proposal, "validation": validation}, ensure_ascii=False, indent=2), encoding="utf-8")
             print(f"[enrich] {exercise_id} {validation['status']}", flush=True)
             return exercise_id, validation
 

@@ -7,6 +7,25 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from .gemini import GeminiClient
 
 
+def _compact_translations(value):
+    if isinstance(value, str):
+        try:
+            value = json.loads(value)
+        except json.JSONDecodeError:
+            return {}
+    if not isinstance(value, dict):
+        return {}
+    compact = {}
+    for language in ("it", "en"):
+        source = value.get(language, {})
+        if isinstance(source, dict):
+            compact[language] = {
+                "name": str(source.get("name", ""))[:120],
+                "description": str(source.get("description", ""))[:500],
+            }
+    return compact
+
+
 class RateLimitedGemini:
     """Independent rolling RPM/TPM limiter for one Gemini model."""
 
@@ -25,7 +44,7 @@ class RateLimitedGemini:
                 while self.tokens and now - self.tokens[0][0] >= 60:
                     self.tokens.popleft()
 
-                estimated = max(512, len(prompt) // 4 + 1024)
+                estimated = max(1024, len(prompt) // 4 + 2000)
                 used = sum(count for _, count in self.tokens)
                 if len(self.calls) < self.limit and used + estimated <= self.tpm:
                     break
@@ -68,39 +87,41 @@ class GeminiPool:
                 key: source_record.get(key)
                 for key in (
                     "id", "name", "difficulty", "mechanics", "force", "unilateral",
-                    "bodyweight", "overall_risk", "spotter_required", "translations",
+                    "bodyweight", "overall_risk", "spotter_required",
                     "_allowed_catalogs", "_candidate_variations",
                 )
             }
+            record["translations"] = _compact_translations(source_record.get("translations"))
             prompt = """Sei un revisore tecnico di un catalogo di esercizi.
 Restituisci esclusivamente JSON conforme allo schema e usa soltanto codici presenti in _allowed_catalogs e UUID presenti in _candidate_variations. Non inventare percentuali di attivazione muscolare.
 
 Regole di affidabilita e qualita:
-1. Prima di produrre il JSON verifica internamente che ogni campo sia meccanicamente coerente con il nome, i dati originali e l'esercizio realmente noto. Non mostrare il ragionamento.
-2. Non inventare: non aggiungere un muscolo, attrezzo, tag, variante, rischio, istruzione o descrizione che non sia specificamente plausibile per quell'esercizio. Se non sei sicuro, conserva il dato originale oppure lascia la proposta di quel campo vuota; non sostituirla con testo generico.
-3. Non confondere esercizi con nomi simili, movimenti diversi, varianti, lati del corpo, macchine e attrezzi. Una variante e pertinente soltanto se modifica in modo reale presa, carico, attrezzo, angolo, lato o schema motorio.
-4. Compila sempre italiano e inglese naturale, semanticamente equivalenti, senza campi inglesi vuoti. Non tradurre alla lettera se risulta innaturale.
-5. description_it e description_en: una o due frasi fattuali e concise che identificano esattamente il movimento; niente marketing, preamboli, benefici generici, diagnosi o dettagli ripetuti.
-6. execution_tips_it/en e safety_tips_it/en: 3-6 punti pratici, completi e specifici del gesto. Includi setup, traiettoria, respirazione/controllo quando pertinenti e i rischi tecnici reali; non ripetere la descrizione.
-7. Elenca in modo completo muscoli, categorie, attrezzatura e tag pertinenti usando solo i codici disponibili. Non aggiungere attrezzi opzionali come se fossero necessari, ne muscoli non coinvolti in modo rilevante.
-8. Conserva e aggiungi solo varianti realmente pertinenti. Se serve un nuovo tag o esercizio, usa rispettivamente new_tag_candidates o new_exercise_candidates, ma solo quando la denominazione e reale e specifica.
+1. Verifica internamente che ogni campo sia meccanicamente coerente con il nome, i dati originali e l'esercizio realmente noto. Non mostrare il ragionamento.
+2. I cataloghi includono codice e denominazioni reali: scegli un codice solo se denominazione e funzione corrispondono esattamente. Non usare il codice semanticamente piu vicino come sostituto di un attrezzo, muscolo o categoria assente.
+3. Non inventare: non aggiungere un muscolo, attrezzo, tag, variante, rischio, istruzione o descrizione che non sia specificamente plausibile per quell'esercizio. Se non sei sicuro, conserva il dato originale oppure lascia la proposta di quel campo vuota; non sostituirla con testo generico.
+4. Non confondere esercizi con nomi simili, movimenti diversi, varianti, lati del corpo, macchine e attrezzi. Una variante e pertinente soltanto se modifica in modo reale presa, carico, attrezzo, angolo, lato o schema motorio.
+5. Compila sempre italiano e inglese naturale, semanticamente equivalenti, senza campi inglesi vuoti. Non tradurre alla lettera se risulta innaturale.
+6. description_it e description_en: una o due frasi fattuali e concise che identificano esattamente il movimento; niente marketing, preamboli, benefici generici, diagnosi o dettagli ripetuti.
+7. execution_tips_it/en e safety_tips_it/en: 3-5 punti pratici, completi e specifici del gesto. Includi setup, traiettoria, respirazione/controllo quando pertinenti e i rischi tecnici reali; non ripetere la descrizione. Ogni punto deve restare sotto 22 parole.
+8. Elenca in modo completo muscoli, categorie, attrezzatura e tag pertinenti usando solo i codici disponibili. Non aggiungere attrezzi opzionali come se fossero necessari, ne muscoli non coinvolti in modo rilevante.
+9. Conserva e aggiungi solo varianti realmente pertinenti. Se serve un nuovo tag o esercizio, usa rispettivamente new_tag_candidates o new_exercise_candidates, ma solo quando la denominazione e reale e specifica.
 
 INPUT:
-""" + json.dumps({"original": record, "schema": schema}, default=str, ensure_ascii=False)
+""" + json.dumps({"original": record}, default=str, ensure_ascii=False)
             for attempt in range(3):
                 try:
                     return index, handler(worker.chat(prompt, schema), record)
                 except Exception as exc:
                     print(f"[enrich] {record.get('id')} {type(exc).__name__}: {exc}", flush=True)
                     transient = (
-                        "429" in str(exc)
+                        hasattr(exc, "retry_after")
                         or type(exc).__name__ in {"ReadTimeout", "ConnectError"}
                         or "503" in str(exc)
                         or "500" in str(exc)
                     )
                     if not transient or attempt == 2:
                         return index, exc
-                    time.sleep((5, 20, 60)[attempt])
+                    time.sleep(getattr(exc, "retry_after", (5, 20, 60)[attempt]))
 
         with ThreadPoolExecutor(max_workers=len(self.workers)) as pool:
             futures = [

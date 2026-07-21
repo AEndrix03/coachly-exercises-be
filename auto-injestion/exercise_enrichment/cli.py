@@ -25,7 +25,7 @@ def audit_cmd(spring_project:Path=Path(".")):
 @app.command()
 def run(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b",max_records:int|None=None,auto_promote:bool=False):
     s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model,max_records=max_records,auto_promote=auto_promote)
-    manifest,records=extract(s); dbmeta=metadata(s.database_url,s.schema); diff=schema_diff(manifest,dbmeta); report(s,{**audit(records),"schema_diff":diff}); init_jobs(s.data_dir/"pipeline.sqlite",records,s.model)
+    manifest,records=extract(s); dbmeta=metadata(s.database_url,s.db_schema); diff=schema_diff(manifest,dbmeta); report(s,{**audit(records),"schema_diff":diff}); init_jobs(s.data_dir/"pipeline.sqlite",records,s.model)
     if s.database_url and not diff["compatible"]: raise typer.Exit(code=3)
     if not result["valid"]: raise typer.Exit(code=2)
     typer.echo("STAGING VALIDATED\nRun `python -m exercise_enrichment promote` to apply the validated dataset.")
@@ -37,10 +37,10 @@ def validate_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result=audit(records); result["global"]=analyze(records); report(s,result); typer.echo(json.dumps(result,indent=2))
 @app.command("import-staging")
 def import_staging(spring_project:Path=Path(".")):
-    s=Settings.load(spring_project=spring_project); result=import_proposals(s.database_url,s.schema,s.staging_schema,s.data_dir/"proposals"); typer.echo(json.dumps(result))
+    s=Settings.load(spring_project=spring_project); result=import_proposals(s.database_url,s.db_schema,s.staging_schema,s.data_dir/"proposals"); typer.echo(json.dumps(result))
 @app.command("promote")
 def promote_cmd(spring_project:Path=Path(".")):
-    s=Settings.load(spring_project=spring_project); typer.echo(json.dumps(promote(s.database_url,s.staging_schema,s.schema)))
+    s=Settings.load(spring_project=spring_project); typer.echo(json.dumps(promote(s.database_url,s.staging_schema,s.db_schema)))
 @app.command("report")
 def report_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result={**audit(records),"global":analyze(records)}; report(s,result); typer.echo(str(s.data_dir/"reports"))
