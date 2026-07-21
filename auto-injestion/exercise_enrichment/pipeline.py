@@ -66,7 +66,9 @@ def enrich(settings, records):
             rid=str(record.get("id")); raw=response.get("response",response); flat=json.loads(raw.replace("```json","").replace("```","")) if isinstance(raw,str) else raw; proposed={"name":flat.get("name"),"difficulty":flat.get("difficulty"),"mechanics":flat.get("mechanics"),"force":flat.get("force"),"translations":{"it":{"name":flat.get("name"),"description":flat.get("description_it"),"executionTips":flat.get("execution_tips_it",[]),"safetyTips":flat.get("safety_tips_it",[])},"en":{"name":flat.get("name"),"description":flat.get("description_en"),"executionTips":[],"safetyTips":[]}},"muscles":flat.get("muscles",[]),"categories":flat.get("categories",[]),"equipment":flat.get("equipment",[]),"tags":flat.get("tags",[]),"new_tag_candidates":flat.get("new_tag_candidates",[]),"new_exercise_candidates":flat.get("new_exercise_candidates",[]),"variations":flat.get("variations",[])}; proposal={"exercise_id":rid,"proposed":proposed,"overall_confidence":flat.get("confidence",0),"changes":["translations","catalog_relations"]}; validation=validate_proposal(proposal,record); target=out/(rid+".json"); target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8"); print(f"[enrich] {rid} {validation['status']}",flush=True); return rid,validation
         results=pool.process(pending,schema,handle)
         for item in results:
-            if isinstance(item,tuple): db.execute("UPDATE enrichment_job SET status=?,attempts=attempts+1,completed_at=datetime('now') WHERE exercise_id=?",(item[1]["status"],item[0]))
+            if isinstance(item,tuple):
+                status=item[1]["status"] if isinstance(item[1],dict) else "REJECTED"
+                db.execute("UPDATE enrichment_job SET status=?,attempts=attempts+1,error_message=?,completed_at=datetime('now') WHERE exercise_id=?",(status,str(item[1]) if status=="REJECTED" else None,item[0]))
         db.commit(); db.close(); return len(results)
     client=OllamaClient(settings.ollama_url, settings.model)
     done=0

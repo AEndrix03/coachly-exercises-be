@@ -32,8 +32,9 @@ class GeminiPool:
                 try: return index,handler(worker.chat(prompt,schema),record)
                 except Exception as exc:
                     print(f"[enrich] {record.get('id')} {type(exc).__name__}: {exc}",flush=True)
-                    if "429" not in str(exc) or attempt==2: return index,exc
-                    time.sleep(60)
+                    transient=("429" in str(exc) or "ReadTimeout" in type(exc).__name__ or "ConnectError" in type(exc).__name__ or "503" in str(exc) or "500" in str(exc))
+                    if not transient or attempt==2: return index,exc
+                    time.sleep((5,20,60)[attempt])
         with ThreadPoolExecutor(max_workers=len(self.workers)) as pool:
             futures=[pool.submit(task,i,r,self.workers[i%len(self.workers)]) for i,r in enumerate(records)]
             for future in as_completed(futures): results.append(future.result())
