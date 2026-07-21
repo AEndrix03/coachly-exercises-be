@@ -22,7 +22,7 @@ class GeminiPool:
     def process(self, records, schema, handler):
         results=[]
         def task(index, record, worker):
-            prompt="""Sei un revisore tecnico di un catalogo di esercizi. Arricchisci davvero il record: non restituire proposed vuoto. Mantieni i valori corretti, completa translations in italiano e inglese con descrizione, executionTips e safetyTips. Non inventare UUID, codici di catalogo o percentuali muscolari. Se un valore non è determinabile, conserva quello originale e usa unresolved_issues. Restituisci solo JSON conforme allo schema.\n\nINPUT:\n"""+json.dumps({"original":record,"schema":schema},default=str,ensure_ascii=False)
+            prompt="""Sei un revisore tecnico di un catalogo di esercizi. Arricchisci davvero il record. Completa traduzioni, difficoltà, meccanica, forza, rischio, muscoli, categorie, attrezzature, tag e varianti quando determinabile. Usa ESCLUSIVAMENTE i codici presenti in _allowed_catalogs e gli UUID presenti in _candidate_variations. Non inventare UUID, codici o percentuali muscolari; mantieni le percentuali originali. Non restituire proposed vuoto. Restituisci solo JSON conforme allo schema.\n\nINPUT:\n"""+json.dumps({"original":record,"schema":schema},default=str,ensure_ascii=False)
             for attempt in range(3):
                 try: return index,handler(worker.chat(prompt,schema),record)
                 except Exception as exc:

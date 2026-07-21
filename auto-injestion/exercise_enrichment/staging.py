@@ -25,6 +25,13 @@ def import_proposals(database_url, source_schema, staging_schema, proposals_dir)
             if not values: continue
             if "translations" in values and isinstance(values["translations"],dict): values["translations"]=json.dumps(values["translations"],ensure_ascii=False)
             sets=", ".join(f'"{k}"=%s' for k in values); cur.execute(f'UPDATE "{staging_schema}"."exercise" SET {sets}, updated_at=now() WHERE id=%s',list(values.values())+[proposal.get("exercise_id")]); applied+=cur.rowcount
+            exercise_id=proposal.get("exercise_id")
+            for code in proposal.get("proposed",{}).get("tags",[]):
+                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_tag"(exercise_id,tag_id,created_at) SELECT %s,id,now() FROM "{staging_schema}"."tag" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
+            for code in proposal.get("proposed",{}).get("categories",[]):
+                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_category"(exercise_id,category_id,is_primary,created_at) SELECT %s,id,false,now() FROM "{staging_schema}"."category" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
+            for code in proposal.get("proposed",{}).get("equipment",[]):
+                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_equipment"(exercise_id,equipment_id,required,is_primary,quantity_needed,created_at) SELECT %s,id,true,false,1,now() FROM "{staging_schema}"."equipment" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
     return {"imported":True,"applied_rows":applied}
 
 def promote(database_url, staging_schema, source_schema):

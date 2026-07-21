@@ -3,7 +3,7 @@ import hashlib, json, sqlite3, time
 from .spring_scan import scan_project
 from .ollama import OllamaClient
 from .validation import validate_proposal
-from .database import extract_rows
+from .database import extract_rows,catalogs
 from .provider_pool import GeminiPool
 
 def write_json(path, value):
@@ -54,12 +54,15 @@ def enrich(settings, records):
     """Process resumably; model output is persisted only as a proposal."""
     out=settings.data_dir/"proposals"; out.mkdir(parents=True,exist_ok=True)
     init_jobs(settings.data_dir/"pipeline.sqlite",records,settings.model); db=sqlite3.connect(settings.data_dir/"pipeline.sqlite")
-    schema={"type":"object","required":["exercise_id","proposed","overall_confidence"],"properties":{"exercise_id":{"type":"string"},"proposed":{"type":"object","required":["translations"],"properties":{"name":{"type":"string"},"translations":{"type":"object"},"difficulty":{"type":"string"},"mechanics":{"type":"string"},"force":{"type":"string"},"unilateral":{"type":"boolean"},"bodyweight":{"type":"boolean"},"overall_risk":{"type":"string"},"spotter_required":{"type":"boolean"},"muscles":{"type":"array"},"categories":{"type":"array"},"equipment":{"type":"array"},"tags":{"type":"array"},"variations":{"type":"array"}}},"overall_confidence":{"type":"number","minimum":0,"maximum":1}}}
+    schema={"type":"object","properties":{"exercise_id":{"type":"string"},"name":{"type":"string"},"description_it":{"type":"string"},"description_en":{"type":"string"},"execution_tips_it":{"type":"array","items":{"type":"string"}},"safety_tips_it":{"type":"array","items":{"type":"string"}},"muscles":{"type":"array","items":{"type":"string"}},"categories":{"type":"array","items":{"type":"string"}},"equipment":{"type":"array","items":{"type":"string"}},"tags":{"type":"array","items":{"type":"string"}},"new_tag_candidates":{"type":"array","items":{"type":"string"}},"variations":{"type":"array","items":{"type":"string"}},"difficulty":{"type":"string"},"mechanics":{"type":"string"},"force":{"type":"string"},"confidence":{"type":"number"}},"required":["exercise_id","name","description_it","description_en","execution_tips_it","safety_tips_it","muscles","categories","equipment","tags","new_tag_candidates","variations","confidence"]}
     if settings.gemini_api_key:
         pool=GeminiPool(settings.gemini_api_key,settings.gemini_models)
-        pending=[r for r in records if not (out/(str(r.get("id"))+".json")).exists()]
+        available=catalogs(settings.database_url,settings.schema); pending=[]
+        for r in records:
+            if not (out/(str(r.get("id"))+".json")).exists():
+                copy=dict(r); copy["_allowed_catalogs"]={k:v for k,v in available.items() if k!="exercises"}; copy["_candidate_variations"]=available.get("exercises",[])[:30]; pending.append(copy)
         def handle(response, record):
-            rid=str(record.get("id")); raw=response.get("response",response); proposal=json.loads(raw) if isinstance(raw,str) else raw; validation=validate_proposal(proposal,record); target=out/(rid+".json"); target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8"); print(f"[enrich] {rid} {validation['status']}",flush=True); return rid,validation
+            rid=str(record.get("id")); raw=response.get("response",response); flat=json.loads(raw.replace("```json","").replace("```","")) if isinstance(raw,str) else raw; proposed={"name":flat.get("name"),"difficulty":flat.get("difficulty"),"mechanics":flat.get("mechanics"),"force":flat.get("force"),"translations":{"it":{"name":flat.get("name"),"description":flat.get("description_it"),"executionTips":flat.get("execution_tips_it",[]),"safetyTips":flat.get("safety_tips_it",[])},"en":{"name":flat.get("name"),"description":flat.get("description_en"),"executionTips":[],"safetyTips":[]}},"muscles":flat.get("muscles",[]),"categories":flat.get("categories",[]),"equipment":flat.get("equipment",[]),"tags":flat.get("tags",[]),"new_tag_candidates":flat.get("new_tag_candidates",[]),"variations":flat.get("variations",[])}; proposal={"exercise_id":rid,"proposed":proposed,"overall_confidence":flat.get("confidence",0),"changes":["translations","catalog_relations"]}; validation=validate_proposal(proposal,record); target=out/(rid+".json"); target.write_text(json.dumps({"exercise_id":rid,"proposal":proposal,"validation":validation},ensure_ascii=False,indent=2),encoding="utf-8"); print(f"[enrich] {rid} {validation['status']}",flush=True); return rid,validation
         results=pool.process(pending,schema,handle)
         for item in results:
             if isinstance(item,tuple): db.execute("UPDATE enrichment_job SET status=?,attempts=attempts+1,completed_at=datetime('now') WHERE exercise_id=?",(item[1]["status"],item[0]))

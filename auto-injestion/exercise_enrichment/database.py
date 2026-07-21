@@ -22,3 +22,15 @@ def extract_rows(database_url, table="exercise", schema="exercises"):
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
         cur.execute(f'SELECT * FROM "{schema}"."{table}"')
         names=[d.name for d in cur.description]; return [dict(zip(names,row)) for row in cur.fetchall()]
+
+def catalogs(database_url, schema="exercises"):
+    if not database_url: return {}
+    import psycopg
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        result={}
+        for table in ("muscle","category","equipment","tag"):
+            cur.execute(f'SELECT code FROM "{schema}"."{table}" WHERE deleted_at IS NULL ORDER BY code')
+            result[table+"s"]=[r[0] for r in cur.fetchall()]
+        cur.execute(f'SELECT id,name FROM "{schema}"."exercise" WHERE deleted_at IS NULL ORDER BY name')
+        result["exercises"]=[{"id":str(r[0]),"name":r[1]} for r in cur.fetchall()]
+        return result
