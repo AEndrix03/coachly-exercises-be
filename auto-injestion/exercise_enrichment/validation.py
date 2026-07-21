@@ -9,7 +9,7 @@ def validate_proposal(proposal, original, catalogs=None, confidence=(.85,.65)):
     for field, key in (("muscles","muscles"),("categories","categories"),("equipment","equipment"),("tags","tags")):
         allowed=set(catalogs.get(field, []))
         for item in proposal.get("proposed",{}).get(key,[]):
-            code=item.get("code")
+            code=item.get("code") if isinstance(item,dict) else item
             if allowed and code not in allowed: errors.append("UNKNOWN_"+field.upper()+":"+str(code))
     score=float(proposal.get("overall_confidence",0))
     status="ACCEPTED" if not errors and score>=confidence[0] else "MANUAL_REVIEW" if not errors and score>=confidence[1] else "REJECTED"

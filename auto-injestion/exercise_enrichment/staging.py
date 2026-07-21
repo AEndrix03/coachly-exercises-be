@@ -41,7 +41,7 @@ def import_proposals(database_url, source_schema, staging_schema, proposals_dir)
             for code in proposal.get("proposed",{}).get("equipment",[]):
                 cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_equipment"(exercise_id,equipment_id,required,is_primary,quantity_needed,created_at) SELECT %s,id,true,false,1,now() FROM "{staging_schema}"."equipment" WHERE code=%s ON CONFLICT DO NOTHING''',(exercise_id,code))
             for target in proposal.get("proposed",{}).get("variations",[]):
-                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_variation"(base_exercise_id,variant_exercise_id,variation_type,difficulty_delta,created_at) SELECT %s,id,'related',NULL,now() FROM "{staging_schema}"."exercise" WHERE id::text=%s AND id<>%s ON CONFLICT DO NOTHING''',(exercise_id,str(target),exercise_id))
+                cur.execute(f'''INSERT INTO "{staging_schema}"."exercise_variation"(base_exercise_id,variant_exercise_id,variation_type,difficulty_delta,created_at) SELECT %s,id,'related',NULL,now() FROM "{staging_schema}"."exercise" WHERE (id::text=%s OR lower(name)=lower(%s)) AND id<>%s ON CONFLICT DO NOTHING''',(exercise_id,str(target),str(target),exercise_id))
     return {"imported":True,"applied_rows":applied}
 
 def promote(database_url, staging_schema, source_schema):

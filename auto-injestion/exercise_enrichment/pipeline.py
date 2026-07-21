@@ -20,6 +20,7 @@ def extract(settings):
         # DB extraction is deterministic; no LLM-generated SQL is ever executed.
         records=extract_rows(settings.database_url, "exercise", settings.schema)
     else: records=[]
+    records=records[:settings.max_records] if settings.max_records is not None else records
     (out/"raw").mkdir(parents=True, exist_ok=True)
     with (out/"raw/exercises.jsonl").open("w", encoding="utf-8") as f:
         for record in records[:settings.max_records]: f.write(json.dumps(record, ensure_ascii=False, default=str)+"\n")
