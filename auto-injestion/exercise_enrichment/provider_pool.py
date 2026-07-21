@@ -4,17 +4,22 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from .gemini import GeminiClient
 
 class RateLimitedGemini:
-    def __init__(self, api_key, model, rpm=29):
-        self.client=GeminiClient(api_key, model); self.limit=rpm; self.lock=threading.Lock(); self.calls=deque()
+    def __init__(self, api_key, model, rpm=29, tpm=16000):
+        self.client=GeminiClient(api_key, model); self.limit=rpm; self.tpm=tpm; self.lock=threading.Lock(); self.calls=deque(); self.tokens=deque()
     def chat(self, prompt, schema):
         with self.lock:
             while True:
                 now=time.monotonic()
                 while self.calls and now-self.calls[0] >= 60: self.calls.popleft()
-                if len(self.calls) < self.limit: break
-                time.sleep(max(0.5, 60-(now-self.calls[0])+1))
+                while self.tokens and now-self.tokens[0][0] >= 60: self.tokens.popleft()
+                estimated=max(512, len(prompt)//4+1024); used=sum(x[1] for x in self.tokens)
+                if len(self.calls) < self.limit and used+estimated <= self.tpm: break
+                waits=[]
+                if len(self.calls) >= self.limit: waits.append(60-(now-self.calls[0][0])+1)
+                if used+estimated > self.tpm: waits.append(60-(now-self.tokens[0][0])+1)
+                time.sleep(max(0.5,max(waits)))
             self.calls.append(time.monotonic())
-            return self.client.chat(prompt,schema)
+            result=self.client.chat(prompt,schema); actual=result.get("usage",{}).get("totalTokenCount",estimated); self.tokens.append((time.monotonic(),actual)); return result
 
 class GeminiPool:
     def __init__(self, api_key, models):

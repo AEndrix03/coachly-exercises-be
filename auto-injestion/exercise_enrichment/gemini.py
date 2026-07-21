@@ -9,4 +9,4 @@ class GeminiClient:
         schema.setdefault("properties", {key:{"type":"string"} for key in schema.get("required", [])})
         payload={"contents":[{"parts":[{"text":prompt}]}],"generationConfig":{"temperature":0.1,"responseMimeType":"application/json","responseSchema":schema}}
         response=httpx.post(url,headers={"x-goog-api-key":self.api_key},json=payload,timeout=self.timeout,verify=False); response.raise_for_status()
-        return {"response":response.json()["candidates"][0]["content"]["parts"][0]["text"]}
+        data=response.json(); return {"response":data["candidates"][0]["content"]["parts"][0]["text"],"usage":data.get("usageMetadata",{})}
