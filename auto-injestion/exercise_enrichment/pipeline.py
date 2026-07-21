@@ -54,7 +54,7 @@ def enrich(settings, records):
     """Process resumably; model output is persisted only as a proposal."""
     out=settings.data_dir/"proposals"; out.mkdir(parents=True,exist_ok=True)
     init_jobs(settings.data_dir/"pipeline.sqlite",records,settings.model); db=sqlite3.connect(settings.data_dir/"pipeline.sqlite")
-    schema={"type":"object","required":["exercise_id","proposed","overall_confidence"],"properties":{"exercise_id":{"type":"string"},"proposed":{"type":"object"},"overall_confidence":{"type":"number","minimum":0,"maximum":1}}}
+    schema={"type":"object","required":["exercise_id","proposed","overall_confidence"],"properties":{"exercise_id":{"type":"string"},"proposed":{"type":"object","required":["translations"],"properties":{"name":{"type":"string"},"translations":{"type":"object"},"difficulty":{"type":"string"},"mechanics":{"type":"string"},"force":{"type":"string"},"unilateral":{"type":"boolean"},"bodyweight":{"type":"boolean"},"overall_risk":{"type":"string"},"spotter_required":{"type":"boolean"},"muscles":{"type":"array"},"categories":{"type":"array"},"equipment":{"type":"array"},"tags":{"type":"array"},"variations":{"type":"array"}}},"overall_confidence":{"type":"number","minimum":0,"maximum":1}}}
     if settings.gemini_api_key:
         pool=GeminiPool(settings.gemini_api_key,settings.gemini_models)
         pending=[r for r in records if not (out/(str(r.get("id"))+".json")).exists()]

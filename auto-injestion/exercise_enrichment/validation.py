@@ -3,6 +3,7 @@ from uuid import UUID
 
 def validate_proposal(proposal, original, catalogs=None, confidence=(.85,.65)):
     errors=[]; catalogs=catalogs or {}
+    if not proposal.get("proposed"): errors.append("NO_ENRICHMENT_CHANGES")
     try: UUID(str(proposal["exercise_id"]))
     except (KeyError,ValueError,TypeError): errors.append("INVALID_EXERCISE_ID")
     for field, key in (("muscles","muscles"),("categories","categories"),("equipment","equipment"),("tags","tags")):

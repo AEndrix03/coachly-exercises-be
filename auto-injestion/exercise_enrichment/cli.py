@@ -30,8 +30,8 @@ def run(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",mo
     if not result["valid"]: raise typer.Exit(code=2)
     typer.echo("STAGING VALIDATED\nRun `python -m exercise_enrichment promote` to apply the validated dataset.")
 @app.command("enrich")
-def enrich_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b"):
-    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
+def enrich_cmd(spring_project:Path=Path("."),ollama_url:str="http://localhost:11434",model:str="qwen3:4b",max_records:int|None=None):
+    s=Settings.load(spring_project=spring_project,ollama_url=ollama_url,model=model,max_records=max_records); _,records=extract(s); typer.echo(f"processed={enrich(s,records)}")
 @app.command("validate")
 def validate_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result=audit(records); result["global"]=analyze(records); report(s,result); typer.echo(json.dumps(result,indent=2))
