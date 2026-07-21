@@ -41,7 +41,7 @@ def init_jobs(path, records, model):
     path.parent.mkdir(parents=True, exist_ok=True); db=sqlite3.connect(path)
     db.execute("CREATE TABLE IF NOT EXISTS enrichment_job (exercise_id TEXT PRIMARY KEY, source_hash TEXT NOT NULL, model_name TEXT NOT NULL, prompt_version TEXT NOT NULL, schema_version TEXT NOT NULL, status TEXT NOT NULL, attempts INTEGER NOT NULL DEFAULT 0, input_path TEXT, output_path TEXT, error_message TEXT, started_at TEXT, completed_at TEXT)")
     for r in records:
-        rid=str(r.get("id")); h=hashlib.sha256(json.dumps(r,sort_keys=True).encode()).hexdigest()
+        rid=str(r.get("id")); h=hashlib.sha256(json.dumps(r,sort_keys=True,default=str).encode()).hexdigest()
         db.execute("INSERT OR IGNORE INTO enrichment_job(exercise_id,source_hash,model_name,prompt_version,schema_version,status) VALUES(?,?,?,?,?,?)",(rid,h,model,"v1","v1","PENDING"))
     db.commit(); db.close()
 

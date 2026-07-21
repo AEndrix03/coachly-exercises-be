@@ -5,7 +5,7 @@ from .pipeline import extract,audit,init_jobs,report
 from .pipeline import enrich
 from .database import metadata,schema_diff
 from .global_analysis import analyze
-from .staging import create_staging,promote
+from .staging import create_staging,promote,import_proposals
 from .benchmark import run as benchmark_run
 from .verification import verify_staging
 from .gemini import GeminiClient
@@ -37,7 +37,7 @@ def validate_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); _,records=extract(s); result=audit(records); result["global"]=analyze(records); report(s,result); typer.echo(json.dumps(result,indent=2))
 @app.command("import-staging")
 def import_staging(spring_project:Path=Path(".")):
-    s=Settings.load(spring_project=spring_project); typer.echo(json.dumps(create_staging(s.database_url,s.schema,s.staging_schema)))
+    s=Settings.load(spring_project=spring_project); result=import_proposals(s.database_url,s.schema,s.staging_schema,s.data_dir/"proposals"); typer.echo(json.dumps(result))
 @app.command("promote")
 def promote_cmd(spring_project:Path=Path(".")):
     s=Settings.load(spring_project=spring_project); typer.echo(json.dumps(promote(s.database_url,s.staging_schema,s.schema)))
