@@ -1,0 +1,42 @@
+{
+  "exercise_id": "1ccfc491-9cab-4bf9-8a6d-335dd500fc29",
+  "proposal": {
+    "exercise_id": "1ccfc491-9cab-4bf9-8a6d-335dd500fc29",
+    "proposed": {
+      "name": "Hammer Curl",
+      "translations": {
+        "it": {
+          "name": "Hammer Curl",
+          "description": "Il Curl a Martello è un esercizio di isolamento per i bicipiti, in particolare per il capo lungo del bicipite brachiale e il muscolo brachiale, eseguito con i manubri mantenendo una presa neutra (palmi rivolti verso l'interno).",
+          "executionTips": [
+            "Mantieni la schiena dritta e le spalle rilassate.",
+            "Evita di dondolare il busto per generare slancio.",
+            "Contrai i bicipiti portando i manubri verso le spalle in modo controllato.",
+            "Esegui una fase eccentrica lenta e controllata per massimizzare l'ipertrofia."
+          ],
+          "safetyTips": [
+            "Non bloccare completamente le articolazioni dei gomiti in fondo al movimento.",
+            "Evita di inarcare la schiena per sollevare il peso.",
+            "Scegli un carico che ti permetta di mantenere una forma perfetta durante tutte le ripetizioni."
+          ]
+        },
+        "en": {
+          "name": "Hammer Curl",
+          "description": "The Hammer Curl is an isolation exercise for the biceps, specifically targeting the long head of the biceps brachii and the brachialis muscle, performed with dumbbells while maintaining a neutral grip (palms facing inward).",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

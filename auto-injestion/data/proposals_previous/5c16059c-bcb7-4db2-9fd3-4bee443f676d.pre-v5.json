@@ -1,0 +1,44 @@
+{
+  "exercise_id": "5c16059c-bcb7-4db2-9fd3-4bee443f676d",
+  "proposal": {
+    "exercise_id": "5c16059c-bcb7-4db2-9fd3-4bee443f676d",
+    "proposed": {
+      "name": "Pause Incline Bench Press",
+      "translations": {
+        "it": {
+          "name": "Pause Incline Bench Press",
+          "description": "Variante della panca inclinata con pausa di 1-3 secondi sulla parte alta del petto. Elimina l'energia elastica e migliora il controllo neuromuscolare nella porzione clavicolare del pettorale.",
+          "executionTips": [
+            "Posiziona la schiena contro lo schienale inclinato",
+            "Mantieni i piedi ben saldi a terra",
+            "Abbassa il bilanciere verso la parte superiore del petto in modo controllato",
+            "Effettua una pausa completa di 1-3 secondi mantenendo la tensione muscolare",
+            "Spingi il bilanciere verso l'alto con forza ed esplosività"
+          ],
+          "safetyTips": [
+            "Assicurati di avere un assistente (spotter) per le serie pesanti",
+            "Non far rimbalzare il bilanciere sul petto durante la pausa",
+            "Mantieni le scapole addotte e depresse per proteggere le spalle",
+            "Evita di inarcare eccessivamente la schiena"
+          ]
+        },
+        "en": {
+          "name": "Pause Incline Bench Press",
+          "description": "Incline bench press variant with a 1-3 second pause at the top of the chest. Eliminates elastic energy and and improves neuromuscular control in the clavicular pectoral region.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

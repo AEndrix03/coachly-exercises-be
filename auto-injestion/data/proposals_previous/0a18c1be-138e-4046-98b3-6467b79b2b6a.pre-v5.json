@@ -1,0 +1,43 @@
+{
+  "exercise_id": "0a18c1be-138e-4046-98b3-6467b79b2b6a",
+  "proposal": {
+    "exercise_id": "0a18c1be-138e-4046-98b3-6467b79b2b6a",
+    "proposed": {
+      "name": "Legs Only (Assault Bike)",
+      "translations": {
+        "it": {
+          "name": "Legs Only (Assault Bike)",
+          "description": "Variante di Assault Bike (Air Bike) focalizzata esclusivamente sull'azione delle gambe, mantenendo le braccia fisse o non utilizzate per la spinta. Imposta una posizione stabile e attiva il core (bracing) per stabilizzare il bacino. Esegui il movimento in un range di movimento (ROM) controllato con corretti allineamenti articolari, resettando deliberatamente tra le ripetizioni o mantenendo un ritmo costante per preservare la tecnica.",
+          "executionTips": [
+            "Mantenere le braccia fisse sulle maniglie senza spingere o tirare",
+            "Mantenere il busto eretto e il core attivo per evitare oscillazioni del bacino",
+            "Distribuire la pedalata in modo uniforme tra gamba destra e sinistra",
+            "Concentrarsi sulla spinta verso il basso e sul recupero attivo della fase di risalita"
+          ],
+          "safetyTips": [
+            "Assicurarsi che la sella sia regolata a un'altezza corretta per evitare stress eccessivo sulle ginocchia",
+            "Evitare di rimbalzare eccessivamente sul sedile durante l'esecuzione",
+            "Mantenere una respirazione ritmica e coordinata con l'intensità dello sforzo",
+            "Verificare che la macchina sia su una superficie stabile e non scivolosa"
+          ]
+        },
+        "en": {
+          "name": "Legs Only (Assault Bike)",
+          "description": "Variation of Assault Bike (Air Bike) focusing exclusively on leg drive, keeping the arms stationary or unused for propulsion. Set up in a stable position and brace the core to stabilize the pelvis. Move through a controlled range of motion (ROM) with proper joint alignment, resetting deliberately between reps or maintaining a steady rhythm to keep technique consistent.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

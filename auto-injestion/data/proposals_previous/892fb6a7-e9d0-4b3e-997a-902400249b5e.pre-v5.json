@@ -1,0 +1,45 @@
+{
+  "exercise_id": "892fb6a7-e9d0-4b3e-997a-902400249b5e",
+  "proposal": {
+    "exercise_id": "892fb6a7-e9d0-4b3e-997a-902400249b5e",
+    "proposed": {
+      "name": "Barbell Bent-Over Row",
+      "translations": {
+        "it": {
+          "name": "Barbell Bent-Over Row",
+          "description": "Esercizio composto fondamentale per la schiena. Coinvolge gran dorsale, trapezio, romboidi e bicipite. Eccellente per costruire spessore e forza nella schiena.",
+          "executionTips": [
+            "Mantieni il busto inclinato tra i 45 e i 60 gradi con la schiena neutra e le ginocchia leggermente piegate per l'intero set.",
+            "Tira il bilanciere verso l'ombelico portando i gomiti indietro e stringendo le scapole al termine del movimento, evitando di usare slancio con la schiena.",
+            "Controlla la fase di discesa senza lasciar cadere il peso e mantieni il core contratto per proteggere la zona lombare.",
+            "La variante Pendlay row (bilanciere a terra ad ogni ripetizione) è più esplosiva e tecnica.",
+            "La presa supina sposta il carico maggiormente sul bicipite e sulla schiena bassa.",
+            "Immagina di schiacciare qualcosa tra le scapole in cima."
+          ],
+          "safetyTips": [
+            "Mantenere la schiena neutra durante tutto il movimento.",
+            "Non arrotondare la colonna lombare sotto carico.",
+            "Con carichi elevati usare cintura.",
+            "Il rischio principale è a carico della zona lombare se il busto perde la posizione neutra o si usa uno slancio eccessivo; chi soffre di problemi lombari dovrebbe preferire varianti supportate come il rematore su panca inclinata."
+          ]
+        },
+        "en": {
+          "name": "Barbell Bent-Over Row",
+          "description": "Fundamental compound exercise for the back. Involves the latissimus dorsi, trapezius, rhomboids, and biceps. Excellent for building back thickness and strength.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

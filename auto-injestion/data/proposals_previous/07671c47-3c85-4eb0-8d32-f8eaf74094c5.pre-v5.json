@@ -1,0 +1,73 @@
+{
+  "exercise_id": "07671c47-3c85-4eb0-8d32-f8eaf74094c5",
+  "proposal": {
+    "exercise_id": "07671c47-3c85-4eb0-8d32-f8eaf74094c5",
+    "proposed": {
+      "name": "Tate Press",
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force": "push",
+      "translations": {
+        "it": {
+          "name": "Tate Press",
+          "description": "Il Tate Press è un esercizio di isolamento per i tricipiti eseguito solitamente su una panca piana. A differenza delle press tradizionali, i manubri vengono portati verso l'interno, quasi a toccare il petto, con i gomiti che puntano verso l'esterno, per poi essere spinti verso l'alto in un movimento di estensione del gomito.",
+          "executionTips": [
+            "Sdraiati sulla panca con i manubri in mano, partendo con i palmi rivolti l'uno verso l'altro.",
+            "Abbassa i manubri portando i gomiti verso l'esterno e le teste dei manubri verso il petto.",
+            "Spingi i manubri verso l'alto estendendo i gomiti, mantenendo il movimento controllato.",
+            "Evita di far toccare i manubri tra loro in cima per mantenere la tensione costante sui tricipiti."
+          ],
+          "safetyTips": [
+            "Non utilizzare carichi eccessivi che possano compromettere la stabilità dell'articolazione della spalla.",
+            "Mantieni i piedi ben piantati a terra per stabilizzare il tronco.",
+            "Assicurati che il movimento sia fluido e non scattoso per evitare stress eccessivo ai tendini del gomito."
+          ]
+        },
+        "en": {
+          "name": "Tate Press",
+          "description": "The Tate Press is a triceps isolation exercise typically performed on a flat bench. Unlike traditional presses, the dumbbells are brought inward, almost touching the chest, with elbows flared outward, and then pressed upward through elbow extension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "triceps_brachii_long"
+      ],
+      "categories": [
+        "triceps",
+        "isolation",
+        "upper_body",
+        "push_horizontal"
+      ],
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "tags": [
+        "hypertrophy",
+        "push_day",
+        "upper_day",
+        "mind_muscle",
+        "strength"
+      ],
+      "new_tag_candidates": [
+        "triceps_focus"
+      ],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "exercise_id": "fa7c62c4-364b-4445-be50-70f3d66e6c04",
+  "proposal": {
+    "exercise_id": "fa7c62c4-364b-4445-be50-70f3d66e6c04",
+    "proposed": {
+      "name": "Farmer's Carry",
+      "translations": {
+        "it": {
+          "name": "Farmer's Carry",
+          "description": "Il Farmer's Carry è un esercizio di trasporto di carichi pesanti che mira a migliorare la forza della presa, la stabilità del core e la stabilità posturalee. Consiste nel camminare per una distanza o un tempo determinato mantenendo due pesi (manubri, kettlebell o spezielle attrezzatura) in ogni mano.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il petto aperto",
+            "Attiva il core attraverso il bracing",
+            "Prendi piccoli passi controllati",
+            "Mantieni le spalle lontane dalle orecchie, evitando di lasciarle scivolare in avanti"
+          ],
+          "safetyTips": [
+            "Evita di incurvare la schiena sotto carico",
+            "Non trattenere il prezzo durante l'esecuzione (evita la manovra di Valsalva eccessiva)",
+            "Scegli un carico carico che ti permetta di mantenere una postura own correcta throughout the entire set"
+          ]
+        },
+        "en": {
+          "name": "Farmer's Carry",
+          "description": "The Farmer's Carry is a heavy load-bearing exercise designed to improve grip strength, core stability, and postural stability. It involves walking for a a set distance or time while holding heavy weights (dumbbells, kettlebells, or specialized equipment) in each hand.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

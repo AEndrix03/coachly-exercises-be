@@ -1,0 +1,40 @@
+{
+  "exercise_id": "33df701b-a300-4fb1-b144-61594012bd1d",
+  "proposal": {
+    "exercise_id": "33df701b-a300-4fb1-b144-61594012bd1d",
+    "proposed": {
+      "name": "Hollow Body Hold",
+      "translations": {
+        "it": {
+          "name": "Hollow Body Hold",
+          "description": "Posizione supina con retroversione del bacino per mantenere la zona lombare completamente aderente al pavimento. Allunga braccia e gambe solo quanto basta per mantenere la posizione a 'barchetta', mantenendo una respirazione controllata.",
+          "executionTips": [
+            "Mantieni la zona lombare pressata contro il pavimento per tutto il tempo",
+            "Espira per attivare maggiormente il core",
+            "Se l'esercizio è troppo difficile, fletti leggermente le ginocchia o porta le braccia lungo i fianchi"
+          ],
+          "safetyTips": [
+            "Non inarcare la schiena: se senti che la zona lombare si stacca dal pavimento, solleva leggermente di più le gambe",
+            "Evita di trattenere il fiato (apnea) durante la tenuta"
+          ]
+        },
+        "en": {
+          "name": "Hollow Body Hold",
+          "description": "Lie on your back, posteriorly tilt the pelvis and press the lower back into the floor. Extend arms and legs only as far as you can without losing the hollow position, then hold with steady breathing.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

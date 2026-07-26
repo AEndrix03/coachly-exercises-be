@@ -1,0 +1,42 @@
+{
+  "exercise_id": "7502a247-0604-4ae4-9a9a-63162b2ca84d",
+  "proposal": {
+    "exercise_id": "7502a247-0604-4ae4-9a9a-63162b2ca84d",
+    "proposed": {
+      "name": "Larsen Press",
+      "translations": {
+        "it": {
+          "name": "Larsen Press",
+          "description": "Variante della panca piana own in cui i piedi sono sollevati da terra, eliminando completamente la spinta delle gambe (leg drive). Questo esercizio richiede una maggiore stabilizzazione del core e del tronco, focalizzando l'intensità del carico sul busto superiore e sviluppando la forza di spinta pura.",
+          "executionTips": [
+            "Mantieni la schiena ben aderente alla panca",
+            "Evita di sollevare il bacino dalla panca durante la spinta",
+            "Concentrati sul controllo della discesa del bilanciere verso il centro del petto",
+            "Mantieni i piedi sollevati o appoggiati sulla panca per annullare il leg drive"
+          ],
+          "safetyTips": [
+            "Utilizza un assistente (spotter) poiché l'instabilità aumentata rende l'esercizio più impegnativo",
+            "Non inarcare eccessivamente la schiena per compensare la mancanza di appoggio dei piedi",
+            "Assicurati che il bilanciere segua una traiettoria controllata per evitare l'instabilità del tronco"
+          ]
+        },
+        "en": {
+          "name": "Larsen Press",
+          "description": "Bench press variation where feet are raised and off the ground, completely eliminating leg drive. This exercise requires greater core and torso stabilization, developing pure upper-body pressing strength and reducing reliance on lower body assistance.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

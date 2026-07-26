@@ -1,0 +1,43 @@
+{
+  "exercise_id": "cf35d289-ed48-4302-a711-cf9d0b9fbd36",
+  "proposal": {
+    "exercise_id": "cf35d289-ed48-4302-a711-cf9d0b9fbd36",
+    "proposed": {
+      "name": "Weighted Dip",
+      "translations": {
+        "it": {
+          "name": "Weighted Dip",
+          "description": "Dip con zavorra: un esercizio di spinta composto per l'ipertrofia e la forza dei tricipiti, dei pettorali e dei deltoidi anteriori. Utilizzando un carico aggiuntivo, aumenta l'intensità dello stimolo meccanico rispetto ai dip a corpo libero.",
+          "executionTips": [
+            "Mantieni il busto leggermente inclinato in avanti per coinvolgere maggiormente i pettorali o rimani più verticale per isolare i tricipiti.",
+            "Controlla la fase eccentrica (discesa) per massimizzare la tensione muscolare.",
+            "Evita di bloccare completamente le articolazioni dei gomiti in cima al movimento per mantenere la tensione costante.",
+            "Assicurati che la zavorra sia fissata saldamente e non oscilli durante l'esecuzione."
+          ],
+          "safetyTips": [
+            "Non scendere oltre il punto in cui senti tensione eccessiva nell'articolazione della spalla.",
+            "Riscalda adeguatamente le articolazioni delle spalle e i gomiti prima di iniziare il set.",
+            "Evita di incurvare eccessivamente la schiena (iperestensione lombare) durante la spinta.",
+            "Usa una cintura per zavorre (dip belt) per distribuire il carico in modo sicuro e stabile."
+          ]
+        },
+        "en": {
+          "name": "Weighted Dip",
+          "description": "Weighted Dip: a compound pushing exercise for hypertrophy and strength of the triceps, pectorals, and anterior deltoids. By using additional weight, it increases the mechanical stimulus intensity compared to bodyweight dips.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

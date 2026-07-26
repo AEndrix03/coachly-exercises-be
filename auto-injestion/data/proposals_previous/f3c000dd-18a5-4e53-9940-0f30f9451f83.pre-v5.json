@@ -1,0 +1,46 @@
+{
+  "exercise_id": "f3c000dd-18a5-4e53-9940-0f30f9451f83",
+  "proposal": {
+    "exercise_id": "f3c000dd-18a5-4e53-9940-0f30f9451f83",
+    "proposed": {
+      "name": "Hip Thrust",
+      "translations": {
+        "it": {
+          "name": "Hip Thrust",
+          "description": "Il migliore esercizio di isolamento per il grande gluteo. Estensione dell'anca con il busto appoggiato sulla panca e il bilanciere sul bacino. Permette carichi elevati e alta attivazione glutea.",
+          "executionTips": [
+            "La posizione dei piedi si trova sperimentalmente: quella giusta produce massima sensazione nei glutei",
+            "Pausa di 1-2 secondi in cima aumenta il time under tension sul gluteo",
+            "Alternativa con macchina dedicata o cavi per chi non ha bilanciere disponibile",
+            "Spingere i fianchi verso l'alto estendendo le anche",
+            "Portare le cosce parallele al suolo o oltre",
+            "Contrarre fortemente i glutei in cima mantenendo un secondo di pausa",
+            "Abbassare i fianchi verso il suolo con controllo senza appoggiarli completamente"
+          ],
+          "safetyTips": [
+            "Usare un pad imbottito sotto il bilanciere per proteggere le creste iliache",
+            "Mantenere il mento sul petto per evitare iperestensione del collo",
+            "Evitare di estendere la zona lombare invece dei glutei (iperestensione)",
+            "Assicurarsi che la posizione dei piedi sia corretta per evitare stress eccessivo sulle ginocchia"
+          ]
+        },
+        "en": {
+          "name": "Hip Thrust",
+          "description": "The best isolation exercise for the gluteus maximus. Hip extension with the torso resting on a bench and barbell on the pelvis. Allows heavy loads and high glute activation.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

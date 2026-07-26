@@ -1,0 +1,45 @@
+{
+  "exercise_id": "968596b1-9ea1-4885-8df2-233c94cbac03",
+  "proposal": {
+    "exercise_id": "968596b1-9ea1-4885-8df2-233c94cbac03",
+    "proposed": {
+      "name": "Dumbbell Row",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Row",
+          "description": "Rematore unilaterale con manubrio e supporto sulla panca. Permette carichi elevati e un ampio range of motion per massimizzare lo sviluppo del gran dorsale.",
+          "executionTips": [
+            "Pensare di infilare il gomito in tasca",
+            "Le Kroc Row (pesi molto elevati con leggero momentum) sono valide per lo strength work",
+            "Il polso può ruotare leggermente in cima per massimizzare la retrazione scapolare",
+            "Tirare il manubrio verso il fianco portando il gomito verso il soffitto",
+            "Retrarre completamente la scapola del lato che lavora",
+            "Abbassare lentamente con controllo fino alla distensione completa"
+          ],
+          "safetyTips": [
+            "Mantenere la schiena piatta e non ruotare il busto eccessivamente per usare il momentum",
+            "Il braccio di supporto sulla panca deve reggere il peso del tronco",
+            "Evitare di ruotare eccessivamente il tronco per sollevare carichi pesanti per non sovraccaricare la zona lombare",
+            "Chi soffre di problemi lombari dovrebbe usare carichi moderati e privilegiare il controllo del movimento"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Row",
+          "description": "Unilateral dumbbell row with bench support. Allows heavy loads and a wide range of motion to maximize latissimus dorsi development.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

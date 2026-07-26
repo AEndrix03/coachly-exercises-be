@@ -1,0 +1,42 @@
+{
+  "exercise_id": "ee7cbef6-df11-490b-8469-e1d3ab404f67",
+  "proposal": {
+    "exercise_id": "ee7cbef6-df11-490b-8469-e1d3ab404f67",
+    "proposed": {
+      "name": "Overhead Cable Curl",
+      "translations": {
+        "it": {
+          "name": "Overhead Cable Curl",
+          "description": "Esercizio di isolamento per i bicipiti eseguito con i cavi, in cui le braccia sono posizionate sopra la testa o in una posizione elevata, permettendo di lavorare sulla testa lunga del bicipite brachiale attraverso un maggiore allungamento.",
+          "executionTips": [
+            "Mantieni i gomiti alti e puntati in avanti",
+            "Evita di muovere le spalle per sollevare il peso",
+            "Controlla la fase eccentrica per massimizzare la tensione",
+            "Schiaccia il bicipite nel punto di massima contrazione"
+          ],
+          "safetyTips": [
+            "Assicurati che il cavo sia fissato correttamente",
+            "Evita l'iperestensione del gomito in fondo al movimento",
+            "Mantieni il core stabile per evitare l'inarcamento della schiena"
+          ]
+        },
+        "en": {
+          "name": "Overhead Cable Curl",
+          "description": "Isolation exercise for the biceps performed with cables, where the arms are positioned overhead or in an elevated position, allowing for targetting the long head of the biceps brachii through increased stretch.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

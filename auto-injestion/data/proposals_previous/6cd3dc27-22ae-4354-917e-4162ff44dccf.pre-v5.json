@@ -1,0 +1,42 @@
+{
+  "exercise_id": "6cd3dc27-22ae-4354-917e-4162ff44dccf",
+  "proposal": {
+    "exercise_id": "6cd3dc27-22ae-4354-917e-4162ff44dccf",
+    "proposed": {
+      "name": "Scapular Active Bar Hang",
+      "translations": {
+        "it": {
+          "name": "Scapular Active Bar Hang",
+          "description": "Il Dead Hang Attivo alla Sbarra Scapolare è un esercizio di attivazione scapolare che consiste nel sollevare il corpo attraverso la contrazione delle scapole senza flettere le braccia. Le braccia rimangono tese, willpowery focusing on depressing and retracting the scapulae to create space between the ears and the shoulders.",
+          "executionTips": [
+            "Mantieni le braccia completamente tese durante tutto il movimento.",
+            "Concentrati sul 'tirare giù' le scapole lontano dalle orecchie.",
+            "Evita di flettere i gomiti per sollevare il corpo.",
+            "Mantieni il core attivo e le gambe tese per evitare l'oscillazione."
+          ],
+          "safetyTips": [
+            "Assicurati che la sbarra sia saldamente fissata e sicura.",
+            "Evita di l'iperestensione delle spalle nelle posizioni di massimo allungamento.",
+            "Se senti dolore acuto nelle spalle, interrompi immediatamente l'esercizio."
+          ]
+        },
+        "en": {
+          "name": "Scapular Active Bar Hang",
+          "description": "The Scapular Active Bar Hang is a scapular activation exercise where you lift your body by contracting the scapulae without bending the arms. The arms remain straight, focusing on depressing and retracting the scapulae to the create space between the ears and the shoulders.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

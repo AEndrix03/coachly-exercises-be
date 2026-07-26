@@ -1,0 +1,81 @@
+{
+  "exercise_id": "5e541ebe-fae4-4fc6-af68-7919b92dcb88",
+  "proposal": {
+    "exercise_id": "5e541ebe-fae4-4fc6-af68-7919b92dcb88",
+    "proposed": {
+      "name": "Weighted Plate Pinch Hold",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Weighted Plate Pinch Hold",
+          "description": "Esercizio di tenuta isometrica in cui si sostengono una o più piastre di peso stringendole tra le dita e il pollice.",
+          "executionTips": [
+            "Scegli piastre con bordi lisci per aumentare la difficoltà.",
+            "Stringi le piastre con forza uniforme tra il pollice e le altre dita.",
+            "Mantieni i polsi in posizione neutra e le braccia distese lungo i fianchi.",
+            "Mantieni la schiena dritta e il core attivo per stabilizzare il corpo."
+          ],
+          "safetyTips": [
+            "Assicurati che le piastre siano ben salde prima di sollevarle da terra.",
+            "Evita di flettere i polsi per compensare la mancanza di forza nella presa.",
+            "Rilascia le piastre in modo controllato per evitare infortuni ai piedi."
+          ]
+        },
+        "en": {
+          "name": "Weighted Plate Pinch Hold",
+          "description": "Isometric hold exercise where one or more weight plates are held by pinching them between the fingers and the thumb.",
+          "executionTips": [
+            "Choose plates with smooth edges to increase difficulty.",
+            "Pinch the plates firmly and evenly between the thumb and other fingers.",
+            "Keep wrists in a neutral position and arms extended at the sides.",
+            "Keep your back straight and core engaged to stabilize the body."
+          ],
+          "safetyTips": [
+            "Ensure the plates are securely gripped before lifting them off the ground.",
+            "Avoid flexing the wrists to compensate for lack of grip strength.",
+            "Release the plates in a controlled manner to avoid foot injuries."
+          ]
+        }
+      },
+      "muscles": [
+        "forearm_flexors",
+        "brachioradialis"
+      ],
+      "categories": [
+        "forearms",
+        "grip_strength",
+        "upper_body"
+      ],
+      "equipment": [
+        "weight_plate",
+        "chalk"
+      ],
+      "tags": [
+        "grip_intensive",
+        "isometric",
+        "strength",
+        "functional"
+      ],
+      "new_tag_candidates": [
+        "pinch_grip"
+      ],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "REJECTED",
+    "errors": [
+      "UNKNOWN_CATEGORIES:grip_strength"
+    ],
+    "schema_valid": false,
+    "catalog_valid": false
+  }
+}

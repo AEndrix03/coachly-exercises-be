@@ -1,0 +1,91 @@
+{
+  "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+  "proposal": {
+    "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+    "proposed": {
+      "name": "Chest Dip",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Chest Dip",
+          "description": "Dip con busto inclinato in avanti per massimizzare il coinvolgimento del pettorale inferiore. Esercizio composto ad alto stimolo per petto e tricipite.",
+          "executionTips": [
+            "Più il busto è inclinato in avanti, maggiore il coinvolgimento del pettorale",
+            "Aggiungere peso con la cintura per progredire oltre il bodyweight",
+            "Se le spalle fanno clic o dolore, ridurre il range of motion",
+            "Mantenere le scapole depresse per stabilità",
+            "Evitare di bloccare bruscamente i gomiti in chiusura"
+          ],
+          "safetyTips": [
+            "Evitare di scendere troppo in basso con le spalle anteriori già in limitazione articolare",
+            "Chi ha problemi alla cuffia dei rotatori deve procedere con cautela",
+            "Rischio medio per la spalla anteriore in caso di discesa eccessiva o mobilita' limitata",
+            "Se avverti dolore alla spalla, riduci l'ampiezza del movimento o utilizza fasce elastiche di assistenza"
+          ]
+        },
+        "en": {
+          "name": "Chest Dip",
+          "description": "Forward-leaning dip to maximize lower pectoralis major involvement. High-stimulus compound exercise for chest and triceps.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "pectoralis_major_sternal",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "deltoid_anterior",
+        "serratus_anterior"
+      ],
+      "categories": [
+        "chest",
+        "triceps",
+        "calisthenics",
+        "compound_lifts",
+        "push_vertical",
+        "upper_body"
+      ],
+      "equipment": [
+        "dip_bars",
+        "dip_belt",
+        "weight_plate"
+      ],
+      "tags": [
+        "bilateral",
+        "body_recomposition",
+        "crossfit",
+        "functional",
+        "hypertrophy",
+        "injury_risk",
+        "popular",
+        "push_day",
+        "strength",
+        "upper_day"
+      ],
+      "new_tag_candidates": [
+        "bodyweight_strength",
+        "lower_chest_focus"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Triceps Dip",
+        "Weighted Chest Dip",
+        "Assisted Chest Dip",
+        "Ring Dips"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

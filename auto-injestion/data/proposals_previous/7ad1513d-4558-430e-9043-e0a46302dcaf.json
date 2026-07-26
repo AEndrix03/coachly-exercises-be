@@ -1,0 +1,14 @@
+{
+  "exercise_id": "7ad1513d-4558-430e-9043-e0a46302dcaf",
+  "proposal": {
+    "exercise_id": "7ad1513d-4558-430e-9043-e0a46302dcaf",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

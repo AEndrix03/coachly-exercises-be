@@ -1,0 +1,87 @@
+{
+  "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+  "prompt_version": "v4",
+  "proposal": {
+    "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+    "proposed": {
+      "name": "Chest Dip",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "push",
+      "translations": {
+        "it": {
+          "name": "Chest Dip",
+          "description": "Dip con busto inclinato in avanti per massimizzare il coinvolgimento del pettorale inferiore.",
+          "executionTips": [
+            "Inclinazione del busto in avanti di circa 30 gradi.",
+            "Gomiti che si aprono leggermente verso l'esterno durante la discesa.",
+            "Discesa controllata fino a quando le spalle non superano leggermente l'altezza dei gomiti.",
+            "Risalita esplosiva spingendo verso l'alto e in avanti."
+          ],
+          "safetyTips": [
+            "Evitare l'estensione eccessiva della spalla per prevenire infortuni.",
+            "Mantenere le scapole addotte e depresse per stabilizzare l'articolazione.",
+            "Non bloccare completamente i gomiti in cima al movimento.",
+            "Controllare la fase eccentrica per evitare strappi muscolari."
+          ]
+        },
+        "en": {
+          "name": "Chest Dip",
+          "description": "Forward-leaning dip to maximize lower pectoralis major involvement.",
+          "executionTips": [
+            "Lean the torso forward approximately 30 degrees.",
+            "Elbows flare slightly outward during the descent.",
+            "Controlled descent until shoulders are slightly below elbow height.",
+            "Explosive ascent pushing upward and forward."
+          ],
+          "safetyTips": [
+            "Avoid excessive shoulder extension to prevent injury.",
+            "Keep scapulae retracted and depressed to stabilize the joint.",
+            "Do not fully lock out elbows at the top of the movement.",
+            "Control the eccentric phase to avoid muscle strains."
+          ]
+        }
+      },
+      "muscles": [
+        "pectoralis_major_sternal",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "triceps_brachii_long",
+        "deltoid_anterior"
+      ],
+      "categories": [
+        "chest",
+        "triceps",
+        "calisthenics",
+        "push_vertical",
+        "upper_body",
+        "compound_lifts"
+      ],
+      "equipment": [
+        "dip_bars"
+      ],
+      "tags": [
+        "bilateral",
+        "hypertrophy",
+        "push_day",
+        "upper_day",
+        "strength",
+        "popular"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "exercise_id": "1daff973-0670-4566-bbb3-01cf09e890bf",
+  "proposal": {
+    "exercise_id": "1daff973-0670-4566-bbb3-01cf09e890bf",
+    "proposed": {
+      "name": "Lat Pulldown",
+      "translations": {
+        "it": {
+          "name": "Lat Pulldown",
+          "description": "Variante assistita della trazione alla sbarra eseguita alla macchina a cavi. Ideale per principianti e per lavoro di volume sullo schiena.",
+          "executionTips": [
+            "Immaginare di schiacciare noci con le scapole in fondo al movimento",
+            "La presa neutra o supina aumenta il coinvolgimento del bicipite",
+            "Ridurre il carico e focalizzarsi sulla contrazione dorsale è più efficace del carico eccessivo",
+            "Iniziare deprimendo le scapole e poi piegando i gomiti",
+            "Tirare la barra verso la parte alta del petto pensando di portare i gomiti verso i fianchi",
+            "Fare una pausa con le scapole completamente retratte e depresse",
+            "Risalire con controllo distendendo completamente le braccia"
+          ],
+          "safetyTips": [
+            "Non tirare la barra dietro la testa: aumenta il rischio di lesione cervicale senza benefici aggiuntivi. Sempre davanti al viso.",
+            "Evitare di oscillare eccessivamente con il busto per usare l'inerzia."
+          ]
+        },
+        "en": {
+          "name": "Lat Pulldown",
+          "description": "Assisted pull-up variation performed on a cable machine. Ideal for beginners and for back volume work.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

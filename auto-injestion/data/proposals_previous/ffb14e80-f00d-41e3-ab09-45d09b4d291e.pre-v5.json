@@ -1,0 +1,43 @@
+{
+  "exercise_id": "ffb14e80-f00d-41e3-ab09-45d09b4d291e",
+  "proposal": {
+    "exercise_id": "ffb14e80-f00d-41e3-ab09-45d09b4d291e",
+    "proposed": {
+      "name": "Tempo Assisted Nordic Curl",
+      "translations": {
+        "it": {
+          "name": "Tempo Assisted Nordic Curl",
+          "description": "Variante di Assisted Nordic Curl che modifica leva o tempo di esecuzione per lavorare lo stesso schema motorio, focalizzandosi sulla fase eccentrica e il controllo muscolare dei flessori dell'anca e del ginocchio.",
+          "executionTips": [
+            "Mantieni il busto rigido come un unico blocco",
+            "Controlla attentamente la discesa, rallentando il tempo di esecuzione",
+            "Usa l'assistenza per risalire solo quanto necessario per mantenere la tensione",
+            "Mantieni le anchee in estensione per evitare di flettere il busto"
+          ],
+          "safetyTips": [
+            "Assicurati che le caviglie siano bloccate saldamente",
+            "Non permettere che il busto collassi verso le ginocchia durante la discesa",
+            "Evita di usare un eccessivo slancio per risalire",
+            "Interrompi l'esercizio se senti un'eccessiva tensione nella zona lombare"
+          ]
+        },
+        "en": {
+          "name": "Tempo Assisted Nordic Curl",
+          "description": "Variation of Assisted Nordic Curl that changes leverage or tempo to target the same pattern, focusing on the eccentric phase and muscular control of the hip and knee flexors.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

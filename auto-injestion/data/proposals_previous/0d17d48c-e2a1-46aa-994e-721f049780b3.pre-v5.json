@@ -1,0 +1,42 @@
+{
+  "exercise_id": "0d17d48c-e2a1-46aa-994e-721f049780b3",
+  "proposal": {
+    "exercise_id": "0d17d48c-e2a1-46aa-994e-721f049780b3",
+    "proposed": {
+      "name": "Cable Skull Crusher",
+      "translations": {
+        "it": {
+          "name": "Cable Skull Crusher",
+          "description": "Skull crusher eseguito con cavi, mantiene tensione costante durante tutto il ROM a differenza del bilanciere.",
+          "executionTips": [
+            "Mantieni i gomiti fissi e puntati verso l'alto durante tutta la ripetizione",
+            "Abbassa il cavo verso la fronte con controllo per sfruttare la tensione costante tipica del cavo",
+            "Espira mentre estendi le braccia",
+            "Contrai i tricipiti in cima senza bloccare i gomiti con forza"
+          ],
+          "safetyTips": [
+            "Evita di abbassare il cavo troppo vicino al viso",
+            "Non lasciare che i gomiti si aprano verso l'esterno per non sovraccaricare l'articolazione del gomito",
+            "Presta attenzione ai carichi elevati poiché presentano un rischio moderato"
+          ]
+        },
+        "en": {
+          "name": "Cable Skull Crusher",
+          "description": "Skull crusher performed with cables, maintaining constant tension throughout the ROM unlike the barbell version.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "exercise_id": "33dade15-1f57-478b-aff3-413f7321377c",
+  "proposal": {
+    "exercise_id": "33dade15-1f57-478b-aff3-413f7321377c",
+    "proposed": {
+      "name": "Neutral Grip Decline Dumbbell Press",
+      "translations": {
+        "it": {
+          "name": "Neutral Grip Decline Dumbbell Press",
+          "description": "Variante della panca declinata con manubri e presa neutra. Riduce lo stress sull'articolazione della spalla mantenendo un forte coinvolgimento della porzione inferiore del pettorale.",
+          "executionTips": [
+            "Mantieni i palmi delle mani rivolti l'uno verso l'altro durante l'intero movimento.",
+            "Assicurati che i manubri scendano in linea con la parte inferiore del petto.",
+            "Espira durante la fase di spinta e inspira durante la fase di discesa."
+          ],
+          "safetyTips": [
+            "Assicurati che la panca sia impostata a un'angolazione di declinazione corretta per evitare eccessivo stress lombare.",
+            "Mantieni i piedi ben saldi e bloccati nei supporti della panca per stabilità.",
+            "Non far rimbalzare i manubri sul petto; controlla la fase eccentrica."
+          ]
+        },
+        "en": {
+          "name": "Neutral Grip Decline Dumbbell Press",
+          "description": "Decline dumbbell press with a neutral grip. Reduces shoulder joint stress while maintaining strong lower pectoral involvement.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

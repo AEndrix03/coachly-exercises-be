@@ -1,0 +1,46 @@
+{
+  "exercise_id": "157ccb2b-9f83-496e-97bd-fbdd3fb9daaf",
+  "proposal": {
+    "exercise_id": "157ccb2b-9f83-496e-97bd-fbdd3fb9daaf",
+    "proposed": {
+      "name": "Close Grip Bench Press",
+      "translations": {
+        "it": {
+          "name": "Close Grip Bench Press",
+          "description": "Variante del bench press con presa stretta per massimizzare il coinvolgimento del tricipite. Anche il deltoide anteriore e il pettorale mediale sono fortemente coinvolti.",
+          "executionTips": [
+            "Posizionarsi sulla panca come per il bench press normale",
+            "Presa prona con le mani a larghezza spalle o leggermente più stretta",
+            "Non meno di 40-50cm tra le mani",
+            "Abbassare il bilanciere verso la parte bassa del petto tenendo i gomiti vicini al busto",
+            "I gomiti non devono aprirsi esternamente",
+            "Spingere verso l'alto fino alla distensione completa",
+            "La discesa più lenta e controllata aumenta il time under tension sul tricipite"
+          ],
+          "safetyTips": [
+            "La presa non deve essere eccessivamente stretta (meno di larghezza spalle) per evitare di stressare i polsi",
+            "Avere uno spotter con carichi elevati o utilizzare un power rack con i pin di sicurezza",
+            "Evitare di far rimbalzare il bilanciere sul petto",
+            "Evitare di allargare eccessivamente i gomiti in fase di discesa"
+          ]
+        },
+        "en": {
+          "name": "Close Grip Bench Press",
+          "description": "Bench press variation with a narrow grip to maximize triceps involvement. The anterior deltoid and medial pectoral are also strongly engaged.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

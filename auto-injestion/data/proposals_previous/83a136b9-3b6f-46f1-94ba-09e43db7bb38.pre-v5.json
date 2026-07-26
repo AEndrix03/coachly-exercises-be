@@ -1,0 +1,86 @@
+{
+  "exercise_id": "83a136b9-3b6f-46f1-94ba-09e43db7bb38",
+  "proposal": {
+    "exercise_id": "83a136b9-3b6f-46f1-94ba-09e43db7bb38",
+    "proposed": {
+      "name": "Single-Leg Hip Thrust",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Single-Leg Hip Thrust",
+          "description": "Variante di Barbell Hip Thrust eseguita unilateralmente. Imposta una posizione stabile con la schiena appoggiata a una panca e crea bracing addominale. Muoviti in un range di movimento controllato mantenendo i buoni allineamenti, resettando deliberatamente tra le ripetizioni per mantenere una tecnica costante.",
+          "executionTips": [
+            "Mantieni il mento leggermente raccolto verso il petto per evitare l'iperestensione della colonna lombare.",
+            "Spingi attraverso il tallone della gamba di lavoro per massimizzare l'attivazione del gluteo.",
+            "Mantieni l'angolo della gamba di supporto a circa 90 gradi al vertice del movimento.",
+            "Evita di inarcare la schiena durante la fase di salita."
+          ],
+          "safetyTips": [
+            "Assicurati che la panca sia stabile e non scivoli durante l'esecuzione.",
+            "Usa un cuscinetto o un tappetino per proteggere l'osso del bacino dal peso o dalla panca.",
+            "Non sovraccaricare l'esercizio se non riesci a mantenere il bacino neutro."
+          ]
+        },
+        "en": {
+          "name": "Single-Leg Hip Thrust",
+          "description": "Unilateral variation of the Barbell Hip Thrust. Set up in a stable position with your upper back against a bench and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "gluteus_maximus",
+        "gluteus_medius",
+        "gluteus_minimus",
+        "biceps_femoris_long",
+        "biceps_femoris_short",
+        "semitendinosus",
+        "semimembranosus",
+        "adductor_magnus"
+      ],
+      "categories": [
+        "glutes",
+        "hamstrings",
+        "lower_body",
+        "compound_lifts",
+        "hinge_pattern"
+      ],
+      "equipment": [
+        "barbell",
+        "adjustable_bench",
+        "weight_plate"
+      ],
+      "tags": [
+        "unilateral",
+        "hypertrophy",
+        "strength",
+        "leg_day",
+        "lower_day",
+        "mind_muscle",
+        "core_stability"
+      ],
+      "new_tag_candidates": [
+        "glute_isolation_focus"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Barbell Hip Thrust",
+        "Dumbbell Single-Leg Hip Thrust",
+        "Banded Single-Leg Hip Thrust"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

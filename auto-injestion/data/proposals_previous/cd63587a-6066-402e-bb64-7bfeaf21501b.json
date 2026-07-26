@@ -1,0 +1,14 @@
+{
+  "exercise_id": "cd63587a-6066-402e-bb64-7bfeaf21501b",
+  "proposal": {
+    "exercise_id": "cd63587a-6066-402e-bb64-7bfeaf21501b",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

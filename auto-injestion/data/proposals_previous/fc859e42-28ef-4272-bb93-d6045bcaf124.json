@@ -1,0 +1,14 @@
+{
+  "exercise_id": "fc859e42-28ef-4272-bb93-d6045bcaf124",
+  "proposal": {
+    "exercise_id": "fc859e42-28ef-4272-bb93-d6045bcaf124",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

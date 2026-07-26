@@ -1,0 +1,41 @@
+{
+  "exercise_id": "3382b706-b04b-4690-ad3d-cf3433d3590b",
+  "proposal": {
+    "exercise_id": "3382b706-b04b-4690-ad3d-cf3433d3590b",
+    "proposed": {
+      "name": "Isometric Chin-Up Hold",
+      "translations": {
+        "it": {
+          "name": "Isometric Chin-Up Hold",
+          "description": "Parti da un dead hang con costole giù e scapole attive, poi porta i gomiti verso i fianchi per salire in controllo. Mantieni la posizione di massima contrazione con il mento sopra la sbarra prima di scendere in modo fluido.",
+          "executionTips": [
+            "Mantieni il core stabile per evitare oscillazioni",
+            "Schiaccia le scapole verso il basso e indietro",
+            "Espira durante la fase di salita e mantieni il respiro controllato durante l'isometria"
+          ],
+          "safetyTips": [
+            "Evita di usare lo slancio o il kipping",
+            "Non lasciare che le spalle arrivino a toccare le orecchie durante la fase di discesa",
+            "Assicurati che la sbarra sia saldamente fissata"
+          ]
+        },
+        "en": {
+          "name": "Isometric Chin-Up Hold",
+          "description": "Start from a dead hang with ribs down and scapulae set, then drive the elbows toward the ribs to pull up under control. Hold the peak contraction position with the chin clearly above the bar before descending smoothly.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

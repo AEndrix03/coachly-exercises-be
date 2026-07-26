@@ -1,0 +1,42 @@
+{
+  "exercise_id": "e043a939-16d3-4f31-99e3-c5705e3fda01",
+  "proposal": {
+    "exercise_id": "e043a939-16d3-4f31-99e3-c5705e3fda01",
+    "proposed": {
+      "name": "Weighted Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Weighted Calf Raise",
+          "description": "Esercizio di isolamento per i polpacci che prevede il sollevamento dei talloni a partire da un supporto o a terra, utilizzando un carico esterno (manubri, bilanciere o macchina) per aumentare l'intensità.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il core attivo durante l'intero movimento.",
+            "Esegui una contrazione massima in cima al movimento, sollevando i talloni il più possibile.",
+            "Controlla la fase eccentrica (discesa) per massimizzare l'ipertrofia muscolare.",
+            "Evita di rimbalzare in fondo al movimento per evitare l'uso dell'energia elastica dei tendini."
+          ],
+          "safetyTips": [
+            "Assicurati che il carico sia posizionato in modo stabile e sicuro.",
+            "Evita di spostare il carico eccessivamente in avanti o all'indietro per mantenere l'equilibrio.",
+            "Se utilizzi un supporto, assicurati che il supporto sia antiscivolo."
+          ]
+        },
+        "en": {
+          "name": "Weighted Calf Raise",
+          "description": "Isolation exercise for the calves that involves lifting the heels from a support or the floor, using an external load (dumbbells, barbells, or machines) to increase the intensity.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

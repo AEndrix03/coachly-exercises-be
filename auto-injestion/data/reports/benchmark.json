@@ -1,0 +1,15 @@
+{
+  "total": 1,
+  "json_valid_rate": 1.0,
+  "schema_valid_rate": 1.0,
+  "failure_rate": 0.0,
+  "results": [
+    {
+      "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+      "valid": true,
+      "duration_ms": 4014.36,
+      "error": null
+    }
+  ],
+  "passed": true
+}

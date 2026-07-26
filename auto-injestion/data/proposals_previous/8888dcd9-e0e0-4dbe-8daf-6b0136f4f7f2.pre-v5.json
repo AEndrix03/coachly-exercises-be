@@ -1,0 +1,43 @@
+{
+  "exercise_id": "8888dcd9-e0e0-4dbe-8daf-6b0136f4f7f2",
+  "proposal": {
+    "exercise_id": "8888dcd9-e0e0-4dbe-8daf-6b0136f4f7f2",
+    "proposed": {
+      "name": "Low Cable Crossover (Upper Chest)",
+      "translations": {
+        "it": {
+          "name": "Low Cable Crossover (Upper Chest)",
+          "description": "Crossover con cavi regolati in basso: porta le maniglie dal basso verso l'alto e verso la linea mediana, mantenendo gomiti leggermente flessi. Il vettore di trazione ascendente enfatizza la porzione clavicolare del pettorale; evita di alzare le spalle e concentra la contrazione davanti al petto.",
+          "executionTips": [
+            "Mantieni i gomiti leggermente flessi e bloccati durante tutto il movimento.",
+            "Concentrati sul portare le mani verso l'alto e verso l'interno, immaginando di abbracciare un grande albero.",
+            "Spremii il petto nella parte superiore del movimento, mantenendo una contrazione volontaria per un secondo.",
+            "Evita di usare l'inerzia o dondolare il busto per sollevare i cavi."
+          ],
+          "safetyTips": [
+            "Assicurati che i cavi siano fissati saldamente alle maniglie.",
+            "Mantieni le spalle basse e lontane dalle orecchie per evitare l'iperestensione della spalla.",
+            "Non incrociare eccessivamente le mani oltre la linea mediana se questo causa tensione eccessiva all'articolazione della spalla.",
+            "Mantieni il core stabile e le ginocchia leggermente flesse per un supporto ottimale."
+          ]
+        },
+        "en": {
+          "name": "Low Cable Crossover (Upper Chest)",
+          "description": "Cable crossover with the pulleys set low: bring the handles up and toward the midline with a slight elbow bend. The upward line of pull emphasizes the clavicular (upper) pec; avoid shrugging and and focus on squeezing in front of the chest.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

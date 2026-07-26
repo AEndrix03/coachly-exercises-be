@@ -1,0 +1,43 @@
+{
+  "exercise_id": "1e51a3dd-331f-4dcc-b11a-53fb930d18d9",
+  "proposal": {
+    "exercise_id": "1e51a3dd-331f-4dcc-b11a-53fb930d18d9",
+    "proposed": {
+      "name": "High Pull",
+      "translations": {
+        "it": {
+          "name": "High Pull",
+          "description": "Tirata esplosiva con bilanciere che combina estensione d'anca e “shrug” per portare la barra in alto con gomiti alti. Mantieni la barra vicina vicina al corpo, usa carichi gestibili e cura la la fase di ricezione per non stressare spalle e polsi.",
+          "executionTips": [
+            "Mantieni la schiena piatta durante la fase di trazione iniziale",
+            "Esplodi con le anche per generare potenza verso l'alto",
+            "Porta i gomiti alti e verso l'esterno durante la fase di trazione",
+            "Mantieni la barra il più vicino possibile al corpo per tutto il movimento"
+          ],
+          "safetyTips": [
+            "Evita di usare carichi eccessivi che possano compromettere la tecnica",
+            "Non inarcare la schiena durante la fase di sollevamento",
+            "Assicurati di avere una presasione sicura ma non eccessivamente serrata per permettere il movimento della barra",
+            "Riscalda adeguatamente le spalle e i polsi prima di iniziare"
+          ]
+        },
+        "en": {
+          "name": "High Pull",
+          "description": "Explosive barbell pull combining hip extension and a shrug to bring the bar up with high elbows. Keep the bar close to the body, use manageable loads, and control the turnover to avoid stressing shoulders and wrists.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

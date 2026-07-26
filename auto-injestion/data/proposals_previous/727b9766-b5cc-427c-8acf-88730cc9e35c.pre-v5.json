@@ -1,0 +1,78 @@
+{
+  "exercise_id": "727b9766-b5cc-427c-8acf-88730cc9e35c",
+  "proposal": {
+    "exercise_id": "727b9766-b5cc-427c-8acf-88730cc9e35c",
+    "proposed": {
+      "name": "Neck Machine Lateral Flexion",
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Neck Machine Lateral Flexion",
+          "description": "Variante di Macchina per il Collo a 4 Direzioni - Allenamento collo: ripetizioni lente e controllate mantenendo mento rientrato e colonna neutra. Aumenta il carico gradualmente e interrompi se compare dolore acuto.",
+          "executionTips": [
+            "නනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනنනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනනنනනනනනනනනනනනනنනනනනනනනنනනනනනنනනنනනනනනනනනනනනනනනනනනනنනනنනනනනනنනනනනනනනනනනනනනනනනنනනنනනනනنනනනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනනනනනنනනනنනනنනනනනنනනනනනنනනනනනنනනනنනනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනنනනننනනننනනننනනننනනننනනننනනننනනننනනننනننනننනننනننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننننn",
+            "execution_tips_it",
+            "safety_tips_it",
+            "muscles",
+            "categories",
+            "equipment",
+            "tags",
+            "new_tag_candidates",
+            "variations",
+            "confidence",
+            "difficulty",
+            "mechanics",
+            "force"
+          ],
+          "safetyTips": [
+            "Mantenere la colonna vertebrale in posizione neutra per evitare stress eccessivo sul collo.",
+            "Eseguire il movimento in modo controllato, evitando scatti o movimenti bruschi.",
+            "Non utilizzare carichi eccessivi che possano compromettere la tecnica corretta.",
+            "Interrompere immediatamente l'esercizio se si avverte dolore acuto o tensione anomala."
+          ]
+        },
+        "en": {
+          "name": "Neck Machine Lateral Flexion",
+          "description": "Variation of 4-Way Neck Machine - Neck training: use slow controlled reps with a tucked chin and neutral spine. Progress load gradually and stop if you feel sharp pain.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "trapezius_upper"
+      ],
+      "categories": [
+        "isolation"
+      ],
+      "equipment": [
+        "gym_only"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "gym_only",
+        "posture_correction",
+        "strength"
+      ],
+      "new_tag_candidates": [
+        "neck_training"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "ba85338c-5b4f-47e1-9d6d-46dcbdbea986"
+      ]
+    },
+    "overall_confidence": 0.95,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

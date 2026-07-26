@@ -1,0 +1,14 @@
+{
+  "exercise_id": "fefc262a-ac5c-4580-8a7e-ec562c3df440",
+  "proposal": {
+    "exercise_id": "fefc262a-ac5c-4580-8a7e-ec562c3df440",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

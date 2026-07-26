@@ -1,0 +1,85 @@
+{
+  "exercise_id": "c1a7d85f-15c0-4307-ae97-3f51e8c5558e",
+  "proposal": {
+    "exercise_id": "c1a7d85f-15c0-4307-ae97-3f51e8c5558e",
+    "proposed": {
+      "name": "Support Fingertip Hang",
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Support Fingertip Hang",
+          "description": "Sospensione statica a una barra o superficie utilizzando esclusivamente la forza delle dita in posizione di supporto.",
+          "executionTips": [
+            "Afferra la barra o il bordo con la punta delle dita, evitando di avvolgere la mano.",
+            "Mantieni le spalle attive e lontane dalle orecchie per stabilizzare l'articolazione.",
+            "Attiva il core per evitare oscillazioni del corpo.",
+            "Distribuisci il peso equamente tra tutte le dita utilizzate.",
+            "Mantieni una respirazione regolare e controllata durante l'intera tenuta."
+          ],
+          "safetyTips": [
+            "Riscalda accuratamente le articolazioni delle dita e i polsi prima di iniziare.",
+            "Evita di forzare la tenuta se senti dolore acuto ai tendini delle dita.",
+            "Assicurati che la superficie di presa sia stabile e non scivolosa.",
+            "Non scendere bruscamente alla fine della serie per evitare traumi ai polsi."
+          ]
+        },
+        "en": {
+          "name": "Support Fingertip Hang",
+          "description": "Static hang from a bar or surface using only the strength of the fingertips in a support position.",
+          "executionTips": [
+            "Grip the bar or edge using only the fingertips, avoiding wrapping the hand.",
+            "Keep shoulders active and away from the ears to stabilize the joint.",
+            "Engage the core to prevent body swaying.",
+            "Distribute weight evenly across all fingertips used.",
+            "Maintain steady and controlled breathing throughout the hold."
+          ],
+          "safetyTips": [
+            "Thoroughly warm up finger joints and wrists before starting.",
+            "Avoid forcing the hold if you feel acute pain in the finger tendons.",
+            "Ensure the gripping surface is stable and non-slip.",
+            "Do not drop abruptly at the end of the set to avoid wrist trauma."
+          ]
+        }
+      },
+      "muscles": [
+        "forearm_flexors",
+        "brachioradialis",
+        "latissimus_dorsi",
+        "trapezius_lower",
+        "trapezius_middle"
+      ],
+      "categories": [
+        "calisthenics",
+        "forearms",
+        "pull_vertical",
+        "upper_body"
+      ],
+      "equipment": [
+        "pull_up_bar",
+        "chalk"
+      ],
+      "tags": [
+        "grip_intensive",
+        "high_skill",
+        "isometric",
+        "strength"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 0.95,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

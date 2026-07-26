@@ -1,0 +1,14 @@
+{
+  "exercise_id": "9ab5673b-0911-4220-be88-b8e7cbd13a12",
+  "proposal": {
+    "exercise_id": "9ab5673b-0911-4220-be88-b8e7cbd13a12",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

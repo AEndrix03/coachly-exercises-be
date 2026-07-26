@@ -1,0 +1,44 @@
+{
+  "exercise_id": "1110bf37-3bcc-4287-bb3e-c3c6526965fe",
+  "proposal": {
+    "exercise_id": "1110bf37-3bcc-4287-bb3e-c3c6526965fe",
+    "proposed": {
+      "name": "Dumbbell Hammer Curl",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Hammer Curl",
+          "description": "Variante del curl con presa neutra (palme affrontate). Target principale: brachioradiale e brachiale. Costruisce lo spessore del braccio e migliora la forza di presa.",
+          "executionTips": [
+            "Eseguire entrambe le braccia contemporaneamente o in alternanza",
+            "Il brachioradiale è un muscolo visibile esternamente che migliora la definizione del braccio",
+            "Eccellente in abbinamento con i curl supini per un lavoro completo del braccio",
+            "Flettere un gomito portando il manubrio verso la spalla mantenendo il pollice verso l'alto",
+            "Mantenere la posizione neutrale del polso per tutto il movimento",
+            "Abbassare con controllo e ripetere sull'altro lato o alternativamente"
+          ],
+          "safetyTips": [
+            "Evita di usare lo slancio delle spalle o del busto per completare la ripetizione: è un segnale che il carico è eccessivo",
+            "Mantieni il polso rigido e allineato con l'avambraccio per non sovraccaricare l'articolazione",
+            "Mantenere i gomiti fermi al fianco come nel curl standard"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Hammer Curl",
+          "description": "Curl variation with neutral grip (palms facing each other). Primary target: brachioradialis and brachialis. Builds arm thickness and improves grip strength.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

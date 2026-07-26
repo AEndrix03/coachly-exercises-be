@@ -1,0 +1,90 @@
+{
+  "exercise_id": "462e3428-1359-4d2f-9a91-ad9ea91bb0cc",
+  "proposal": {
+    "exercise_id": "462e3428-1359-4d2f-9a91-ad9ea91bb0cc",
+    "proposed": {
+      "name": "Jump Squat",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Jump Squat",
+          "description": "Il Jump Squat è un esercizio pliometrico che combina un classico squat con un salto esplosivo verso l'alto. L'obiettivo è massimizzare la potenza della parte inferiore del corpo attraverso una rapida transizione tra la fase eccentrica (discesa) e quella concentrica (salto).",
+          "executionTips": [
+            "Mantieni i piedi alla larghezza delle spalle e il peso distribuito equamente.",
+            "Scendi in posizione di squat mantenendo la schiena dritta e il petto aperto.",
+            "Esplodi verso l'alto spingendo con forza attraverso i talloni e l'avampiede.",
+            "Atterra dolcemente sulle punte dei piedi, assorbendo l'impatto e tornando immediatamente in posizione di squat se desiderato."
+          ],
+          "safetyTips": [
+            "Assicurati di atterrare in modo morbido per evitare stress eccessivi sulle articolazioni delle ginocchia e delle caviglie.",
+            "Evita che le ginocchia collassino verso l'interno durante la fase di salto e di atterraggio.",
+            "Mantieni il core attivo per stabilizzare la colonna vertebrale durante l'intera esecuzione."
+          ]
+        },
+        "en": {
+          "name": "Jump Squat",
+          "description": "The Jump Squat is a plyometric exercise that combines a classic squat with an explosive upward jump. The goal is to maximize lower body power through a rapid transition between the eccentric phase (descent) and the concentric phase (jump).",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "gluteus_maximus",
+        "quadriceps",
+        "vastus_lateralis",
+        "vastus_medialis",
+        "vastus_intermedius",
+        "rectus_femoris",
+        "gastrocnemius_lateral",
+        "gastrocnemius_medial",
+        "soleus",
+        "adductor_magnus"
+      ],
+      "categories": [
+        "plyometrics",
+        "lower_body",
+        "squat_pattern",
+        "compound_lifts",
+        "calisthenics",
+        "cardio"
+      ],
+      "equipment": [
+        "no_equipment"
+      ],
+      "tags": [
+        "explosive",
+        "power",
+        "bilateral",
+        "no_equipment",
+        "leg_day",
+        "lower_day",
+        "hiit",
+        "functional",
+        "sport_performance",
+        "cardiovascular_fitness"
+      ],
+      "new_tag_candidates": [
+        "plyometric_training"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "25485e7d-7ae0-421c-9a2c-d3356d9bc1bf",
+        "Weighted Jump Squat",
+        "Box Jump"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

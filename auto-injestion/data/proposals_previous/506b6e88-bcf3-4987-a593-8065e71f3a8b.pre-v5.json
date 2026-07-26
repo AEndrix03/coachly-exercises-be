@@ -1,0 +1,42 @@
+{
+  "exercise_id": "506b6e88-bcf3-4987-a593-8065e71f3a8b",
+  "proposal": {
+    "exercise_id": "506b6e88-bcf3-4987-a593-8065e71f3a8b",
+    "proposed": {
+      "name": "Paused Assisted Nordic Curl",
+      "translations": {
+        "it": {
+          "name": "Paused Assisted Nordic Curl",
+          "description": "Variante del Curl Nordico Assistito che introduce una pausa strategica per eliminare l'inerzia e aumentare il tempo sotto tensione, focalizzandosi sul controllo eccentrico della fase di discesa.",
+          "executionTips": [
+            "Mantieni il busto rigido come una tavola, evitando di flettere la caviglia o l'anca.",
+            "Effettua una discesa lenta e controllata fino al punto di massima tensione.",
+            "Fermati per 2-3 secondi nel punto più critico della discesa prima di risalire.",
+            "Usa l'assistenza (bande elastiche o mani) per risalire in modo controllato senza dare strappi."
+          ],
+          "safetyTips": [
+            "Assicurati che le caviglie siano bloccate saldamente per evitare scivolamenti.",
+            "Non inarcare la schiena durante la fase di discesa per evitare stress lombare.",
+            "Inizia con un livello di assistenza elevato e riducilo gradualmente man mano che aumenta la forza eccentrica."
+          ]
+        },
+        "en": {
+          "name": "Paused Assisted Nordic Curl",
+          "description": "Variation of the Assisted Nordic Curl that introduces a strategic pause to eliminate momentum and increase time under tension, focusing on the controlled eccentric phase of the descent.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

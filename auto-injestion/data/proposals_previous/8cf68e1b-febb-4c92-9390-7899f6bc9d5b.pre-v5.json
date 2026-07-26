@@ -1,0 +1,43 @@
+{
+  "exercise_id": "8cf68e1b-febb-4c92-9390-7899f6bc9d5b",
+  "proposal": {
+    "exercise_id": "8cf68e1b-febb-4c92-9390-7899f6bc9d5b",
+    "proposed": {
+      "name": "Weighted Close-Grip Lat Pulldown",
+      "translations": {
+        "it": {
+          "name": "Weighted Close-Grip Lat Pulldown",
+          "description": "Progressione aumentando il carico mantenendo scapole depresse e traiettoria stabile senza slancio.",
+          "executionTips": [
+            "Mantenere il busto leggermente inclinato all'indietro",
+            "Concentrarsi sull'avvicinare l'impugnatura verso la parte superiore del petto",
+            "Controllare la fase eccentrica per massimizzare la tensione muscolare",
+            "Evitare di usare l'inerzia per portare giù la barra"
+          ],
+          "safetyTips": [
+            "Assicurarsi che il peso sia bloccato correttamente",
+            "Evitare l'iperestensione della colonna vertebrale",
+            "Non lasciare che il peso torni su troppo velocemente",
+            "Mantenere le scapole basse e lontane dalle orecchie"
+          ]
+        },
+        "en": {
+          "name": "Weighted Close-Grip Lat Pulldown",
+          "description": "Progression increasing load while keeping scapulae depressed and a stable pulling path without swinging.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

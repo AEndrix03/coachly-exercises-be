@@ -1,0 +1,43 @@
+{
+  "exercise_id": "c45807bc-1903-4166-b471-776097d28f3a",
+  "proposal": {
+    "exercise_id": "c45807bc-1903-4166-b471-776097d28f3a",
+    "proposed": {
+      "name": "Slingshot Bench Press",
+      "translations": {
+        "it": {
+          "name": "Slingshot Bench Press",
+          "description": "Panca con l'ausilio dello Slingshot (elastico per i gomiti), un dispositivo che fornisce assistenza nella fase bassa e permette di utilizzare carichi superiori al massimale. Sviluppa adattamento neurale a carichi elevati e rinforza la fase di lockout. Utile come allenamento in overload controllato.",
+          "executionTips": [
+            "Posiziona lo Slingshot correttamente intorno ai gomiti e ai polsi",
+            "Controlla la discesa del bilanciere verso il petto",
+            "Sfrutta l'energia elastica dello Slingshot per iniziare la risalita",
+            "Concentrati sulla spinta esplosiva verso l'alto per completare il lockout"
+          ],
+          "safetyTips": [
+            "Utilizza sempre un assistente (spotter) a causa dei carichi sovramassimali",
+            "Assicurati che lo Slingshot sia in buono stato e non presenti strappi",
+            "Mantieni l'arco lombare naturale e le scapole addotte",
+            "Non permettere al bilanciere di rimbalzare eccessivamente sul petto"
+          ]
+        },
+        "en": {
+          "name": "Slingshot Bench Press",
+          "description": "Bench press using a Slingshot (elbow sleeve), a device providing assistance in the bottom phase and allowing loads above 1RM. Develops neural adaptation to heavy loads and strengthens the lockout phase. Useful as a controlled overload overload training tool.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "exercise_id": "0fa94905-eae7-47d2-8a9c-eda6eff60f5a",
+  "proposal": {
+    "exercise_id": "0fa94905-eae7-47d2-8a9c-eda6eff60f5a",
+    "proposed": {
+      "name": "Paused Isometric Calf Raise Hold",
+      "translations": {
+        "it": {
+          "name": "Paused Isometric Calf Raise Hold",
+          "description": "Esercizio di tenuta isometrica per i polpacci, in cui si mantiene la contrazione massima a fine corsa, focalizzandosi sulla stabilità e l'attivazione muscolare profonda.",
+          "executionTips": [
+            "Posizionati con i piedi paralleli",
+            "Sali sulle punte dei piedi",
+            "Mantieni la contrazione massima per il tempo indicato",
+            "Respira regolarmente senza bloccare il fiato"
+          ],
+          "safetyTips": [
+            "Evita di oscillare lateralmente durante la tenuta",
+            "Assicurati di avere un'appoggio appoggio stabile",
+            "Non iperestendere le caviglie",
+            "Mantieni l'equilibrio utilizzando un leggero appoggio a una parete se necessario"
+          ]
+        },
+        "en": {
+          "name": "Paused Isometric Calf Raise Hold",
+          "description": "Isometric hold exercise for the calves, where the maximum contraction is at the peak of the movement, focusing on stability and deep muscle activation.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

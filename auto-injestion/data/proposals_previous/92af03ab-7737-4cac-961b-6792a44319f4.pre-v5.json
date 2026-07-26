@@ -1,0 +1,43 @@
+{
+  "exercise_id": "92af03ab-7737-4cac-961b-6792a44319f4",
+  "proposal": {
+    "exercise_id": "92af03ab-7737-4cac-961b-6792a44319f4",
+    "proposed": {
+      "name": "Feet-Elevated Bridge Heel Curl",
+      "translations": {
+        "it": {
+          "name": "Feet-Elevated Bridge Heel Curl",
+          "description": "Variante del Curl dei Talloni nel Ponte che prevede l'elevazione dei piedi su una panca o un rialzo, modificando la leva e l'intensità per targetizzare la catena posteriore, in particolare i flessori dell'anca e i glutei.",
+          "executionTips": [
+            "Posiziona i talloni su un rialzo stabile",
+            "Mantieni il bacino sollevato in posizione di ponte",
+            "Fletti own the knees bringing the heels toward the glutes",
+            "Controlla la fase eccentrica (discesa) per massimizzare la tensione",
+            "Mantieni il core attivo per evitare l'inarcamento della schiena"
+          ],
+          "safetyTips": [
+            "Assicurati che il rialzo sia antiscivolo",
+            "Non inarcare eccessivamente la schiena durante il sollevamento del bacino",
+            "Evita movimenti bruschi per proteggere le articolazioni del ginocchio"
+          ]
+        },
+        "en": {
+          "name": "Feet-Elevated Bridge Heel Curl",
+          "description": "A variation of the Bridge Heel Curl where the feet are elevated on a bench or platform, increasing the leverage and range of motion to target the posterior chain, specifically the hip flexors and gluteals.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

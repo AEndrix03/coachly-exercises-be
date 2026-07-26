@@ -1,0 +1,14 @@
+{
+  "exercise_id": "33dade15-1f57-478b-aff3-413f7321377c",
+  "proposal": {
+    "exercise_id": "33dade15-1f57-478b-aff3-413f7321377c",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

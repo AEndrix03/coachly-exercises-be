@@ -1,0 +1,41 @@
+{
+  "exercise_id": "36c4ad25-545c-4452-9910-c12cb1619b37",
+  "proposal": {
+    "exercise_id": "36c4ad25-545c-4452-9910-c12cb1619b37",
+    "proposed": {
+      "name": "Kettlebell Curl",
+      "translations": {
+        "it": {
+          "name": "Kettlebell Curl",
+          "description": "Esercizio di flessione del braccio per il bicipite utilizzando un kettlebell, che sfida la instabilità del peso rispetto a un manubrio tradizionale.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il core attivo per evitare oscillazioni del busto.",
+            "Controlla la fase eccentrica (discesa) per massimizzare la tensione muscolare.",
+            "Evita di muovere le spalle in avanti durante la risalita del peso."
+          ],
+          "safetyTips": [
+            "Assicurati che l'impugnatura sia salda e sicura sul manico del kettlebell.",
+            "Non utilizzare un carico eccessivo che costringa a usare l'inerzia per sollevare il peso.",
+            "Mantieni i gomiti vicini ai fianchi per evitare stress eccessivo all'articolazione della spalla."
+          ]
+        },
+        "en": {
+          "name": "Kettlebell Curl",
+          "description": "Bicep curl exercise using a kettlebell, which challenges stability due to the weight distribution of the kettlebell compared to a traditional dumbbell.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

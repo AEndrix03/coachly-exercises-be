@@ -1,0 +1,43 @@
+{
+  "exercise_id": "779d4f9a-abfb-4a56-b404-870e05b39606",
+  "proposal": {
+    "exercise_id": "779d4f9a-abfb-4a56-b404-870e05b39606",
+    "proposed": {
+      "name": "Neck Machine Extension",
+      "translations": {
+        "it": {
+          "name": "Neck Machine Extension",
+          "description": "Variante di Macchina per il Collo a 4 Direzioni - Allenamento collo: ripetizioni lente e controllate mantenendo mento rientrato e colonna neutra. Aumenta il carico gradualmente e interrompi se compare dolore acuto.",
+          "executionTips": [
+            "Mantenere il mento leggermente rientrato durante l'estensione",
+            "Eseguire il movimento in modo lento e controllato",
+            "Evitare di usare l'inerzia per sollevare il carico",
+            "Assicurarsi che la testa sia posizionata correttamente nel supporto della macchina"
+          ],
+          "safetyTips": [
+            "Non superare l'estensione eccessiva del collo",
+            "Aumentare il carico in modo molto graduale",
+            "Interrompere immediatamente l'esercizio se si avverte un dolore acuto",
+            "Mantenere la colonna vertebrale in posizione neutra"
+          ]
+        },
+        "en": {
+          "name": "Neck Machine Extension",
+          "description": "Variation of 4-Way Neck Machine - Neck training: use slow controlled reps with a tucked chin and neutral spine. Progress load gradually and stop if you feel sharp pain.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

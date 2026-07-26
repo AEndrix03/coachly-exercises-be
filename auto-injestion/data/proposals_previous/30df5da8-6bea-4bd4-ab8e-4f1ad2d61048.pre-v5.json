@@ -1,0 +1,79 @@
+{
+  "exercise_id": "30df5da8-6bea-4bd4-ab8e-4f1ad2d61048",
+  "proposal": {
+    "exercise_id": "30df5da8-6bea-4bd4-ab8e-4f1ad2d61048",
+    "proposed": {
+      "name": "Shoulder Tap",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Shoulder Tap",
+          "description": "L'esercizio consiste nel mantenere una posizione di plank alta, toccando alternativamente le spalle con le mani senza permettere al bacino di ruotare.",
+          "executionTips": [
+            "Mantieni i piedi leggermente più larghi della larghezza delle spalle per una maggiore stabilità.",
+            "Contrai glutei e addominali per evitare che il bacino oscilli durante il movimento.",
+            "Sposta il peso leggermente verso la mano di supporto mentre tocchi la spalla opposta.",
+            "Esegui il movimento in modo lento e controllato."
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena; mantieni la colonna vertebrale neutra.",
+            "Non permettere alle spalle di collassare verso l'interno.",
+            "Assicurati che le mani siano posizionate esattamente sotto le spalle."
+          ]
+        },
+        "en": {
+          "name": "Shoulder Tap",
+          "description": "The exercise involves maintaining a high plank position and alternately touching the shoulders with the hands without allowing the hips to rotate.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "rectus_abdominis",
+        "obliquus_externus",
+        "obliquus_internus",
+        "transversus_abdominis",
+        "deltoid_anterior",
+        "serratus_anterior"
+      ],
+      "categories": [
+        "core",
+        "calisthenics",
+        "upper_body",
+        "warmup"
+      ],
+      "equipment": [
+        "gymnastic_mat"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "core_stability",
+        "functional",
+        "no_equipment",
+        "unilateral",
+        "home_gym"
+      ],
+      "new_tag_candidates": [
+        "anti_rotation"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Plank Shoulder Tap with Medicine Ball",
+        "Dynamic Shoulder Tap"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "exercise_id": "88145f7c-f361-4eca-a17f-9e4985359713",
+  "proposal": {
+    "exercise_id": "88145f7c-f361-4eca-a17f-9e4985359713",
+    "proposed": {
+      "name": "Kneeling Cable Kickback",
+      "translations": {
+        "it": {
+          "name": "Kneeling Cable Kickback",
+          "description": "Esecuzione tecnica di Kickback ai Cavi in Ginocchio: setup stabile e core in tenuta, controlla l'eccentrica senza compensi. Usa un ROM utile e chiudi ogni ripetizione con contrazione attiva.",
+          "executionTips": [
+            "Mantieni il busto leggermente inclinato in avanti per ottimizzare l'allineamento del gluteo.",
+            "Controlla la fase di ritorno (eccentrica) evitando di far rimbalzare il peso.",
+            "Spremi il gluteo al massimo nel punto di massima contrazione, senza inarcare la schiena."
+          ],
+          "safetyTips": [
+            "Evita di inarcare eccessivamente la zona lombare durante l'estensione della gamba.",
+            "Assicurati che il ginocchio di supporto sia ben posente e allineato per evitare stress articolari.",
+            "Non utilizzare carichi eccessivi che costringano a compensare con il movimento del busto."
+          ]
+        },
+        "en": {
+          "name": "Kneeling Cable Kickback",
+          "description": "Technical execution of Kneeling Cable Kickback: stable setup and core braced, control the eccentric without compensations. Use a useful range and finish each rep with active contraction.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

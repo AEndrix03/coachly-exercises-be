@@ -1,0 +1,77 @@
+{
+  "exercise_id": "29a31a10-9587-4791-ae9b-c60b4ee7314a",
+  "proposal": {
+    "exercise_id": "29a31a10-9587-4791-ae9b-c60b4ee7314a",
+    "proposed": {
+      "name": "Skull Crusher with Dumbbell",
+      "difficulty": "intermediate",
+      "mechanics": "isolation), ",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Skull Crusher with Dumbbell",
+          "description": "L'estensione dei tricipiti con manubri, nota come Skull Crusher, consiste nel distendere i manubri partendo da una posizione di flessione delle braccia, portando il peso verso la fronte o appena sopra la testa mentre si è sdraiati su una panca.",
+          "executionTips": [
+            "Mantieni i gomiti puntati in avanti e non farli allargare durante il movimento.",
+            "Abbassa i manubri in modo controllato verso i lati della tempia o la fronte.",
+            "Espira durante la fase di estensione e inspira durante la discesa.",
+            "Mantieni il contatto della schiena con la panca per tutta la durata dell'esercizio."
+          ],
+          "safetyTips": [
+            "Evita di sbattere i manubri sulla fronte; mantieni un margine di sicurezza.",
+            "Non inarcare eccessivamente la zona lombare durante la spinta.",
+            "Scegli un carico che permetta di mantenere il controllo totale del movimento senza oscillazioni."
+          ]
+        },
+        "en": {
+          "name": "Skull Crusher with Dumbbell",
+          "description": "The dumbbell skull crusher is a triceps extension exercise where you lower dumbbells toward your forehead or slightly behind your head while lying on a bench, then extend the arms back to the starting position.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "triceps_brachii_lateral",
+        "triceps_brachii_long",
+        "triceps_brachii_medial"
+      ],
+      "categories": [
+        "triceps",
+        "isolation",
+        "upper_body",
+        "push_horizontal"
+      ],
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "tags": [
+        "hypertrophy",
+        "push_day",
+        "upper_day",
+        "mind_muscle",
+        "strength"
+      ],
+      "new_tag_candidates": [
+        "elbow_intensive"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Skull Crusher with EZ Bar",
+        "Incline Dumbbell Skull Crusher",
+        "Cable Skull Crusher"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

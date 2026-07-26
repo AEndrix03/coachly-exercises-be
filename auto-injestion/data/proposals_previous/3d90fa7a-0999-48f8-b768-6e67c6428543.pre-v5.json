@@ -1,0 +1,43 @@
+{
+  "exercise_id": "3d90fa7a-0999-48f8-b768-6e67c6428543",
+  "proposal": {
+    "exercise_id": "3d90fa7a-0999-48f8-b768-6e67c6428543",
+    "proposed": {
+      "name": "Ring Dip",
+      "translations": {
+        "it": {
+          "name": "Ring Dip",
+          "description": "Dip agli anelli: un esercizio di spinta composto che sfida l'instabilità degli anelli per aumentare l'attivazione muscolare. Focalizzato principalmente sui tricipiti e sul petto, richiede un controllo motorio superiore rispetto ai dip alle parallele.",
+          "executionTips": [
+            "Mantieni il core attivo e i glutei contratti per evitare l'estensione della schiena.",
+            "Ruota leggermente gli anelli verso l'esterno al termine della fase di spinta per una massima contrazione.",
+            "Controlla la discesa evitando di rimbalzare al punto più basso del movimento.",
+            "Mantieni le spalle lontane dalle orecchie durante tutta l'esecuzione."
+          ],
+          "safetyTips": [
+            "Assicurati che gli anelli siano fissati saldamente e che l'altezza sia regolata correttamente.",
+            "Non scendere oltre il punto in cui perdi il controllo della stabilità degli anelli.",
+            "Evita di lasciare che le spalle ruotino eccessivamente in avanti durante la fase eccentrica.",
+            "Riscalda adeguatamente le articolazioni delle spalle e dei polsi prima di iniziare."
+          ]
+        },
+        "en": {
+          "name": "Ring Dip",
+          "description": "Ring Dips: a compound pushing exercise that challenges stability due to the ring's instability, increasing muscle activation. Primarily focusing on thetriceps and chest, it requires superior motor control compared to parallel bar dips.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

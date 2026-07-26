@@ -1,0 +1,44 @@
+{
+  "exercise_id": "e9ef1690-e093-4e1e-ad3c-d24415297d99",
+  "proposal": {
+    "exercise_id": "e9ef1690-e093-4e1e-ad3c-d24415297d99",
+    "proposed": {
+      "name": "Dumbbell Fly",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Fly",
+          "description": "Esercizio di isolamento per il pettorale maggiore con movimento di adduzione orizzontale. Permette un grande allungamento del petto nella fase di apertura.",
+          "executionTips": [
+            "Pensare di abbracciare un albero mantenendo l'arco del gomito fisso",
+            "Le croci sono meglio usate come esercizio di isolamento dopo i composti",
+            "La versione ai cavi mantiene la tensione costante sull'intero range",
+            "Mantenere una leggera flessione fissa ai gomiti per tutto il movimento",
+            "Controllare soprattutto la fase eccentrica per aumentare lo stimolo muscolare"
+          ],
+          "safetyTips": [
+            "Non scendere mai con le braccia troppo tese: mantenere sempre una leggera flessione ai gomiti",
+            "Evita di aprire le braccia oltre il punto di stiramento confortevole, soprattutto con carichi pesanti, per non sovraccaricare la capsula anteriore della spalla",
+            "Se avverti dolore anteriore alla spalla riduci il range di movimento e il peso utilizzato",
+            "Evitare di scendere troppo in basso con i gomiti sotto il piano della panca"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Fly",
+          "description": "Isolation exercise for the pectoralis major using horizontal adduction. Allows a great chest stretch in the opening phase.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

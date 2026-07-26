@@ -1,0 +1,14 @@
+{
+  "exercise_id": "cab9375c-7a94-4b3e-9563-379e21ce8863",
+  "proposal": {
+    "exercise_id": "cab9375c-7a94-4b3e-9563-379e21ce8863",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

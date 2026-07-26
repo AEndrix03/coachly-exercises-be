@@ -1,0 +1,45 @@
+{
+  "exercise_id": "bdb24cd5-07f2-45a8-b5aa-63ab50e7020d",
+  "proposal": {
+    "exercise_id": "bdb24cd5-07f2-45a8-b5aa-63ab50e7020d",
+    "proposed": {
+      "name": "Tricep Pushdown",
+      "translations": {
+        "it": {
+          "name": "Tricep Pushdown",
+          "description": "Esercizio di isolamento per il tricipite al cavo alto. Facile da eseguire, adatto a tutti i livelli. Ottimo per il pump e come finisher nelle sessioni di braccia o push.",
+          "executionTips": [
+            "La corda permette di aprire le mani in fondo aumentando la contrazione del capo laterale",
+            "La presa supina (barra rovesciata) isola maggiormente il capo mediale",
+            "I gomiti devono rimanere come incernierati ai fianchi",
+            "Estendere i gomiti verso il basso spingendo l'attacco verso i fianchi",
+            "Arrivare alla distensione completa contraendo il tricipite",
+            "Risalire con controllo fino alla posizione di partenza senza far salire i gomiti"
+          ],
+          "safetyTips": [
+            "Mantenere i gomiti fermi ai lati del busto",
+            "Non usare il momentum del corpo",
+            "Evitare che i gomiti si sollevino dal fianco usando la schiena",
+            "Non inclinare il busto troppo in avanti"
+          ]
+        },
+        "en": {
+          "name": "Tricep Pushdown",
+          "description": "Isolation exercise for the triceps using a high cable. Easy to perform, suitable for all levels. Excellent for pump and as a finisher in arm or push sessions.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

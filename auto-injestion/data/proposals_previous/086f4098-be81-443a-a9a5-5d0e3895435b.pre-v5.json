@@ -1,0 +1,42 @@
+{
+  "exercise_id": "086f4098-be81-443a-a9a5-5d0e3895435b",
+  "proposal": {
+    "exercise_id": "086f4098-be81-443a-a9a5-5d0e3895435b",
+    "proposed": {
+      "name": "Tempo Bear Crawl Hold",
+      "translations": {
+        "it": {
+          "name": "Tempo Bear Crawl Hold",
+          "description": "Variante di Bear Crawl Hold che modifica leva o tempo di esecuzione per lavorare lo stesso schema motorio. L'obiettivo è mantenere un setup solido e muoversi con estremo controllo senza perdere l'allineamento posturale.",
+          "executionTips": [
+            "Mantieni la schiena piatta come un tavolo, evitando di inarcare la zona lombare.",
+            "Coordina il respiro con il movimento, mantenendo l'addome attivo e contratto.",
+            "Assicurati che le ginocchia siano sospese a pochi centimetri dal suolo per massimizzare l'attivazione del core.",
+            "Esegui i movimenti di tempo in modo lento e controllato, evitando oscillazioni."
+          ],
+          "safetyTips": [
+            "Non permettere alle spalle di collassare verso l'interno; spingi attivamente contro il pavimento.",
+            "Evita di sollevare eccessivamente il bacino; mantieni le anche in linea con le spalle.",
+            "Se senti dolore alle polsi, prova a ruotare leggermente le mani o a usare dei supporti."
+          ]
+        },
+        "en": {
+          "name": "Tempo Bear Crawl Hold",
+          "description": "Variation of Bear Crawl Hold that changes leverage or tempo to target the same pattern. The goal is to keep a tight setup and move under full control without losing position.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

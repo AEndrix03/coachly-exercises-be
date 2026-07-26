@@ -1,0 +1,42 @@
+{
+  "exercise_id": "d95e58c2-66a4-4961-bca3-e68a715dc8ba",
+  "proposal": {
+    "exercise_id": "d95e58c2-66a4-4961-bca3-e68a715dc8ba",
+    "proposed": {
+      "name": "Wall Dead Bug March",
+      "translations": {
+        "it": {
+          "name": "Wall Dead Bug March",
+          "description": "Variante di Dead Bug March. Mantieni le coste basse e il core attivo mentre esegui lentamente il movimento. Mantieni il bacino in squadra e la posizione della colonna vertebrale stabile; utilizza una respirazione controllata per mantenere la tensione intra-addominale.",
+          "executionTips": [
+            "Spingi i piedi contro il muro per attivare il core",
+            "Coordina il respiro con il movimento: espira durante la fase di estensione della gamba",
+            "Muoviti lentamente per massimizzare il tempo sotto tensione",
+            "Mantieni il contatto tra la zona lombare e il pavimento"
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena durante l'estensione della gamba",
+            "Non lasciare che le coste si sollevino dal pavimento",
+            "Assicurati che il bacino non ruoti durante il movimento"
+          ]
+        },
+        "en": {
+          "name": "Wall Dead Bug March",
+          "description": "Variation of Dead Bug March. Maintain ribs down and a braced core while moving slowly through the pattern. Keep hips square and avoid losing spinal position; use controlled breathing to hold tension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

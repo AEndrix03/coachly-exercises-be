@@ -1,0 +1,42 @@
+{
+  "exercise_id": "9dcd3132-73a3-4156-a80c-e1c2a518457b",
+  "proposal": {
+    "exercise_id": "9dcd3132-73a3-4156-a80c-e1c2a518457b",
+    "proposed": {
+      "name": "Touch and Go Bench Press",
+      "translations": {
+        "it": {
+          "name": "Touch and Go Bench Press",
+          "description": "Variante della panca piana con un contatto leggero e controllato del bilanciere sul petto, senza sosta, per massimizzare il volume di allenamento e sfruttare l'energia elastica.",
+          "executionTips": [
+            "Mantieni i piedi ben piantati a terra per stabilità.",
+            "Sfiora leggermente il petto con il bilanciere senza farlo rimbalzare violentemente.",
+            "Mantieni una leggera curvatura naturale della schiena e le scapole addotte.",
+            "Espira durante la fase di spinta e inspira durante la discesa."
+          ],
+          "safetyTips": [
+            "Utilizza sempre un assistente (spotter) quando lavori con carichi elevati.",
+            "Evita di rimbalzare il bilanciere sul torace per prevenire infortuni alle costole.",
+            "Assicurati che il bilanciere sia impugnato saldamente con un grip sicuro."
+          ]
+        },
+        "en": {
+          "name": "Touch and Go Bench Press",
+          "description": "Bench press variant using a controlled touch-and-go off the chest to build speed and training volume by utilizing the stretch reflex.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

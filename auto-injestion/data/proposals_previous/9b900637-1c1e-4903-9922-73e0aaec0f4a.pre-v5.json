@@ -1,0 +1,43 @@
+{
+  "exercise_id": "9b900637-1c1e-4903-9922-73e0aaec0f4a",
+  "proposal": {
+    "exercise_id": "9b900637-1c1e-4903-9922-73e0aaec0f4a",
+    "proposed": {
+      "name": "Manual Neck Resistance - Lateral Flexion",
+      "translations": {
+        "it": {
+          "name": "Manual Neck Resistance - Lateral Flexion",
+          "description": "Esercizio di resistenza manuale per il collo focalizzato sulla flessione laterale. L'utente applica una pressione manuale contro il lato della testa per rinforzare i muscoli laterali del collo, mantenendo la postura corretta.",
+          "executionTips": [
+            "Mantieni il mento leggermente rientrato e la colonna vertebrale in posizione neutra durante tutto l'esercizio.",
+            "Esegui le ripetizioni in modo lento e controllato, evitando movimenti bruschi.",
+            "Applica una pressione costante e graduale con la mano sulla tempia o sul lato della testa.",
+            "Resisti alla pressione manuale mentre cerchi di mantenere la testa in posizione centrale."
+          ],
+          "safetyTips": [
+            "Non applicare una forza eccessiva o scatti bruschi per evitare infortuni alle vertebre cervicali.",
+            "Aumenta il carico di resistenza manuale in modo graduale.",
+            "Interrompi immediatamente l'esercizio se avverti un dolore acuto, vertigini o formicolio.",
+            "Assicurati di non comprimere eccessivamente la colonna cervicale."
+          ]
+        },
+        "en": {
+          "name": "Manual Neck Resistance - Lateral Flexion",
+          "description": "Manual resistance exercise for the neck focusing on lateral flexion. The user applies manual pressure against the side of the head to strengthen the lateral neck muscles while maintaining proper posture.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "exercise_id": "fda7cbfe-45d9-4ae7-966a-f22fc8dde70b",
+  "proposal": {
+    "exercise_id": "fda7cbfe-45d9-4ae7-966a-f22fc8dde70b",
+    "proposed": {
+      "name": "Dumbbell Rear Delt Fly",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Rear Delt Fly",
+          "description": "Esercizio di isolamento per il deltoide posteriore e i romboidi. Fondamentale per il bilanciamento delle spalle e la correzione posturale.",
+          "executionTips": [
+            "Inclina il busto in avanti mantenendo la schiena piatta e mento leggermente rientrato",
+            "Apri le braccia lateralmente guidando il movimento con i gomiti per isolare il deltoide posteriore",
+            "Mantieni una leggera flessione dei gomiti per tutta la ripetizione",
+            "Evita di usare lo slancio della schiena per sollevare il peso",
+            "Fai una breve pausa in cima stringendo le scapole, poi scendi con controllo",
+            "Alzare i manubri lateralmente e verso l'alto in un arco fino al livello delle spalle",
+            "Evita di usare troppo peso per non coinvolgere eccessivamente il trapezio superiore"
+          ],
+          "safetyTips": [
+            "Usare carichi leggeri con altissima qualità di movimento",
+            "Chi ha una storia di dolore lombare dovrebbe appoggiare il petto su una panca inclinata per ridurre il carico sulla zona bassa della schiena",
+            "Il deltoide posteriore è un muscolo piccolo e facilmente sovrastato dal trapezio se il carico è eccessivo"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Rear Delt Fly",
+          "description": "Isolation exercise for the posterior deltoid and rhomboids. Fundamental for shoulder balance and postural correction.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

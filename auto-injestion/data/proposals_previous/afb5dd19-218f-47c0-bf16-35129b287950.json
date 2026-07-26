@@ -1,0 +1,14 @@
+{
+  "exercise_id": "afb5dd19-218f-47c0-bf16-35129b287950",
+  "proposal": {
+    "exercise_id": "afb5dd19-218f-47c0-bf16-35129b287950",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

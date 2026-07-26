@@ -1,0 +1,87 @@
+{
+  "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+  "prompt_version": "v3",
+  "proposal": {
+    "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+    "proposed": {
+      "name": "Chest Dip",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "push",
+      "translations": {
+        "it": {
+          "name": "Chest Dip",
+          "description": "Dip alle parallele con busto inclinato in avanti per massimizzare il coinvolgimento del pettorale inferiore.",
+          "executionTips": [
+            "Inclina il busto in avanti di 20-30 gradi per enfatizzare il petto.",
+            "Scendi controllando il movimento finché le braccia sono parallele al suolo.",
+            "Spingi verso l'alto guidando con il petto senza bloccare bruscamente i gomiti.",
+            "Mantieni le scapole depresse per stabilizzare la spalla durante l'esecuzione.",
+            "Espirate durante la fase di spinta e inspirate nella discesa."
+          ],
+          "safetyTips": [
+            "Evita discese eccessive se avverti tensione o dolore alla spalla anteriore.",
+            "Riduci il range di movimento o usa elastici se hai instabilità articolare.",
+            "Evita oscillazioni del corpo per mantenere la tensione muscolare e la stabilità.",
+            "Non permettere alle spalle di salire verso le orecchie durante la discesa."
+          ]
+        },
+        "en": {
+          "name": "Chest Dip",
+          "description": "Parallel bar dips with a forward torso lean to maximize lower pectoralis major involvement.",
+          "executionTips": [
+            "Lean the torso forward 20-30 degrees to emphasize the chest.",
+            "Lower the body with control until the upper arms are parallel to the floor.",
+            "Push back up leading with the chest without snapping the elbows locked.",
+            "Keep the shoulder blades depressed to stabilize the shoulder throughout.",
+            "Exhale during the push phase and inhale during the descent."
+          ],
+          "safetyTips": [
+            "Avoid excessive depth if you feel tension or pain in the anterior shoulder.",
+            "Reduce the range of motion or use bands if you have joint instability.",
+            "Avoid body swinging to maintain muscle tension and stability.",
+            "Do not allow the shoulders to shrug toward the ears during descent."
+          ]
+        }
+      },
+      "muscles": [
+        "pectoralis_major_sternal",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "triceps_brachii_long",
+        "deltoid_anterior"
+      ],
+      "categories": [
+        "chest",
+        "triceps",
+        "calisthenics",
+        "push_vertical",
+        "upper_body"
+      ],
+      "equipment": [
+        "dip_bars"
+      ],
+      "tags": [
+        "bilateral",
+        "hypertrophy",
+        "push_day",
+        "strength",
+        "upper_day"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

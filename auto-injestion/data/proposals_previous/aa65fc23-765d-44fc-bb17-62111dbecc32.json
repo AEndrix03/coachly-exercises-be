@@ -1,0 +1,14 @@
+{
+  "exercise_id": "aa65fc23-765d-44fc-bb17-62111dbecc32",
+  "proposal": {
+    "exercise_id": "aa65fc23-765d-44fc-bb17-62111dbecc32",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

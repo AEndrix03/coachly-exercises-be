@@ -1,0 +1,43 @@
+{
+  "exercise_id": "ca050714-4f4a-413e-953c-ae9bac13f0b4",
+  "proposal": {
+    "exercise_id": "ca050714-4f4a-413e-953c-ae9bac13f0b4",
+    "proposed": {
+      "name": "Steady State (Assault Bike)",
+      "translations": {
+        "it": {
+          "name": "Steady State (Assault Bike)",
+          "description": "Variante di Assault Bike (Air Bike) focalizzata sul mantenimento di un ritmo costante. Imposta una posizione stabile e attiva il core (bracing). Esegui il movimento in un range di movimento (ROM) controllato con un allineamento corporeo ottimale, mantenendo una cadenza costante per tutta la durata dell'esercizio.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il core attivo per stabilizzare il torso",
+            "Sincronizza il movimento delle braccia e delle gambe per un'efficienza massima",
+            "Concentrati su una respirazione ritmica e controllata",
+            "Mantieni un ritmo costante (RPM) senza sbalzi di intensità"
+          ],
+          "safetyTips": [
+            "Assicurati che la macchina sia stabile e regolata correttamente per l'altezza della sella",
+            "Evita di collassare il busto in avanti durante la fatica",
+            "Non bloccare completamente le articolazioni delle ginocchia al punto morto inferiore",
+            "Mantieni una presa salda ma non eccessivamente stretta sulle maniglie"
+          ]
+        },
+        "en": {
+          "name": "Steady State (Assault Bike)",
+          "description": "Variation of Assault Bike (Air Bike) focused on maintaining a steady state. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

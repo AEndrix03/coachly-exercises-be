@@ -1,0 +1,43 @@
+{
+  "exercise_id": "fa171162-79d7-4023-a5ac-4d3ecc4f94f7",
+  "proposal": {
+    "exercise_id": "fa171162-79d7-4023-a5ac-4d3ecc4f94f7",
+    "proposed": {
+      "name": "Sprint (Assault Bike)",
+      "translations": {
+        "it": {
+          "name": "Sprint (Assault Bike)",
+          "description": "Sprint ad alta intensità sulla Assault Bike (Air Bike). L'esercizio consiste nel pedalare e spingere le maniglie in modo coordinato e veloce per raggiungere la massima potenza erogata.",
+          "executionTips": [
+            "Mantieni il core stabile e contratto",
+            "Sincronizza il movimento delle braccia e delle gambe per massimizzare la spinta",
+            "Respira ritmicamente per sostenere lo sforzo anaerobico",
+            "Cerca di mantenere una frequenza di pedalata costante e veloce durante l'intero sprint"
+          ],
+          "safetyTips": [
+            "Assicurati che la sella sia regolata a un'altezza corretta per evitare stress eccessivo alle ginocchia",
+            "Evita di sollevare eccessivamente il sedere dalla sella se non è necessario per la tecnica di spinta",
+            "Mantieni la schiena dritta e non incurvare la sella durante lo sforzo massimo",
+            "Riscaldamento adeguato prima di iniziare sprint ad alta intensità"
+          ]
+        },
+        "en": {
+          "name": "Sprint (Assault Bike)",
+          "description": "High-intensity sprint on the Assault Bike (Air Bike). The exercise involves pedaling and pushing the handles in a coordinated and fast manner to reach maximum power output.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

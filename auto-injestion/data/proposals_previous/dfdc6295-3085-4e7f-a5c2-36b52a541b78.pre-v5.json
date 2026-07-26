@@ -1,0 +1,41 @@
+{
+  "exercise_id": "dfdc6295-3085-4e7f-a5c2-36b52a541b78",
+  "proposal": {
+    "exercise_id": "dfdc6295-3085-4e7f-a5c2-36b52a541b78",
+    "proposed": {
+      "name": "Weighted Dips",
+      "translations": {
+        "it": {
+          "name": "Weighted Dips",
+          "description": "Dips con zavorra aggiuntiva (cintura con disco), permette di progredire oltre il peso corporeo.",
+          "executionTips": [
+            "Mantieni il busto leggermente inclinato in avanti per focalizzare maggiormente il lavoro sui pettorali",
+            "Scendi lentamente e in modo controllato fino a quando le braccia formano un angolo di circa 90 gradi",
+            "Espira durante la fase di risalita e inspira durante la discesa"
+          ],
+          "safetyTips": [
+            "Evita di scendere troppo profondamente per non stressare eccessivamente l'articolazione della spalla",
+            "Assicurati che la cintura di zavorra sia ben fissata e il disco correttamente posizionato",
+            "Mantieni le spalle lontane dalle orecchie, evitando di incurvare la schiena"
+          ]
+        },
+        "en": {
+          "name": "Weighted Dips",
+          "description": "Dips with additional weight (dip belt with plates), allowing progression beyond bodyweight.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

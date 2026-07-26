@@ -1,0 +1,44 @@
+{
+  "exercise_id": "9f23e1cf-2dea-4cb1-b7f4-abc7901f3ae9",
+  "proposal": {
+    "exercise_id": "9f23e1cf-2dea-4cb1-b7f4-abc7901f3ae9",
+    "proposed": {
+      "name": "High Incline Barbell Press",
+      "translations": {
+        "it": {
+          "name": "High Incline Barbell Press",
+          "description": "Eseguito con inclinazione elevata (60-75 gradi) che trasforma l'esercizio quasi in un overhead press, massimizzando il coinvolgimento del deltoide anteriore e della porzione clavicolare del pettorale.",
+          "executionTips": [
+            "Posiziona la schiena contro lo schienale dello schienale",
+            "Mantieni i piedi ben saldi a terra per stabilità",
+            "Abbassa il bilanciere verso la parte superiore del petto, appena sotto le clavicole",
+            "Spingi il bilanciere verso l'alto in modo controllato",
+            "Non bloccare completamente i gomiti in cima al movimento"
+          ],
+          "safetyTips": [
+            "Assicurati che lo schienale be sia correttamente regolato a 60-75 gradi",
+            "Usa un osservatore (spotter) per evitare che il bilanciere rimani a contatto con il petto",
+            "SAFETY: Non inarcare eccessivamente la schiena",
+            "SAFETY: Evita di rimbalzare il bilanciere sul petto"
+          ]
+        },
+        "en": {
+          "name": "High Incline Barbell Press",
+          "description": "Performed at a steep incline (60-75 degrees), transforming the movement into something close to an overhead press, maximizing anterior deltoid and clavicular pectoral head involvement.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

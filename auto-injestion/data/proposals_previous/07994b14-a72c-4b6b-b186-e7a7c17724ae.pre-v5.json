@@ -1,0 +1,42 @@
+{
+  "exercise_id": "07994b14-a72c-4b6b-b186-e7a7c17724ae",
+  "proposal": {
+    "exercise_id": "07994b14-a72c-4b6b-b186-e7a7c17724ae",
+    "proposed": {
+      "name": "Single Arm Cable Press",
+      "translations": {
+        "it": {
+          "name": "Single Arm Cable Press",
+          "description": "Press ai cavi eseguito un braccio alla volta: usa una stance stabile e resisti alla rotazione del tronco mentre spingi. Mantieni scapola controllata e rientra lentamente per non perdere l'assetto di spalla.",
+          "executionTips": [
+            "Posiziona i piedi in modo da avere una base d'appoggio stabile e leggermente sfasata per migliorare l'equilibrio.",
+            "Spingi il cavo in avanti mantenendo l'allineamento tra polso, gomito e spalla.",
+            "Concentrati sul contrastare la rotazione del busto, mantenendo il core attivo e contratto.",
+            "Controlla la fase di ritorno (eccentrica) per mantenere la tensione muscolare costante."
+          ],
+          "safetyTips": [
+            "Evita di inarcare eccessivamente la schiena durante la spinta.",
+            "Non permettere alla spalla di scivolare in avanti durante la fase di ritorno.",
+            "Scegli un carico che permetta di mantenere il controllo totale del movimento senza oscillazioni del tronco."
+          ]
+        },
+        "en": {
+          "name": "Single Arm Cable Press",
+          "description": "Cable press performed one arm at a time: use a stable stance and resist trunk rotation as you press. Keep the scapula controlled and return slowly to avoid losing shoulder position.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

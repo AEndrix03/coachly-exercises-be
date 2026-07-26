@@ -1,0 +1,41 @@
+{
+  "exercise_id": "84b27347-5b75-487c-984f-d5b2772fad2c",
+  "proposal": {
+    "exercise_id": "84b27347-5b75-487c-984f-d5b2772fad2c",
+    "proposed": {
+      "name": "Manual Neck Resistance - Extension",
+      "translations": {
+        "it": {
+          "name": "Manual Neck Resistance - Extension",
+          "description": "Resistenza Manuale Collo - Estensione: un esercizio di isolamento per rinforzare i muscoli estensori del collo, eseguito applicando una resistenza manuale contro il movimento di estensione.",
+          "executionTips": [
+            "Mantenere il mento leggermente rientrato per stabilizzare la colonna cervicale.",
+            "Eseguire ripetizioni lente e controllate, evitando movimenti bruschi.",
+            "Applicare una pressione costante e manuale che opponga resistenza al movimento di estensione verso l'alto."
+          ],
+          "safetyTips": [
+            "Non applicare una pressione eccessiva che possa causare dolore acuto.",
+            "Mantenere la colonna vertebrale in posizione neutra durante l'esecuzione.",
+            "Interrompere immediatamente l'esecuzione se si avverte un senso di vertigine o dolore pungente."
+          ]
+        },
+        "en": {
+          "name": "Manual Neck Resistance - Extension",
+          "description": "Manual Neck Resistance - Extension: an isolation exercise to strengthen the neck extensors, performed by applying manual resistance against the extension movement.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

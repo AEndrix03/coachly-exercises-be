@@ -1,0 +1,43 @@
+{
+  "exercise_id": "895b219c-ca16-4310-a22c-fec3789fd70f",
+  "proposal": {
+    "exercise_id": "895b219c-ca16-4310-a22c-fec3789fd70f",
+    "proposed": {
+      "name": "Towel Pull-Up",
+      "translations": {
+        "it": {
+          "name": "Towel Pull-Up",
+          "description": "Trazioni alla sbarra con l'ausilio di due asciugamani avvolti attorno alla barra per aumentare la sfida per la presa e l'attivazione muscolare del braccio e della schiena.",
+          "executionTips": [
+            "Afferra l'asciugamano con una presa salda",
+            "Mantieni il core stabilizzato e il corpo in linea",
+            "Tira il petto verso la sbarra controllando la discesa",
+            "Evita di dondolare il corpo per usare l'estensione dell'anca"
+          ],
+          "safetyTips": [
+            "Assicurati che l'asciugamano sia fissato saldamente alla sbarra per evitare scivolamenti",
+            "Evita di iperextendere le spalle durante la fase di discesa",
+            "Riscalda adeguatamente i polsi e le dore di mano",
+            "Interrompi l'esercizio se senti dolore acuto alle articolazioni della mano"
+          ]
+        },
+        "en": {
+          "name": "Towel Pull-Up",
+          "description": "Pull-ups performed using towels draped over a pull-up bar to increase grip strength challenge and muscle activation in the arms and back.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

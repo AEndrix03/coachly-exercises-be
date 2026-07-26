@@ -1,0 +1,44 @@
+{
+  "exercise_id": "9341402a-eccf-4903-8fe8-f1fd04a9e3dd",
+  "proposal": {
+    "exercise_id": "9341402a-eccf-4903-8fe8-f1fd04a9e3dd",
+    "proposed": {
+      "name": "Tempo Bent-Knee Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Tempo Bent-Knee Calf Raise",
+          "description": "Variante di Calf Raise a ginocchia flesse che utilizza un tempo di esecuzione controllato per aumentare il tempo sotto tensione (TUT) del muscolo soleo. Questo esercizio mira a migliorare la forza e l'ipertrofia del polpaccio, concentrandosi sulla fase eccentrica e isometrica.",
+          "executionTips": [
+            "Mantieni le ginocchia leggermente flesse per tutto l'esercizio",
+            "Controlla attentamente la fase di discesa (eccentrica), contando circa 3 secondi",
+            "Fermati per un secondo in massima contrazione (picco) e in massimo allungamento",
+            "Spingi attraverso l'avampiede per sollevare i talloni",
+            "Mantieni il busto eretto e il core stabilizzato"
+          ],
+          "safetyTips": [
+            "Evita di rimbalzare al punto più basso del movimento",
+            "Non permettere che le caviglie si ruotino verso l'interno o l'esterno durante la salita",
+            "Assicurati di avere un'appoggio stabile per l'equilibrio",
+            "Non iperestendere le articolazioni del polpaccio"
+          ]
+        },
+        "en": {
+          "name": "Tempo Bent-Knee Calf Raise",
+          "description": "A variation of the Bent-Knee Calf Raise that utilizes a controlled tempo to increase the time under tension (TUT) of the soleus muscle. This exercise focuses on improving calf strength and hypertrophy by emphasizing the concentrated eccentric and isometric phases.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

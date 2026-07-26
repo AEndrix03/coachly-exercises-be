@@ -1,0 +1,91 @@
+{
+  "exercise_id": "45fe49cb-0f7a-4e4f-838f-99861d6bf598",
+  "proposal": {
+    "exercise_id": "45fe49cb-0f7a-4e4f-838f-99861d6bf598",
+    "proposed": {
+      "name": "Safety Bar Squat",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "push",
+      "translations": {
+        "it": {
+          "name": "Safety Bar Squat",
+          "description": "Squat eseguito con l'utilizzo di una Safety Bar, che sposta il carico più avanti rispetto a un bilanciere dritto, riducendo lo stress sulle spalle.",
+          "executionTips": [
+            "Posiziona la barra sulle spalle e afferra le maniglie laterali per stabilizzare il carico.",
+            "Mantieni il core contratto e la schiena neutra durante tutta la discesa.",
+            "Scendi controllando la fase eccentrica fino a raggiungere la profondità desiderata.",
+            "Spingi attraverso i talloni per risalire, mantenendo le ginocchia allineate con le punte dei piedi."
+          ],
+          "safetyTips": [
+            "Evita di inclinare eccessivamente il busto in avanti per compensare la mancanza di stabilità.",
+            "Assicurati che la barra sia ben posizionata per evitare scivolamenti durante il movimento.",
+            "Utilizza un rack di sicurezza per prevenire infortuni in caso di fallimento della ripetizione."
+          ]
+        },
+        "en": {
+          "name": "Safety Bar Squat",
+          "description": "Squat performed using a Safety Bar, which shifts the load forward compared to a straight barbell, reducing stress on the shoulders.",
+          "executionTips": [
+            "Position the bar on your shoulders and grip the handles to stabilize the load.",
+            "Keep your core braced and your back neutral throughout the descent.",
+            "Control the eccentric phase until you reach the desired depth.",
+            "Push through your heels to ascend, keeping your knees aligned with your toes."
+          ],
+          "safetyTips": [
+            "Avoid excessive forward lean to compensate for lack of stability.",
+            "Ensure the bar is properly positioned to avoid slipping during the movement.",
+            "Use a safety rack to prevent injuries in case of a failed rep."
+          ]
+        }
+      },
+      "muscles": [
+        "quadriceps",
+        "gluteus_maximus",
+        "adductor_magnus",
+        "erector_spinae",
+        "vastus_lateralis",
+        "vastus_medialis",
+        "vastus_intermedius",
+        "rectus_femoris"
+      ],
+      "categories": [
+        "squat_pattern",
+        "compound_lifts",
+        "lower_body",
+        "powerlifting"
+      ],
+      "equipment": [
+        "swiss_bar",
+        "squat_rack",
+        "weight_plate"
+      ],
+      "tags": [
+        "bilateral",
+        "shoulder_friendly",
+        "strength",
+        "hypertrophy",
+        "leg_day",
+        "lower_day",
+        "spotter_recommended",
+        "gym_only"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "REJECTED",
+    "errors": [
+      "UNKNOWN_MUSCLES:quadriceps"
+    ],
+    "schema_valid": false,
+    "catalog_valid": false
+  }
+}

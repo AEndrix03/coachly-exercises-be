@@ -1,0 +1,42 @@
+{
+  "exercise_id": "22731127-8c6e-4554-ad3d-30b98d7a0f48",
+  "proposal": {
+    "exercise_id": "22731127-8c6e-4554-ad3d-30b98d7a0f48",
+    "proposed": {
+      "name": "Neutral Grip Floor Press",
+      "translations": {
+        "it": {
+          "name": "Neutral Grip Floor Press",
+          "description": "Floor press con presa neutra (palme rivolte l'una verso l'altra), ideale per ridurre lo stress articolare sulle spalle e focalizzare il lavoro sui tricipiti e pettorali.",
+          "executionTips": [
+            "Sdraiati a terra con le ginocchia flesse per stabilizzare la schiena",
+            "Mantieni i gomiti a circa 45 gradi rispetto al busto",
+            "Abbassa i pesi lentamente fino a quando i tricipiti toccano leggermente il pavimento",
+            "Spingi i pesi verso l'alto in modo esplosivo mantenendo la presa neutra"
+          ],
+          "safetyTips": [
+            "Evita di far rimbalzare i gomiti sul pavimento",
+            "Mantieni la schiena piatta contro il suolo per evitare inarcamenti eccessivi",
+            "Scegli un carico che permetta il controllo totale del movimento durante la fase eccentrica"
+          ]
+        },
+        "en": {
+          "name": "Neutral Grip Floor Press",
+          "description": "Floor press with a neutral grip (palms facing each other), designed to reduce shoulder stress and focus the workload on the triceps and chest.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

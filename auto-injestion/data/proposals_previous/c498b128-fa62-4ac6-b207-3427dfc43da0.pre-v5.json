@@ -1,0 +1,40 @@
+{
+  "exercise_id": "c498b128-fa62-4ac6-b207-3427dfc43da0",
+  "proposal": {
+    "exercise_id": "c498b128-fa62-4ac6-b207-3427dfc43da0",
+    "proposed": {
+      "name": "Cable Seated Curl",
+      "translations": {
+        "it": {
+          "name": "Cable Seated Curl",
+          "description": "Siediti su una macchina per cavi con i piedi piatti a terra e la schiena dritta. Afferra l'impugnatura del cavo con una presa supina, palmi rivolti verso l'alto e le braccia completamente estese. Mantenendo le braccia superiori ferme, espira e fletti il cavo verso le spalle, contraendo i bicipiti. Fermati un istante al culmine del movimento, contraendo i bicipiti. Inspira e abbassa lentamente l'impugnatura del cavo fino alla posizione iniziale, estendendo completamente le braccia. Ripeti per il numero desiderato di ripetizioni.",
+          "executionTips": [
+            "Mantieni i gomiti ben ancorati ai fianchi per tutta la ripetizione, evitando di usare lo slancio delle spalle.",
+            "Espira durante la fase concentrica (salita) e contrai i bicipiti al massimo nel punto più alto.",
+            "Controlla la fase eccentrica (discesa) per circa 2-3 secondi per massimizzare la tensione."
+          ],
+          "safetyTips": [
+            "Evita di dondolare il busto all'indietro per generare slancio, poiché ciò riduce la tensione sui bicipiti e sovraccarica la zona lombare.",
+            "Utilizza un carico moderato per evitare di compromettere la tecnica di esecuzione."
+          ]
+        },
+        "en": {
+          "name": "Cable Seated Curl",
+          "description": "Sit on a cable machine with your feet flat on the ground and your back straight. Grasp the cable attachment with an underhand grip, palms facing up, and your arms fully extended. Keeping your upper arms stationary, exhale and curl the cable attachment towards your shoulders, contracting your biceps. Pause for a moment at the top of the movement, squeezing your biceps. Inhale and slowly lower the cable attachment back to the starting position, fully extending your arms. Repeat for the desired number of repetitions.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

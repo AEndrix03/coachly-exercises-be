@@ -1,0 +1,73 @@
+{
+  "exercise_id": "e8b132b2-9ee3-486f-af94-ea04db32410a",
+  "proposal": {
+    "exercise_id": "e8b132b2-9ee3-486f-af94-ea04db32410a",
+    "proposed": {
+      "name": "Neck Machine Flexion",
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force": "dynamic",
+      "translations": {
+        "it": {
+          "name": "Neck Machine Flexion",
+          "description": "Variante di Macchina per il Collo a 4 Direzioni - Allenamento collo: ripetizioni lente e controllate mantenendo mento rientrato e colonna neutra. Aumenta il carico gradualmente e interrompi se compare dolore acuto.",
+          "executionTips": [
+            "Mantieni il mento leggermente rientrato per stabilizzare le vertebre cervicali.",
+            "Esegui il movimento in modo fluido, evitando scatti o movimenti bruschi.",
+            "Espira durante la fase di flessione (contrazione) e inspira durante il ritorno.",
+            "Assicurati che il supporto della macchina sia posizionato correttamente sulla fronte."
+          ],
+          "safetyTips": [
+            "Non utilizzare carichi eccessivi; il collo è una zona estremamente delicata.",
+            "Interrompi immediatamente l'esercizio in caso di vertigini, formicolii o dolore acuto.",
+            "Evita di iperestendere il collo alla fine della fase eccentrica.",
+            "Riscalda bene la zona cervicale prima di iniziare il carico."
+          ]
+        },
+        "en": {
+          "name": "Neck Machine Flexion",
+          "description": "Variation of 4-Way Neck Machine - Neck training: use slow controlled reps with a tucked chin and neutral spine. Progress load gradually and stop if you feel sharp pain.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "trapezius_upper"
+      ],
+      "categories": [
+        "isolation",
+        "rehabilitation",
+        "upper_body"
+      ],
+      "equipment": [
+        "chest_press_machine"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "gym_only",
+        "hypertrophy",
+        "injury_risk",
+        "sport_performance",
+        "strength"
+      ],
+      "new_tag_candidates": [
+        "neck_training"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "ba85338c-5b4f-47e1-9d6d-46dcbdbea986"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

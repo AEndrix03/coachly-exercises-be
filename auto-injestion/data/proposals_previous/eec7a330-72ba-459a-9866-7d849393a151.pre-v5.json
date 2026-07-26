@@ -1,0 +1,53 @@
+{
+  "exercise_id": "eec7a330-72ba-459a-9866-7d849393a151",
+  "proposal": {
+    "exercise_id": "eec7a330-72ba-459a-9866-7d849393a151",
+    "proposed": {
+      "name": "Bulgarian Split Squat",
+      "translations": {
+        "it": {
+          "name": "Bulgarian Split Squat",
+          "description": "Squat monolaterale con il piede posteriore elevato su una panca. Uno degli esercizi più efficaci per glutei e quadricipiti, con alta domanda di stabilità e correzione degli squilibri laterali.",
+          "executionTips": [
+            "Busto eretto = più quadricipite; busto inclinato = più gluteo",
+            "La versione con manubri è più facile da bilanciare di quella con bilanciere",
+            "Uno degli esercizi con il più alto transfer atletico per gli sport",
+            "Posizionarsi davanti a una panca con il collo del piede posteriore appoggiato su di essa",
+            "Fare un passo in avanti abbastanza lungo da permettere al ginocchio anteriore di non superare la punta del piede nella discesa",
+            "Tenere manubri ai lati o un bilanciere sulle spalle",
+            "Inspirare nella discesa",
+            "Espirare nella salita",
+            "Abbassare il corpo piegando il ginocchio anteriore verso il basso",
+            "Mantenere il busto relativamente eretto",
+            "Scendere fino a quando la coscia anteriore è parallela o il ginocchio posteriore quasi tocca terra",
+            "Spingere attraverso il tallone anteriore per risalire"
+          ],
+          "safetyTips": [
+            "Iniziare senza carico per trovare la posizione corretta dei piedi",
+            "Il ginocchio posteriore non deve toccare il suolo violentemente",
+            "L'elevata richiesta di equilibrio monolaterale può causare instabilità del ginocchio",
+            "Chi ha squilibri di forza marcati o dolore al ginocchio dovrebbe iniziare senza carico aggiuntivo",
+            "Evitare che il piede anteriore sia troppo vicino alla panca per non creare stress eccessivo al ginocchio",
+            "Evitare che il busto sia troppo inclinato in avanti per non enfatizzare il gluteo a scapito del quadricipite"
+          ]
+        },
+        "en": {
+          "name": "Bulgarian Split Squat",
+          "description": "Unilateral squat with the rear foot elevated on a bench. One of the most effective exercises for glutes and quads, with high stability demands and correction of lateral imbalances.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

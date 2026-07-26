@@ -1,0 +1,14 @@
+{
+  "exercise_id": "fabab31e-ed33-41bb-897d-1917a78dabe7",
+  "proposal": {
+    "exercise_id": "fabab31e-ed33-41bb-897d-1917a78dabe7",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

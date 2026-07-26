@@ -1,0 +1,42 @@
+{
+  "exercise_id": "3c3643a9-c2d9-486a-9938-bb3cb1ab8b2b",
+  "proposal": {
+    "exercise_id": "3c3643a9-c2d9-486a-9938-bb3cb1ab8b2b",
+    "proposed": {
+      "name": "Towel Row",
+      "translations": {
+        "it": {
+          "name": "Towel Row",
+          "description": "Imposta un busto rigido e schiena neutra, poi tira i gomiti indietro mantenendo le spalle basse e addotte. Pausa un istante in massima contrazione e controlla il ritorno senza perdere tensione.",
+          "executionTips": [
+            "Mantenere il core attivo per stabilizzare il busto",
+            "Tirare l'asciugamano verso l'ombelico per massimizzare l'attivazione del gran dorsale",
+            "Concentrarsi sulla retrazione scapolare prima di flettere i gomiti",
+            "Controllare la fase eccentrica per mantenere la tensione muscolare"
+          ],
+          "safetyTips": [
+            "Evitare di incurvare la schiena durante l'esecuzione",
+            "Assicurarsi che l'asciugamano sia fissato a un punto di ancoraggio sicuro e stabile",
+            "Non dare strappi bruschi durante la fase di trazione"
+          ]
+        },
+        "en": {
+          "name": "Towel Row",
+          "description": "Set up with a rigid torso and a neutral spine, then pull your elbows back while keeping your shoulders down and back. Pause briefly in the squeezed position and control the return without losing tension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

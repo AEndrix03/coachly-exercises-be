@@ -1,0 +1,45 @@
+{
+  "exercise_id": "2ab0e63c-ce25-43d7-b091-bfeeefb4b55e",
+  "proposal": {
+    "exercise_id": "2ab0e63c-ce25-43d7-b091-bfeeefb4b55e",
+    "proposed": {
+      "name": "Chin-Up",
+      "translations": {
+        "it": {
+          "name": "Chin-Up",
+          "description": "Variante delle trazioni con presa supina (palme verso di sé). Maggior coinvolgimento del bicipite rispetto al pull-up, leggermente più facile per la maggior parte degli atleti.",
+          "executionTips": [
+            "La presa più stretta aumenta il range di movimento del bicipite",
+            "Eccellente esercizio per sviluppare la connessione dorsali-bicipite",
+            "Progredire aggiungendo peso con la cintura",
+            "Tirare il petto verso la sbarra piegando i gomiti",
+            "Portare il mento sopra o il petto alla sbarra",
+            "Abbassare completamente fino al dead hang"
+          ],
+          "safetyTips": [
+            "Rischio basso ma richiede una buona base di forza nella parte superiore del corpo",
+            "Chi soffre di problemi a gomiti o spalle dovrebbe evitare il kipping",
+            "La presa supina riduce lo stress sull articolazione della spalla rispetto alla presa prona per molti atleti",
+            "Eseguire il range of motion completo"
+          ]
+        },
+        "en": {
+          "name": "Chin-Up",
+          "description": "Pull-up variation with supinated grip (palms facing you). Greater biceps involvement than pull-ups, slightly easier for most athletes.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

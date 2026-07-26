@@ -1,0 +1,44 @@
+{
+  "exercise_id": "336b1fdc-5f5c-4368-94bd-d116693bfa98",
+  "proposal": {
+    "exercise_id": "336b1fdc-5f5c-4368-94bd-d116693bfa98",
+    "proposed": {
+      "name": "Snatch Pull",
+      "translations": {
+        "it": {
+          "name": "Snatch Pull",
+          "description": "Il Tiro dello Strappo è un esercizio di potenza che imita la prima e seconda fase del movimento di strappo (snatch), concentrandosi sull'estensione esplosiva dell'anca e del ginocchio. L'obiettivo è tirare il bilanciere verso l'alto mantenendo una traiettoria verticale, senza completare la ricezione del peso.",
+          "executionTips": [
+            "Mantieni la schiena piatta e neutra durante tutta l'esecuzione",
+            "Inizia il sollevamento con una spinta esplosiva delle gambe",
+            "Mantieni il bilanciere il più vicino possibile al corpo",
+            "Estendi completamente le anche e le ginocchia in modo esplosivo al vertice del movimento",
+            "Tira il bilanciere verso l'alto utilizzando i trapezi senza saltare eccessivamente"
+          ],
+          "safetyTips": [
+            "Assicurati di utilizzare una presa a strappo (wide grip) corretta per l'ampiezza delle tue spalle",
+            "Evita di curvare la schiena durante la fase di stacco da terra",
+            "Non permettere al bilanciere di allontanarsi dal corpo per evitare stress eccessivo alla zona lombare",
+            "Mantieni il core stabilizzato attraverso il bracing"
+          ]
+        },
+        "en": {
+          "name": "Snatch Pull",
+          "description": "The Snatch Pull is a power exercise that mimics the first and second pull of the snatch movement, focusing on explosive hip and knee extension. The goal is to lift the barbell upward while maintaining a vertical trajectory, without completing the catch phase of the lift.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

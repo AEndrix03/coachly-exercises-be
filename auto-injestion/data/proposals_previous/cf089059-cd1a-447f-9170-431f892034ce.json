@@ -1,0 +1,14 @@
+{
+  "exercise_id": "cf089059-cd1a-447f-9170-431f892034ce",
+  "proposal": {
+    "exercise_id": "cf089059-cd1a-447f-9170-431f892034ce",
+    "proposed": {},
+    "overall_confidence": 1.0
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

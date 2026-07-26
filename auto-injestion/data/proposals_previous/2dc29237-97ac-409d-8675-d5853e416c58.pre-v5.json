@@ -1,0 +1,44 @@
+{
+  "exercise_id": "2dc29237-97ac-409d-8675-d5853e416c58",
+  "proposal": {
+    "exercise_id": "2dc29237-97ac-409d-8675-d5853e416c58",
+    "proposed": {
+      "name": "Paused Archer Chin-Up",
+      "translations": {
+        "it": {
+          "name": "Paused Archer Chin-Up",
+          "description": "Variante della Trazione all'Arciere (Archer Chin-Up) che introduce una pausa strategica nel punto di massima contrazione o di massima tensione, modificando il tempo di esecuzione per aumentare il tempo sotto tensione (TUT) e migliorare il controllo motorio.",
+          "executionTips": [
+            "Mantieni una presa supina",
+            "Sali verso la sbarra con un braccio che flette l'articolazione mentre l'altro rimane quasi completamente esteso, simulando il movimento di un arciere",
+            "Effettua una pausa di 2-3 secondi nel punto più alto della trazione",
+            "Controlla la discesa in modo eccentrico e lento",
+            "Evita di usare l'inerzia o il kipping"
+          ],
+          "safetyTips": [
+            "Assicurati che la spalla del braccio di supporto sia stabile e attiva",
+            "Non permettere alla spalla di scivolare in avanti durante la pausa",
+            "Evita di ruotare eccessivamente il busto per compensare la mancanza di forza",
+            "Riscalda adeguatamente le articolazioni di polso e polsi e delle spalle prima di iniziare"
+          ]
+        },
+        "en": {
+          "name": "Paused Archer Chin-Up",
+          "description": "A variation of the Archer Chin-Up that incorporates a strategic pause at the peak of contraction or maximum tension, altering the tempo to increase time under tension (TUT) and improve motor control.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

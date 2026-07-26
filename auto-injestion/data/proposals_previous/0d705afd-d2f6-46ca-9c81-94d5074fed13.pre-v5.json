@@ -1,0 +1,42 @@
+{
+  "exercise_id": "0d705afd-d2f6-46ca-9c81-94d5074fed13",
+  "proposal": {
+    "exercise_id": "0d705afd-d2f6-46ca-9c81-94d5074fed13",
+    "proposed": {
+      "name": "L-Sit",
+      "translations": {
+        "it": {
+          "name": "L-Sit",
+          "description": "L'L-Sit è un esercizio di forza statica per il core e i flessori dell'anca, in cui il corpo assume la forma di una 'L' mantenendo le gambe sollevate e parallele al terreno mentre ci si sostiene su due supporti (come parallele o maniglie) o a terra.",
+          "executionTips": [
+            "Mantieni le spalle lontane dalle orecchie, spingendo attivamente verso il basso per creare spazio",
+            "Tieni le gambe tese e i piedi a martello",
+            "Contrai i glutei e l'addome per stabilizzare il bacino",
+            "Respira in modo controllato durante il mantenimento della posizione"
+          ],
+          "safetyTips": [
+            "Se l'esercizio è troppo difficile, inizia con le ginocchia flesse (Tucked L-Sit)",
+            "Assicurati che i polsi siano in una posizione neutra o comoda per evitare stress eccessivo",
+            "Evita di inarcare eccessivamente la schiena; mantieni una leggera retroversione del bacino"
+          ]
+        },
+        "en": {
+          "name": "L-Sit",
+          "description": "The L-Sit is a static strength exercise for the core and hip flexors, where the body forms an 'L' shape by holding the legs lifted and parallel to the ground while supporting oneself on two supports (such as parallettes or the floor).",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

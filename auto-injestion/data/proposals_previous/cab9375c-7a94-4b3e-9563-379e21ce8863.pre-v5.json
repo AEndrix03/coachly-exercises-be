@@ -1,0 +1,42 @@
+{
+  "exercise_id": "cab9375c-7a94-4b3e-9563-379e21ce8863",
+  "proposal": {
+    "exercise_id": "cab9375c-7a94-4b3e-9563-379e21ce8863",
+    "proposed": {
+      "name": "Seated Cable Row (Single Arm)",
+      "translations": {
+        "it": {
+          "name": "Seated Cable Row (Single Arm)",
+          "description": "Rematore seduto al cavo eseguito un braccio alla volta per migliorare controllo, simmetria e stabilita del tronco. Mantieni bacino e busto fermi, tira con gomito verso il fianco e rientra lentamente senza perdere la posizione scapolare.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il busto leggermente inclinato in avanti",
+            "Evita di ruotare il busto durante la trazione",
+            "Concentrati sul portare il gomito verso l'anca per massimizzare l'attivazione del gran dorsale",
+            "Controlla la fase eccentrica (ritorno) per mantenere la tensione muscolare"
+          ],
+          "safetyTips": [
+            "Non inarcare eccessivamente la zona lombare",
+            "Evita di usare l'inerzia o dondolamenti del busto per sollevare il carico",
+            "Assicurati che la posizione dei piedi sia stabile e ben appoggiata sui poggiapiedi"
+          ]
+        },
+        "en": {
+          "name": "Seated Cable Row (Single Arm)",
+          "description": "Seated cable row performed one arm at a time to improve control, symmetry, and trunk stability. Keep hips and torso steady, row with the elbow toward the hip, and return slowly without losing scapular position.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

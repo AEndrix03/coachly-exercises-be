@@ -1,0 +1,39 @@
+{
+  "exercise_id": "a7414d1d-fd3f-40e1-ada9-74a555c2c903",
+  "proposal": {
+    "exercise_id": "a7414d1d-fd3f-40e1-ada9-74a555c2c903",
+    "proposed": {
+      "name": "Cable Seated Crunch",
+      "translations": {
+        "it": {
+          "name": "Cable Seated Crunch",
+          "description": "Siediti su una macchina per cavo con i piedi piatti a terra e le ginocchia piegate. Tieni la maniglia del cavo con entrambe le mani e posizionala dietro la testa. Attiva gli addominali e incurva lentamente la parte superiore del corpo in avanti, portando il petto verso le ginocchia. Fermati un attimo in cima, poi torna lentamente alla posizione di partenza. Ripeti per il numero desiderato di ripetizioni.",
+          "executionTips": [
+            "Mantieni i gomiti fissi vicino alla testa e inizia il movimento flettendo la colonna toracica, non tirando con le braccia.",
+            "Espira mentre curvi il busto in avanti contraendo gli addominali, e torna su in modo controllato senza rilasciare la tensione sul cavo."
+          ],
+          "safetyTips": [
+            "Evita di tirare con le braccia o il collo per non creare tensione cervicale.",
+            "Rischio moderato: chi soffre di problemi lombari dovrebbe limitare l'ampiezza del movimento."
+          ]
+        },
+        "en": {
+          "name": "Cable Seated Crunch",
+          "description": "Sit on a cable machine with your feet flat on the ground and your knees bent. Hold the cable handle with both hands and position it behind your head. Engage your abs and slowly curl your upper body forward, bringing your chest towards your knees. Pause for a moment at the top, then slowly return to the starting position. Repeat for the desired number of repetitions.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

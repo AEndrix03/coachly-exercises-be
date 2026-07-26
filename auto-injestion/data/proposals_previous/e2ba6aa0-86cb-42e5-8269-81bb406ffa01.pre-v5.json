@@ -1,0 +1,42 @@
+{
+  "exercise_id": "e2ba6aa0-86cb-42e5-8269-81bb406ffa01",
+  "proposal": {
+    "exercise_id": "e2ba6aa0-86cb-42e5-8269-81bb406ffa01",
+    "proposed": {
+      "name": "Reverse Cable Curl",
+      "translations": {
+        "it": {
+          "name": "Reverse Cable Curl",
+          "description": "Variante di Curl ai Cavi - Curl per bicipiti: impugna l'attrezzo, gomiti vicini ai fianchi e spalle stabili, fletti il gomito senza oscillare il busto. Sali in controllo, poi scendi lentamente mantenendo tensione continua.",
+          "executionTips": [
+            "Mantieni i gomiti fissi lungo i fianchi per isolare i bicipiti e il brachioradiale.",
+            "Evita di oscillare il busto per generare slancio.",
+            "Controlla la fase eccentrica (discesa) per massimizzare l'ipertrofia.",
+            "Usa una presa inversa (pronata) per spostare l'enfasi sul brachioradiale e l'estensore del carpo."
+          ],
+          "safetyTips": [
+            "Assicurati che il cavo sia fissato correttamente all'attrezzo.",
+            "Non iperestendere l'articolazione del gomito in fondo al movimento.",
+            "Mantieni il polso in posizione neutra o leggermente flessa per evitare stress eccessivo."
+          ]
+        },
+        "en": {
+          "name": "Reverse Cable Curl",
+          "description": "Variation of Cable Curl - Biceps curl: grip the implement with elbows pinned close to your sides and shoulders stable, flex the elbow without swinging. Curl up under control, then lower slowly keeping constant tension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

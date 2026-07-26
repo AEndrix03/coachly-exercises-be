@@ -1,0 +1,45 @@
+{
+  "exercise_id": "9265296b-68db-421d-8f28-00b3f09bb288",
+  "proposal": {
+    "exercise_id": "9265296b-68db-421d-8f28-00b3f09bb288",
+    "proposed": {
+      "name": "Dumbbell Shoulder Press",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Shoulder Press",
+          "description": "Variante con manubri dell overhead press in posizione seduta. Permette un percorso naturale per ogni braccio e un maggiore range di movimento rispetto al bilanciere.",
+          "executionTips": [
+            "Siediti con la schiena ben appoggiata allo schienale e il core attivo per stabilizzare il tronco",
+            "Parti con i manubri all'altezza delle spalle, gomiti leggermente in avanti",
+            "Spingi i manubri verso l'alto e leggermente verso l'interno, senza bloccare completamente i gomiti",
+            "Abbassa i pesi con controllo fino al livello delle spalle o leggermente oltre",
+            "Espira durante la spinta e inspira durante la discesa controllata"
+          ],
+          "safetyTips": [
+            "Evita l'iperestensione lombare durante la spinta",
+            "Non permettere ai manubri di allontanarsi eccessivamente verso i lati",
+            "Usa le cosce come supporto per portare i manubri in posizione iniziale",
+            "Se hai instabilità alle spalle o problemi alla cuffia dei rotatori, riduci il carico e il range di movimento",
+            "Evita di abbassare le braccia troppo al di sotto del livello delle spalle per prevenire stress eccessivo"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Shoulder Press",
+          "description": "Dumbbell variation of the overhead press in seated position. Allows a natural path for each arm and greater range of motion than the barbell.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

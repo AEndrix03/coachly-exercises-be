@@ -1,0 +1,42 @@
+{
+  "exercise_id": "2981e17f-e943-447e-89e4-3d1724e09d7f",
+  "proposal": {
+    "exercise_id": "2981e17f-e943-447e-89e4-3d1724e09d7f",
+    "proposed": {
+      "name": "High Cable Crossover (Lower Chest)",
+      "translations": {
+        "it": {
+          "name": "High Cable Crossover (Lower Chest)",
+          "description": "Crossover con cavi regolati in alto: guida le maniglie dall'alto verso il basso e in avanti, mantenendo gomiti morbidi e controllo della scapola. L'angolo discendente enfatizza la porzione inferiore del pettorale; evita di “spingere” conले spalle e chiudi con una contrazione netta davanti al torace.",
+          "executionTips": [
+            "Mantieni i piedi in posizione stabile, possibilmente con un piede avanti all'altro per un miglior equilibrio.",
+            "Immagina di abbracciare un grande albero per guidare il movimento di chiusura verso il basso.",
+            "Contrai i pettorali nel punto di massima contrazione, mantenendo i gomiti leggermente flessi.",
+            "Controlla la fase eccentrica (ritorno) per massimizzare la tensione muscolare."
+          ],
+          "safetyTips": [
+            "Evita di inarcare eccessivamente la schiena durante la fase di contrazione.",
+            "Non permettere che i cavi tirino le braccia troppo indietro oltre l'estensione naturale della spalla per evitare infortuni.",
+            "Scegli un carico che permetta di mantenere il controllo totale del movimento senza usare l'inerzia."
+          ]
+        },
+        "en": {
+          "name": "High Cable Crossover (Lower Chest)",
+          "description": "Cable crossover with the pulleys set high: move the handles down and forward with soft elbows and controlled scapular position. The downward line of pull emphasizes the lower pec; avoid driving with the shoulders and finish with a clear squeeze in front of the torso.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

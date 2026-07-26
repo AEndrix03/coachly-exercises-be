@@ -1,0 +1,14 @@
+{
+  "exercise_id": "6bc9860b-105e-4896-81ab-b60ffa4041cd",
+  "proposal": {
+    "exercise_id": "6bc9860b-105e-4896-81ab-b60ffa4041cd",
+    "proposed": {},
+    "overall_confidence": 1.0
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "exercise_id": "953b85a4-2385-4320-8212-536c48fe9dee",
+  "proposal": {
+    "exercise_id": "953b85a4-2385-4320-8212-536c48fe9dee",
+    "proposed": {
+      "name": "Single Arm Cable Curl",
+      "difficulty": "beginner",
+      "mechanics": "isolation), ",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Single Arm Cable Curl",
+          "description": "Variante di Curl ai Cavi - Curl per bicipiti: impugna l'attrezzo, gomiti vicini ai fianchi e spalle stabili, fletti il gomito senza oscillare il busto. Sali in controllo, poi scendi lentamente mantenendo tensione continua.",
+          "executionTips": [
+            "Mantieni il gomito bloccato al fianco per evitare di usare l'inerzia.",
+            "Contrai il bicipite al massimo nel punto più alto del movimento.",
+            "Controlla la fase eccentrica (discesa) per massimizzare l'ipertrofia.",
+            "Evita di ruotare la spalla in avanti durante la flessione."
+          ],
+          "safetyTips": [
+            "Assicurati che il cavo sia fissato correttamente all'impugnatura.",
+            "Non inarcare la schiena per compensare il peso.",
+            "Evita movimenti bruschi che potrebbero causare uno strappo muscolare."
+          ]
+        },
+        "en": {
+          "name": "Single Arm Cable Curl",
+          "description": "Variation of Cable Curl - Biceps curl: grip the implement with elbows pinned close to your sides and shoulders stable, flex the elbow without swinging. Curl up under control, then lower slowly keeping constant tension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "biceps_brachii_long",
+        "biceps_brachii_short",
+        "brachialis",
+        "brachioradialis"
+      ],
+      "categories": [
+        "biceps",
+        "isolation",
+        "upper_body",
+        "pull_vertical"
+      ],
+      "equipment": [
+        "cable_crossover_machine",
+        "cable_attachment_single_handle"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "hypertrophy",
+        "mind_muscle",
+        "pull_day",
+        "unilateral",
+        "upper_day"
+      ],
+      "new_tag_candidates": [
+        "constant_tension"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Cable Curl",
+        "Dumbbell Curl",
+        "EZ Bar Curl"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

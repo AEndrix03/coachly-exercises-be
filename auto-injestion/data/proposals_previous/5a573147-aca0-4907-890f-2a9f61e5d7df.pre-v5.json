@@ -1,0 +1,43 @@
+{
+  "exercise_id": "5a573147-aca0-4907-890f-2a9f61e5d7df",
+  "proposal": {
+    "exercise_id": "5a573147-aca0-4907-890f-2a9f61e5d7df",
+    "proposed": {
+      "name": "Tempo Archer Chin-Up",
+      "translations": {
+        "it": {
+          "name": "Tempo Archer Chin-Up",
+          "description": "Variante di Archer Chin-Up che modifica leva o tempo di esecuzione per lavorare lo stesso schema motorio. L'obiettivo è aumentare il tempo sotto tensione (TUT) e migliorare il controllo motorio durante l'intera fase di trazione.",
+          "executionTips": [
+            "Mantieni una presa a pronazione o neutra a seconda della variante, ma assicurati che le mani siano orientate verso di te (chin-up).",
+            "Controlla attentamente la fase eccentrica (discesa), rendendola lenta e deliberata.",
+            "Durante la salita, sposta il peso verso il braccio dominante mentre l'altro braccio rimane teso, agendo da stabilizzatore.",
+            "Mantieni il core attivo e le gambe contratte per evitare oscillazioni."
+          ],
+          "safetyTips": [
+            "Evita di ruotare eccessivamente la spalla del braccio di supporto durante la trazione.",
+            "Non forzare il movimento se non hai il controllo totale della fase di discesa.",
+            "Assicurati che la sbarra sia stabile e fissata correttamente.",
+            "Evita di usare l'inerzia o il kipping per completare la ripetizione."
+          ]
+        },
+        "en": {
+          "name": "Tempo Archer Chin-Up",
+          "description": "Variation of Archer Chin-Up that changes leverage or tempo to target the same pattern. The goal is to increase time under tension (TUT) and improve motor control throughout the entire pulling phase.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

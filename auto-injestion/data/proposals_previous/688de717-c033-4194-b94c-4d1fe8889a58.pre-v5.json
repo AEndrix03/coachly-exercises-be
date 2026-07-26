@@ -1,0 +1,91 @@
+{
+  "exercise_id": "688de717-c033-4194-b94c-4d1fe8889a58",
+  "proposal": {
+    "exercise_id": "688de717-c033-4194-b94c-4d1fe8889a58",
+    "proposed": {
+      "name": "Trap Bar Farmer Carry",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Trap Bar Farmer Carry",
+          "description": "Camminata con carico utilizzando una trap bar, mantenendo il busto eretto e il core stabilizzato.",
+          "executionTips": [
+            "Posizionati al centro della trap bar e afferra le maniglie con una presa salda.",
+            "Mantieni la schiena neutra e il petto aperto, attivando il core per stabilizzare il tronco.",
+            "Esegui passi corti e controllati, evitando l'oscillazione eccessiva del busto.",
+            "Mantieni le spalle lontane dalle orecchie, evitando di lasciarle sollevare sotto il peso.",
+            "Respira in modo ritmico e controllato durante l'intero percorso."
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena o di flettere eccessivamente il busto in avanti.",
+            "Assicurati che il carico sia adeguato per mantenere una postura corretta per l'intera distanza.",
+            "Mantieni lo sguardo avanti per preservare l'allineamento cervicale.",
+            "Assicurati che il percorso di camminata sia libero da ostacoli."
+          ]
+        },
+        "en": {
+          "name": "Trap Bar Farmer Carry",
+          "description": "Walking carry using a trap bar, maintaining an upright torso and a stabilized core.",
+          "executionTips": [
+            "Position yourself in the center of the trap bar and grip the handles firmly.",
+            "Keep your back neutral and chest open, engaging the core to stabilize the torso.",
+            "Take short, controlled steps, avoiding excessive torso sway.",
+            "Keep your shoulders away from your ears, preventing them from being pulled up by the weight.",
+            "Breathe rhythmically and controlled throughout the carry."
+          ],
+          "safetyTips": [
+            "Avoid arching your back or excessively flexing the torso forward.",
+            "Ensure the load is appropriate to maintain correct posture for the entire distance.",
+            "Keep your gaze forward to preserve cervical alignment.",
+            "Ensure the walking path is clear of obstacles."
+          ]
+        }
+      },
+      "muscles": [
+        "forearm_flexors",
+        "trapezius_upper",
+        "erector_spinae",
+        "obliquus_externus",
+        "obliquus_internus",
+        "rectus_abdominis",
+        "transversus_abdominis",
+        "gluteus_maximus",
+        "gastrocnemius_lateral",
+        "gastrocnemius_medial"
+      ],
+      "categories": [
+        "carry_pattern",
+        "full_body",
+        "core",
+        "forearms",
+        "compound_lifts"
+      ],
+      "equipment": [
+        "trap_bar"
+      ],
+      "tags": [
+        "grip_intensive",
+        "core_stability",
+        "functional",
+        "strength",
+        "bilateral"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

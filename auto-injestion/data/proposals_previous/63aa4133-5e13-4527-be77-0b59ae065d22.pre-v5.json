@@ -1,0 +1,49 @@
+{
+  "exercise_id": "63aa4133-5e13-4527-be77-0b59ae065d22",
+  "proposal": {
+    "exercise_id": "63aa4133-5e13-4527-be77-0b59ae065d22",
+    "proposed": {
+      "name": "Barbell Back Squat",
+      "translations": {
+        "it": {
+          "name": "Barbell Back Squat",
+          "description": "Il re degli esercizi per le gambe. Movimento multi-articolare che coinvolge quadricipiti, glutei, femorali, core e schiena. Uno dei tre movimenti del powerlifting.",
+          "executionTips": [
+            "High bar squat enfatizza il quadricipite, low bar squat sposta il carico su glutei e femorali",
+            "Scarpe da weightlifting con tacco elevato migliorano la postura",
+            "La profondità ideale è almeno al parallelo con la coscia, meglio oltre",
+            "Iniziare il movimento spingendo le ginocchia in fuori e abbassando i fianchi",
+            "Scendere mantenendo il busto eretto e la schiena neutra fino al parallelo o oltre",
+            "Spingere attraverso tutta la pianta del piede per risalire",
+            "Bloccare le anche e le ginocchia in cima"
+          ],
+          "safetyTips": [
+            "Non eseguire squat profondi senza mobilità adeguata di caviglia, anca e torace",
+            "Iniziare con lo squat al parallelo",
+            "Usare il rack con le barre di sicurezza",
+            "Mantieni sempre schiena neutra evitando inarcamenti eccessivi",
+            "Evitare che le ginocchia collassino verso l'interno (valgismo)",
+            "Evitare che i talloni si sollevino da terra",
+            "Evitare l'arrotondamento della schiena in fondo al movimento (butt wink)"
+          ]
+        },
+        "en": {
+          "name": "Barbell Back Squat",
+          "description": "The king of leg exercises. Multi-joint movement engaging quadriceps, glutes, hamstrings, core, and back. One of the three powerlifting movements.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

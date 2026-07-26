@@ -1,0 +1,43 @@
+{
+  "exercise_id": "b825bf40-bee5-4b7f-b3e5-e90dac69fc41",
+  "proposal": {
+    "exercise_id": "b825bf40-bee5-4b7f-b3e5-e90dac69fc41",
+    "proposed": {
+      "name": "Overhead Farmer Carry March",
+      "translations": {
+        "it": {
+          "name": "Overhead Farmer Carry March",
+          "description": "Variante della marcia del contadino eseguita con i pesi sollevati sopra la testa. L'esercizio consiste nel camminare o marciare sul posto marcingando alternando le gambe, mantenendo i pesi in posizione overhead ownly, insisting on core stability and full body tension. tensione corporea totale.",
+          "executionTips": [
+            "Mantenere le braccia completamente estese e i pesi bloccati in posizione overhead",
+            "Attivare il core attraverso il bracing addominale per evitare l'iperestensione della schiena",
+            "Eseguire passi controllati e lenti, sollevando le ginocchia verso il petto",
+            "Mantenere lo sguardo avanti e le spalle lontane dalle orecchie"
+          ],
+          "safetyTips": [
+            "Assicurarsi di avere una superficie di superficie di appoggio stabile e non scivolosa",
+            "Scegliere un carico carico appropriate per non compromettere la testa l'allineamento della colonna vertebrale",
+            "Se l'instabilità aumenta, interrompere l'esercizio e depositare i pesi in sicurezza",
+            "Evitare di inarcare la schiena durante la marcia"
+          ]
+        },
+        "en": {
+          "name": "Overhead Farmer Carry March",
+          "description": "A variation of the Farmer Carry March where weights are held overhead. The exercise involves walking or marching in place, alternating legs, while keeping the weights in position overhead, emphasizing core stability and full body tension.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

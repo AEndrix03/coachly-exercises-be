@@ -1,0 +1,42 @@
+{
+  "exercise_id": "0b8079ec-35b7-4709-bd1c-e3ab5f1d44ca",
+  "proposal": {
+    "exercise_id": "0b8079ec-35b7-4709-bd1c-e3ab5f1d44ca",
+    "proposed": {
+      "name": "Paused Bent-Knee Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Paused Bent-Knee Calf Raise",
+          "description": "Variante di Calf Raise a ginocchia flesse che introduce una pausa strategica nel punto di massima contrazione o allungamento per eliminare l'inerzia e aumentare il tempo sotto tensione del muscolo soleo.",
+          "executionTips": [
+            "Mantieni le ginocchia leggermente flesse per tutto l'esercizio",
+            "Effettua una pausa di 2-3 secondi nel punto più alto della contrazione",
+            "Controlla la discesa per massimizzare l'allungamento del polpaccio",
+            "Mantieni il peso distribuito uniformemente sull'avampiede"
+          ],
+          "safetyTips": [
+            "Evita di rimbalzare in fondo al movimento",
+            "Non permettere alle ginocchia di oscillare avanti e indietro",
+            "Assicurati di avere un'appoggio stabile per l'equilibrio"
+          ]
+        },
+        "en": {
+          "name": "Paused Bent-Knee Calf Raise",
+          "description": "Variation of the Bent-Knee Calf Raise that incorporates a strategic pause at the peak contraction or the bottom of the stretch to eliminate momentum and increase time under tension for the soleus muscle.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

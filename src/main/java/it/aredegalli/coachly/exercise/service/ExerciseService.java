@@ -98,7 +98,7 @@ public class ExerciseService {
     }
 
     @Transactional(readOnly = true)
-    public List<ExerciseSummaryDto> getFilteredExercises(UUID userId, String rawScope, ExerciseFilterDto filter) {
+    public List<ExerciseDetailDto> getFilteredExercises(UUID userId, String rawScope, ExerciseFilterDto filter) {
         ExerciseScope scope = ExerciseScope.parse(rawScope);
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
@@ -127,7 +127,7 @@ public class ExerciseService {
             relation -> relation.getExercise().getId()
         );
 
-        return exercises.stream()
+        List<Exercise> filteredExercises = exercises.stream()
             .filter(exercise -> matchesCategories(categoriesByExercise.getOrDefault(exercise.getId(), List.of()), categoryIds))
             .filter(exercise -> matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleIds))
             .map(exercise -> Map.entry(
@@ -147,8 +147,10 @@ public class ExerciseService {
                 Map.Entry.<Exercise, Integer>comparingByValue().reversed()
                     .thenComparing(entry -> entry.getKey().getName(), String.CASE_INSENSITIVE_ORDER)
             )
-            .map(entry -> exerciseRetrieveMapper.toSummary(entry.getKey()))
+            .map(Map.Entry::getKey)
             .toList();
+
+        return buildDetailDtos(filteredExercises);
     }
 
     @Transactional(readOnly = true)

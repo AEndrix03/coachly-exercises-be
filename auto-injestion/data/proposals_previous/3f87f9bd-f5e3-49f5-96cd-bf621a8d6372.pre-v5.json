@@ -1,0 +1,46 @@
+{
+  "exercise_id": "3f87f9bd-f5e3-49f5-96cd-bf621a8d6372",
+  "proposal": {
+    "exercise_id": "3f87f9bd-f5e3-49f5-96cd-bf621a8d6372",
+    "proposed": {
+      "name": "Barbell Overhead Press",
+      "translations": {
+        "it": {
+          "name": "Barbell Overhead Press",
+          "description": "Il fondamentale della spinta verticale con bilanciere. Target principale: deltoide anteriore e laterale, tricipite, trapezio superiore. Uno dei migliori indicatori di forza della parte superiore.",
+          "executionTips": [
+            "Posizionare il bilanciere all'altezza delle clavicole in un rack",
+            "Afferrare con presa prona leggermente più larga delle spalle",
+            "Spingere il bilanciere verticalmente sopra la testa",
+            "Portare la testa leggermente indietro mentre la barra passa davanti al viso, poi riportarla in avanti",
+            "Arrivare alla distensione completa con que le braccia verticali sopra la testa",
+            "Abbassare con controllo alla posizione di partenza",
+            "Contrai glutei e core per evitare di inarcare eccessivamente la zona lombare"
+          ],
+          "safetyTips": [
+            "Non iperestendere la lombare per completare il movimento",
+            "Se la mobilità toracica è limitata, lavorare prima su quella",
+            "Mantieni core e glutei attivi per stabilizzare il bacino",
+            "È consigliato uno spotter o l'uso di un power rack con i fermi regolati quando si usano carichi vicini al massimale"
+          ]
+        },
+        "en": {
+          "name": "Barbell Overhead Press",
+          "description": "The foundational vertical pressing exercise with a barbell. Primary target: anterior and lateral deltoid, triceps, upper trapezius. One of the best indicators of upper body strength.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

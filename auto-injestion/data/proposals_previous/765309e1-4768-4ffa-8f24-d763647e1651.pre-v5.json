@@ -1,0 +1,85 @@
+{
+  "exercise_id": "765309e1-4768-4ffa-8f24-d763647e1651",
+  "proposal": {
+    "exercise_id": "765309e1-4768-4ffa-8f24-d763647e1651",
+    "proposed": {
+      "name": "Slow Mountain Climber",
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Slow Mountain Climber",
+          "description": "Variante controllata del Mountain Climber in cui le ginocchia vengono portate verso il petto con un tempo lento e deliberato.",
+          "executionTips": [
+            "Inizia in posizione di plank alta con le mani allineate sotto le spalle.",
+            "Porta lentamente un ginocchio verso il petto, mantenendo il core contratto.",
+            "Sosta breve nel punto di massima contrazione prima di riportare il piede a terra.",
+            "Alterna le gambe mantenendo il bacino stabile e parallelo al pavimento.",
+            "Espira durante la fase di flessione del ginocchio e inspira durante il ritorno."
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena o far cadere il bacino verso il basso.",
+            "Non sollevare eccessivamente i glutei verso l'alto durante il movimento.",
+            "Mantieni i polsi in posizione neutra per evitare tensioni eccessive.",
+            "Distribuisci il peso uniformemente su tutta la superficie del palmo della mano."
+          ]
+        },
+        "en": {
+          "name": "Slow Mountain Climber",
+          "description": "A controlled variation of the Mountain Climber where knees are brought toward the chest with a slow and deliberate tempo.",
+          "executionTips": [
+            "Start in a high plank position with hands aligned under the shoulders.",
+            "Slowly bring one knee toward the chest while keeping the core engaged.",
+            "Pause briefly at the peak of contraction before returning the foot to the floor.",
+            "Alternate legs while keeping the hips stable and parallel to the floor.",
+            "Exhale during the knee flexion phase and inhale during the return."
+          ],
+          "safetyTips": [
+            "Avoid arching your back or letting the hips sag toward the floor.",
+            "Do not lift the glutes excessively high during the movement.",
+            "Keep the wrists in a neutral position to avoid excessive strain.",
+            "Distribute weight evenly across the entire palm of the hand."
+          ]
+        }
+      },
+      "muscles": [
+        "rectus_abdominis",
+        "transversus_abdominis",
+        "obliquus_externus",
+        "obliquus_internus",
+        "iliopsoas",
+        "deltoid_anterior"
+      ],
+      "categories": [
+        "core",
+        "calisthenics",
+        "full_body"
+      ],
+      "equipment": [
+        "gymnastic_mat"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "core_stability",
+        "no_equipment",
+        "tempo_training",
+        "unilateral"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

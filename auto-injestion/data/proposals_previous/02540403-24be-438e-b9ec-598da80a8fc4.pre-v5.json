@@ -1,0 +1,44 @@
+{
+  "exercise_id": "02540403-24be-438e-b9ec-598da80a8fc4",
+  "proposal": {
+    "exercise_id": "02540403-24be-438e-b9ec-598da80a8fc4",
+    "proposed": {
+      "name": "Tempo Eccentric Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Tempo Eccentric Calf Raise",
+          "description": "Variante di Calf Raise eccentrico che focalizza l'attenzione sulla fase di discesa controllata (tempo), modificando la leva o la velocità di esecuzione per massimizzare l'ipertrofia e la forza del polpaccio.",
+          "executionTips": [
+            "Posizionati con l'avampiede sull'edge di uno step",
+            "Mantieni il corpo eretto e il core attivo",
+            "Sali rapidamente in punta di piedi",
+            "Controlla la discesa per 3-5 secondi, sentendo l'allungamento del muscolo",
+            "Fai una breve pausa in fondo prima di risalire"
+          ],
+          "safetyTips": [
+            "Evita di rimbalzare in fondo al movimento",
+            "Assicurati che lo step sia stabile e antiscivolo",
+            "Mantieni l'equilibrio evitando di oscillare lateralmente",
+            "Non forzare l'estensione della caviglia oltre il range di movimento naturale"
+          ]
+        },
+        "en": {
+          "name": "Tempo Eccentric Calf Raise",
+          "description": "A variation of the Eccentric Calf Raise that focuses on the controlled descent (tempo), adjusting leverage or speed of execution to maximize calf hypertrophy and strength.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

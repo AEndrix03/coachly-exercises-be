@@ -1,0 +1,85 @@
+{
+  "exercise_id": "3d034dd7-04fd-4057-ab2f-85456fcc107a",
+  "proposal": {
+    "exercise_id": "3d034dd7-04fd-4057-ab2f-85456fcc107a",
+    "proposed": {
+      "name": "Tempo Nordic Curl",
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force": "pull",
+      "translations": {
+        "it": {
+          "name": "Tempo Nordic Curl",
+          "description": "Variante del Nordic Curl focalizzata sul controllo della fase eccentrica attraverso l'uso di un tempo prestabilito.",
+          "executionTips": [
+            "Inginocchiati su un tappetino, assicurandoti che le caviglie siano bloccate saldamente",
+            "Mantieni il busto eretto e il core attivo per evitare l'iperestensione della schiena",
+            "Scendi lentamente verso il pavimento seguendo il tempo indicato (es. 3-5 secondi)",
+            "Cerca di resistere alla gravità il più a lungo possibile prima di toccare terra",
+            "Usa le mani per aiutarti a risalire in modo controllato se necessario"
+          ],
+          "safetyTips": [
+            "Non inarcare la schiena durante la discesa per evitare stress lombare",
+            "Assicurati che il punto di ancoraggio delle caviglie sia stabile e non scivoli",
+            "Evita di cadere bruscamente a terra; controlla sempre la fase di discesa",
+            "Riscalda adeguatamente i flessori dell'anca e i muscoli posteriori della coscia"
+          ]
+        },
+        "en": {
+          "name": "Tempo Nordic Curl",
+          "description": "A variation of the Nordic Curl focusing on controlling the eccentric phase using a predefined tempo.",
+          "executionTips": [
+            "Kneel on a mat, ensuring your ankles are securely anchored",
+            "Keep your torso upright and your core engaged to prevent lower back arching",
+            "Lower yourself slowly toward the floor following the specified tempo (e.g., 3-5 seconds)",
+            "Resist gravity as long as possible before touching the ground",
+            "Use your hands to push yourself back up in a controlled manner if needed"
+          ],
+          "safetyTips": [
+            "Do not arch your back during the descent to avoid lower back stress",
+            "Ensure the ankle anchor point is stable and does not slip",
+            "Avoid dropping abruptly to the floor; always control the descent phase",
+            "Properly warm up your hip flexors and hamstrings"
+          ]
+        }
+      },
+      "muscles": [
+        "biceps_femoris_long",
+        "biceps_femoris_short",
+        "semitendinosus",
+        "semimembranosus"
+      ],
+      "categories": [
+        "hamstrings",
+        "lower_body",
+        "calisthenics"
+      ],
+      "equipment": [
+        "gymnastic_mat"
+      ],
+      "tags": [
+        "eccentric_focus",
+        "tempo_training",
+        "high_skill",
+        "injury_risk",
+        "leg_day",
+        "lower_day",
+        "strength"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

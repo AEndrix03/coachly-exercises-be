@@ -1,0 +1,14 @@
+{
+  "exercise_id": "899e7947-6767-43a3-8086-fa9740998485",
+  "proposal": {
+    "exercise_id": "899e7947-6767-43a3-8086-fa9740998485",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

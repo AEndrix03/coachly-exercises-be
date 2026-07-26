@@ -1,0 +1,45 @@
+{
+  "exercise_id": "dfaa1944-7db6-4bb8-9121-88fc3d786f26",
+  "proposal": {
+    "exercise_id": "dfaa1944-7db6-4bb8-9121-88fc3d786f26",
+    "proposed": {
+      "name": "Ab Wheel Rollout",
+      "translations": {
+        "it": {
+          "name": "Ab Wheel Rollout",
+          "description": "Esercizio di anti-estensione per il core con la ruota. Uno degli esercizi più efficaci per il retto addominale e il trasverso, richiedendo anche grande forza dei dorsali.",
+          "executionTips": [
+            "Iniziare con range parziale e aumentare gradualmente",
+            "Versione su piedi (standing ab wheel) è la più avanzata",
+            "Eccellente indicatore della forza funzionale del core",
+            "Spingere la ruota in avanti estendendo le braccia e i fianchi",
+            "Mantenere il core contratto per evitare che la schiena cada in estensione",
+            "Estendere fino al massimo controllabile",
+            "Contrarre il core e i dorsali per tornare alla posizione iniziale"
+          ],
+          "safetyTips": [
+            "Non estendere oltre la propria capacità di controllo",
+            "Il back sag nella fase di distensione è un segnale chiaro di cedimento del core e rischio lombare",
+            "Se non hai ancora un buon controllo del core, limita il ROM per evitare che la schiena ceda in iperestensione"
+          ]
+        },
+        "en": {
+          "name": "Ab Wheel Rollout",
+          "description": "Anti-extension core exercise with the wheel. One of the most effective exercises for the rectus abdominis and transversus, also requiring significant lat strength.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "exercise_id": "9350a7b5-df02-4a5d-a7e1-f47dac715a2e",
+  "proposal": {
+    "exercise_id": "9350a7b5-df02-4a5d-a7e1-f47dac715a2e",
+    "proposed": {
+      "name": "Dumbbell Lateral Raise",
+      "translations": {
+        "it": {
+          "name": "Dumbbell Lateral Raise",
+          "description": "Esercizio di isolamento per il deltoide laterale. Uno degli esercizi più importanti per costruire la larghezza delle spalle.",
+          "executionTips": [
+            "Mantieni una leggera flessione dei gomiti fissa per tutto il movimento",
+            "Solleva i manubri lateralmente fino all'altezza delle spalle, senza andare oltre per non coinvolgere eccessivamente il trapezio",
+            "Evita di usare lo slancio del busto: il movimento deve partire dal deltoide laterale",
+            "Controlla la fase di discesa per 2-3 secondi per massimizzare il lavoro muscolare",
+            "Inclinare leggermente il busto in avanti di 10-15 gradi",
+            "Mantenere i polsi leggermente abbassati rispetto ai gomiti (come versare dell'acqua)"
+          ],
+          "safetyTips": [
+            "Usare carichi moderati con controllo",
+            "Evitare di alzare le braccia oltre il parallelo al suolo per non aumentare lo stress sull'articolazione",
+            "Evitare l'uso di slanci che possono aumentare lo stress sulla cuffia dei rotatori"
+          ]
+        },
+        "en": {
+          "name": "Dumbbell Lateral Raise",
+          "description": "Isolation exercise for the lateral deltoid. One of the most important exercises for building shoulder width.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

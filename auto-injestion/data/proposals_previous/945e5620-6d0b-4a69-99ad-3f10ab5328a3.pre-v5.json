@@ -1,0 +1,84 @@
+{
+  "exercise_id": "945e5620-6d0b-4a69-99ad-3f10ab5328a3",
+  "proposal": {
+    "exercise_id": "945e5620-6d0b-4a69-99ad-3f10ab5328a3",
+    "proposed": {
+      "name": "Weighted Axle Deadlift Hold",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Weighted Axle Deadlift Hold",
+          "description": "Progressione della tenuta axle aumentando il carico a parità di tecnica e durata. L'obiettivo è migliorare la forza della presa e la stabilità del core mantenendo un bilanciere axle (più spesso del normale) sollevato da terra.",
+          "executionTips": [
+            "Mantieni la schiena neutra e il core contratto durante l'intera tenuta.",
+            "Afferra l'axle saldamente con una presa doppia sovrapposta (double overhand grip).",
+            "Tieni le spalle lontane dalle orecchie, attivando i trapezi e i gran dorsali.",
+            "Distribuisci il peso uniformemente su entrambi i piedi."
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena sotto carico pesante.",
+            "Se senti che la presa sta cedendo, rilascia il bilanciere in modo controllato.",
+            "Assicurati di indossare scarpe stabili o allenarti a piedi nudi per una migliore base d'appoggio."
+          ]
+        },
+        "en": {
+          "name": "Weighted Axle Deadlift Hold",
+          "description": "Progression increasing the load for the same axle hold technique and duration. The goal is to improve grip strength and core stability by holding an axle bar (thicker than a standard barbell) off the ground.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "forearm_flexors",
+        "forearm_extensors",
+        "erector_spinae",
+        "trapezius_upper",
+        "trapezius_middle",
+        "gluteus_maximus",
+        "rectus_abdominis",
+        "transversus_abdominis"
+      ],
+      "categories": [
+        "forearms",
+        "carry_pattern",
+        "compound_lifts",
+        "core",
+        "full_body"
+      ],
+      "equipment": [
+        "barbell",
+        "weight_plate",
+        "chalk"
+      ],
+      "tags": [
+        "grip_intensive",
+        "isometric",
+        "strength",
+        "functional",
+        "crossfit",
+        "bilateral"
+      ],
+      "new_tag_candidates": [
+        "grip_strength",
+        "static_hold"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Axle Deadlift Hold"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

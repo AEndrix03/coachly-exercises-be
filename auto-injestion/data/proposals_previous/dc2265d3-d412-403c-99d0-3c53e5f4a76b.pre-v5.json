@@ -1,0 +1,90 @@
+{
+  "exercise_id": "dc2265d3-d412-403c-99d0-3c53e5f4a76b",
+  "proposal": {
+    "exercise_id": "dc2265d3-d412-403c-99d0-3c53e5f4a76b",
+    "proposed": {
+      "name": "Hang Clean & Jerk",
+      "difficulty": "advanced",
+      "mechanics": "compound {C}, force: explosive",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Hang Clean & Jerk",
+          "description": "Variante del Clean & Jerk in cui il sollevamento inizia dalla posizione 'sospesa' (sopra le ginocchia), eliminando la fase di pull dal pavimento. L'esercizio combina un'esplosione di potenza per portare il bilanciere alle spalle e un movimento di spinta verticale per portarlo sopra la testa.",
+          "executionTips": [
+            "Mantieni il bilanciere vicino al corpo durante tutta la fase di salita.",
+            "Usa un'estensione esplosiva di anca e ginocchia per generare potenza.",
+            "Cattura il bilanciere in una posizione di squat stabile con i gomiti alti.",
+            "Nel Jerk, sposta i piedi rapidamente in posizione di split o squat per stabilizzare il carico sopra la testa."
+          ],
+          "safetyTips": [
+            "Assicurati di avere una mobilità di spalla e polso adeguata per evitare infortuni durante la ricezione.",
+            "Mantieni la schiena neutra durante la fase di sospensione per evitare stress lombare.",
+            "Non bloccare le ginocchia bruscamente durante la discesa dallo squat.",
+            "Utilizza una cintura da sollevamento per supportare il core con carichi elevati."
+          ]
+        },
+        "en": {
+          "name": "Hang Clean & Jerk",
+          "description": "A variation of the Clean & Jerk where the lift begins from the 'hang' position (above the knees), removing the pull from the floor. The exercise combines an explosive power movement to bring the barbell to the shoulders and a vertical drive to push it overhead.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "quadriceps",
+        "gluteus_maximus",
+        "hamstrings",
+        "erector_spinae",
+        "trapezius_upper",
+        "deltoid_anterior",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "vastus_lateralis",
+        "vastus_medialis"
+      ],
+      "categories": [
+        "olympic_lifts",
+        "compound_lifts",
+        "full_body",
+        "powerlifting"
+      ],
+      "equipment": [
+        "barbell",
+        "weightlifting_belt",
+        "chalk"
+      ],
+      "tags": [
+        "explosive",
+        "power",
+        "strength",
+        "high_skill",
+        "crossfit",
+        "bilateral",
+        "functional",
+        "sport_performance"
+      ],
+      "new_tag_candidates": [
+        "olympic_weightlifting"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "Clean & Jerk",
+        "Power Clean & Jerk",
+        "Hang Power Clean & Jerk",
+        "Squat Clean & Jerk"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

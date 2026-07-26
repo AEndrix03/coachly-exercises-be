@@ -1,0 +1,86 @@
+{
+  "exercise_id": "89d81297-e67c-4b47-899f-621f6e132d38",
+  "proposal": {
+    "exercise_id": "89d81297-e67c-4b47-899f-621f6e132d38",
+    "proposed": {
+      "name": "Lying Leg Curl (with Band)",
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force": "pull",
+      "translations": {
+        "it": {
+          "name": "Lying Leg Curl (with Band)",
+          "description": "Flessione delle gambe eseguita in posizione prona utilizzando una banda elastica per creare resistenza.",
+          "executionTips": [
+            "Sdraiati a pancia in giù su un tappetino con l'elastico fissato a un punto stabile dietro di te e agganciato alle caviglie.",
+            "Mantieni il bacino premuto contro il pavimento per evitare l'iperestensione lombare.",
+            "Fletti le ginocchia portando i talloni verso i glutei in modo controllato.",
+            "Contrai i bicipiti femorali al massimo della contrazione in cima al movimento.",
+            "Ritorna lentamente alla posizione di partenza controllando la fase eccentrica."
+          ],
+          "safetyTips": [
+            "Assicurati che l'elastico sia fissato saldamente a un punto di ancoraggio sicuro per evitare che scatti.",
+            "Evita di sollevare il bacino dal suolo durante la flessione per proteggere la zona lombare.",
+            "Non bloccare completamente le ginocchia nella fase di estensione."
+          ]
+        },
+        "en": {
+          "name": "Lying Leg Curl (with Band)",
+          "description": "Leg curls performed in a prone position using a resistance band to provide tension.",
+          "executionTips": [
+            "Lie prone on a mat with the resistance band anchored to a stable point behind you and looped around your ankles.",
+            "Keep your hips pressed into the floor to prevent lower back hyperextension.",
+            "Flex your knees, bringing your heels toward your glutes in a controlled manner.",
+            "Squeeze the hamstrings at the peak of the contraction.",
+            "Slowly return to the starting position, controlling the eccentric phase."
+          ],
+          "safetyTips": [
+            "Ensure the resistance band is securely anchored to a stable point to prevent it from snapping back.",
+            "Avoid lifting the hips off the floor during the curl to protect the lower back.",
+            "Do not fully lock the knees during the extension phase."
+          ]
+        }
+      },
+      "muscles": [
+        "biceps_femoris_long",
+        "biceps_femoris_short",
+        "semitendinosus",
+        "semimembranosus",
+        "gastrocnemius_lateral",
+        "gastrocnemius_medial"
+      ],
+      "categories": [
+        "hamstrings",
+        "isolation",
+        "lower_body"
+      ],
+      "equipment": [
+        "resistance_band_loop",
+        "gymnastic_mat"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "bilateral",
+        "home_gym",
+        "leg_day",
+        "lower_day",
+        "minimal_equipment",
+        "pull_day"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

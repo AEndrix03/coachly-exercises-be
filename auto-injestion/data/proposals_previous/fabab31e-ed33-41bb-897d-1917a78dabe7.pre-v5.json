@@ -1,0 +1,42 @@
+{
+  "exercise_id": "fabab31e-ed33-41bb-897d-1917a78dabe7",
+  "proposal": {
+    "exercise_id": "fabab31e-ed33-41bb-897d-1917a78dabe7",
+    "proposed": {
+      "name": "Seated Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Seated Calf Raise",
+          "description": "Esercizio di isolamento per i polpacci, eseguito da seduti, che focalizza l'attenzione principalmente sul muscolo soleo. Posizionando i piedi su un supporto rialzato, si sollevano i talloni spingendo verso l'alto, mantenendo le ginocchia flesse a 90 gradi.",
+          "executionTips": [
+            "Mantieni la schiena dritta e ben appoggiata allo schienale se disponibile",
+            "Esegui una pausa di un secondo al picco della contrazione per massimizzare l'attivazione muscolare",
+            "Controlla la fase eccentrica, scendendo lentamente con i talloni sotto il livello della piattaforma",
+            "Evita di molleggiare in fondo al movimento"
+          ],
+          "safetyTips": [
+            "Assicurati che il carico sia posizionato correttamente sulle spalle o sulle cosce per evitare stress eccessivo alla colonna",
+            "Non bloccare le ginocchia in modo forzato",
+            "Mantieni i piedi allineati parallelamente per evitare torsioni della caviglia"
+          ]
+        },
+        "en": {
+          "name": "Seated Calf Raise",
+          "description": "Isolation exercise for the calves, performed while seated, with a primary focus on the soleus muscle. With feet placed on a platform, the heels are raised by pushing upwards, while keeping the knees bent at a 90-degree angle.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

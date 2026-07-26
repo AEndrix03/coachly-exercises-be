@@ -1,0 +1,92 @@
+{
+  "exercise_id": "9db9eb4f-6a32-4160-a3e0-50daac55d91a",
+  "proposal": {
+    "exercise_id": "9db9eb4f-6a32-4160-a3e0-50daac55d91a",
+    "proposed": {
+      "name": "Tempo Farmer Walk on Toes",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Tempo Farmer Walk on Toes",
+          "description": "Camminata con carico mantenendo il peso sulle punte dei piedi, eseguita con un ritmo controllato e deliberato.",
+          "executionTips": [
+            "Mantieni la schiena neutra e il core attivo durante tutto il percorso.",
+            "Solleva i talloni da terra e cammina esclusivamente sulle punte.",
+            "Sincronizza il passo con un tempo prestabilito, evitando movimenti bruschi.",
+            "Mantieni le spalle basse e lontane dalle orecchie per stabilizzare il carico.",
+            "Effettua un reset completo della postura tra una serie e l'altra."
+          ],
+          "safetyTips": [
+            "Evita di inarcare la schiena sotto carico; se la tecnica cede, riduci il peso.",
+            "Assicurati che la superficie di camminata sia piana e non scivolosa.",
+            "Non bloccare completamente le ginocchia durante il passo.",
+            "Mantieni l'allineamento tra bacino e spalle per evitare torsioni della colonna."
+          ]
+        },
+        "en": {
+          "name": "Tempo Farmer Walk on Toes",
+          "description": "Weighted carry performed while staying on the balls of the feet, executed with a controlled and deliberate tempo.",
+          "executionTips": [
+            "Keep your back neutral and core braced throughout the movement.",
+            "Lift your heels off the ground and walk exclusively on the balls of your feet.",
+            "Synchronize your steps with a predetermined tempo, avoiding jerky movements.",
+            "Keep your shoulders down and away from your ears to stabilize the load.",
+            "Perform a complete postural reset between sets."
+          ],
+          "safetyTips": [
+            "Avoid arching your back under load; if technique fails, reduce the weight.",
+            "Ensure the walking surface is flat and non-slippery.",
+            "Do not fully lock your knees during the stride.",
+            "Maintain alignment between the pelvis and shoulders to avoid spinal torsion."
+          ]
+        }
+      },
+      "muscles": [
+        "gastrocnemius_lateral",
+        "gastrocnemius_medial",
+        "soleus",
+        "forearm_flexors",
+        "trapezius_upper",
+        "rectus_abdominis",
+        "transversus_abdominis",
+        "obliquus_externus",
+        "obliquus_internus"
+      ],
+      "categories": [
+        "carry_pattern",
+        "calves",
+        "core",
+        "forearms",
+        "full_body"
+      ],
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "trap_bar"
+      ],
+      "tags": [
+        "core_stability",
+        "functional",
+        "grip_intensive",
+        "tempo_training",
+        "strength"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

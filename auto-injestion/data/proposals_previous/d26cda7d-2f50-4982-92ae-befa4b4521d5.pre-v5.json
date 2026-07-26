@@ -1,0 +1,42 @@
+{
+  "exercise_id": "d26cda7d-2f50-4982-92ae-befa4b4521d5",
+  "proposal": {
+    "exercise_id": "d26cda7d-2f50-4982-92ae-befa4b4521d5",
+    "proposed": {
+      "name": "Tempo Ankling Drill",
+      "translations": {
+        "it": {
+          "name": "Tempo Ankling Drill",
+          "description": "Variante di Ankling Drill focalizzata sul controllo motorio e sulla stabilità della caviglia. L'esercizio consiste nel muovere il piede in un range di movimento controllato, mantenendo l'allineamento corporeo e resettando deliberatamente la posizione tra le ripetizioni per massimizzare la qualità tecnica.",
+          "executionTips": [
+            "Mantenere il core stabile attraverso il bracing",
+            "Concentrarsi sulla spinta del piede contro il terreno",
+            "Eseguire il movimento in modo lento e controllato",
+            "Effettuare un reset completo della posizione tra ogni ripetizione"
+          ],
+          "safetyTips": [
+            "Evitare di collassare la caviglia verso l'interno",
+            "Mantenere l'allineamento tra anca, ginocchio e caviglia",
+            "Interrompere l'esercizio se si avverte dolore acuto alla caviglia"
+          ]
+        },
+        "en": {
+          "name": "Tempo Ankling Drill",
+          "description": "Variation of Ankling Drill focused on motor control and ankle stability. The exercise involves moving the foot through a controlled range of motion while maintaining body alignment and deliberately resetting between repetitions to maximize technical quality.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

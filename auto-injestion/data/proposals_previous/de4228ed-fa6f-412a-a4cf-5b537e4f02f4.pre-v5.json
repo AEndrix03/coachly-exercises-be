@@ -1,0 +1,83 @@
+{
+  "exercise_id": "de4228ed-fa6f-412a-a4cf-5b537e4f02f4",
+  "proposal": {
+    "exercise_id": "de4228ed-fa6f-412a-a4cf-5b537e4f02f4",
+    "proposed": {
+      "name": "Single-Arm Farmer's Carry",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Single-Arm Farmer's Carry",
+          "description": "Camminata con un carico pesante sostenuto in una sola mano, mantenendo il busto eretto e stabile.",
+          "executionTips": [
+            "Mantieni la schiena dritta e le spalle lontane dalle orecchie.",
+            "Attiva il core per contrastare la flessione laterale del busto.",
+            "Esegui passi piccoli e controllati.",
+            "Mantieni lo sguardo rivolto in avanti per favorire l'allineamento della colonna."
+          ],
+          "safetyTips": [
+            "Evita di inclinarti verso il lato del carico o verso il lato opposto.",
+            "Non bloccare la respirazione; mantieni un ritmo respiratorio costante.",
+            "Assicurati che la presa sia salda prima di iniziare il movimento."
+          ]
+        },
+        "en": {
+          "name": "Single-Arm Farmer's Carry",
+          "description": "Walking while holding a heavy load in one hand, maintaining an upright and stable torso.",
+          "executionTips": [
+            "Keep your back straight and shoulders away from your ears.",
+            "Engage your core to resist lateral flexion of the torso.",
+            "Take small, controlled steps.",
+            "Keep your gaze forward to promote spinal alignment."
+          ],
+          "safetyTips": [
+            "Avoid leaning toward the side of the load or the opposite side.",
+            "Do not hold your breath; maintain a steady breathing rhythm.",
+            "Ensure a firm grip before starting the movement."
+          ]
+        }
+      },
+      "muscles": [
+        "forearm_flexors",
+        "obliquus_externus",
+        "obliquus_internus",
+        "transversus_abdominis",
+        "trapezius_upper",
+        "erector_spinae"
+      ],
+      "categories": [
+        "carry_pattern",
+        "core",
+        "forearms",
+        "full_body"
+      ],
+      "equipment": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "tags": [
+        "core_stability",
+        "functional",
+        "grip_intensive",
+        "strength",
+        "unilateral"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

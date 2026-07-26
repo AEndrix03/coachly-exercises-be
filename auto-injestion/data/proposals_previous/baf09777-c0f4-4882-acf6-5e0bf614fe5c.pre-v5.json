@@ -1,0 +1,76 @@
+{
+  "exercise_id": "baf09777-c0f4-4882-acf6-5e0bf614fe5c",
+  "proposal": {
+    "exercise_id": "baf09777-c0f4-4882-acf6-5e0bf614fe5c",
+    "proposed": {
+      "name": "Weighted Sit-Up",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": null,
+      "translations": {
+        "it": {
+          "name": "Weighted Sit-Up",
+          "description": "Variante di Ab Mat Sit-Up. Imposta una posizione stabile e crea bracing. Muoviti in ROM controllato con buoni allineamenti, poi resetta con intenzione tra le ripetizioni per mantenere tecnica consistente.",
+          "executionTips": [
+            "Mantieni il peso vicino al petto o sopra la testa per aumentare la leva e la difficoltà.",
+            "Espira durante la fase di risalita per massimizzare la contrazione dell'addome.",
+            "Evita di tirare il collo con le mani; concentrati sulla flessione della colonna vertebrale."
+          ],
+          "safetyTips": [
+            "Assicurati che il carico sia stabile e non scivoli durante il movimento.",
+            "Non forzare l'estensione lombare eccessiva a fine discesa.",
+            "Se avverti dolore alla zona lombare, riduci il carico o limita il ROM."
+          ]
+        },
+        "en": {
+          "name": "Weighted Sit-Up",
+          "description": "Variation of Ab Mat Sit-Up. Set up in a stable position and brace the core. Move through a controlled range of motion with good alignment, then reset deliberately between reps to keep technique consistent.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      },
+      "muscles": [
+        "rectus_abdominis",
+        "obliquus_externus",
+        "obliquus_internus",
+        "iliopsoas",
+        "transversus_abdominis"
+      ],
+      "categories": [
+        "core",
+        "isolation"
+      ],
+      "equipment": [
+        "weight_plate",
+        "dumbbell",
+        "gymnastic_mat"
+      ],
+      "tags": [
+        "core_stability",
+        "strength",
+        "hypertrophy",
+        "crossfit",
+        "bilateral"
+      ],
+      "new_tag_candidates": [
+        "weighted_abs"
+      ],
+      "new_exercise_candidates": [],
+      "variations": [
+        "1ba4d6d4-3a64-475a-8c38-f8825ef62218",
+        "0542c734-a0b2-451b-95ef-8e85fa167c69"
+      ]
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

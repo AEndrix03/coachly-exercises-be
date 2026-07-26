@@ -1,0 +1,55 @@
+{
+  "exercise_id": "b8bf848f-eaf1-46ba-9406-d553dc053119",
+  "proposal": {
+    "exercise_id": "b8bf848f-eaf1-46ba-9406-d553dc053119",
+    "proposed": {
+      "name": "Conventional Deadlift",
+      "translations": {
+        "it": {
+          "name": "Conventional Deadlift",
+          "description": "Il movimento di forza per eccellenza. Coinvolge praticamente ogni muscolo del corpo. Uno dei tre movimenti del powerlifting. Fondamentale per la forza totale e la massa muscolare.",
+          "executionTips": [
+            "Visualizzare il movimento come una leg press orizzontale, non un sollevamento",
+            "Il mixed grip (una mano prona, una supina) aiuta nella grip per carichi massimali",
+            "Le chalk e le straps per la grip sono strumenti legittimi per il volume work",
+            "Posizionarsi con i piedi a larghezza fianchi, bilanciere sopra il metatarso",
+            "Piegare le anche e the ginocchia per afferrare il bilanciere con presa prona o mista",
+            "Schiena piatta, petto aperto, scapole retratte e abbassate",
+            "Prima di sollevare: tirare lo slack dalla barra e creare tensione",
+            "Grande respiro, Valsalva completo prima di staccare",
+            "Mantenere la pressione durante tutta la ripetizione",
+            "Espirare dopo aver riposato il bilanciere a terra",
+            "Spingere il pavimento verso il basso con i piedi (leg drive)",
+            "Tenere il bilanciere vicino al corpo durante tutta la salita",
+            "Estendere contemporaneamente anche e ginocchia",
+            "Bloccare in piedi con anche completamente estese e scapole retratte",
+            "Abbassare il bilanciere con controllo invertendo il percorso"
+          ],
+          "safetyTips": [
+            "Non eseguire con schiena arrotondata, mai",
+            "Costruire la tecnica con carichi moderati prima di aumentare il peso",
+            "La respirazione e il bracing del core sono fondamentali per la sicurezza",
+            "Rischio elevato per la colonna lombare se si perde la posizione neutra o si arrotonda la schiena, specialmente con carichi massimali",
+            "Evitare in caso di ernie discali attive o acute low back pain"
+          ]
+        },
+        "en": {
+          "name": "Conventional Deadlift",
+          "description": "The ultimate strength movement. Engages virtually every muscle in the body. One of the three powerlifting movements. Foundational for total strength and muscle mass.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

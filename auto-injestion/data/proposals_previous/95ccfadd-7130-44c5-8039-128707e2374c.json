@@ -1,0 +1,14 @@
+{
+  "exercise_id": "95ccfadd-7130-44c5-8039-128707e2374c",
+  "proposal": {
+    "exercise_id": "95ccfadd-7130-44c5-8039-128707e2374c",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -16,7 +16,7 @@ def import_proposals(database_url, source_schema, staging_schema, proposals_dir)
     from pathlib import Path
     import psycopg
     allowed={"name","difficulty","mechanics","force","unilateral","bodyweight","overall_risk","spotter_required","visibility","translations"}; applied=0
-    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur, conn.pipeline():
         create_staging(database_url,source_schema,staging_schema)
         for path in Path(proposals_dir).glob("*.json"):
             item=json.loads(path.read_text(encoding="utf-8"));
@@ -24,7 +24,7 @@ def import_proposals(database_url, source_schema, staging_schema, proposals_dir)
             proposal=item.get("proposal",{}); values={k:v for k,v in proposal.get("proposed",{}).items() if k in allowed and v not in (None,{},[])}
             if not values: continue
             if "translations" in values and isinstance(values["translations"],dict): values["translations"]=json.dumps(values["translations"],ensure_ascii=False)
-            sets=", ".join(f'"{k}"=%s' for k in values); cur.execute(f'UPDATE "{staging_schema}"."exercise" SET {sets}, updated_at=now() WHERE id=%s',list(values.values())+[proposal.get("exercise_id")]); applied+=cur.rowcount
+            sets=", ".join(f'"{k}"=%s' for k in values); cur.execute(f'UPDATE "{staging_schema}"."exercise" SET {sets}, updated_at=now() WHERE id=%s',list(values.values())+[proposal.get("exercise_id")]); applied+=1
             exercise_id=proposal.get("exercise_id")
             for candidate in proposal.get("proposed",{}).get("new_exercise_candidates",[]):
                 name=str(candidate).strip()

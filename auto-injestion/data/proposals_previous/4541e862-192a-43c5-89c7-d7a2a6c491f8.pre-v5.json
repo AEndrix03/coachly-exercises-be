@@ -1,0 +1,47 @@
+{
+  "exercise_id": "4541e862-192a-43c5-89c7-d7a2a6c491f8",
+  "proposal": {
+    "exercise_id": "4541e862-192a-43c5-89c7-d7a2a6c491f8",
+    "proposed": {
+      "name": "Romanian Deadlift",
+      "translations": {
+        "it": {
+          "name": "Romanian Deadlift",
+          "description": "Variante del deadlift con movimento di hip hinge puro. Target principale: ischio-crurali (in allungamento), gluteo massimo e schiena bassa. Eccellente per lo sviluppo della catena posteriore.",
+          "executionTips": [
+            "Sentire l'allungamento degli ischio-crurali è il segnale della posizione corretta",
+            "La versione con manubri permette un percorso più naturale lungo le gambe",
+            "Eccellente per l'allenamento dei femorali o come complemento al leg curl",
+            "Spingere i fianchi all'indietro inclinando il busto in avanti",
+            "Abbassare il bilanciere lungo le gambe mantenendolo vicino al corpo",
+            "Scendere finché si sente un forte allungamento degli ischio-crurali",
+            "Spingere i fianchi in avanti per risalire alla posizione eretta"
+          ],
+          "safetyTips": [
+            "Non scendere oltre il punto in cui la schiena inizia ad arrotondarsi",
+            "La profondità è individuale in base alla flessibilità degli ischio-crurali",
+            "Evitare di piegare eccessivamente le ginocchia per non trasformare l'esercizio in uno squat",
+            "Mantenere la schiena neutra durante tutta la fase di discesa",
+            "Assicurarsi di spingere i fianchi all'indietro anziché lasciare che il peso scenda verticalmente"
+          ]
+        },
+        "en": {
+          "name": "Romanian Deadlift",
+          "description": "Deadlift variation with a pure hip hinge movement. Primary target: hamstrings (in stretch), gluteus maximus, and lower back. Excellent for posterior chain development.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "exercise_id": "da1470dc-4009-4128-a02c-f12ba121a15e",
+  "proposal": {
+    "exercise_id": "da1470dc-4009-4128-a02c-f12ba121a15e",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

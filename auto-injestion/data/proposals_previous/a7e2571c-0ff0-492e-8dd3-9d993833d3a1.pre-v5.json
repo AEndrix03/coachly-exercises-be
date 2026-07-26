@@ -1,0 +1,87 @@
+{
+  "exercise_id": "a7e2571c-0ff0-492e-8dd3-9d993833d3a1",
+  "proposal": {
+    "exercise_id": "a7e2571c-0ff0-492e-8dd3-9d993833d3a1",
+    "proposed": {
+      "name": "Rotating Dumbbell Press",
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force": "dynamic",
+      "translations": {
+        "it": {
+          "name": "Rotating Dumbbell Press",
+          "description": "Distensioni con manubri su panca dove il polso ruota da una presa neutra in basso a una presa pronata in cima.",
+          "executionTips": [
+            "Sdraiati su una panca, impugna i manubri con una presa neutra (palmi rivolti l'uno verso l'altro).",
+            "Spingi i manubri verso l'alto, ruotando i polsi in modo che i palmi guardino in avanti al termine del movimento.",
+            "Mantieni le scapole addotte e depresse contro la panca durante l'intera esecuzione.",
+            "Controlla la fase di discesa, riportando i manubri in posizione neutra.",
+            "Espira durante la fase di spinta e inspira durante la discesa."
+          ],
+          "safetyTips": [
+            "Evita di far sbattere i manubri tra loro al termine della spinta per non perdere stabilità.",
+            "Non inarcare eccessivamente la schiena; mantieni il contatto tra zona lombare e panca o un leggero arco naturale.",
+            "Assicurati che i gomiti non si aprano eccessivamente a 90 gradi rispetto al busto per proteggere le spalle.",
+            "Scegli un carico adeguato che permetta di completare la rotazione in modo controllato."
+          ]
+        },
+        "en": {
+          "name": "Rotating Dumbbell Press",
+          "description": "Dumbbell chest press where the wrist rotates from a neutral grip at the bottom to a pronated grip at the top.",
+          "executionTips": [
+            "Lie on a bench and hold the dumbbells with a neutral grip (palms facing each other).",
+            "Press the dumbbells upward, rotating your wrists so that the palms face forward at the top of the movement.",
+            "Keep your shoulder blades retracted and depressed against the bench throughout the exercise.",
+            "Control the descent, returning the dumbbells to a neutral grip position.",
+            "Exhale during the press and inhale during the descent."
+          ],
+          "safetyTips": [
+            "Avoid clashing the dumbbells together at the top to maintain stability.",
+            "Do not excessively arch your back; maintain contact between the lower back and the bench or a slight natural arch.",
+            "Ensure elbows do not flare out too wide (90 degrees) to protect the shoulder joints.",
+            "Choose a weight that allows for a controlled rotation throughout the movement."
+          ]
+        }
+      },
+      "muscles": [
+        "pectoralis_major_clavicular",
+        "pectoralis_major_sternal",
+        "triceps_brachii_lateral",
+        "triceps_brachii_long",
+        "triceps_brachii_medial",
+        "deltoid_anterior"
+      ],
+      "categories": [
+        "chest",
+        "push_horizontal",
+        "upper_body",
+        "compound_lifts"
+      ],
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "bilateral",
+        "hypertrophy",
+        "push_day",
+        "strength"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

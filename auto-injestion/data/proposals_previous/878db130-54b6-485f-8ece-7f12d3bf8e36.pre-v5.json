@@ -1,0 +1,42 @@
+{
+  "exercise_id": "878db130-54b6-485f-8ece-7f12d3bf8e36",
+  "proposal": {
+    "exercise_id": "878db130-54b6-485f-8ece-7f12d3bf8e36",
+    "proposed": {
+      "name": "Triceps Dip Machine",
+      "translations": {
+        "it": {
+          "name": "Triceps Dip Machine",
+          "description": "Dip Tricipiti alla Macchina: un esercizio di isolamento per i tricipiti che prevede l'estensione del gomito sotto carico, simulandoando l'estensione a dip. Mantieni il braccio superiore fermo e muovi solo l'articolazione del gomito, portando il carico verso l'alto/dietro la testa e poi estendendo completamente.",
+          "executionTips": [
+            "Siediti con la schiena ben appoggiata allo schienale",
+            "Mantieni le scapole addotte e depresse per stabilizzare la spalla",
+            "Controlla la fase eccentrica (discesa) per massimizzare la tensione muscolare",
+            "Espira durante la fase di spinta (estensione) e inspira durante la discesa"
+          ],
+          "safetyTips": [
+            "Evita di sollevare le spalle verso le orecchie durante l'esecuzione",
+            "Non bloccare bruscamente i gomiti alla fine dell'estensione per evitare stress articolari",
+            "Regola l'altezza del sedile in modo che le mani siano allineate con il centro del petto"
+          ]
+        },
+        "en": {
+          "name": "Triceps Dip Machine",
+          "description": "Triceps Dip Machine: a triceps isolation exercise that involves elbow extension under load, simulating a dip movement. Keep the upper arm stationary and move only at the elbow joint, lowering the load towards the head and then extending fully.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

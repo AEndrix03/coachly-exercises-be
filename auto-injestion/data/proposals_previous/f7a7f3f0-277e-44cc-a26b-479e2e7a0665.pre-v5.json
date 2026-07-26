@@ -1,0 +1,86 @@
+{
+  "exercise_id": "f7a7f3f0-277e-44cc-a26b-479e2e7a0665",
+  "proposal": {
+    "exercise_id": "f7a7f3f0-277e-44cc-a26b-479e2e7a0665",
+    "proposed": {
+      "name": "Pause Decline Press",
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force": "static",
+      "translations": {
+        "it": {
+          "name": "Pause Decline Press",
+          "description": "Panca declinata con bilanciere che prevede una pausa isometrica di 1-2 secondi nel punto di massima estensione del petto.",
+          "executionTips": [
+            "Posizionati sulla panca declinata assicurando che i piedi siano ben bloccati nei supporti.",
+            "Abbassa il bilanciere lentamente verso la parte inferiore del petto.",
+            "Mantieni una pausa netta di 1-2 secondi toccando leggermente il petto senza far rimbalzare il peso.",
+            "Spingi il bilanciere verso l'alto con forza, mantenendo i gomiti in linea con il corpo.",
+            "Espira durante la fase di spinta e inspira durante la discesa."
+          ],
+          "safetyTips": [
+            "Utilizza sempre un assistente (spotter) data la posizione declinata e l'uso del bilanciere.",
+            "Evita di inarcare eccessivamente la schiena; mantieni il contatto con la panca.",
+            "Non permettere al bilanciere di rimbalzare sul petto durante la pausa.",
+            "Assicurati che la presa sia salda e simmetrica per evitare sbilanciamenti."
+          ]
+        },
+        "en": {
+          "name": "Pause Decline Press",
+          "description": "Decline barbell bench press featuring a 1-2 second isometric pause at the bottom of the movement.",
+          "executionTips": [
+            "Position yourself on the decline bench, ensuring your feet are securely locked in the supports.",
+            "Lower the barbell slowly toward the lower part of the chest.",
+            "Hold a dead stop for 1-2 seconds, lightly touching the chest without bouncing the weight.",
+            "Press the barbell upward forcefully, keeping the elbows aligned with the body.",
+            "Exhale during the pressing phase and inhale during the descent."
+          ],
+          "safetyTips": [
+            "Always use a spotter due to the decline position and the use of a barbell.",
+            "Avoid excessive arching of the back; maintain contact with the bench.",
+            "Do not allow the barbell to bounce off the chest during the pause.",
+            "Ensure a firm and symmetrical grip to prevent imbalances."
+          ]
+        }
+      },
+      "muscles": [
+        "pectoralis_major_sternal",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "deltoid_anterior"
+      ],
+      "categories": [
+        "chest",
+        "compound_lifts",
+        "push_horizontal",
+        "upper_body"
+      ],
+      "equipment": [
+        "barbell",
+        "adjustable_bench"
+      ],
+      "tags": [
+        "bilateral",
+        "hypertrophy",
+        "push_day",
+        "spotter_recommended",
+        "strength",
+        "tempo_training"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

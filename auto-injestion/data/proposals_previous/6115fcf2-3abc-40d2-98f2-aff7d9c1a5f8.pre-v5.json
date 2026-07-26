@@ -1,0 +1,46 @@
+{
+  "exercise_id": "6115fcf2-3abc-40d2-98f2-aff7d9c1a5f8",
+  "proposal": {
+    "exercise_id": "6115fcf2-3abc-40d2-98f2-aff7d9c1a5f8",
+    "proposed": {
+      "name": "Face Pull",
+      "translations": {
+        "it": {
+          "name": "Face Pull",
+          "description": "Esercizio al cavo alto per il deltoide posteriore, trapezio inferiore, romboidi e rotatori esterni. Fondamentale per la salute della spalla e il bilanciamento posturale.",
+          "executionTips": [
+            "Impostare la puleggia del cavo all'altezza degli occhi o sopra",
+            "Tirare la corda verso il viso separando le mani e portando i polsi dietro le orecchie",
+            "I gomiti devono rimanere alla stessa altezza delle spalle o sopra",
+            "Ruotare esternamente le spalle massimizzando la contrazione dei rotatori",
+            "Ritornare con controllo alla posizione di partenza",
+            "La rotazione esterna è la parte più importante del movimento"
+          ],
+          "safetyTips": [
+            "Usare un carico moderato focalizzandosi sulla qualità del movimento e sulla sensazione muscolare, non sul peso massimo",
+            "Evitare di tirare solo con i bicipiti trascurando la rotazione esterna",
+            "Evitare che i gomiti scendano sotto le spalle",
+            "Evitare di tirare la corda verso il collo invece che verso il viso",
+            "Evitare l'oscillazione del busto all'indietro"
+          ]
+        },
+        "en": {
+          "name": "Face Pull",
+          "description": "High cable exercise for the posterior deltoid, lower trapezius, rhomboids, and external rotators. Fundamental for shoulder health and postural balance.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

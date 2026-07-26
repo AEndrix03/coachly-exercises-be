@@ -1,0 +1,44 @@
+{
+  "exercise_id": "4e820985-78f7-444e-8f18-5ec20d017837",
+  "proposal": {
+    "exercise_id": "4e820985-78f7-444e-8f18-5ec20d017837",
+    "proposed": {
+      "name": "Seated Hip Adduction (Resistance Band)",
+      "translations": {
+        "it": {
+          "name": "Seated Hip Adduction (Resistance Band)",
+          "description": "L'Adduzione dell'Anca Seduta con elastico è un esercizio di isolamento volto a rafforzare i muscoli adduttori della coscia. Seduti su una sedia o panca, l'elastico viene posizionato intorno alle ginocchia o appena sopra, fissato a un punto esterno laterale. L'obiettivo è portare le ginocchia verso l'interno, vincendo la resistenza dell'elastico.",
+          "executionTips": [
+            "Siediti con la schiena dritta e i piedi ben appoggiati a terra",
+            "Mantieni il core attivo e stabile per evitare rotazioni del busto",
+            "Esegui il movimento di chiusura delle gambe in modo controllato",
+            "Concentrati sulla contrazione dei muscoli interni della coscia al termine della fase concentrica",
+            "Ritorna alla posizione di partenza lentamente, controllando la fase eccentrica"
+          ],
+          "safetyTips": [
+            "Assicurati che l'elastico sia fissato a un punto di ancoraggio sicuro e stabile",
+            "Evita di usare un elastico troppo resistente che possa compromettere la forma tecnica",
+            "Non permettere alle ginocchia di collassare bruscamente durante la fase di ritorno",
+            "Mantieni una posizione seduta neutra per non sovraccaricare la zona lombare"
+          ]
+        },
+        "en": {
+          "name": "Seated Hip Adduction (Resistance Band)",
+          "description": "Seated Hip Adduction with a resistance band is an isolation exercise designed to strengthen the hip adductor muscles. While seated on a chair or bench, the resistance band is placed around the knees or just above them, anchored to an external lateral point. The goal is to bring the knees inward, overcoming the resistance of the band.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

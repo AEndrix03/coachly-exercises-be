@@ -1,0 +1,42 @@
+{
+  "exercise_id": "8b3948f1-1d19-49ab-bebc-fdca48a8b153",
+  "proposal": {
+    "exercise_id": "8b3948f1-1d19-49ab-bebc-fdca48a8b153",
+    "proposed": {
+      "name": "Hex Press",
+      "translations": {
+        "it": {
+          "name": "Hex Press",
+          "description": "Distensione con manubri tenuti a contatto tra loro sopra il petto: la pressione continua tra i manubri aumenta l'attivazione in adduzione del pettorale. Imposta scapole addotte e depresse, scendi controllato con i gomiti a ~45 gradi e spingi mantenendo i manubri “schiacciati” per tutta la salita.",
+          "executionTips": [
+            "Mantenere i manubri a stretto contatto per tutta la durata dell'esecuzione",
+            "Concentrarsi sulla contrazione del pettorale spingendo i manubri l'uno contro l'altro",
+            "Mantenere i gomiti a un angolo di circa 45 gradi rispetto al busto",
+            "Controllare la fase eccentrica (discesa) per massimizzare la tensione"
+          ],
+          "safetyTips": [
+            "Evitare di inarcare eccessivamente la schiena",
+            "Assicurarsi che i manubri non scivolino l'uno sull'altro",
+            "Non bloccare completamente i gomiti in cima al movimento per mantenere la tensione muscolare"
+          ]
+        },
+        "en": {
+          "name": "Hex Press",
+          "description": "Dumbbell press performed with the dumbbells pressed together over the chest: constant inward pressure increases pec adduction and peak contraction. Set scapulae down and back, lower under control with elbows about 45 degrees, then press while keeping the dumbbells squeezed together through the entire rep.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

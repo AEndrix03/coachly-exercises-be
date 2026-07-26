@@ -1,0 +1,42 @@
+{
+  "exercise_id": "782dd13b-821c-4b4a-871c-4409e74d2f88",
+  "proposal": {
+    "exercise_id": "782dd13b-821c-4b4a-871c-4409e74d2f88",
+    "proposed": {
+      "name": "Tempo Bear Plank",
+      "translations": {
+        "it": {
+          "name": "Tempo Bear Plank",
+          "description": "Variante di Bear Plank che modifica leva o tempo di esecuzione per lavorare lo stesso schema motorio, focalizzandosi sulla stabilità del core e il controllo motorio.",
+          "executionTips": [
+            "Mantieni la schiena piatta come un tavolo, evitando di inarcare la zona lombare.",
+            "Coordina il movimento con la respirazione, espirando durante la fase di massima tensione.",
+            "Mantieni le ginocchia a pochi centimetri dal pavimento senza toccarlo.",
+            "Assicurati che le spalle siano allineate verticalmente sopra i polsi."
+          ],
+          "safetyTips": [
+            "Non permettere al bacino di cedere verso il basso per evitare stress eccessivo alla colonna lombare.",
+            "Evita di spingere eccessivamente le spalle verso le orecchie; mantieni il collo neutro.",
+            "Se senti dolore ai polsi, prova a eseguire l'esercizio con le mani a terra in posizione neutra o su supporti."
+          ]
+        },
+        "en": {
+          "name": "Tempo Bear Plank",
+          "description": "Variation of Bear Plank that changes leverage or tempo to target the same pattern, focusing on core stability and motor control.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "exercise_id": "4931103b-2a64-4330-9069-ac20522f7539",
+  "proposal": {
+    "exercise_id": "4931103b-2a64-4330-9069-ac20522f7539",
+    "proposed": {},
+    "overall_confidence": 1
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

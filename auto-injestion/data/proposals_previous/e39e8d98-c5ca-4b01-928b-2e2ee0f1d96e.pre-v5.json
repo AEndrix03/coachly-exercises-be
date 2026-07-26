@@ -1,0 +1,43 @@
+{
+  "exercise_id": "e39e8d98-c5ca-4b01-928b-2e2ee0f1d96e",
+  "proposal": {
+    "exercise_id": "e39e8d98-c5ca-4b01-928b-2e2ee0f1d96e",
+    "proposed": {
+      "name": "Manual Neck Resistance - Flexion",
+      "translations": {
+        "it": {
+          "name": "Manual Neck Resistance - Flexion",
+          "description": "Resistenza Manuale Collo - Flessione: un esercizio di isolamento per rafforzare i flessori del collo, eseguito applicando una resistenza manuale contro il movimento di flessione del collo.",
+          "executionTips": [
+            "Mantenere il mento leggermente rientrato durante l'esecuzione",
+            "Eseguire ripetizioni lente e controllate",
+            "Applicare una pressione costante e manuale per creare resistenza",
+            "Mantenere la colonna vertebrale in posizione neutra"
+          ],
+          "safetyTips": [
+            "Non forzare il movimento oltre il range di movimento naturale",
+            "Aumentare il carico di resistenza gradualmente",
+            "Interrompere immediatamente l'esecuzione se si avverte un dolore acuto",
+            "Evitare movimenti bruschi o scatti"
+          ]
+        },
+        "en": {
+          "name": "Manual Neck Resistance - Flexion",
+          "description": "Manual Neck Resistance - Flexion: an isolation exercise to strengthen the neck flexors, performed by applying manual resistance against the neck flexion movement.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

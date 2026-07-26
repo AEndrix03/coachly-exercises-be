@@ -1,0 +1,41 @@
+{
+  "exercise_id": "0e665dbc-ab33-450e-b900-6c6cbdeb8eb8",
+  "proposal": {
+    "exercise_id": "0e665dbc-ab33-450e-b900-6c6cbdeb8eb8",
+    "proposed": {
+      "name": "Low Incline Dumbbell Press",
+      "translations": {
+        "it": {
+          "name": "Low Incline Dumbbell Press",
+          "description": "Panca inclinata leggermente (15-25 gradi) con manubri. L'inclinazione ridotta massimizza il ROM e attiva sia la porzione sterno-costale che clavicolare, riducendo al minimo lo stress sulla spalla.",
+          "executionTips": [
+            "Mantieni le scapole addotte e depresse durante tutto il movimento",
+            "Spingi i manubri verso l'alto seguendo una traiettoria leggermente convergente",
+            "Controlla la fase eccentrica per massimizzare l'allungamento del pettorale"
+          ],
+          "safetyTips": [
+            "Assicurati che l'inclinazione della panca sia effettivamente bassa per evitare di spostare eccessivamente il carico sulla parte anteriore deltoide",
+            "Non far rimbalzare i manubri in cima al movimento",
+            "Mantieni i polsi in posizione neutra e allineati con l'avambraccio"
+          ]
+        },
+        "en": {
+          "name": "Low Incline Dumbbell Press",
+          "description": "Lightly inclined bench (15-25 degrees) with dumbbells. The slight incline maximizes ROM and activates both the sternocostal and clavicular heads while minimizing shoulder stress.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

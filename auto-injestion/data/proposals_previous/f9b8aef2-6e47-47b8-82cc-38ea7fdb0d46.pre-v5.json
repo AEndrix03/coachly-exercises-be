@@ -1,0 +1,42 @@
+{
+  "exercise_id": "f9b8aef2-6e47-47b8-82cc-38ea7fdb0d46",
+  "proposal": {
+    "exercise_id": "f9b8aef2-6e47-47b8-82cc-38ea7fdb0d46",
+    "proposed": {
+      "name": "Paused Eccentric Calf Raise",
+      "translations": {
+        "it": {
+          "name": "Paused Eccentric Calf Raise",
+          "description": "Variante di Calf Raise Eccentrico che prevede una pausa strategica durante la fase di discesa per eliminare l'energia elastica e massimizzare il reclutamento muscolare dei polpacci.",
+          "executionTips": [
+            "Mantieni la schiena dritta e il core attivo durante l'intero movimento.",
+            "Esegui la fase eccentrica (discesa) in modo lento e controllato.",
+            "Effettua una pausa di 2-3 secondi nel punto di massima tensione o a metà discesa.",
+            "Assicurati di ottenere un'estensione completa dell'avampiede e un allungamento completo del tendine d'Achille."
+          ],
+          "safetyTips": [
+            "Evita di rimbalzare in fondo al movimento per prevenire infortuni al tendine d'Achille.",
+            "Assicurati di avere un appoggio stabile per l'equilibrio.",
+            "Non forzare l'allungamento oltre il range di movimento naturale del tuo corpo."
+          ]
+        },
+        "en": {
+          "name": "Paused Eccentric Calf Raise",
+          "description": "A variation of the Eccentric Calf Raise that incorporates a strategic pause during the descent phase to eliminate elastic energy and maximize calf muscle recruitment.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

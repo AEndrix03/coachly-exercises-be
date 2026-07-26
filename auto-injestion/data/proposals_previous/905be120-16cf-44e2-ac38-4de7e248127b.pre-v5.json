@@ -1,0 +1,42 @@
+{
+  "exercise_id": "905be120-16cf-44e2-ac38-4de7e248127b",
+  "proposal": {
+    "exercise_id": "905be120-16cf-44e2-ac38-4de7e248127b",
+    "proposed": {
+      "name": "Long Copenhagen Plank",
+      "translations": {
+        "it": {
+          "name": "Long Copenhagen Plank",
+          "description": "Plank Copenaghen Lungo: gamba superiore appoggiata su una panca e avambraccio a terra, mantenendo il corpo in una linea retta. Solleva il bacino dal suolo e mantieni la posizione isometrica attivando intensamente gli adduttori della gamba superiore e il core, evitando che la spalla di supporto collassi.",
+          "executionTips": [
+            "Mantieni il corpo perfettamente allineato dalla testa ai piedi per evitare di ruotare il bacino.",
+            "Assicurati che l'interno della caviglia o del ginocchio sia ben appoggiato sulla panca.",
+            "Spremii l'avambraccio contro il pavimento per stabilizzare la spalla e creare tensione.",
+            "Respira regolarmente senza bloccare il fiato durante la tenuta."
+          ],
+          "safetyTips": [
+            "Evita di lasciare che il bacino scenda verso il pavimento o di ruotare le anche verso il basso.",
+            "Non collassare la spalla verso il collo; mantieni una distanza attiva tra l'orecchio e la spalla.",
+            "Se l'esercizio è troppo difficile, appoggia il ginocchio invece della caviglia sulla panca per ridurre la leva."
+          ]
+        },
+        "en": {
+          "name": "Long Copenhagen Plank",
+          "description": "Long Copenhagen Plank: top leg resting on a bench and forearm on the floor with the body in a straight line. Lift the hips and hold the isometric position by engaging the adductors of the top leg and the adductors and core, ensuring the shoulder of the support arm does not collapse.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

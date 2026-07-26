@@ -1,0 +1,45 @@
+{
+  "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+  "proposal": {
+    "exercise_id": "18e95984-acd5-4d91-b389-5097cb978384",
+    "proposed": {
+      "name": "Chest Dip",
+      "translations": {
+        "it": {
+          "name": "Chest Dip",
+          "description": "Dip con busto inclinato in avanti per massimizzare il coinvolgimento del pettorale inferiore. Esercizio composto ad alto stimolo per petto e tricipite.",
+          "executionTips": [
+            "Più il busto è inclinato in avanti, maggiore il coinvolgimento del pettorale",
+            "Aggiungere peso con la cintura per progredire oltre il bodyweight",
+            "Se le spalle fanno clic o dolore, ridurre il range of motion",
+            "Sostieniti sulle parallele con le braccia estese e il busto inclinato in avanti",
+            "Scendi in modo controllato piegando i gomiti finche' non senti un buon stiramento al petto",
+            "Spingi verso l'alto guidando con il petto, senza bloccare bruscamente i gomiti in cima",
+            "Mantieni le scapole leggermente depresse per proteggere le spalle"
+          ],
+          "safetyTips": [
+            "Evitare di scendere troppo in basso con le spalle anteriori già in limitazione articolare",
+            "Chi ha problemi alla cuffia dei rotatori deve procedere con cautela",
+            "Rischio medio per la spalla anteriore in caso di discesa eccessiva o mobilita' limitata: se avverti dolore alla spalla, riduci l'ampiezza del movimento o utilizza fasce elastiche di assistenza"
+          ]
+        },
+        "en": {
+          "name": "Chest Dip",
+          "description": "Forward-leaning dip to maximize lower pectoralis major involvement. High-stimulus compound exercise for chest and triceps.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

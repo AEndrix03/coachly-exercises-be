@@ -1,0 +1,87 @@
+{
+  "exercise_id": "e0df9786-7606-46e1-bec3-3dee41c930a1",
+  "proposal": {
+    "exercise_id": "e0df9786-7606-46e1-bec3-3dee41c930a1",
+    "proposed": {
+      "name": "Machine Chest Press",
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force": "push",
+      "translations": {
+        "it": {
+          "name": "Machine Chest Press",
+          "description": "Esercizio di spinta per il petto eseguito su una macchina guidata che stabilizza il movimento.",
+          "executionTips": [
+            "Regola l'altezza del sedile in modo che le impugnature siano allineate con la parte centrale del petto.",
+            "Mantieni la schiena ben appoggiata allo schienale e le scapole addotte.",
+            "Spingi i manici in avanti espirando, senza distendere completamente i gomiti.",
+            "Controlla la fase di ritorno lentamente per massimizzare la tensione muscolare.",
+            "Mantieni i piedi ben piantati a terra per una maggiore stabilità."
+          ],
+          "safetyTips": [
+            "Evita di inarcare eccessivamente la schiena staccando le spalle dallo schienale.",
+            "Non bloccare i gomiti in massima estensione per evitare stress articolari.",
+            "Assicurati che il carico sia gestibile per mantenere l'esecuzione controllata.",
+            "Evita di sollevare le spalle verso le orecchie durante la spinta."
+          ]
+        },
+        "en": {
+          "name": "Machine Chest Press",
+          "description": "Chest press exercise performed on a guided machine that stabilizes the movement path.",
+          "executionTips": [
+            "Adjust the seat height so the handles are aligned with the mid-chest.",
+            "Keep your back firmly against the backrest and shoulder blades retracted.",
+            "Push the handles forward while exhaling, avoiding locking the elbows.",
+            "Control the return phase slowly to maximize muscle tension.",
+            "Keep your feet flat on the floor for better stability."
+          ],
+          "safetyTips": [
+            "Avoid excessive arching of the back by keeping the shoulders against the backrest.",
+            "Do not lock your elbows at full extension to prevent joint stress.",
+            "Ensure the load is manageable to maintain controlled execution.",
+            "Avoid shrugging your shoulders toward your ears during the press."
+          ]
+        }
+      },
+      "muscles": [
+        "pectoralis_major_clavicular",
+        "pectoralis_major_sternal",
+        "deltoid_anterior",
+        "triceps_brachii_lateral",
+        "triceps_brachii_medial",
+        "triceps_brachii_long"
+      ],
+      "categories": [
+        "chest",
+        "push_horizontal",
+        "compound_lifts",
+        "upper_body"
+      ],
+      "equipment": [
+        "chest_press_machine"
+      ],
+      "tags": [
+        "beginner_friendly",
+        "bilateral",
+        "gym_only",
+        "hypertrophy",
+        "push_day",
+        "strength"
+      ],
+      "new_tag_candidates": [],
+      "new_exercise_candidates": [],
+      "variations": []
+    },
+    "overall_confidence": 1,
+    "changes": [
+      "translations",
+      "catalog_relations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}

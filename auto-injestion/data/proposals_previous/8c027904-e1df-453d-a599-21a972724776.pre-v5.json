@@ -1,0 +1,42 @@
+{
+  "exercise_id": "8c027904-e1df-453d-a599-21a972724776",
+  "proposal": {
+    "exercise_id": "8c027904-e1df-453d-a599-21a972724776",
+    "proposed": {
+      "name": "Tempo Cable Pull-Through",
+      "translations": {
+        "it": {
+          "name": "Tempo Cable Pull-Through",
+          "description": "Variante di Cable Pull-Through focalizzata sul controllo temporale. Imposta una posizione stabile e attiva il core (bracing). Esegui il movimento in un range di movimento (ROM) controllato mantenendo l'allineamento corporeo, effettuando un reset deliberato tra le ripetizioni per garantire una tecnica costante.",
+          "executionTips": [
+            "Mantieni la schiena neutra durante tutta l'estensione dell'anca",
+            "Controlla la fase eccentrica (discesa) per massimizzare la tensione muscolare",
+            "Spremi i glutei al massimo nel punto di massima contrazione",
+            "Evita di usare l'inerzia per risalire"
+          ],
+          "safetyTips": [
+            "Non inarcare eccessivamente la zona lombare durante la fase di flessione",
+            "Assicurati che il cavo passi tra le gambe in modo stabile e non scivoli",
+            "Mantieni i piedi ben piantati a terra per evitare sbilanciamenti"
+          ]
+        },
+        "en": {
+          "name": "Tempo Cable Pull-Through",
+          "description": "Tempo variation of the Cable Pull-Through. Establish a stable position and brace the core. Move through a controlled range of motion with proper alignment, performing a deliberate reset between repetitions to maintain consistent technique.",
+          "executionTips": [],
+          "safetyTips": []
+        }
+      }
+    },
+    "overall_confidence": 1.0,
+    "changes": [
+      "translations"
+    ]
+  },
+  "validation": {
+    "status": "ACCEPTED",
+    "errors": [],
+    "schema_valid": true,
+    "catalog_valid": true
+  }
+}
