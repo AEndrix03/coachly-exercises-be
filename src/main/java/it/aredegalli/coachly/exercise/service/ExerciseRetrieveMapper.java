@@ -67,7 +67,7 @@ public class ExerciseRetrieveMapper {
             .forceType(enumValue(exercise.getForce()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
-            .variants(variations.stream().map(this::toVariant).toList())
+            .variants(variations.stream().map(variation -> toVariant(exercise, variation)).toList())
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
             .safety(List.of(toSafety(exercise, translations)))
@@ -139,20 +139,27 @@ public class ExerciseRetrieveMapper {
         });
     }
 
-    private ExerciseDetailDto.VariantDto toVariant(ExerciseVariation variation) {
-        Exercise variantExercise = variation.getVariantExercise();
-        TranslationEnvelope translations = parseTranslations(variantExercise.getTranslations());
+    private ExerciseDetailDto.VariantDto toVariant(Exercise sourceExercise, ExerciseVariation variation) {
+        boolean sourceIsBase = sourceExercise.getId().equals(variation.getBaseExercise().getId());
+        Exercise relatedExercise = sourceIsBase
+            ? variation.getVariantExercise()
+            : variation.getBaseExercise();
+        Integer difficultyDelta = variation.getDifficultyDelta();
+        if (!sourceIsBase && difficultyDelta != null) {
+            difficultyDelta = -difficultyDelta;
+        }
+        TranslationEnvelope translations = parseTranslations(relatedExercise.getTranslations());
         return ExerciseDetailDto.VariantDto.builder()
-            .id(variantExercise.getId())
+            .id(relatedExercise.getId())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
-            .difficultyLevel(enumValue(variantExercise.getDifficulty()))
-            .mechanicsType(enumValue(variantExercise.getMechanics()))
-            .forceType(enumValue(variantExercise.getForce()))
-            .isUnilateral(variantExercise.isUnilateral())
-            .isBodyweight(variantExercise.isBodyweight())
-            .difficultyDelta(variation.getDifficultyDelta())
+            .difficultyLevel(enumValue(relatedExercise.getDifficulty()))
+            .mechanicsType(enumValue(relatedExercise.getMechanics()))
+            .forceType(enumValue(relatedExercise.getForce()))
+            .isUnilateral(relatedExercise.isUnilateral())
+            .isBodyweight(relatedExercise.isBodyweight())
+            .difficultyDelta(difficultyDelta)
             .build();
     }
 

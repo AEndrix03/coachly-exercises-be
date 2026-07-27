@@ -39,6 +39,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Optional;
+import java.util.Set;
 import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -215,9 +216,9 @@ public class ExerciseService {
         }
 
         List<UUID> exerciseIds = exercises.stream().map(Exercise::getId).toList();
-        Map<UUID, List<ExerciseVariation>> variationsByExercise = groupByExerciseId(
-            exerciseVariationRepository.findAllByBaseExerciseIds(exerciseIds),
-            relation -> relation.getBaseExercise().getId()
+        Map<UUID, List<ExerciseVariation>> variationsByExercise = groupVariationsByExerciseId(
+            exerciseVariationRepository.findAllRelatedToExerciseIds(exerciseIds),
+            exerciseIds
         );
         Map<UUID, List<ExerciseMedia>> mediaByExercise = groupByExerciseId(
             exerciseMediaRepository.findAllByExercise_IdInOrderByDisplayOrderAsc(exerciseIds),
@@ -259,6 +260,29 @@ public class ExerciseService {
         }
         return relations.stream()
             .collect(Collectors.groupingBy(extractor, LinkedHashMap::new, Collectors.toList()));
+    }
+
+    private Map<UUID, List<ExerciseVariation>> groupVariationsByExerciseId(
+        Collection<ExerciseVariation> variations,
+        Collection<UUID> exerciseIds
+    ) {
+        if (variations.isEmpty() || exerciseIds.isEmpty()) {
+            return Collections.emptyMap();
+        }
+
+        Set<UUID> requestedIds = Set.copyOf(exerciseIds);
+        Map<UUID, List<ExerciseVariation>> grouped = new LinkedHashMap<>();
+        for (ExerciseVariation variation : variations) {
+            UUID baseId = variation.getBaseExercise().getId();
+            UUID variantId = variation.getVariantExercise().getId();
+            if (requestedIds.contains(baseId)) {
+                grouped.computeIfAbsent(baseId, ignored -> new java.util.ArrayList<>()).add(variation);
+            }
+            if (requestedIds.contains(variantId)) {
+                grouped.computeIfAbsent(variantId, ignored -> new java.util.ArrayList<>()).add(variation);
+            }
+        }
+        return grouped;
     }
 
     private boolean isActive(Exercise exercise) {

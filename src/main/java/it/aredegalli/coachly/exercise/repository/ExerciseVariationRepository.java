@@ -12,8 +12,10 @@ public interface ExerciseVariationRepository extends JpaRepository<ExerciseVaria
     @Query("""
         select exerciseVariation
         from ExerciseVariation exerciseVariation
+        join fetch exerciseVariation.baseExercise
         join fetch exerciseVariation.variantExercise
         where exerciseVariation.baseExercise.id in :exerciseIds
+           or exerciseVariation.variantExercise.id in :exerciseIds
         """)
-    List<ExerciseVariation> findAllByBaseExerciseIds(Collection<UUID> exerciseIds);
+    List<ExerciseVariation> findAllRelatedToExerciseIds(Collection<UUID> exerciseIds);
 }
