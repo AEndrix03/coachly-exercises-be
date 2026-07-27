@@ -38,7 +38,7 @@ public class ExerciseRetrieveMapper {
             .id(exercise.getId())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-            .tipsI18n(translations.fieldMap("tipsI18n", "tips"))
+            .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
             .difficultyLevel(enumValue(exercise.getDifficulty()))
             .mechanicsType(enumValue(exercise.getMechanics()))
             .forceType(enumValue(exercise.getForce()))
@@ -61,7 +61,7 @@ public class ExerciseRetrieveMapper {
             .id(exercise.getId())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-            .tipsI18n(translations.fieldMap("tipsI18n", "tips"))
+            .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
             .difficultyLevel(enumValue(exercise.getDifficulty()))
             .mechanicsType(enumValue(exercise.getMechanics()))
             .forceType(enumValue(exercise.getForce()))
@@ -102,7 +102,7 @@ public class ExerciseRetrieveMapper {
         List<String> languages = languageCandidates(rawLangFilter);
         int score = scoreI18n(translations.fieldMap("nameI18n", "name"), languages, query, 1000, 180);
         score += scoreI18n(translations.fieldMap("descriptionI18n", "description"), languages, query, 260, 45);
-        score += scoreI18n(translations.fieldMap("tipsI18n", "tips"), languages, query, 120, 25);
+        score += scoreI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"), languages, query, 120, 25);
 
         for (ExerciseMuscle relation : muscles) {
             if (relation.getMuscle() == null) {
@@ -146,7 +146,7 @@ public class ExerciseRetrieveMapper {
             .id(variantExercise.getId())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-            .tipsI18n(translations.fieldMap("tipsI18n", "tips"))
+            .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
             .difficultyLevel(enumValue(variantExercise.getDifficulty()))
             .mechanicsType(enumValue(variantExercise.getMechanics()))
             .forceType(enumValue(variantExercise.getForce()))
@@ -188,7 +188,7 @@ public class ExerciseRetrieveMapper {
             .id(exercise.getId())
             .overallRiskLevel(enumValue(exercise.getOverallRisk()))
             .spotterRequired(exercise.isSpotterRequired())
-            .safetyNotesI18n(translations.fieldMap("safetyNotesI18n", "safetyNotes"))
+            .safetyNotesI18n(translations.fieldMap("safetyNotesI18n", "safetyNotes", "safetyTips"))
             .build();
     }
 
@@ -395,7 +395,10 @@ public class ExerciseRetrieveMapper {
                     if (localizedValue == null) {
                         continue;
                     }
-                    localeDrivenMap.put(entry.getKey(), String.valueOf(localizedValue));
+                    String text = localizedText(localizedValue);
+                    if (!text.isBlank()) {
+                        localeDrivenMap.put(entry.getKey(), text);
+                    }
                     break;
                 }
             }
@@ -412,9 +415,22 @@ public class ExerciseRetrieveMapper {
                 if (entry.getKey() == null || entry.getValue() == null) {
                     continue;
                 }
-                result.put(String.valueOf(entry.getKey()), String.valueOf(entry.getValue()));
+                String text = localizedText(entry.getValue());
+                if (!text.isBlank()) {
+                    result.put(String.valueOf(entry.getKey()), text);
+                }
             }
             return result;
+        }
+
+        private String localizedText(Object value) {
+            if (value instanceof Collection<?> collection) {
+                return collection.stream()
+                    .filter(item -> item != null && !String.valueOf(item).isBlank())
+                    .map(item -> "• " + String.valueOf(item).trim())
+                    .collect(java.util.stream.Collectors.joining("\n"));
+            }
+            return String.valueOf(value).trim();
         }
     }
 }
