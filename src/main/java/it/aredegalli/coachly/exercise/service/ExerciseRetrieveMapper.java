@@ -19,10 +19,15 @@ import it.aredegalli.coachly.exercise.model.Tag;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
+import java.util.ArrayDeque;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.UUID;
 import java.text.Normalizer;
 
 @Component
@@ -67,7 +72,7 @@ public class ExerciseRetrieveMapper {
             .forceType(enumValue(exercise.getForce()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
-            .variants(variations.stream().map(variation -> toVariant(exercise, variation)).toList())
+            .variants(toConnectedVariants(exercise, variations))
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
             .safety(List.of(toSafety(exercise, translations)))
@@ -139,15 +144,58 @@ public class ExerciseRetrieveMapper {
         });
     }
 
-    private ExerciseDetailDto.VariantDto toVariant(Exercise sourceExercise, ExerciseVariation variation) {
-        boolean sourceIsBase = sourceExercise.getId().equals(variation.getBaseExercise().getId());
-        Exercise relatedExercise = sourceIsBase
-            ? variation.getVariantExercise()
-            : variation.getBaseExercise();
-        Integer difficultyDelta = variation.getDifficultyDelta();
-        if (!sourceIsBase && difficultyDelta != null) {
-            difficultyDelta = -difficultyDelta;
+    private List<ExerciseDetailDto.VariantDto> toConnectedVariants(
+        Exercise sourceExercise,
+        List<ExerciseVariation> variations
+    ) {
+        if (variations.isEmpty()) {
+            return List.of();
         }
+
+        UUID sourceId = sourceExercise.getId();
+        Map<UUID, Exercise> relatedExercises = new HashMap<>();
+        Map<UUID, Integer> difficultyDeltas = new HashMap<>();
+        HashSet<UUID> visited = new HashSet<>();
+        ArrayDeque<UUID> pending = new ArrayDeque<>();
+        visited.add(sourceId);
+        difficultyDeltas.put(sourceId, 0);
+        pending.add(sourceId);
+
+        while (!pending.isEmpty()) {
+            UUID currentId = pending.removeFirst();
+            Integer currentDelta = difficultyDeltas.get(currentId);
+            for (ExerciseVariation variation : variations) {
+                Exercise nextExercise;
+                Integer edgeDelta = variation.getDifficultyDelta();
+                if (currentId.equals(variation.getBaseExercise().getId())) {
+                    nextExercise = variation.getVariantExercise();
+                } else if (currentId.equals(variation.getVariantExercise().getId())) {
+                    nextExercise = variation.getBaseExercise();
+                    edgeDelta = edgeDelta == null ? null : -edgeDelta;
+                } else {
+                    continue;
+                }
+
+                UUID nextId = nextExercise.getId();
+                if (!visited.add(nextId)) {
+                    continue;
+                }
+                relatedExercises.put(nextId, nextExercise);
+                difficultyDeltas.put(
+                    nextId,
+                    currentDelta == null || edgeDelta == null ? null : currentDelta + edgeDelta
+                );
+                pending.addLast(nextId);
+            }
+        }
+
+        return relatedExercises.values().stream()
+            .sorted(Comparator.comparing(Exercise::getName, String.CASE_INSENSITIVE_ORDER))
+            .map(exercise -> toVariant(exercise, difficultyDeltas.get(exercise.getId())))
+            .toList();
+    }
+
+    private ExerciseDetailDto.VariantDto toVariant(Exercise relatedExercise, Integer difficultyDelta) {
         TranslationEnvelope translations = parseTranslations(relatedExercise.getTranslations());
         return ExerciseDetailDto.VariantDto.builder()
             .id(relatedExercise.getId())
