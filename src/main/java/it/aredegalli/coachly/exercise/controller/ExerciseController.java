@@ -61,9 +61,7 @@ public class ExerciseController {
         @RequestParam(required = false) Boolean isUnilateral,
         @RequestParam(required = false) Boolean isBodyweight,
         @RequestParam(required = false) String categoryIds,
-        @RequestParam(required = false) String muscleIds,
-        @RequestParam(defaultValue = "0") int offset,
-        @RequestParam(defaultValue = "50") int limit
+        @RequestParam(required = false) String muscleIds
     ) {
         ExerciseFilterDto filter = ExerciseFilterDto.builder()
             .textFilter(textFilter)
@@ -76,7 +74,7 @@ public class ExerciseController {
             .categoryIds(splitCsv(categoryIds))
             .muscleIds(splitCsv(muscleIds))
             .build();
-        return exerciseService.getFilteredExercises(currentUserIdNullable(), scope, filter, offset, limit);
+        return exerciseService.getFilteredExercises(currentUserIdNullable(), scope, filter);
     }
 
     @PostMapping

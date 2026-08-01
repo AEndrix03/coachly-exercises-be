@@ -101,12 +101,8 @@ public class ExerciseService {
     public List<ExerciseDetailDto> getFilteredExercises(
         UUID userId,
         String rawScope,
-        ExerciseFilterDto filter,
-        int requestedOffset,
-        int requestedLimit
+        ExerciseFilterDto filter
     ) {
-        int offset = Math.max(0, requestedOffset);
-        int limit = Math.clamp(requestedLimit, 1, 100);
         ExerciseScope scope = ExerciseScope.parse(rawScope);
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
@@ -158,10 +154,7 @@ public class ExerciseService {
             .map(Map.Entry::getKey)
             .toList();
 
-        return buildDetailDtos(filteredExercises.stream()
-            .skip(offset)
-            .limit(limit)
-            .toList());
+        return buildDetailDtos(filteredExercises);
     }
 
     @Transactional(readOnly = true)
