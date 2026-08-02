@@ -62,8 +62,8 @@ public class ExerciseController {
         @RequestParam(required = false) Boolean isBodyweight,
         @RequestParam(required = false) String categoryIds,
         @RequestParam(required = false) String muscleIds,
-        @RequestParam(defaultValue = "0") int offset,
-        @RequestParam(defaultValue = "50") int limit
+        @RequestParam(required = false) Integer offset,
+        @RequestParam(required = false) Integer limit
     ) {
         ExerciseFilterDto filter = ExerciseFilterDto.builder()
             .textFilter(textFilter)

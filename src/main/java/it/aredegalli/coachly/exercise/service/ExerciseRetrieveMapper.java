@@ -55,6 +55,7 @@ public class ExerciseRetrieveMapper {
     public ExerciseDetailDto toDetail(
         Exercise exercise,
         List<ExerciseVariation> variations,
+        boolean includeVariants,
         List<ExerciseMedia> media,
         List<ExerciseCategory> categories,
         List<ExerciseMuscle> muscles,
@@ -72,7 +73,7 @@ public class ExerciseRetrieveMapper {
             .forceType(enumValue(exercise.getForce()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
-            .variants(toConnectedVariants(exercise, variations))
+            .variants(includeVariants ? toConnectedVariants(exercise, variations) : List.of())
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
             .safety(List.of(toSafety(exercise, translations)))

@@ -92,7 +92,7 @@ public class ExerciseService {
             .filter(this::isActive)
             .filter(ex -> canAccessExercise(userId, ex))
             .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
-        return buildDetailDtos(List.of(exercise)).stream()
+        return buildDetailDtos(List.of(exercise), true).stream()
             .findFirst()
             .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Exercise not found"));
     }
@@ -102,11 +102,9 @@ public class ExerciseService {
         UUID userId,
         String rawScope,
         ExerciseFilterDto filter,
-        int requestedOffset,
-        int requestedLimit
+        Integer requestedOffset,
+        Integer requestedLimit
     ) {
-        int offset = Math.max(0, requestedOffset);
-        int limit = Math.clamp(requestedLimit, 1, 100);
         ExerciseScope scope = ExerciseScope.parse(rawScope);
         List<String> categoryTokens = safeTokens(filter.getCategoryIds());
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
@@ -158,10 +156,13 @@ public class ExerciseService {
             .map(Map.Entry::getKey)
             .toList();
 
-        return buildDetailDtos(filteredExercises.stream()
-            .skip(offset)
-            .limit(limit)
-            .toList());
+        if (requestedLimit == null) {
+            return buildDetailDtos(filteredExercises, false);
+        }
+
+        int offset = Math.max(0, requestedOffset == null ? 0 : requestedOffset);
+        int limit = Math.clamp(requestedLimit, 1, 100);
+        return buildDetailDtos(filteredExercises.stream().skip(offset).limit(limit).toList(), false);
     }
 
     @Transactional(readOnly = true)
@@ -210,12 +211,18 @@ public class ExerciseService {
     }
 
     private List<ExerciseDetailDto> buildDetailDtos(List<Exercise> exercises) {
+        return buildDetailDtos(exercises, true);
+    }
+
+    private List<ExerciseDetailDto> buildDetailDtos(List<Exercise> exercises, boolean includeVariants) {
         if (exercises.isEmpty()) {
             return List.of();
         }
 
         List<UUID> exerciseIds = exercises.stream().map(Exercise::getId).toList();
-        List<ExerciseVariation> variations = exerciseVariationRepository.findAllWithExercises();
+        List<ExerciseVariation> variations = includeVariants
+            ? exerciseVariationRepository.findAllWithExercises()
+            : List.of();
         Map<UUID, List<ExerciseMedia>> mediaByExercise = groupByExerciseId(
             exerciseMediaRepository.findAllByExercise_IdInOrderByDisplayOrderAsc(exerciseIds),
             relation -> relation.getExercise().getId()
@@ -241,6 +248,7 @@ public class ExerciseService {
             .map(exercise -> exerciseRetrieveMapper.toDetail(
                 exercise,
                 variations,
+                includeVariants,
                 mediaByExercise.getOrDefault(exercise.getId(), List.of()),
                 categoriesByExercise.getOrDefault(exercise.getId(), List.of()),
                 musclesByExercise.getOrDefault(exercise.getId(), List.of()),
