@@ -156,13 +156,16 @@ public class ExerciseService {
             .map(Map.Entry::getKey)
             .toList();
 
-        if (requestedLimit == null) {
-            return buildDetailDtos(filteredExercises, false);
+        if (requestedOffset != null || requestedLimit != null) {
+            int offset = requestedOffset == null ? 0 : Math.max(0, requestedOffset);
+            int limit = requestedLimit == null ? 50 : Math.clamp(requestedLimit, 1, 100);
+            return buildDetailDtos(filteredExercises.stream()
+                .skip(offset)
+                .limit(limit)
+                .toList(), false);
         }
 
-        int offset = Math.max(0, requestedOffset == null ? 0 : requestedOffset);
-        int limit = Math.clamp(requestedLimit, 1, 100);
-        return buildDetailDtos(filteredExercises.stream().skip(offset).limit(limit).toList(), false);
+        return buildDetailDtos(filteredExercises, false);
     }
 
     @Transactional(readOnly = true)
