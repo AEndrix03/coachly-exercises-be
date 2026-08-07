@@ -8,6 +8,7 @@ import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Category;
 import it.aredegalli.coachly.exercise.model.Equipment;
 import it.aredegalli.coachly.exercise.model.Exercise;
+import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
 import it.aredegalli.coachly.exercise.model.ExerciseMedia;
@@ -34,6 +35,9 @@ import java.text.Normalizer;
 public class ExerciseRetrieveMapper {
 
     private static final TypeReference<Map<String, Object>> MAP_TYPE = new TypeReference<>() {};
+    private static final TypeReference<Map<String, String>> JOINT_BIAS_TYPE = new TypeReference<>() {};
+    private static final TypeReference<List<ExerciseDetailDto.StrengthCurvePointDto>> CURVE_POINTS_TYPE =
+        new TypeReference<>() {};
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -60,7 +64,8 @@ public class ExerciseRetrieveMapper {
         List<ExerciseCategory> categories,
         List<ExerciseMuscle> muscles,
         List<ExerciseEquipment> equipments,
-        List<ExerciseTag> tags
+        List<ExerciseTag> tags,
+        ExerciseBiomechanics biomechanics
     ) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseDetailDto.builder()
@@ -80,6 +85,7 @@ public class ExerciseRetrieveMapper {
             .muscles(muscles.stream().map(this::toMuscle).toList())
             .equipments(equipments.stream().map(this::toEquipment).toList())
             .tags(tags.stream().map(this::toTag).toList())
+            .biomechanics(toBiomechanics(biomechanics))
             .build();
     }
 
@@ -259,7 +265,64 @@ public class ExerciseRetrieveMapper {
                 .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
                 .build())
             .activationPercentage(exerciseMuscle.getActivationPercentage())
+            .lengthBias(enumValue(exerciseMuscle.getLengthBias()))
+            .romStretchPct(intValue(exerciseMuscle.getRomStretchPct()))
+            .romContractPct(intValue(exerciseMuscle.getRomContractPct()))
+            .tensionAtStretch(intValue(exerciseMuscle.getTensionAtStretch()))
+            .tensionAtContraction(intValue(exerciseMuscle.getTensionAtContraction()))
+            .activeInsufficiency(exerciseMuscle.isActiveInsufficiency())
+            .passiveInsufficiency(exerciseMuscle.isPassiveInsufficiency())
             .build();
+    }
+
+    /**
+     * The jsonb columns are read as raw strings, mirroring how translations are
+     * handled; a malformed payload degrades to an empty value rather than
+     * failing the whole detail response.
+     */
+    private ExerciseDetailDto.BiomechanicsDto toBiomechanics(ExerciseBiomechanics biomechanics) {
+        if (biomechanics == null) {
+            return null;
+        }
+        return ExerciseDetailDto.BiomechanicsDto.builder()
+            .resistanceSource(enumValue(biomechanics.getResistanceSource()))
+            .resistanceCurve(enumValue(biomechanics.getResistanceCurve()))
+            .peakTorqueRomPct(intValue(biomechanics.getPeakTorqueRomPct()))
+            .momentArmProfile(enumValue(biomechanics.getMomentArmProfile()))
+            .momentArmPeakRomPct(intValue(biomechanics.getMomentArmPeakRomPct()))
+            .stabilityDemand(enumValue(biomechanics.getStabilityDemand()))
+            .axialLoad(enumValue(biomechanics.getAxialLoad()))
+            .sfrRating(intValue(biomechanics.getSfrRating()))
+            .jointPositionBias(parseJointPositionBias(biomechanics.getJointPositionBias()))
+            .strengthCurvePoints(parseStrengthCurvePoints(biomechanics.getStrengthCurvePoints()))
+            .dataConfidence(enumValue(biomechanics.getDataConfidence()))
+            .build();
+    }
+
+    private Map<String, String> parseJointPositionBias(String rawJson) {
+        if (rawJson == null || rawJson.isBlank()) {
+            return Map.of();
+        }
+        try {
+            return objectMapper.readValue(rawJson, JOINT_BIAS_TYPE);
+        } catch (Exception ex) {
+            return Map.of();
+        }
+    }
+
+    private List<ExerciseDetailDto.StrengthCurvePointDto> parseStrengthCurvePoints(String rawJson) {
+        if (rawJson == null || rawJson.isBlank()) {
+            return List.of();
+        }
+        try {
+            return objectMapper.readValue(rawJson, CURVE_POINTS_TYPE);
+        } catch (Exception ex) {
+            return List.of();
+        }
+    }
+
+    private Integer intValue(Short value) {
+        return value == null ? null : value.intValue();
     }
 
     private ExerciseDetailDto.EquipmentAssociationDto toEquipment(ExerciseEquipment exerciseEquipment) {

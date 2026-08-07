@@ -1,7 +1,10 @@
 package it.aredegalli.coachly.exercise.model;
 
+import it.aredegalli.coachly.exercise.enums.LengthBias;
+import it.aredegalli.coachly.exercise.model.converter.LengthBiasConverter;
 import it.aredegalli.coachly.exercise.model.id.ExerciseMuscleId;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -31,8 +34,91 @@ public class ExerciseMuscle {
     @Column(name = "activation_percentage")
     private Integer activationPercentage;
 
+    /** Where peak tension lands relative to THIS muscle's own length. */
+    @Convert(converter = LengthBiasConverter.class)
+    @Column(name = "length_bias", columnDefinition = "exercises.length_bias")
+    private LengthBias lengthBias;
+
+    @Column(name = "rom_stretch_pct")
+    private Short romStretchPct;
+
+    @Column(name = "rom_contract_pct")
+    private Short romContractPct;
+
+    /**
+     * Residual external load at maximum muscle length: distinguishes an
+     * exercise that merely reaches the stretch from one that loads it.
+     */
+    @Column(name = "tension_at_stretch")
+    private Short tensionAtStretch;
+
+    @Column(name = "tension_at_contraction")
+    private Short tensionAtContraction;
+
+    @Column(name = "active_insufficiency", nullable = false)
+    private boolean activeInsufficiency;
+
+    @Column(name = "passive_insufficiency", nullable = false)
+    private boolean passiveInsufficiency;
+
     @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
+
+    public LengthBias getLengthBias() {
+        return lengthBias;
+    }
+
+    public void setLengthBias(LengthBias lengthBias) {
+        this.lengthBias = lengthBias;
+    }
+
+    public Short getRomStretchPct() {
+        return romStretchPct;
+    }
+
+    public void setRomStretchPct(Short romStretchPct) {
+        this.romStretchPct = romStretchPct;
+    }
+
+    public Short getRomContractPct() {
+        return romContractPct;
+    }
+
+    public void setRomContractPct(Short romContractPct) {
+        this.romContractPct = romContractPct;
+    }
+
+    public Short getTensionAtStretch() {
+        return tensionAtStretch;
+    }
+
+    public void setTensionAtStretch(Short tensionAtStretch) {
+        this.tensionAtStretch = tensionAtStretch;
+    }
+
+    public Short getTensionAtContraction() {
+        return tensionAtContraction;
+    }
+
+    public void setTensionAtContraction(Short tensionAtContraction) {
+        this.tensionAtContraction = tensionAtContraction;
+    }
+
+    public boolean isActiveInsufficiency() {
+        return activeInsufficiency;
+    }
+
+    public void setActiveInsufficiency(boolean activeInsufficiency) {
+        this.activeInsufficiency = activeInsufficiency;
+    }
+
+    public boolean isPassiveInsufficiency() {
+        return passiveInsufficiency;
+    }
+
+    public void setPassiveInsufficiency(boolean passiveInsufficiency) {
+        this.passiveInsufficiency = passiveInsufficiency;
+    }
 
     public ExerciseMuscleId getId() {
         return id;

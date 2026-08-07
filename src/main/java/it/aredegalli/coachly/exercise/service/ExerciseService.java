@@ -13,12 +13,14 @@ import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.RiskLevel;
 import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Exercise;
+import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
 import it.aredegalli.coachly.exercise.model.ExerciseMedia;
 import it.aredegalli.coachly.exercise.model.ExerciseMuscle;
 import it.aredegalli.coachly.exercise.model.ExerciseTag;
 import it.aredegalli.coachly.exercise.model.ExerciseVariation;
+import it.aredegalli.coachly.exercise.repository.ExerciseBiomechanicsRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseCategoryRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseEquipmentRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseMediaRepository;
@@ -49,6 +51,7 @@ public class ExerciseService {
     private static final String ACTIVE_STATUS = RecordStatus.ACTIVE.name().toLowerCase(Locale.ROOT);
 
     private final ExerciseRepository exerciseRepository;
+    private final ExerciseBiomechanicsRepository exerciseBiomechanicsRepository;
     private final ExerciseCategoryRepository exerciseCategoryRepository;
     private final ExerciseEquipmentRepository exerciseEquipmentRepository;
     private final ExerciseMediaRepository exerciseMediaRepository;
@@ -60,6 +63,7 @@ public class ExerciseService {
 
     public ExerciseService(
         ExerciseRepository exerciseRepository,
+        ExerciseBiomechanicsRepository exerciseBiomechanicsRepository,
         ExerciseCategoryRepository exerciseCategoryRepository,
         ExerciseEquipmentRepository exerciseEquipmentRepository,
         ExerciseMediaRepository exerciseMediaRepository,
@@ -69,6 +73,7 @@ public class ExerciseService {
         ExerciseRetrieveMapper exerciseRetrieveMapper
     ) {
         this.exerciseRepository = exerciseRepository;
+        this.exerciseBiomechanicsRepository = exerciseBiomechanicsRepository;
         this.exerciseCategoryRepository = exerciseCategoryRepository;
         this.exerciseEquipmentRepository = exerciseEquipmentRepository;
         this.exerciseMediaRepository = exerciseMediaRepository;
@@ -246,6 +251,9 @@ public class ExerciseService {
             exerciseTagRepository.findAllByExerciseIds(exerciseIds),
             relation -> relation.getExercise().getId()
         );
+        Map<UUID, ExerciseBiomechanics> biomechanicsByExercise = exerciseBiomechanicsRepository
+            .findAllByExerciseIds(exerciseIds).stream()
+            .collect(Collectors.toMap(ExerciseBiomechanics::getExerciseId, Function.identity(), (first, ignored) -> first));
 
         return exercises.stream()
             .map(exercise -> exerciseRetrieveMapper.toDetail(
@@ -256,7 +264,8 @@ public class ExerciseService {
                 categoriesByExercise.getOrDefault(exercise.getId(), List.of()),
                 musclesByExercise.getOrDefault(exercise.getId(), List.of()),
                 equipmentsByExercise.getOrDefault(exercise.getId(), List.of()),
-                tagsByExercise.getOrDefault(exercise.getId(), List.of())
+                tagsByExercise.getOrDefault(exercise.getId(), List.of()),
+                biomechanicsByExercise.get(exercise.getId())
             ))
             .toList();
     }
