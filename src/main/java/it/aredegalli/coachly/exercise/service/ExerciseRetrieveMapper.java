@@ -1,7 +1,9 @@
 package it.aredegalli.coachly.exercise.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseDetailDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseSummaryDto;
 import it.aredegalli.coachly.exercise.enums.Visibility;
@@ -40,6 +42,15 @@ public class ExerciseRetrieveMapper {
         new TypeReference<>() {};
 
     private final ObjectMapper objectMapper = new ObjectMapper();
+
+    /**
+     * The biomechanics jsonb payloads are written by the seed generator in
+     * snake_case ({@code rom_pct}, {@code relative_load}) while the DTO stays
+     * camelCase, so they need their own reader.
+     */
+    private final ObjectMapper snakeCaseMapper = new ObjectMapper()
+        .setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE)
+        .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
     public ExerciseSummaryDto toSummary(Exercise exercise) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
@@ -315,7 +326,7 @@ public class ExerciseRetrieveMapper {
             return List.of();
         }
         try {
-            return objectMapper.readValue(rawJson, CURVE_POINTS_TYPE);
+            return snakeCaseMapper.readValue(rawJson, CURVE_POINTS_TYPE);
         } catch (Exception ex) {
             return List.of();
         }

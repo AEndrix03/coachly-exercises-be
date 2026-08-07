@@ -20,6 +20,10 @@ import org.mapstruct.ReportingPolicy;
 public interface ExerciseBiomechanicsMapper {
 
     ObjectMapper JSON = new ObjectMapper();
+    /** The stored jsonb uses snake_case keys while the DTO stays camelCase. */
+    ObjectMapper SNAKE_JSON = new ObjectMapper()
+            .setPropertyNamingStrategy(com.fasterxml.jackson.databind.PropertyNamingStrategies.SNAKE_CASE)
+            .configure(com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     TypeReference<Map<String, String>> JOINT_BIAS_TYPE = new TypeReference<>() {};
     TypeReference<List<StrengthCurvePointDto>> CURVE_TYPE = new TypeReference<>() {};
 
@@ -58,7 +62,7 @@ public interface ExerciseBiomechanicsMapper {
             return List.of();
         }
         try {
-            return JSON.readValue(raw, CURVE_TYPE);
+            return SNAKE_JSON.readValue(raw, CURVE_TYPE);
         } catch (Exception ex) {
             return List.of();
         }
@@ -69,7 +73,7 @@ public interface ExerciseBiomechanicsMapper {
             return null;
         }
         try {
-            return JSON.writeValueAsString(value);
+            return SNAKE_JSON.writeValueAsString(value);
         } catch (Exception ex) {
             return null;
         }
