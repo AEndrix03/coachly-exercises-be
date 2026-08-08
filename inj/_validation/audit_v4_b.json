@@ -1,311 +1,207 @@
 {
  "seed": 918273,
  "sampled_codes": [
-  "alternating_lateral_bound_stick",
-  "alternating_monster_walk",
-  "anderson_squat",
-  "arms_apart_circular_toe_touch",
-  "assisted_hanging_knee_raise_with_throw_down",
-  "assisted_lying_leg_raise_with_lateral_throw_down",
-  "assisted_skater_squat",
-  "back_extension",
-  "band_close_grip_push_up",
-  "band_kneeling_twisting_crunch",
-  "band_reverse_wrist_curl",
-  "banded_machine_hip_thrust",
-  "barbell_straight_leg_deadlift",
-  "barbell_upright_row_v_3",
-  "box_front_squat",
-  "box_jump_down_with_one_leg_stabilization",
-  "cable_floor_seated_wide_grip_row",
-  "cable_incline_fly_on_stability_ball",
-  "cable_one_arm_lateral_bent_over",
-  "cable_preacher_curl",
-  "cable_shoulder_press",
-  "calf_stretch_with_rope",
-  "close_grip_ez_bar_curl",
-  "converging_machine_chest_press",
-  "crunch_on_stability_ball",
-  "dumbbell_incline_press_on_exercise_ball",
-  "dumbbell_overhead_squat",
-  "dumbbell_palm_rotational_bent_over_row",
-  "dumbbell_pronate_grip_triceps_extension",
-  "dumbbell_standing_one_arm_palm_in_press",
-  "dumbbell_waiter_biceps_curl",
-  "exercise_ball_seated_hamstring_stretch",
-  "explosive_ring_row",
-  "ez_barbell_incline_triceps_extension",
-  "ez_barbell_spider_curl",
-  "front_lever",
-  "glute_bridge_march",
-  "handstand_shrug",
-  "hanging_straight_leg_raise",
   "hindu_squat",
-  "hip_hinge_good_morning",
-  "hollow_hold",
-  "incline_skull_crusher",
-  "kettlebell_press",
-  "kettlebell_sumo_high_pull",
-  "l_pull_up",
-  "lateral_lateral_line_hop",
-  "lever_shoulder_press",
-  "medicine_ball_chest_push_from_3_point_stance",
-  "modified_push_up_to_lower_arms",
-  "neck_harness_lateral_flexion",
-  "neutral_grip_floor_press",
-  "neutral_grip_lat_pulldown",
-  "otis_up",
-  "overhand_grip_deadlift",
-  "parallel_bar_leg_raise",
-  "pause_squat",
   "paused_parallel_bar_dip",
-  "plyometric_push_up",
-  "ring_dips",
-  "single_arm_dumbbell_push_press",
-  "smith_decline_bench_press",
-  "smith_machine_overhead_press",
-  "snatch_pull",
-  "sphinx",
-  "standing_calves",
-  "sumo_squat",
+  "front_lever",
+  "hip_hinge_good_morning",
   "tempo_close_grip_chin_up",
-  "tempo_knuckle_push_up",
+  "modified_push_up_to_lower_arms",
   "tempo_pistol_squat_progression",
-  "towel_pull_up",
+  "single_arm_dumbbell_push_press",
+  "otis_up",
+  "smith_machine_overhead_press",
+  "sphinx",
+  "sumo_squat",
   "tuck_front_lever_hold",
-  "twist_hip_lift",
-  "two_plate_pinch",
-  "v_up",
-  "wall_handstand_shoulder_tap",
-  "wall_slide_reach",
-  "wall_wall_march",
+  "towel_pull_up",
+  "barbell_straight_leg_deadlift",
+  "weighted_stretch_lunge",
+  "cable_floor_seated_wide_grip_row",
+  "medicine_ball_chest_push_from_3_point_stance",
+  "band_kneeling_twisting_crunch",
+  "box_front_squat",
   "weighted_hanging_leg_hip_raise",
-  "weighted_stretch_lunge"
+  "dumbbell_pronate_grip_triceps_extension",
+  "exercise_ball_seated_hamstring_stretch",
+  "pause_squat",
+  "wall_wall_march",
+  "barbell_upright_row_v_3",
+  "band_reverse_wrist_curl",
+  "explosive_ring_row",
+  "dumbbell_incline_press_on_exercise_ball",
+  "standing_calves",
+  "alternating_monster_walk",
+  "ring_dips",
+  "cable_shoulder_press",
+  "l_pull_up",
+  "parallel_bar_leg_raise",
+  "dumbbell_palm_rotational_bent_over_row",
+  "anderson_squat",
+  "banded_machine_hip_thrust",
+  "snatch_pull",
+  "ez_barbell_spider_curl",
+  "neutral_grip_floor_press",
+  "assisted_lying_leg_raise_with_lateral_throw_down",
+  "dumbbell_waiter_biceps_curl",
+  "neutral_grip_lat_pulldown",
+  "back_extension",
+  "crunch_on_stability_ball",
+  "overhand_grip_deadlift",
+  "band_close_grip_push_up",
+  "v_up",
+  "neck_harness_lateral_flexion",
+  "close_grip_ez_bar_curl",
+  "handstand_shrug",
+  "twist_hip_lift",
+  "converging_machine_chest_press",
+  "glute_bridge_march",
+  "plyometric_push_up",
+  "assisted_skater_squat",
+  "lateral_lateral_line_hop",
+  "kettlebell_press",
+  "assisted_hanging_knee_raise_with_throw_down",
+  "smith_decline_bench_press",
+  "calf_stretch_with_rope",
+  "cable_one_arm_lateral_bent_over",
+  "hanging_straight_leg_raise",
+  "cable_incline_fly_on_stability_ball",
+  "wall_slide_reach",
+  "two_plate_pinch",
+  "hollow_hold",
+  "alternating_lateral_bound_stick",
+  "cable_preacher_curl",
+  "dumbbell_standing_one_arm_palm_in_press",
+  "ez_barbell_incline_triceps_extension",
+  "arms_apart_circular_toe_touch",
+  "tempo_knuckle_push_up",
+  "incline_skull_crusher",
+  "box_jump_down_with_one_leg_stabilization",
+  "dumbbell_overhead_squat",
+  "wall_handstand_shoulder_tap",
+  "lever_shoulder_press",
+  "kettlebell_sumo_high_pull"
  ],
  "clean": [
-  "alternating_monster_walk",
-  "anderson_squat",
-  "arms_apart_circular_toe_touch",
-  "back_extension",
-  "band_reverse_wrist_curl",
-  "banded_machine_hip_thrust",
-  "barbell_upright_row_v_3",
-  "box_front_squat",
-  "box_jump_down_with_one_leg_stabilization",
+  "hindu_squat",
+  "front_lever",
+  "hip_hinge_good_morning",
+  "tempo_close_grip_chin_up",
+  "tempo_pistol_squat_progression",
+  "smith_machine_overhead_press",
+  "towel_pull_up",
   "cable_floor_seated_wide_grip_row",
-  "cable_one_arm_lateral_bent_over",
-  "cable_shoulder_press",
-  "calf_stretch_with_rope",
+  "medicine_ball_chest_push_from_3_point_stance",
+  "band_kneeling_twisting_crunch",
+  "box_front_squat",
+  "dumbbell_pronate_grip_triceps_extension",
+  "exercise_ball_seated_hamstring_stretch",
+  "pause_squat",
+  "wall_wall_march",
+  "barbell_upright_row_v_3",
+  "band_reverse_wrist_curl",
+  "explosive_ring_row",
+  "alternating_monster_walk",
+  "l_pull_up",
+  "parallel_bar_leg_raise",
+  "anderson_squat",
+  "banded_machine_hip_thrust",
+  "snatch_pull",
+  "ez_barbell_spider_curl",
+  "dumbbell_waiter_biceps_curl",
+  "neutral_grip_lat_pulldown",
+  "back_extension",
+  "crunch_on_stability_ball",
+  "overhand_grip_deadlift",
+  "band_close_grip_push_up",
   "close_grip_ez_bar_curl",
   "converging_machine_chest_press",
-  "dumbbell_incline_press_on_exercise_ball",
-  "dumbbell_overhead_squat",
-  "dumbbell_palm_rotational_bent_over_row",
-  "dumbbell_standing_one_arm_palm_in_press",
-  "exercise_ball_seated_hamstring_stretch",
-  "explosive_ring_row",
-  "ez_barbell_incline_triceps_extension",
-  "ez_barbell_spider_curl",
-  "front_lever",
   "glute_bridge_march",
-  "hindu_squat",
-  "hip_hinge_good_morning",
-  "incline_skull_crusher",
-  "kettlebell_press",
-  "l_pull_up",
-  "lever_shoulder_press",
-  "neutral_grip_lat_pulldown",
-  "otis_up",
-  "overhand_grip_deadlift",
-  "parallel_bar_leg_raise",
   "plyometric_push_up",
+  "assisted_skater_squat",
+  "kettlebell_press",
   "smith_decline_bench_press",
-  "smith_machine_overhead_press",
-  "snatch_pull",
-  "tempo_close_grip_chin_up",
-  "tempo_knuckle_push_up",
-  "tempo_pistol_squat_progression",
-  "towel_pull_up",
-  "two_plate_pinch",
+  "calf_stretch_with_rope",
+  "cable_one_arm_lateral_bent_over",
   "wall_slide_reach",
-  "wall_wall_march",
-  "weighted_hanging_leg_hip_raise"
+  "two_plate_pinch",
+  "ez_barbell_incline_triceps_extension",
+  "tempo_knuckle_push_up",
+  "incline_skull_crusher",
+  "dumbbell_overhead_squat",
+  "lever_shoulder_press"
  ],
  "findings": [
   {
-   "exercise_code": "alternating_lateral_bound_stick",
-   "field": "bodyweight",
-   "current": "false",
-   "proposed": "true",
-   "reason": "Plyometric lateral bound with no external load: resistance_source is bodyweight_leverage and tracking is reps/none/non_comparable, yet bodyweight=false.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
-   "field": "tracking_type",
-   "current": "weight_reps",
-   "proposed": "bodyweight_reps",
-   "reason": "A band-assisted hanging knee raise is loaded by body mass; the row stores weight_reps + total_load + comparison_scope=exercise while resistance_source is bodyweight_leverage, so a non-existent external weight is expected.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
-   "field": "tracking_type",
-   "current": "weight_reps",
-   "proposed": "bodyweight_reps",
-   "reason": "Lying leg raise with manual assistance; the only equipment is a mat and resistance_source is bodyweight_leverage, yet the profile stores weight_reps + total_load + exercise scope.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "assisted_skater_squat",
-   "field": "bodyweight",
-   "current": "false",
-   "proposed": "true",
-   "reason": "Tracking is bodyweight_reps / none / bodyweight_aware and resistance_source is bodyweight_leverage, so bodyweight=false contradicts every other stored field.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "band_close_grip_push_up",
-   "field": "bodyweight",
-   "current": "false",
-   "proposed": "true",
-   "reason": "Push-up with a band above the elbows; stored as bodyweight_reps / bodyweight_aware / bodyweight_leverage but bodyweight=false.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "band_kneeling_twisting_crunch",
-   "field": "load_input_mode",
-   "current": "total_load",
-   "proposed": "none",
-   "reason": "Band tension is not a loggable numeric weight and comparison_scope is already non_comparable; weight_reps + total_load implies a weight that cannot be entered.",
-   "confidence": "moderate"
-  },
-  {
-   "exercise_code": "cable_incline_fly_on_stability_ball",
-   "field": "muscle_tension",
-   "current": "high/high/moderate",
-   "proposed": "triceps_brachii_long:none/none/none",
-   "reason": "Triceps brachii long head is stored as a secondary mover of a fly. The elbow angle is fixed and the long head is a shoulder extensor, i.e. antagonist to horizontal adduction.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "cable_preacher_curl",
-   "field": "muscle_tension",
-   "current": "high/moderate/none",
-   "proposed": "brachialis promoted to primary, forearm_flexors demoted to secondary",
-   "reason": "Forearm flexors are stored as a PRIMARY mover of a preacher curl while brachialis, a true elbow flexor, is only secondary. The wrist flexors do not produce elbow flexion.",
-   "confidence": "moderate"
-  },
-  {
-   "exercise_code": "crunch_on_stability_ball",
-   "field": "bodyweight",
-   "current": "false",
-   "proposed": "true",
-   "reason": "No external load; biomechanics say bodyweight_leverage and the tracking profile says bodyweight_reps / bodyweight_aware.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "dumbbell_pronate_grip_triceps_extension",
-   "field": "muscle_tension",
-   "current": "high/moderate/low",
-   "proposed": "forearm_flexors:none/none/none (remove)",
-   "reason": "Forearm flexors are stored co-primary with the triceps long head in an overhead elbow EXTENSION; the wrist flexors do not extend the elbow.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "dumbbell_waiter_biceps_curl",
-   "field": "muscle_tension",
-   "current": "low/high/low",
-   "proposed": "brachialis and brachioradialis primary, forearm_flexors stabilizer",
-   "reason": "Forearm flexors are stored co-primary of a curl whose description explicitly says the wrists stay straight, while brachialis and brachioradialis, the actual elbow flexors, are absent entirely.",
-   "confidence": "moderate"
-  },
-  {
-   "exercise_code": "hollow_hold",
-   "field": "resistance_source",
-   "current": "isometric_external",
-   "proposed": "bodyweight_leverage",
-   "reason": "A hollow hold on the floor works against body mass alone; no equipment is linked, tracking is bodyweight_aware, and there is no external resistance to hold against.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "medicine_ball_chest_push_from_3_point_stance",
+   "exercise_code": "single_arm_dumbbell_push_press",
    "field": "unilateral",
-   "current": "false",
-   "proposed": "true",
-   "reason": "The description is explicit that the stance is three-point (two feet and ONE hand), so the ball is pushed with a single arm.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "modified_push_up_to_lower_arms",
-   "field": "muscle_tension",
-   "current": "high/moderate/low",
-   "proposed": "triceps and pectoralis primary, forearm_flexors:none/none/none (remove)",
-   "reason": "Forearm flexors are stored as a PRIMARY mover of a push-up variation; they play no role in shoulder horizontal adduction or elbow extension, and pectoralis major is demoted to secondary behind them.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "neck_harness_lateral_flexion",
-   "field": "resistance_source",
-   "current": "cam_machine",
-   "proposed": "gravity",
-   "reason": "A neck harness loaded with hanging plates is pure gravity; there is no cam and no machine. The linked equipment (back_extension_machine) is also not the apparatus used.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "pause_squat",
-   "field": "tracking_type",
-   "current": "bodyweight_reps",
-   "proposed": "weight_reps",
-   "reason": "The linked equipment is a barbell and a squat rack and resistance_source is gravity, but the profile stores bodyweight_reps / load none / bodyweight_aware with bodyweight=true, so the bar load can never be recorded.",
+   "current": false,
+   "proposed": true,
+   "reason": "Name and description say single-arm / unilateral vertical push; the flag says bilateral.",
    "confidence": "high"
   },
   {
    "exercise_code": "single_arm_dumbbell_push_press",
-   "field": "unilateral",
-   "current": "false",
-   "proposed": "true",
-   "reason": "Both the name and the description state the movement is a single-arm, unilateral push press.",
+   "field": "side_mode",
+   "current": "optional",
+   "proposed": "separate",
+   "reason": "A single-arm press must be logged per side, not optionally.",
    "confidence": "high"
   },
   {
+   "exercise_code": "otis_up",
+   "field": "joint_class",
+   "current": "single_joint",
+   "proposed": "multi_joint",
+   "reason": "Otis up is a weighted sit-up; iliopsoas is stored as a primary mover (hip flexion) alongside spinal flexion, so it spans two joints.",
+   "confidence": "medium"
+  },
+  {
    "exercise_code": "sphinx",
-   "field": "muscle_tension",
-   "current": "moderate/high/moderate",
-   "proposed": "gluteus_maximus:none/none/none (remove)",
-   "reason": "Gluteus maximus is stored co-primary of the sphinx position, which is a prone thoracic/lumbar extension propped on the forearms with no hip extension against resistance.",
-   "confidence": "moderate"
+   "field": "exercise_kind",
+   "current": "resistance",
+   "proposed": "mobility",
+   "reason": "Prone forearm-supported chest lift held statically is a spinal-extension mobility position, not resistance training; gluteus_maximus is also stored as a primary mover.",
+   "confidence": "medium"
+  },
+  {
+   "exercise_code": "sumo_squat",
+   "field": "resistance_source",
+   "current": "bodyweight_leverage",
+   "proposed": "gravity",
+   "reason": "Equipment is barbell/dumbbell and tracking is weight_reps/total_load; resistance comes from external gravity load, not bodyweight leverage.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "weighted_stretch_lunge",
+   "field": "exercise_kind",
+   "current": "resistance",
+   "proposed": "mobility",
+   "reason": "Description is focus on stretching the trailing leg, tracking is time and biomechanics isometric_external: this is a loaded stretch, not a resistance set.",
+   "confidence": "medium"
   },
   {
    "exercise_code": "standing_calves",
    "field": "exercise_kind",
    "current": "mobility",
    "proposed": "resistance",
-   "reason": "The stored description calls it an isolation exercise working the calves through plantar flexion, yet it is classified as mobility with resistance_source isometric_external and tracking_type time, i.e. modelled as a stretch. Gluteus maximus is also stored as a secondary mover of a calf raise.",
+   "reason": "Description says isolation exercise performed standing to work the calves through plantar flexion - a calf raise - contradicting the mobility/time/isometric classification.",
    "confidence": "high"
   },
   {
-   "exercise_code": "sumo_squat",
+   "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
    "field": "tracking_type",
-   "current": "bodyweight_reps",
-   "proposed": "weight_reps",
-   "reason": "A barbell and a dumbbell are linked as equipment, but the profile stores bodyweight_reps / none / bodyweight_aware with resistance_source bodyweight_leverage, so no load can be logged.",
+   "current": "bodyweight_plus_weight",
+   "proposed": "bodyweight_reps",
+   "reason": "No external load exists; the only equipment is a mat and the assist is manual, so added_weight tracking cannot apply.",
    "confidence": "high"
   },
   {
-   "exercise_code": "tuck_front_lever_hold",
-   "field": "muscle_tension",
-   "current": "moderate/high/moderate",
-   "proposed": "latissimus_dorsi and teres_major primary, deltoid_anterior removed",
-   "reason": "Deltoid anterior is stored as the PRIMARY mover of a tuck front lever and the joint action is shoulder FLEXION. A front lever is held by shoulder EXTENSION torque from the lat and teres major - exactly what the full front_lever entry in the same sample stores.",
-   "confidence": "high"
-  },
-  {
-   "exercise_code": "twist_hip_lift",
-   "field": "load_input_mode",
-   "current": "total_load",
-   "proposed": "none",
-   "reason": "The exercise is a bodyweight supine hip lift with no equipment and tracking_type bodyweight_reps, yet load_input_mode is total_load and comparison_scope is exercise.",
+   "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
+   "field": "tracking_type",
+   "current": "bodyweight_plus_weight",
+   "proposed": "bodyweight_reps",
+   "reason": "Assistance comes from a resistance band; there is no added weight to log.",
    "confidence": "high"
   },
   {
@@ -313,54 +209,150 @@
    "field": "joint_class",
    "current": "single_joint",
    "proposed": "multi_joint",
-   "reason": "A V-up lifts torso AND legs simultaneously, so the hips flex under load as much as the spine; only spinal flexion is recorded and the hip flexors are absent, while the comparable hanging leg raise entries are multi_joint.",
-   "confidence": "moderate"
+   "reason": "A V-up lifts torso AND legs simultaneously; hip flexion is a major component, so it is not single-joint spinal flexion.",
+   "confidence": "high"
   },
   {
-   "exercise_code": "weighted_stretch_lunge",
+   "exercise_code": "neck_harness_lateral_flexion",
+   "field": "resistance_source",
+   "current": "cam_machine",
+   "proposed": "gravity",
+   "reason": "A neck harness carries free weight hanging on a strap; no cam machine is involved.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "twist_hip_lift",
    "field": "load_input_mode",
-   "current": "none",
-   "proposed": "added_weight",
-   "reason": "A weight plate is linked as equipment and the exercise is named 'weighted', but the profile stores time / none / bodyweight_aware so the added load can never be recorded.",
-   "confidence": "moderate"
+   "current": "total_load",
+   "proposed": "none",
+   "reason": "tracking_type is bodyweight_reps with no equipment linked, so a total_load input mode is contradictory.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "twist_hip_lift",
+   "field": "comparison_scope",
+   "current": "exercise",
+   "proposed": "bodyweight_aware",
+   "reason": "Unloaded supine bridge with rotation: comparability depends on bodyweight, as stored for every other bodyweight_reps entry in the sample.",
+   "confidence": "medium"
+  },
+  {
+   "exercise_code": "hollow_hold",
+   "field": "resistance_source",
+   "current": "isometric_external",
+   "proposed": "bodyweight_leverage",
+   "reason": "No external resistance exists; the load is the body's own lever arm, as stored for front_lever and tuck_front_lever_hold.",
+   "confidence": "medium"
+  },
+  {
+   "exercise_code": "cable_preacher_curl",
+   "field": "muscle_tension",
+   "current": "biceps_brachii_long lengthened=moderate",
+   "proposed": "lengthened=high",
+   "reason": "On a preacher bench the upper arm is fixed in front of the body and peak torque occurs near full elbow extension; brachialis in the same exercise is already stored as lengthened=high, so the biceps row contradicts it.",
+   "confidence": "medium"
+  },
+  {
+   "exercise_code": "dumbbell_palm_rotational_bent_over_row",
+   "field": "unilateral",
+   "current": true,
+   "proposed": false,
+   "reason": "Description says dumbbells are pulled towards the chest while rotating the palms - a two-arm bent-over row.",
+   "confidence": "medium"
+  },
+  {
+   "exercise_code": "arms_apart_circular_toe_touch",
+   "field": "joint_class",
+   "current": "single_joint",
+   "proposed": "multi_joint",
+   "reason": "Description includes alternating touching the toes with the opposite leg lift: hip flexion is part of the movement, so more than the spine moves.",
+   "confidence": "medium"
   }
  ],
  "non_vocabulary_findings": [
   {
-   "exercise_code": "barbell_straight_leg_deadlift",
-   "problem": "movement_pattern stores 'squat' as a secondary pattern for a deadlift performed with nearly straight legs; there is no meaningful knee flexion/extension in this variant."
-  },
-  {
-   "exercise_code": "handstand_shrug",
-   "problem": "kinetic_chain is stored as 'open' although the hands are fixed on the floor and the whole body moves around them - a handstand is the archetypal closed-chain upper-body position."
-  },
-  {
-   "exercise_code": "hanging_straight_leg_raise",
-   "problem": "No equipment is linked although the description explicitly requires hanging from a pull-up bar, so the exercise is modelled as needing no apparatus."
-  },
-  {
-   "exercise_code": "kettlebell_sumo_high_pull",
-   "problem": "kinetic_chain is stored as 'open' although the stored joint actions are hip and knee extension from a sumo stance with the feet planted on the floor."
-  },
-  {
-   "exercise_code": "lateral_lateral_line_hop",
-   "problem": "The linked equipment is a plyo box although the description is hops over a line on the ground; every linked muscle also carries placeholder low/low/low tension across all three ranges, and six muscles are all marked primary."
-  },
-  {
-   "exercise_code": "neutral_grip_floor_press",
-   "problem": "The linked equipment is a barbell, but the description specifies a neutral grip with the palms facing each other, which is impossible on a straight barbell (dumbbells or a football bar are required)."
-  },
-  {
    "exercise_code": "paused_parallel_bar_dip",
-   "problem": "The primary movement pattern is horizontal_press and the primary joint action is shoulder horizontal_adduction; a parallel bar dip is a vertical press driven by shoulder extension and elbow extension, and vertical_press is stored only as secondary."
+   "problem": "Description states vertical pushing exercise, but movement_pattern stores horizontal_press as primary and vertical_press as secondary, and the joint action is shoulder horizontal_adduction instead of shoulder extension/flexion."
   },
   {
    "exercise_code": "ring_dips",
-   "problem": "Same inversion as the paused parallel bar dip: horizontal_press / shoulder horizontal_adduction are stored as primary for a movement the description itself calls a vertical push."
+   "problem": "Description states performing a vertical push while suspended from rings, but movement_pattern is horizontal_press primary / vertical_press secondary and the joint action is horizontal_adduction."
+  },
+  {
+   "exercise_code": "modified_push_up_to_lower_arms",
+   "problem": "Muscle involvement inverted for a push-up variation: triceps_brachii_long is primary while pectoralis_major_sternal is demoted to secondary."
+  },
+  {
+   "exercise_code": "tuck_front_lever_hold",
+   "problem": "Joint action is shoulder flexion, the opposite of the sibling front_lever entry (shoulder extension), and latissimus_dorsi / teres_major - the prime movers of any front lever - are absent while deltoid_anterior is primary."
+  },
+  {
+   "exercise_code": "barbell_straight_leg_deadlift",
+   "problem": "movement_pattern lists squat as secondary although the description specifies nearly straight legs, i.e. no meaningful knee flexion."
+  },
+  {
+   "exercise_code": "weighted_hanging_leg_hip_raise",
+   "problem": "Description says hanging from a pull-up bar but the only linked equipment is weight_plate; the bar is missing."
+  },
+  {
+   "exercise_code": "hanging_straight_leg_raise",
+   "problem": "Description says while hanging from a pull-up bar but no equipment is linked at all."
+  },
+  {
+   "exercise_code": "dumbbell_incline_press_on_exercise_ball",
+   "problem": "Description requires a stability ball but the only linked equipment is dumbbell, and stability_demand is stored as moderate, the same as a bench-supported press."
+  },
+  {
+   "exercise_code": "cable_incline_fly_on_stability_ball",
+   "problem": "triceps_brachii_long is stored as a secondary mover of a fly, in which the elbow angle stays fixed; the stability ball required by the description is also missing from equipment."
+  },
+  {
+   "exercise_code": "cable_shoulder_press",
+   "problem": "Joint action for an overhead press is stored as shoulder abduction; the sibling overhead presses (smith, kettlebell, lever, dumbbell) all store shoulder flexion."
+  },
+  {
+   "exercise_code": "neutral_grip_floor_press",
+   "problem": "Linked equipment is a straight barbell, which cannot be gripped with palms facing each other as the description requires; triceps_brachii_lateral is also primary while both pectoralis heads are only secondary."
+  },
+  {
+   "exercise_code": "handstand_shrug",
+   "problem": "kinetic_chain is open although the hands are fixed on the floor and the body moves around them - clinically closed, as stored for wall_handstand_shoulder_tap."
+  },
+  {
+   "exercise_code": "single_arm_dumbbell_push_press",
+   "problem": "kinetic_chain is closed although the hand holding the dumbbell is free overhead - an open-chain press."
+  },
+  {
+   "exercise_code": "twist_hip_lift",
+   "problem": "kinetic_chain is open although the feet stay planted and the pelvis moves around them - closed, as stored for glute_bridge_march."
+  },
+  {
+   "exercise_code": "kettlebell_sumo_high_pull",
+   "problem": "kinetic_chain is open although the feet are fixed on the floor and the body extends around them; snatch_pull, the equivalent movement, is stored as closed. trapezius_middle is also primary while trapezius_upper - the dominant elevator in a high pull - is only secondary."
+  },
+  {
+   "exercise_code": "hollow_hold",
+   "problem": "kinetic_chain is closed although no distal segment is in contact with a fixed surface in a supine hollow hold."
+  },
+  {
+   "exercise_code": "lateral_lateral_line_hop",
+   "problem": "Description is rapid lateral jumps over an imaginary or real line on the ground, yet box_plyo is linked as equipment."
+  },
+  {
+   "exercise_code": "alternating_lateral_bound_stick",
+   "problem": "Lateral bounds performed on the floor, yet box_plyo is linked as required equipment."
   },
   {
    "exercise_code": "wall_handstand_shoulder_tap",
-   "problem": "The linked equipment is a pull_up_bar for an exercise performed in a handstand against a wall; tracking_type is also 'time' although the description is a repeated tapping movement."
+   "problem": "A wall handstand needs a wall, but the linked equipment is pull_up_bar; tracking_type is also time although shoulder taps are counted in reps."
+  },
+  {
+   "exercise_code": "box_jump_down_with_one_leg_stabilization",
+   "problem": "Name says box jump DOWN (drop landing) while the description says jump onto a plyometric box - the two describe opposite movements."
+  },
+  {
+   "exercise_code": "dumbbell_standing_one_arm_palm_in_press",
+   "problem": "Involvement roles are swapped: rectus_abdominis is secondary (it is an anti-lateral-flexion stabilizer here) while pectoralis_major_sternal is stabilizer (it is a secondary mover of the press)."
   }
  ]
 }
