@@ -1,0 +1,579 @@
+{
+ "seed": 20260808,
+ "sampled_codes": [
+  "rope_climb",
+  "overhead_cable_curl",
+  "archer_pull_up",
+  "tempo_tibialis_wall_raise",
+  "dumbbell_thruster",
+  "tempo_parallel_bar_dip",
+  "single_arm_overhead_carry",
+  "reverse_deficit_lunge",
+  "bent_over_dumbbell_row",
+  "alternating_sled_toe_push",
+  "dumbbell_bench_press",
+  "standing_hamstring_and_calf_stretch_with_strap",
+  "london_bridge",
+  "chest_supported_underhand_barbell_row",
+  "rear_decline_bridge",
+  "archer_one_arm_chin_up_progression",
+  "kneeling_lat_stretch",
+  "tuck_v_sit_parallel_bar_leg_raise",
+  "timed_false_grip_hang",
+  "tempo_hip_hinge_good_morning",
+  "plyo_push_up",
+  "weighted_strict_pull_up",
+  "barbell_deadlift",
+  "triceps_kickback",
+  "lever_standing_chest_press",
+  "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees",
+  "assisted_parallel_close_grip_pull_up",
+  "single_arm_suspension_row",
+  "high_cable_curl",
+  "standing_calves_calf_stretch",
+  "kettlebell_press",
+  "feet_elevated_bridge_heel_curl",
+  "stacco_rumeno_con_manubri",
+  "rotating_dumbbell_press",
+  "dumbbell_one_arm_seated_hammer_curl",
+  "barbell_wrist_curl_v_2",
+  "incline_skull_crusher",
+  "paused_handstand_push_up",
+  "reverse_wrist_curl",
+  "smith_machine_decline_close_grip_bench_press",
+  "barbell_pin_presses",
+  "barbell_standing_back_wrist_curl",
+  "barbell_reverse_grip_incline_bench_row",
+  "drag_curl",
+  "wall_march",
+  "pacing_row",
+  "reverse_snow_angel",
+  "incline_sprinter_curl",
+  "alternating_farmer_walk_on_toes",
+  "dumbbell_lying_one_arm_press",
+  "single_arm_band_curl",
+  "jump_lunge",
+  "dumbbell_standing_one_arm_extension",
+  "cable_reverse_grip_triceps_pushdown_sz_bar_with_arm_blaster",
+  "kettlebell_double_jerk",
+  "incline_push_up_depth_jump",
+  "exercise_ball_dip",
+  "block_pull_sumo_rack_pull",
+  "reverse_hyper_on_flat_bench",
+  "banded_hip_thrust",
+  "behind_the_back_wrist_curl",
+  "dumbbell_incline_shrug",
+  "dumbbell_single_leg_deadlift",
+  "side_to_side_toe_touch",
+  "barbell_standing_wide_grip_biceps_curl",
+  "extended_hip_bridge_walkout",
+  "archer_chin_up",
+  "v_sit",
+  "single_arm_cable_row",
+  "pelvic_tilt_into_bridge",
+  "paused_pike_hold",
+  "dumbbell_lying_hammer_press",
+  "dumbbell_push_press",
+  "weighted_chin_up",
+  "sled_forward_angled_calf_raise",
+  "elevator",
+  "dumbbell_incline_one_arm_lateral_raise",
+  "tempo_planche_lean_push_up",
+  "strict_press",
+  "cable_rear_delt_fly",
+  "smith_wide_grip_decline_bench_press",
+  "decline_barbell_bench_press",
+  "triceps_dip",
+  "weighted_muscle_up",
+  "thick_bar_deadlift_hold",
+  "plank",
+  "cable_chest_press",
+  "triceps_pushdown",
+  "plyometric_push_up",
+  "reclined_hip_abduction_machine",
+  "competition_bench_press",
+  "slow_high_knees",
+  "bench_dip_knees_bent",
+  "arm_slingers_hanging_straight_legs",
+  "dumbbell_alternate_side_press",
+  "half_kneeling_bottom_up_kettlebell_press",
+  "safety_bar_good_morning",
+  "posterior_tibialis_stretch",
+  "paused_pistol_squat",
+  "seated_strict_press"
+ ],
+ "findings": [
+  {
+   "exercise_code": "timed_false_grip_hang",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A false-grip hang on a pull-up bar is supported entirely by the athlete's own bodyweight.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "barbell_reverse_grip_incline_bench_row",
+   "field": "spinal_loading",
+   "current": "high",
+   "proposed": "low",
+   "reason": "The torso is supported on the incline bench, so the spine carries almost no compressive/shear load.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "barbell_reverse_grip_incline_bench_row",
+   "field": "stability_demand",
+   "current": "high",
+   "proposed": "low",
+   "reason": "Chest-supported rowing removes the balance and torso-bracing requirement of a free bent-over row.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "barbell_wrist_curl_v_2",
+   "field": "muscle_tension",
+   "current": "low/high/low",
+   "proposed": "forearm_flexors:high/high/low",
+   "reason": "A wrist curl loads the finger/wrist flexors deeply stretched at the bottom of the range, not lightly.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "bent_over_dumbbell_row",
+   "field": "side_mode",
+   "current": "separate",
+   "proposed": "optional",
+   "reason": "A two-dumbbell bent-over row is performed with both arms simultaneously, so sides are not logged separately.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "incline_sprinter_curl",
+   "field": "muscle_tension",
+   "current": "moderate/moderate/none",
+   "proposed": "biceps_brachii_long:high/high/low",
+   "reason": "The only muscle stored is rectus abdominis; an incline sprinter curl is an elbow-flexion exercise for the biceps.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "london_bridge",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "This is an unloaded bodyweight bridge/plank hold with no external implement.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tempo_tibialis_wall_raise",
+   "field": "muscle_tension",
+   "current": "low/high/high",
+   "proposed": "tibialis_anterior:moderate/high/high",
+   "reason": "The stored primary muscle is rectus abdominis; a tibialis wall raise is pure ankle dorsiflexion driven by tibialis anterior.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "bench_dip_knees_bent",
+   "field": "technical_demand",
+   "current": "moderate",
+   "proposed": "low",
+   "reason": "Bench dips with knees bent are the easiest dip regression and require minimal skill.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "bench_dip_knees_bent",
+   "field": "stability_demand",
+   "current": "high",
+   "proposed": "low",
+   "reason": "Hands are fixed on a bench and the feet are on the floor with bent knees, so balance demand is minimal.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "archer_one_arm_chin_up_progression",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "The movement is performed hanging from a bar with band assistance and no external load.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "assisted_parallel_close_grip_pull_up",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "An assisted pull-up is still a bodyweight vertical pull; resistance comes from the athlete's mass.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "alternating_farmer_walk_on_toes",
+   "field": "tracking_type",
+   "current": "weight_reps",
+   "proposed": "weight_distance",
+   "reason": "A farmer walk is a loaded carry measured by distance/time carried, not by repetitions.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "alternating_farmer_walk_on_toes",
+   "field": "joint_class",
+   "current": "single_joint",
+   "proposed": "multi_joint",
+   "reason": "A loaded carry on the toes involves ankle, knee, hip and scapular stabilisation, not a single joint.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "exercise_ball_dip",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A dip with the hands on a stability ball is supported purely by bodyweight.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "exercise_ball_dip",
+   "field": "technical_demand",
+   "current": "moderate",
+   "proposed": "high",
+   "reason": "Dipping with the hands on an unstable exercise ball demands far more control than a bench dip.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "The exercise is a wall-supported calf raise with no external load (the stored dumbbell equipment is spurious).",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees",
+   "field": "tracking_type",
+   "current": "weight_reps",
+   "proposed": "bodyweight_reps",
+   "reason": "No external weight is used, so reps against bodyweight are the only trackable metric.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees",
+   "field": "load_input_mode",
+   "current": "per_implement",
+   "proposed": "none",
+   "reason": "There is no implement being loaded in a wall-supported bodyweight calf raise.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees",
+   "field": "comparison_scope",
+   "current": "exercise",
+   "proposed": "bodyweight_aware",
+   "reason": "Performance depends on the athlete's own mass rather than an absolute external load.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "posterior_tibialis_stretch",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A posterior tibialis stretch is a self-applied bodyweight stretch, not an externally loaded exercise.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "banded_hip_thrust",
+   "field": "resistance_source",
+   "current": "gravity",
+   "proposed": "band",
+   "reason": "The defining resistance of a banded hip thrust is elastic band tension across the hips.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "feet_elevated_bridge_heel_curl",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "The feet-elevated bridge heel curl uses only the athlete's own bodyweight as resistance.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "standing_hamstring_and_calf_stretch_with_strap",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A strap-assisted standing stretch applies no external load beyond the athlete's own body.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "incline_push_up_depth_jump",
+   "field": "exercise_kind",
+   "current": "conditioning",
+   "proposed": "resistance",
+   "reason": "This is an upper-body plyometric push-up variation loading the pecs and triceps, not a cardio/conditioning drill.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "standing_calves_calf_stretch",
+   "field": "muscle_tension",
+   "current": "high/low/none",
+   "proposed": "soleus:high/low/none",
+   "reason": "The stored primary is biceps femoris; a standing calf stretch targets gastrocnemius and soleus.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "pacing_row",
+   "field": "muscle_tension",
+   "current": "moderate/high/moderate",
+   "proposed": "latissimus_dorsi:moderate/high/moderate",
+   "reason": "The only stored muscle is rectus abdominis; rowing is driven by the lats, legs and posterior chain.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "paused_handstand_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "high",
+   "reason": "A paused handstand push-up is one of the hardest bodyweight pressing skills and demands inversion balance.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "plyo_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "moderate",
+   "reason": "An explosive push-up where the hands leave the floor requires more coordination and force control than a standard push-up.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "plyometric_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "moderate",
+   "reason": "An explosive push-up where the hands leave the floor requires more coordination and force control than a standard push-up.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "alternating_sled_toe_push",
+   "field": "tracking_type",
+   "current": "weight_reps",
+   "proposed": "weight_distance",
+   "reason": "Sled pushing is measured by loaded distance covered, not repetitions.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "single_arm_overhead_carry",
+   "field": "unilateral",
+   "current": "false",
+   "proposed": "true",
+   "reason": "The exercise is carried out with a single arm overhead (the tracking profile already stores side_mode=separate).",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "single_arm_suspension_row",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A suspension-trainer row is resisted by the athlete's own bodyweight at an adjustable angle.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "single_arm_suspension_row",
+   "field": "muscle_tension",
+   "current": "low/high/high",
+   "proposed": "latissimus_dorsi:moderate/high/high",
+   "reason": "The only stored muscle is rectus abdominis; a suspension row is a horizontal pull driven by lats and mid-back.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "sled_forward_angled_calf_raise",
+   "field": "muscle_tension",
+   "current": "high/moderate/low",
+   "proposed": "soleus:high/moderate/low",
+   "reason": "The stored primary is biceps femoris; a calf raise is plantar flexion driven by gastrocnemius and soleus.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "slow_high_knees",
+   "field": "technical_demand",
+   "current": "moderate",
+   "proposed": "low",
+   "reason": "A deliberately slow high-knee march is a low-skill warm-up drill.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tempo_hip_hinge_good_morning",
+   "field": "technical_demand",
+   "current": "high",
+   "proposed": "moderate",
+   "reason": "Performed with bodyweight only and a tempo cue, the movement is a teaching drill rather than a high-skill lift.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tempo_hip_hinge_good_morning",
+   "field": "spinal_loading",
+   "current": "high",
+   "proposed": "moderate",
+   "reason": "Without a loaded bar on the back the spinal compressive/shear demand is far below a barbell good morning.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tempo_planche_lean_push_up",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A planche-lean push-up is purely bodyweight-resisted.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "tempo_planche_lean_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "high",
+   "reason": "The planche lean shifts the shoulders far past the hands and requires advanced straight-arm and core control.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "thick_bar_deadlift_hold",
+   "field": "tracking_type",
+   "current": "weight_reps",
+   "proposed": "time",
+   "reason": "A deadlift hold is a static grip hold scored by hold duration, not repetitions.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "thick_bar_deadlift_hold",
+   "field": "resistance_source",
+   "current": "gravity",
+   "proposed": "isometric_external",
+   "reason": "The bar is held motionless, so the muscle action is isometric against an external load.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "extended_hip_bridge_walkout",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A bridge walkout is performed with bodyweight only (the stored barbell equipment is spurious).",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "barbell_standing_back_wrist_curl",
+   "field": "muscle_tension",
+   "current": "low/high/low",
+   "proposed": "forearm_extensors:low/high/low",
+   "reason": "The stored primary is biceps brachii, which does not act at the wrist in a behind-the-back wrist curl.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "dumbbell_incline_one_arm_lateral_raise",
+   "field": "muscle_tension",
+   "current": "none/moderate/high",
+   "proposed": "deltoid_lateral:moderate/high/moderate",
+   "reason": "Lying on an incline puts the lateral deltoid under load in the lengthened arm-down position, unlike a standing raise.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "half_kneeling_bottom_up_kettlebell_press",
+   "field": "unilateral",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A half-kneeling bottom-up kettlebell press is by definition a single-arm press.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "half_kneeling_bottom_up_kettlebell_press",
+   "field": "spinal_loading",
+   "current": "high",
+   "proposed": "moderate",
+   "reason": "The half-kneeling base and light bottom-up load impose far less spinal compression than a standing overhead press.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "high_cable_curl",
+   "field": "side_mode",
+   "current": "separate",
+   "proposed": "optional",
+   "reason": "The exercise is stored as bilateral (unilateral=false), so sides cannot be logged separately.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "kettlebell_press",
+   "field": "muscle_tension",
+   "current": "high/high/low",
+   "proposed": "deltoid_anterior:high/high/low",
+   "reason": "The only stored muscle is rectus abdominis; an overhead kettlebell press is primarily a deltoid and triceps movement.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "overhead_cable_curl",
+   "field": "side_mode",
+   "current": "separate",
+   "proposed": "optional",
+   "reason": "The exercise is stored as bilateral (unilateral=false), so sides cannot be logged separately.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "reverse_wrist_curl",
+   "field": "muscle_tension",
+   "current": "low/high/low",
+   "proposed": "forearm_extensors:moderate/high/low",
+   "reason": "The only stored muscle is rectus abdominis; a reverse wrist curl is wrist extension driven by the forearm extensors.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "seated_strict_press",
+   "field": "load_input_mode",
+   "current": "per_implement",
+   "proposed": "total_load",
+   "reason": "The stored equipment is a barbell, whose total loaded weight is logged, not one implement's load.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "seated_strict_press",
+   "field": "side_mode",
+   "current": "optional",
+   "proposed": "none",
+   "reason": "A barbell seated press is bilateral with a single implement, so per-side logging is not applicable.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "single_arm_cable_row",
+   "field": "side_mode",
+   "current": "optional",
+   "proposed": "separate",
+   "reason": "The exercise is unilateral, so each arm's load and reps must be logged separately.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "triceps_kickback",
+   "field": "muscle_tension",
+   "current": "none/moderate/high",
+   "proposed": "triceps_brachii_long:none/moderate/high",
+   "reason": "The stored primary is gluteus maximus, inherited from a glute-kickback archetype; a triceps kickback is elbow extension.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "behind_the_back_wrist_curl",
+   "field": "muscle_tension",
+   "current": "low/high/low",
+   "proposed": "forearm_flexors:high/high/low",
+   "reason": "Rectus abdominis is stored as a primary muscle of a wrist curl, and the behind-the-back position deepens the flexor stretch.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tuck_v_sit_parallel_bar_leg_raise",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A tuck V-sit leg raise on parallel bars is entirely bodyweight-resisted.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_incline_shrug",
+   "field": "muscle_tension",
+   "current": "low/high/high",
+   "proposed": "trapezius_upper:high/high/moderate",
+   "reason": "Anterior deltoid is stored as a primary of a shrug, and the incline position loads the traps in the lengthened position.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "dumbbell_standing_one_arm_extension",
+   "field": "muscle_tension",
+   "current": "high/moderate/low",
+   "proposed": "triceps_brachii_long:high/high/low",
+   "reason": "Anterior deltoid is stored as a co-primary of an overhead triceps extension, which is a pure elbow-extension movement.",
+   "confidence": "moderate"
+  }
+ ]
+}

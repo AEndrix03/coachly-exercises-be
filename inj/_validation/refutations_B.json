@@ -1,0 +1,26 @@
+[
+  {
+    "exercise_code": "side_plank_hip_adduction",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "In a side-plank (Copenhagen-style) hip adduction the bottom-leg adductors lift the whole torso off the floor, so the resistance is bodyweight through a long body lever, not the free weight of a limb.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "deep_cossack_squat",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "The catalog already has loaded_cossack_squat and weighted_cossack_squats as the loaded entries, so \"Deep Cossack Squat\" is the unloaded mobility variant and should not require a weight to be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "deep_cossack_squat",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "The deep (unloaded) Cossack squat has no implement to log, and the loaded variants exist as separate exercise codes.",
+    "confidence": "moderate"
+  }
+]

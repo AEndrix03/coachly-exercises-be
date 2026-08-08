@@ -1,0 +1,146 @@
+[
+  {
+    "exercise_code": "crab_twist_toe_touch",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_plank_with_twist",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hanging_straight_twisting_leg_hip_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "A hanging twisting leg raise is unloaded bodyweight work, so weight_reps asks for a load that does not exist.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "twisted_leg_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "twisted_leg_raise_variant_b",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bent_knee_lying_twist",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "A bent-knee lying twist is an unloaded floor rotation drill, so there is no external weight to record.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "russian_twist",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "The plain Russian twist is the unweighted version (weighted_russian_twist is a separate entry), so weight_reps is wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "feet_elevated_russian_twist",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "twist_hip_lift",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so there is no weight to log and it should be bodyweight_reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "incline_twisting_sit_up",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "Its only equipment is an adjustable bench, so the sit-up is bodyweight-loaded and has no weight to log.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lunge_with_twist",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "It is flagged bodyweight with no implement attached, so weight_reps forces a load entry that does not exist.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Its equipment is a plate_loaded leg_press_machine, a gravity-loaded sled with no cam, and the sibling sled_45_leg_wide_press was correctly set to gravity.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_stance_hack_squat",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "A hack squat machine is a plate-loaded carriage running on rails under gravity, not a cam-based selectorized machine.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "A captain's chair fixes the back against a pad and the forearms on supports, so it is not an unstable hanging position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "vertical_leg_raise_on_parallel_bars",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "The torso is supported on the parallel-bar station's back pad and arm rests, so stability demand is not high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_neck_extension",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "sternocleidomastoid:low/low/low",
+    "reason": "The sternocleidomastoid is a cervical flexor and cannot be a high-tension mover in neck extension, which is driven by the splenii and suboccipitals.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "manual_neck_resistance_extension",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "sternocleidomastoid:low/low/low",
+    "reason": "The sternocleidomastoid is a cervical flexor and cannot be a high-tension mover in neck extension, which is driven by the splenii and suboccipitals.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "side_bridge_hip_abduction",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "The hip abduction is a dynamic repeated leg lift performed from the bridge, so it is counted in reps rather than held for time.",
+    "confidence": "moderate"
+  }
+]

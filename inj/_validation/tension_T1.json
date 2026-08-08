@@ -1,0 +1,1954 @@
+[
+  {
+    "exercise_code": "barbell_decline_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_decline_wide_grip_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_reverse_grip_decline_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_decline_one_arm_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_decline_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "decline_barbell_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_decline_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_decline_chest_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_decline_chest_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_decline_dumbbell_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pause_decline_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_decline_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_decline_reverse_grip_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_wide_grip_decline_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_decline_close_grip_to_skull_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_incline_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_lying_close_grip_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_reverse_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "close_grip_decline_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "close_grip_floor_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "close_grip_incline_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_close_grip_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_barbell_decline_close_grip_face_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_close_grip_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_decline_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_reverse_decline_close_grip_bench_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "Horizontal pressing keeps the shoulder near neutral, so the triceps long head never reaches the long length that drives the overhead-vs-pushdown hypertrophy difference (Maeo 2023), and elbow-extensor torque demand rises toward lockout rather than at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "korean_dip",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "At the bottom of a dip the shoulder is extended behind the torso, which shortens the triceps long head at the shoulder and offsets the elbow-flexed stretch, so this is not a lengthened-biased long-head stimulus.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "parallel_bar_dip",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "At the bottom of a dip the shoulder is extended behind the torso, which shortens the triceps long head at the shoulder and offsets the elbow-flexed stretch, so this is not a lengthened-biased long-head stimulus.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straight_bar_dip",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "At the bottom of a dip the shoulder is extended behind the torso, which shortens the triceps long head at the shoulder and offsets the elbow-flexed stretch, so this is not a lengthened-biased long-head stimulus.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tricep_dip_between_chairs",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "At the bottom of a dip the shoulder is extended behind the torso, which shortens the triceps long head at the shoulder and offsets the elbow-flexed stretch, so this is not a lengthened-biased long-head stimulus.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_dip",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "triceps_brachii_long:moderate/high/moderate",
+    "reason": "At the bottom of a dip the shoulder is extended behind the torso, which shortens the triceps long head at the shoulder and offsets the elbow-flexed stretch, so this is not a lengthened-biased long-head stimulus.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "1_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "1_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "1_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "2_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "2_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "2_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "3_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "3_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "3_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "4_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "4_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "4_board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_pin_presses",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_pin_presses",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_pin_presses",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "board_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "high_pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kettlebell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_one_arm_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "low_pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "mid_pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_floor_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_lateral:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pin_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pin_press_chest_level",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "pin_press_chest_level",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pin_press_chest_level",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_reverse_grip_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "deltoid_anterior:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_reverse_grip_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:low/high/low",
+    "reason": "Board, pin and floor presses stop the bar well above the chest, so the pectoralis never reaches its lengthened position in this exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_reverse_grip_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "triceps_brachii_long:low/high/moderate",
+    "reason": "Board, pin and floor presses cut out the bottom of the stroke but still finish at lockout, where the elbow extensors carry most of the load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "larsen_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/low",
+    "proposed": "pectoralis_major_sternal:high/high/low",
+    "reason": "The Larsen press is a full-range bench press (only leg drive is removed), so the pectoralis does reach its fully lengthened position under load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_front_raise_and_pullover",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_standing_front_raise_over_head",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_forward_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_shoulder_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_front_raise_v_2",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_incline_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lateral_to_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_standing_front_raise_above_head",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_front_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/high/moderate",
+    "reason": "In a front raise the resistance moment arm peaks with the arm near horizontal and falls off again above shoulder height, and the deltoid must produce force from the first degree of flexion, so tension is mid-range biased and never zero at the bottom.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_cross_over_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "rhomboids:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_cross_over_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "trapezius_middle:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_bent_over",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "trapezius_middle:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_posterior:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "rhomboids:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "trapezius_middle:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "rhomboids:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "trapezius_middle:moderate/high/high",
+    "reason": "A cable reverse fly keeps line-of-pull tension on the posterior deltoid at the fully adducted (lengthened) start, unlike the dumbbell version where gravitational torque there is near zero.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_alternating_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_alternating_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_alternating_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachioradialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_alternating_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "forearm_flexors:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hammer_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_short:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hammer_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hammer_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachioradialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hammer_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "forearm_flexors:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_overhead_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_overhead_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_overhead_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "forearm_flexors:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "doorframe_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_short:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "doorframe_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "doorframe_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachioradialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_short:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_biceps_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "forearm_flexors:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_band_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_short:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_band_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_doorframe_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_short:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_doorframe_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "brachialis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_lateral:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_tricep_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_lateral:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_tricep_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_tricep_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_medial:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_triceps_push_down",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "rectus_abdominis:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_triceps_push_down",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_lateral:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_triceps_push_down",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_band_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_lateral:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_band_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_long:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_band_pushdown",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_medial:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_clavicular:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_resistance_band_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_clavicular:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_resistance_band_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_posterior:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "infraspinatus:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "teres_minor:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_posterior:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "infraspinatus:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_pull_apart",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "teres_minor:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "latissimus_dorsi:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "trapezius_middle:low/moderate/high",
+    "reason": "Elastic resistance is pre-tensioned at the start position, so the working muscle is lightly loaded rather than completely unloaded at its lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "chest_squeeze_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "chest_squeeze_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "chest_squeeze_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_minor:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_minor:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "serratus_anterior:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "svend_press_with_dumbbell",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "svend_press_with_dumbbell",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_minor:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "deltoid_anterior:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "pectoralis_major_sternal:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_svend_press",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "triceps_brachii_long:moderate/moderate/high",
+    "reason": "The Svend press is a continuous isometric adduction squeeze: the pectoralis is under substantial tension throughout, including at the start, so none at the lengthened position is wrong.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "spider_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_brachii_long:low/high/moderate",
+    "reason": "With the humerus hanging vertical, spider-curl resistance torque is zero at full extension, peaks near 90 degrees of elbow flexion and decays as the forearm approaches vertical at the top, so it is a mid-range rather than a shortened-position stimulus.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "spider_curl",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "forearm_flexors:low/high/moderate",
+    "reason": "With the humerus hanging vertical, spider-curl resistance torque is zero at full extension, peaks near 90 degrees of elbow flexion and decays as the forearm approaches vertical at the top, so it is a mid-range rather than a shortened-position stimulus.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "side_lying_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "infraspinatus:high/high/low",
+    "reason": "Side-lying external rotation with a dumbbell produces maximal torque about the humeral axis at the internally rotated (lengthened) start and near-zero torque once the forearm reaches vertical, so it is lengthened-biased.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "side_lying_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "teres_minor:high/high/low",
+    "reason": "Side-lying external rotation with a dumbbell produces maximal torque about the humeral axis at the internally rotated (lengthened) start and near-zero torque once the forearm reaches vertical, so it is lengthened-biased.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "deltoid_posterior:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "infraspinatus:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "teres_minor:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "deltoid_posterior:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "infraspinatus:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_external_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "teres_minor:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "infraspinatus:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "subscapularis:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "teres_major:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "pectoralis_major_sternal:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "subscapularis:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_internal_rotation",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "teres_major:moderate/high/high",
+    "reason": "Band and cable rotator-cuff work keeps tension on the cuff at the lengthened start position rather than leaving it near-unloaded there.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "deltoid_anterior:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "latissimus_dorsi:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "triceps_brachii_long:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "deltoid_anterior:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "latissimus_dorsi:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "triceps_brachii_long:high/high/low",
+    "reason": "Every other overhead press in this archetype is lengthened-biased: the deltoid moment arm and the long-head stretch are greatest at the bottom of the press and least at lockout, so this inverted profile is a name-matching artefact.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_upper:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_upper:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_upper:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_decline_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_decline_shrug_v_2",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_upper:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_upper:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug_v_2",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_back_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_shrug",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "trapezius_middle:high/high/moderate",
+    "reason": "Barbell and dumbbell load is constant through a shrug, and the upper trapezius is most challenged at the fully depressed (lengthened) bottom, unloading as the scapula reaches full elevation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_palms_down_wrist_curl_over_a_bench",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_palms_up_wrist_curl_over_a_bench",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_revers_wrist_curl_v_2",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_standing_back_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_wrist_curl_v_2",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "behind_the_back_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_back_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_pronation",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_pronation_on_floor",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_neutral_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_neutral_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_one_arm_neutral_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_one_arm_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_seated_neutral_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_seated_palms_up_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "finger_extension",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "plate_neck_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "pronazione_supinazione",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_arm_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_seated_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_back_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "towel_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wrist_roller",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wrist_rollerer",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_flexors:high/high/low",
+    "reason": "In a wrist curl the external torque is greatest with the wrist in extension, which is exactly where the wrist flexors are longest, so the lengthened position is the most loaded one.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_extensors:high/high/low",
+    "reason": "In a reverse wrist curl the wrist extensors are longest at the flexed start, which is where the external torque is greatest.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_reverse_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_extensors:high/high/low",
+    "reason": "In a reverse wrist curl the wrist extensors are longest at the flexed start, which is where the external torque is greatest.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_reverse_wrist_curl",
+    "field": "muscle_tension",
+    "current": "low/high/low",
+    "proposed": "forearm_extensors:high/high/low",
+    "reason": "In a reverse wrist curl the wrist extensors are longest at the flexed start, which is where the external torque is greatest.",
+    "confidence": "moderate"
+  }
+]
