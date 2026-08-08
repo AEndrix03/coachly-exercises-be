@@ -714,7 +714,7 @@ RULES = [
     (r"upright row|sdhp|sumo deadlift high pull|high pull", "upright_row"),
     (r"shrug", "shrug"),
     (r"(external|internal) rotation|cuban press", "cuff_rotation"),
-    (r"(behind.?the.?neck press|bradford press|arnold press|z-?press|"
+    (r"(behind[- ]?(the[- ]?)?neck press|bradford press|arnold press|z-?press|"
      r"seated.*(press|strict press)|smith machine seated press)", "ohp_seated"),
     (r"(machine|plate loaded).*shoulder press|shoulder press machine", "ohp_machine"),
     (r"landmine.*press", "ohp_landmine"),
