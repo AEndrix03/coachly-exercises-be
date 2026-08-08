@@ -1,0 +1,358 @@
+{
+ "seed": 246810,
+ "sampled_codes": [
+  "ankling_drill",
+  "archer_australian_pull_up",
+  "assault_bike_air_bike",
+  "band_two_legs_calf_raise_band_under_both_legs_v_2",
+  "banded_hip_thrust",
+  "barbell_bench_front_squat",
+  "barbell_reverse_curl",
+  "barbell_standing_ab_rollerout",
+  "block_pull_conventional_deadlift",
+  "block_pull_sumo_rack_pull",
+  "cable_chest_press",
+  "cable_drag_curl",
+  "cable_rear_delt_row_with_rope",
+  "cable_rope_hammer_preacher_curl",
+  "chest_supported_dumbbell_row",
+  "cocoons",
+  "crunch",
+  "decline_sit_up",
+  "dumbbell_lying_elbow_press",
+  "dumbbell_one_arm_reverse_spider_curl",
+  "dumbbell_one_arm_standing_curl",
+  "dumbbell_pronate_grip_triceps_extension",
+  "dumbbell_seated_reverse_grip_concentration_curl",
+  "dumbbell_standing_concentration_curl",
+  "dumbbell_step_up_single_leg_balance_with_bicep_curl",
+  "exercise_ball_back_extension_with_arms_extended",
+  "exercise_ball_pike_push_up",
+  "farmer_s_carry",
+  "ghd_hip_extension",
+  "half_kneeling_bottom_up_kettlebell_press",
+  "hip_airplane",
+  "hold_seated_leg_lift",
+  "incline_twisting_sit_up",
+  "lateral_jump_rope_bounce",
+  "lateral_lunge",
+  "lever_seated_leg_raise_crunch",
+  "lever_t_bar_reverse_grip_row",
+  "lying_ball_squeeze",
+  "lying_elbow_to_knee",
+  "medicine_ball_chest_push_from_3_point_stance",
+  "medicine_ball_woodchop",
+  "pause_rack_pull",
+  "plate_halo",
+  "push_up_inside_leg_kick",
+  "push_up_ring_support_hold",
+  "resistance_band_seated_chest_press",
+  "reverse_grip_lat_pulldown",
+  "rotational_45_degree_back_extension_oblique_twist",
+  "running_sprint",
+  "scapula_push_up",
+  "scapular_pull_up",
+  "shoulder_tap",
+  "single_arm_machine_press",
+  "single_leg_adduction_machine",
+  "single_leg_seated_curl",
+  "single_leg_wide_stance_good_morning",
+  "sled_45_calf_press",
+  "sled_45_leg_wide_press",
+  "smith_machine_decline_close_grip_bench_press",
+  "smith_reverse_calf_raises",
+  "smith_standing_leg_calf_raise",
+  "snatch_pull",
+  "spoto_press",
+  "standing_lateral_stretch",
+  "standing_pelvic_tilt",
+  "standing_single_leg_curl",
+  "straight_leg_outer_hip_abductor",
+  "sumo_deadlift",
+  "suspended_abdominal_fallout",
+  "tempo_handstand_push_up",
+  "tempo_l_sit_hold",
+  "tempo_prone_y_raise",
+  "triceps_kickback",
+  "triceps_stretch",
+  "tuck_crunch",
+  "tuck_front_lever_hold",
+  "weighted_russian_twist_v_2",
+  "weighted_squat",
+  "weighted_standing_hand_squeeze",
+  "wrist_push_up"
+ ],
+ "clean": [
+  "ankling_drill",
+  "assault_bike_air_bike",
+  "band_two_legs_calf_raise_band_under_both_legs_v_2",
+  "barbell_standing_ab_rollerout",
+  "block_pull_conventional_deadlift",
+  "cable_drag_curl",
+  "cable_rope_hammer_preacher_curl",
+  "chest_supported_dumbbell_row",
+  "cocoons",
+  "crunch",
+  "decline_sit_up",
+  "dumbbell_lying_elbow_press",
+  "dumbbell_one_arm_reverse_spider_curl",
+  "dumbbell_one_arm_standing_curl",
+  "dumbbell_pronate_grip_triceps_extension",
+  "dumbbell_standing_concentration_curl",
+  "exercise_ball_pike_push_up",
+  "farmer_s_carry",
+  "half_kneeling_bottom_up_kettlebell_press",
+  "lateral_lunge",
+  "medicine_ball_woodchop",
+  "pause_rack_pull",
+  "push_up_inside_leg_kick",
+  "push_up_ring_support_hold",
+  "resistance_band_seated_chest_press",
+  "reverse_grip_lat_pulldown",
+  "rotational_45_degree_back_extension_oblique_twist",
+  "running_sprint",
+  "scapula_push_up",
+  "scapular_pull_up",
+  "single_arm_machine_press",
+  "single_leg_adduction_machine",
+  "single_leg_wide_stance_good_morning",
+  "smith_machine_decline_close_grip_bench_press",
+  "smith_standing_leg_calf_raise",
+  "snatch_pull",
+  "spoto_press",
+  "standing_lateral_stretch",
+  "suspended_abdominal_fallout",
+  "tempo_handstand_push_up",
+  "tempo_prone_y_raise",
+  "triceps_kickback",
+  "tuck_crunch",
+  "weighted_russian_twist_v_2",
+  "weighted_squat",
+  "weighted_standing_hand_squeeze",
+  "wrist_push_up"
+ ],
+ "findings": [
+  {
+   "exercise_code": "sled_45_calf_press",
+   "field": "joint_class",
+   "current": "multi_joint",
+   "proposed": "single_joint",
+   "reason": "Only ankle plantar flexion is stored; a calf press on the 45 sled moves one joint.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "sled_45_calf_press",
+   "field": "stability_demand",
+   "current": "high",
+   "proposed": "low",
+   "reason": "Back and hips are fully supported on a fixed-path sled; balance demand is minimal.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "sled_45_leg_wide_press",
+   "field": "stability_demand",
+   "current": "high",
+   "proposed": "low",
+   "reason": "Machine-supported fixed-path leg press; the seat/backrest removes the balance requirement.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "standing_single_leg_curl",
+   "field": "tracking_type",
+   "current": "bodyweight_reps",
+   "proposed": "weight_reps",
+   "reason": "It is a selectorized leg-curl machine (resistance_source=cam_machine); the load is a stack, not bodyweight.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "standing_single_leg_curl",
+   "field": "load_input_mode",
+   "current": "none",
+   "proposed": "total_load",
+   "reason": "Machine stack load must be loggable.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "standing_single_leg_curl",
+   "field": "comparison_scope",
+   "current": "bodyweight_aware",
+   "proposed": "equipment_instance",
+   "reason": "Load depends on the specific machine's stack, not on the athlete's bodyweight.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "lying_ball_squeeze",
+   "field": "tracking_type",
+   "current": "weight_time",
+   "proposed": "time",
+   "reason": "An isometric squeeze of a ball between the knees has no external load to log.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "lateral_jump_rope_bounce",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "Lateral rope bounces are performed with bodyweight only; no external load is involved.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "incline_twisting_sit_up",
+   "field": "load_input_mode",
+   "current": "total_load",
+   "proposed": "none",
+   "reason": "tracking_type is bodyweight_reps and the exercise carries no external load; total_load contradicts it.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "medicine_ball_chest_push_from_3_point_stance",
+   "field": "unilateral",
+   "current": "False",
+   "proposed": "True",
+   "reason": "The description has one hand on the ball and the other on the ground; the push is single-arm.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "ghd_hip_extension",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "Stored tracking is bodyweight_reps / bodyweight_aware; the GHD hip extension is a bodyweight movement.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "exercise_ball_back_extension_with_arms_extended",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "No external load in the description; tracking is bodyweight_reps / bodyweight_aware.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "hip_airplane",
+   "field": "unilateral",
+   "current": "False",
+   "proposed": "True",
+   "reason": "The drill is performed balancing on one leg, one side at a time.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "straight_leg_outer_hip_abductor",
+   "field": "unilateral",
+   "current": "False",
+   "proposed": "True",
+   "reason": "Side-lying raise of the top leg only; it is inherently one-sided.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "tempo_l_sit_hold",
+   "field": "resistance_source",
+   "current": "isometric_external",
+   "proposed": "bodyweight_leverage",
+   "reason": "The resistance is the athlete's own bodyweight acting through a lever, not an external isometric object.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "shoulder_tap",
+   "field": "resistance_source",
+   "current": "isometric_external",
+   "proposed": "bodyweight_leverage",
+   "reason": "Plank shoulder taps are loaded by bodyweight leverage; there is no external isometric resistance.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "cable_rear_delt_row_with_rope",
+   "field": "muscle_tension",
+   "current": "deltoid_posterior tension_lengthened/midrange/shortened = low/low/low",
+   "proposed": "moderate/high/high",
+   "reason": "Posterior deltoid is stored as a primary mover yet given low tension across the whole ROM, contradicting its role in horizontal abduction.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "plate_halo",
+   "field": "exercise_kind",
+   "current": "conditioning",
+   "proposed": "resistance",
+   "reason": "A loaded plate halo is a controlled shoulder-girdle resistance/mobility drill, not a cardio-conditioning modality.",
+   "confidence": "low"
+  }
+ ],
+ "non_vocabulary_findings": [
+  {
+   "exercise_code": "tuck_front_lever_hold",
+   "problem": "deltoid_anterior is stored as a primary mover and latissimus dorsi is absent; the front lever is held by shoulder extensors (lats, teres major, pec sternal). The joint action is also stored as shoulder flexion instead of extension."
+  },
+  {
+   "exercise_code": "barbell_reverse_curl",
+   "problem": "Pronated-grip curl: brachioradialis is missing entirely and biceps_brachii_long is the sole primary, which contradicts the reverse curl's prime movers (brachioradialis/brachialis)."
+  },
+  {
+   "exercise_code": "dumbbell_seated_reverse_grip_concentration_curl",
+   "problem": "Same as the barbell reverse curl: brachioradialis absent, biceps listed as the only primary despite the pronated grip."
+  },
+  {
+   "exercise_code": "block_pull_sumo_rack_pull",
+   "problem": "erector_spinae is stored as the only primary while gluteus_maximus and hamstrings are secondary; a sumo rack pull is driven by hip extension."
+  },
+  {
+   "exercise_code": "sumo_deadlift",
+   "problem": "gluteus_maximus is stored as secondary although the exercise's own description states 'greater adductor and glute involvement'."
+  },
+  {
+   "exercise_code": "barbell_bench_front_squat",
+   "problem": "biceps_femoris_long is stored as a primary mover and gluteus_maximus as secondary; the front squat is knee/quad dominant and the hamstrings are not prime movers."
+  },
+  {
+   "exercise_code": "cable_chest_press",
+   "problem": "adjustable_bench is stored as equipment although the description prescribes a standing staggered stance."
+  },
+  {
+   "exercise_code": "single_leg_seated_curl",
+   "problem": "Equipment is leg_curl_machine_lying on an exercise explicitly described as seated knee flexion."
+  },
+  {
+   "exercise_code": "hold_seated_leg_lift",
+   "problem": "Equipment is pull_up_bar and dip_bars although the description is a seated leg hold with a straight back."
+  },
+  {
+   "exercise_code": "lever_seated_leg_raise_crunch",
+   "problem": "Equipment is back_extension_machine on an abdominal leg-raise/crunch leverage machine."
+  },
+  {
+   "exercise_code": "lying_ball_squeeze",
+   "problem": "Equipment is weight_plate although the description is squeezing a ball between the knees."
+  },
+  {
+   "exercise_code": "banded_hip_thrust",
+   "problem": "resistance_source is band but no band equipment is linked; only flat_bench is stored."
+  },
+  {
+   "exercise_code": "smith_reverse_calf_raises",
+   "problem": "Name says reverse calf raise (ankle dorsiflexion, tibialis anterior) but the description, pattern and muscles are an ordinary plantar-flexion calf raise; the record is internally contradictory."
+  },
+  {
+   "exercise_code": "lying_elbow_to_knee",
+   "problem": "Obliques are absent from the muscle list and no rotation pattern/joint action is stored, although the description is an elbow-to-opposite-knee twisting crunch."
+  },
+  {
+   "exercise_code": "archer_australian_pull_up",
+   "problem": "Movement pattern is vertical_pull although the description is explicitly a horizontal (Australian) row; joint actions stored as shoulder adduction rather than extension."
+  },
+  {
+   "exercise_code": "lever_t_bar_reverse_grip_row",
+   "problem": "Description states an overhand grip while the name and the biceps-primary muscle profile are a reverse (supinated) grip row."
+  },
+  {
+   "exercise_code": "dumbbell_step_up_single_leg_balance_with_bicep_curl",
+   "problem": "Only elbow_flexion pattern and elbow joint action are stored although quadriceps and glutes are listed as movers and the exercise is a step-up; hip/knee extension is missing."
+  },
+  {
+   "exercise_code": "triceps_stretch",
+   "problem": "deltoid_anterior is stored as a primary muscle of an overhead triceps stretch; the anterior deltoid is shortened, not stretched, in that position."
+  },
+  {
+   "exercise_code": "standing_pelvic_tilt",
+   "problem": "erector_spinae is stored as primary for a posterior pelvic tilt that flattens the lumbar spine; the movers are the abdominals and glutes while the erectors lengthen."
+  }
+ ]
+}
