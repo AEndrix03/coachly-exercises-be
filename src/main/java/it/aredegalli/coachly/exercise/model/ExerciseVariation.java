@@ -1,7 +1,10 @@
 package it.aredegalli.coachly.exercise.model;
 
+import it.aredegalli.coachly.exercise.enums.VariationAxis;
+import it.aredegalli.coachly.exercise.model.converter.VariationAxisConverter;
 import it.aredegalli.coachly.exercise.model.id.ExerciseVariationId;
 import jakarta.persistence.Column;
+import jakarta.persistence.Convert;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -28,8 +31,13 @@ public class ExerciseVariation {
     @JoinColumn(name = "variant_exercise_id", nullable = false)
     private Exercise variantExercise;
 
-    @Column(name = "difficulty_delta")
-    private Integer difficultyDelta;
+    /**
+     * WHAT differs between the two exercises. Replaces difficulty_delta:
+     * "harder" carried no usable meaning, and was 0 on two thirds of the rows.
+     */
+    @Convert(converter = VariationAxisConverter.class)
+    @Column(name = "variation_axis", columnDefinition = "exercises.variation_axis")
+    private VariationAxis variationAxis;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
@@ -58,12 +66,12 @@ public class ExerciseVariation {
         this.variantExercise = variantExercise;
     }
 
-    public Integer getDifficultyDelta() {
-        return difficultyDelta;
+    public VariationAxis getVariationAxis() {
+        return variationAxis;
     }
 
-    public void setDifficultyDelta(Integer difficultyDelta) {
-        this.difficultyDelta = difficultyDelta;
+    public void setVariationAxis(VariationAxis variationAxis) {
+        this.variationAxis = variationAxis;
     }
 
     public OffsetDateTime getCreatedAt() {

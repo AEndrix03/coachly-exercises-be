@@ -1,8 +1,8 @@
 package it.aredegalli.coachly.exercise.mapper;
 
-import it.aredegalli.coachly.exercise.dto.ExerciseBiomechanicsDto;
+import it.aredegalli.coachly.exercise.dto.ExerciseTrackingProfileDto;
 import it.aredegalli.coachly.exercise.model.Exercise;
-import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
+import it.aredegalli.coachly.exercise.model.ExerciseTrackingProfile;
 import java.util.UUID;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -12,12 +12,12 @@ import org.mapstruct.ReportingPolicy;
         componentModel = "spring",
         unmappedTargetPolicy = ReportingPolicy.IGNORE
 )
-public interface ExerciseBiomechanicsMapper {
+public interface ExerciseTrackingProfileMapper {
 
-    ExerciseBiomechanicsDto toDto(ExerciseBiomechanics entity);
+    ExerciseTrackingProfileDto toDto(ExerciseTrackingProfile entity);
 
     @Mapping(target = "exercise", expression = "java(exerciseFromId(dto.getExerciseId()))")
-    ExerciseBiomechanics toEntity(ExerciseBiomechanicsDto dto);
+    ExerciseTrackingProfile toEntity(ExerciseTrackingProfileDto dto);
 
     default Exercise exerciseFromId(UUID id) {
         if (id == null) {

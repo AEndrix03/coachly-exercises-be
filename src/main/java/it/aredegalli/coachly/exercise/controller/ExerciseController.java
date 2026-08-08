@@ -55,26 +55,46 @@ public class ExerciseController {
         @RequestParam(required = false) String scope,
         @RequestParam(required = false) String textFilter,
         @RequestParam(required = false) String langFilter,
-        @RequestParam(required = false) String difficultyLevel,
-        @RequestParam(required = false) String mechanicsType,
-        @RequestParam(required = false) String forceType,
+        @RequestParam(required = false) String exerciseKind,
+        @RequestParam(required = false) String technicalDemand,
+        @RequestParam(required = false) String jointClass,
         @RequestParam(required = false) Boolean isUnilateral,
         @RequestParam(required = false) Boolean isBodyweight,
         @RequestParam(required = false) String categoryIds,
         @RequestParam(required = false) String muscleIds,
+        @RequestParam(required = false) String muscleGroupIds,
+        @RequestParam(required = false) String movementPatternIds,
+        @RequestParam(required = false) String jointActionIds,
+        @RequestParam(required = false) String familyIds,
+        @RequestParam(required = false) String tensionBias,
+        @RequestParam(required = false) String equipmentIds,
+        @RequestParam(required = false) String equipmentClasses,
+        @RequestParam(required = false) String stabilityDemand,
+        @RequestParam(required = false) String maxSpinalLoading,
+        @RequestParam(required = false) String trackingTypes,
         @RequestParam(required = false) Integer offset,
         @RequestParam(required = false) Integer limit
     ) {
         ExerciseFilterDto filter = ExerciseFilterDto.builder()
             .textFilter(textFilter)
             .langFilter(langFilter)
-            .difficultyLevel(difficultyLevel)
-            .mechanicsType(mechanicsType)
-            .forceType(forceType)
+            .exerciseKind(exerciseKind)
+            .technicalDemand(technicalDemand)
+            .jointClass(jointClass)
             .isUnilateral(isUnilateral)
             .isBodyweight(isBodyweight)
             .categoryIds(splitCsv(categoryIds))
             .muscleIds(splitCsv(muscleIds))
+            .muscleGroupIds(splitCsv(muscleGroupIds))
+            .movementPatternIds(splitCsv(movementPatternIds))
+            .jointActionIds(splitCsv(jointActionIds))
+            .familyIds(splitCsv(familyIds))
+            .tensionBias(tensionBias)
+            .equipmentIds(splitCsv(equipmentIds))
+            .equipmentClasses(splitCsv(equipmentClasses))
+            .stabilityDemand(stabilityDemand)
+            .maxSpinalLoading(maxSpinalLoading)
+            .trackingTypes(splitCsv(trackingTypes))
             .build();
         return exerciseService.getFilteredExercises(currentUserIdNullable(), scope, filter, offset, limit);
     }

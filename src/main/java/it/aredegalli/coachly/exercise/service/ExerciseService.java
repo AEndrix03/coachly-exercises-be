@@ -6,15 +6,26 @@ import it.aredegalli.coachly.exercise.dto.command.ExerciseUpsertRequestDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseDetailDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseFilterDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseSummaryDto;
-import it.aredegalli.coachly.exercise.enums.DifficultyLevel;
-import it.aredegalli.coachly.exercise.enums.ForceType;
-import it.aredegalli.coachly.exercise.enums.MechanicsType;
+import it.aredegalli.coachly.exercise.enums.CatalogStatus;
+import it.aredegalli.coachly.exercise.enums.ComparisonScope;
+import it.aredegalli.coachly.exercise.enums.EquipmentClass;
+import it.aredegalli.coachly.exercise.enums.ExerciseKind;
+import it.aredegalli.coachly.exercise.enums.InvolvementLevel;
+import it.aredegalli.coachly.exercise.enums.JointClass;
+import it.aredegalli.coachly.exercise.enums.LoadLevel;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
-import it.aredegalli.coachly.exercise.enums.RiskLevel;
+import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
+import it.aredegalli.coachly.exercise.enums.TechnicalDemand;
+import it.aredegalli.coachly.exercise.enums.TensionLevel;
+import it.aredegalli.coachly.exercise.enums.TrackingType;
 import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Exercise;
 import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
+import it.aredegalli.coachly.exercise.model.ExerciseJointAction;
+import it.aredegalli.coachly.exercise.model.ExerciseMovementPattern;
+import it.aredegalli.coachly.exercise.model.ExerciseTrackingProfile;
+import it.aredegalli.coachly.exercise.model.MuscleGroup;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
 import it.aredegalli.coachly.exercise.model.ExerciseMedia;
 import it.aredegalli.coachly.exercise.model.ExerciseMuscle;
@@ -22,6 +33,10 @@ import it.aredegalli.coachly.exercise.model.ExerciseTag;
 import it.aredegalli.coachly.exercise.model.ExerciseVariation;
 import it.aredegalli.coachly.exercise.repository.ExerciseBiomechanicsRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseCategoryRepository;
+import it.aredegalli.coachly.exercise.repository.ExerciseJointActionRepository;
+import it.aredegalli.coachly.exercise.repository.ExerciseMovementPatternRepository;
+import it.aredegalli.coachly.exercise.repository.ExerciseTrackingProfileRepository;
+import it.aredegalli.coachly.exercise.repository.MuscleGroupMemberRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseEquipmentRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseMediaRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseMuscleRepository;
@@ -52,6 +67,10 @@ public class ExerciseService {
 
     private final ExerciseRepository exerciseRepository;
     private final ExerciseBiomechanicsRepository exerciseBiomechanicsRepository;
+    private final ExerciseTrackingProfileRepository exerciseTrackingProfileRepository;
+    private final ExerciseMovementPatternRepository exerciseMovementPatternRepository;
+    private final ExerciseJointActionRepository exerciseJointActionRepository;
+    private final MuscleGroupMemberRepository muscleGroupMemberRepository;
     private final ExerciseCategoryRepository exerciseCategoryRepository;
     private final ExerciseEquipmentRepository exerciseEquipmentRepository;
     private final ExerciseMediaRepository exerciseMediaRepository;
@@ -64,6 +83,10 @@ public class ExerciseService {
     public ExerciseService(
         ExerciseRepository exerciseRepository,
         ExerciseBiomechanicsRepository exerciseBiomechanicsRepository,
+        ExerciseTrackingProfileRepository exerciseTrackingProfileRepository,
+        ExerciseMovementPatternRepository exerciseMovementPatternRepository,
+        ExerciseJointActionRepository exerciseJointActionRepository,
+        MuscleGroupMemberRepository muscleGroupMemberRepository,
         ExerciseCategoryRepository exerciseCategoryRepository,
         ExerciseEquipmentRepository exerciseEquipmentRepository,
         ExerciseMediaRepository exerciseMediaRepository,
@@ -74,6 +97,10 @@ public class ExerciseService {
     ) {
         this.exerciseRepository = exerciseRepository;
         this.exerciseBiomechanicsRepository = exerciseBiomechanicsRepository;
+        this.exerciseTrackingProfileRepository = exerciseTrackingProfileRepository;
+        this.exerciseMovementPatternRepository = exerciseMovementPatternRepository;
+        this.exerciseJointActionRepository = exerciseJointActionRepository;
+        this.muscleGroupMemberRepository = muscleGroupMemberRepository;
         this.exerciseCategoryRepository = exerciseCategoryRepository;
         this.exerciseEquipmentRepository = exerciseEquipmentRepository;
         this.exerciseMediaRepository = exerciseMediaRepository;
@@ -115,13 +142,14 @@ public class ExerciseService {
         List<String> muscleTokens = safeTokens(filter.getMuscleIds());
         List<UUID> categoryIds = parseUuidTokens(categoryTokens);
         List<UUID> muscleIds = parseUuidTokens(muscleTokens);
+        List<UUID> familyIds = parseUuidTokens(safeTokens(filter.getFamilyIds()));
         List<String> muscleTextTokens = parseTextTokens(muscleTokens);
 
         List<Exercise> exercises = findByScope(userId, scope).stream()
             .filter(this::isActive)
-            .filter(exercise -> matchesDifficulty(exercise, filter.getDifficultyLevel()))
-            .filter(exercise -> matchesMechanics(exercise, filter.getMechanicsType()))
-            .filter(exercise -> matchesForce(exercise, filter.getForceType()))
+            .filter(exercise -> matchesKind(exercise, filter.getExerciseKind()))
+            .filter(exercise -> matchesTechnicalDemand(exercise, filter.getTechnicalDemand()))
+            .filter(exercise -> matchesJointClass(exercise, filter.getJointClass()))
             .filter(exercise -> matchesUnilateral(exercise, filter.getIsUnilateral()))
             .filter(exercise -> matchesBodyweight(exercise, filter.getIsBodyweight()))
             .toList();
@@ -141,6 +169,9 @@ public class ExerciseService {
         List<Exercise> filteredExercises = exercises.stream()
             .filter(exercise -> matchesCategories(categoriesByExercise.getOrDefault(exercise.getId(), List.of()), categoryIds))
             .filter(exercise -> matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleIds))
+            .filter(exercise -> matchesFamily(exercise, familyIds))
+            .filter(exercise -> matchesTensionBias(
+                musclesByExercise.getOrDefault(exercise.getId(), List.of()), filter.getTensionBias()))
             .map(exercise -> Map.entry(
                 exercise,
                 exerciseRetrieveMapper.searchScore(
@@ -254,6 +285,26 @@ public class ExerciseService {
         Map<UUID, ExerciseBiomechanics> biomechanicsByExercise = exerciseBiomechanicsRepository
             .findAllByExerciseIds(exerciseIds).stream()
             .collect(Collectors.toMap(ExerciseBiomechanics::getExerciseId, Function.identity(), (first, ignored) -> first));
+        Map<UUID, ExerciseTrackingProfile> trackingByExercise = exerciseTrackingProfileRepository
+            .findAllByExerciseIds(exerciseIds).stream()
+            .collect(Collectors.toMap(ExerciseTrackingProfile::getExerciseId, Function.identity(), (first, ignored) -> first));
+        Map<UUID, List<ExerciseMovementPattern>> patternsByExercise = groupByExerciseId(
+            exerciseMovementPatternRepository.findAllByExerciseIds(exerciseIds),
+            relation -> relation.getExercise().getId()
+        );
+        Map<UUID, List<ExerciseJointAction>> jointActionsByExercise = groupByExerciseId(
+            exerciseJointActionRepository.findAllByExerciseIds(exerciseIds),
+            relation -> relation.getExercise().getId()
+        );
+        List<UUID> muscleIds = musclesByExercise.values().stream()
+            .flatMap(List::stream)
+            .map(relation -> relation.getMuscle().getId())
+            .distinct()
+            .toList();
+        Map<UUID, List<MuscleGroup>> groupsByMuscleId = muscleIds.isEmpty()
+            ? Map.of()
+            : exerciseRetrieveMapper.groupsByMuscleId(
+                muscleGroupMemberRepository.findAllByMuscleIds(muscleIds));
 
         return exercises.stream()
             .map(exercise -> exerciseRetrieveMapper.toDetail(
@@ -265,7 +316,11 @@ public class ExerciseService {
                 musclesByExercise.getOrDefault(exercise.getId(), List.of()),
                 equipmentsByExercise.getOrDefault(exercise.getId(), List.of()),
                 tagsByExercise.getOrDefault(exercise.getId(), List.of()),
-                biomechanicsByExercise.get(exercise.getId())
+                biomechanicsByExercise.get(exercise.getId()),
+                trackingByExercise.get(exercise.getId()),
+                patternsByExercise.getOrDefault(exercise.getId(), List.of()),
+                jointActionsByExercise.getOrDefault(exercise.getId(), List.of()),
+                groupsByMuscleId
             ))
             .toList();
     }
@@ -318,20 +373,47 @@ public class ExerciseService {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "nameI18n is required");
         }
 
-        exercise.setName(nameI18n.values().stream().findFirst().orElseThrow());
-        exercise.setDifficulty(Optional.ofNullable(parseEnum(DifficultyLevel.class, request.getDifficultyLevel())).orElse(DifficultyLevel.BEGINNER));
-        exercise.setMechanics(Optional.ofNullable(parseEnum(MechanicsType.class, request.getMechanicsType())).orElse(MechanicsType.COMPOUND));
-        exercise.setForce(parseEnum(ForceType.class, request.getForceType()));
+        String name = nameI18n.values().stream().findFirst().orElseThrow();
+        exercise.setName(name);
+        if (exercise.getCode() == null || exercise.getCode().isBlank()) {
+            exercise.setCode(personalCode(name));
+        }
+        exercise.setExerciseKind(Optional.ofNullable(parseEnum(ExerciseKind.class, request.getExerciseKind()))
+            .orElse(ExerciseKind.RESISTANCE));
+        exercise.setTechnicalDemand(Optional.ofNullable(parseEnum(TechnicalDemand.class, request.getTechnicalDemand()))
+            .orElse(TechnicalDemand.MODERATE));
+        exercise.setJointClass(Optional.ofNullable(parseEnum(JointClass.class, request.getJointClass()))
+            .orElse(JointClass.MULTI_JOINT));
         exercise.setUnilateral(Boolean.TRUE.equals(request.getIsUnilateral()));
         exercise.setBodyweight(Boolean.TRUE.equals(request.getIsBodyweight()));
-        exercise.setSpotterRequired(Boolean.TRUE.equals(request.getSpotterRequired()));
-        exercise.setOverallRisk(Optional.ofNullable(parseEnum(RiskLevel.class, request.getOverallRiskLevel())).orElse(RiskLevel.LOW));
+        exercise.setSpotterPolicy(Optional.ofNullable(parseEnum(SpotterPolicy.class, request.getSpotterPolicy()))
+            .orElse(SpotterPolicy.NONE));
+        // a user-created exercise has not been reviewed by anyone
+        if (exercise.getCatalogStatus() == null) {
+            exercise.setCatalogStatus(CatalogStatus.DRAFT);
+        }
 
         Map<String, Object> translations = new HashMap<>();
         translations.put("nameI18n", nameI18n);
         translations.put("descriptionI18n", normalizeI18n(request.getDescriptionI18n()));
         translations.put("tipsI18n", normalizeI18n(request.getTipsI18n()));
         exercise.setTranslations(serializeJson(translations));
+    }
+
+    /**
+     * Personal exercises still need the stable identity key, and it must not
+     * collide with the curated catalogue, hence the prefix and the uuid tail.
+     */
+    private String personalCode(String name) {
+        String slug = java.text.Normalizer.normalize(name, java.text.Normalizer.Form.NFD)
+            .replaceAll("\\p{M}", "")
+            .toLowerCase(Locale.ROOT)
+            .replaceAll("[^a-z0-9]+", "_")
+            .replaceAll("^_|_$", "");
+        if (slug.isBlank()) {
+            slug = "exercise";
+        }
+        return "personal_" + slug + "_" + UUID.randomUUID().toString().substring(0, 8);
     }
 
     private Map<String, String> normalizeI18n(Map<String, String> input) {
@@ -356,19 +438,49 @@ public class ExerciseService {
         }
     }
 
-    private boolean matchesDifficulty(Exercise exercise, String difficultyLevel) {
-        DifficultyLevel difficulty = parseEnum(DifficultyLevel.class, difficultyLevel);
-        return difficulty == null || exercise.getDifficulty() == difficulty;
+    private boolean matchesKind(Exercise exercise, String exerciseKind) {
+        ExerciseKind kind = parseEnum(ExerciseKind.class, exerciseKind);
+        return kind == null || exercise.getExerciseKind() == kind;
     }
 
-    private boolean matchesMechanics(Exercise exercise, String mechanicsType) {
-        MechanicsType mechanics = parseEnum(MechanicsType.class, mechanicsType);
-        return mechanics == null || exercise.getMechanics() == mechanics;
+    private boolean matchesTechnicalDemand(Exercise exercise, String technicalDemand) {
+        TechnicalDemand demand = parseEnum(TechnicalDemand.class, technicalDemand);
+        return demand == null || exercise.getTechnicalDemand() == demand;
     }
 
-    private boolean matchesForce(Exercise exercise, String forceType) {
-        ForceType force = parseEnum(ForceType.class, forceType);
-        return force == null || exercise.getForce() == force;
+    private boolean matchesJointClass(Exercise exercise, String jointClass) {
+        JointClass value = parseEnum(JointClass.class, jointClass);
+        return value == null || exercise.getJointClass() == value;
+    }
+
+    private boolean matchesFamily(Exercise exercise, List<UUID> familyIds) {
+        if (familyIds.isEmpty()) {
+            return true;
+        }
+        return exercise.getFamily() != null && familyIds.contains(exercise.getFamily().getId());
+    }
+
+    /**
+     * Where the caller wants the target muscle loaded. A muscle qualifies when
+     * the requested end of its range carries at least MODERATE tension.
+     */
+    private boolean matchesTensionBias(List<ExerciseMuscle> muscles, String tensionBias) {
+        if (tensionBias == null || tensionBias.isBlank()) {
+            return true;
+        }
+        String requested = tensionBias.trim().toLowerCase(Locale.ROOT).replace('-', '_');
+        return muscles.stream()
+            .filter(m -> m.getId() != null && m.getId().getInvolvement() == InvolvementLevel.PRIMARY)
+            .anyMatch(m -> meetsTension(switch (requested) {
+                case "lengthened" -> m.getTensionLengthened();
+                case "midrange", "mid_range" -> m.getTensionMidrange();
+                case "shortened" -> m.getTensionShortened();
+                default -> null;
+            }));
+    }
+
+    private boolean meetsTension(TensionLevel level) {
+        return level == TensionLevel.MODERATE || level == TensionLevel.HIGH;
     }
 
     private boolean matchesUnilateral(Exercise exercise, Boolean isUnilateral) {

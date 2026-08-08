@@ -1,7 +1,11 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.enums.LengthBias;
-import it.aredegalli.coachly.exercise.model.converter.LengthBiasConverter;
+import it.aredegalli.coachly.exercise.enums.ConfidenceLevel;
+import it.aredegalli.coachly.exercise.enums.EvidenceBasis;
+import it.aredegalli.coachly.exercise.enums.TensionLevel;
+import it.aredegalli.coachly.exercise.model.converter.ConfidenceLevelConverter;
+import it.aredegalli.coachly.exercise.model.converter.EvidenceBasisConverter;
+import it.aredegalli.coachly.exercise.model.converter.TensionLevelConverter;
 import it.aredegalli.coachly.exercise.model.id.ExerciseMuscleId;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
@@ -14,6 +18,15 @@ import jakarta.persistence.MapsId;
 import jakarta.persistence.Table;
 import java.time.OffsetDateTime;
 
+/**
+ * What a muscle does in an exercise, and where along its own length it is
+ * loaded.
+ *
+ * <p>The three tension levels replace the old numeric fields (activation
+ * percentage, ROM percentages, tension-at-stretch): those implied a precision
+ * that does not exist. A length bias - lengthened, mid-range or shortened
+ * biased - is derivable from these three, so it is not stored.
+ */
 @Entity
 @Table(name = "exercise_muscle", schema = "exercises")
 public class ExerciseMuscle {
@@ -31,94 +44,32 @@ public class ExerciseMuscle {
     @JoinColumn(name = "muscle_id", nullable = false)
     private Muscle muscle;
 
-    @Column(name = "activation_percentage")
-    private Integer activationPercentage;
+    @Convert(converter = TensionLevelConverter.class)
+    @Column(name = "tension_lengthened", columnDefinition = "exercises.tension_level")
+    private TensionLevel tensionLengthened;
 
-    /** Where peak tension lands relative to THIS muscle's own length. */
-    @Convert(converter = LengthBiasConverter.class)
-    @Column(name = "length_bias", columnDefinition = "exercises.length_bias")
-    private LengthBias lengthBias;
+    @Convert(converter = TensionLevelConverter.class)
+    @Column(name = "tension_midrange", columnDefinition = "exercises.tension_level")
+    private TensionLevel tensionMidrange;
 
-    @Column(name = "rom_stretch_pct")
-    private Short romStretchPct;
+    @Convert(converter = TensionLevelConverter.class)
+    @Column(name = "tension_shortened", columnDefinition = "exercises.tension_level")
+    private TensionLevel tensionShortened;
 
-    @Column(name = "rom_contract_pct")
-    private Short romContractPct;
+    /** Where the datum came from, kept separate from how sure we are of it. */
+    @Convert(converter = EvidenceBasisConverter.class)
+    @Column(name = "evidence_basis", columnDefinition = "exercises.evidence_basis")
+    private EvidenceBasis evidenceBasis;
 
-    /**
-     * Residual external load at maximum muscle length: distinguishes an
-     * exercise that merely reaches the stretch from one that loads it.
-     */
-    @Column(name = "tension_at_stretch")
-    private Short tensionAtStretch;
-
-    @Column(name = "tension_at_contraction")
-    private Short tensionAtContraction;
-
-    @Column(name = "active_insufficiency", nullable = false)
-    private boolean activeInsufficiency;
-
-    @Column(name = "passive_insufficiency", nullable = false)
-    private boolean passiveInsufficiency;
+    @Convert(converter = ConfidenceLevelConverter.class)
+    @Column(name = "confidence", columnDefinition = "exercises.confidence_level")
+    private ConfidenceLevel confidence;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
 
-    public LengthBias getLengthBias() {
-        return lengthBias;
-    }
-
-    public void setLengthBias(LengthBias lengthBias) {
-        this.lengthBias = lengthBias;
-    }
-
-    public Short getRomStretchPct() {
-        return romStretchPct;
-    }
-
-    public void setRomStretchPct(Short romStretchPct) {
-        this.romStretchPct = romStretchPct;
-    }
-
-    public Short getRomContractPct() {
-        return romContractPct;
-    }
-
-    public void setRomContractPct(Short romContractPct) {
-        this.romContractPct = romContractPct;
-    }
-
-    public Short getTensionAtStretch() {
-        return tensionAtStretch;
-    }
-
-    public void setTensionAtStretch(Short tensionAtStretch) {
-        this.tensionAtStretch = tensionAtStretch;
-    }
-
-    public Short getTensionAtContraction() {
-        return tensionAtContraction;
-    }
-
-    public void setTensionAtContraction(Short tensionAtContraction) {
-        this.tensionAtContraction = tensionAtContraction;
-    }
-
-    public boolean isActiveInsufficiency() {
-        return activeInsufficiency;
-    }
-
-    public void setActiveInsufficiency(boolean activeInsufficiency) {
-        this.activeInsufficiency = activeInsufficiency;
-    }
-
-    public boolean isPassiveInsufficiency() {
-        return passiveInsufficiency;
-    }
-
-    public void setPassiveInsufficiency(boolean passiveInsufficiency) {
-        this.passiveInsufficiency = passiveInsufficiency;
-    }
+    @Column(name = "updated_at", nullable = false)
+    private OffsetDateTime updatedAt;
 
     public ExerciseMuscleId getId() {
         return id;
@@ -144,12 +95,44 @@ public class ExerciseMuscle {
         this.muscle = muscle;
     }
 
-    public Integer getActivationPercentage() {
-        return activationPercentage;
+    public TensionLevel getTensionLengthened() {
+        return tensionLengthened;
     }
 
-    public void setActivationPercentage(Integer activationPercentage) {
-        this.activationPercentage = activationPercentage;
+    public void setTensionLengthened(TensionLevel tensionLengthened) {
+        this.tensionLengthened = tensionLengthened;
+    }
+
+    public TensionLevel getTensionMidrange() {
+        return tensionMidrange;
+    }
+
+    public void setTensionMidrange(TensionLevel tensionMidrange) {
+        this.tensionMidrange = tensionMidrange;
+    }
+
+    public TensionLevel getTensionShortened() {
+        return tensionShortened;
+    }
+
+    public void setTensionShortened(TensionLevel tensionShortened) {
+        this.tensionShortened = tensionShortened;
+    }
+
+    public EvidenceBasis getEvidenceBasis() {
+        return evidenceBasis;
+    }
+
+    public void setEvidenceBasis(EvidenceBasis evidenceBasis) {
+        this.evidenceBasis = evidenceBasis;
+    }
+
+    public ConfidenceLevel getConfidence() {
+        return confidence;
+    }
+
+    public void setConfidence(ConfidenceLevel confidence) {
+        this.confidence = confidence;
     }
 
     public OffsetDateTime getCreatedAt() {
@@ -158,5 +141,13 @@ public class ExerciseMuscle {
 
     public void setCreatedAt(OffsetDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public OffsetDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(OffsetDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

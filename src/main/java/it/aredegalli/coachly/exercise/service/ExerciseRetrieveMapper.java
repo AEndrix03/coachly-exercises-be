@@ -1,11 +1,10 @@
 package it.aredegalli.coachly.exercise.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseDetailDto;
 import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseSummaryDto;
+import it.aredegalli.coachly.exercise.enums.TensionLevel;
 import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Category;
 import it.aredegalli.coachly.exercise.model.Equipment;
@@ -13,55 +12,49 @@ import it.aredegalli.coachly.exercise.model.Exercise;
 import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
+import it.aredegalli.coachly.exercise.model.ExerciseFamily;
+import it.aredegalli.coachly.exercise.model.ExerciseJointAction;
 import it.aredegalli.coachly.exercise.model.ExerciseMedia;
+import it.aredegalli.coachly.exercise.model.ExerciseMovementPattern;
 import it.aredegalli.coachly.exercise.model.ExerciseMuscle;
 import it.aredegalli.coachly.exercise.model.ExerciseTag;
+import it.aredegalli.coachly.exercise.model.ExerciseTrackingProfile;
 import it.aredegalli.coachly.exercise.model.ExerciseVariation;
+import it.aredegalli.coachly.exercise.model.JointAction;
+import it.aredegalli.coachly.exercise.model.MovementPattern;
 import it.aredegalli.coachly.exercise.model.Muscle;
+import it.aredegalli.coachly.exercise.model.MuscleGroup;
+import it.aredegalli.coachly.exercise.model.MuscleGroupMember;
 import it.aredegalli.coachly.exercise.model.Tag;
 import org.springframework.stereotype.Component;
 
+import java.text.Normalizer;
 import java.util.Collection;
-import java.util.ArrayDeque;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
-import java.text.Normalizer;
 
 @Component
 public class ExerciseRetrieveMapper {
 
     private static final TypeReference<Map<String, Object>> MAP_TYPE = new TypeReference<>() {};
-    private static final TypeReference<Map<String, String>> JOINT_BIAS_TYPE = new TypeReference<>() {};
-    private static final TypeReference<List<ExerciseDetailDto.StrengthCurvePointDto>> CURVE_POINTS_TYPE =
-        new TypeReference<>() {};
 
     private final ObjectMapper objectMapper = new ObjectMapper();
-
-    /**
-     * The biomechanics jsonb payloads are written by the seed generator in
-     * snake_case ({@code rom_pct}, {@code relative_load}) while the DTO stays
-     * camelCase, so they need their own reader.
-     */
-    private final ObjectMapper snakeCaseMapper = new ObjectMapper()
-        .setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE)
-        .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
     public ExerciseSummaryDto toSummary(Exercise exercise) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseSummaryDto.builder()
             .id(exercise.getId())
+            .code(exercise.getCode())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
-            .difficultyLevel(enumValue(exercise.getDifficulty()))
-            .mechanicsType(enumValue(exercise.getMechanics()))
-            .forceType(enumValue(exercise.getForce()))
+            .exerciseKind(enumValue(exercise.getExerciseKind()))
+            .technicalDemand(enumValue(exercise.getTechnicalDemand()))
+            .jointClass(enumValue(exercise.getJointClass()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
             .build();
@@ -76,27 +69,42 @@ public class ExerciseRetrieveMapper {
         List<ExerciseMuscle> muscles,
         List<ExerciseEquipment> equipments,
         List<ExerciseTag> tags,
-        ExerciseBiomechanics biomechanics
+        ExerciseBiomechanics biomechanics,
+        ExerciseTrackingProfile tracking,
+        List<ExerciseMovementPattern> movementPatterns,
+        List<ExerciseJointAction> jointActions,
+        Map<UUID, List<MuscleGroup>> groupsByMuscleId
     ) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseDetailDto.builder()
             .id(exercise.getId())
+            .code(exercise.getCode())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
-            .difficultyLevel(enumValue(exercise.getDifficulty()))
-            .mechanicsType(enumValue(exercise.getMechanics()))
-            .forceType(enumValue(exercise.getForce()))
+            .family(toFamily(exercise.getFamily()))
+            .exerciseKind(enumValue(exercise.getExerciseKind()))
+            .technicalDemand(enumValue(exercise.getTechnicalDemand()))
+            .jointClass(enumValue(exercise.getJointClass()))
+            .catalogStatus(enumValue(exercise.getCatalogStatus()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
-            .variants(includeVariants ? toConnectedVariants(exercise, variations) : List.of())
+            .movementProfile(ExerciseDetailDto.MovementProfileDto.builder()
+                .patterns(movementPatterns.stream().map(this::toMovementPattern).toList())
+                .jointActions(jointActions.stream().map(this::toJointAction).toList())
+                .build())
+            .muscles(muscles.stream().map(m -> toMuscle(m, groupsByMuscleId)).toList())
+            .biomechanics(toBiomechanics(biomechanics))
+            .tracking(toTracking(tracking))
+            .safety(ExerciseDetailDto.SafetyDto.builder()
+                .spotterPolicy(enumValue(exercise.getSpotterPolicy()))
+                .notesI18n(translations.fieldMap("safetyNotesI18n", "safetyNotes", "safetyTips"))
+                .build())
+            .equipments(equipments.stream().map(this::toEquipment).toList())
+            .variants(includeVariants ? toDirectVariants(exercise, variations) : List.of())
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
-            .safety(List.of(toSafety(exercise, translations)))
-            .muscles(muscles.stream().map(this::toMuscle).toList())
-            .equipments(equipments.stream().map(this::toEquipment).toList())
             .tags(tags.stream().map(this::toTag).toList())
-            .biomechanics(toBiomechanics(biomechanics))
             .build();
     }
 
@@ -126,6 +134,7 @@ public class ExerciseRetrieveMapper {
         int score = scoreI18n(translations.fieldMap("nameI18n", "name"), languages, query, 1000, 180);
         score += scoreI18n(translations.fieldMap("descriptionI18n", "description"), languages, query, 260, 45);
         score += scoreI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"), languages, query, 120, 25);
+        score += lexicalScore(exercise.getCode(), query, 400, 90);
 
         for (ExerciseMuscle relation : muscles) {
             if (relation.getMuscle() == null) {
@@ -162,70 +171,181 @@ public class ExerciseRetrieveMapper {
         });
     }
 
-    private List<ExerciseDetailDto.VariantDto> toConnectedVariants(
+    /**
+     * Only DIRECT variation edges. The old transitive walk implied that
+     * "A is like B, B is like C" makes A like C, which is not true; real
+     * similarity is computed from family, patterns, muscles and equipment.
+     */
+    private List<ExerciseDetailDto.VariantDto> toDirectVariants(
         Exercise sourceExercise,
         List<ExerciseVariation> variations
     ) {
-        if (variations.isEmpty()) {
-            return List.of();
-        }
-
         UUID sourceId = sourceExercise.getId();
-        Map<UUID, Exercise> relatedExercises = new HashMap<>();
-        Map<UUID, Integer> difficultyDeltas = new HashMap<>();
-        HashSet<UUID> visited = new HashSet<>();
-        ArrayDeque<UUID> pending = new ArrayDeque<>();
-        visited.add(sourceId);
-        difficultyDeltas.put(sourceId, 0);
-        pending.add(sourceId);
-
-        while (!pending.isEmpty()) {
-            UUID currentId = pending.removeFirst();
-            Integer currentDelta = difficultyDeltas.get(currentId);
-            for (ExerciseVariation variation : variations) {
-                Exercise nextExercise;
-                Integer edgeDelta = variation.getDifficultyDelta();
-                if (currentId.equals(variation.getBaseExercise().getId())) {
-                    nextExercise = variation.getVariantExercise();
-                } else if (currentId.equals(variation.getVariantExercise().getId())) {
-                    nextExercise = variation.getBaseExercise();
-                    edgeDelta = edgeDelta == null ? null : -edgeDelta;
-                } else {
-                    continue;
+        return variations.stream()
+            .map(variation -> {
+                if (sourceId.equals(variation.getBaseExercise().getId())) {
+                    return Map.entry(variation.getVariantExercise(), variation);
                 }
-
-                UUID nextId = nextExercise.getId();
-                if (!visited.add(nextId)) {
-                    continue;
+                if (sourceId.equals(variation.getVariantExercise().getId())) {
+                    return Map.entry(variation.getBaseExercise(), variation);
                 }
-                relatedExercises.put(nextId, nextExercise);
-                difficultyDeltas.put(
-                    nextId,
-                    currentDelta == null || edgeDelta == null ? null : currentDelta + edgeDelta
-                );
-                pending.addLast(nextId);
-            }
-        }
-
-        return relatedExercises.values().stream()
-            .sorted(Comparator.comparing(Exercise::getName, String.CASE_INSENSITIVE_ORDER))
-            .map(exercise -> toVariant(exercise, difficultyDeltas.get(exercise.getId())))
+                return null;
+            })
+            .filter(java.util.Objects::nonNull)
+            .sorted(Comparator.comparing(entry -> entry.getKey().getName(), String.CASE_INSENSITIVE_ORDER))
+            .map(entry -> toVariant(entry.getKey(), entry.getValue()))
             .toList();
     }
 
-    private ExerciseDetailDto.VariantDto toVariant(Exercise relatedExercise, Integer difficultyDelta) {
-        TranslationEnvelope translations = parseTranslations(relatedExercise.getTranslations());
+    private ExerciseDetailDto.VariantDto toVariant(Exercise related, ExerciseVariation edge) {
+        TranslationEnvelope translations = parseTranslations(related.getTranslations());
         return ExerciseDetailDto.VariantDto.builder()
-            .id(relatedExercise.getId())
+            .id(related.getId())
+            .code(related.getCode())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-            .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
-            .difficultyLevel(enumValue(relatedExercise.getDifficulty()))
-            .mechanicsType(enumValue(relatedExercise.getMechanics()))
-            .forceType(enumValue(relatedExercise.getForce()))
-            .isUnilateral(relatedExercise.isUnilateral())
-            .isBodyweight(relatedExercise.isBodyweight())
-            .difficultyDelta(difficultyDelta)
+            .exerciseKind(enumValue(related.getExerciseKind()))
+            .technicalDemand(enumValue(related.getTechnicalDemand()))
+            .jointClass(enumValue(related.getJointClass()))
+            .isUnilateral(related.isUnilateral())
+            .isBodyweight(related.isBodyweight())
+            .variationAxis(enumValue(edge.getVariationAxis()))
+            .build();
+    }
+
+    private ExerciseDetailDto.FamilyDto toFamily(ExerciseFamily family) {
+        if (family == null) {
+            return null;
+        }
+        return ExerciseDetailDto.FamilyDto.builder()
+            .id(family.getId())
+            .code(family.getCode())
+            .nameI18n(parseTranslations(family.getTranslations()).fieldMap("nameI18n", "name"))
+            .build();
+    }
+
+    private ExerciseDetailDto.MovementPatternDto toMovementPattern(ExerciseMovementPattern link) {
+        MovementPattern pattern = link.getMovementPattern();
+        return ExerciseDetailDto.MovementPatternDto.builder()
+            .id(pattern.getId())
+            .code(pattern.getCode())
+            .nameI18n(parseTranslations(pattern.getTranslations()).fieldMap("nameI18n", "name"))
+            .role(enumValue(link.getRole()))
+            .build();
+    }
+
+    private ExerciseDetailDto.JointActionDto toJointAction(ExerciseJointAction link) {
+        JointAction action = link.getJointAction();
+        return ExerciseDetailDto.JointActionDto.builder()
+            .id(action.getId())
+            .jointCode(action.getJointCode())
+            .actionCode(action.getActionCode())
+            .nameI18n(parseTranslations(action.getTranslations()).fieldMap("nameI18n", "name"))
+            .role(enumValue(link.getRole()))
+            .build();
+    }
+
+    private ExerciseDetailDto.MuscleAssociationDto toMuscle(
+        ExerciseMuscle exerciseMuscle,
+        Map<UUID, List<MuscleGroup>> groupsByMuscleId
+    ) {
+        Muscle muscle = exerciseMuscle.getMuscle();
+        TranslationEnvelope translations = parseTranslations(muscle.getTranslations());
+        List<MuscleGroup> groups = groupsByMuscleId.getOrDefault(muscle.getId(), List.of());
+        return ExerciseDetailDto.MuscleAssociationDto.builder()
+            .muscle(ExerciseDetailDto.NamedResourceDto.builder()
+                .id(muscle.getId())
+                .code(muscle.getCode())
+                .nameI18n(translations.fieldMap("nameI18n", "name"))
+                .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
+                .build())
+            .groups(groups.stream().map(this::toMuscleGroup).toList())
+            .involvement(enumValue(exerciseMuscle.getId() == null ? null
+                : exerciseMuscle.getId().getInvolvement()))
+            .tensionProfile(toTensionProfile(exerciseMuscle))
+            .evidenceBasis(enumValue(exerciseMuscle.getEvidenceBasis()))
+            .confidence(enumValue(exerciseMuscle.getConfidence()))
+            .build();
+    }
+
+    private ExerciseDetailDto.MuscleGroupDto toMuscleGroup(MuscleGroup group) {
+        return ExerciseDetailDto.MuscleGroupDto.builder()
+            .id(group.getId())
+            .code(group.getCode())
+            .groupType(enumValue(group.getGroupType()))
+            .nameI18n(parseTranslations(group.getTranslations()).fieldMap("nameI18n", "name"))
+            .build();
+    }
+
+    private ExerciseDetailDto.TensionProfileDto toTensionProfile(ExerciseMuscle exerciseMuscle) {
+        TensionLevel lengthened = exerciseMuscle.getTensionLengthened();
+        TensionLevel midrange = exerciseMuscle.getTensionMidrange();
+        TensionLevel shortened = exerciseMuscle.getTensionShortened();
+        if (lengthened == null && midrange == null && shortened == null) {
+            return null;
+        }
+        return ExerciseDetailDto.TensionProfileDto.builder()
+            .lengthened(enumValue(lengthened))
+            .midrange(enumValue(midrange))
+            .shortened(enumValue(shortened))
+            .lengthBias(deriveLengthBias(lengthened, midrange, shortened))
+            .build();
+    }
+
+    /**
+     * Derived on read rather than stored, so the bias can never contradict the
+     * three levels it comes from. "broad" means the exercise loads the muscle
+     * evenly instead of favouring one end.
+     */
+    private String deriveLengthBias(TensionLevel lengthened, TensionLevel midrange, TensionLevel shortened) {
+        int atLength = rank(lengthened);
+        int atMid = rank(midrange);
+        int atShort = rank(shortened);
+        int peak = Math.max(atLength, Math.max(atMid, atShort));
+        if (peak <= 0) {
+            return null;
+        }
+        boolean lengthenedPeaks = atLength == peak;
+        boolean shortenedPeaks = atShort == peak;
+        if (lengthenedPeaks && shortenedPeaks) {
+            return "broad";
+        }
+        if (lengthenedPeaks) {
+            return "lengthened";
+        }
+        if (shortenedPeaks) {
+            return "shortened";
+        }
+        return "mid_range";
+    }
+
+    private int rank(TensionLevel level) {
+        return level == null ? -1 : level.ordinal();
+    }
+
+    private ExerciseDetailDto.BiomechanicsDto toBiomechanics(ExerciseBiomechanics biomechanics) {
+        if (biomechanics == null) {
+            return null;
+        }
+        return ExerciseDetailDto.BiomechanicsDto.builder()
+            .resistanceSource(enumValue(biomechanics.getResistanceSource()))
+            .stabilityDemand(enumValue(biomechanics.getStabilityDemand()))
+            .spinalLoading(enumValue(biomechanics.getSpinalLoading()))
+            .externalResistanceProfile(enumValue(biomechanics.getExternalResistanceProfile()))
+            .evidenceBasis(enumValue(biomechanics.getEvidenceBasis()))
+            .confidence(enumValue(biomechanics.getConfidence()))
+            .build();
+    }
+
+    private ExerciseDetailDto.TrackingDto toTracking(ExerciseTrackingProfile tracking) {
+        if (tracking == null) {
+            return null;
+        }
+        return ExerciseDetailDto.TrackingDto.builder()
+            .trackingType(enumValue(tracking.getTrackingType()))
+            .loadInputMode(enumValue(tracking.getLoadInputMode()))
+            .sideMode(enumValue(tracking.getSideMode()))
+            .comparisonScope(enumValue(tracking.getComparisonScope()))
             .build();
     }
 
@@ -242,98 +362,16 @@ public class ExerciseRetrieveMapper {
             .build();
     }
 
-    private ExerciseDetailDto.CategoryNodeDto toCategory(ExerciseCategory exerciseCategory) {
+    private ExerciseDetailDto.CategoryDto toCategory(ExerciseCategory exerciseCategory) {
         Category category = exerciseCategory.getCategory();
         TranslationEnvelope translations = parseTranslations(category.getTranslations());
-        return ExerciseDetailDto.CategoryNodeDto.builder()
+        return ExerciseDetailDto.CategoryDto.builder()
             .id(category.getId())
             .code(category.getCode())
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-            .categoryLevel(1)
             .isPrimary(exerciseCategory.isPrimary())
-            .children(List.of())
             .build();
-    }
-
-    private ExerciseDetailDto.SafetyDto toSafety(Exercise exercise, TranslationEnvelope translations) {
-        return ExerciseDetailDto.SafetyDto.builder()
-            .id(exercise.getId())
-            .overallRiskLevel(enumValue(exercise.getOverallRisk()))
-            .spotterRequired(exercise.isSpotterRequired())
-            .safetyNotesI18n(translations.fieldMap("safetyNotesI18n", "safetyNotes", "safetyTips"))
-            .build();
-    }
-
-    private ExerciseDetailDto.MuscleAssociationDto toMuscle(ExerciseMuscle exerciseMuscle) {
-        Muscle muscle = exerciseMuscle.getMuscle();
-        TranslationEnvelope translations = parseTranslations(muscle.getTranslations());
-        return ExerciseDetailDto.MuscleAssociationDto.builder()
-            .muscle(ExerciseDetailDto.NamedResourceDto.builder()
-                .id(muscle.getId())
-                .code(muscle.getCode())
-                .nameI18n(translations.fieldMap("nameI18n", "name"))
-                .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
-                .build())
-            .activationPercentage(exerciseMuscle.getActivationPercentage())
-            .lengthBias(enumValue(exerciseMuscle.getLengthBias()))
-            .romStretchPct(intValue(exerciseMuscle.getRomStretchPct()))
-            .romContractPct(intValue(exerciseMuscle.getRomContractPct()))
-            .tensionAtStretch(intValue(exerciseMuscle.getTensionAtStretch()))
-            .tensionAtContraction(intValue(exerciseMuscle.getTensionAtContraction()))
-            .activeInsufficiency(exerciseMuscle.isActiveInsufficiency())
-            .passiveInsufficiency(exerciseMuscle.isPassiveInsufficiency())
-            .build();
-    }
-
-    /**
-     * The jsonb columns are read as raw strings, mirroring how translations are
-     * handled; a malformed payload degrades to an empty value rather than
-     * failing the whole detail response.
-     */
-    private ExerciseDetailDto.BiomechanicsDto toBiomechanics(ExerciseBiomechanics biomechanics) {
-        if (biomechanics == null) {
-            return null;
-        }
-        return ExerciseDetailDto.BiomechanicsDto.builder()
-            .resistanceSource(enumValue(biomechanics.getResistanceSource()))
-            .resistanceCurve(enumValue(biomechanics.getResistanceCurve()))
-            .peakTorqueRomPct(intValue(biomechanics.getPeakTorqueRomPct()))
-            .momentArmProfile(enumValue(biomechanics.getMomentArmProfile()))
-            .momentArmPeakRomPct(intValue(biomechanics.getMomentArmPeakRomPct()))
-            .stabilityDemand(enumValue(biomechanics.getStabilityDemand()))
-            .axialLoad(enumValue(biomechanics.getAxialLoad()))
-            .sfrRating(intValue(biomechanics.getSfrRating()))
-            .jointPositionBias(parseJointPositionBias(biomechanics.getJointPositionBias()))
-            .strengthCurvePoints(parseStrengthCurvePoints(biomechanics.getStrengthCurvePoints()))
-            .dataConfidence(enumValue(biomechanics.getDataConfidence()))
-            .build();
-    }
-
-    private Map<String, String> parseJointPositionBias(String rawJson) {
-        if (rawJson == null || rawJson.isBlank()) {
-            return Map.of();
-        }
-        try {
-            return objectMapper.readValue(rawJson, JOINT_BIAS_TYPE);
-        } catch (Exception ex) {
-            return Map.of();
-        }
-    }
-
-    private List<ExerciseDetailDto.StrengthCurvePointDto> parseStrengthCurvePoints(String rawJson) {
-        if (rawJson == null || rawJson.isBlank()) {
-            return List.of();
-        }
-        try {
-            return snakeCaseMapper.readValue(rawJson, CURVE_POINTS_TYPE);
-        } catch (Exception ex) {
-            return List.of();
-        }
-    }
-
-    private Integer intValue(Short value) {
-        return value == null ? null : value.intValue();
     }
 
     private ExerciseDetailDto.EquipmentAssociationDto toEquipment(ExerciseEquipment exerciseEquipment) {
@@ -346,6 +384,7 @@ public class ExerciseRetrieveMapper {
                 .nameI18n(translations.fieldMap("nameI18n", "name"))
                 .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
                 .build())
+            .equipmentClass(enumValue(equipment.getEquipmentClass()))
             .isRequired(exerciseEquipment.isRequired())
             .isPrimary(exerciseEquipment.isPrimary())
             .quantityNeeded(exerciseEquipment.getQuantityNeeded())
@@ -364,22 +403,13 @@ public class ExerciseRetrieveMapper {
             .build();
     }
 
-    private boolean matchesI18n(Map<String, String> values, List<String> languageCandidates, String textFilter) {
-        if (values == null || values.isEmpty()) {
-            return false;
+    public Map<UUID, List<MuscleGroup>> groupsByMuscleId(List<MuscleGroupMember> members) {
+        Map<UUID, List<MuscleGroup>> result = new LinkedHashMap<>();
+        for (MuscleGroupMember member : members) {
+            result.computeIfAbsent(member.getMuscle().getId(), key -> new java.util.ArrayList<>())
+                .add(member.getGroup());
         }
-
-        if (!languageCandidates.isEmpty()) {
-            for (String languageCandidate : languageCandidates) {
-                for (Map.Entry<String, String> entry : values.entrySet()) {
-                    if (normalize(entry.getKey()).equals(languageCandidate) && containsNormalized(entry.getValue(), textFilter)) {
-                        return true;
-                    }
-                }
-            }
-        }
-
-        return containsAnyNormalized(values.values(), textFilter);
+        return result;
     }
 
     private int scoreI18n(

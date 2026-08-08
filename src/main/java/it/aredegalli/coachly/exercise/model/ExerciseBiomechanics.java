@@ -1,14 +1,14 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.enums.DataConfidence;
+import it.aredegalli.coachly.exercise.enums.ConfidenceLevel;
+import it.aredegalli.coachly.exercise.enums.EvidenceBasis;
+import it.aredegalli.coachly.exercise.enums.ExternalResistanceProfile;
 import it.aredegalli.coachly.exercise.enums.LoadLevel;
-import it.aredegalli.coachly.exercise.enums.MomentArmProfile;
-import it.aredegalli.coachly.exercise.enums.ResistanceCurve;
 import it.aredegalli.coachly.exercise.enums.ResistanceSource;
-import it.aredegalli.coachly.exercise.model.converter.DataConfidenceConverter;
+import it.aredegalli.coachly.exercise.model.converter.ConfidenceLevelConverter;
+import it.aredegalli.coachly.exercise.model.converter.EvidenceBasisConverter;
+import it.aredegalli.coachly.exercise.model.converter.ExternalResistanceProfileConverter;
 import it.aredegalli.coachly.exercise.model.converter.LoadLevelConverter;
-import it.aredegalli.coachly.exercise.model.converter.MomentArmProfileConverter;
-import it.aredegalli.coachly.exercise.model.converter.ResistanceCurveConverter;
 import it.aredegalli.coachly.exercise.model.converter.ResistanceSourceConverter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
@@ -23,12 +23,12 @@ import java.time.OffsetDateTime;
 import java.util.UUID;
 
 /**
- * Biomechanical profile of an exercise: where the external load peaks along the
- * range of motion and what causes it.
+ * How the exercise loads the body, reduced to what actually drives decisions.
  *
- * <p>{@code jointPositionBias} and {@code strengthCurvePoints} are stored as raw
- * jsonb strings, mirroring how {@link Exercise#getTranslations()} is handled;
- * parsing happens in the retrieve mapper.
+ * <p>The implement's resistance curve is deliberately NOT here: it is not the
+ * same thing as the tension curve of each muscle, and the latter is what the
+ * engine uses. That lives per-muscle on {@link ExerciseMuscle}. Nor is there an
+ * SFR rating - stimulus-to-fatigue is contextual output, not a catalogue fact.
  */
 @Entity
 @Table(name = "exercise_biomechanics", schema = "exercises")
@@ -47,43 +47,30 @@ public class ExerciseBiomechanics {
     @Column(name = "resistance_source", columnDefinition = "exercises.resistance_source")
     private ResistanceSource resistanceSource;
 
-    @Convert(converter = ResistanceCurveConverter.class)
-    @Column(name = "resistance_curve", columnDefinition = "exercises.resistance_curve")
-    private ResistanceCurve resistanceCurve;
-
-    @Column(name = "peak_torque_rom_pct")
-    private Short peakTorqueRomPct;
-
-    @Convert(converter = MomentArmProfileConverter.class)
-    @Column(name = "moment_arm_profile", columnDefinition = "exercises.moment_arm_profile")
-    private MomentArmProfile momentArmProfile;
-
-    @Column(name = "moment_arm_peak_rom_pct")
-    private Short momentArmPeakRomPct;
-
     @Convert(converter = LoadLevelConverter.class)
     @Column(name = "stability_demand", columnDefinition = "exercises.load_level")
     private LoadLevel stabilityDemand;
 
     @Convert(converter = LoadLevelConverter.class)
-    @Column(name = "axial_load", columnDefinition = "exercises.load_level")
-    private LoadLevel axialLoad;
+    @Column(name = "spinal_loading", columnDefinition = "exercises.load_level")
+    private LoadLevel spinalLoading;
 
-    @Column(name = "sfr_rating")
-    private Short sfrRating;
+    /** Coarse shape of the EXTERNAL resistance. Optional. */
+    @Convert(converter = ExternalResistanceProfileConverter.class)
+    @Column(name = "external_resistance_profile",
+            columnDefinition = "exercises.external_resistance_profile")
+    private ExternalResistanceProfile externalResistanceProfile;
 
-    @Column(name = "joint_position_bias", columnDefinition = "jsonb")
-    private String jointPositionBias;
+    @Convert(converter = EvidenceBasisConverter.class)
+    @Column(name = "evidence_basis", columnDefinition = "exercises.evidence_basis")
+    private EvidenceBasis evidenceBasis;
 
-    @Column(name = "strength_curve_points", columnDefinition = "jsonb")
-    private String strengthCurvePoints;
+    @Convert(converter = ConfidenceLevelConverter.class)
+    @Column(name = "confidence", columnDefinition = "exercises.confidence_level")
+    private ConfidenceLevel confidence;
 
-    @Convert(converter = DataConfidenceConverter.class)
-    @Column(name = "data_confidence", nullable = false, columnDefinition = "exercises.data_confidence")
-    private DataConfidence dataConfidence;
-
-    @Column(name = "source_note")
-    private String sourceNote;
+    @Column(name = "method_note")
+    private String methodNote;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
@@ -115,38 +102,6 @@ public class ExerciseBiomechanics {
         this.resistanceSource = resistanceSource;
     }
 
-    public ResistanceCurve getResistanceCurve() {
-        return resistanceCurve;
-    }
-
-    public void setResistanceCurve(ResistanceCurve resistanceCurve) {
-        this.resistanceCurve = resistanceCurve;
-    }
-
-    public Short getPeakTorqueRomPct() {
-        return peakTorqueRomPct;
-    }
-
-    public void setPeakTorqueRomPct(Short peakTorqueRomPct) {
-        this.peakTorqueRomPct = peakTorqueRomPct;
-    }
-
-    public MomentArmProfile getMomentArmProfile() {
-        return momentArmProfile;
-    }
-
-    public void setMomentArmProfile(MomentArmProfile momentArmProfile) {
-        this.momentArmProfile = momentArmProfile;
-    }
-
-    public Short getMomentArmPeakRomPct() {
-        return momentArmPeakRomPct;
-    }
-
-    public void setMomentArmPeakRomPct(Short momentArmPeakRomPct) {
-        this.momentArmPeakRomPct = momentArmPeakRomPct;
-    }
-
     public LoadLevel getStabilityDemand() {
         return stabilityDemand;
     }
@@ -155,52 +110,44 @@ public class ExerciseBiomechanics {
         this.stabilityDemand = stabilityDemand;
     }
 
-    public LoadLevel getAxialLoad() {
-        return axialLoad;
+    public LoadLevel getSpinalLoading() {
+        return spinalLoading;
     }
 
-    public void setAxialLoad(LoadLevel axialLoad) {
-        this.axialLoad = axialLoad;
+    public void setSpinalLoading(LoadLevel spinalLoading) {
+        this.spinalLoading = spinalLoading;
     }
 
-    public Short getSfrRating() {
-        return sfrRating;
+    public ExternalResistanceProfile getExternalResistanceProfile() {
+        return externalResistanceProfile;
     }
 
-    public void setSfrRating(Short sfrRating) {
-        this.sfrRating = sfrRating;
+    public void setExternalResistanceProfile(ExternalResistanceProfile externalResistanceProfile) {
+        this.externalResistanceProfile = externalResistanceProfile;
     }
 
-    public String getJointPositionBias() {
-        return jointPositionBias;
+    public EvidenceBasis getEvidenceBasis() {
+        return evidenceBasis;
     }
 
-    public void setJointPositionBias(String jointPositionBias) {
-        this.jointPositionBias = jointPositionBias;
+    public void setEvidenceBasis(EvidenceBasis evidenceBasis) {
+        this.evidenceBasis = evidenceBasis;
     }
 
-    public String getStrengthCurvePoints() {
-        return strengthCurvePoints;
+    public ConfidenceLevel getConfidence() {
+        return confidence;
     }
 
-    public void setStrengthCurvePoints(String strengthCurvePoints) {
-        this.strengthCurvePoints = strengthCurvePoints;
+    public void setConfidence(ConfidenceLevel confidence) {
+        this.confidence = confidence;
     }
 
-    public DataConfidence getDataConfidence() {
-        return dataConfidence;
+    public String getMethodNote() {
+        return methodNote;
     }
 
-    public void setDataConfidence(DataConfidence dataConfidence) {
-        this.dataConfidence = dataConfidence;
-    }
-
-    public String getSourceNote() {
-        return sourceNote;
-    }
-
-    public void setSourceNote(String sourceNote) {
-        this.sourceNote = sourceNote;
+    public void setMethodNote(String methodNote) {
+        this.methodNote = methodNote;
     }
 
     public OffsetDateTime getCreatedAt() {

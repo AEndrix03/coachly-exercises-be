@@ -3,6 +3,11 @@ package it.aredegalli.coachly.exercise.dto.command;
 import jakarta.validation.constraints.NotEmpty;
 import java.util.Map;
 
+/**
+ * What a user may set on a personal exercise. Classification fields the
+ * catalogue derives (family, movement patterns, joint actions) are not exposed
+ * here: a user-created exercise starts unclassified and is curated later.
+ */
 public class ExerciseUpsertRequestDto {
 
     @NotEmpty
@@ -10,13 +15,12 @@ public class ExerciseUpsertRequestDto {
 
     private Map<String, String> descriptionI18n;
     private Map<String, String> tipsI18n;
-    private String difficultyLevel;
-    private String mechanicsType;
-    private String forceType;
+    private String exerciseKind;
+    private String technicalDemand;
+    private String jointClass;
     private Boolean isUnilateral;
     private Boolean isBodyweight;
-    private Boolean spotterRequired;
-    private String overallRiskLevel;
+    private String spotterPolicy;
 
     public Map<String, String> getNameI18n() {
         return nameI18n;
@@ -42,28 +46,28 @@ public class ExerciseUpsertRequestDto {
         this.tipsI18n = tipsI18n;
     }
 
-    public String getDifficultyLevel() {
-        return difficultyLevel;
+    public String getExerciseKind() {
+        return exerciseKind;
     }
 
-    public void setDifficultyLevel(String difficultyLevel) {
-        this.difficultyLevel = difficultyLevel;
+    public void setExerciseKind(String exerciseKind) {
+        this.exerciseKind = exerciseKind;
     }
 
-    public String getMechanicsType() {
-        return mechanicsType;
+    public String getTechnicalDemand() {
+        return technicalDemand;
     }
 
-    public void setMechanicsType(String mechanicsType) {
-        this.mechanicsType = mechanicsType;
+    public void setTechnicalDemand(String technicalDemand) {
+        this.technicalDemand = technicalDemand;
     }
 
-    public String getForceType() {
-        return forceType;
+    public String getJointClass() {
+        return jointClass;
     }
 
-    public void setForceType(String forceType) {
-        this.forceType = forceType;
+    public void setJointClass(String jointClass) {
+        this.jointClass = jointClass;
     }
 
     public Boolean getIsUnilateral() {
@@ -82,20 +86,11 @@ public class ExerciseUpsertRequestDto {
         isBodyweight = bodyweight;
     }
 
-    public Boolean getSpotterRequired() {
-        return spotterRequired;
+    public String getSpotterPolicy() {
+        return spotterPolicy;
     }
 
-    public void setSpotterRequired(Boolean spotterRequired) {
-        this.spotterRequired = spotterRequired;
-    }
-
-    public String getOverallRiskLevel() {
-        return overallRiskLevel;
-    }
-
-    public void setOverallRiskLevel(String overallRiskLevel) {
-        this.overallRiskLevel = overallRiskLevel;
+    public void setSpotterPolicy(String spotterPolicy) {
+        this.spotterPolicy = spotterPolicy;
     }
 }
-

@@ -1,27 +1,39 @@
 package it.aredegalli.coachly.exercise.model;
 
-import it.aredegalli.coachly.exercise.enums.DifficultyLevel;
-import it.aredegalli.coachly.exercise.enums.ForceType;
-import it.aredegalli.coachly.exercise.enums.MechanicsType;
+import it.aredegalli.coachly.exercise.enums.CatalogStatus;
+import it.aredegalli.coachly.exercise.enums.ExerciseKind;
+import it.aredegalli.coachly.exercise.enums.JointClass;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
-import it.aredegalli.coachly.exercise.enums.RiskLevel;
+import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
+import it.aredegalli.coachly.exercise.enums.TechnicalDemand;
 import it.aredegalli.coachly.exercise.enums.Visibility;
-import it.aredegalli.coachly.exercise.model.converter.DifficultyLevelConverter;
-import it.aredegalli.coachly.exercise.model.converter.ForceTypeConverter;
-import it.aredegalli.coachly.exercise.model.converter.MechanicsTypeConverter;
+import it.aredegalli.coachly.exercise.model.converter.CatalogStatusConverter;
+import it.aredegalli.coachly.exercise.model.converter.ExerciseKindConverter;
+import it.aredegalli.coachly.exercise.model.converter.JointClassConverter;
 import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
-import it.aredegalli.coachly.exercise.model.converter.RiskLevelConverter;
+import it.aredegalli.coachly.exercise.model.converter.SpotterPolicyConverter;
+import it.aredegalli.coachly.exercise.model.converter.TechnicalDemandConverter;
 import it.aredegalli.coachly.exercise.model.converter.VisibilityConverter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
+/**
+ * An exercise describes what a movement mechanically IS. Why it appears in a
+ * session - strength, hypertrophy, technique - is a property of the program,
+ * not of the catalogue, so no goal or quality score lives here.
+ *
+ * <p>{@code code} is the stable identity key; {@code name} is free to change.
+ */
 @Entity
 @Table(name = "exercise", schema = "exercises")
 public class Exercise {
@@ -31,20 +43,28 @@ public class Exercise {
     @Column(name = "id", nullable = false, updatable = false)
     private UUID id;
 
+    @Column(name = "code", nullable = false, length = 120)
+    private String code;
+
     @Column(name = "name", nullable = false, length = 255)
     private String name;
 
-    @Convert(converter = DifficultyLevelConverter.class)
-    @Column(name = "difficulty", nullable = false, columnDefinition = "exercises.difficulty_level")
-    private DifficultyLevel difficulty;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "family_id")
+    private ExerciseFamily family;
 
-    @Convert(converter = MechanicsTypeConverter.class)
-    @Column(name = "mechanics", nullable = false, columnDefinition = "exercises.mechanics_type")
-    private MechanicsType mechanics;
+    @Convert(converter = ExerciseKindConverter.class)
+    @Column(name = "exercise_kind", columnDefinition = "exercises.exercise_kind")
+    private ExerciseKind exerciseKind;
 
-    @Convert(converter = ForceTypeConverter.class)
-    @Column(name = "force", columnDefinition = "exercises.force_type")
-    private ForceType force;
+    /** How hard the movement is to execute WELL, not how advanced the lifter is. */
+    @Convert(converter = TechnicalDemandConverter.class)
+    @Column(name = "technical_demand", columnDefinition = "exercises.technical_demand")
+    private TechnicalDemand technicalDemand;
+
+    @Convert(converter = JointClassConverter.class)
+    @Column(name = "joint_class", columnDefinition = "exercises.joint_class")
+    private JointClass jointClass;
 
     @Column(name = "unilateral", nullable = false)
     private boolean unilateral;
@@ -52,12 +72,14 @@ public class Exercise {
     @Column(name = "bodyweight", nullable = false)
     private boolean bodyweight;
 
-    @Convert(converter = RiskLevelConverter.class)
-    @Column(name = "overall_risk", nullable = false, columnDefinition = "exercises.risk_level")
-    private RiskLevel overallRisk;
+    @Convert(converter = SpotterPolicyConverter.class)
+    @Column(name = "spotter_policy", columnDefinition = "exercises.spotter_policy")
+    private SpotterPolicy spotterPolicy;
 
-    @Column(name = "spotter_required", nullable = false)
-    private boolean spotterRequired;
+    /** Editorial quality of the record, independent of who owns it. */
+    @Convert(converter = CatalogStatusConverter.class)
+    @Column(name = "catalog_status", nullable = false, columnDefinition = "exercises.catalog_status")
+    private CatalogStatus catalogStatus;
 
     @Column(name = "owner_user_id")
     private UUID ownerUserId;
@@ -93,6 +115,14 @@ public class Exercise {
         this.id = id;
     }
 
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
     public String getName() {
         return name;
     }
@@ -101,28 +131,36 @@ public class Exercise {
         this.name = name;
     }
 
-    public DifficultyLevel getDifficulty() {
-        return difficulty;
+    public ExerciseFamily getFamily() {
+        return family;
     }
 
-    public void setDifficulty(DifficultyLevel difficulty) {
-        this.difficulty = difficulty;
+    public void setFamily(ExerciseFamily family) {
+        this.family = family;
     }
 
-    public MechanicsType getMechanics() {
-        return mechanics;
+    public ExerciseKind getExerciseKind() {
+        return exerciseKind;
     }
 
-    public void setMechanics(MechanicsType mechanics) {
-        this.mechanics = mechanics;
+    public void setExerciseKind(ExerciseKind exerciseKind) {
+        this.exerciseKind = exerciseKind;
     }
 
-    public ForceType getForce() {
-        return force;
+    public TechnicalDemand getTechnicalDemand() {
+        return technicalDemand;
     }
 
-    public void setForce(ForceType force) {
-        this.force = force;
+    public void setTechnicalDemand(TechnicalDemand technicalDemand) {
+        this.technicalDemand = technicalDemand;
+    }
+
+    public JointClass getJointClass() {
+        return jointClass;
+    }
+
+    public void setJointClass(JointClass jointClass) {
+        this.jointClass = jointClass;
     }
 
     public boolean isUnilateral() {
@@ -141,20 +179,20 @@ public class Exercise {
         this.bodyweight = bodyweight;
     }
 
-    public RiskLevel getOverallRisk() {
-        return overallRisk;
+    public SpotterPolicy getSpotterPolicy() {
+        return spotterPolicy;
     }
 
-    public void setOverallRisk(RiskLevel overallRisk) {
-        this.overallRisk = overallRisk;
+    public void setSpotterPolicy(SpotterPolicy spotterPolicy) {
+        this.spotterPolicy = spotterPolicy;
     }
 
-    public boolean isSpotterRequired() {
-        return spotterRequired;
+    public CatalogStatus getCatalogStatus() {
+        return catalogStatus;
     }
 
-    public void setSpotterRequired(boolean spotterRequired) {
-        this.spotterRequired = spotterRequired;
+    public void setCatalogStatus(CatalogStatus catalogStatus) {
+        this.catalogStatus = catalogStatus;
     }
 
     public UUID getOwnerUserId() {

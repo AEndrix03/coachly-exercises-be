@@ -1,6 +1,8 @@
 package it.aredegalli.coachly.exercise.model;
 
+import it.aredegalli.coachly.exercise.enums.EquipmentClass;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
+import it.aredegalli.coachly.exercise.model.converter.EquipmentClassConverter;
 import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
@@ -26,6 +28,11 @@ public class Equipment {
 
     @Column(name = "category", nullable = false, length = 50)
     private String category;
+
+    /** Drives filtering, load comparability and substitution. */
+    @Convert(converter = EquipmentClassConverter.class)
+    @Column(name = "equipment_class", columnDefinition = "exercises.equipment_class")
+    private EquipmentClass equipmentClass;
 
     @Convert(converter = RecordStatusConverter.class)
     @Column(name = "status", nullable = false, columnDefinition = "exercises.record_status")
@@ -57,6 +64,14 @@ public class Equipment {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public EquipmentClass getEquipmentClass() {
+        return equipmentClass;
+    }
+
+    public void setEquipmentClass(EquipmentClass equipmentClass) {
+        this.equipmentClass = equipmentClass;
     }
 
     public String getCategory() {
