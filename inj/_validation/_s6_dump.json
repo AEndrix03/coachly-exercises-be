@@ -1,0 +1,5435 @@
+{
+ "machine_chest_press": {
+  "name": "Machine Chest Press",
+  "desc": "Chest press performed on a guided machine that eliminates the need for balance and stabilization.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_machine",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "machine_curl": {
+  "name": "Machine Curl",
+  "desc": "Biceps curl performed on a dedicated machine, keeping elbows fixed and flexing the forearm upwards.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_machine",
+  "m": [
+   "biceps_brachii_short:primary",
+   "brachialis:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "elbow.flexion:primary"
+  ],
+  "p": [
+   "elbow_flexion:primary"
+  ]
+ },
+ "machine_dip": {
+  "name": "Machine Dip",
+  "desc": "Assisted vertical push exercise on a machine to target triceps and chest.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "tri_pushdown",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "machine_hip_thrust": {
+  "name": "Machine Hip Thrust",
+  "desc": "A hip extension exercise performed on a dedicated machine for glute development.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "hip_thrust",
+  "m": [
+   "semitendinosus:secondary",
+   "gluteus_maximus:primary",
+   "gluteus_medius:stabilizer",
+   "biceps_femoris_long:secondary",
+   "semimembranosus:secondary",
+   "erector_spinae:stabilizer",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary"
+  ],
+  "p": [
+   "hip_extension:primary"
+  ]
+ },
+ "machine_inner_chest_press": {
+  "name": "Machine Inner Chest Press",
+  "desc": "Horizontal push for the chest performed on a machine, with a converging trajectory to emphasize the inner pectoral area.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_machine",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "machine_lateral_raise": {
+  "name": "Machine Lateral Raise",
+  "desc": "Machine lateral raise to isolate the lateral deltoid with a guided path and steady tension.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "lateral_raise_machine",
+  "m": [
+   "deltoid_lateral:primary",
+   "trapezius_upper:secondary",
+   "supraspinatus:secondary"
+  ],
+  "j": [
+   "shoulder.abduction:primary"
+  ],
+  "p": [
+   "shoulder_abduction:primary"
+  ]
+ },
+ "machine_pullover": {
+  "name": "Machine Pullover",
+  "desc": "Pullover performed on a dedicated machine that guides the movement through a pulling arc.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "pullover_machine",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "latissimus_dorsi:primary",
+   "teres_major:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary"
+  ],
+  "p": [
+   "shoulder_extension:primary"
+  ]
+ },
+ "machine_row": {
+  "name": "Machine Row",
+  "desc": "Guided machine row to train lats and rhomboids with a stable path and easy progressive loading.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_machine",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "teres_major:secondary",
+   "rhomboids:primary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "machine_shoulder_press": {
+  "name": "Machine Shoulder Press",
+  "desc": "Guided overhead press machine for stable deltoid and triceps work.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_machine",
+  "m": [
+   "deltoid_lateral:primary",
+   "deltoid_anterior:primary",
+   "supraspinatus:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "machine_shoulder_press_with_isometric_lockout_hold": {
+  "name": "Machine Shoulder Press with Isometric Lockout Hold",
+  "desc": "Vertical press on a machine with an isometric pause at full extension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_machine",
+  "m": [
+   "deltoid_lateral:secondary",
+   "trapezius_upper:stabilizer",
+   "deltoid_anterior:primary",
+   "serratus_anterior:stabilizer",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "machine_shrug": {
+  "name": "Machine Shrug",
+  "desc": "Machine-guided shrugs to ensure stability and allow for progressive loading.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "shrug",
+  "m": [
+   "trapezius_upper:primary"
+  ],
+  "j": [
+   "scapula.elevation:primary"
+  ],
+  "p": [
+   "scapular:primary"
+  ]
+ },
+ "maltese_lean": {
+  "name": "Maltese Lean",
+  "desc": "Advanced isometric position with the body leaning outward while supporting weight on parallettes or rings.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "lever_hold",
+  "m": [
+   "deltoid_anterior:primary",
+   "serratus_anterior:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "manual_neck_resistance_extension": {
+  "name": "Manual Neck Resistance - Extension",
+  "desc": "Neck extension performed by applying manual resistance to counteract the upward movement of the head.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_band",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "manual_neck_resistance_flexion": {
+  "name": "Manual Neck Resistance - Flexion",
+  "desc": "Manual resistance exercise for neck flexion using hand-applied pressure.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_band",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "manual_neck_resistance_lateral_flexion": {
+  "name": "Manual Neck Resistance - Lateral Flexion",
+  "desc": "Manual resistance exercise for the neck involving lateral flexion of the head against the opposition of the hand.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_band",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "march_sit_wall": {
+  "name": "March Sit (wall)",
+  "desc": "In a wall squat position, alternate lifting your knees towards your chest while keeping your back against the wall.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "vastus_lateralis:primary",
+   "gluteus_maximus:primary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "medicine_ball_catch_and_overhead_throw": {
+  "name": "Medicine Ball Catch And Overhead Throw",
+  "desc": "A dynamic exercise involving catching and explosively throwing a medicine ball overhead from a squat position.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "biceps_brachii_short:secondary",
+   "deltoid_anterior:primary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "medicine_ball_chest_pass": {
+  "name": "Medicine Ball Chest Pass",
+  "desc": "A frontal medicine ball throw towards a target or partner using a horizontal push movement.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_chest_push_from_3_point_stance": {
+  "name": "Medicine Ball Chest Push From 3 Point Stance",
+  "desc": "Explosive push of a medicine ball starting from a three-point stance (two feet and one hand).",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "obliquus_externus:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_chest_push_multiple_response": {
+  "name": "Medicine Ball Chest Push Multiple Response",
+  "desc": "Pushing a medicine ball forward from the chest with full arm extension.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "obliquus_externus:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_chest_push_single_response": {
+  "name": "Medicine Ball Chest Push Single Response",
+  "desc": "Forward push of a medicine ball from the chest, with a controlled return.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "obliquus_externus:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_chest_push_with_run_release": {
+  "name": "Medicine Ball Chest Push With Run Release",
+  "desc": "Medicine ball chest push followed by a sprint and catching the ball.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_close_grip_push_up": {
+  "name": "Medicine Ball Close Grip Push Up",
+  "desc": "Close-grip push-ups performed with the hands resting on a medicine ball.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "medicine_ball_overhead_slam": {
+  "name": "Medicine Ball Overhead Slam",
+  "desc": "Forcefully slam a medicine ball from the highest point above the head down to the floor.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "latissimus_dorsi:primary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:primary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_slam": {
+  "name": "Medicine Ball Slam",
+  "desc": "Explosive downward throw of a medicine ball from an overhead position.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "obliquus_internus:secondary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medicine_ball_supine_chest_throw": {
+  "name": "Medicine Ball Supine Chest Throw",
+  "desc": "Explosive upward throw of a medicine ball from a supine position on a bench.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "latissimus_dorsi:secondary",
+   "trapezius_middle:secondary",
+   "teres_major:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rhomboids:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary",
+   "shoulder.extension:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "medicine_ball_woodchop": {
+  "name": "Medicine Ball Woodchop",
+  "desc": "Rotational trunk movement simulating a woodchop, performed using a medicine ball.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "woodchop",
+  "m": [
+   "obliquus_internus:primary",
+   "deltoid_anterior:secondary",
+   "obliquus_externus:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "medium_grip_bench_press": {
+  "name": "Medium Grip Bench Press",
+  "desc": "Bench press with shoulder-width grip, balancing pectoral and triceps involvement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_flat",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "mid_cable_fly": {
+  "name": "Mid Cable Fly",
+  "desc": "Horizontal adduction movement using cables set at chest height.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "fly_cable",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "pectoralis_major_clavicular:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "mid_pin_press": {
+  "name": "Mid Pin Press",
+  "desc": "Bench press with pins set at mid-range to target the sticking point.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_floor",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "triceps_brachii_lateral:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "mixed_grip_chin_up": {
+  "name": "Mixed Grip Chin-up",
+  "desc": "Pull-ups with an underhand grip and hands slightly wider than shoulder-width.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "mixed_grip_deadlift": {
+  "name": "Mixed Grip Deadlift",
+  "desc": "A variation of the deadlift using a mixed grip (one hand supine and one hand pronated).",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "semitendinosus:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "modified_hindu_push_up": {
+  "name": "Modified Hindu Push-up",
+  "desc": "A dynamic push-up combining a downward arching descent and an ascent that returns the body to a plank position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "modified_push_up_to_lower_arms": {
+  "name": "Modified Push Up To Lower Arms",
+  "desc": "Performing a push-up variation with forearm support on the ground for increased stability and a different loading angle.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "monster_walk": {
+  "name": "Monster Walk",
+  "desc": "Lateral walk in a semi-squat position using a resistance band.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "band_walk",
+  "m": [
+   "vastus_lateralis:secondary",
+   "gluteus_maximus:primary",
+   "gluteus_medius:secondary",
+   "biceps_femoris_long:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "hip.abduction:primary"
+  ],
+  "p": [
+   "hip_abduction:primary"
+  ]
+ },
+ "mountain_climber": {
+  "name": "Mountain Climber",
+  "desc": "A dynamic movement in a plank position involving alternating knee drives towards the chest.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "mobility_drill",
+  "m": [
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "muscle_snatch": {
+  "name": "Muscle Snatch",
+  "desc": "An explosive movement that brings the barbell from the floor or hip to an overhead position in a single fluid motion.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "olympic_lift",
+  "m": [
+   "semitendinosus:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "muscle_up": {
+  "name": "Muscle-Up",
+  "desc": "Composite movement combining an explosive pull-up followed by a transition and a dip above the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "muscle_up",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "latissimus_dorsi:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "muscle_up_bar": {
+  "name": "Muscle-Up (Bar)",
+  "desc": "Advanced exercise combining pull and push: from a hang, pull above the bar and finish with arms extended above it.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "muscle_up",
+  "m": [
+   "biceps_brachii_short:secondary",
+   "teres_major:primary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "muscle_up_on_vertical_bar": {
+  "name": "Muscle-up (on Vertical Bar)",
+  "desc": "A calisthenics exercise that combines a vertical pull and an upward push to bring the torso above the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "muscle_up",
+  "m": [
+   "latissimus_dorsi:primary",
+   "triceps_brachii_long:secondary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "narrow_foot_leg_press": {
+  "name": "Narrow Foot Leg Press",
+  "desc": "Performing a leg press with feet positioned narrow on the platform to emphasize quadriceps engagement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "latissimus_dorsi:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "trapezius_middle:secondary",
+   "adductor_magnus:secondary",
+   "biceps_brachii_short:secondary",
+   "teres_major:secondary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "narrow_push_up_on_exercise_ball": {
+  "name": "Narrow Push-up On Exercise Ball",
+  "desc": "Performed in a push-up position with hands placed on a stability ball, using a narrow grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "narrow_stance_hack_squat": {
+  "name": "Narrow Stance Hack Squat",
+  "desc": "A hack squat performed on a machine with feet positioned narrowly to emphasize quadriceps engagement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "latissimus_dorsi:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "trapezius_middle:secondary",
+   "adductor_magnus:secondary",
+   "biceps_brachii_short:secondary",
+   "teres_major:secondary",
+   "gluteus_maximus:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "narrow_stance_smith_machine_squat": {
+  "name": "Narrow Stance Smith Machine Squat",
+  "desc": "Technical execution of Narrow Stance Smith Machine Squat: stable setup and core braced, control the eccentric without compensations. Use a useful range and finish each rep with active contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "latissimus_dorsi:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "trapezius_middle:secondary",
+   "adductor_magnus:secondary",
+   "biceps_brachii_short:secondary",
+   "teres_major:secondary",
+   "gluteus_maximus:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "narrow_stance_squat": {
+  "name": "Narrow Stance Squat",
+  "desc": "Squat performed with feet positioned close together, focusing the load on the quadriceps.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "vastus_lateralis:primary",
+   "latissimus_dorsi:secondary",
+   "rectus_femoris:primary",
+   "trapezius_middle:secondary",
+   "biceps_brachii_short:secondary",
+   "teres_major:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "neck_harness_extension": {
+  "name": "Neck Harness Extension",
+  "desc": "An isolation exercise for the neck that uses a harness to perform head extensions.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_harness_flexion": {
+  "name": "Neck Harness Flexion",
+  "desc": "Isolation exercise for the neck involving head flexion using a specific neck harness.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_harness_lateral_flexion": {
+  "name": "Neck Harness Lateral Flexion",
+  "desc": "Lateral flexion of the neck performed using a specific neck harness with added weight.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_machine_extension": {
+  "name": "Neck Machine Extension",
+  "desc": "An isolation exercise for neck extension performed on a dedicated machine.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_machine_flexion": {
+  "name": "Neck Machine Flexion",
+  "desc": "Neck flexion exercise performed using a specific neck training machine.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_machine_lateral_flexion": {
+  "name": "Neck Machine Lateral Flexion",
+  "desc": "Isolation exercise for the neck performed on a specific machine for lateral flexion movements.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_machine",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_rotation_manual_resistance": {
+  "name": "Neck Rotation (Manual Resistance)",
+  "desc": "Neck rotation using manual resistance applied laterally.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "neck_band",
+  "m": [
+   "splenius_capitis:primary",
+   "levator_scapulae:secondary",
+   "scalenes:secondary",
+   "splenius_cervicis:primary",
+   "sternocleidomastoid:primary"
+  ],
+  "j": [
+   "neck.flexion:primary"
+  ],
+  "p": [
+   "neck:primary"
+  ]
+ },
+ "neck_side_stretch": {
+  "name": "Neck Side Stretch",
+  "desc": "Lateral tilting of the head towards the shoulder to stretch the neck muscles.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "stretch",
+  "m": [
+   "trapezius_middle:primary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "negative_chin_up": {
+  "name": "Negative Chin-Up",
+  "desc": "Performing the eccentric phase of the chin-up starting from the top position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "negative_crunch": {
+  "name": "Negative Crunch",
+  "desc": "Abdominal exercise focusing on the eccentric phase, where the torso is slowly lowered back to the floor.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "iliopsoas:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "negative_dragon_flag": {
+  "name": "Negative Dragon Flag",
+  "desc": "Only the eccentric phase of the dragon flag: start at the top and lower down slowly.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "dragon_flag",
+  "m": [
+   "erector_spinae:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "negative_muscle_up": {
+  "name": "Negative Muscle-Up",
+  "desc": "Controlled execution of the eccentric phase of the muscle-up, starting from the dip position above the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "muscle_up",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "latissimus_dorsi:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "neutral_grip_chin_up": {
+  "name": "Neutral-Grip Chin-Up",
+  "desc": "Vertical pull using a neutral grip (palms facing each other) to lift the body toward the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "brachioradialis:secondary",
+   "brachialis:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "neutral_grip_close_grip_lat_pulldown": {
+  "name": "Neutral-Grip Close-Grip Lat Pulldown",
+  "desc": "Vertical pull with a neutral, close grip to emphasize the latissimus dorsi and movement control.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "lat_pulldown",
+  "m": [
+   "latissimus_dorsi:secondary",
+   "teres_major:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "neutral_grip_decline_dumbbell_press": {
+  "name": "Neutral Grip Decline Dumbbell Press",
+  "desc": "Dumbbell press on a decline bench with a neutral grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_decline",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "neutral_grip_dumbbell_press": {
+  "name": "Neutral Grip Dumbbell Press",
+  "desc": "Dumbbell chest press with palms facing each other in a neutral grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_flat",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "neutral_grip_floor_press": {
+  "name": "Neutral Grip Floor Press",
+  "desc": "Floor press with a neutral grip (palms facing each other), performed on the floor to limit joint range of motion.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_floor",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "triceps_brachii_lateral:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "neutral_grip_incline_dumbbell_press": {
+  "name": "Neutral Grip Incline Dumbbell Press",
+  "desc": "Incline dumbbell press performed with a neutral grip, with palms facing each other.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_incline",
+  "m": [
+   "pectoralis_major_clavicular:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "neutral_grip_lat_pulldown": {
+  "name": "Neutral Grip Lat Pulldown",
+  "desc": "A vertical pull using a neutral grip (palms facing each other) on a lat pulldown machine.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "lat_pulldown",
+  "m": [
+   "latissimus_dorsi:primary",
+   "biceps_brachii_short:secondary",
+   "teres_major:secondary",
+   "brachialis:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "neutral_grip_seated_machine_shoulder_press": {
+  "name": "Neutral-Grip Seated Machine Shoulder Press",
+  "desc": "Vertical press for the shoulders performed on a machine with a neutral grip, palms facing each other.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_seated",
+  "m": [
+   "deltoid_lateral:secondary",
+   "trapezius_upper:stabilizer",
+   "deltoid_anterior:primary",
+   "serratus_anterior:stabilizer",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "nordic_curl": {
+  "name": "Nordic Curl",
+  "desc": "Eccentric strength exercise for the knee flexors, performed from a kneeling position with the ankles secured.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "nordic_curl",
+  "m": [
+   "semitendinosus:primary",
+   "gluteus_maximus:secondary",
+   "semimembranosus:primary",
+   "erector_spinae:secondary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "nordic_ham_curl": {
+  "name": "Nordic Ham Curl",
+  "desc": "Strength exercise for the hamstrings performed from a kneeling position, controlling the descent of the torso toward the floor.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "nordic_curl",
+  "m": [
+   "semitendinosus:primary",
+   "biceps_femoris_short:secondary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "nordic_hamstring_curl": {
+  "name": "Nordic Hamstring Curl",
+  "desc": "An eccentric exercise for hamstring strengthening through controlled body descent.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "nordic_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "oblique_crunch": {
+  "name": "Oblique Crunch",
+  "desc": "Crunch with torso rotation to target the obliques.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "iliopsoas:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "oblique_crunch_v_2": {
+  "name": "Oblique Crunch V. 2",
+  "desc": "Oblique crunch with torso rotation to target the obliques.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "obliquus_externus:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "oblique_crunches_floor": {
+  "name": "Oblique Crunches Floor",
+  "desc": "Performing crunches with torso rotation to target the obliques.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "obliquus_externus:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "offset_axle_deadlift_hold": {
+  "name": "Offset Axle Deadlift Hold",
+  "desc": "Isometric hold of an axle bar with asymmetrically distributed weight to increase grip and stability demands.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "gluteus_maximus:secondary",
+   "forearm_flexors:primary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "offset_plate_pinch_hold": {
+  "name": "Offset Plate Pinch Hold",
+  "desc": "Isometric hold of a weight plate using an offset pinch grip to increase stability demands and grip control.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "grip_hold",
+  "m": [
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "offset_push_up": {
+  "name": "Offset Push-Up",
+  "desc": "Push-up with one hand positioned further forward or offset from the other.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "pectoralis_major_clavicular:primary",
+   "deltoid_anterior:secondary",
+   "serratus_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:primary",
+   "triceps_brachii_medial:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "offset_thick_bar_deadlift_hold": {
+  "name": "Offset Thick Bar Deadlift Hold",
+  "desc": "Isometric hold with offset and thick bar loading to increase grip and core stability demands.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "gluteus_maximus:secondary",
+   "forearm_flexors:primary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "olympic_barbell_hammer_curl": {
+  "name": "Olympic Barbell Hammer Curl",
+  "desc": "Hammer curl using an Olympic barbell with a neutral grip, palms facing inward.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_standing",
+  "m": [
+   "forearm_flexors:primary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "elbow.flexion:primary"
+  ],
+  "p": [
+   "elbow_flexion:primary"
+  ]
+ },
+ "olympic_barbell_triceps_extension": {
+  "name": "Olympic Barbell Triceps Extension",
+  "desc": "A triceps isolation exercise performed with an Olympic barbell, starting from an overhead position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "one_arm_against_wall": {
+  "name": "One Arm Against Wall",
+  "desc": "Unilateral push against a wall while keeping the body leaned and the arm extended to activate the latissimus dorsi.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "latissimus_dorsi:primary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "one_arm_chin_up": {
+  "name": "One Arm Chin-up",
+  "desc": "One-arm pull-up with an underhand grip towards a bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "one_arm_chin_up_progression": {
+  "name": "One-Arm Chin-Up Progression",
+  "desc": "A unilateral vertical pull progression using various transitional phases to achieve a full one-arm chin-up.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "brachioradialis:secondary",
+   "brachialis:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "one_arm_dead_hang": {
+  "name": "One-Arm Dead Hang",
+  "desc": "Static hang from a bar using a single hand, maintaining body stability and avoiding swinging.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "one_arm_dip": {
+  "name": "One Arm Dip",
+  "desc": "A unilateral push exercise performed by supporting one hand on an elevated surface to lower and raise the torso.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "tri_dip",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "one_arm_passive_bar_hang": {
+  "name": "One-Arm Passive Bar Hang",
+  "desc": "Passive hang from a bar with a single arm, keeping the body relaxed to stretch the shoulder joints.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "one_arm_pull_up": {
+  "name": "One-Arm Pull-Up",
+  "desc": "A vertical pull performed with a single arm on a pull-up bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pullup",
+  "m": [
+   "biceps_brachii_short:secondary",
+   "teres_major:primary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "one_arm_slam_with_medicine_ball": {
+  "name": "One Arm Slam (with Medicine Ball)",
+  "desc": "One-arm medicine ball slam, starting from full extension above the head.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "latissimus_dorsi:secondary",
+   "obliquus_internus:secondary",
+   "deltoid_anterior:primary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "one_arm_towel_row": {
+  "name": "One Arm Towel Row",
+  "desc": "Unilateral row performed using a towel anchored to a stable point.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "forearm_flexors:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "one_leg_donkey_calf_raise": {
+  "name": "One Leg Donkey Calf Raise",
+  "desc": "Unilateral calf exercise performed standing, raising the heel upward while one leg is lifted off the ground.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "gluteus_maximus:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "one_leg_floor_calf_raise": {
+  "name": "One Leg Floor Calf Raise",
+  "desc": "Single-leg heel raise performed on the floor.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "tibialis_anterior:primary",
+   "gastrocnemius_medial:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "one_leg_squat": {
+  "name": "One Leg Squat",
+  "desc": "Squat performed on a single leg, keeping the other leg extended forward.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "vastus_lateralis:primary",
+   "gluteus_maximus:primary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "otis_up": {
+  "name": "Otis Up",
+  "desc": "Partial upper body lift from a supine position with knees bent.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "iliopsoas:primary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "outside_leg_kick_push_up": {
+  "name": "Outside Leg Kick Push-up",
+  "desc": "Perform a push-up combined with an alternating side leg kick.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "vastus_lateralis:primary",
+   "pectoralis_major_clavicular:secondary",
+   "triceps_brachii_long:secondary",
+   "gluteus_maximus:primary",
+   "triceps_brachii_lateral:secondary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "overhand_grip_deadlift": {
+  "name": "Overhand Grip Deadlift",
+  "desc": "Barbell deadlift performed using an overhand grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "semitendinosus:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "overhead_band_pull_apart": {
+  "name": "Overhead Band Pull-Apart",
+  "desc": "Arm pull-apart using a resistance band while keeping the arms raised overhead.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "band_pull_apart",
+  "m": [
+   "teres_minor:secondary",
+   "infraspinatus:secondary",
+   "deltoid_posterior:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_abduction:primary",
+   "scapula.retraction:secondary"
+  ],
+  "p": [
+   "shoulder_horizontal_abduction:primary"
+  ]
+ },
+ "overhead_band_tricep_extension": {
+  "name": "Overhead Band Tricep Extension",
+  "desc": "Overhead arm extension using a resistance band to isolate the triceps.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_cable_curl": {
+  "name": "Overhead Cable Curl",
+  "desc": "Isolation exercise for the biceps performed using cables, keeping the arms in an overhead or slightly behind-the-body position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_overhead_cable",
+  "m": [
+   "biceps_brachii_short:primary",
+   "brachioradialis:secondary",
+   "brachialis:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "elbow.flexion:primary"
+  ],
+  "p": [
+   "elbow_flexion:primary"
+  ]
+ },
+ "overhead_carry": {
+  "name": "Overhead Carry",
+  "desc": "Walking while holding a weight overhead in a static position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "carry_overhead",
+  "m": [
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "spine.anti_extension:secondary"
+  ],
+  "p": [
+   "carry:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "overhead_farmer_carry": {
+  "name": "Overhead Farmer Carry",
+  "desc": "Walking while holding weights raised above the head with arms fully extended.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "carry_overhead",
+  "m": [
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "spine.anti_extension:secondary"
+  ],
+  "p": [
+   "carry:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "overhead_farmer_carry_march": {
+  "name": "Overhead Farmer Carry March",
+  "desc": "Carrying a load held overhead while marching in place with strict control of stability.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "carry_overhead",
+  "m": [
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "spine.anti_extension:secondary"
+  ],
+  "p": [
+   "carry:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "overhead_hold": {
+  "name": "Overhead Hold",
+  "desc": "Isometric hold with weight overhead with arms extended.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "carry_overhead",
+  "m": [
+   "deltoid_lateral:primary",
+   "trapezius_upper:secondary",
+   "deltoid_anterior:primary",
+   "supraspinatus:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "spine.anti_extension:secondary"
+  ],
+  "p": [
+   "carry:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "overhead_pallof_press": {
+  "name": "Overhead Pallof Press",
+  "desc": "An anti-rotation exercise performed by holding a handle or band in an overhead position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "pallof_press",
+  "m": [
+   "obliquus_internus:primary",
+   "deltoid_anterior:secondary",
+   "obliquus_externus:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_rotation:primary"
+  ],
+  "p": [
+   "anti_rotation:primary"
+  ]
+ },
+ "overhead_single_arm_overhead_carry": {
+  "name": "Overhead Single-Arm Overhead Carry",
+  "desc": "Single-arm overhead carry involving moving with a weight held above the head while maintaining trunk stability and vertical alignment.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "carry_overhead",
+  "m": [
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "spine.anti_extension:secondary"
+  ],
+  "p": [
+   "carry:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "overhead_skull_crusher": {
+  "name": "Overhead Skull Crusher",
+  "desc": "Triceps extension exercise with a barbell lowered behind the head, performed seated or standing.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_skullcrusher",
+  "m": [
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_squat": {
+  "name": "Overhead Squat",
+  "desc": "Squat performed while holding a barbell overhead throughout the entire movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_front",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "overhead_squat_triceps_press": {
+  "name": "Overhead Squat Triceps Press",
+  "desc": "Performing a squat with arms extended overhead, followed by a downward press using the triceps while in the squat position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_tricep_extension": {
+  "name": "Overhead Tricep Extension",
+  "desc": "Isolation exercise for the long head of the triceps in a stretched position with the arm overhead.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_tricep_extension_with_dumbbell": {
+  "name": "Overhead Tricep Extension with Dumbbell",
+  "desc": "Arm extension starting from an overhead position to isolate the triceps.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_triceps_extension": {
+  "name": "Overhead Triceps Extension",
+  "desc": "Triceps extension performed with the arm raised overhead, flexing and then extending the elbow.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "overhead_triceps_stretch": {
+  "name": "Overhead Triceps Stretch",
+  "desc": "Triceps stretch performed by bringing the arm overhead and bending the elbow to touch the shoulder blade.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "stretch",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "pacing_row": {
+  "name": "Pacing Row",
+  "desc": "Rowing variation on an ergometer with a focus on consistent pace and technique.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "cardio_cyclic",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "pallof_press": {
+  "name": "Pallof Press",
+  "desc": "Anti-rotation core exercise using a cable that exerts a lateral pull.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "pallof_press",
+  "m": [
+   "obliquus_internus:primary",
+   "deltoid_anterior:secondary",
+   "obliquus_externus:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_rotation:primary"
+  ],
+  "p": [
+   "anti_rotation:primary"
+  ]
+ },
+ "pallof_press_with_band": {
+  "name": "Pallof Press (with Band)",
+  "desc": "Anti-rotation exercise where the band is pressed forward while keeping the torso stationary.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "pallof_press",
+  "m": [
+   "obliquus_internus:primary",
+   "deltoid_anterior:secondary",
+   "obliquus_externus:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "spine.anti_rotation:primary"
+  ],
+  "p": [
+   "anti_rotation:primary"
+  ]
+ },
+ "parallel_bar_dip": {
+  "name": "Parallel Bar Dip",
+  "desc": "Support yourself on parallel bars with arms extended, lower with control until the chest muscles stretch, and press back up.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "tri_dip",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "serratus_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "parallel_bar_leg_raise": {
+  "name": "Parallel Bar Leg Raise",
+  "desc": "Leg raises performed while hanging from parallel bars.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "leg_raise_hanging",
+  "m": [
+   "rectus_femoris:secondary",
+   "sartorius:secondary",
+   "iliopsoas:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "hip.flexion:primary",
+   "spine.flexion:secondary"
+  ],
+  "p": [
+   "spinal_flexion:secondary",
+   "hip_flexion:primary"
+  ]
+ },
+ "partial_leg_extension": {
+  "name": "Partial Leg Extension",
+  "desc": "Leg extension machine exercise performed by limiting the range of motion to the upper part of the concentric phase.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "leg_extension",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tensor_fasciae_latae:secondary"
+  ],
+  "j": [
+   "knee.extension:primary"
+  ],
+  "p": [
+   "knee_extension:primary"
+  ]
+ },
+ "passive_bar_hang": {
+  "name": "Passive Bar Hang",
+  "desc": "Passive suspension from a bar, keeping the body relaxed and the shoulder joints in extension.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "pause_back_extension": {
+  "name": "Pause Back Extension",
+  "desc": "Back extension with an isometric pause at peak extension to increase erector spinae time under tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "back_extension",
+  "m": [
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "erector_spinae:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.extension:secondary"
+  ],
+  "p": [
+   "hip_extension:primary",
+   "spinal_extension:secondary"
+  ]
+ },
+ "pause_bench_press": {
+  "name": "Pause Bench Press",
+  "desc": "Bench press variation with a 1-3 second pause at chest contact before pressing upward.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_flat",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pause_close_grip_bench_press": {
+  "name": "Pause Close Grip Bench Press",
+  "desc": "Close grip bench press with a pause at the chest to eliminate bounce and maximize triceps concentric work.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "tri_close_press",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "triceps_brachii_lateral:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pause_conventional_deadlift": {
+  "name": "Pause Conventional Deadlift",
+  "desc": "Conventional deadlift with a controlled pause during the ascent, to improve control and isometric strength.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "erector_spinae:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "pause_cyclist_squat": {
+  "name": "Pause Cyclist Squat",
+  "desc": "Squat with heels elevated and an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pause_decline_press": {
+  "name": "Pause Decline Press",
+  "desc": "Decline bench press with a 1-2 second pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_decline",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pause_front_foot_elevated_split_squat": {
+  "name": "Pause Front-Foot Elevated Split Squat",
+  "desc": "Execution of a split squat with the front foot elevated, including an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "split_squat",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pause_front_squat": {
+  "name": "Pause Front Squat",
+  "desc": "Front squat with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_front",
+  "m": [
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pause_incline_bench_press": {
+  "name": "Pause Incline Bench Press",
+  "desc": "Incline bench press variant with a 1-3 second pause at the chest. Eliminates elastic energy and improves neuromuscular control in the clavicular pectoral region.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_incline",
+  "m": [
+   "pectoralis_major_clavicular:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "pause_rack_pull": {
+  "name": "Pause Rack Pull",
+  "desc": "Rack pull with an isometric pause during the ascent phase of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "erector_spinae:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "pause_squat": {
+  "name": "Pause Squat",
+  "desc": "Performing a squat with a brief pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "gluteus_maximus:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pause_strict_pull_up": {
+  "name": "Pause Strict Pull-Up",
+  "desc": "Pull-ups performed with an isometric pause at the top of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pullup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "pause_sumo_deficit_deadlift": {
+  "name": "Pause Sumo Deficit Deadlift",
+  "desc": "Sumo deficit deadlift with a controlled pause to increase postural control and isometric strength.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "adductor_magnus:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "pause_sumo_rack_pull": {
+  "name": "Pause Sumo Rack Pull",
+  "desc": "Sumo rack pull with a pause at the sticking range to build positional strength and control.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "deadlift_conventional",
+  "m": [
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "erector_spinae:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "squat:secondary"
+  ]
+ },
+ "pause_wide_stance_back_squat": {
+  "name": "Pause Wide Stance Back Squat",
+  "desc": "Back squat performed with a wider than normal foot placement and a pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "vastus_intermedius:secondary",
+   "vastus_lateralis:secondary",
+   "rectus_femoris:secondary",
+   "vastus_medialis:secondary",
+   "adductor_magnus:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pause_wide_stance_good_morning": {
+  "name": "Pause Wide Stance Good Morning",
+  "desc": "Wide stance Good Morning variation with a pause at the end range to build positional strength and hinge control.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "good_morning",
+  "m": [
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary",
+   "erector_spinae:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary"
+  ]
+ },
+ "paused_active_hang": {
+  "name": "Paused Active Hang",
+  "desc": "Active hang from a bar with an isometric pause held in a specific position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "paused_air_squat": {
+  "name": "Paused Air Squat",
+  "desc": "Performing an air squat with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_bodyweight",
+  "m": [
+   "rectus_femoris:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "paused_archer_chin_up": {
+  "name": "Paused Archer Chin-Up",
+  "desc": "Unilateral pull-up with an underhand grip where the body shifts laterally, including an isometric pause at the peak of the contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_assisted_nordic_curl": {
+  "name": "Paused Assisted Nordic Curl",
+  "desc": "A knee flexion exercise with assistance, featuring an isometric pause at the point of maximum extension.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "nordic_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_bear_crawl_hold": {
+  "name": "Paused Bear Crawl Hold",
+  "desc": "Holding a quadruped position with knees hovering above the ground in a bear crawl setup.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "crawl",
+  "m": [
+   "obliquus_internus:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "gluteus_maximus:secondary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_rotation:primary"
+  ],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "paused_bear_plank": {
+  "name": "Paused Bear Plank",
+  "desc": "Isometric quadruped position with knees hovering above the ground, maintaining a flat back.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "paused_bent_knee_calf_raise": {
+  "name": "Paused Bent-Knee Calf Raise",
+  "desc": "Raising the toes with knees bent and holding a pause at the maximum stretch.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_seated",
+  "m": [
+   "soleus:primary",
+   "tibialis_anterior:stabilizer",
+   "gastrocnemius_medial:secondary",
+   "gastrocnemius_lateral:secondary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_bodyweight_triceps_extension": {
+  "name": "Paused Bodyweight Triceps Extension",
+  "desc": "Bodyweight triceps extension with an isometric pause at the point of maximum stretch.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "paused_close_grip_chin_up": {
+  "name": "Paused Close-Grip Chin-Up",
+  "desc": "Chin-ups with a narrow grip and palms facing yourself, including an isometric pause at the peak of contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_commando_pull_up": {
+  "name": "Paused Commando Pull-Up",
+  "desc": "Commando pull-ups performed with a mid-point pause to increase time under tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pullup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_eccentric_calf_raise": {
+  "name": "Paused Eccentric Calf Raise",
+  "desc": "Calf raise with a slow eccentric phase and a pause in the fully stretched position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "gluteus_maximus:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_elevated_pike_push_up": {
+  "name": "Paused Elevated Pike Push-Up",
+  "desc": "Pike push-up with feet elevated on a platform, including an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "paused_fingertip_plank": {
+  "name": "Paused Fingertip Plank",
+  "desc": "Isometric plank performed by supporting weight on fingertips instead of the palm.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "paused_glute_bridge": {
+  "name": "Paused Glute Bridge",
+  "desc": "Hip extension exercise in supine position with an isometric pause at the point of peak contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "glute_bridge",
+  "m": [
+   "gluteus_maximus:primary"
+  ],
+  "j": [
+   "hip.extension:primary"
+  ],
+  "p": [
+   "hip_extension:primary"
+  ]
+ },
+ "paused_glute_ham_raise": {
+  "name": "Paused Glute-Ham Raise",
+  "desc": "An exercise involving hip and knee extension performed on a GHD to emphasize isometric contraction at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "leg_curl_lying",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_hamstring_walkout": {
+  "name": "Paused Hamstring Walkout",
+  "desc": "Stability and strength exercise for the hamstrings performed by walking the heels forward from a bridge position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "slider_leg_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_handstand_hold": {
+  "name": "Paused Handstand Hold",
+  "desc": "Holding a handstand position with hands on the floor and body in alignment, incorporating pauses.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "handstand_hold",
+  "m": [
+   "deltoid_anterior:primary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "paused_handstand_push_up": {
+  "name": "Paused Handstand Push-Up",
+  "desc": "Handstand push-up with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "paused_handstand_shrug": {
+  "name": "Paused Handstand Shrug",
+  "desc": "Shoulder shrugs performed in a handstand position, featuring an isometric pause at the peak of the contraction.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "shrug",
+  "m": [
+   "trapezius_upper:secondary",
+   "deltoid_anterior:primary"
+  ],
+  "j": [
+   "scapula.elevation:primary"
+  ],
+  "p": [
+   "scapular:primary"
+  ]
+ },
+ "paused_hanging_knee_raise": {
+  "name": "Paused Hanging Knee Raise",
+  "desc": "Hanging knee raises with an isometric pause at the point of maximum contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "leg_raise_hanging",
+  "m": [
+   "rectus_femoris:secondary",
+   "sartorius:secondary",
+   "iliopsoas:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "hip.flexion:primary",
+   "spine.flexion:secondary"
+  ],
+  "p": [
+   "spinal_flexion:secondary",
+   "hip_flexion:primary"
+  ]
+ },
+ "paused_hip_hinge_good_morning": {
+  "name": "Paused Hip Hinge Good Morning",
+  "desc": "Performing a hip hinge movement with an isometric pause at the point of maximum flexion.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "good_morning",
+  "m": [
+   "semitendinosus:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary"
+  ]
+ },
+ "paused_hollow_body_hold": {
+  "name": "Paused Hollow Body Hold",
+  "desc": "Isometric hold of the hollow body position with integrated pauses to increase muscular tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "hollow_hold",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "paused_isometric_calf_raise_hold": {
+  "name": "Paused Isometric Calf Raise Hold",
+  "desc": "Isometric hold of the calf contraction at the peak of the movement.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "gluteus_maximus:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_isometric_chin_up_hold": {
+  "name": "Paused Isometric Chin-Up Hold",
+  "desc": "Isometric hold at the top of a chin-up position with the chin above the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_knuckle_push_up": {
+  "name": "Paused Knuckle Push-Up",
+  "desc": "Push-up performed on the knuckles with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "paused_l_sit_hold": {
+  "name": "Paused L-Sit Hold",
+  "desc": "Isometric hold of the L-Sit position with integrated pauses to increase time under tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "l_sit",
+  "m": [
+   "rectus_femoris:secondary",
+   "sartorius:secondary",
+   "iliopsoas:primary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.flexion:primary"
+  ],
+  "p": [
+   "hip_flexion:primary"
+  ]
+ },
+ "paused_lying_leg_curl": {
+  "name": "Paused Lying Leg Curl",
+  "desc": "Perform the lying leg curl with a 2-3 second pause at the point of maximal knee flexion.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "leg_curl_lying",
+  "m": [
+   "semitendinosus:primary",
+   "biceps_femoris_short:primary",
+   "gluteus_maximus:stabilizer",
+   "gastrocnemius_medial:secondary",
+   "gastrocnemius_lateral:secondary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_machine_hip_thrust": {
+  "name": "Paused Machine Hip Thrust",
+  "desc": "Performing a machine hip thrust with an isometric hold at peak hip extension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "hip_thrust",
+  "m": [
+   "semitendinosus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:secondary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary"
+  ],
+  "p": [
+   "hip_extension:primary"
+  ]
+ },
+ "paused_neutral_grip_chin_up": {
+  "name": "Paused Neutral-Grip Chin-Up",
+  "desc": "Neutral-grip pull-ups with an isometric pause at the top of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_nordic_curl": {
+  "name": "Paused Nordic Curl",
+  "desc": "Knee flexion exercise emphasizing the eccentric phase and an isometric pause at the point of maximum stretch.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "nordic_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_overhead_press": {
+  "name": "Paused Overhead Press",
+  "desc": "Overhead press with a 1-2 second pause at the most difficult point to eliminate momentum.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_standing",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "paused_parallel_bar_dip": {
+  "name": "Paused Parallel Bar Dip",
+  "desc": "Vertical pushing exercise for the chest and triceps featuring an isometric pause at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "tri_dip",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "paused_pec_deck_fly_peak_contraction_hold": {
+  "name": "Paused Pec Deck Fly (Peak Contraction Hold)",
+  "desc": "Perform Pec Deck flies by bringing the pads together and holding the peak contraction for several seconds before returning to the starting position.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "fly_machine",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "serratus_anterior:stabilizer"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "paused_pike_hold": {
+  "name": "Paused Pike Hold",
+  "desc": "Isometric position with hips elevated and hands on the floor, simulating an inverted V configuration.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "handstand_hold",
+  "m": [
+   "deltoid_anterior:primary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "paused_pistol_squat": {
+  "name": "Paused Pistol Squat",
+  "desc": "Single-leg squat with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pistol_squat",
+  "m": [
+   "rectus_femoris:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "paused_pistol_squat_progression": {
+  "name": "Paused Pistol Squat Progression",
+  "desc": "Pistol Squat variation featuring an isometric pause at the bottom or the most challenging point of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pistol_squat",
+  "m": [
+   "vastus_intermedius:secondary",
+   "vastus_lateralis:secondary",
+   "rectus_femoris:secondary",
+   "vastus_medialis:secondary",
+   "gluteus_maximus:primary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "paused_pogo_jump": {
+  "name": "Paused Pogo Jump",
+  "desc": "Plyometric jump performed with rapid repetitions and a brief isometric pause at the end of each bounce.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plyometric",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "jump:primary"
+  ]
+ },
+ "paused_rope_climb": {
+  "name": "Paused Rope Climb",
+  "desc": "Rope climb with isometric pauses at different heights during the ascent.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "rope_climb",
+  "m": [
+   "latissimus_dorsi:primary",
+   "deltoid_anterior:secondary",
+   "forearm_flexors:primary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_seated_calf_raise": {
+  "name": "Paused Seated Calf Raise",
+  "desc": "Seated calf raise with an isometric pause at the peak of the contraction at the top of the movement.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_seated",
+  "m": [
+   "soleus:primary",
+   "tibialis_anterior:stabilizer",
+   "gastrocnemius_medial:secondary",
+   "gastrocnemius_lateral:secondary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_shrimp_squat": {
+  "name": "Paused Shrimp Squat",
+  "desc": "Unilateral squat where the free leg's knee descends toward the floor, featuring an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pistol_squat",
+  "m": [
+   "vastus_intermedius:secondary",
+   "vastus_lateralis:secondary",
+   "rectus_femoris:secondary",
+   "vastus_medialis:secondary",
+   "gluteus_maximus:primary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "paused_side_plank": {
+  "name": "Paused Side Plank",
+  "desc": "Side plank with a pause held at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "paused_single_leg_glute_bridge": {
+  "name": "Paused Single-Leg Glute Bridge",
+  "desc": "Lifting the hips from the floor with one leg extended and the other flexed, maintaining an isometric pause at the peak contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "glute_bridge",
+  "m": [
+   "gluteus_maximus:primary"
+  ],
+  "j": [
+   "hip.extension:primary"
+  ],
+  "p": [
+   "hip_extension:primary"
+  ]
+ },
+ "paused_single_leg_hop": {
+  "name": "Paused Single-Leg Hop",
+  "desc": "Single-leg hop with a brief pause upon landing to improve stability and reactivity.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plyometric",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "jump:primary"
+  ]
+ },
+ "paused_single_leg_rdl": {
+  "name": "Paused Single-Leg RDL",
+  "desc": "Single-leg Romanian deadlift performed with an isometric pause at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "rdl",
+  "m": [
+   "semitendinosus:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary"
+  ]
+ },
+ "paused_single_leg_sliding_curl": {
+  "name": "Paused Single-Leg Sliding Curl",
+  "desc": "Single-leg knee flexion using a sliding disc, featuring an isometric pause at the peak of contraction.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "slider_leg_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_sliding_leg_curl": {
+  "name": "Paused Sliding Leg Curl",
+  "desc": "Leg curl variation performed on a sliding surface to emphasize the isometric phase.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "slider_leg_curl",
+  "m": [
+   "semitendinosus:primary"
+  ],
+  "j": [
+   "knee.flexion:primary"
+  ],
+  "p": [
+   "knee_flexion:primary"
+  ]
+ },
+ "paused_split_squat": {
+  "name": "Paused Split Squat",
+  "desc": "Split squat with an isometric pause at the bottom of the movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "split_squat",
+  "m": [
+   "rectus_femoris:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "paused_stair_calf_raise": {
+  "name": "Paused Stair Calf Raise",
+  "desc": "Calf raises performed on a step with the added isometric pause at each phase of the movement.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "gluteus_maximus:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_straight_bar_dip": {
+  "name": "Paused Straight Bar Dip",
+  "desc": "Dips performed on a straight bar with an isometric pause at the bottom or peak contraction point.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "tri_dip",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "paused_toe_walk": {
+  "name": "Paused Toe Walk",
+  "desc": "Walking exercise performed by keeping the weight on the balls of the feet with short isometric pauses during each step.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "calf_raise_standing",
+  "m": [
+   "gluteus_maximus:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [
+   "ankle.plantar_flexion:primary"
+  ],
+  "p": [
+   "plantar_flexion:primary"
+  ]
+ },
+ "paused_towel_chin_up": {
+  "name": "Paused Towel Chin-Up",
+  "desc": "Chin-ups using a towel for grip, including an isometric pause at the point of maximum contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "chinup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "paused_towel_hang": {
+  "name": "Paused Towel Hang",
+  "desc": "A passive hang using a towel to increase grip challenge, incorporating an isometric pause.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "paused_wall_triceps_extension": {
+  "name": "Paused Wall Triceps Extension",
+  "desc": "Triceps extension performed by leaning against a wall, incorporating an isometric pause at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "tri_overhead",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:secondary",
+   "triceps_brachii_medial:secondary"
+  ],
+  "j": [
+   "elbow.extension:primary"
+  ],
+  "p": [
+   "elbow_extension:primary"
+  ]
+ },
+ "paused_wall_walk": {
+  "name": "Paused Wall Walk",
+  "desc": "Dynamic stability exercise where you walk your hands toward a wall, incorporating isometric pauses during the movement.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "mobility_drill",
+  "m": [
+   "deltoid_anterior:primary"
+  ],
+  "j": [],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "paused_wrist_push_up": {
+  "name": "Paused Wrist Push-Up",
+  "desc": "Push-up performed with flexed wrists, featuring an isometric pause at the point of maximum tension.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pec_deck_chest_fly_machine": {
+  "name": "Pec Deck / Chest Fly Machine",
+  "desc": "Pectoral isolation exercise on a butterfly machine where the elbows are brought together in front of the chest.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "fly_machine",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pelvic_tilt": {
+  "name": "Pelvic Tilt",
+  "desc": "Lie on your back with knees bent and feet flat. Tilt your pelvis upward to press your lower back into the ground.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "yoga_pose",
+  "m": [
+   "erector_spinae:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "pelvic_tilt_into_bridge": {
+  "name": "Pelvic Tilt Into Bridge",
+  "desc": "Lifting the hips off the ground from a supine position with knees bent, integrating an initial pelvic tilt.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "yoga_pose",
+  "m": [
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "pendlay_chest_supported_row": {
+  "name": "Pendlay Chest-Supported Row",
+  "desc": "Chest-supported row performed on a bench, emphasizing explosive concentric phase and a controlled reset.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_chest_supported",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "biceps_brachii_short:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "pendlay_row": {
+  "name": "Pendlay Row",
+  "desc": "Rowing variation with torso parallel to the floor and barbell starting from the ground each rep.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "biceps_brachii_short:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "pendlay_underhand_barbell_row": {
+  "name": "Pendlay Underhand Barbell Row",
+  "desc": "Barbell row variation where the bar starts from the floor on every rep, performed with an underhand grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_barbell",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_middle:secondary",
+   "biceps_brachii_short:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "penguin_jump_jump_rope": {
+  "name": "Penguin Jump (Jump Rope)",
+  "desc": "Jump rope exercise where the feet stay close together, simulating a penguin-like movement.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plyometric",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "jump:primary"
+  ]
+ },
+ "peroneals_stretch": {
+  "name": "Peroneals Stretch",
+  "desc": "Sit on the ground with legs extended and use a rope to pull the foot inward, stretching the peroneal muscles.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "stretch",
+  "m": [
+   "tibialis_anterior:primary",
+   "gastrocnemius_medial:primary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "pike_compression_lift": {
+  "name": "Pike Compression Lift",
+  "desc": "A strength and mobility exercise requiring lifting the body while maintaining an inverted V or compressed position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "leg_raise_hanging",
+  "m": [
+   "rectus_femoris:secondary",
+   "sartorius:secondary",
+   "iliopsoas:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "hip.flexion:primary",
+   "spine.flexion:secondary"
+  ],
+  "p": [
+   "spinal_flexion:secondary",
+   "hip_flexion:primary"
+  ]
+ },
+ "pike_hold": {
+  "name": "Pike Hold",
+  "desc": "Static hold in an inverted V position with weight supported by the hands and feet on the floor.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "handstand_hold",
+  "m": [
+   "deltoid_lateral:primary",
+   "deltoid_anterior:primary",
+   "serratus_anterior:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "pike_push_up": {
+  "name": "Pike Push-Up",
+  "desc": "Push-ups with hips raised high forming an inverted V; the body angles downward as the arms bend.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "deltoid_lateral:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pike_to_cobra_push_up": {
+  "name": "Pike-to-cobra Push-up",
+  "desc": "A dynamic transition between an inverted V-shape (pike) and a cobra pose through a sequence of push-ups.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "gluteus_maximus:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pin_press": {
+  "name": "Pin Press",
+  "desc": "Bench press with the barbell resting on rack pins at a specific height, allowing a dead-stop start. Eliminates the stretch reflex to build strength from specific joint angles.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_floor",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pin_press_chest_level": {
+  "name": "Pin Press (Chest Level)",
+  "desc": "Barbell press starting from the safety pins of the rack positioned at chest height.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "bench_floor",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pin_press_overhead": {
+  "name": "Pin Press Overhead",
+  "desc": "Vertical press with a barbell starting from a dead stop on safety pins in a rack.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_standing",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "pin_squat": {
+  "name": "Pin Squat",
+  "desc": "Squat variant where the barbell starts from fixed pins, eliminating the stretch reflex to train concentric strength.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "rectus_femoris:primary",
+   "gluteus_maximus:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pistol_squat": {
+  "name": "Pistol Squat",
+  "desc": "A single-leg squat performed with the non-working leg extended forward.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pistol_squat",
+  "m": [
+   "vastus_lateralis:primary",
+   "rectus_femoris:primary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pistol_squat_progression": {
+  "name": "Pistol Squat Progression",
+  "desc": "Unilateral bodyweight squat performed through various difficulty stages to develop strength and and mobility.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pistol_squat",
+  "m": [
+   "vastus_intermedius:secondary",
+   "vastus_lateralis:secondary",
+   "rectus_femoris:secondary",
+   "vastus_medialis:secondary",
+   "gluteus_maximus:primary",
+   "gluteus_medius:primary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "planche_lean": {
+  "name": "Planche Lean",
+  "desc": "Isometric hold with the body tilted forward and arms fully extended.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "planche",
+  "m": [
+   "deltoid_anterior:secondary",
+   "serratus_anterior:primary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "planche_lean_push_up": {
+  "name": "Planche Lean Push-Up",
+  "desc": "Push-ups performed with the torso leaned forward to increase the load on the shoulders.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "serratus_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "planche_push_up": {
+  "name": "Planche Push-Up",
+  "desc": "A bodyweight pressing exercise where the body is held parallel to the ground throughout the entire push-up movement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "serratus_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "triceps_brachii_lateral:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "plank": {
+  "name": "Plank",
+  "desc": "Fundamental isometric core stability exercise. Engages the transversus abdominis, rectus abdominis, obliques, and spinal stabilizers in static contraction.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "plate_halo": {
+  "name": "Plate Halo",
+  "desc": "Rotating a weight plate around the head while keeping the torso stable and the core engaged.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "throw",
+  "m": [
+   "obliquus_internus:secondary",
+   "obliquus_externus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "plate_loaded_shoulder_press": {
+  "name": "Plate Loaded Shoulder Press",
+  "desc": "Vertical press on a lever machine with plate loading.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "ohp_machine",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "plate_neck_curl": {
+  "name": "Plate Neck Curl",
+  "desc": "Neck flexion exercise performed by placing a weight plate on the forehead.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_wrist",
+  "m": [
+   "brachialis:secondary",
+   "forearm_flexors:primary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "wrist.flexion:primary"
+  ],
+  "p": [
+   "wrist_flexion:primary"
+  ]
+ },
+ "plate_pinch": {
+  "name": "Plate Pinch",
+  "desc": "Isometric hold of a weight plate using a pinch grip between the thumb and fingers.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "grip_hold",
+  "m": [
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "plate_pinch_hold": {
+  "name": "Plate Pinch Hold",
+  "desc": "Isometric pinch-grip hold: squeeze two smooth plates between fingers and thumb with neutral wrists and shoulders down.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "grip_hold",
+  "m": [
+   "brachioradialis:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "plate_raise": {
+  "name": "Plate Raise",
+  "desc": "Front raise performed with a weight plate to emphasize the anterior delt and shoulder control.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "lateral_raise_db",
+  "m": [
+   "deltoid_lateral:secondary",
+   "deltoid_anterior:primary",
+   "supraspinatus:secondary"
+  ],
+  "j": [
+   "shoulder.abduction:primary"
+  ],
+  "p": [
+   "shoulder_abduction:primary"
+  ]
+ },
+ "plyo_push_up": {
+  "name": "Plyo Push Up",
+  "desc": "Explosive push-ups involving pushing the hands off the ground during the concentric phase.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "plyometric_push_up": {
+  "name": "Plyometric Push-Up",
+  "desc": "Explosive push-ups where the push is sufficient to lift the hands off the ground.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pogo_jump": {
+  "name": "Pogo Jump",
+  "desc": "Rapid and reactive vertical jumps focusing on ankle drive, keeping the knees nearly fully extended.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plyometric",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "soleus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "jump:primary"
+  ]
+ },
+ "posterior_step_to_overhead_reach": {
+  "name": "Posterior Step To Overhead Reach",
+  "desc": "Reverse lunge with simultaneous overhead arm extension.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "balance_drill",
+  "m": [
+   "vastus_lateralis:secondary",
+   "deltoid_anterior:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "posterior_tibialis_stretch": {
+  "name": "Posterior Tibialis Stretch",
+  "desc": "A stretch using a rope to extend the ankle and calf muscles by pulling the foot towards the body.",
+  "kind": "mobility",
+  "jc": "multi_joint",
+  "kc": null,
+  "arch": "stretch",
+  "m": [
+   "vastus_lateralis:secondary",
+   "gastrocnemius_medial:primary",
+   "biceps_femoris_long:primary"
+  ],
+  "j": [],
+  "p": []
+ },
+ "potty_squat": {
+  "name": "Potty Squat",
+  "desc": "Bodyweight squat performed with maximum depth to simulate a natural squatting position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "vastus_lateralis:primary",
+   "gluteus_maximus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "potty_squat_with_support": {
+  "name": "Potty Squat With Support",
+  "desc": "Performing a squat with support for balance, maintaining a deep position and an upright torso.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_back",
+  "m": [
+   "vastus_lateralis:primary",
+   "gluteus_maximus:primary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "power_clean": {
+  "name": "Power Clean",
+  "desc": "An explosive movement that brings a barbell from the floor to the rack position with a partial reception.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "olympic_lift",
+  "m": [
+   "vastus_lateralis:secondary",
+   "gluteus_maximus:primary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "power_clean_and_jerk": {
+  "name": "Power Clean & Jerk",
+  "desc": "Olympic lifting exercise that combines a Power Clean to bring the barbell to the shoulders and a Jerk to push it overhead.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "push_jerk",
+  "m": [
+   "trapezius_upper:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:primary",
+   "triceps_brachii_medial:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "squat:secondary",
+   "vertical_press:primary"
+  ]
+ },
+ "power_clean_grip": {
+  "name": "Power Clean (Grip)",
+  "desc": "An explosive movement starting from the floor to bring the barbell to the chest with a high catch.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "olympic_lift",
+  "m": [
+   "semitendinosus:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "power_point_plank": {
+  "name": "Power Point Plank",
+  "desc": "From a high plank position, lower your body onto your forearms by alternating one arm at a time.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "plank",
+  "m": [
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "gluteus_maximus:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.anti_extension:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "power_snatch": {
+  "name": "Power Snatch",
+  "desc": "An explosive movement that brings the barbell from the floor to an overhead receiving position with knees partially flexed.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "olympic_lift",
+  "m": [
+   "semitendinosus:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "hip.extension:primary",
+   "spine.anti_flexion:secondary"
+  ],
+  "p": [
+   "hip_hinge:primary",
+   "vertical_press:secondary"
+  ]
+ },
+ "preacher_curl": {
+  "name": "Preacher Curl",
+  "desc": "Scott bench curl: elbows rest on the angled pad, isolating the biceps and limiting shoulder movement.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_preacher",
+  "m": [
+   "biceps_brachii_short:primary"
+  ],
+  "j": [
+   "elbow.flexion:primary"
+  ],
+  "p": [
+   "elbow_flexion:primary"
+  ]
+ },
+ "press_to_handstand": {
+  "name": "Press to Handstand",
+  "desc": "A pushing movement that transitions the body from a seated or squatting position to a full handstand.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "handstand_hold",
+  "m": [
+   "deltoid_lateral:primary",
+   "deltoid_posterior:secondary",
+   "deltoid_anterior:primary",
+   "supraspinatus:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "vertical_press:primary"
+  ]
+ },
+ "prisoner_half_sit_up": {
+  "name": "Prisoner Half Sit-up",
+  "desc": "Partial torso flexion exercise performed with hands placed behind the head.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "iliopsoas:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "pronated_dumbbell_row": {
+  "name": "Pronated Dumbbell Row",
+  "desc": "Pronated-grip dumbbell row targeting the upper back and posterior deltoids.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "row_dumbbell",
+  "m": [
+   "latissimus_dorsi:primary",
+   "biceps_brachii_short:secondary",
+   "rhomboids:secondary",
+   "biceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.extension:primary",
+   "elbow.flexion:primary",
+   "scapula.retraction:primary"
+  ],
+  "p": [
+   "horizontal_pull:primary"
+  ]
+ },
+ "pronazione_supinazione": {
+  "name": "Pronazione / Supinazione",
+  "desc": "Controlled rotation of the forearm around its longitudinal axis to train the wrist muscles.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "curl_wrist",
+  "m": [
+   "brachioradialis:secondary",
+   "forearm_flexors:primary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "wrist.flexion:primary"
+  ],
+  "p": [
+   "wrist_flexion:primary"
+  ]
+ },
+ "prone_twist_on_stability_ball": {
+  "name": "Prone Twist On Stability Ball",
+  "desc": "Performing a torso rotation in a prone position on a stability ball while maintaining lower body stability.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "open",
+  "arch": "rotation_twist",
+  "m": [
+   "obliquus_externus:primary",
+   "erector_spinae:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.rotation:primary"
+  ],
+  "p": [
+   "rotation:primary"
+  ]
+ },
+ "prone_y_raise": {
+  "name": "Prone Y Raise",
+  "desc": "Raising the arms in a Y-shape from a prone position on the floor or a bench.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "rear_delt_fly_db",
+  "m": [
+   "trapezius_middle:secondary",
+   "deltoid_posterior:primary",
+   "rhomboids:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "shoulder.horizontal_abduction:primary",
+   "scapula.retraction:secondary"
+  ],
+  "p": [
+   "shoulder_horizontal_abduction:primary"
+  ]
+ },
+ "pseudo_planche_lean": {
+  "name": "Pseudo Planche Lean",
+  "desc": "Isometric hold in a push-up position with the body leaned forward to simulate the planche.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "planche",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "shoulder.flexion:primary"
+  ],
+  "p": [
+   "anti_extension:primary"
+  ]
+ },
+ "pseudo_planche_push_up": {
+  "name": "Pseudo Planche Push-Up",
+  "desc": "Push-up with hands rotated toward hips and torso leaning forward to simulate planche position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "deltoid_anterior:primary",
+   "serratus_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pull_fingertip_hang": {
+  "name": "Pull Fingertip Hang",
+  "desc": "Static hang from a bar using only the fingertips to support the body weight.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "closed",
+  "arch": "hang_passive",
+  "m": [
+   "latissimus_dorsi:primary",
+   "trapezius_lower:secondary",
+   "forearm_flexors:primary"
+  ],
+  "j": [
+   "hand.grip:primary"
+  ],
+  "p": [
+   "grip:primary"
+  ]
+ },
+ "pull_in_on_stability_ball": {
+  "name": "Pull-in (on Stability Ball)",
+  "desc": "Sitting on a stability ball, roll your hips forward to bring your knees toward your chest, then extend your legs.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "crunch",
+  "m": [
+   "iliopsoas:primary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "spine.flexion:primary"
+  ],
+  "p": [
+   "spinal_flexion:primary"
+  ]
+ },
+ "pull_up": {
+  "name": "Pull-Up",
+  "desc": "The foundational vertical pulling bodyweight exercise. Pronated grip, primary target the latissimus dorsi with strong involvement of biceps, rhomboids, and lower trapezius.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pullup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "pull_up_neutral_grip": {
+  "name": "Pull Up (neutral Grip)",
+  "desc": "Pull-ups performed with a neutral grip, palms facing each other, pulling the chin above the bar.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pullup",
+  "m": [
+   "latissimus_dorsi:primary",
+   "forearm_flexors:secondary",
+   "biceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.adduction:primary",
+   "elbow.flexion:primary",
+   "scapula.depression:secondary"
+  ],
+  "p": [
+   "vertical_pull:primary"
+  ]
+ },
+ "pulse_hack_squat": {
+  "name": "Pulse Hack Squat",
+  "desc": "Hack squat machine exercise involving the execution of partial, pulsing repetitions in the bottom portion of the range of motion.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_hack",
+  "m": [
+   "vastus_intermedius:secondary",
+   "vastus_lateralis:primary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "gluteus_maximus:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "pulse_squat": {
+  "name": "Pulse Squat",
+  "desc": "Bodyweight squat variation featuring small bouncing movements at the bottom of the range of motion.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_bodyweight",
+  "m": [
+   "rectus_femoris:primary",
+   "gluteus_maximus:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ },
+ "push_and_pull_bodyweight": {
+  "name": "Push And Pull Bodyweight",
+  "desc": "Bodyweight exercise combining a pushing phase and a simulated pulling phase through arm movements.",
+  "kind": "resistance",
+  "jc": "single_joint",
+  "kc": "open",
+  "arch": "fly_dumbbell",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_jerk": {
+  "name": "Push Jerk",
+  "desc": "An explosive vertical push movement that uses leg drive to drive a barbell overhead.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "push_jerk",
+  "m": [
+   "trapezius_upper:secondary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:primary",
+   "triceps_brachii_lateral:primary",
+   "triceps_brachii_medial:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "squat:secondary",
+   "vertical_press:primary"
+  ]
+ },
+ "push_press": {
+  "name": "Push Press",
+  "desc": "Vertical press of the barbell overhead assisted by a rapid knee bend and leg drive.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "push_jerk",
+  "m": [
+   "deltoid_lateral:primary",
+   "trapezius_upper:secondary",
+   "rectus_femoris:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.flexion:primary",
+   "elbow.extension:primary",
+   "scapula.elevation:secondary"
+  ],
+  "p": [
+   "squat:secondary",
+   "vertical_press:primary"
+  ]
+ },
+ "push_to_run": {
+  "name": "Push To Run",
+  "desc": "Dynamic exercise combining a push-up with a rapid sequence of alternating knee-to-chest movements in a plank position.",
+  "kind": "conditioning",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "cardio_cyclic",
+  "m": [
+   "vastus_lateralis:primary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary"
+  ],
+  "j": [],
+  "p": [
+   "locomotion:primary"
+  ]
+ },
+ "push_up": {
+  "name": "Push-Up",
+  "desc": "Bodyweight push-ups to train the chest, triceps, and shoulders.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "pectoralis_major_clavicular:secondary",
+   "deltoid_anterior:secondary",
+   "serratus_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_bosu_ball": {
+  "name": "Push-up (bosu Ball)",
+  "desc": "Push-up performed with hands placed on the flat side of a Bosu ball.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_close_grip_off_dumbbell": {
+  "name": "Push-up Close-grip Off Dumbbell",
+  "desc": "Performing push-ups with hands placed on two dumbbells in a close grip to emphasize triceps work.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_inside_leg_kick": {
+  "name": "Push-up Inside Leg Kick",
+  "desc": "Push-up combined with a lateral leg kick outward during the ascent phase.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "vastus_lateralis:primary",
+   "pectoralis_major_clavicular:secondary",
+   "triceps_brachii_long:secondary",
+   "gluteus_maximus:primary",
+   "triceps_brachii_lateral:secondary",
+   "gastrocnemius_medial:secondary",
+   "biceps_femoris_long:secondary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_medicine_ball": {
+  "name": "Push-up Medicine Ball",
+  "desc": "Performing push-ups with hands placed on a medicine ball to increase instability.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_on_bosu_ball": {
+  "name": "Push Up On Bosu Ball",
+  "desc": "Performing push-ups with hands placed on the edges of a Bosu ball to increase instability.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_on_lower_arms": {
+  "name": "Push-up On Lower Arms",
+  "desc": "A pushing exercise performed in a plank position with forearms on the ground.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_on_rings": {
+  "name": "Push-Up on Rings",
+  "desc": "Push-ups performed with hands on gymnastic rings, requiring high stabilization demands.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "serratus_anterior:secondary",
+   "triceps_brachii_long:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_on_stability_ball": {
+  "name": "Push-up (on Stability Ball)",
+  "desc": "Performing push-ups with hands placed on a stability ball to increase instability and core engagement.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary",
+   "rectus_abdominis:secondary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_plus": {
+  "name": "Push-up Plus",
+  "desc": "Standard push-up with an additional scapular protraction phase at the top to emphasize the serratus anterior.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_ring_support_hold": {
+  "name": "Push-Up Ring Support Hold",
+  "desc": "Static hold in the ring support position with hands in a push-up grip.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_to_side_plank": {
+  "name": "Push-up To Side Plank",
+  "desc": "Push-up followed by a torso rotation into a side plank position.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:secondary",
+   "deltoid_anterior:primary",
+   "triceps_brachii_long:secondary",
+   "rectus_abdominis:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_wall": {
+  "name": "Push-up (wall)",
+  "desc": "Push-ups performed while standing and placing the hands against a wall.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "push_up_wall_v_2": {
+  "name": "Push-up (wall) V. 2",
+  "desc": "Push-ups performed while standing and placing the hands against a wall.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "pushup",
+  "m": [
+   "pectoralis_major_sternal:primary",
+   "deltoid_anterior:secondary",
+   "triceps_brachii_long:primary"
+  ],
+  "j": [
+   "shoulder.horizontal_adduction:primary",
+   "elbow.extension:primary",
+   "scapula.protraction:secondary"
+  ],
+  "p": [
+   "horizontal_press:primary"
+  ]
+ },
+ "pvc_overhead_squat": {
+  "name": "PVC Overhead Squat",
+  "desc": "A mobility and technique drill using a PVC pipe to simulate an overhead squat.",
+  "kind": "resistance",
+  "jc": "multi_joint",
+  "kc": "closed",
+  "arch": "squat_front",
+  "m": [
+   "vastus_intermedius:primary",
+   "vastus_lateralis:primary",
+   "semitendinosus:secondary",
+   "rectus_femoris:primary",
+   "vastus_medialis:primary",
+   "tibialis_anterior:secondary",
+   "adductor_magnus:secondary",
+   "gluteus_maximus:primary",
+   "biceps_femoris_long:primary",
+   "semimembranosus:secondary",
+   "rectus_abdominis:stabilizer"
+  ],
+  "j": [
+   "knee.extension:primary",
+   "hip.extension:primary",
+   "ankle.dorsiflexion:secondary"
+  ],
+  "p": [
+   "squat:primary"
+  ]
+ }
+}

@@ -1,0 +1,9422 @@
+{
+ "eccentric_calf_raise": {
+  "name": "Eccentric Calf Raise",
+  "desc_en": "Performing the controlled lowering phase of a calf raise to emphasize the eccentric portion of the movement.",
+  "desc_it": "Esecuzione della fase di discesa controllata del sollevamento dei polpacci per enfatizzare la fase eccentrica.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "soleus",
+    "secondary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "gastrocnemius_lateral",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "eccentric_nordic_ham_curl": {
+  "name": "Eccentric Nordic Ham Curl",
+  "desc_en": "Eccentric strength exercise for the hamstrings, performed by controlling the descent of the torso toward the floor.",
+  "desc_it": "Esercizio di forza eccentrica per i flessori dell'anca, eseguito controllando la discesa del busto verso il pavimento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "nordic_curl",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_short",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "elbow_dips": {
+  "name": "Elbow Dips",
+  "desc_en": "A push exercise performed sitting on the edge of a bench, where the body is lowered and raised through elbow flexion.",
+  "desc_it": "Esercizio di spinta eseguito seduti sul bordo di una panca, dove si abbassa e si solleva il corpo tramite la flessione dei gomiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "tri_dip",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "elbow_lift_reverse_push_up": {
+  "name": "Elbow Lift - Reverse Push-up",
+  "desc_en": "Lifting the upper body from a prone position, using arm extension to elevate the torso.",
+  "desc_it": "Sollevamento del busto partendo dalla posizione prona, utilizzando la spinta delle braccia per elevare la parte superiore del corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "elbow_to_knee": {
+  "name": "Elbow-to-knee",
+  "desc_en": "Abdominal exercise involving a twisting motion to bring the opposite elbow and knee together.",
+  "desc_it": "Esercizio di addominali con movimento di torsione per avvicinare gomito e ginocchio opposti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "elevated_diamond_push_up": {
+  "name": "Elevated Diamond Push-Up",
+  "desc_en": "Easier version of the diamond push-up with hands on an elevated surface.",
+  "desc_it": "Versione facilitata del diamond push-up con le mani su una superficie rialzata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "elevated_pike_push_up": {
+  "name": "Elevated Pike Push-Up",
+  "desc_en": "Push-up performed with feet elevated on a support to increase the load on the shoulders.",
+  "desc_it": "Push-up eseguito con i piedi sollevati su un supporto per aumentare il carico sulle spalle.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "elevated_pseudo_planche_push_up": {
+  "name": "Elevated Pseudo Planche Push-Up",
+  "desc_en": "Easier version with hands on an elevated surface to reduce load and learn hand positioning.",
+  "desc_it": "Versione facilitata con le mani su una superficie rialzata per ridurre il carico e apprendere il posizionamento delle mani.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "elevator": {
+  "name": "Elevator",
+  "desc_en": "Forward trunk flexion from a standing position, maintaining a neutral spine.",
+  "desc_it": "Flessione del tronco in avanti partendo da posizione eretta, mantenendo la schiena neutra.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "balance_drill",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_middle",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "locomotion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_alternating_arm_ups": {
+  "name": "Exercise Ball Alternating Arm Ups",
+  "desc_en": "Sitting on a stability ball, alternately lift the arms laterally towards the shoulders while maintaining balance.",
+  "desc_it": "Seduti su una palla di stabilità, sollevare alternativamente le braccia lateralmente verso le spalle mantenendo l'equilibrio.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "lateral_raise_db",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "shoulder_abduction",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_back_extension_with_arms_extended": {
+  "name": "Exercise Ball Back Extension With Arms Extended",
+  "desc_en": "Back extensions on a stability ball with arms extended forward to increase the lever arm.",
+  "desc_it": "Estensioni della schiena su palla svizzera con le braccia distese in avanti per aumentare la leva.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_back_extension_with_hands_behind_head": {
+  "name": "Exercise Ball Back Extension With Hands Behind Head",
+  "desc_en": "Lie face down on a stability ball with hips resting on it, using feet against a wall for support. Lift your upper body by extending your back with hands behind your head.",
+  "desc_it": "Sdraiati a faccia in giù sulla palla di stabilità con i fianchi appoggiati, usando i piedi contro un muro per supporto. Solleva il busto estendendo la schiena con le mani dietro la nuca.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_back_extension_with_knees_off_ground": {
+  "name": "Exercise Ball Back Extension With Knees Off Ground",
+  "desc_en": "Lie face down on a stability ball with hips resting on the ball and feet against a wall. Lift your upper body by extending your spine until forming a straight line.",
+  "desc_it": "Sdraiati a faccia in giù sulla palla di stabilità con i fianchi appoggiati e i piedi contro un muro. Solleva il busto estendendo la colonna fino a formare una linea retta.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_back_extension_with_rotation": {
+  "name": "Exercise Ball Back Extension With Rotation",
+  "desc_en": "Torso extension on a stability ball with an added trunk rotation at the peak of the movement.",
+  "desc_it": "Estensione del busto su palla svizzera con aggiunta di una rotazione del tronco nella fase di picco.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_dip": {
+  "name": "Exercise Ball Dip",
+  "desc_en": "Dips performed using a stability ball as hand support, lifting and lowering the body through elbow extension.",
+  "desc_it": "Dip eseguiti utilizzando una palla di stabilità come supporto per le mani, sollevando e abbassando il corpo attraverso l'estensione del gomito.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "tri_dip",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_hip_flexor_stretch": {
+  "name": "Exercise Ball Hip Flexor Stretch",
+  "desc_en": "Hip flexor stretch using a stability ball to facilitate pelvic tilting.",
+  "desc_it": "Allungamento dei flessori dell'anca utilizzando una palla di stabilità per facilitare l'inclinazione del bacino.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_hug": {
+  "name": "Exercise Ball Hug",
+  "desc_en": "Back stretching exercise performed by hugging a stability ball while leaning backward.",
+  "desc_it": "Esercizio di allungamento della schiena eseguito abbracciando una palla di stabilità mentre ci si inclina all'indietro.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_lat_stretch": {
+  "name": "Exercise Ball Lat Stretch",
+  "desc_en": "Latissimus dorsi stretch performed while seated on a stability ball using a dumbbell to increase the stretch range.",
+  "desc_it": "Allungamento del gran dorsale eseguito da seduti su una palla stabilizzatrice con l'ausilio di un manubrio per aumentare l'escursione.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_lower_back_stretch_pyramid": {
+  "name": "Exercise Ball Lower Back Stretch (pyramid)",
+  "desc_en": "Sitting on a stability ball, walk your feet forward until your lower back rests on the ball to stretch the spine.",
+  "desc_it": "Seduti sulla palla di stabilità, scivolare con i piedi in avanti finché la parte bassa della schiena non si appoggia sulla palla, allungando la colonna.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_lying_side_lat_stretch": {
+  "name": "Exercise Ball Lying Side Lat Stretch",
+  "desc_en": "Lat stretch performed in a side-lying position using a stability ball for support.",
+  "desc_it": "Allungamento dei muscoli dorsali eseguito in posizione prona laterale con il supporto di una palla di stabilità.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_on_the_wall_calf_raise": {
+  "name": "Exercise Ball On The Wall Calf Raise",
+  "desc_en": "Perform calf raises by standing with your back against an exercise ball placed between your lower back and the wall.",
+  "desc_it": "Esegui dei sollevamenti sulle punte con la schiena appoggiata a una palla da ginnastica posizionata tra la schiena e il muro.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_ankles": {
+  "name": "Exercise Ball On The Wall Calf Raise (tennis Ball Between Ankles)",
+  "desc_en": "Standing calf raises with an exercise ball between the lower back and the wall and a tennis ball between the ankles for adductor activation.",
+  "desc_it": "Sollevamento dei polpacci in piedi con palla da ginnastica tra schiena e muro e una pallina da tennis tra le caviglie per l'attivazione degli adduttori.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees": {
+  "name": "Exercise Ball On The Wall Calf Raise (tennis Ball Between Knees)",
+  "desc_en": "Calf raises performed with the back supported by an exercise ball against a wall, while holding a tennis ball between the knees.",
+  "desc_it": "Sollevamento dei polpacci con la schiena appoggiata a una palla da ginnastica contro il muro, mantenendo una pallina da tennis tra le ginocchia.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_one_leg_prone_lower_body_rotation": {
+  "name": "Exercise Ball One Leg Prone Lower Body Rotation",
+  "desc_en": "Lie face down on a stability ball with hips resting on the ball and legs extended behind you. Rotate one leg outward while maintaining torso stability.",
+  "desc_it": "Sdraiati a faccia in giù sulla palla di stabilità con i fianchi appoggiati sulla palla e le gambe distese dietro di te. Ruota una gamba verso l'esterno mantenendo il tronco stabile.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_one_legged_diagonal_kick_hamstring_curl": {
+  "name": "Exercise Ball One Legged Diagonal Kick Hamstring Curl",
+  "desc_en": "Unilateral knee flexion exercise on a stability ball, performed with a diagonal leg movement.",
+  "desc_it": "Esercizio di flessione del ginocchio su palla svizzera, eseguito unilateralmente con un movimento diagonale della gamba.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "leg_curl_lying",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_pike_push_up": {
+  "name": "Exercise Ball Pike Push Up",
+  "desc_en": "Pike push-up with shins resting on a stability ball, with hips elevated to form an inverted V shape.",
+  "desc_it": "Push-up in posizione picca con gli stinchi appoggiati su una palla stabilizzante, con i fianchi sollevati a formare una V rovesciata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_prone_leg_raise": {
+  "name": "Exercise Ball Prone Leg Raise",
+  "desc_en": "Lifting the legs from a prone position on a stability ball.",
+  "desc_it": "Sollevamento delle gambe in posizione prona su una palla stabilizzante.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "exercise_ball_seated_hamstring_stretch": {
+  "name": "Exercise Ball Seated Hamstring Stretch",
+  "desc_en": "Hamstring stretch performed while seated on a stability ball, lowering the upper body forward.",
+  "desc_it": "Allungamento dei muscoli ischio-crurali eseguito da seduti su una palla di stabilità, portando il busto in avanti.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_seated_triceps_stretch": {
+  "name": "Exercise Ball Seated Triceps Stretch",
+  "desc_en": "Triceps stretch performed while seated on a stability ball, using a dumbbell to increase the traction.",
+  "desc_it": "Allungamento del tricipite eseguito in posizione seduta su una palla svizzera, utilizzando un manubrio per aumentare la trazione.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ]
+ },
+ "exercise_ball_supine_triceps_extension": {
+  "name": "Exercise Ball Supine Triceps Extension",
+  "desc_en": "Triceps extension with a dumbbell while seated on an exercise ball.",
+  "desc_it": "Estensione dei tricipiti con manubrio seduti su una palla medica o palla da ginnastica.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_overhead",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "explosive_ring_row": {
+  "name": "Explosive Ring Row",
+  "desc_en": "Explosive ring row. Perform the movement with a rapid and powerful concentric phase through a controlled range of motion.",
+  "desc_it": "Remata esplosiva con gli anelli. Esegui il movimento con una fase concentrica concentrata e concentrata su una fase concentrica rapida e potente-",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "row_inverted",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "extended_hip_bridge_walkout": {
+  "name": "Extended Hip Bridge Walkout",
+  "desc_en": "Core and glute stability exercise where the feet are walked forward while maintaining the hips elevated.",
+  "desc_it": "Esercizio di stabilità del core e dei glutei in cui si cammina in avanti con i piedi mantenendo il bacino sollevato.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "glute_bridge",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "external_rotation": {
+  "name": "External Rotation",
+  "desc_en": "An isolation exercise for the rotator cuff involving rotating the forearm outward while keeping the elbow close to the body.",
+  "desc_it": "Esercizio di isolamento per la cuffia dei rotatori che prevede la rotazione dell'avambraccio verso l'esterno mantenendo il gomito vicino al corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "cuff_rotation",
+  "muscles": [
+   [
+    "teres_minor",
+    "primary"
+   ],
+   [
+    "infraspinatus",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "external_rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_biceps_curl_with_arm_blaster": {
+  "name": "Ez-bar Biceps Curl (with Arm Blaster)",
+  "desc_en": "Biceps curl using an EZ bar and an Arm Blaster to isolate the biceps and prevent torso swing.",
+  "desc_it": "Curl con bilanciere EZ utilizzando un supporto Arm Blaster per isolare i bicipiti e prevenire l'oscillazione del busto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_close_grip_bench_press": {
+  "name": "Ez-bar Close-grip Bench Press",
+  "desc_en": "Close-grip bench press using an EZ-bar to target the triceps while lying on a flat bench.",
+  "desc_it": "Panca piana con bilanciere EZ e presa stretta per enfatizzare il lavoro dei tricipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "tri_close_press",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_curl": {
+  "name": "EZ Bar Curl",
+  "desc_en": "EZ Bar biceps curl: grip the implement with elbows pinned close to your sides and shoulders stable, flex the elbow without swinging. Curl up under control, then lower slowly keeping constant tension.",
+  "desc_it": "Curl per bicipiti con bilanciere curvo: impugna l'attrezzo, gomiti vicini ai fianchi e spalle stabili, fletti il gomito senza oscillare il busto. Sali in controllo, poi scendi lentamente mantenendo tensione continua.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_french_press_on_exercise_ball": {
+  "name": "Ez Bar French Press On Exercise Ball",
+  "desc_en": "Perform an EZ barbell triceps extension while seated on an exercise ball.",
+  "desc_it": "Eseguire un'estensione dei tricipiti con bilanciere EZ seduti su una palla da ginnastica.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_skullcrusher",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_lying_bent_arms_pullover": {
+  "name": "Ez Bar Lying Bent Arms Pullover",
+  "desc_en": "Lying on a bench, lower the EZ barbell behind your head with elbows slightly bent, following an arc trajectory.",
+  "desc_it": "Sdraiati su una panca, abbassa il bilanciere EZ dietro la testa con i gomiti leggermente flessi, seguendo una traiettoria ad arco.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "pullover_db",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "shoulder_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_lying_close_grip_triceps_extension_behind_head": {
+  "name": "Ez Bar Lying Close Grip Triceps Extension Behind Head",
+  "desc_en": "Triceps extension with an EZ bar while lying on a bench, lowering the weight behind the head.",
+  "desc_it": "Estensione dei tricipiti con bilanciere EZ distesi su una panca, portando il carico dietro la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_skullcrusher",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_overhead_extension": {
+  "name": "EZ Bar Overhead Extension",
+  "desc_en": "Triceps extension performed with an EZ bar overhead.",
+  "desc_it": "Estensione dei tricipiti eseguita con un bilanciere EZ sopra la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_overhead",
+  "muscles": [
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_pullover": {
+  "name": "EZ Bar Pullover",
+  "desc_en": "A shoulder flexion and hip extension movement performed with an EZ bar while lying on a bench.",
+  "desc_it": "Movimento di estensione dell'anca e flessione della spalla eseguito con un bilanciere EZ disteso su una panca.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "pullover_db",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "latissimus_dorsi",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "shoulder_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_reverse_curl": {
+  "name": "EZ Bar Reverse Curl",
+  "desc_en": "Elbow flexion exercise using an EZ bar with a pronated grip.",
+  "desc_it": "Esercizio di flessione del gomito con impugnatura prona utilizzando un bilanciere EZ.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_reverse",
+  "muscles": [
+   [
+    "forearm_extensors",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_short",
+    "secondary"
+   ],
+   [
+    "brachioradialis",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_reverse_grip_bent_over_row": {
+  "name": "Ez Bar Reverse Grip Bent Over Row",
+  "desc_en": "Bent over row using an EZ bar with a reverse grip, performed with the torso leaned forward.",
+  "desc_it": "Rematore con bilanciere EZ a presa inversa, eseguito con il busto flesso in avanti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "row_barbell",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_middle",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_seated_close_grip_concentration_curl": {
+  "name": "Ez Bar Seated Close Grip Concentration Curl",
+  "desc_en": "Seated biceps curl using an EZ barbell, resting the elbow on the inside of the thigh to isolate the muscle.",
+  "desc_it": "Curl per bicipiti eseguito da seduti con bilanciere EZ, appoggiando il gomito all'interno della coscia per isolare il muscolo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_concentration",
+  "muscles": [
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_spider_curl": {
+  "name": "EZ Bar Spider Curl",
+  "desc_en": "Biceps curl performed with an EZ bar while leaning the chest against an incline bench to isolate the movement.",
+  "desc_it": "Curl per bicipiti eseguito con bilanciere EZ appoggiando il petto su una panca inclinata per isolare il movimento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_spider",
+  "muscles": [
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_bar_standing_french_press": {
+  "name": "Ez Bar Standing French Press",
+  "desc_en": "Performing an overhead triceps extension with an EZ bar, moving from full extension down behind the head.",
+  "desc_it": "Esecuzione di un'estensione sopra la testa con bilanciere EZ, partendo dalla posizione di estensione completa e scendendo dietro la nuca.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_skullcrusher",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_anti_gravity_press": {
+  "name": "Ez Barbell Anti Gravity Press",
+  "desc_en": "Overhead vertical press performed with an EZ barbell, starting from shoulder height.",
+  "desc_it": "Spinta verticale sopra la testa eseguita con bilanciere EZ, partendo dalla posizione di rack o spalle.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_skullcrusher",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_close_grip_curl": {
+  "name": "Ez Barbell Close-grip Curl",
+  "desc_en": "Close-grip curl using an EZ barbell.",
+  "desc_it": "Curl con bilanciere EZ con presa stretta.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_close_grip_preacher_curl": {
+  "name": "Ez Barbell Close Grip Preacher Curl",
+  "desc_en": "Close-grip EZ barbell preacher curl to isolate the biceps.",
+  "desc_it": "Curl con bilanciere EZ su panca Scott con presa stretta per isolare i bicipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_preacher",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_curl": {
+  "name": "Ez Barbell Curl",
+  "desc_en": "Bicep curls using an EZ bar to isolate the biceps.",
+  "desc_it": "Flessione dei braccia con bilanciere EZ per l'isolamento dei bicipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_decline_close_grip_face_press": {
+  "name": "Ez Barbell Decline Close Grip Face Press",
+  "desc_en": "Performing a vertical press with an EZ barbell on a decline bench using a close, neutral grip.",
+  "desc_it": "Esecuzione di una spinta verticale con bilanciere EZ su panca declinata utilizzando una presa stretta e neutra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "tri_close_press",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_decline_triceps_extension": {
+  "name": "Ez Barbell Decline Triceps Extension",
+  "desc_en": "Triceps extension using an EZ barbell on a decline bench.",
+  "desc_it": "Estensione dei tricipiti con bilanciere EZ su panca declinata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_skullcrusher",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_incline_triceps_extension": {
+  "name": "Ez Barbell Incline Triceps Extension",
+  "desc_en": "Triceps extensions with an EZ barbell on an incline bench, performing the flexion and extension of the forearm behind the head.",
+  "desc_it": "Estensioni dei tricipiti con bilanciere EZ su panca inclinata, eseguendo il movimento di flessione ed estensione dell'avambraccio dietro la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_overhead",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_jm_bench_press": {
+  "name": "Ez Barbell Jm Bench Press",
+  "desc_en": "Bench press variation using an EZ bar that combines elements of a press and a triceps extension, lowering the bar towards the neck or upper chest.",
+  "desc_it": "Spinta di panca con bilanciere EZ che combina elementi di pressa e estensione dei tricipiti, portando il bilanciere verso il collo o la parte alta del petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_flat",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_reverse_grip_curl": {
+  "name": "Ez Barbell Reverse Grip Curl",
+  "desc_en": "Elbow flexion using an EZ barbell with an underhand grip to emphasize the brachialis and brachioradialis.",
+  "desc_it": "Flessione del gomito con bilanciere EZ e presa supina (palmi verso l'alto) per enfatizzare il lavoro su brachiale e brachioradiale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_reverse",
+  "muscles": [
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "brachialis",
+    "primary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_reverse_grip_preacher_curl": {
+  "name": "Ez Barbell Reverse Grip Preacher Curl",
+  "desc_en": "Reverse grip EZ barbell curl on a preacher bench.",
+  "desc_it": "Curl con bilanciere EZ a presa inversa su panca Scott.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_preacher",
+  "muscles": [
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "brachialis",
+    "primary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_seated_curls": {
+  "name": "Ez Barbell Seated Curls",
+  "desc_en": "Seated arm flexion using an EZ barbell to isolate the biceps.",
+  "desc_it": "Flessione delle braccia da seduti utilizzando un bilanciere EZ per isolare i bicipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_seated_triceps_extension": {
+  "name": "Ez Barbell Seated Triceps Extension",
+  "desc_en": "Seated triceps extension using an EZ barbell, moving the weight behind the head.",
+  "desc_it": "Estensione dei tricipiti da seduti con bilanciere EZ, eseguita portando il carico dietro la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "tri_overhead",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_extension",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_spider_curl": {
+  "name": "Ez Barbell Spider Curl",
+  "desc_en": "Biceps curl using an EZ bar while leaning forward with the chest supported on an inclined bench.",
+  "desc_it": "Curl con bilanciere EZ eseguito in posizione prona appoggiando il petto su una panca inclinata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_spider",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "ez_barbell_standing_wide_grip_biceps_curl": {
+  "name": "Ez-barbell Standing Wide Grip Biceps Curl",
+  "desc_en": "Standing biceps curl with an EZ barbell using a wide grip.",
+  "desc_it": "Curl per bicipiti in piedi con bilanciere EZ a presa larga.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "face_pull": {
+  "name": "Face Pull",
+  "desc_en": "High cable pull towards the face targeting the posterior deltoids and shoulder external rotators.",
+  "desc_it": "Tirata al cavo alto verso il volto che coinvolge i deltoidi posteriori e i rotatori esterni della spalla.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "face_pull",
+  "muscles": [
+   [
+    "teres_minor",
+    "secondary"
+   ],
+   [
+    "infraspinatus",
+    "secondary"
+   ],
+   [
+    "trapezius_middle",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_abduction",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "scapular",
+    "secondary"
+   ],
+   [
+    "shoulder_horizontal_abduction",
+    "primary"
+   ]
+  ]
+ },
+ "false_grip_active_bar_hang": {
+  "name": "False Grip Active Bar Hang",
+  "desc_en": "Active bar hang using a false grip, keeping the shoulders depressed and away from the ears.",
+  "desc_it": "Sospensione attiva alla sbarra utilizzando la presa false grip, mantenendo le spalle lontane dalle orecchie.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "hang_passive",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "secondary"
+   ],
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "false_grip_hang": {
+  "name": "False Grip Hang",
+  "desc_en": "Hang from the bar using a false grip while maintaining core control.",
+  "desc_it": "Sospensione alla sbarra con presa false grip e controllo del tronco.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "hang_passive",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "secondary"
+   ],
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "false_grip_ring_chin_up": {
+  "name": "False Grip Ring Chin-Up",
+  "desc_en": "Chin-ups performed on gymnastic rings using a false grip to increase forearm engagement and stability.",
+  "desc_it": "Trazioni supine agli anelli utilizzando una presa falsa per aumentare il coinvolgimento degli avambracci e la stabilità.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "chinup",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "forearm_flexors",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "depression",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_pull",
+    "primary"
+   ]
+  ]
+ },
+ "false_grip_ring_pull_up": {
+  "name": "False Grip Ring Pull-Up",
+  "desc_en": "Ring pull-ups performed using a false grip to facilitate the transition into a muscle-up.",
+  "desc_it": "Trazioni agli anelli eseguite con la presa falsa per facilitare la transizione verso il muscle-up.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pullup",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "forearm_flexors",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "depression",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_pull",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_carry": {
+  "name": "Farmer Carry",
+  "desc_en": "Walking while holding a heavy load in each hand for a set time or distance.",
+  "desc_it": "Camminata mantenendo un carico pesante in ogni mano per un tempo o una distanza prestabiliti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "carry",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "secondary"
+   ],
+   [
+    "carry",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_carry_march": {
+  "name": "Farmer Carry March",
+  "desc_en": "Farmer carry march, alternating knee drives while maintaining core and trunk stability under load.",
+  "desc_it": "Camminata con carico in posizione di marcia, alternando il sollevamento delle ginocchia mantenendo la stabilità del tronco.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "carry",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "secondary"
+   ],
+   [
+    "carry",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_s_carry": {
+  "name": "Farmer's Carry",
+  "desc_en": "Walking while carrying heavy weights in each hand, typically dumbbells or kettlebells, along the sides.",
+  "desc_it": "Trasporto di carichi pesanti tenendo i manubri o i kettlebell lungo i fianchi durante la camminata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "carry",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "secondary"
+   ],
+   [
+    "carry",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_walk": {
+  "name": "Farmer Walk",
+  "desc_en": "Bilateral loaded carry while walking. Full-body exercise developing grip strength, core strength, and shoulder stability.",
+  "desc_it": "Trasporto di pesi bilaterali camminando. Esercizio full-body che sviluppa forza della presa, forza del core e stabilità delle spalle.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "carry",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "secondary"
+   ],
+   [
+    "carry",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_walk_on_toes": {
+  "name": "Farmer Walk on Toes",
+  "desc_en": "Walking with heavy loads while keeping the body elevated on the balls of the feet.",
+  "desc_it": "Camminata con carichi pesanti mantenendo il corpo sollevato sulle punte dei piedi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "soleus",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "gastrocnemius_lateral",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "farmer_walk_shrug": {
+  "name": "Farmer Walk Shrug",
+  "desc_en": "Dynamic walking variation: carry loads at the sides and add controlled shrugs while maintaining an upright posture.",
+  "desc_it": "Variante dinamica in camminata: cammina con carichi ai lati e aggiungi shrug controllati mantenendo la postura eretta.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "shrug",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "primary"
+   ],
+   [
+    "multifidus",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "scapula",
+    "elevation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "scapular",
+    "primary"
+   ]
+  ]
+ },
+ "farmers_walk": {
+  "name": "Farmers Walk",
+  "desc_en": "Walking while holding a heavy load in each hand with an upright posture.",
+  "desc_it": "Camminata mantenendo un carico pesante in ogni mano con una postura eretta.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "carry",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "forearm_flexors",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "secondary"
+   ],
+   [
+    "carry",
+    "primary"
+   ]
+  ]
+ },
+ "fat_bar_hold": {
+  "name": "Fat Bar Hold",
+  "desc_en": "Isometric hold of a thick barbell to increase the grip strength challenge.",
+  "desc_it": "Tenuta isometrica di un bilanciere con diametro maggiorato per aumentare la sfida alla presa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "grip_hold",
+  "muscles": [
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_bridge_heel_curl": {
+  "name": "Feet-Elevated Bridge Heel Curl",
+  "desc_en": "Knee flexion exercise performed in a bridge position with feet resting on an elevated surface.",
+  "desc_it": "Esercizio di flessione delle ginocchia in posizione di ponte con i piedi appoggiati su una superficie rialzata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "slider_leg_curl",
+  "muscles": [
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_hip_thrust_bridge": {
+  "name": "Feet-Elevated Hip Thrust Bridge",
+  "desc_en": "Hip thrust movement with feet placed on an elevated surface to increase the range of motion.",
+  "desc_it": "Esercizio di spinta dell'anca con i piedi appoggiati su una superficie rialzata per aumentare il range di movimento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_inverted_row": {
+  "name": "Feet-Elevated Inverted Row",
+  "desc_en": "Inverted row performed with feet elevated on a surface to increase the resistance.",
+  "desc_it": "Remata invertita eseguita con i piedi appoggiati su una superficie rialzata per aumentare la resistenza.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "row_inverted",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_middle",
+    "primary"
+   ],
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_ring_row": {
+  "name": "Feet-Elevated Ring Row",
+  "desc_en": "Feet-elevated ring row. A horizontal pull exercise using rings for traction.",
+  "desc_it": "Remata agli anelli con i piedi elevati. Un esercizio di tirata orizzontale che utilizza gli anelli per la trazione-e-tira.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "row_inverted",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_middle",
+    "primary"
+   ],
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_russian_twist": {
+  "name": "Feet-Elevated Russian Twist",
+  "desc_en": "Trunk rotation in a seated position with feet elevated from the floor to increase core challenge.",
+  "desc_it": "Rotazione del busto in posizione seduta con i piedi sollevati da terra per aumentare la sfida del core.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "rotation_twist",
+  "muscles": [
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_single_leg_bridge_curl": {
+  "name": "Feet-Elevated Single-Leg Bridge Curl",
+  "desc_en": "Variation of the single-leg bridge curl. Requires pelvic control and knee flexion control.",
+  "desc_it": "Variante del bridge con una gamba sola e i piedi rialzati. Richiede il controllo del bacino e della flessione del ginocchio.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "slider_leg_curl",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_short",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "feet_elevated_table_row": {
+  "name": "Feet-Elevated Table Row",
+  "desc_en": "Horizontal pull performed in a plank position with feet elevated on a raised surface.",
+  "desc_it": "Trazione orizzontale eseguita in posizione di plank con i piedi appoggiati su una superficie elevata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "row_inverted",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_middle",
+    "primary"
+   ],
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "finger_curls": {
+  "name": "Finger Curls",
+  "desc_en": "An isolation exercise for grip strength and forearm flexors, performed with a barbell.",
+  "desc_it": "Esercizio di isolamento per la forza della presa e dei flessori dell'avambraccio, eseguito con un bilanciere.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "grip_hold",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "finger_extension": {
+  "name": "Finger Extension",
+  "desc_en": "An isolation exercise for the forearm extensors performed by controlling the opening of the fingers.",
+  "desc_it": "Esercizio di isolamento per gli estensori dell'avambraccio eseguito controllando l'apertura delle dita.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_wrist",
+  "muscles": [
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "wrist",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "wrist_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "fingertip_hang": {
+  "name": "Fingertip Hang",
+  "desc_en": "Static hang from a bar using only the strength of the fingers.",
+  "desc_it": "Sospensione statica a una sbarra utilizzando esclusivamente la forza delle dita.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "hang_passive",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "trapezius_lower",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "fingertip_plank": {
+  "name": "Fingertip Plank",
+  "desc_en": "A plank position held on the fingertips instead of the palms or forearms.",
+  "desc_it": "Posizione di plank sostenuta sulle dita delle mani invece che sui palmi o avambracci.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "fire_hydrant": {
+  "name": "Fire Hydrant",
+  "desc_en": "Hip abduction performed in a quadruped position, lifting the leg laterally while maintaining a 90-degree knee angle.",
+  "desc_it": "Abduzione dell'anca eseguita in quadrupedia, sollevando la gamba lateralmente mantenendo l'angolo del ginocchio a 90 gradi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "kickback_glute",
+  "muscles": [
+   [
+    "gluteus_minimus",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "gluteus_medius",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "flag": {
+  "name": "Flag",
+  "desc_en": "Holding the body parallel to the ground while gripping a vertical pole.",
+  "desc_it": "Mantenimento della posizione del corpo parallelo al suolo mentre si afferra un palo verticale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "flexion_leg_sit_up_bent_knee": {
+  "name": "Flexion Leg Sit Up (bent Knee)",
+  "desc_en": "Lie on your back with knees bent and feet flat. Simultaneously lift your torso and legs towards your chest.",
+  "desc_it": "Sdraiati sulla schiena con le ginocchia piegate e i piedi a terra. Solleva il busto e le gambe contemporaneamente verso il petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "flexion_leg_sit_up_straight_arm": {
+  "name": "Flexion Leg Sit Up (straight Arm)",
+  "desc_en": "Sit-up performed with arms straight above the head and legs simultaneously flexing toward the chest.",
+  "desc_it": "Sit-up eseguito con braccia tese sopra la testa e gambe che si flettono simultaneamente verso il petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "floor_fly_with_barbell": {
+  "name": "Floor Fly (with Barbell)",
+  "desc_en": "Lying flat on the floor with knees bent, perform a chest fly movement using a barbell, keeping elbows slightly bent.",
+  "desc_it": "Sdraiati a terra con le ginocchia piegate, esegui un'apertura delle braccia con un bilanciere mantenendo i gomiti leggermente flessi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "fly_dumbbell",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "floor_press": {
+  "name": "Floor Press",
+  "desc_en": "Pressing exercise performed lying supine on the floor, where elbow contact with the ground limits the range of motion.",
+  "desc_it": "Esercizio di spinta eseguito sdraiati supini a terra, dove il contatto dei gomiti con il pavimento limita il range di movimento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_floor",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "flutter_kick": {
+  "name": "Flutter Kick",
+  "desc_en": "Core exercise consisting of small alternating up and down leg movements while keeping the back flat on the floor.",
+  "desc_it": "Esercizio per il core che consiste in piccoli movimenti alternati di salita e discesa delle gambe mantenendo la schiena a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "flutter_kicks": {
+  "name": "Flutter Kicks",
+  "desc_en": "An abdominal exercise with extended legs performing an alternating up and down fluttering motion.",
+  "desc_it": "Esercizio di addominali con le gambe distese che eseguono un movimento alternato di salita e discesa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "forward_jump": {
+  "name": "Forward Jump",
+  "desc_en": "Explosive forward jump starting from a squat position.",
+  "desc_it": "Salto esplosivo in avanti partendo da una posizione di squat.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plyometric",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "jump",
+    "primary"
+   ]
+  ]
+ },
+ "forward_lunge": {
+  "name": "Forward Lunge",
+  "desc_en": "Alternating bodyweight forward lunges, stepping one foot forward and lowering the hips toward the ground.",
+  "desc_it": "Affondo frontale alternato eseguito a corpo libero, portando un piede in avanti e abbassando il bacino verso il suolo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lunge",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "frankenstein_squat": {
+  "name": "Frankenstein Squat",
+  "desc_en": "A barbell squat variation that requires coordinated motor control between hip flexion and knee flexion.",
+  "desc_it": "Esercizio di squat con bilanciere frontale che richiede un controllo motorio coordinato tra flessione d'anca e flessione d'anca.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_back",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "freestanding_handstand_walk": {
+  "name": "Freestanding Handstand Walk",
+  "desc_en": "Forward movement while maintaining a freestanding handstand position on the hands.",
+  "desc_it": "Spostamento in avanti mantenendo la posizione di verticale libera sulle mani.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "handstand_hold",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "freestanding_wall_handstand_shoulder_tap": {
+  "name": "Freestanding Wall Handstand Shoulder Tap",
+  "desc_en": "Shoulder taps performed in a freestanding handstand position against a wall for stability support.",
+  "desc_it": "Tocchi di spalla in posizione di verticale al muro, mantenendo l'equilibrio senza appoggiarsi completamente.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "frog_crunch": {
+  "name": "Frog Crunch",
+  "desc_en": "A crunch variation with knees spread apart and feet flat on the ground to emphasize abdominal engagement.",
+  "desc_it": "Esercizio di crunch con le ginocchia divaricate e i piedi appoggiati a terra per enfatizzare il lavoro degli addominali.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "frog_planche": {
+  "name": "Frog Planche",
+  "desc_en": "Static hold of the body lifted off the ground with knees resting on the arms or close to them.",
+  "desc_it": "Mantenimento statico del corpo sollevato da terra con le ginocchia appoggiate sulle braccia o vicino ad esse.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "planche",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "frog_pump": {
+  "name": "Frog Pump",
+  "desc_en": "Hip thrust movement performed lying on the back with the soles of the feet together and knees flared outward.",
+  "desc_it": "Sollevamento del bacino da supino con le piante dei piedi unite e le ginocchia divaricate.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "adductor_magnus",
+    "primary"
+   ],
+   [
+    "adductor_longus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gluteus_medius",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_bridge": {
+  "name": "Front Bridge",
+  "desc_en": "Isometric or dynamic neck strengthening exercise performed by supporting the body weight on the head and hands.",
+  "desc_it": "Esercizio di isometrica o dinamica per il rinforzo dei muscoli del collo, eseguito mantenendo il peso del corpo sul cranio e sulle mani.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plank",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_foot_elevated_split_squat": {
+  "name": "Front-Foot Elevated Split Squat",
+  "desc_en": "Split squat with the front foot elevated on a platform, performed with controlled movement and core stabilization.",
+  "desc_it": "Affondo con il piede anteriore rialzato su un rialzo, eseguito con un movimento controllato e un core stabilizzato.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "split_squat",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever": {
+  "name": "Front Lever",
+  "desc_en": "Elite gymnastics skill: holding the body in a horizontal position in front of the bar with straight arms.",
+  "desc_it": "Skill ginnica d'élite: mantenere il corpo in posizione orizzontale davanti alla sbarra con le braccia tese.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever_curl": {
+  "name": "Front Lever Curl",
+  "desc_en": "Performing a bicep curl while maintaining a suspended front lever position.",
+  "desc_it": "Esecuzione di una flessione del gomito mantenendo una posizione di front lever sospesa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever_hold": {
+  "name": "Front Lever Hold",
+  "desc_en": "Isometric hold of the body in a horizontal position parallel to the ground, suspended from a bar.",
+  "desc_it": "Mantenimento isometrico del corpo in posizione orizzontale parallela al suolo, sospeso a una sbarra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "teres_major",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever_reps": {
+  "name": "Front Lever Reps",
+  "desc_en": "Lifting the body into a horizontal position parallel to the ground while maintaining a grip on a bar.",
+  "desc_it": "Sollevamento del corpo in posizione orizzontale parallela al suolo, mantenendo la presa su una sbarra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever_row": {
+  "name": "Front Lever Row",
+  "desc_en": "Rowing exercise performed while maintaining the body in a horizontal position parallel to the ground in suspension.",
+  "desc_it": "Rematore eseguito mantenendo il corpo in posizione orizzontale parallela al terreno in sospensione.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "front_lever_row",
+  "muscles": [
+   [
+    "trapezius_middle",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_short",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "front_lever_tuck_hold": {
+  "name": "Front Lever Tuck Hold",
+  "desc_en": "Isometric hold of the front lever position with knees tucked towards the chest.",
+  "desc_it": "Mantenimento isometrico della posizione di front lever con le ginocchia portate al petto in posizione di tuck.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "front_plank_with_twist": {
+  "name": "Front Plank With Twist",
+  "desc_en": "High plank with torso rotation and alternating arm lifts toward the ceiling.",
+  "desc_it": "Plank alto con rotazione del busto e sollevamento alternato delle braccia verso l'alto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "rotation_twist",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "front_rack_reverse_lunge": {
+  "name": "Front Rack Reverse Lunge",
+  "desc_en": "Reverse lunges with the barbell held in the front rack position on the shoulders.",
+  "desc_it": "Affondi all'indietro con il bilanciere mantenuto in posizione front rack sulle spalle.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lunge",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "front_squat": {
+  "name": "Front Squat",
+  "desc_en": "Squat variant with the barbell resting on the clavicles and anterior deltoids. Requires an upright torso to maximize quadriceps recruitment.",
+  "desc_it": "Variante dello squat con il bilanciere appoggiato sulle clavicole e i deltoidi anteriori. Richiede una postura verticale del busto per massimizzare il lavoro dei quadricipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_front",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "full_back_lever": {
+  "name": "Full Back Lever",
+  "desc_en": "Complete version of the back lever with the body perfectly horizontal and legs together.",
+  "desc_it": "Versione completa della leva posteriore con il corpo perfettamente orizzontale e gambe unite.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "full_dragon_flag": {
+  "name": "Full Dragon Flag",
+  "desc_en": "Core stability exercise where the body is lifted in a single straight line from the shoulders down.",
+  "desc_it": "Esercizio di core stability in cui il corpo viene sollevato in un'unica linea retta dalle spalle verso il basso.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "dragon_flag",
+  "muscles": [
+   [
+    "erector_spinae",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "full_maltese": {
+  "name": "Full Maltese",
+  "desc_en": "A static hold position with the body fully extended and arms stretched out to the sides, parallel to the ground.",
+  "desc_it": "Mantenimento di una posizione statica a corpo teso con le braccia distese lateralmente e il corpo parallelo al suolo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "lever_hold",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "full_planche": {
+  "name": "Full Planche",
+  "desc_en": "A static hold where the body is held parallel to the ground, supported exclusively by the hands.",
+  "desc_it": "Mantenimento di una posizione statica con il corpo parallelo al suolo, sostenuto esclusivamente dalle mani.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "planche",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "full_planche_push_up": {
+  "name": "Full Planche Push-up",
+  "desc_en": "Performing push-ups in a full planche position, maintaining the body suspended in the air without foot contact.",
+  "desc_it": "Esecuzione di flessioni in posizione di planche completa, mantenendo il corpo sospeso in aria senza contatto con i piedi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "ghd_back_extension": {
+  "name": "GHD Back Extension",
+  "desc_en": "Hip and spinal extension performed on a GHD machine to strengthen the posterior chain.",
+  "desc_it": "Estensione dell'anca e della colonna eseguita su un macchinario GHD per il rinforzo della catena posteriore.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "ghd_hip_extension": {
+  "name": "GHD Hip Extension",
+  "desc_en": "Hip extension movement performed on a GHD machine to target the posterior chain.",
+  "desc_it": "Movimento di estensione dell'anca eseguito su macchina GHD per il lavoro di catena posteriore.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "ghd_sit_up": {
+  "name": "GHD Sit-Up",
+  "desc_en": "Trunk flexion exercise performed on a GHD machine, allowing spinal extension beyond the vertical position.",
+  "desc_it": "Esercizio di flessione del tronco eseguito su macchina GHD, che permette un'estensione della colonna oltre la verticale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "secondary"
+   ],
+   [
+    "iliopsoas",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "gironda_sternum_chin": {
+  "name": "Gironda Sternum Chin",
+  "desc_en": "Vertical pull with an overhand grip on a high bar, leading the movement with the sternum towards the bar.",
+  "desc_it": "Trazione verticale con presa prona su barra alta, guidando il movimento con lo sterno verso l'alto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "chinup",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "depression",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_pull",
+    "primary"
+   ]
+  ]
+ },
+ "glute_bridge": {
+  "name": "Glute Bridge",
+  "desc_en": "Lifting the hips from the floor while maintaining an upper back position and driving through the heels.",
+  "desc_it": "Sollevamento del bacino da terra mantenendo la schiena alta e spingendo attraverso i talloni.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "glute_bridge",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gluteus_medius",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "glute_bridge_march": {
+  "name": "Glute Bridge March",
+  "desc_en": "Lie on your back with knees bent. Lift your hips into a bridge position, then alternate lifting one knee towards your chest while maintaining the bridge.",
+  "desc_it": "Sdraiati sulla schiena con le ginocchia piegate. Solleva i fianchi mantenendo una linea retta dalle ginocchia alle spalle, poi alterna l'avvicinamento di un ginocchio al petto in posizione di ponte.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "glute_bridge",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "glute_bridge_two_legs_on_bench": {
+  "name": "Glute Bridge Two Legs On Bench",
+  "desc_en": "Lifting the hips from a seated position on the edge of a bench, with feet flat on the ground.",
+  "desc_it": "Sollevamento del bacino partendo dalla posizione seduta sul bordo di una panca, con i piedi appoggiati a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "glute_bridge",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "glute_ham_raise": {
+  "name": "Glute-Ham Raise",
+  "desc_en": "Hip extension and knee flexion exercise performed on a GHD machine.",
+  "desc_it": "Esercizio di estensione dell'anca e flessione del ginocchio eseguito su una macchina GHD.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "leg_curl_lying",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_short",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "goblet_squat": {
+  "name": "Goblet Squat",
+  "desc_en": "Squat performed while holding a weight (kettlebell or dumbbell) at the chest.",
+  "desc_it": "Squat eseguito tenendo un peso (kettlebell o manubrio) al petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_bodyweight",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "good_morning": {
+  "name": "Good Morning",
+  "desc_en": "Forward torso flexion exercise with a barbell resting on the shoulders, focusing on the posterior chain.",
+  "desc_it": "Esercizio di flessione del busto in avanti con un bilanciere appoggiato sulle spalle, focalizzato sulla catena posteriore.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "good_morning",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ]
+  ]
+ },
+ "good_morning_bodyweight": {
+  "name": "Good Morning (Bodyweight)",
+  "desc_en": "Stand with hips-width stance, hinge the hips back while keeping a neutral spine and a soft knee bend. Return by driving the hips forward and squeezing glutes and hamstrings without losing your brace.",
+  "desc_it": "In piedi con piedi alla larghezza delle anche, porta il bacino indietro mantenendo schiena neutra e ginocchia leggermente flesse. Risali spingendo i fianchi in avanti e stringendo glutei e posteriori, senza perdere il brace.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "good_morning",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "multifidus",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ]
+  ]
+ },
+ "gorilla_chin": {
+  "name": "Gorilla Chin",
+  "desc_en": "A vertical pull exercise consisting of lifting the body towards a pull-up bar from a full suspension position.",
+  "desc_it": "Esercizio di trazione verticale che consiste nel sollevare il corpo verso una sbarra per trazioni partendo da una posizione di sospensione completa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "chinup",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "secondary"
+   ],
+   [
+    "forearm_flexors",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "depression",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_pull",
+    "primary"
+   ]
+  ]
+ },
+ "grip_trainer": {
+  "name": "Grip Trainer",
+  "desc_en": "An isolation exercise to strengthen grip strength using a specific device.",
+  "desc_it": "Esercizio di isolamento per il rafforzamento della forza di presa utilizzando un dispositivo specifico.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "grip_hold",
+  "muscles": [
+   [
+    "forearm_flexors",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hand",
+    "grip",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "grip",
+    "primary"
+   ]
+  ]
+ },
+ "groin_crunch": {
+  "name": "Groin Crunch",
+  "desc_en": "Lying on your back with knees bent, lift your legs by bringing your knees toward your chest by engaging the abdominals.",
+  "desc_it": "Sdraiati sulla schiena con le ginocchia piegate, sollevando le gambe portando le ginocchia verso il petto attraverso la contrazione degli addominali.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "adductor_longus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hack_calf_raise": {
+  "name": "Hack Calf Raise",
+  "desc_en": "An isolation exercise for the calves performed on a Hack Squat machine.",
+  "desc_it": "Esercizio di isolamento per i polpacci eseguito su una macchina Hack Squat.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hack_one_leg_calf_raise": {
+  "name": "Hack One Leg Calf Raise",
+  "desc_en": "Unilateral exercise performed on a Hack Squat machine to isolate the calves through plantar flexion.",
+  "desc_it": "Esercizio unilaterale eseguito su macchina Hack Squat per l'isolamento dei polpacci tramite flessione plantare.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hack_squat": {
+  "name": "Hack Squat",
+  "desc_en": "Leg press exercise performed on a specific machine that guides the movement along an inclined plane.",
+  "desc_it": "Esercizio di spinta per le gambe eseguito su macchina specifica che guida il movimento lungo un piano inclinato.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_hack",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "half_knee_bends": {
+  "name": "Half Knee Bends",
+  "desc_en": "A partial squat movement performed standing with weight distributed on the heels.",
+  "desc_it": "Un movimento di squat parziale eseguito in piedi con il peso distribuito sui talloni.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_bodyweight",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_alternating_dumbbell_floor_press": {
+  "name": "Half-Kneeling Alternating Dumbbell Floor Press",
+  "desc_en": "Chest press with dumbbells performed on the floor in a half-kneeling position, alternating arms.",
+  "desc_it": "Spinta di petto con manubri eseguita da terra in posizione semi-inginocchiata, alternando le braccia.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_floor",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_band_external_rotation_press_out": {
+  "name": "Half-Kneeling Band External Rotation Press-Out",
+  "desc_en": "A motor control exercise involving shoulder external rotation against a resistance band in a half-kneeling position.",
+  "desc_it": "Esercizio di controllo motorio che prevede la rotazione esterna della spalla con una banda elastica in posizione di semi-inginocchiamento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "press_cable_chest",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_bottom_up_kettlebell_press": {
+  "name": "Half-Kneeling Bottom-Up Kettlebell Press",
+  "desc_en": "Vertical press of a kettlebell held upside down (bottom-up) from a half-kneeling position.",
+  "desc_it": "Spinta verticale di una kettlebell impugnata al contrario (bottom-up) partendo da una posizione in ginocchio.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "ohp_standing",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "elevation",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_half_kneeling_landmine_press": {
+  "name": "Half-Kneeling Half-Kneeling Landmine Press",
+  "desc_en": "Vertical press with a landmine barbell starting from a half-kneeling position.",
+  "desc_it": "Spinta verticale con bilanciere landmine partendo da una posizione in mezzo inginocchiato.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "ohp_landmine",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "elevation",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_landmine_chest_press": {
+  "name": "Half-Kneeling Landmine Chest Press",
+  "desc_en": "Landmine barbell press performed from a half-kneeling position.",
+  "desc_it": "Spinta del bilanciere landmine in posizione di mezzo inginocchiato.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_incline",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "half_kneeling_landmine_press": {
+  "name": "Half-Kneeling Landmine Press",
+  "desc_en": "Unilateral press of a barbell fixed in a landmine attachment from a half-kneeling position.",
+  "desc_it": "Spinta unilaterale di un bilanciere fissato a un supporto landmine partendo da una posizione di ginocchio a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "ohp_landmine",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "elevation",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_medicine_ball_chest_pass": {
+  "name": "Half-Kneeling Medicine Ball Chest Pass",
+  "desc_en": "Forward throw of a medicine ball starting from a half-kneeling position.",
+  "desc_it": "Lancio della palla medica in avanti partendo da una posizione in ginocchio su una gamba sola.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "throw",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_pallof_press": {
+  "name": "Half-Kneeling Pallof Press",
+  "desc_en": "Anti-rotation exercise performed in a half-kneeling position using a cable or resistance band.",
+  "desc_it": "Esercizio di anti-rotazione eseguito in posizione di mezzo inginocchiamento utilizzando un cavo o un elastico.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "pallof_press",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_rotation",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_single_arm_cable_press": {
+  "name": "Half-Kneeling Single-Arm Cable Press",
+  "desc_en": "Unilateral horizontal push exercise performed in a half-kneeling position using a cable machine.",
+  "desc_it": "Esercizio di spinta orizzontale unilaterale eseguito in posizione di affondo facilitato (mezzo inginocchiato) tramite l'uso di un cavo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "press_cable_chest",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_single_arm_dumbbell_push_press": {
+  "name": "Half-Kneeling Single-Arm Dumbbell Push Press",
+  "desc_en": "Single-arm overhead press with a dumbbell, starting from a half-kneeling position.",
+  "desc_it": "Spinta verticale di un manubrio con un braccio, partendo da una posizione in cui un ginocchio è appoggiato a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "push_jerk",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "elevation",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "secondary"
+   ],
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_kneeling_tall_kneeling_band_press": {
+  "name": "Half-Kneeling Tall-Kneeling Band Press",
+  "desc_en": "Vertical press exercise using a resistance band from a half-kneeling position.",
+  "desc_it": "Esercizio di spinta verticale con elastico partendo da una posizione di semi-inginocchiamento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "press_cable_chest",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "half_sit_up": {
+  "name": "Half Sit-up",
+  "desc_en": "Lie on your back with knees bent and feet flat. Lift your upper body until your torso forms a 45-degree angle.",
+  "desc_it": "Sdraiati sulla schiena con le ginocchia piegate e i piedi a terra. Solleva il busto fino a formare un angolo di 45 gradi con il corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hammer_curl": {
+  "name": "Hammer Curl",
+  "desc_en": "Elbow flexion with dumbbells using a neutral grip.",
+  "desc_it": "Flessione dei gomiti con manubri mantenendo una presa neutra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_standing",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "secondary"
+   ],
+   [
+    "brachioradialis",
+    "primary"
+   ],
+   [
+    "brachialis",
+    "primary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hammer_strength_row": {
+  "name": "Hammer Strength Row",
+  "desc_en": "Plate-loaded lever row with a guided path for training the back muscles.",
+  "desc_it": "Rematore su macchina a leve con traiettoria guidata per l'allenamento dei muscoli della schiena.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "row_machine",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "primary"
+   ],
+   [
+    "biceps_brachii_short",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "hamstring_stretch": {
+  "name": "Hamstring Stretch",
+  "desc_en": "Static hamstring stretch performed by bending forward at the hips.",
+  "desc_it": "Allungamento statico dei muscoli ischio-crurali piegandosi in avanti dai fianchi.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ]
+ },
+ "hamstring_walkout": {
+  "name": "Hamstring Walkout",
+  "desc_en": "From a standing position, slide the feet forward to nearly fully extend the legs and then slide back to the starting position.",
+  "desc_it": "Dalla posizione di partenza in piedi, si scivola con i piedi in avanti fino a estendere quasi completamente le gambe e poi si ritorna alla posizione iniziale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "slider_leg_curl",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "knee_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hands_bike": {
+  "name": "Hands Bike",
+  "desc_en": "Cardio exercise using an ergometer where movement is generated exclusively through the pushing and pulling of the arms.",
+  "desc_it": "Esercizio cardio utilizzando un ergometro dove il movimento è generato esclusivamente tramite la spinta e la trazione delle braccia.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "cardio_cyclic",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "locomotion",
+    "primary"
+   ]
+  ]
+ },
+ "hands_clasped_circular_toe_touch": {
+  "name": "Hands Clasped Circular Toe Touch",
+  "desc_en": "Performing a circular hand motion from a standing position towards the toes, hinging at the hips.",
+  "desc_it": "Esecuzione di un movimento circolare con le mani intrecciate partendo dalla posizione eretta verso le punte dei piedi, con un perno sui fianchi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hands_reversed_clasped_circular_toe_touch": {
+  "name": "Hands Reversed Clasped Circular Toe Touch",
+  "desc_en": "Standing forward bend with hands clasped behind the legs, performing a circular motion to touch the toes.",
+  "desc_it": "In piedi, piegati in avanti con le mani intrecciate dietro le gambe, eseguendo un movimento circolare per toccare le dita dei piedi.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "crunch",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "handstand": {
+  "name": "Handstand",
+  "desc_en": "Maintaining a vertical balance position on the hands.",
+  "desc_it": "Mantenimento della posizione verticale in equilibrio sulle mani.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "handstand_hold",
+  "muscles": [
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "handstand_hold": {
+  "name": "Handstand Hold",
+  "desc_en": "Maintaining a vertical position with the body in line and hands on the floor.",
+  "desc_it": "Mantenimento della posizione verticale con il corpo in linea e le mani a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "handstand_hold",
+  "muscles": [
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "handstand_push_up": {
+  "name": "Handstand Push-Up",
+  "desc_en": "Performing a vertical push in a handstand position with hands on the floor.",
+  "desc_it": "Esecuzione di una spinta verticale in posizione di verticale con le mani a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "handstand_shrug": {
+  "name": "Handstand Shrug",
+  "desc_en": "Performing scapular shrugs while in a handstand position.",
+  "desc_it": "Esecuzione di scivolamenti delle scapole in posizione di verticale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "shrug",
+  "muscles": [
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "scapula",
+    "elevation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "scapular",
+    "primary"
+   ]
+  ]
+ },
+ "handstand_walk": {
+  "name": "Handstand Walk",
+  "desc_en": "Moving in a handstand position by walking with the hands on the floor.",
+  "desc_it": "Spostamento in posizione di verticale attraverso la locomozione con le mani a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "handstand_hold",
+  "muscles": [
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "supraspinatus",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "hang_clean_and_jerk": {
+  "name": "Hang Clean & Jerk",
+  "desc_en": "Olympic lifting exercise combining a hang clean and a vertical press of the barbell overhead.",
+  "desc_it": "Esercizio di sollevamento olimpico che combina un clean partendo da posizione sospesa e una spinta verticale del bilanciere sopra la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "push_jerk",
+  "muscles": [
+   [
+    "trapezius_upper",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ],
+   [
+    "triceps_brachii_medial",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "flexion",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "elevation",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "secondary"
+   ],
+   [
+    "vertical_press",
+    "primary"
+   ]
+  ]
+ },
+ "hang_clean_pull": {
+  "name": "Hang Clean Pull",
+  "desc_en": "Explosive hip and knee extension to pull the barbell upward without completing the catch phase.",
+  "desc_it": "Movimento esplosivo di estensione dell'anca e delle ginocchia per portare il bilanciere verso l'alto senza completare il ricevo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "deadlift_conventional",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ],
+   [
+    "squat",
+    "secondary"
+   ]
+  ]
+ },
+ "hang_power_clean": {
+  "name": "Hang Power Clean",
+  "desc_en": "A variation of the Power Clean performed from a suspended position without touching the floor.",
+  "desc_it": "Variante del Power Clean eseguita partendo da una posizione sospesa senza toccare terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "olympic_lift",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "hang_power_snatch": {
+  "name": "Hang Power Snatch",
+  "desc_en": "A variation of the snatch starting from a hanging position. Requires explosive hip extension to drive the barbell overhead.",
+  "desc_it": "Variante dello snatch partendo da una posizione sospesa. Richiede un'estensione esplosiva dell'anca per portare il bilanciere sopra la testa.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "olympic_lift",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "hang_snatch": {
+  "name": "Hang Snatch",
+  "desc_en": "Olympic lift involving pulling the barbell from the hang position above the knees to overhead in one explosive movement.",
+  "desc_it": "Sollevamento olimpico che consiste nel portare il bilanciere dalla posizione di sospensione sopra le ginocchia fino a sopra la testa in un unico movimento esplosivo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "olympic_lift",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "hang_squat_clean": {
+  "name": "Hang Squat Clean",
+  "desc_en": "A variation of the Power Clean performed from a hanging position. Requires explosive hip extension and a rapid transition under the bar during the squat.",
+  "desc_it": "Variante del Power Clean eseguita partendo da una posizione sospesa. Richiede un'estensione esplosiva dell'anca e un rapido passaggio sotto la barra durante lo squat.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_back",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_knee_raise": {
+  "name": "Hanging Knee Raise",
+  "desc_en": "Lifting the knees from a hanging position on a pull-up bar.",
+  "desc_it": "Sollevamento delle ginocchia da una posizione di sospensione alla sbarra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "rectus_femoris",
+    "secondary"
+   ],
+   [
+    "sartorius",
+    "secondary"
+   ],
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_leg_hip_raise": {
+  "name": "Hanging Leg Hip Raise",
+  "desc_en": "Hang from a pull-up bar and lift your legs by flexing your hips until your thighs are parallel to the ground.",
+  "desc_it": "Appendi a una sbarra per trazioni e solleva le gambe flettendo i fianchi finché le cosce non sono parallele al suolo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_leg_raise": {
+  "name": "Hanging Leg Raise",
+  "desc_en": "Leg raises performed while hanging from a pull-up bar.",
+  "desc_it": "Sollevamento delle gambe partendo da una posizione appesa a una sbarra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_oblique_knee_raise": {
+  "name": "Hanging Oblique Knee Raise",
+  "desc_en": "Hanging knee raises from a pull-up bar with torso rotation to target the obliques.",
+  "desc_it": "Sollevamento delle ginocchia appesi alla sbarra con rotazione del busto per attivare gli obliqui.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_pike": {
+  "name": "Hanging Pike",
+  "desc_en": "Lift straight legs towards the bar while hanging, forming a V-shape with the body.",
+  "desc_it": "Solleva le gambe tese verso la sbarra mentre sei appeso, formando una forma a V con il corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_straight_leg_hip_raise": {
+  "name": "Hanging Straight Leg Hip Raise",
+  "desc_en": "Hang from a pull-up bar and lift your straight legs in front of you until they are parallel to the ground.",
+  "desc_it": "Appendi a una sbarra per trazioni e solleva le gambe tese davanti a te fino a quando non sono parallele al suolo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_straight_leg_raise": {
+  "name": "Hanging Straight Leg Raise",
+  "desc_en": "Lift straight legs while hanging from a pull-up bar.",
+  "desc_it": "Solleva le gambe tese mentre sei appeso a una sbarra per trazioni.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hanging_straight_twisting_leg_hip_raise": {
+  "name": "Hanging Straight Twisting Leg Hip Raise",
+  "desc_en": "Hanging leg raises with straight legs and alternating hip rotation.",
+  "desc_it": "Sollevamento delle gambe tese a sospensione con rotazione dei fianchi alternata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "rotation_twist",
+  "muscles": [
+   [
+    "iliopsoas",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "heavy_wall_ball": {
+  "name": "Heavy Wall Ball",
+  "desc_en": "Variation of Wall Ball Shot with higher load. Requires high motor control and constant core bracing.",
+  "desc_it": "Variante di Wall Ball Shot con carico maggiore. Richiede un controllo motorio elevato e un bracing addominale costante.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "throw",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "heel_drop": {
+  "name": "Heel Drop",
+  "desc_en": "From a step, rise onto the toes and lower slowly below step level emphasizing the eccentric.",
+  "desc_it": "Da un gradino, sali sulle punte e poi scendi lentamente oltre il livello del gradino enfatizzando l'eccentrica.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "closed",
+  "archetype": "calf_raise_standing",
+  "muscles": [
+   [
+    "soleus",
+    "primary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "ankle",
+    "plantar_flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "plantar_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hex_press": {
+  "name": "Hex Press",
+  "desc_en": "Dumbbell press performed with the dumbbells pressed together over the chest.",
+  "desc_it": "Distensione con manubri tenuti a contatto tra loro sopra il petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_flat",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ],
+   [
+    "pectoralis_minor",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "high_bar_squat": {
+  "name": "High Bar Squat",
+  "desc_en": "Back squat variant with the barbell placed high on the upper traps, promoting a more upright torso.",
+  "desc_it": "Variante del back squat con bilanciere posizionato alto sui trapezi superiori, che favorisce una postura più verticale del busto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_back",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "high_cable_crossover_lower_chest": {
+  "name": "High Cable Crossover (Lower Chest)",
+  "desc_en": "Cable crossover with the pulleys set high: move the handles down and forward with soft elbows and controlled scapular position.",
+  "desc_it": "Crossover con cavi regolati in alto: guida le maniglie dall'alto verso il basso e in avanti, mantenendo gomiti morbidi e controllo della scapola.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "fly_cable",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "high_cable_curl": {
+  "name": "High Cable Curl",
+  "desc_en": "Biceps flexion exercise performed with cables set in a high position to target the biceps.",
+  "desc_it": "Esercizio di flessione del braccio eseguito con i cavi impostati in posizione alta per sollecitare i bicipiti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "curl_overhead_cable",
+  "muscles": [
+   [
+    "biceps_brachii_short",
+    "primary"
+   ],
+   [
+    "brachioradialis",
+    "secondary"
+   ],
+   [
+    "brachialis",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "elbow_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "high_cable_fly_lower_chest": {
+  "name": "High Cable Fly (Lower Chest)",
+  "desc_en": "Cables set high; handles move downward and inward in an arc.",
+  "desc_it": "Cavi posizionati in alto; le maniglie si muovono dall'alto verso il basso e verso l'interno.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "fly_cable",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "high_cable_row": {
+  "name": "High Cable Row",
+  "desc_en": "Horizontal pull with high cable positioning toward the upper torso.",
+  "desc_it": "Tirata orizzontale con cavi posizionati in alto verso la parte superiore del busto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "row_cable",
+  "muscles": [
+   [
+    "latissimus_dorsi",
+    "secondary"
+   ],
+   [
+    "trapezius_middle",
+    "primary"
+   ],
+   [
+    "biceps_brachii_short",
+    "secondary"
+   ],
+   [
+    "deltoid_posterior",
+    "secondary"
+   ],
+   [
+    "teres_major",
+    "secondary"
+   ],
+   [
+    "rhomboids",
+    "secondary"
+   ],
+   [
+    "biceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "extension",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_pull",
+    "primary"
+   ]
+  ]
+ },
+ "high_face_pull": {
+  "name": "High Face Pull",
+  "desc_en": "Face pull with the cable set at a high position to emphasize shoulder external rotation and scapular stability.",
+  "desc_it": "Tirata al volto con cavo impostato in posizione alta per enfatizzare l'extrarotazione della spalla e la stabilità scapolare.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "face_pull",
+  "muscles": [
+   [
+    "infraspinatus",
+    "secondary"
+   ],
+   [
+    "deltoid_posterior",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_abduction",
+    "primary"
+   ],
+   [
+    "scapula",
+    "retraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "scapular",
+    "secondary"
+   ],
+   [
+    "shoulder_horizontal_abduction",
+    "primary"
+   ]
+  ]
+ },
+ "high_foot_leg_press": {
+  "name": "High Foot Leg Press",
+  "desc_en": "Performing a leg press with feet positioned high on the platform to emphasize glute and hamstring engagement.",
+  "desc_it": "Esecuzione della leg press con i piedi posizionati nella parte alta della pedana per enfatizzare il lavoro dei glutei e dei femorali.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "leg_press",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "high_incline_barbell_press": {
+  "name": "High Incline Barbell Press",
+  "desc_en": "Barbell press on a steeply inclined bench, focusing on the upper chest and shoulders.",
+  "desc_it": "Spinta di bilanciere su panca con inclinazione elevata, focalizzata sulla parte superiore del petto e sulle spalle.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_incline",
+  "muscles": [
+   [
+    "pectoralis_major_clavicular",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "high_knee_against_wall": {
+  "name": "High Knee Against Wall",
+  "desc_en": "A marching exercise with wall support to lift the knees towards the chest.",
+  "desc_it": "Esercizio di marcia sul posto con supporto al muro per sollevare le ginocchia verso il petto.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "hip_flexion",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "iliopsoas",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "gastrocnemius_medial",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "high_knees": {
+  "name": "High Knees",
+  "desc_en": "Running in place with rapid, alternating high knee lifts towards the chest.",
+  "desc_it": "Esecuzione di una corsa sul posto con sollevamento alternato e rapido delle ginocchia verso il petto.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plyometric",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "jump",
+    "primary"
+   ]
+  ]
+ },
+ "high_knees_with_arms": {
+  "name": "High Knees with Arms",
+  "desc_en": "Running in place by lifting the knees toward the chest with coordinated arm movements.",
+  "desc_it": "Corsa sul posto con sollevamento delle ginocchia verso il petto e movimento coordinato delle braccia.",
+  "tips": null,
+  "kind": "conditioning",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "plyometric",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "tibialis_anterior",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "jump",
+    "primary"
+   ]
+  ]
+ },
+ "high_pin_press": {
+  "name": "High Pin Press",
+  "desc_en": "Pressing exercise with a barbell starting from a dead stop on pins at a high position, near lockout.",
+  "desc_it": "Esercizio di spinta con bilanciere che parte da una posizione di fermo su perni a un'altezza elevata, vicino al lockout.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "bench_floor",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "secondary"
+   ],
+   [
+    "pectoralis_major_clavicular",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_lateral",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "high_pull": {
+  "name": "High Pull",
+  "desc_en": "Explosive barbell pull that brings the weight towards the chin while keeping the elbows high.",
+  "desc_it": "Tirata esplosiva con bilanciere che porta il carico verso il mento mantenendo i gomiti alti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "upright_row",
+  "muscles": [
+   [
+    "deltoid_lateral",
+    "primary"
+   ],
+   [
+    "trapezius_upper",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "supraspinatus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "abduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "shoulder_abduction",
+    "primary"
+   ],
+   [
+    "elbow_flexion",
+    "secondary"
+   ]
+  ]
+ },
+ "high_to_low_woodchop": {
+  "name": "High-to-Low Woodchop",
+  "desc_en": "Rotational trunk movement that brings the load from a high to a low position diagonally.",
+  "desc_it": "Movimento di rotazione del tronco che porta il carico da una posizione alta a una bassa in diagonale.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "woodchop",
+  "muscles": [
+   [
+    "obliquus_internus",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "obliquus_externus",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "rotation",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "rotation",
+    "primary"
+   ]
+  ]
+ },
+ "hindu_push_up": {
+  "name": "Hindu Push-Up",
+  "desc_en": "Circular push-up starting from a V position, sweeping the chest down in an arc and finishing in cobra. Combines strength, spinal mobility and movement fluidity.",
+  "desc_it": "Flessione circolare che parte dalla posizione a V, scende con il petto verso il basso in un arco e termina in cobra. Combina forza, mobilità della colonna e fluidità del movimento.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "pushup",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "hindu_squat": {
+  "name": "Hindu Squat",
+  "desc_en": "Dynamic squat involving rhythmic torso and arm movements to manage the center of gravity.",
+  "desc_it": "Squat dinamico caratterizzato da un movimento oscillatorio del busto e delle braccia per gestire il centro di gravità.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "squat_bodyweight",
+  "muscles": [
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "hip_abduction_machine": {
+  "name": "Hip Abduction Machine",
+  "desc_en": "Performing hip abduction using a dedicated machine, focusing on the lateral movement of the legs against resistance.",
+  "desc_it": "Esecuzione di abduzione dell'anca tramite macchina dedicata, focalizzata sul movimento laterale delle gambe contro resistenza.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "hip_abduction",
+  "muscles": [
+   [
+    "gluteus_minimus",
+    "primary"
+   ],
+   [
+    "gluteus_medius",
+    "primary"
+   ],
+   [
+    "tensor_fasciae_latae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "abduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_abduction",
+    "primary"
+   ]
+  ]
+ },
+ "hip_adduction_machine": {
+  "name": "Hip Adduction Machine",
+  "desc_en": "Isolation exercise for the adductors performed on a machine, involving pulling the legs toward the midline of the body.",
+  "desc_it": "Esercizio di isolamento per gli adduttori eseguito alla macchina, che prevede l'avvicinamento delle gambe verso la linea mediana del corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "hip_adduction",
+  "muscles": [
+   [
+    "adductor_brevis",
+    "primary"
+   ],
+   [
+    "adductor_magnus",
+    "primary"
+   ],
+   [
+    "gracilis",
+    "secondary"
+   ],
+   [
+    "adductor_longus",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_adduction",
+    "primary"
+   ]
+  ]
+ },
+ "hip_airplane": {
+  "name": "Hip Airplane",
+  "desc_en": "Hip mobility exercise involving internal and external rotation of the hip joint while balancing on one leg.",
+  "desc_it": "Esercizio di mobilità dell'anca che prevede la rotazione interna ed esterna dell'articolazione mentre si è in equilibrio su una gamba sola.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "mobility_drill",
+  "muscles": [
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "locomotion",
+    "primary"
+   ]
+  ]
+ },
+ "hip_bridge_walkout": {
+  "name": "Hip Bridge Walkout",
+  "desc_en": "Core and glute stability exercise involving lifting the pelvis in a bridge position, followed by a controlled forward movement of the feet.",
+  "desc_it": "Esercizio di stabilità del core e glutei che prevede il sollevamento del bacino in posizione di ponte, seguito dallo spostamento controllato dei piedi in avanti.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "glute_bridge",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_short",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hip_hinge_good_morning": {
+  "name": "Hip Hinge Good Morning",
+  "desc_en": "Forward torso flexion while maintaining a neutral spine, focusing the movement on pushing the hips backward.",
+  "desc_it": "Flessione del busto in avanti mantenendo la schiena neutra, focalizzando il movimento sulla spinta dell'anca all'indietro.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "good_morning",
+  "muscles": [
+   [
+    "semitendinosus",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "semimembranosus",
+    "primary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ]
+  ]
+ },
+ "hip_raise_bent_knee": {
+  "name": "Hip Raise (bent Knee)",
+  "desc_en": "Lifting the hips off the ground from a supine position with knees bent.",
+  "desc_it": "Sollevamento dei fianchi da terra partendo dalla posizione supina con le ginocchia piegate.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hip_thrust": {
+  "name": "Hip Thrust",
+  "desc_en": "Hip extension with the torso resting on a bench and a load positioned on the pelvis.",
+  "desc_it": "Estensione dell'anca con il busto appoggiato a una panca e un carico posizionato sul bacino.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hip_thrust_a_corpo_libero": {
+  "name": "Hip Thrust a Corpo Libero",
+  "desc_en": "Hip extension performed with the torso supported on an elevated surface and the body using its own weight.",
+  "desc_it": "Estensione dell'anca eseguita con il tronco appoggiato su una superficie rialzata e il corpo sostenuto dal proprio peso.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hip_thrust_bridge": {
+  "name": "Hip Thrust Bridge",
+  "desc_en": "Hip extension exercise performed from a supine position with feet flat on the floor.",
+  "desc_it": "Esercizio di spinta delle anche verso l'alto partendo da posizione supina con i piedi appoggiati a terra.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "gluteus_medius",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hip_thrust_with_couch": {
+  "name": "Hip Thrust (with Couch)",
+  "desc_en": "Set the upper back on the support, brace and tuck the pelvis slightly, then drive through the heels to lift the hips. Finish with glutes squeezed and ribs down, then lower under control.",
+  "desc_it": "Dorso alto in appoggio, core in brace e leggera retroversione, poi spingi dai talloni per sollevare le anche. Chiudi stringendo i glutei con costole giù, quindi scendi controllando.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hip_thrust",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hold_korean_dip": {
+  "name": "Hold Korean Dip",
+  "desc_en": "Isometric hold of the Korean Dip position, with the body facing the dip bars.",
+  "desc_it": "Mantenimento isometrico della posizione di Korean Dip, con il corpo orientato verso le parallele.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "tri_dip",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "secondary"
+   ],
+   [
+    "triceps_brachii_long",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ],
+   [
+    "elbow",
+    "extension",
+    "primary"
+   ],
+   [
+    "scapula",
+    "protraction",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ],
+   [
+    "vertical_press",
+    "secondary"
+   ]
+  ]
+ },
+ "hold_seated_leg_lift": {
+  "name": "Hold Seated Leg Lift",
+  "desc_en": "Isometric hold of the legs in a raised seated position.",
+  "desc_it": "Mantenimento isometrico delle gambe sollevate in posizione seduta.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "open",
+  "archetype": "leg_raise_hanging",
+  "muscles": [
+   [
+    "rectus_femoris",
+    "secondary"
+   ],
+   [
+    "sartorius",
+    "secondary"
+   ],
+   [
+    "iliopsoas",
+    "primary"
+   ],
+   [
+    "rectus_abdominis",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "flexion",
+    "primary"
+   ],
+   [
+    "spine",
+    "flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "spinal_flexion",
+    "secondary"
+   ],
+   [
+    "hip_flexion",
+    "primary"
+   ]
+  ]
+ },
+ "hollow_body_hold": {
+  "name": "Hollow Body Hold",
+  "desc_en": "An isometric supine position with the lower back pressed against the floor and limbs extended.",
+  "desc_it": "Posizione isometrica supina con zona lombare aderente al pavimento, braccia e gambe distese.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hollow_hold",
+  "muscles": [
+   [
+    "serratus_anterior",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hollow_hold": {
+  "name": "Hollow Hold",
+  "desc_en": "Isometric hold on the floor where the lower back is pressed against the ground, creating a concave shape with the body.",
+  "desc_it": "Posizione isometrica a terra in cui la schiena bassa è pressata contro il pavimento, formando una concavità con il corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hollow_hold",
+  "muscles": [
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hollow_rock": {
+  "name": "Hollow Rock",
+  "desc_en": "Controlled rocking motion of the body in a hollow hold position from a supine position.",
+  "desc_it": "Oscillazione controllata del corpo in posizione di hollow hold partendo dalla posizione supina.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "hollow_hold",
+  "muscles": [
+   [
+    "rectus_abdominis",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "spine",
+    "anti_extension",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "anti_extension",
+    "primary"
+   ]
+  ]
+ },
+ "hook_grip_deadlift": {
+  "name": "Hook Grip Deadlift",
+  "desc_en": "Barbell deadlift variation utilizing the hook grip to maximize load stability and grip security.",
+  "desc_it": "Variante di stacco da terra con bilanciere che utilizza la presa hook grip per massimizzare la tenuta del carico.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "deadlift_conventional",
+  "muscles": [
+   [
+    "semitendinosus",
+    "secondary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ],
+   [
+    "semimembranosus",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "secondary"
+   ],
+   [
+    "rectus_abdominis",
+    "stabilizer"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "anti_flexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_hinge",
+    "primary"
+   ],
+   [
+    "squat",
+    "secondary"
+   ]
+  ]
+ },
+ "horizontal_leg_press": {
+  "name": "Horizontal Leg Press",
+  "desc_en": "Leg press movement performed on a horizontal machine to target the lower body.",
+  "desc_it": "Spinta delle gambe su macchina orizzontale per allenare la parte inferiore del corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "leg_press",
+  "muscles": [
+   [
+    "vastus_intermedius",
+    "primary"
+   ],
+   [
+    "vastus_lateralis",
+    "primary"
+   ],
+   [
+    "rectus_femoris",
+    "primary"
+   ],
+   [
+    "vastus_medialis",
+    "primary"
+   ],
+   [
+    "adductor_magnus",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "secondary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ]
+  ],
+  "ja": [
+   [
+    "knee",
+    "extension",
+    "primary"
+   ],
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "ankle",
+    "dorsiflexion",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "squat",
+    "primary"
+   ]
+  ]
+ },
+ "hug_keens_to_chest": {
+  "name": "Hug Keens To Chest",
+  "desc_en": "In a squat position, bring your knees towards your chest and hug them with your arms.",
+  "desc_it": "In una posizione di squat, porta le ginocchia verso il petto e abbracciale con le braccia.",
+  "tips": null,
+  "kind": "mobility",
+  "joint_class": "multi_joint",
+  "chain": null,
+  "archetype": "stretch",
+  "muscles": [
+   [
+    "vastus_lateralis",
+    "secondary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "primary"
+   ]
+  ]
+ },
+ "hyght_dumbbell_fly": {
+  "name": "Hyght Dumbbell Fly",
+  "desc_en": "Lying on a bench, lower the dumbbells out to the sides in a wide arc to stretch the chest and bring them back to the center.",
+  "desc_it": "Sdraiati su una panca, abbassa i manubri lateralmente descrivendo un ampio arco per allungare il petto e riportali al centro.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "single_joint",
+  "chain": "open",
+  "archetype": "fly_dumbbell",
+  "muscles": [
+   [
+    "pectoralis_major_sternal",
+    "primary"
+   ],
+   [
+    "deltoid_anterior",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "shoulder",
+    "horizontal_adduction",
+    "primary"
+   ]
+  ],
+  "mp": [
+   [
+    "horizontal_press",
+    "primary"
+   ]
+  ]
+ },
+ "hyperextension": {
+  "name": "Hyperextension",
+  "desc_en": "Posterior chain extension on a hyperextension bench to align the body.",
+  "desc_it": "Estensione della catena posteriore su panca iperestensioni per allineare il corpo.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "multifidus",
+    "primary"
+   ],
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ },
+ "hyperextension_on_bench": {
+  "name": "Hyperextension (on Bench)",
+  "desc_en": "Upper body extension on a hyperextension bench, starting from an inclined position.",
+  "desc_it": "Estensione del busto su panca specifica per l'iperestensione, partendo da una posizione inclinata.",
+  "tips": null,
+  "kind": "resistance",
+  "joint_class": "multi_joint",
+  "chain": "closed",
+  "archetype": "back_extension",
+  "muscles": [
+   [
+    "gluteus_maximus",
+    "primary"
+   ],
+   [
+    "biceps_femoris_long",
+    "secondary"
+   ],
+   [
+    "erector_spinae",
+    "primary"
+   ]
+  ],
+  "ja": [
+   [
+    "hip",
+    "extension",
+    "primary"
+   ],
+   [
+    "spine",
+    "extension",
+    "secondary"
+   ]
+  ],
+  "mp": [
+   [
+    "hip_extension",
+    "primary"
+   ],
+   [
+    "spinal_extension",
+    "secondary"
+   ]
+  ]
+ }
+}
