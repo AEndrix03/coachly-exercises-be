@@ -1,0 +1,2138 @@
+[
+  {
+    "exercise_code": "calf_raise_con_elastico",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "calf_raise_con_elastico",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_straight_leg_deadlift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_straight_leg_deadlift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_stiff_leg_deadlift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_stiff_leg_deadlift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_straight_back_stiff_leg_deadlift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_straight_back_stiff_leg_deadlift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_good_morning",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_good_morning",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_squat",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hip_thrust",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hip_thrust",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_hip_thrusts_on_knees",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_hip_thrusts_on_knees",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pull_through",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_pull_through",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_step_up",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_step_up",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bent_over_hip_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bent_over_hip_extension",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hip_lift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hip_lift",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lying_leg_curl_with_band",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lying_leg_curl_with_band",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "terminal_knee_extension",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "terminal_knee_extension",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "terminal_knee_extension_with_band",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "terminal_knee_extension_with_band",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_leg_extension",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_leg_extension",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_band_abduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_band_abduction",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_hip_abduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_hip_abduction",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_hip_abduction_with_band",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_hip_abduction_with_band",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_clamshell",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_clamshell",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lying_band_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lying_band_adduction",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_hip_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_hip_adduction",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_hip_adduction_resistance_band",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_hip_adduction_resistance_band",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_band_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_band_adduction",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_donkey_kick",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_donkey_kick",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_fire_hydrant",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_fire_hydrant",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_single_leg_split_squat",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_single_leg_split_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_single_leg_split_squat",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Resistance comes from an elastic band, not from gravity, a cable stack or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_single_leg_split_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band tension is not comparable across gyms or band sets.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ankle_plantarflexion_cable",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ankle_plantarflexion_cable",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_calf_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_one_leg_calf_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_one_leg_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_deadlift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_deadlift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_romanian_deadlift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_romanian_deadlift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_hip_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_hip_extension",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack markings differ between machines, so the load is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_hip_abduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_hip_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_cable_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_cable_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "cable",
+    "reason": "Load is applied through a cable stack, not gravity or a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "donkey_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_donkey_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_standing_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_calf_raise_machine_bilateral",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_calf_raise_machine_paused_top_hold",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_calf_raise_machine_toes_in",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_calf_raise_machine_toes_out",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_donkey_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sollevamento_polpaccio_su_una_gamba",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hack_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hack_one_leg_calf_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Load is read off a specific calf or hack machine, which is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "clamshell",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "side_hip_abduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straight_leg_outer_hip_abductor",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "side_lying_hip_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "side_plank_hip_adduction",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "donkey_kick",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "donkey_kick_with_pulse",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "fire_hydrant",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "quadruped_hip_extension",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "high_knee_against_wall",
+    "field": "resistance_source",
+    "current": "band",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bent_knee_calf_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_bent_knee_calf_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_bent_knee_calf_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "gravity",
+    "reason": "Unloaded bodyweight variant: resistance is limb weight under gravity, not a machine, cable or band.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_glute_ham_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_glute_ham_raise",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_glute_ham_raise",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_glute_ham_raise",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "inverse_leg_curl_bench_support",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "inverse_leg_curl_bench_support",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "inverse_leg_curl_on_pull_up_cable_machine",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "inverse_leg_curl_on_pull_up_cable_machine",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "self_assisted_inverse_leg_curl",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "self_assisted_inverse_leg_curl",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "self_assisted_inverse_leg_curl_on_floor",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "self_assisted_inverse_leg_curl_on_floor",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_assisted_inverse_leg_curl",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Glute-ham and inverse leg curls resist bodyweight through knee-flexor leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_assisted_inverse_leg_curl",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Controlling a body-lever knee-flexion eccentric is a high-skill movement, not a low-demand machine curl.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "Glute-ham raise is performed with bodyweight, there is no external stack to log.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "No external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "bodyweight_aware",
+    "reason": "Performance scales with the lifter bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "glute_ham_raise",
+    "field": "bodyweight",
+    "current": false,
+    "proposed": true,
+    "reason": "Glute-ham raise is a bodyweight exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_platform_slide",
+    "field": "resistance_source",
+    "current": "cam_machine",
+    "proposed": "bodyweight_leverage",
+    "reason": "Slider knee-flexion drill loads bodyweight through leverage, not a cam machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_front_rack_reverse_lunge",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_lateral_lunge",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_lunge",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_rear_lunge",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_rear_lunge_v_2",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_step_up",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_side_split_squat",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_side_split_squat_v_2",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_single_leg_split_squat",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_split_squat_v_2",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_sprint_lunge",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_single_leg_split_squat",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell or Smith bar is a single implement whose whole load is logged, not per implement.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_hip_thrust_bridge",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_bridge_curl",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_bridge_heel_curl",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_reverse_hyperextension",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "box_assisted_pistol_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "counterbalance_assisted_pistol_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_pistol_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_skater_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_skater_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "fire_hydrant",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "quadruped_hip_extension",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_side_split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_side_split_squat_v_2",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_split_squat_v_2",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_step_up_split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_foot_elevated_split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pause_front_foot_elevated_split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_front_foot_elevated_split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "split_squat",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "split_squats",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_step_up_to_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_step_up_with_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_step_up",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_step_up",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_step_up",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "step_up_to_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "step_up_with_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_step_up_to_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_step_up_with_knee_drive",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "One limb performs the movement at a time (single-leg, split or step-up stance), so the exercise is unilateral.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "curtsey_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_bench_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_plyo_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_single_leg_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_sumo_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_supported_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_turkish_get_up_squat_style",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "one_leg_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "potty_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "potty_squat_with_support",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_full_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_low_bar_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "wide_stance_smith_machine_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_on_bosu_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_to_overhead_reach",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_jefferson_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hang_squat_clean",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_clean",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_snatch",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_full_zercher_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_zercher_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_overhead_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pvc_overhead_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "snatch_grip_overhead_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_overhead_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "snatch_balance",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_front_squat",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_front_squat_clean_grip",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "No bar is racked across the back: the load is bailed, held in front, or caught by machine safeties, so a spotter is not applicable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "leg_press_calf_raise",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press on the leg-press sled is pure ankle plantarflexion, not a multi-joint press.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_press_calf_raise",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press on the leg-press sled is pure ankle plantarflexion, not a multi-joint press.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_calf_press_on_leg_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press on the leg-press sled is pure ankle plantarflexion, not a multi-joint press.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_one_leg_calf_press_on_leg_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press on the leg-press sled is pure ankle plantarflexion, not a multi-joint press.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_goblet_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_goblet_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_goblet_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "goblet_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "goblet_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "goblet_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_goblet_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_goblet_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_goblet_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "loaded_cossack_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "loaded_cossack_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "loaded_cossack_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "deep_cossack_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "deep_cossack_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "deep_cossack_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_cossack_squats",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_cossack_squats",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_cossack_squats",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_chair_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_chair_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_chair_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_sumo_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_sumo_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_sumo_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "The squat is performed holding an external implement, so the logged number is a weight, not bodyweight reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "The external implement load must be recorded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_squat",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Free-weight load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_curtsy_lunge",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "A weighted variant of a bodyweight movement: the added load must be logged on top of bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_curtsy_lunge",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Only the added external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_lateral_lunge",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "A weighted variant of a bodyweight movement: the added load must be logged on top of bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_lateral_lunge",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Only the added external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "A weighted variant of a bodyweight movement: the added load must be logged on top of bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Only the added external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_slider_leg_curl",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "A weighted variant of a bodyweight movement: the added load must be logged on top of bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_slider_leg_curl",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Only the added external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_heel_drop",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "A weighted variant of a bodyweight movement: the added load must be logged on top of bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_heel_drop",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Only the added external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_on_bosu_ball",
+    "field": "bodyweight",
+    "current": false,
+    "proposed": true,
+    "reason": "Performed unloaded (BOSU balance squat / PVC technique drill), with no meaningful external load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_on_bosu_ball",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "No external load is lifted.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_on_bosu_ball",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "No external load is lifted.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_on_bosu_ball",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "bodyweight_aware",
+    "reason": "Performance scales with bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pvc_overhead_squat",
+    "field": "bodyweight",
+    "current": false,
+    "proposed": true,
+    "reason": "Performed unloaded (BOSU balance squat / PVC technique drill), with no meaningful external load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pvc_overhead_squat",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "No external load is lifted.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pvc_overhead_squat",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "No external load is lifted.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pvc_overhead_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "bodyweight_aware",
+    "reason": "Performance scales with bodyweight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "squat_to_overhead_reach",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "A bodyweight squat-and-reach warm-up drill is not a high-skill lift.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_squat",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "A lying sled squat is a guided machine press, not free-weight gravity loading.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_squat",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "The sled guides the movement path and the torso is supported.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_squat",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "The torso rests on a pad, so the spine is not axially loaded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Sled machine load is not comparable between gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_turkish_get_up_squat_style",
+    "field": "unilateral",
+    "current": false,
+    "proposed": true,
+    "reason": "A Turkish get-up is performed with one arm and one side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_turkish_get_up_squat_style",
+    "field": "side_mode",
+    "current": "optional",
+    "proposed": "separate",
+    "reason": "Each side is performed and logged separately.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "A barbell is loaded across the hips, so the logged value is external weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Barbell load is logged as a total.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Barbell load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge_two_legs_on_bench",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "A barbell is loaded across the hips, so the logged value is external weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge_two_legs_on_bench",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Barbell load is logged as a total.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_glute_bridge_two_legs_on_bench",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "Barbell load is comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_hip_extension",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "A cable stack is used, so an external load is logged.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_hip_extension",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "The cable stack setting is the logged load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_sumo_pull_through",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "A dumbbell load is comparable across gyms; equipment_instance applies to stacks.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_hamstring_curl_lying",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "A dumbbell load is comparable across gyms; equipment_instance applies to stacks.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_femoral",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "A dumbbell load is comparable across gyms; equipment_instance applies to stacks.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_calf_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "A dumbbell load is comparable across gyms; equipment_instance applies to stacks.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "back_bridge",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "A full gymnastic or wrestler bridge places the spine in maximal loaded extension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wrestler_bridge",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "A full gymnastic or wrestler bridge places the spine in maximal loaded extension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "farmer_walk_on_toes",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "per_implement",
+    "reason": "A farmer walk is carried with one implement per hand, so load is logged per implement.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tempo_farmer_walk_on_toes",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "per_implement",
+    "reason": "A farmer walk is carried with one implement per hand, so load is logged per implement.",
+    "confidence": "moderate"
+  }
+]

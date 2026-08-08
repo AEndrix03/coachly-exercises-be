@@ -1,0 +1,90 @@
+[
+  {
+    "exercise_code": "smith_machine_overhead_press",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "These are STANDING Smith presses with an unsupported trunk, so the guided bar only removes part of the balance demand; the seated Smith presses in the same catalogue were left at moderate, making 'low' internally inconsistent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_shoulder_press",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "These are STANDING Smith presses with an unsupported trunk, so the guided bar only removes part of the balance demand; the seated Smith presses in the same catalogue were left at moderate, making 'low' internally inconsistent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_military_press",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "These are STANDING Smith presses with an unsupported trunk, so the guided bar only removes part of the balance demand; the seated Smith presses in the same catalogue were left at moderate, making 'low' internally inconsistent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_behind_head_military_press",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "These are STANDING Smith presses with an unsupported trunk, so the guided bar only removes part of the balance demand; the seated Smith presses in the same catalogue were left at moderate, making 'low' internally inconsistent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "handstand_shrug",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "In a handstand the spine carries the axial compression of the trunk and legs (~85% of bodyweight) through the shoulder girdle, so it is not 'unloaded' merely because the body is inverted.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "In a handstand the spine carries the axial compression of the trunk and legs (~85% of bodyweight) through the shoulder girdle, so it is not 'unloaded' merely because the body is inverted.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "In a handstand the spine carries the axial compression of the trunk and legs (~85% of bodyweight) through the shoulder girdle, so it is not 'unloaded' merely because the body is inverted.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A band external-rotation PRESS-OUT chains glenohumeral external rotation with a horizontal press (elbow extension plus shoulder flexion), so it is not a rotator-cuff isolation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A band external-rotation PRESS-OUT chains glenohumeral external rotation with a horizontal press (elbow extension plus shoulder flexion), so it is not a rotator-cuff isolation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A band external-rotation PRESS-OUT chains glenohumeral external rotation with a horizontal press (elbow extension plus shoulder flexion), so it is not a rotator-cuff isolation.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "ez_barbell_jm_bench_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "The JM press is performed lying with the bar over the torso and combines shoulder flexion/extension with elbow extension (its DB muscles list pectoralis major and anterior deltoid), so it is a compound press, not an isolation.",
+    "confidence": "moderate"
+  }
+]

@@ -1,0 +1,4554 @@
+[
+  {
+    "exercise_code": "cable_decline_one_arm_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Decline One Arm Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_decline_one_arm_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Decline One Arm Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_decline_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Decline Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_decline_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Decline Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_decline_chest_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Decline Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_decline_chest_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Decline Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_incline_bench_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Incline Bench Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_incline_bench_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Incline Bench Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_incline_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Incline Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_incline_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Incline Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_incline_press_on_exercise_ball",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Incline Press On Exercise Ball)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_incline_press_on_exercise_ball",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Incline Press On Exercise Ball)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "incline_cable_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Incline Cable Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "incline_cable_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Incline Cable Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_incline_chest_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Incline Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_incline_chest_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Incline Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_incline_chest_press_v_2",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Incline Chest Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_incline_chest_press_v_2",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Incline Chest Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Internal Rotation)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_internal_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Lying Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Lying Hip Internal Rotation)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Lying Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Lying Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Seated Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Seated Hip Internal Rotation)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Seated Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Seated Hip Internal Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Cuban Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Cuban Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press_v_2",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Cuban Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press_v_2",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Cuban Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_external_shoulder_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying External Shoulder Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_external_shoulder_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying External Shoulder Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_upright_shoulder_external_rotation",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Upright Shoulder External Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_upright_shoulder_external_rotation",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Upright Shoulder External Rotation)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_concentration_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_concentration_curl",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Concentration Curl)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_concentration_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_close_grip_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Close-grip Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_standing_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Standing Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_concentration_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_concentration_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_one_arm_concentration_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Seated One Arm Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_one_arm_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Seated One Arm Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_one_arm_concentration_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Seated One Arm Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_seated_close_grip_concentration_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Ez Bar Seated Close Grip Concentration Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_drag_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Drag Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_drag_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Drag Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_prone_incline_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Prone Incline Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_reverse_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Reverse Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_reverse_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Reverse Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_hammer_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Hammer Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_hammer_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Hammer Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_one_arm_hammer_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope One Arm Hammer Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_one_arm_hammer_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope One Arm Hammer Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_hammer_grip_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Hammer Grip Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_hammer_grip_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Hammer Grip Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_preacher_curl_v_2",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Preacher Curl V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_preacher_curl_v_2",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Preacher Curl V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_preacher_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Reverse Grip Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_preacher_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Reverse Grip Preacher Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Wrist Curl)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_one_arm_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse One Arm Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_one_arm_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse One Arm Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_wrist_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_wrist_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Reverse Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "reverse_cable_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Reverse Cable Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "reverse_cable_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Reverse Cable Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_spider_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Spider Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_spider_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Spider Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_spider_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Spider Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_spider_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (EZ Bar Spider Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_barbell_spider_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Ez Barbell Spider Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "curl_con_elastico",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Curl con Elastico)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "curl_con_elastico",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Curl con Elastico)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "curl_con_elastico",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Curl con Elastico)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "curl_con_elastico",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Curl con Elastico)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_bicep_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Bicep Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_bicep_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Bicep Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Wrist Curl)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_back_wrist_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Back Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_back_wrist_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Back Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_wrist_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_wrist_curl",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_wrist_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Wrist Curl)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_face_pull",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Face Pull)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_face_pull",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Face Pull)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "resistance_band_face_pull",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Face Pull)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_face_pull",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Face Pull)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "floor_fly_with_barbell",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Floor Fly (with Barbell))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Raise)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_front_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_front_raise_and_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Front Raise And Pullover)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_standing_front_raise_over_head",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Standing Front Raise Over Head)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_forward_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Forward Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_forward_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Forward Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_forward_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Forward Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_shoulder_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Shoulder Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_shoulder_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Shoulder Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_front_shoulder_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Front Shoulder Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_lateral_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_lateral_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Lateral Raise)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_front_lateral_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_front_lateral_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Front Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_y_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Y-raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_y_raise",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Y-raise)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_y_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Y-raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_y_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Y-raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_incline_shoulder_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Incline Shoulder Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_lateral_raise",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_lateral_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_lateral_raise",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_incline_shoulder_raises",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Incline Shoulder Raises)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_behind_head_military_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Behind Head Military Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_bradford_rocky_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Bradford Rocky Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_overhead_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Overhead Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_standing_bradford_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Standing Bradford Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Calf Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Calf Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Calf Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Squat Calf Raise On Leg Press Machine)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Squat Calf Raise On Leg Press Machine)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Seated Squat Calf Raise On Leg Press Machine)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Neutral-Grip Seated Machine Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Neutral-Grip Seated Machine Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Neutral-Grip Seated Machine Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_barbell_overhead_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Seated Barbell Overhead Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_seated_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Machine Seated Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_seated_shoulder_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Seated Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_military_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Military Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_military_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Military Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_shoulder_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever One Arm Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_shoulder_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever One Arm Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_2",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_2",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_3",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press V. 3)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_3",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shoulder Press V. 3)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_machine_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Single Arm Machine Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_machine_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Single Arm Machine Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Band External Rotation Press-Out)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_tall_kneeling_band_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_tall_kneeling_band_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Tall-Kneeling Band Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_tall_kneeling_band_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_tall_kneeling_band_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Alternating Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bench_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Bench Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bench_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Bench Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_bench_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Bench Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bench_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Bench Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation Press-Out)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Horizontal Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Horizontal Pallof Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Horizontal Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Horizontal Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shoulder_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shoulder_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shoulder Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_shoulder_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shoulder_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Vertical Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Vertical Pallof Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Vertical Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Vertical Pallof Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Banded Leg Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Banded Leg Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Banded Leg Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Banded Leg Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Band External Rotation Press-Out)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Band External Rotation Press-Out)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_tall_kneeling_band_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_tall_kneeling_band_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Tall-Kneeling Band Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_kneeling_tall_kneeling_band_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "half_kneeling_tall_kneeling_band_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Half-Kneeling Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Chest Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "resistance_band_chest_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_chest_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_chest_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_chest_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Chest Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "resistance_band_seated_chest_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_chest_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Chest Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_shoulder_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_shoulder_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Shoulder Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "resistance_band_seated_shoulder_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_shoulder_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Resistance Band Seated Shoulder Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tall_kneeling_band_press",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tall_kneeling_band_press",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Tall-Kneeling Band Press)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tall_kneeling_band_press",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tall_kneeling_band_press",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Tall-Kneeling Band Press)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_rear_delt_row",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Standing Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_rear_delt_row",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Standing Rear Delt Row)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_standing_rear_delt_row",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Standing Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_rear_delt_row",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Standing Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_rear_delt_row",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_rear_delt_row",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_incline_rear_lateral_raise",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Incline Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_incline_rear_lateral_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Incline Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_one_arm_rear_lateral_raise",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying One Arm Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_one_arm_rear_lateral_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying One Arm Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_delt_row",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_delt_row",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_lateral_raise",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_lateral_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Lying Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_delt_row",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_delt_row",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Lateral Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise_support_head",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Lateral Raise (support Head))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise_support_head",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded with one dumbbell/kettlebell per hand, so the logged number is per implement (Dumbbell Rear Lateral Raise (support Head))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_rear_delt_row",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_rear_delt_row",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Rear Delt Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Fly)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_rear_delt_raise",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Rear Delt Raise)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_cross_over_reverse_fly",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Cross-over Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_cross_over_reverse_fly",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Cross-over Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_cross_over_reverse_fly",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Cross-over Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_bent_over",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Lateral Bent-over)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_bent_over",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Lateral Bent-over)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_bent_over",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable One Arm Lateral Bent-over)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rear_drive",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rear Drive)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rear_drive",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rear Drive)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rear_drive",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rear Drive)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Cross-over High Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Cross-over High Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Cross-over High Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Supine Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Supine Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Supine Reverse Fly)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shrug)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_shrug",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_shrug",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Gripless Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Gripless Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug_v_2",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Gripless Shrug V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_gripless_shrug_v_2",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Gripless Shrug V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shrug",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Lever Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "machine_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Machine Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "machine_shrug",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Machine Shrug)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kickback",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Kickback)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bent_over_cable_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Bent Over Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bent_over_cable_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Bent Over Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bent_over_cable_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Bent Over Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_two_arm_tricep_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Two Arm Tricep Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_two_arm_tricep_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Two Arm Tricep Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_two_arm_tricep_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Two Arm Tricep Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kneeling_cable_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Kneeling Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kneeling_cable_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Kneeling Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kneeling_cable_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Kneeling Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_cable_kickback",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Standing Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_cable_kickback",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Standing Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_cable_kickback",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Standing Cable Kickback)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_side_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Side Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_side_triceps_extension",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Side Triceps Extension)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_side_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Side Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_side_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Band Side Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_overhead_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Overhead Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_close_grip_behind_neck_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Close Grip Behind Neck Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_seated_overhead_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Seated Overhead Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_standing_overhead_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Barbell Standing Overhead Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_alternate_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Alternate Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_alternate_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Alternate Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_alternate_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Alternate Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_high_pulley_overhead_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_high_pulley_overhead_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_high_pulley_overhead_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_incline_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Incline Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_incline_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Incline Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_incline_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Incline Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kneeling Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kneeling Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Kneeling Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_lying_extension_pullover_with_rope_attachment",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Lying Extension Pullover (with Rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_lying_extension_pullover_with_rope_attachment",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Lying Extension Pullover (with Rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_lying_extension_pullover_with_rope_attachment",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Lying Extension Pullover (with Rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_rope_attachment",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension (rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_rope_attachment",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension (rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_rope_attachment",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension (rope Attachment))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_with_rope",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension with Rope)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_with_rope",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension with Rope)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_with_rope",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Overhead Triceps Extension with Rope)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_high_pulley_overhead_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_high_pulley_overhead_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_high_pulley_overhead_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope High Pulley Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_incline_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Incline Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_incline_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Incline Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_incline_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Incline Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_one_arm_triceps_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing One Arm Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_one_arm_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing One Arm Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_one_arm_triceps_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing One Arm Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Reverse Grip One Arm Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Reverse Grip One Arm Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Standing Reverse Grip One Arm Overhead Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_overhead_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (EZ Bar Overhead Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_barbell_incline_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Ez Barbell Incline Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_barbell_seated_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Ez Barbell Seated Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "olympic_barbell_triceps_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Olympic Barbell Triceps Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Overhead Band Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_tricep_extension",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Overhead Band Tricep Extension)",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "overhead_band_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Overhead Band Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "overhead_band_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "elastic band resistance: no comparable absolute load, so band/reps/non_comparable (Overhead Band Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_incline_tricep_extension",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "loaded on a single bar, so the logged number is the total load (Smith Machine Incline Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "machine_dip",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Machine Dip)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "triceps_dip_machine",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "cam_machine",
+    "reason": "selectorized/lever machine: cam resistance, stack load, machine-specific (Triceps Dip Machine)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_concentration_extension_on_knee",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Concentration Extension (on Knee))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_concentration_extension_on_knee",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Concentration Extension (on Knee))",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_lying_triceps_extension_v_2",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Lying Triceps Extension V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_lying_triceps_extension_v_2",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Lying Triceps Extension V. 2)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_lying_on_floor_tricep_extension",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Lying On Floor Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_rope_lying_on_floor_tricep_extension",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Rope Lying On Floor Tricep Extension)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_skull_crusher",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Skull Crusher)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_skull_crusher",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Skull Crusher)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_upright_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Upright Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_upright_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "cable-stack exercise: load is a stack setting on one machine (Cable Upright Row)",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_hammer_curl_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_hammer_curl_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_hammer_curl_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "this is an elbow-flexion curl, not a bench press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a seated dumbbell curl is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no bar over the torso, nothing for a spotter to catch",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_kickbacks_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "triceps kickback is elbow extension only, not a press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_kickbacks_on_exercise_ball",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "kickback is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_kickbacks_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "no load over the lifter, spotting is meaningless",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_lying_pullover_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "a pullover is shoulder extension only, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_pullover_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "the dumbbell travels behind the head, not over the chest",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_pullover_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "a pullover is shoulder extension only, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_pullover_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "the dumbbell travels behind the head, not over the chest",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_pullover_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "a pullover is shoulder extension only, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_pullover_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "the dumbbell travels behind the head, not over the chest",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_pullover_hip_extension_on_exercise_ball",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "a pullover is shoulder extension only, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_pullover_hip_extension_on_exercise_ball",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "the dumbbell travels behind the head, not over the chest",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_palm_in_press",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "standing overhead press, not a bench press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_palm_in_press",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "pressing overhead while standing is a free-standing task",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_palm_in_press",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "load is held overhead over a standing spine",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_palms_in_press",
+    "field": "spotter_policy",
+    "current": "recommended_high_effort",
+    "proposed": "none",
+    "reason": "standing overhead press, not a bench press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_palms_in_press",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "pressing overhead while standing is a free-standing task",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_palms_in_press",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "load is held overhead over a standing spine",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "ez_barbell_jm_bench_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "the JM press is a triceps extension hybrid, classified single_joint like jm_press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "curl_up",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "repeated loaded lumbar/thoracic flexion",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lower_back_curl",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "it is a spinal extension exercise, not an arm curl",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_lever_curl",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "front lever curl is a whole-body pulling movement, not elbow-only",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_lever_curl",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "front-lever positions are advanced gymnastic skills",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_lever_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "resistance comes from body leverage on a bar",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_lever_curl",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "hanging, unsupported straight-body position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "front_lever_curl",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "the straight-body lever heavily loads the trunk",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "front lever curl is a whole-body pulling movement, not elbow-only",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "front-lever positions are advanced gymnastic skills",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "resistance comes from body leverage on a bar",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "hanging, unsupported straight-body position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "bodyweight",
+    "current": "false",
+    "proposed": "true",
+    "reason": "no external implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "bodyweight movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "no external load",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "bodyweight_aware",
+    "reason": "load scales with the lifter's bodyweight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_front_lever_curl",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "the straight-body lever heavily loads the trunk",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "front lever curl is a whole-body pulling movement, not elbow-only",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "front-lever positions are advanced gymnastic skills",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "resistance comes from body leverage on a bar",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "hanging, unsupported straight-body position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "bodyweight",
+    "current": "false",
+    "proposed": "true",
+    "reason": "no external implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "bodyweight movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "no external load",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "bodyweight_aware",
+    "reason": "load scales with the lifter's bodyweight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_front_lever_curl",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "the straight-body lever heavily loads the trunk",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_biceps_curl_squat",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_bicep_curl_lunge_with_bowling_motion",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lunge_with_bicep_curl",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_step_up_single_leg_balance_with_bicep_curl",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_seated_biceps_curl_to_shoulder_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_alternate_hammer_curl_and_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "this is a curl combined with a squat/lunge/press, not an isolated curl",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_biceps_curl_v_sit_on_bosu_ball",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "V-sit on a bosu is an unstable-surface balance task",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_biceps_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_hammer_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_inner_biceps_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_prone_incline_hammer_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_prone_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_prone_hammer_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_supine_biceps_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_supine_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lying_wide_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_curl_over_incline_bench",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_preacher_hammer_curl",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "biceps_brachii_long:high/moderate/none",
+    "reason": "arm is behind/under the torso so peak tension is in the lengthened position, not midrange",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_bent_over_one_arm_triceps_extension",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "triceps_brachii_long:none/moderate/high",
+    "reason": "bent-over kickback-style extension is hardest at lockout, not in the stretched overhead position",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_standing_bent_over_two_arm_triceps_extension",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "triceps_brachii_long:none/moderate/high",
+    "reason": "bent-over kickback-style extension is hardest at lockout, not in the stretched overhead position",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_seated_bent_over_triceps_extension",
+    "field": "muscle_tension",
+    "current": "inherited archetype profile",
+    "proposed": "triceps_brachii_long:none/moderate/high",
+    "reason": "bent-over kickback-style extension is hardest at lockout, not in the stretched overhead position",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "plantarflexion at the ankle only, not an overhead press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a machine calf raise is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "seated calf work does not load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "plantarflexion at the ankle only, not an overhead press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a machine calf raise is a low-skill isolation movement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "seated calf work does not load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "seated compression is hip flexion, not an overhead press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "bodyweight",
+    "current": "false",
+    "proposed": "true",
+    "reason": "no external implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "bodyweight_reps",
+    "reason": "bodyweight compression drill",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "none",
+    "reason": "no external load",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "bodyweight_aware",
+    "reason": "load is the lifter's own legs",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "seated_pike_compression_lift",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "seated, no axial load",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_windmill",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "windmill/bent press is a loaded side-bend and hinge under an overhead load, a high-skill lift",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_windmill",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "deep loaded lateral flexion of the spine under an overhead weight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_windmill",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "standing, overhead, unilateral, with the trunk far from vertical",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_advanced_windmill",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "windmill/bent press is a loaded side-bend and hinge under an overhead load, a high-skill lift",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_advanced_windmill",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "deep loaded lateral flexion of the spine under an overhead weight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_advanced_windmill",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "standing, overhead, unilateral, with the trunk far from vertical",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_double_windmill",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "windmill/bent press is a loaded side-bend and hinge under an overhead load, a high-skill lift",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_double_windmill",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "deep loaded lateral flexion of the spine under an overhead weight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_double_windmill",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "standing, overhead, unilateral, with the trunk far from vertical",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_bent_press",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "windmill/bent press is a loaded side-bend and hinge under an overhead load, a high-skill lift",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_bent_press",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "deep loaded lateral flexion of the spine under an overhead weight",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_bent_press",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "standing, overhead, unilateral, with the trunk far from vertical",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "machine press with a fixed path",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "seated in a machine with back support",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "neutral_grip_seated_machine_shoulder_press",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "the machine supports the trunk",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_military_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_military_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_military_press",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_2",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_2",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_2",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_3",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_3",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_shoulder_press_v_3",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_shoulder_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_shoulder_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_shoulder_press",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_machine_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "fixed-path machine press, not a standing barbell press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_machine_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the machine supports the trunk and fixes the bar path",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_machine_press",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "seated machine press does not axially load the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_machine_overhead_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the Smith machine fixes the bar path",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_machine_overhead_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "a guided bar removes most of the balance skill",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_shoulder_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the Smith machine fixes the bar path",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_shoulder_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "a guided bar removes most of the balance skill",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_military_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the Smith machine fixes the bar path",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_military_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "a guided bar removes most of the balance skill",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_behind_head_military_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "the Smith machine fixes the bar path",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_standing_behind_head_military_press",
+    "field": "technical_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "a guided bar removes most of the balance skill",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "the Pallof press is an anti-rotation core hold, not a chest press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "the trunk resists a rotational moment throughout",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "the Pallof press is an anti-rotation core hold, not a chest press",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "the trunk resists a rotational moment throughout",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "shoulder external rotation is a rotator-cuff isolation, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "shoulder external rotation is a rotator-cuff isolation, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_kneeling_band_external_rotation_press_out",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "shoulder external rotation is a rotator-cuff isolation, not a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "clean_high_pull",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "clean_high_pull",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "high_pull",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "high_pull",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sumo_deadlift_high_pull",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sumo_deadlift_high_pull",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_sumo_high_pull",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_sumo_high_pull",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_sdhp",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_sdhp",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_sdhp",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an explosive hinge-and-pull from the floor, not a standing upright row",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_sdhp",
+    "field": "spinal_loading",
+    "current": "low",
+    "proposed": "high",
+    "reason": "the bar is accelerated from the floor with a loaded hinge",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "handstand_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "the load is the inverted bodyweight, not a held implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "handstand_shrug",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "requires holding a handstand",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "handstand_shrug",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "inverted balance on the hands",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "handstand_shrug",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "the spine is unloaded in the inverted position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "the load is the inverted bodyweight, not a held implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "requires holding a handstand",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "inverted balance on the hands",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "the spine is unloaded in the inverted position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "the load is the inverted bodyweight, not a held implement",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "requires holding a handstand",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "inverted balance on the hands",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "the spine is unloaded in the inverted position",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "grip_trainer",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a hand gripper / finger curl puts no meaningful load on the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_gripper_hands",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a hand gripper / finger curl puts no meaningful load on the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_standing_hand_squeeze",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a hand gripper / finger curl puts no meaningful load on the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "finger_curls",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a hand gripper / finger curl puts no meaningful load on the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_finger_curls",
+    "field": "spinal_loading",
+    "current": "moderate",
+    "proposed": "low",
+    "reason": "a hand gripper / finger curl puts no meaningful load on the spine",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "one hip is trained at a time",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "one hip is trained at a time",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cuban_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "the Cuban press chains an upright row, an external rotation and a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cuban_press",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "a three-part sequence that must be coordinated",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "the Cuban press chains an upright row, an external rotation and a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "a three-part sequence that must be coordinated",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press_v_2",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "the Cuban press chains an upright row, an external rotation and a press",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press_v_2",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "a three-part sequence that must be coordinated",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "exercise_kind",
+    "current": "resistance",
+    "proposed": "conditioning",
+    "reason": "a crossover double-under is a jump-rope skill, not a cable chest fly",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "whole-body jumping",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "bodyweight_leverage",
+    "reason": "there is no cable stack, only bodyweight jumping",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "double-unders with a crossover are a high-skill rope drill",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "counted rope passes",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "no external load",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "conditioning work is not load-comparable",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_cross_over_lateral_pulldown",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "a lat pulldown involves shoulder and elbow, it is not a fly",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_rope_crossover_seated_row",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "a seated row involves shoulder and elbow, it is not a fly",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "isometric_chest_squeeze",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "isometric_external",
+    "reason": "it is a static squeeze, there is no range of motion",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_side_plank_with_rear_fly",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "performed from a side-plank on one arm",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "machine_dip",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "a dip machine presses through shoulder and elbow, not elbow only",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "triceps_dip_machine",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "a dip machine presses through shoulder and elbow, not elbow only",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "scapula_dips",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "scapular depression only, the elbows stay locked",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "scapula_dips",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "bodyweight_reps",
+    "reason": "a scapular drill is not loaded with added weight",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "scapula_dips",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "no added weight",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "one_arm_dip",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an advanced dip variation requiring far more control than a parallel-bar dip",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "impossible_dips",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "an advanced dip variation requiring far more control than a parallel-bar dip",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "overhead_squat_triceps_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "it combines an overhead squat with the press",
+    "confidence": "moderate"
+  }
+]

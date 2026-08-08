@@ -19,11 +19,15 @@ printing exactly what it would do.
 """
 import argparse
 import re
+import pathlib
 import sys
 import unicodedata
 from collections import Counter, defaultdict
 
 import psycopg
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from dsn import get_dsn  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -111,11 +115,12 @@ def merge_duplicate(cur, survivor, victim, report):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dsn", required=True)
+    ap.add_argument("--dsn", default=None,
+                    help="optional; resolved from $COACHLY_BIOMECH_DSN or auto-injestion/.env")
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
-    with psycopg.connect(args.dsn, connect_timeout=20) as conn:
+    with psycopg.connect(dsn, connect_timeout=20) as conn:
         conn.autocommit = False
         cur = conn.cursor()
 

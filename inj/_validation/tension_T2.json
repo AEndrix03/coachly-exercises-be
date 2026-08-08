@@ -1,0 +1,1290 @@
+[
+  {
+    "exercise_code": "lever_calf_press",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "A machine calf press does not train the hamstrings; the stretch-biased profile is archetype contamination.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_medial:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_lateral:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "soleus:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_single_leg_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_medial:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_single_leg_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "soleus:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_single_leg_reverse_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_medial:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_single_leg_reverse_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "A band calf raise does not train the hamstrings or glutes; this profile is archetype contamination.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_single_leg_reverse_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gluteus_maximus:low/low/low",
+    "reason": "A band calf raise does not train the hamstrings or glutes; this profile is archetype contamination.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_two_legs_calf_raise_band_under_both_legs_v_2",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_medial:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_two_legs_calf_raise_band_under_both_legs_v_2",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "soleus:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_two_legs_calf_raise_band_under_both_legs_v_2",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_lateral:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_lateral:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "gastrocnemius_medial:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_band_calf_raise",
+    "field": "muscle_tension",
+    "current": "none/moderate/high",
+    "proposed": "soleus:low/moderate/high",
+    "reason": "Band tension rises toward plantarflexion, but the dorsiflexed bottom is still a genuinely loaded lengthened position rather than zero tension.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "isometric_calf_raise_hold",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "Calf raises do not load the hamstrings; this stretch-biased hamstring profile was inherited from a name-matched archetype.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "stair_calf_raise",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "Calf raises do not load the hamstrings; this stretch-biased hamstring profile was inherited from a name-matched archetype.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "toe_walk",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "Calf raises do not load the hamstrings; this stretch-biased hamstring profile was inherited from a name-matched archetype.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "3_4_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "arms_overhead_full_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "assisted_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_sitted_alternate_leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_sitted_alternate_leg_raise_variant_b",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "butt_ups",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cocoons",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_floor",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_hands_overhead",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball_arms_straight",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "decline_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "decline_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "flexion_leg_sit_up_bent_knee",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "flexion_leg_sit_up_straight_arm",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "flutter_kick",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "flutter_kicks",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "frog_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "groin_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jackknife_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "janda_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "knee_touch_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_seated_leg_raise_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lying_elbow_to_knee",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lying_leg_raise_flat_bench",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "negative_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "oblique_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "otis_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "prisoner_half_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "pull_in_on_stability_ball",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "quarter_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "reverse_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "scissor_kick",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "seated_leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sit_up_v_2",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sit_up_with_arms_on_chest",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "stability_ball_crunch_full_range_hands_behind_head",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tuck_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_decline_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_alternating_v_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_bicycle_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_jack_knife_sit_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_lying_straight_leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_v_up",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_reverse_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_tuck_reverse_crunch",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:moderate/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:low/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "vertical_leg_raise_on_parallel_bars",
+    "field": "muscle_tension",
+    "current": "low/high/high",
+    "proposed": "iliopsoas:low/high/low",
+    "reason": "The external hip-flexion moment peaks with the thigh near horizontal and collapses as the hip approaches full flexion, so the iliopsoas cannot be at high tension in the shortened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "glute_bridge_march",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "vastus_lateralis:low/low/low",
+    "reason": "The knee angle is fixed during a bridge or hip extension, so the quadriceps only stabilise and never reach high tension.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_bridge_with_outstretched_leg",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "vastus_lateralis:low/low/low",
+    "reason": "The knee angle is fixed during a bridge or hip extension, so the quadriceps only stabilise and never reach high tension.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_hip_lift",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "vastus_lateralis:low/low/low",
+    "reason": "The knee angle is fixed during a bridge or hip extension, so the quadriceps only stabilise and never reach high tension.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_hip_extension",
+    "field": "muscle_tension",
+    "current": "low/moderate/high",
+    "proposed": "vastus_lateralis:low/low/low",
+    "reason": "The knee angle is fixed during a bridge or hip extension, so the quadriceps only stabilise and never reach high tension.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_seated_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_stiff_leg_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cambered_bar_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "good_morning_bodyweight",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "hip_hinge_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_seated_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_wide_stance_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_bent_knee_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wide_stance_good_morning",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "At the standing lockout of a good morning the loaded torso still demands a small hip-extension effort, so glute tension is low rather than absent.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "american_kb_swing",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:high/moderate/high",
+    "reason": "The swing loads the glutes at long length in the hinge and again with a maximal ballistic contraction at the shortened lockout, with the lowest demand in between.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "double_kb_swing",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:high/moderate/high",
+    "reason": "The swing loads the glutes at long length in the hinge and again with a maximal ballistic contraction at the shortened lockout, with the lowest demand in between.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kettlebell_swing",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:high/moderate/high",
+    "reason": "The swing loads the glutes at long length in the hinge and again with a maximal ballistic contraction at the shortened lockout, with the lowest demand in between.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_lateral_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_rear_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_rear_lunge_v_2",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_contralateral_forward_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_rear_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_step_up_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "forward_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kettlebell_lunge_pass_through",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_sprint_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "walking_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_lunge_with_swing",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "soleus:high/moderate/low",
+    "reason": "The soleus is monoarticular and unaffected by knee angle, loaded most in dorsiflexion at the bottom and least at full plantarflexion.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gastrocnemius_medial:low/low/none",
+    "reason": "With the knee flexed about 90 degrees the gastrocnemius is shortened and slack, and Kinoshita et al. 2023 found essentially no gastrocnemius growth from seated calf raises.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_calf_press",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "A seated calf press does not load the hamstrings.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gastrocnemius_medial:high/moderate/low",
+    "reason": "On the leg-press calf raise the knee is near-extended, so the gastrocnemius is long at the dorsiflexed bottom and loses tension at full plantarflexion.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "vastus_lateralis:low/low/low",
+    "reason": "The knee angle does not change during a leg-press calf raise, so the quadriceps only hold an isometric brace.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "Hip and knee angles are fixed during a calf press, so the hamstrings and glutes are not trained.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_squat_calf_raise_on_leg_press_machine",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/low/low",
+    "reason": "Hip and knee angles are fixed during a calf press, so the hamstrings and glutes are not trained.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_pistol_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_squat_pistol",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_leg_squat_pistol_male",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "astride_jumps",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "backward_jump",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_jump_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_squat_jump_step_rear_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "bodyweight_drop_jump_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "box_jump_down_with_one_leg_stabilization",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "forward_jump",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jump_rope",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jump_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jump_squat_v_2",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kneeling_jump_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lunge_with_jump",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "scissor_jumps",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "semi_squat_jump",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "skater_hops",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "star_jump",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "walking_high_knees_lunge",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:moderate/moderate/low",
+    "reason": "In jumps the biarticular hamstrings work near-isometrically as hip and knee flex together, so the deep countermovement is not a stretch-loaded position for them.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "vastus_lateralis:high/moderate/moderate",
+    "reason": "The leg press is a stretch-biased knee extension: quadriceps tension is highest in deep knee flexion, and the band keeps some tension near lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "rectus_femoris:high/moderate/moderate",
+    "reason": "The leg press is a stretch-biased knee extension: quadriceps tension is highest in deep knee flexion, and the band keeps some tension near lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "vastus_medialis:high/moderate/moderate",
+    "reason": "The leg press is a stretch-biased knee extension: quadriceps tension is highest in deep knee flexion, and the band keeps some tension near lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "vastus_intermedius:high/moderate/moderate",
+    "reason": "The leg press is a stretch-biased knee extension: quadriceps tension is highest in deep knee flexion, and the band keeps some tension near lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "adductor_magnus:high/moderate/low",
+    "reason": "Hip extensors on the leg press are loaded most at the deep hip-flexed bottom and unload toward lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "gluteus_maximus:high/moderate/low",
+    "reason": "Hip extensors on the leg press are loaded most at the deep hip-flexed bottom and unload toward lockout.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "field": "muscle_tension",
+    "current": "moderate/high/moderate",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "The hamstrings act near-isometrically on the leg press and receive little tension at any position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "deep_sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "rectus_femoris:high/high/low",
+    "reason": "The sissy squat uniquely combines full knee flexion with hip extension, holding the rectus femoris at extreme length under high tension through both the bottom and the mid-range.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "rectus_femoris:high/high/low",
+    "reason": "The sissy squat uniquely combines full knee flexion with hip extension, holding the rectus femoris at extreme length under high tension through both the bottom and the mid-range.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "gastrocnemius_medial:low/moderate/moderate",
+    "reason": "The sissy squat is performed on the toes, so the gastrocnemius is plantarflexed and works isometrically at short length rather than under stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "gluteus_maximus:low/low/low",
+    "reason": "The sissy squat keeps the hip extended throughout, so the gluteus maximus only works as a low-level isometric stabiliser and is never stretch-loaded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "rectus_femoris:high/high/low",
+    "reason": "The sissy squat uniquely combines full knee flexion with hip extension, holding the rectus femoris at extreme length under high tension through both the bottom and the mid-range.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "gluteus_maximus:low/low/low",
+    "reason": "The sissy squat keeps the hip extended throughout, so the gluteus maximus only works as a low-level isometric stabiliser and is never stretch-loaded.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "gastrocnemius_medial:low/moderate/moderate",
+    "reason": "The sissy squat is performed on the toes, so the gastrocnemius is plantarflexed and works isometrically at short length rather than under stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/low/low",
+    "reason": "With the hip held extended and the knee flexing, the hamstrings shorten rather than lengthen and carry almost no load in the sissy squat.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bridge_heel_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hamstring_walkout",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_sliding_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_leg_swiss_ball_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "slider_leg_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sliding_leg_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "swiss_ball_leg_curl",
+    "field": "muscle_tension",
+    "current": "high/high/low",
+    "proposed": "gluteus_maximus:low/moderate/high",
+    "reason": "Sliding and swiss-ball leg curls are performed from a bridge with the hip held extended, so the glutes work isometrically in the shortened position rather than at long length.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "air_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "bodyweight_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_goblet_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "goblet_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "half_knee_bends",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kettlebell_goblet_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_chair_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_sumo_squat",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_cossack_squats",
+    "field": "muscle_tension",
+    "current": "high/moderate/none",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_step_up",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_step_up",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_step_up",
+    "field": "muscle_tension",
+    "current": "high/moderate/low",
+    "proposed": "biceps_femoris_long:low/moderate/low",
+    "reason": "Hamstring length is near-constant in squat and lunge patterns because hip flexion lengthens them while knee flexion shortens them, so the bottom position is not a high-tension lengthened position.",
+    "confidence": "moderate"
+  }
+]

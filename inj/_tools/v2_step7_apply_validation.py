@@ -33,6 +33,9 @@ from collections import Counter, defaultdict
 
 import psycopg
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from dsn import get_dsn  # noqa: E402
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -74,18 +77,21 @@ def load_enum_values(cur, type_name):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dsn", default=os.environ.get("COACHLY_BIOMECH_DSN"),
-                    help="defaults to $COACHLY_BIOMECH_DSN so the credential "
-                         "never has to appear on a command line")
+    ap.add_argument("--dsn", default=None,
+                    help="optional; resolved from $COACHLY_BIOMECH_DSN or auto-injestion/.env")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--min-confidence", default="moderate",
                     choices=["moderate", "high"],
                     help="skip proposals below this confidence")
     args = ap.parse_args()
-    if not args.dsn:
-        sys.exit("no DSN: set COACHLY_BIOMECH_DSN or pass --dsn")
+    dsn = args.dsn or get_dsn()
 
-    files = sorted(VALIDATION_DIR.glob("corrections_*.json"))
+    # corrections_* = first review, refutations_* = adversarial reversals,
+    # tension_* / linked_data = the deep passes. All share one shape.
+    files = sorted(set(VALIDATION_DIR.glob("corrections_*.json"))
+                   | set(VALIDATION_DIR.glob("refutations_*.json"))
+                   | set(VALIDATION_DIR.glob("tension_*.json"))
+                   | set(VALIDATION_DIR.glob("linked_data*.json")))
     if not files:
         sys.exit(f"no correction files in {VALIDATION_DIR}")
 
@@ -105,7 +111,7 @@ def main():
         print(f"{path.name}: {len(payload)} proposals")
     print(f"total proposals: {len(proposals)}\n")
 
-    with psycopg.connect(args.dsn, connect_timeout=30) as conn:
+    with psycopg.connect(dsn, connect_timeout=30) as conn:
         conn.autocommit = False
         cur = conn.cursor()
 

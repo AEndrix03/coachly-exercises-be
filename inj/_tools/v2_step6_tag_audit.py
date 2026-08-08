@@ -21,9 +21,13 @@ Usage:
     python inj/_tools/v2_step6_tag_audit.py --dsn "..." [--apply]
 """
 import argparse
+import pathlib
 import sys
 
 import psycopg
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from dsn import get_dsn  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -92,11 +96,12 @@ KEEP_REASON = {
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dsn", required=True)
+    ap.add_argument("--dsn", default=None,
+                    help="optional; resolved from $COACHLY_BIOMECH_DSN or auto-injestion/.env")
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
-    with psycopg.connect(args.dsn, connect_timeout=20) as conn:
+    with psycopg.connect(dsn, connect_timeout=20) as conn:
         conn.autocommit = False
         cur = conn.cursor()
 

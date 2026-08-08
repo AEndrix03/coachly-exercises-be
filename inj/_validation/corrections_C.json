@@ -1,0 +1,3802 @@
+[
+  {
+    "exercise_code": "cable_kneeling_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch_with_rope_attachment",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_tuck_reverse_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "cable",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch_with_rope_attachment",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_tuck_reverse_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "weight_reps",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch_with_rope_attachment",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_tuck_reverse_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_kneeling_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_reverse_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_crunch_with_rope_attachment",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_tuck_reverse_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "equipment_instance",
+    "reason": "Resistance comes from a cable stack, not bodyweight, so the bodyweight crunch defaults are wrong.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_alternating_v_up",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bicycle_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_jack_knife_sit_up",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_straight_leg_raise",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_push_sit_up",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_crunch",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_v_up",
+    "field": "resistance_source",
+    "current": "bodyweight_leverage",
+    "proposed": "band",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_alternating_v_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_bicycle_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_jack_knife_sit_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_lying_straight_leg_raise",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_push_sit_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_standing_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_v_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_alternating_v_up",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_bicycle_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_jack_knife_sit_up",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_lying_straight_leg_raise",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_push_sit_up",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_crunch",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_v_up",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted variant: resistance is elastic and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_crunch",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_decline_sit_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_overhead_crunch_on_stability_ball",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_sit_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "otis_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_press_sit_up",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_crunch",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_decline_sit_up",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_overhead_crunch_on_stability_ball",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_sit_up",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "otis_up",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_press_sit_up",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added external load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "decline_crunch",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:moderate/high/high",
+    "reason": "Decline position loads the abs in a lengthened (trunk-extended) range, unlike a floor crunch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "decline_sit_up",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:moderate/high/high",
+    "reason": "Decline position loads the abs in a lengthened (trunk-extended) range, unlike a floor crunch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_decline_sit_up",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:moderate/high/high",
+    "reason": "Decline position loads the abs in a lengthened (trunk-extended) range, unlike a floor crunch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:high/high/moderate",
+    "reason": "Over a ball the trunk extends past neutral, biasing tension to the lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball_arms_straight",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:high/high/moderate",
+    "reason": "Over a ball the trunk extends past neutral, biasing tension to the lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "stability_ball_crunch_full_range_hands_behind_head",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:high/high/moderate",
+    "reason": "Over a ball the trunk extends past neutral, biasing tension to the lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_overhead_crunch_on_stability_ball",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:high/high/moderate",
+    "reason": "Over a ball the trunk extends past neutral, biasing tension to the lengthened position.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "ghd_sit_up",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:high/high/moderate",
+    "reason": "The GHD sit-up starts in trunk hyperextension, so peak tension is in the lengthened position.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "vertical_leg_raise_on_parallel_bars",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "vertical_leg_raise_on_parallel_bars",
+    "field": "stability_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:moderate/high/high",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "vertical_leg_raise_on_parallel_bars",
+    "field": "muscle_tension",
+    "current": "rectus_abdominis:low/high/high",
+    "proposed": "rectus_abdominis:moderate/high/high",
+    "reason": "This is a supported hanging/parallel-bar leg raise, not a floor crunch: hip flexion is involved and trunk support is unstable.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "isometric_wipers",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "time",
+    "reason": "Isometric hold, measured in time rather than reps.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "isometric_chin_up_hold",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "time",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "paused_isometric_chin_up_hold",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "time",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_isometric_chin_up_hold",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "time",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "isometric_chin_up_hold",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "paused_isometric_chin_up_hold",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tempo_isometric_chin_up_hold",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "Isometric hold: it is scored by time under tension, not by reps.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "one_arm_chin_up",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "A true one-arm pull-up/chin-up is far harder to execute well than a two-arm one.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "weighted_one_hand_pull_up",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "A true one-arm pull-up/chin-up is far harder to execute well than a two-arm one.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "one_arm_pull_up",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "A true one-arm pull-up/chin-up is far harder to execute well than a two-arm one.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "australian_pull_up",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "bodyweight_reps",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "archer_australian_pull_up",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "bodyweight_reps",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "supinated_australian_pull_up",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "bodyweight_reps",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bench_pull_ups",
+    "field": "tracking_type",
+    "current": "bodyweight_plus_weight",
+    "proposed": "bodyweight_reps",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "australian_pull_up",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "archer_australian_pull_up",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "supinated_australian_pull_up",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bench_pull_ups",
+    "field": "load_input_mode",
+    "current": "added_weight",
+    "proposed": "none",
+    "reason": "An Australian/bench pull-up is a feet-supported inverted row; added weight is not the normal progression and it is not a vertical pull.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_turkish_get_up",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternating_turkish_get_up_to_elbow",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_turkish_get_up",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_turkish_get_up_to_elbow",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "turkish_get_up",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "turkish_get_up_to_elbow",
+    "field": "unilateral",
+    "current": "false",
+    "proposed": "true",
+    "reason": "The Turkish get-up is performed one arm/side at a time.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tire_flip",
+    "field": "exercise_kind",
+    "current": "resistance",
+    "proposed": "conditioning",
+    "reason": "A tire flip is a two-handed conditioning event with a non-standard implement, not a unilateral kettlebell get-up.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tire_flip",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A tire flip is a two-handed conditioning event with a non-standard implement, not a unilateral kettlebell get-up.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tire_flip",
+    "field": "side_mode",
+    "current": "separate",
+    "proposed": "none",
+    "reason": "A tire flip is a two-handed conditioning event with a non-standard implement, not a unilateral kettlebell get-up.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tire_flip",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "A tire flip is a two-handed conditioning event with a non-standard implement, not a unilateral kettlebell get-up.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "press_to_handstand",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "A press to handstand is a dynamic rep, not a timed hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "straddle_press_to_handstand",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "A press to handstand is a dynamic rep, not a timed hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tuck_press_to_handstand",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "A press to handstand is a dynamic rep, not a timed hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hollow_rock",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "Hollow rocks are counted in reps, not held for time.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_close_grip_pulldown",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_fixed_back_close_grip_pulldown",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_fixed_back_underhand_pulldown",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kneeling_one_arm_pulldown",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_underhand_pulldown",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_close_grip_pulldown",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_fixed_back_close_grip_pulldown",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_fixed_back_underhand_pulldown",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_kneeling_one_arm_pulldown",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_underhand_pulldown",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_close_grip_pulldown",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_fixed_back_close_grip_pulldown",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_fixed_back_underhand_pulldown",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_kneeling_one_arm_pulldown",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_underhand_pulldown",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_close_grip_pulldown",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_fixed_back_close_grip_pulldown",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_fixed_back_underhand_pulldown",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kneeling_one_arm_pulldown",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_underhand_pulldown",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted pulldown: elastic resistance, no stack weight to log and not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "behind_the_neck_pulldown",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "Behind-the-neck pulling requires controlled shoulder external rotation and is easy to do badly.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_rear_pulldown",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "Behind-the-neck pulling requires controlled shoulder external rotation and is easy to do badly.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_wide_grip_rear_pulldown_behind_neck",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "Behind-the-neck pulling requires controlled shoulder external rotation and is easy to do badly.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_one_arm_pulldown",
+    "field": "side_mode",
+    "current": "optional",
+    "proposed": "separate",
+    "reason": "Single-arm exercise: each side must be logged separately.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_lat_pulldown",
+    "field": "side_mode",
+    "current": "optional",
+    "proposed": "separate",
+    "reason": "Single-arm exercise: each side must be logged separately.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_lateral_wide_pulldown",
+    "field": "side_mode",
+    "current": "optional",
+    "proposed": "separate",
+    "reason": "Single-arm exercise: each side must be logged separately.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kneeling_one_arm_pulldown",
+    "field": "side_mode",
+    "current": "optional",
+    "proposed": "separate",
+    "reason": "Single-arm exercise: each side must be logged separately.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "hold_seated_leg_lift",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "time",
+    "reason": "It is a held position, scored by time.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kipping_t2b",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "Kipping toes-to-bar requires a coordinated kip and is high-skill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kipping_toes_to_bar",
+    "field": "technical_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "Kipping toes-to-bar requires a coordinated kip and is high-skill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_hanging_leg_hip_raise",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Explicitly weighted variant: the added load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_hanging_leg_hip_raise",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Explicitly weighted variant: the added load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "front_lever_reps",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "Named as reps: it is a dynamic front-lever pull, not a timed hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "wall_walk",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "The wall walk is an inverted, near-handstand skill, not a low-demand mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tempo_wall_walk",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "The wall walk is an inverted, near-handstand skill, not a low-demand mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "paused_wall_walk",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "The wall walk is an inverted, near-handstand skill, not a low-demand mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "mountain_climber",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "conditioning",
+    "reason": "Mountain climbers are a conditioning/core drill, not a mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cross_body_mountain_climber",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "conditioning",
+    "reason": "Mountain climbers are a conditioning/core drill, not a mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "slow_mountain_climber",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "conditioning",
+    "reason": "Mountain climbers are a conditioning/core drill, not a mobility drill.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "boxer_skip",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "conditioning",
+    "reason": "Rope skipping variations are cyclic conditioning, not mobility work.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "alternating_foot_skip",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "conditioning",
+    "reason": "Rope skipping variations are cyclic conditioning, not mobility work.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "resistance_source",
+    "current": "band",
+    "proposed": "gravity",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "resistance_source",
+    "current": "band",
+    "proposed": "gravity",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "weight_reps",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "weight_reps",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "exercise",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "exercise",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "smith_behind_neck_press",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "standing_behind_neck_press",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "A behind-the-neck press is an overhead shoulder press caught by the 'neck' name regex, not a neck exercise.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_neck_extension",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_neck_flexion",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_neck_lateral_flexion",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_neck_resistance",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "manual_neck_resistance_extension",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "manual_neck_resistance_flexion",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "manual_neck_resistance_lateral_flexion",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "neck_rotation_manual_resistance",
+    "field": "muscle_tension",
+    "current": "deltoid_anterior:low/moderate/high",
+    "proposed": "sternocleidomastoid:low/moderate/high",
+    "reason": "Primary mover of a neck exercise is the cervical musculature, not the anterior deltoid inherited from the archetype.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "pallof_press_with_band",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "band",
+    "reason": "Band version: elastic resistance, no stack weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "pallof_press_with_band",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "suspended_push_up",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "This is a dynamic rep-based exercise, not a timed plank hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "suspended_row",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "This is a dynamic rep-based exercise, not a timed plank hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "suspended_split_squat",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "This is a dynamic rep-based exercise, not a timed plank hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "suspended_reverse_crunch",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "This is a dynamic rep-based exercise, not a timed plank hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "alternate_heel_touchers",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "This is a dynamic rep-based exercise, not a timed plank hold.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_figure_8",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "weight_reps",
+    "reason": "The kettlebell figure-8 is a dynamic loaded movement, not an isometric plank.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_figure_8",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "per_implement",
+    "reason": "The kettlebell figure-8 is a dynamic loaded movement, not an isometric plank.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_figure_8",
+    "field": "comparison_scope",
+    "current": "bodyweight_aware",
+    "proposed": "exercise",
+    "reason": "The kettlebell figure-8 is a dynamic loaded movement, not an isometric plank.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "flag",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "The human flag is an advanced skill, not a low-demand plank.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "freestanding_wall_handstand_shoulder_tap",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Performed in a handstand: high balance and skill demand.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "wall_handstand_shoulder_tap",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Performed in a handstand: high balance and skill demand.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_wall_handstand_shoulder_tap",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "high",
+    "reason": "Performed in a handstand: high balance and skill demand.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_jump_squat",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "weight_reps",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kneeling_jump_squat",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "weight_reps",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_squat_jump_step_rear_lunge",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "weight_reps",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_jump_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kneeling_jump_squat",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_squat_jump_step_rear_lunge",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_jump_squat",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "exercise",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kneeling_jump_squat",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "exercise",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_squat_jump_step_rear_lunge",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "exercise",
+    "reason": "Externally loaded jump: the barbell load must be logged and is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_split_squat_jump",
+    "field": "tracking_type",
+    "current": "reps",
+    "proposed": "bodyweight_plus_weight",
+    "reason": "Weighted variant: added load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_split_squat_jump",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "added_weight",
+    "reason": "Weighted variant: added load must be logged.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "inchworm",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "mobility",
+    "reason": "The inchworm is a walk-out mobility drill with no stretch-shortening cycle.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "inchworm_v_2",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "mobility",
+    "reason": "The inchworm is a walk-out mobility drill with no stretch-shortening cycle.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_bent_arm_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_decline_bent_arm_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_decline_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_decline_wide_grip_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_pullover_to_press",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "ez_bar_lying_bent_arms_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell/EZ-bar is a single implement held with both hands: the logged number is the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_pullover",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "A lever/machine pullover is a selectorized cam machine, not a free-weight dumbbell pullover.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_pullover",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A lever/machine pullover is a selectorized cam machine, not a free-weight dumbbell pullover.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_pullover",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "A lever/machine pullover is a selectorized cam machine, not a free-weight dumbbell pullover.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "assisted_motion_russian_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_kneeling_twisting_crunch",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_chest_press",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_seated_row",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_seated_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_standing_twisting_crunch",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_twisting_overhead_press",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_seated_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_skier",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_standing_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "bent_knee_lying_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_judo_flip",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_russian_twists_on_stability_ball",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_seated_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_lift",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_standing_twist_row_v_bar",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_twist_up_down",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_twisting_pull",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "crab_twist_toe_touch",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_decline_twist_fly",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_incline_twisted_flyes",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_twisting_bench_press",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "feet_elevated_russian_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "front_plank_with_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "hanging_straight_twisting_leg_hip_raise",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "incline_twisting_sit_up",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "landmine_180",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_kneeling_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lunge_with_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "prone_twist_on_stability_ball",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "rotational_45_degree_back_extension_oblique_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "russian_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "spell_caster",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "squat_to_overhead_reach_with_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "swing_360",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "twist_hip_lift",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "twisted_leg_raise",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "twisted_leg_raise_variant_b",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_russian_twist",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_russian_twist_legs_up",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_russian_twist_v_2",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_seated_twist_on_stability_ball",
+    "field": "tracking_type",
+    "current": "weight_time",
+    "proposed": "weight_reps",
+    "reason": "Twisting movements are counted in reps; weight_time is inherited from the archetype and does not fit.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_judo_flip",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_russian_twists_on_stability_ball",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_twist",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_lift",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_twist_row_v_bar",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twist",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twist_up_down",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twisting_pull",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_kneeling_twist",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by gravity on a free weight.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_judo_flip",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_russian_twists_on_stability_ball",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_seated_twist",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_lift",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_standing_twist_row_v_bar",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twist",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twist_up_down",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_twisting_pull",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_kneeling_twist",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Cable stack loads are only comparable within one machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kneeling_twisting_crunch",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_chest_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_seated_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_seated_twist",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_twisting_crunch",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_twisting_overhead_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted variant.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_kneeling_twisting_crunch",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_chest_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_seated_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_seated_twist",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_standing_twisting_crunch",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_twisting_overhead_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_twisting_bench_press",
+    "field": "spotter_policy",
+    "current": "none",
+    "proposed": "recommended_high_effort",
+    "reason": "A supine dumbbell press to failure needs a spotter.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_throw_down",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_throw_down",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_throw_down",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "moderate",
+    "reason": "This is an assisted abdominal leg-raise with a partner throw-down, not a loaded barbell row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "field": "exercise_kind",
+    "current": "resistance",
+    "proposed": "conditioning",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "field": "exercise_kind",
+    "current": "resistance",
+    "proposed": "conditioning",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "field": "tracking_type",
+    "current": "weight_reps",
+    "proposed": "reps",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "A medicine-ball throw is a ballistic conditioning drill, not a barbell row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "barbell_narrow_stance_squat",
+    "field": "spotter_policy",
+    "current": "none",
+    "proposed": "recommended_high_effort",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_stance_squat",
+    "field": "spotter_policy",
+    "current": "none",
+    "proposed": "recommended_high_effort",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "narrow_stance_hack_squat",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "narrow_stance_smith_machine_squat",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_stance_hack_squat",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_stance_hack_squat",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "This is a squat/leg-press pattern misrouted to the barbell-row archetype by its name.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_alternating_narrow_grip_seated_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_bent_over_row_with_v_bar",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_high_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_narrow_grip_seated_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_one_arm_lateral_high_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_vertical_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_reverse_t_bar_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_seated_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_t_bar_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_t_bar_reverse_grip_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_unilateral_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cam_machine",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "lever_alternating_narrow_grip_seated_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_bent_over_row_with_v_bar",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_high_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_narrow_grip_seated_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_lateral_high_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_vertical_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_t_bar_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_reverse_grip_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_unilateral_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_alternating_narrow_grip_seated_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_bent_over_row_with_v_bar",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_high_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_narrow_grip_seated_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_lateral_high_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_vertical_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_t_bar_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_reverse_grip_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_unilateral_row",
+    "field": "stability_demand",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_alternating_narrow_grip_seated_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_bent_over_row_with_v_bar",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_high_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_narrow_grip_seated_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_one_arm_lateral_high_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_grip_vertical_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_reverse_t_bar_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_seated_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_t_bar_reverse_grip_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "lever_unilateral_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Chest/torso-supported selectorized row machine: the spine is not loaded like a free barbell bent-over row and the stack is machine-specific.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_squatting_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_squatting_row_with_towel",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_close_grip_one_arm_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_close_grip_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_one_arm_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_one_arm_row_with_towel",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_row_with_towel",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "towel_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "one_arm_towel_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "bodyweight_leverage",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_squatting_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_squatting_row_with_towel",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_close_grip_one_arm_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_close_grip_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_one_arm_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_one_arm_row_with_towel",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bodyweight_standing_row_with_towel",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "towel_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "one_arm_towel_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Bodyweight/towel row: resistance is body leverage and the spine is not axially loaded as in a barbell bent-over row.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_standing_low_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_squat_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_straight_back_row",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "band",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_one_arm_standing_low_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_squat_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "resistance_band_seated_straight_back_row",
+    "field": "spinal_loading",
+    "current": "high",
+    "proposed": "low",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "band_one_arm_standing_low_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "band_squat_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "resistance_band_seated_straight_back_row",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band-resisted row: elastic resistance, no barbell spinal load, not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_upright_row",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "An upright row is a shoulder/trap movement with impingement risk, not a low-demand back row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_upright_row",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "An upright row is a shoulder/trap movement with impingement risk, not a low-demand back row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_upright_row_back_pov",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "An upright row is a shoulder/trap movement with impingement risk, not a low-demand back row.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "renegade_row",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "renegade_row_plank",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_arm_renegade_row_plank",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "tempo_renegade_row_plank",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "kettlebell_alternating_renegade_row",
+    "field": "technical_demand",
+    "current": "low",
+    "proposed": "moderate",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "renegade_row",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "renegade_row_plank",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_arm_renegade_row_plank",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "tempo_renegade_row_plank",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "kettlebell_alternating_renegade_row",
+    "field": "stability_demand",
+    "current": "moderate",
+    "proposed": "high",
+    "reason": "The renegade row is rowed from a plank: anti-rotation stability and skill demand are high.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "side_bridge_hip_abduction",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "time",
+    "reason": "A side bridge is an isometric hold, not a rep-counted side bend.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "side_bridge_v_2",
+    "field": "tracking_type",
+    "current": "bodyweight_reps",
+    "proposed": "time",
+    "reason": "A side bridge is an isometric hold, not a rep-counted side bend.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_side_bend",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_bend_crunch_bosu_ball",
+    "field": "resistance_source",
+    "current": "gravity",
+    "proposed": "cable",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_bend",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_bend_crunch_bosu_ball",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_bend",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_side_bend_crunch_bosu_ball",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "Loaded by a cable stack, not by a free weight under gravity.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "barbell_side_bent_v_2",
+    "field": "load_input_mode",
+    "current": "per_implement",
+    "proposed": "total_load",
+    "reason": "A barbell is one implement loaded with both hands: log the total bar load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_calf_press",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "resistance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_calf_press",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "resistance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_leg_wide_press",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "resistance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_calf_press",
+    "field": "tracking_type",
+    "current": "weight_distance",
+    "proposed": "weight_reps",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_calf_press",
+    "field": "tracking_type",
+    "current": "weight_distance",
+    "proposed": "weight_reps",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_leg_wide_press",
+    "field": "tracking_type",
+    "current": "weight_distance",
+    "proposed": "weight_reps",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_calf_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_calf_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_leg_wide_press",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "equipment_instance",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_45_calf_press",
+    "field": "resistance_source",
+    "current": "isometric_external",
+    "proposed": "gravity",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sled_lying_calf_press",
+    "field": "resistance_source",
+    "current": "isometric_external",
+    "proposed": "gravity",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sled_45_leg_wide_press",
+    "field": "resistance_source",
+    "current": "isometric_external",
+    "proposed": "gravity",
+    "reason": "A 'sled' 45-degree/lying press is a leg-press machine exercise, not a pushed sled.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sled_45_calf_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press is ankle-only plantarflexion.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sled_lying_calf_press",
+    "field": "joint_class",
+    "current": "multi_joint",
+    "proposed": "single_joint",
+    "reason": "A calf press is ankle-only plantarflexion.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sledge_hammer",
+    "field": "tracking_type",
+    "current": "weight_distance",
+    "proposed": "reps",
+    "reason": "Sledgehammer strikes are a rep-counted conditioning drill, not a loaded sled push over distance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sledge_hammer",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "Sledgehammer strikes are a rep-counted conditioning drill, not a loaded sled push over distance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "sledge_hammer",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Sledgehammer strikes are a rep-counted conditioning drill, not a loaded sled push over distance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_reverse_sled_march",
+    "field": "resistance_source",
+    "current": "isometric_external",
+    "proposed": "band",
+    "reason": "Band-resisted march: elastic resistance, no sled load.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_reverse_sled_march",
+    "field": "comparison_scope",
+    "current": "exercise",
+    "proposed": "non_comparable",
+    "reason": "Band resistance is not comparable across gyms.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "banded_reverse_sled_march",
+    "field": "load_input_mode",
+    "current": "total_load",
+    "proposed": "none",
+    "reason": "No plate load to record on a band march.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "roller_body_saw",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "resistance",
+    "reason": "A body saw / reverse crunch on a foam roller is abdominal resistance work, not a static stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "roller_reverse_crunch",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "resistance",
+    "reason": "A body saw / reverse crunch on a foam roller is abdominal resistance work, not a static stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "roller_body_saw",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "A body saw / reverse crunch on a foam roller is abdominal resistance work, not a static stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "roller_reverse_crunch",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "bodyweight_reps",
+    "reason": "A body saw / reverse crunch on a foam roller is abdominal resistance work, not a static stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "weighted_stretch_lunge",
+    "field": "exercise_kind",
+    "current": "mobility",
+    "proposed": "resistance",
+    "reason": "A weighted lunge is loaded resistance work, not a stretch.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "ankle_circles",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Dynamic circling/swinging drill counted in reps, not a timed static hold.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wrist_circles",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Dynamic circling/swinging drill counted in reps, not a timed static hold.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dynamic_chest_stretch",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Dynamic circling/swinging drill counted in reps, not a timed static hold.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "medicine_ball_woodchop",
+    "field": "resistance_source",
+    "current": "cable",
+    "proposed": "gravity",
+    "reason": "Loaded by a medicine ball under gravity, not by a cable stack.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "medicine_ball_woodchop",
+    "field": "comparison_scope",
+    "current": "equipment_instance",
+    "proposed": "exercise",
+    "reason": "Medicine-ball load is comparable across gyms.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "field": "exercise_kind",
+    "current": "conditioning",
+    "proposed": "resistance",
+    "reason": "A cable kayak row is a cable-resisted back exercise, not a cyclic cardio machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "cable",
+    "reason": "A cable kayak row is a cable-resisted back exercise, not a cyclic cardio machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "weight_reps",
+    "reason": "A cable kayak row is a cable-resisted back exercise, not a cyclic cardio machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "field": "load_input_mode",
+    "current": "none",
+    "proposed": "total_load",
+    "reason": "A cable kayak row is a cable-resisted back exercise, not a cyclic cardio machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "field": "comparison_scope",
+    "current": "non_comparable",
+    "proposed": "equipment_instance",
+    "reason": "A cable kayak row is a cable-resisted back exercise, not a cyclic cardio machine.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bar_facing_burpee",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "burpee",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "chest_to_floor_burpee",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "dumbbell_burpee",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "jack_burpee",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "bar_facing_burpee",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "burpee",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "chest_to_floor_burpee",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "dumbbell_burpee",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jack_burpee",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "A burpee is a bodyweight movement counted in reps, not a hydraulic ergometer effort.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "double_under",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "double_under_skipping",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "single_under",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "triple_under",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "double_under",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "double_under_skipping",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "single_under",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "triple_under",
+    "field": "tracking_type",
+    "current": "time",
+    "proposed": "reps",
+    "reason": "Rope skipping is bodyweight-driven and counted in rope passes, not machine resistance.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "left_hook_boxing",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Shadow boxing has no machine resistance.",
+    "confidence": "high"
+  },
+  {
+    "exercise_code": "run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "running",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sprint",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "jog",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "1_mile_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "400m_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "800m_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "shuttle_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "sprint_100m",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wind_sprints",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "short_stride_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "running_sprint",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "push_to_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "wheel_run",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "run_equipment",
+    "field": "resistance_source",
+    "current": "hydraulic",
+    "proposed": "bodyweight_leverage",
+    "reason": "Running is driven by bodyweight; 'hydraulic' is an ergometer default that does not apply.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "ring_support_hold",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A ring support hold is a straight-arm support above the rings driven by shoulder and elbow stabilisation, not a single-joint hang.",
+    "confidence": "moderate"
+  },
+  {
+    "exercise_code": "turnout_ring_support_hold",
+    "field": "joint_class",
+    "current": "single_joint",
+    "proposed": "multi_joint",
+    "reason": "A ring support hold is a straight-arm support above the rings driven by shoulder and elbow stabilisation, not a single-joint hang.",
+    "confidence": "moderate"
+  }
+]

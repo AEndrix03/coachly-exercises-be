@@ -30,9 +30,13 @@ Usage:
 """
 import argparse
 import os
+import pathlib
 import sys
 
 import psycopg
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from dsn import get_dsn  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -110,13 +114,13 @@ ARCH = "split_part(split_part(b.method_note,'archetype=',2),';',1)"
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dsn", default=os.environ.get("COACHLY_BIOMECH_DSN"))
+    ap.add_argument("--dsn", default=None,
+                    help="optional; resolved from $COACHLY_BIOMECH_DSN or auto-injestion/.env")
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
-    if not args.dsn:
-        sys.exit("no DSN: set COACHLY_BIOMECH_DSN")
+    dsn = args.dsn or get_dsn()
 
-    with psycopg.connect(args.dsn, connect_timeout=30) as conn:
+    with psycopg.connect(dsn, connect_timeout=30) as conn:
         conn.autocommit = False
         cur = conn.cursor()
 
