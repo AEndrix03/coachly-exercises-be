@@ -55,6 +55,7 @@ public class ExerciseRetrieveMapper {
             .exerciseKind(enumValue(exercise.getExerciseKind()))
             .technicalDemand(enumValue(exercise.getTechnicalDemand()))
             .jointClass(enumValue(exercise.getJointClass()))
+            .kineticChain(enumValue(exercise.getKineticChain()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
             .build();
@@ -82,10 +83,12 @@ public class ExerciseRetrieveMapper {
             .nameI18n(translations.fieldMap("nameI18n", "name"))
             .descriptionI18n(translations.fieldMap("descriptionI18n", "description"))
             .tipsI18n(translations.fieldMap("tipsI18n", "tips", "executionTips"))
+            .commonMistakesI18n(translations.fieldListMap("commonMistakesI18n", "commonMistakes"))
             .family(toFamily(exercise.getFamily()))
             .exerciseKind(enumValue(exercise.getExerciseKind()))
             .technicalDemand(enumValue(exercise.getTechnicalDemand()))
             .jointClass(enumValue(exercise.getJointClass()))
+            .kineticChain(enumValue(exercise.getKineticChain()))
             .catalogStatus(enumValue(exercise.getCatalogStatus()))
             .isUnilateral(exercise.isUnilateral())
             .isBodyweight(exercise.isBodyweight())
@@ -99,6 +102,7 @@ public class ExerciseRetrieveMapper {
             .safety(ExerciseDetailDto.SafetyDto.builder()
                 .spotterPolicy(enumValue(exercise.getSpotterPolicy()))
                 .notesI18n(translations.fieldMap("safetyNotesI18n", "safetyNotes", "safetyTips"))
+                .notesListI18n(translations.fieldListMap("safetyNotesI18n", "safetyNotes", "safetyTips"))
                 .build())
             .equipments(equipments.stream().map(this::toEquipment).toList())
             .variants(includeVariants ? toDirectVariants(exercise, variations) : List.of())
@@ -207,6 +211,7 @@ public class ExerciseRetrieveMapper {
             .exerciseKind(enumValue(related.getExerciseKind()))
             .technicalDemand(enumValue(related.getTechnicalDemand()))
             .jointClass(enumValue(related.getJointClass()))
+            .kineticChain(enumValue(related.getKineticChain()))
             .isUnilateral(related.isUnilateral())
             .isBodyweight(related.isBodyweight())
             .variationAxis(enumValue(edge.getVariationAxis()))
@@ -563,6 +568,71 @@ public class ExerciseRetrieveMapper {
                 }
             }
             return localeDrivenMap;
+        }
+
+        /**
+         * Same lookup as {@link #fieldMap}, but keeps list content as a list.
+         * The frontend wants mistakes and safety notes as arrays, not as one
+         * string with bullets glued into it.
+         */
+        private Map<String, List<String>> fieldListMap(String... preferredKeys) {
+            Map<String, List<String>> result = new LinkedHashMap<>();
+            for (String preferredKey : preferredKeys) {
+                Object direct = root.get(preferredKey);
+                if (direct instanceof Map<?, ?> rawMap) {
+                    for (Map.Entry<?, ?> entry : rawMap.entrySet()) {
+                        List<String> items = asStringList(entry.getValue());
+                        if (!items.isEmpty()) {
+                            result.put(String.valueOf(entry.getKey()), items);
+                        }
+                    }
+                    if (!result.isEmpty()) {
+                        return result;
+                    }
+                }
+            }
+
+            for (Map.Entry<String, Object> entry : root.entrySet()) {
+                if (!(entry.getValue() instanceof Map<?, ?> localePayload)) {
+                    continue;
+                }
+                for (String preferredKey : preferredKeys) {
+                    Object localizedValue = localePayload.get(preferredKey);
+                    if (localizedValue == null) {
+                        continue;
+                    }
+                    List<String> items = asStringList(localizedValue);
+                    if (!items.isEmpty()) {
+                        result.put(entry.getKey(), items);
+                    }
+                    break;
+                }
+            }
+            return result;
+        }
+
+        private List<String> asStringList(Object value) {
+            if (value instanceof Collection<?> collection) {
+                return collection.stream()
+                    .filter(item -> item != null && !String.valueOf(item).isBlank())
+                    .map(item -> String.valueOf(item).trim())
+                    .toList();
+            }
+            if (value == null) {
+                return List.of();
+            }
+            String text = String.valueOf(value).trim();
+            if (text.isBlank()) {
+                return List.of();
+            }
+            // legacy rows store the list already joined with bullets
+            if (text.contains("•")) {
+                return java.util.Arrays.stream(text.split("•"))
+                    .map(String::trim)
+                    .filter(item -> !item.isEmpty())
+                    .toList();
+            }
+            return List.of(text);
         }
 
         private Map<String, String> asStringMap(Object value) {

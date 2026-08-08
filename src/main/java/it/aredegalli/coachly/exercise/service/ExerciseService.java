@@ -12,6 +12,7 @@ import it.aredegalli.coachly.exercise.enums.EquipmentClass;
 import it.aredegalli.coachly.exercise.enums.ExerciseKind;
 import it.aredegalli.coachly.exercise.enums.InvolvementLevel;
 import it.aredegalli.coachly.exercise.enums.JointClass;
+import it.aredegalli.coachly.exercise.enums.KineticChain;
 import it.aredegalli.coachly.exercise.enums.LoadLevel;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
@@ -150,6 +151,7 @@ public class ExerciseService {
             .filter(exercise -> matchesKind(exercise, filter.getExerciseKind()))
             .filter(exercise -> matchesTechnicalDemand(exercise, filter.getTechnicalDemand()))
             .filter(exercise -> matchesJointClass(exercise, filter.getJointClass()))
+            .filter(exercise -> matchesKineticChain(exercise, filter.getKineticChain()))
             .filter(exercise -> matchesUnilateral(exercise, filter.getIsUnilateral()))
             .filter(exercise -> matchesBodyweight(exercise, filter.getIsBodyweight()))
             .toList();
@@ -451,6 +453,11 @@ public class ExerciseService {
     private boolean matchesJointClass(Exercise exercise, String jointClass) {
         JointClass value = parseEnum(JointClass.class, jointClass);
         return value == null || exercise.getJointClass() == value;
+    }
+
+    private boolean matchesKineticChain(Exercise exercise, String kineticChain) {
+        KineticChain value = parseEnum(KineticChain.class, kineticChain);
+        return value == null || exercise.getKineticChain() == value;
     }
 
     private boolean matchesFamily(Exercise exercise, List<UUID> familyIds) {

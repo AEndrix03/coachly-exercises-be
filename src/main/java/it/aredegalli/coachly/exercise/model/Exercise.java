@@ -3,6 +3,7 @@ package it.aredegalli.coachly.exercise.model;
 import it.aredegalli.coachly.exercise.enums.CatalogStatus;
 import it.aredegalli.coachly.exercise.enums.ExerciseKind;
 import it.aredegalli.coachly.exercise.enums.JointClass;
+import it.aredegalli.coachly.exercise.enums.KineticChain;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
 import it.aredegalli.coachly.exercise.enums.TechnicalDemand;
@@ -10,6 +11,7 @@ import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.converter.CatalogStatusConverter;
 import it.aredegalli.coachly.exercise.model.converter.ExerciseKindConverter;
 import it.aredegalli.coachly.exercise.model.converter.JointClassConverter;
+import it.aredegalli.coachly.exercise.model.converter.KineticChainConverter;
 import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
 import it.aredegalli.coachly.exercise.model.converter.SpotterPolicyConverter;
 import it.aredegalli.coachly.exercise.model.converter.TechnicalDemandConverter;
@@ -65,6 +67,11 @@ public class Exercise {
     @Convert(converter = JointClassConverter.class)
     @Column(name = "joint_class", columnDefinition = "exercises.joint_class")
     private JointClass jointClass;
+
+    /** Whether the distal segment is fixed against a surface (closed) or free (open). */
+    @Convert(converter = KineticChainConverter.class)
+    @Column(name = "kinetic_chain", columnDefinition = "exercises.kinetic_chain")
+    private KineticChain kineticChain;
 
     @Column(name = "unilateral", nullable = false)
     private boolean unilateral;
@@ -161,6 +168,14 @@ public class Exercise {
 
     public void setJointClass(JointClass jointClass) {
         this.jointClass = jointClass;
+    }
+
+    public KineticChain getKineticChain() {
+        return kineticChain;
+    }
+
+    public void setKineticChain(KineticChain kineticChain) {
+        this.kineticChain = kineticChain;
     }
 
     public boolean isUnilateral() {

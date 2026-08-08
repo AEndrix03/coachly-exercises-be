@@ -58,6 +58,7 @@ public class ExerciseController {
         @RequestParam(required = false) String exerciseKind,
         @RequestParam(required = false) String technicalDemand,
         @RequestParam(required = false) String jointClass,
+        @RequestParam(required = false) String kineticChain,
         @RequestParam(required = false) Boolean isUnilateral,
         @RequestParam(required = false) Boolean isBodyweight,
         @RequestParam(required = false) String categoryIds,
@@ -81,6 +82,7 @@ public class ExerciseController {
             .exerciseKind(exerciseKind)
             .technicalDemand(technicalDemand)
             .jointClass(jointClass)
+            .kineticChain(kineticChain)
             .isUnilateral(isUnilateral)
             .isBodyweight(isBodyweight)
             .categoryIds(splitCsv(categoryIds))
