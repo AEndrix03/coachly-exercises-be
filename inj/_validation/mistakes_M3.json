@@ -1,0 +1,778 @@
+{
+  "ab_wheel": {
+    "en": [
+      "Letting the lower back arch and the hips sag as the wheel rolls out, which shifts load off the abs and into lumbar extension.",
+      "Rolling out further than the abs can hold, so the last part of the rep is caught by the shoulders and hip flexors.",
+      "Pulling back with the hips first instead of the abs, turning the return into a hip hinge with almost no ab work.",
+      "Holding the breath and letting the belly push out instead of bracing, which kills the intra-abdominal pressure that protects the spine.",
+      "Starting from a standing rollout before the kneeling version is solid, which almost always ends in a lumbar collapse."
+    ],
+    "it": [
+      "Lasciare inarcare la zona lombare e cedere il bacino mentre la ruota va avanti, cosi il lavoro esce dagli addominali e finisce sulla schiena.",
+      "Allungarsi piu di quanto gli addominali riescano a controllare, per cui l'ultimo tratto viene retto da spalle e flessori dell'anca.",
+      "Tornare indietro spingendo prima con il bacino invece che con gli addominali, trasformando il ritorno in una piegata d'anca quasi senza lavoro addominale.",
+      "Trattenere il fiato e lasciare uscire la pancia invece di tenere il core in tensione, perdendo la pressione addominale che protegge la colonna.",
+      "Partire dal rollout in piedi prima di padroneggiare quello in ginocchio, cosa che quasi sempre finisce con la lombare che cede."
+    ]
+  },
+  "balance_drill": {
+    "en": [
+      "Fixing the eyes on the feet instead of a point ahead, which removes the visual reference the balance system needs.",
+      "Rushing through the reps, so the drill trains momentum instead of the slow corrections that build stability.",
+      "Grabbing a wall or rack at the first wobble, which prevents the ankle and hip from ever learning to correct.",
+      "Letting the standing knee collapse inward while balancing, loading the knee instead of training the hip stabilisers."
+    ],
+    "it": [
+      "Guardare i piedi invece di un punto fisso davanti, togliendo al corpo il riferimento visivo che serve per l'equilibrio.",
+      "Andare di fretta sulle ripetizioni, allenando lo slancio invece delle micro-correzioni lente che costruiscono la stabilita.",
+      "Aggrapparsi al muro o al rack al primo tentennamento, impedendo a caviglia e anca di imparare a correggersi.",
+      "Lasciare cadere il ginocchio d'appoggio verso l'interno, caricando l'articolazione invece di allenare gli stabilizzatori dell'anca."
+    ]
+  },
+  "cable_crunch": {
+    "en": [
+      "Turning the movement into a hip hinge by bowing at the waist, so the lats and glutes move the weight instead of the abs.",
+      "Pulling the rope down with the arms, which loads the lats and hides how little the abs are actually working.",
+      "Letting the hips drift back and forth to build momentum, removing the tension the cable is supposed to keep constant.",
+      "Going too heavy so the spine barely flexes, reducing the rep to a short isometric tug."
+    ],
+    "it": [
+      "Trasformare il movimento in una piegata d'anca, per cui a muovere il peso sono dorsali e glutei invece degli addominali.",
+      "Tirare giu la corda con le braccia, caricando i dorsali e mascherando quanto poco stiano lavorando gli addominali.",
+      "Far oscillare il bacino avanti e indietro per prendere slancio, perdendo la tensione costante che il cavo dovrebbe garantire.",
+      "Caricare troppo al punto che la colonna quasi non si flette, riducendo la ripetizione a una breve trazione isometrica."
+    ]
+  },
+  "cardio_cyclic": {
+    "en": [
+      "Starting at race pace and blowing up in the first minutes, which cuts the session short before any aerobic stimulus accumulates.",
+      "Leaning on the handles or console, which offloads bodyweight and makes the displayed calories and pace meaningless.",
+      "Setting resistance so high that cadence collapses, turning a cardio session into a slow, grinding leg workout.",
+      "Over-striding and landing heel-first well ahead of the body, which brakes each step and hammers the shins and knees.",
+      "Doing every session at the same middling intensity, too hard to recover from and too easy to drive adaptation."
+    ],
+    "it": [
+      "Partire a tutta e scoppiare nei primi minuti, chiudendo la sessione prima di accumulare qualsiasi stimolo aerobico.",
+      "Appoggiarsi alle maniglie o al display, scaricando il peso del corpo e rendendo del tutto inattendibili calorie e ritmo mostrati.",
+      "Mettere una resistenza cosi alta da far crollare la cadenza, trasformando il cardio in un lento lavoro di forza per le gambe.",
+      "Allungare troppo il passo atterrando di tallone davanti al corpo, frenando a ogni appoggio e martellando tibie e ginocchia.",
+      "Fare tutte le sedute alla stessa intensita media: troppo dura per recuperare e troppo blanda per creare adattamento."
+    ]
+  },
+  "carry": {
+    "en": [
+      "Shrugging the shoulders up to the ears instead of keeping the ribcage stacked, which loads the neck and fatigues the traps first.",
+      "Leaning back to counterbalance the load, which compresses the lumbar spine instead of bracing the core.",
+      "Taking long, fast steps that make the load swing, breaking posture and turning the carry into a stumble.",
+      "Ending the set only when grip fails, so posture degrades badly for the last stretch under heavy load.",
+      "Letting the torso rotate and the hips drop toward the loaded side in a suitcase carry, which is exactly the tilt the exercise should resist."
+    ],
+    "it": [
+      "Alzare le spalle verso le orecchie invece di tenere la gabbia toracica in asse, caricando il collo e mandando in crisi i trapezi per primi.",
+      "Inarcarsi all'indietro per bilanciare il carico, comprimendo la lombare invece di attivare il core.",
+      "Fare passi lunghi e veloci che fanno oscillare il carico, rompendo la postura e trasformando la camminata in un barcollare.",
+      "Chiudere la serie solo quando cede la presa, per cui gli ultimi metri si fanno con la postura gia sfasciata sotto carico pesante.",
+      "Nel suitcase carry lasciare ruotare il busto e cadere il bacino dal lato caricato: proprio l'inclinazione che l'esercizio dovrebbe impedire."
+    ]
+  },
+  "carry_overhead": {
+    "en": [
+      "Letting the arm drift forward of the ear, which pulls the load off the shoulder stack and onto the front delt.",
+      "Arching the lower back to get the weight overhead when shoulder mobility is short, loading the lumbar spine instead of the shoulder.",
+      "Locking the elbow loosely and letting it soften under fatigue, which is how the load ends up dropping toward the head.",
+      "Watching the weight by tilting the head back, which breaks the neutral neck and destabilises the whole carry.",
+      "Choosing a load that can be pressed but not stabilised for distance, so the set ends with an uncontrolled drop."
+    ],
+    "it": [
+      "Lasciare scivolare il braccio davanti all'orecchio, togliendo il carico dall'asse della spalla e scaricandolo sul deltoide anteriore.",
+      "Inarcare la lombare per portare il peso sopra la testa quando manca mobilita di spalla, caricando la colonna invece della spalla.",
+      "Tenere il gomito solo semi-bloccato e lasciarlo cedere con la fatica: e cosi che il peso finisce per venire giu verso la testa.",
+      "Guardare il peso piegando la testa all'indietro, perdendo il collo neutro e destabilizzando tutta la camminata.",
+      "Scegliere un carico che si riesce a spingere ma non a stabilizzare per tutta la distanza, chiudendo la serie con una caduta incontrollata."
+    ]
+  },
+  "chinup": {
+    "en": [
+      "Kipping the hips to launch the body up, which removes the lats and biceps from the part of the rep that matters.",
+      "Starting each rep from a dead hang with shoulders up at the ears instead of setting the scapulae, which stresses the shoulder joint.",
+      "Stopping halfway with the chin short of the bar, cutting off the range where the lats shorten most.",
+      "Dropping down fast and bouncing out of the bottom, which loads the elbow tendons and the long head of the biceps.",
+      "Craning the neck forward to reach the bar instead of driving the chest up, which fakes range without adding it."
+    ],
+    "it": [
+      "Slanciare il bacino per lanciarsi verso l'alto, togliendo dorsali e bicipiti proprio dal tratto che conta.",
+      "Ripartire da appeso con le spalle sulle orecchie senza attivare le scapole, mettendo sotto stress l'articolazione.",
+      "Fermarsi a meta senza portare il mento oltre la sbarra, tagliando proprio il tratto in cui il dorsale accorcia di piu.",
+      "Lasciarsi cadere e rimbalzare in basso, caricando i tendini del gomito e il capo lungo del bicipite.",
+      "Allungare il collo in avanti per arrivare alla sbarra invece di portare su il petto, simulando un'escursione che non c'e."
+    ]
+  },
+  "crawl": {
+    "en": [
+      "Letting the hips rock side to side with each step, which is the exact rotation the crawl is meant to resist.",
+      "Raising the hips too high, turning the drill into a walking downward dog with almost no core demand.",
+      "Taking big strides, which forces the torso to twist and drops the knees to the floor.",
+      "Letting the head drop or crane up instead of following the spine, which stiffens the neck and shoulders."
+    ],
+    "it": [
+      "Lasciare dondolare il bacino da un lato all'altro a ogni passo: proprio la rotazione che il crawl dovrebbe contrastare.",
+      "Alzare troppo il bacino, trasformando l'esercizio in un cane a testa in giu che cammina e azzerando il lavoro del core.",
+      "Fare passi troppo lunghi, costringendo il busto a torcersi e facendo cadere le ginocchia a terra.",
+      "Lasciare cadere o iperestendere la testa invece di tenerla in linea con la colonna, irrigidendo collo e spalle."
+    ]
+  },
+  "crunch": {
+    "en": [
+      "Pulling on the head or neck with the hands, which strains the cervical spine and does nothing for the abs.",
+      "Lifting the whole torso off the floor with the hip flexors instead of curling the ribs toward the pelvis, so the abs barely shorten.",
+      "Bouncing off the floor to chain reps together, using elastic recoil instead of muscular tension.",
+      "Chasing high rep counts with a tiny, fast range, which trains speed of movement rather than the abs.",
+      "Holding the breath through the whole set instead of exhaling on the way up, which limits how hard the abs can contract."
+    ],
+    "it": [
+      "Tirarsi la testa o il collo con le mani, stressando il tratto cervicale senza aggiungere nulla al lavoro addominale.",
+      "Staccare tutto il busto da terra con i flessori dell'anca invece di avvicinare le costole al bacino, cosi gli addominali quasi non accorciano.",
+      "Rimbalzare a terra per incatenare le ripetizioni, sfruttando il ritorno elastico invece della tensione muscolare.",
+      "Inseguire tante ripetizioni con un'escursione minima e velocissima, allenando la fretta invece degli addominali.",
+      "Trattenere il respiro per tutta la serie invece di espirare in salita, limitando quanto forte possono contrarsi gli addominali."
+    ]
+  },
+  "dragon_flag": {
+    "en": [
+      "Attempting the full straight-body version too early, so the hips break and the lower back arches off the bench.",
+      "Dropping the legs fast instead of lowering under control, which is where the lumbar spine gets hyperextended.",
+      "Pushing with the arms to hoist the body up rather than reversing with the abs, hiding the missing strength.",
+      "Letting the shoulders slide up the bench instead of anchoring them, which loads the neck as the set fatigues."
+    ],
+    "it": [
+      "Provare troppo presto la versione a corpo teso, per cui il bacino cede e la lombare si stacca dalla panca.",
+      "Far cadere le gambe invece di scendere in controllo: e li che la lombare va in iperestensione.",
+      "Spingere con le braccia per issare il corpo invece di risalire con gli addominali, mascherando la forza che manca.",
+      "Lasciare scivolare le spalle sulla panca invece di ancorarle, caricando il collo man mano che la serie stanca."
+    ]
+  },
+  "front_lever_row": {
+    "en": [
+      "Letting the hips drop below the line of the body, which turns the row into an inverted row and removes the lever demand.",
+      "Bending the arms before the body is horizontal, so the pull starts from a position the lats cannot hold.",
+      "Progressing past the tuck before the hold is solid, which produces a rep that is all swing and no control.",
+      "Losing the posterior pelvic tilt mid-rep, letting the lower back arch under a long lever."
+    ],
+    "it": [
+      "Lasciare scendere il bacino sotto la linea del corpo, trasformando il movimento in un inverted row e togliendo la parte di lever.",
+      "Piegare le braccia prima che il corpo sia orizzontale, iniziando la trazione da una posizione che il dorsale non riesce a tenere.",
+      "Passare oltre il tuck prima che la tenuta sia solida, ottenendo ripetizioni fatte solo di slancio.",
+      "Perdere la retroversione del bacino a meta ripetizione, lasciando inarcare la lombare con un braccio di leva lunghissimo."
+    ]
+  },
+  "get_up": {
+    "en": [
+      "Taking the eyes off the bell during the early transitions, which is when the shoulder loses its stack and the weight drifts.",
+      "Letting the loaded elbow bend anywhere in the sequence, which removes the locked support and puts the load on the joint.",
+      "Rushing between positions instead of owning each one, so a wobble in one step compounds into a failed rep.",
+      "Skipping the low-sweep and dragging the leg through, which leaves the hips in a position that cannot support the stand-up.",
+      "Loading up before the unweighted or shoe-on-fist version is clean, which turns a skill drill into a shoulder risk."
+    ],
+    "it": [
+      "Staccare gli occhi dal kettlebell nelle prime transizioni, cioe proprio quando la spalla perde l'asse e il peso comincia a scappare.",
+      "Lasciare piegare il gomito del braccio caricato in un punto qualsiasi della sequenza, perdendo il supporto rigido e caricando l'articolazione.",
+      "Correre da una posizione all'altra invece di controllarle una a una, cosi un tentennamento iniziale fa saltare tutta la ripetizione.",
+      "Saltare lo sweep della gamba e trascinarla, lasciando il bacino in una posizione da cui non si riesce a salire in piedi.",
+      "Caricare prima di aver pulito la versione a corpo libero o con la scarpa sul pugno, trasformando un esercizio tecnico in un rischio per la spalla."
+    ]
+  },
+  "handstand_hold": {
+    "en": [
+      "Arching the lower back into a banana shape to stay up, which stresses the lumbar spine and wastes energy correcting.",
+      "Kicking up too hard and flipping over the top, instead of learning to bail out to the side.",
+      "Letting the elbows bend and the shoulders close, which collapses the support line and drops the hold.",
+      "Gripping only with the palms instead of the fingertips, removing the only way to make balance corrections.",
+      "Staying chest-to-wall or back-to-wall forever without ever shifting weight, so freestanding balance never develops."
+    ],
+    "it": [
+      "Inarcare la lombare a banana per restare su, stressando la colonna e sprecando energia in continue correzioni.",
+      "Slanciare troppo forte e ribaltarsi oltre la verticale, invece di imparare a uscire di lato.",
+      "Lasciare piegare i gomiti e chiudere le spalle, facendo collassare la linea di sostegno e perdendo la tenuta.",
+      "Fare presa solo con i palmi invece che con i polpastrelli, togliendosi l'unico modo per correggere l'equilibrio.",
+      "Restare per sempre appoggiati al muro senza mai spostare il peso, senza cosi sviluppare mai l'equilibrio libero."
+    ]
+  },
+  "hang_passive": {
+    "en": [
+      "Hanging fully relaxed with the shoulders jammed at the ears from day one, which loads the passive shoulder structures before they are ready.",
+      "Swinging the legs to pass the time, which turns a static hold into an uncontrolled load on the shoulders and grip.",
+      "Dropping off the bar from full height instead of stepping down, landing hard through the ankles and knees.",
+      "Using straps from the start, which removes the grip stimulus that is half the point of the hang."
+    ],
+    "it": [
+      "Restare appesi completamente molli con le spalle incastrate sulle orecchie fin dal primo giorno, caricando le strutture passive della spalla prima che siano pronte.",
+      "Dondolare le gambe per far passare il tempo, trasformando una tenuta statica in un carico incontrollato su spalle e presa.",
+      "Lasciarsi cadere dalla sbarra invece di scendere appoggiandosi, atterrando duro su caviglie e ginocchia.",
+      "Usare le fasce fin da subito, eliminando lo stimolo sulla presa che e meta del senso dell'esercizio."
+    ]
+  },
+  "hollow_hold": {
+    "en": [
+      "Letting the lower back lift off the floor, which shifts the work to the hip flexors and puts the lumbar spine in extension.",
+      "Extending arms and legs long before the position can be held, so the hold breaks within seconds.",
+      "Holding the breath to keep the shape, which makes the hold a breath test rather than an ab test.",
+      "Tucking the chin hard into the chest and straining the neck instead of keeping it in line with the spine."
+    ],
+    "it": [
+      "Lasciare staccare la lombare da terra, spostando il lavoro sui flessori dell'anca e mandando la colonna in estensione.",
+      "Allungare braccia e gambe molto prima di riuscire a tenere la posizione, per cui la tenuta salta in pochi secondi.",
+      "Trattenere il fiato per mantenere la forma, trasformando l'esercizio in una prova d'apnea invece che di addominali.",
+      "Schiacciare il mento sul petto affaticando il collo invece di tenerlo in linea con la colonna."
+    ]
+  },
+  "l_sit": {
+    "en": [
+      "Shrugging into the shoulders instead of pushing the floor away, which sinks the body and makes the hold impossible.",
+      "Leaning the torso back to get the legs up, which cheats the hip flexion the hold is supposed to demand.",
+      "Letting the knees bend while claiming a full L-sit, which quietly shortens the lever and the difficulty.",
+      "Rounding the lower back and losing the pelvic position, which pulls the hip flexors into a cramp instead of working the abs."
+    ],
+    "it": [
+      "Restare incastrati nelle spalle invece di spingere via il pavimento, affondando e rendendo la tenuta impossibile.",
+      "Portare indietro il busto per alzare le gambe, aggirando la flessione d'anca che la tenuta dovrebbe richiedere.",
+      "Lasciare piegare le ginocchia spacciando la tenuta per un L-sit completo, accorciando di nascosto leva e difficolta.",
+      "Arrotondare la lombare perdendo la posizione del bacino, mandando in crampo i flessori dell'anca invece di far lavorare gli addominali."
+    ]
+  },
+  "lat_pulldown": {
+    "en": [
+      "Leaning far back and heaving the bar down, which turns the pulldown into a poorly executed row.",
+      "Pulling the bar behind the neck, which forces the shoulders into external rotation at end range for no extra lat work.",
+      "Letting the weight yank the arms up at the top and losing scapular control, wasting the stretched position.",
+      "Starting the pull with the biceps and the elbows rather than depressing the shoulder blades, so the arms fail before the lats.",
+      "Not securing the thigh pads and letting the hips rise, so half the effort goes into staying seated."
+    ],
+    "it": [
+      "Sdraiarsi indietro e strappare la barra verso il basso, trasformando la lat machine in un rematore fatto male.",
+      "Tirare la barra dietro il collo, forzando le spalle in extrarotazione estrema senza alcun lavoro in piu per i dorsali.",
+      "Farsi strappare le braccia verso l'alto in cima perdendo il controllo scapolare, sprecando la posizione di allungamento.",
+      "Iniziare la trazione con bicipiti e gomiti invece di abbassare le scapole, per cui cedono le braccia prima dei dorsali.",
+      "Non regolare i cuscinetti sulle cosce e sollevarsi dal sedile, sprecando meta dello sforzo per restare seduti."
+    ]
+  },
+  "leg_raise_hanging": {
+    "en": [
+      "Swinging the body to throw the legs up, so momentum does the work the abs should be doing.",
+      "Raising the legs without tilting the pelvis under, which makes it a pure hip flexor exercise with almost no ab involvement.",
+      "Dropping the legs fast at the end of the rep, which whips the lower back into extension while hanging.",
+      "Hanging fully passive with the shoulders at the ears, which loads the shoulder joint for the whole set.",
+      "Letting grip end the set before the abs are challenged, so the exercise never reaches the target muscle."
+    ],
+    "it": [
+      "Dondolare il corpo per lanciare le gambe, lasciando che sia lo slancio a fare il lavoro degli addominali.",
+      "Alzare le gambe senza retrovertire il bacino, ottenendo un esercizio per i soli flessori dell'anca e quasi nulla per gli addominali.",
+      "Far cadere le gambe di colpo a fine ripetizione, frustando la lombare in estensione mentre si e appesi.",
+      "Restare appesi completamente passivi con le spalle sulle orecchie, caricando l'articolazione per tutta la serie.",
+      "Chiudere la serie perche cede la presa prima che gli addominali abbiano lavorato davvero."
+    ]
+  },
+  "lever_hold": {
+    "en": [
+      "Skipping tuck and advanced-tuck progressions and going straight to full, which guarantees a sagging, arched position.",
+      "Letting the arms bend to shorten the lever, which quietly changes the exercise and overloads the elbow tendons.",
+      "Losing posterior pelvic tilt so the hips sag and the lower back arches under a very long lever.",
+      "Holding past the point where the shape breaks, which trains the compensations rather than the position.",
+      "Neglecting straight-arm elbow conditioning before long holds, a common route to elbow pain."
+    ],
+    "it": [
+      "Saltare le progressioni tuck e advanced tuck per andare subito alla versione completa, ottenendo di sicuro una posizione cedevole e inarcata.",
+      "Lasciare piegare le braccia per accorciare la leva, cambiando di fatto esercizio e sovraccaricando i tendini del gomito.",
+      "Perdere la retroversione del bacino facendo cedere il bacino e inarcare la lombare sotto una leva lunghissima.",
+      "Continuare a tenere quando la forma e gia saltata, allenando i compensi invece della posizione.",
+      "Trascurare il condizionamento del gomito a braccia tese prima delle tenute lunghe, via maestra per il dolore al gomito."
+    ]
+  },
+  "mobility_drill": {
+    "en": [
+      "Forcing range with a bounce instead of moving slowly to the end position, which triggers a protective tightening.",
+      "Stealing range from the lower back or the ankle rather than the joint being targeted, so nothing actually improves.",
+      "Doing the drill once in a while instead of daily, which is far too little to change tissue tolerance.",
+      "Chasing pain as a sign it is working, when sharp pain means the drill is being pushed past its purpose."
+    ],
+    "it": [
+      "Forzare l'escursione a rimbalzi invece di arrivare lentamente a fine corsa, provocando un irrigidimento di difesa.",
+      "Rubare escursione dalla lombare o dalla caviglia invece che dall'articolazione bersaglio, senza migliorare nulla.",
+      "Fare l'esercizio ogni tanto invece che quotidianamente, troppo poco per cambiare la tolleranza dei tessuti.",
+      "Cercare il dolore come segno che funziona, quando un dolore acuto significa solo che si sta spingendo oltre lo scopo dell'esercizio."
+    ]
+  },
+  "muscle_up": {
+    "en": [
+      "Trying the transition without a strong chest-height pull-up first, which produces endless failed reps at the rings or bar.",
+      "Chicken-winging one elbow through at a time, which loads the shoulder asymmetrically and reinforces a bad pattern.",
+      "Kipping wildly instead of pulling high, which sends the body away from the bar rather than over it.",
+      "Skipping the false grip on rings, which forces a slow, painful wrist rotation right at the transition.",
+      "Dropping straight down from the support instead of lowering through the transition, which shock-loads the shoulders."
+    ],
+    "it": [
+      "Provare la transizione senza avere prima una trazione forte fino al petto, collezionando tentativi falliti su sbarra o anelli.",
+      "Passare un gomito alla volta a pollo, caricando la spalla in modo asimmetrico e fissando uno schema sbagliato.",
+      "Kippare a caso invece di tirare in alto, mandando il corpo lontano dalla sbarra invece che sopra.",
+      "Rinunciare alla false grip sugli anelli, costringendo a una rotazione del polso lenta e dolorosa proprio nella transizione.",
+      "Lasciarsi cadere dal sostegno invece di scendere controllando la transizione, dando uno strappo secco alle spalle."
+    ]
+  },
+  "neck_band": {
+    "en": [
+      "Using a band tension that only allows a jerky, fast movement, which is the opposite of what neck training needs.",
+      "Letting the whole torso move instead of isolating the neck, so the band never actually loads the cervical muscles.",
+      "Pushing into full end-range extension or rotation under tension, which compresses the cervical joints.",
+      "Training only flexion and extension and skipping lateral work, leaving the neck unbalanced side to side.",
+      "Jumping to heavy tension in the first sessions, a common cause of days of neck stiffness."
+    ],
+    "it": [
+      "Usare una banda cosi dura da permettere solo un movimento a scatti e veloce, esattamente il contrario di cio che serve al collo.",
+      "Muovere tutto il busto invece di isolare il collo, per cui la banda non carica mai davvero i muscoli cervicali.",
+      "Spingere a fine corsa completo in estensione o rotazione sotto tensione, comprimendo le articolazioni cervicali.",
+      "Allenare solo flessione ed estensione saltando il lavoro laterale, lasciando il collo squilibrato sui lati.",
+      "Passare subito a tensioni alte nelle prime sedute, causa classica di giorni di collo bloccato."
+    ]
+  },
+  "neck_machine": {
+    "en": [
+      "Setting the pad on the wrong contact point, so the load presses on the jaw or skull instead of being driven by the neck.",
+      "Using the torso to help push the pad, which hides how little the neck is actually moving.",
+      "Letting the pad snap back on the eccentric, which is where cervical strains happen.",
+      "Loading the pin like any other machine, when the neck tolerates far less weight and needs higher reps."
+    ],
+    "it": [
+      "Regolare male il cuscinetto, per cui il carico preme su mascella o cranio invece di essere mosso dal collo.",
+      "Aiutarsi spingendo con il busto, mascherando quanto poco stia lavorando davvero il collo.",
+      "Farsi riportare indietro di colpo dal cuscinetto in negativa, che e il momento in cui ci si stira il collo.",
+      "Caricare il pacco pesi come su una macchina qualsiasi, quando il collo tollera molto meno peso e vuole ripetizioni alte."
+    ]
+  },
+  "olympic_lift": {
+    "en": [
+      "Pulling with the arms early instead of extending the hips, which kills bar speed and leaves nothing for the turnover.",
+      "Letting the hips shoot up before the shoulders off the floor, which turns the first pull into a stiff-leg deadlift and pushes the bar forward.",
+      "Jumping the feet wide and forward instead of resetting them, so the receiving position is out of balance.",
+      "Adding load before the receiving position can be held with an empty bar, which just rehearses a broken catch.",
+      "Failing to bail by dropping the bar safely, which is how wrists, elbows and backs get hurt on missed lifts."
+    ],
+    "it": [
+      "Tirare presto con le braccia invece di estendere le anche, ammazzando la velocita del bilanciere e lasciando niente per il ribaltamento.",
+      "Far salire il bacino prima delle spalle da terra, trasformando la prima tirata in uno stacco a gambe tese e mandando il bilanciere in avanti.",
+      "Saltare con i piedi larghi e in avanti invece di riposizionarli, ricevendo il carico fuori equilibrio.",
+      "Aggiungere carico prima di saper tenere la posizione di ricezione a bilanciere scarico, provando solo una ricezione sbagliata.",
+      "Non saper mollare il bilanciere in sicurezza, ed e cosi che nelle alzate mancate si fanno male polsi, gomiti e schiena."
+    ]
+  },
+  "pallof_press": {
+    "en": [
+      "Standing too close to the anchor so there is almost no rotational pull, which removes the entire point of the drill.",
+      "Letting the torso rotate toward the cable while pressing, which is exactly the movement the press should resist.",
+      "Going so heavy that the shoulders take over and the press becomes a chest exercise.",
+      "Rushing the reps instead of pausing at full extension, where the anti-rotation demand is highest.",
+      "Letting the hips shift sideways to counterbalance, which relieves the obliques of the work."
+    ],
+    "it": [
+      "Stare troppo vicino all'ancoraggio, lasciando quasi zero trazione rotatoria e togliendo tutto il senso dell'esercizio.",
+      "Lasciare ruotare il busto verso il cavo mentre si spinge, cioe proprio il movimento che si dovrebbe contrastare.",
+      "Caricare cosi tanto che intervengono le spalle e la spinta diventa un esercizio per il petto.",
+      "Fare le ripetizioni di fretta senza fermarsi a braccia tese, dove la richiesta anti-rotazione e massima.",
+      "Spostare il bacino di lato per bilanciare, togliendo il lavoro agli obliqui."
+    ]
+  },
+  "planche": {
+    "en": [
+      "Not leaning the shoulders far enough past the hands, which makes the hold impossible no matter how strong the arms are.",
+      "Letting the hips pike up so the body is not a straight line, which fakes a hold that is really a tuck.",
+      "Bending the elbows to survive the lean, which shifts the load to the biceps and stalls progress.",
+      "Skipping wrist and straight-arm scapular preparation, the most common reason planche work ends in wrist or elbow pain."
+    ],
+    "it": [
+      "Non portare le spalle abbastanza oltre le mani, rendendo la tenuta impossibile per quanto forti siano le braccia.",
+      "Alzare il bacino perdendo la linea del corpo, spacciando per tenuta quello che di fatto e un tuck.",
+      "Piegare i gomiti per sopravvivere all'inclinazione, spostando il carico sui bicipiti e bloccando i progressi.",
+      "Saltare la preparazione di polsi e scapole a braccia tese, motivo numero uno per cui il lavoro di planche finisce in dolore a polsi o gomiti."
+    ]
+  },
+  "plank": {
+    "en": [
+      "Letting the hips sag toward the floor, which hands the load to the lower back instead of the abs.",
+      "Piking the hips high to make the hold easier, which stacks the weight on the shoulders and unloads the core.",
+      "Chasing minutes-long holds instead of bracing hard, turning a tension drill into a boredom test.",
+      "Letting the shoulders slide behind or ahead of the elbows, which loads the shoulder joint rather than the trunk.",
+      "Holding the breath to keep rigidity, which limits how long and how well the position can be braced."
+    ],
+    "it": [
+      "Lasciare cadere il bacino verso il pavimento, passando il carico alla lombare invece che agli addominali.",
+      "Alzare il bacino per rendere la tenuta piu facile, scaricando il peso sulle spalle e togliendolo al core.",
+      "Inseguire tenute di minuti invece di contrarre forte, trasformando un esercizio di tensione in una prova di noia.",
+      "Lasciare le spalle dietro o davanti ai gomiti, caricando l'articolazione della spalla invece del tronco.",
+      "Trattenere il fiato per restare rigidi, limitando quanto a lungo e quanto bene si riesce a tenere la posizione."
+    ]
+  },
+  "plyometric": {
+    "en": [
+      "Landing stiff-legged with little knee and hip flexion, which sends the impact straight into the joints.",
+      "Letting the knees cave inward on landing, the classic mechanism behind knee injuries in jump training.",
+      "Chasing box height by tucking the knees instead of jumping higher, which inflates the number without the power.",
+      "Doing plyos to fatigue as conditioning, which degrades ground contact quality and defeats the training goal.",
+      "Jumping down off a high box and absorbing the landing with straight legs, which multiplies impact forces."
+    ],
+    "it": [
+      "Atterrare a gambe rigide senza piegare ginocchia e anche, mandando tutto l'impatto sulle articolazioni.",
+      "Lasciare cadere le ginocchia verso l'interno all'atterraggio, il meccanismo classico degli infortuni al ginocchio nel lavoro pliometrico.",
+      "Inseguire l'altezza del box raccogliendo le ginocchia invece di saltare piu in alto, gonfiando il numero senza la potenza.",
+      "Fare pliometria fino allo sfinimento come condizionamento, peggiorando la qualita del contatto a terra e vanificando lo scopo.",
+      "Scendere da un box alto assorbendo l'atterraggio a gambe tese, moltiplicando le forze d'impatto."
+    ]
+  },
+  "pullover_db": {
+    "en": [
+      "Bending and straightening the elbows through the rep, which turns the pullover into a clumsy triceps extension.",
+      "Arching the lower back off the bench to reach further behind the head, which loads the lumbar spine instead of adding range.",
+      "Going deeper than shoulder mobility allows, which is how the shoulder ends up at the limit under load.",
+      "Letting the hips drop toward the floor in the cross-bench version, changing the angle and losing tension on the target.",
+      "Going heavy on a movement with a long lever and a poor bottom position, which is a fast route to shoulder pain."
+    ],
+    "it": [
+      "Piegare e stendere i gomiti durante la ripetizione, trasformando il pullover in una goffa estensione per i tricipiti.",
+      "Staccare la lombare dalla panca per arrivare piu indietro, caricando la colonna invece di guadagnare escursione.",
+      "Scendere piu di quanto permetta la mobilita di spalla, portando l'articolazione al limite sotto carico.",
+      "Nella versione di traverso lasciare scendere il bacino verso il pavimento, cambiando angolo e perdendo tensione sul bersaglio.",
+      "Andare pesanti su un movimento con leva lunga e posizione bassa sfavorevole, scorciatoia sicura verso il dolore alla spalla."
+    ]
+  },
+  "pullover_machine": {
+    "en": [
+      "Setting the seat so the shoulder is not aligned with the machine axis, which turns the arc into a joint-pinching path.",
+      "Pushing the pads with the hands and elbows rather than driving with the upper arms, which recruits the triceps instead of the lats.",
+      "Letting the weight stack pull the arms back fast at the top, losing control in the stretched position.",
+      "Rocking the torso forward to finish the rep, which replaces lat shortening with body English."
+    ],
+    "it": [
+      "Regolare il sedile senza allineare la spalla all'asse della macchina, trasformando l'arco in una traiettoria che pizzica l'articolazione.",
+      "Spingere i cuscinetti con mani e gomiti invece di condurre con le braccia, reclutando i tricipiti al posto dei dorsali.",
+      "Farsi tirare indietro velocemente dal pacco pesi in alto, perdendo il controllo nella posizione di allungamento.",
+      "Buttare avanti il busto per chiudere la ripetizione, sostituendo l'accorciamento del dorsale con lo slancio del corpo."
+    ]
+  },
+  "pullup": {
+    "en": [
+      "Kipping the hips to generate momentum, which removes the lats from the hardest part of the rep.",
+      "Stopping short of the bar and calling it a rep, which trains only the easy top half of the pull.",
+      "Not reaching full extension at the bottom, cutting the stretched position where the lats produce the most tension.",
+      "Going so wide that the elbows can barely move, which shortens the range without adding lat work.",
+      "Letting the shoulders shrug up at the hang instead of setting the scapulae before pulling, which stresses the shoulder."
+    ],
+    "it": [
+      "Slanciare il bacino per prendere abbrivio, togliendo i dorsali proprio dal tratto piu duro della ripetizione.",
+      "Fermarsi prima della sbarra e contarla come ripetizione, allenando solo la meta piu facile della trazione.",
+      "Non tornare a braccia distese in basso, tagliando la posizione allungata in cui il dorsale produce piu tensione.",
+      "Prendere una presa cosi larga da bloccare i gomiti, accorciando l'escursione senza aggiungere lavoro ai dorsali.",
+      "Restare appesi con le spalle alle orecchie senza attivare le scapole prima di tirare, stressando l'articolazione."
+    ]
+  },
+  "rope_climb": {
+    "en": [
+      "Climbing with the arms alone and no leg lock, which burns out the grip within a couple of metres.",
+      "Sliding down the rope instead of descending hand over hand, which is how rope burns and hard landings happen.",
+      "Reaching too far with each pull so the body swings, wasting energy fighting rotation.",
+      "Dropping from height at the end of the climb, loading the ankles and knees with a hard landing."
+    ],
+    "it": [
+      "Salire solo di braccia senza bloccare la corda con le gambe, bruciando la presa nel giro di due metri.",
+      "Scivolare giu lungo la corda invece di scendere mano dopo mano, ed e cosi che ci si ustiona e si atterra male.",
+      "Allungarsi troppo a ogni presa facendo oscillare il corpo, sprecando energia per contrastare la rotazione.",
+      "Lasciarsi cadere dall'alto a fine salita, caricando caviglie e ginocchia con un atterraggio duro."
+    ]
+  },
+  "rotation_twist": {
+    "en": [
+      "Rotating from the lumbar spine instead of the thoracic spine and hips, which is where rotational back pain comes from.",
+      "Whipping through the reps fast for the burn, which removes control at the end range where the tissue is most vulnerable.",
+      "Letting the arms swing while the torso stays still, so the shoulders do the rotating and the obliques do nothing.",
+      "Locking the hips completely so all the rotation is forced into the spine, concentrating the stress in one place."
+    ],
+    "it": [
+      "Ruotare dalla lombare invece che dal dorso e dalle anche, la causa tipica del mal di schiena da torsione.",
+      "Frustare le ripetizioni veloci per la bruciatura, perdendo il controllo a fine corsa dove il tessuto e piu vulnerabile.",
+      "Far oscillare le braccia mentre il busto resta fermo, per cui ruotano le spalle e gli obliqui non fanno niente.",
+      "Bloccare del tutto le anche costringendo tutta la rotazione nella colonna, concentrando li tutto lo stress."
+    ]
+  },
+  "row_barbell": {
+    "en": [
+      "Standing more upright each rep as fatigue builds, which shortens the range and turns the row into a shrug.",
+      "Jerking the bar up with the lower back and hips, which loads the lumbar spine instead of the lats.",
+      "Rounding the lower back under load in the bent-over position, the main injury mechanism in this lift.",
+      "Pulling the bar to the chest with flared elbows when the target is the mid-back, which just fatigues the rear delts.",
+      "Dropping the bar fast on the way down, throwing away the eccentric that drives most of the growth."
+    ],
+    "it": [
+      "Raddrizzarsi sempre di piu ripetizione dopo ripetizione, accorciando l'escursione e trasformando il rematore in una scrollata.",
+      "Strappare il bilanciere su con lombare e anche, caricando la colonna invece dei dorsali.",
+      "Arrotondare la lombare sotto carico nella posizione piegata, il principale meccanismo d'infortunio di questo esercizio.",
+      "Tirare il bilanciere al petto con i gomiti larghi quando il bersaglio e il centro schiena, affaticando solo i deltoidi posteriori.",
+      "Lasciare cadere il bilanciere in discesa, buttando via l'eccentrica che produce gran parte dei risultati."
+    ]
+  },
+  "row_cable": {
+    "en": [
+      "Rocking the torso back and forth with the hips, which converts the row into a lower-back swing.",
+      "Letting the shoulders round forward on the stretch instead of controlling the scapulae, which loses tension on the lats.",
+      "Yanking with the biceps and elbows before the shoulder blades move, so the arms give out before the back.",
+      "Pulling the handle to the wrong point on the torso for the grip used, which changes which muscle actually works.",
+      "Hyperextending the lower back at the finish to squeeze harder, which loads the spine for no extra back work."
+    ],
+    "it": [
+      "Dondolare il busto avanti e indietro con le anche, trasformando il rematore in un'oscillazione di lombare.",
+      "Lasciare arrotondare le spalle in allungamento invece di controllare le scapole, perdendo tensione sui dorsali.",
+      "Strappare con bicipiti e gomiti prima che si muovano le scapole, per cui cedono le braccia prima della schiena.",
+      "Tirare l'impugnatura in un punto del busto che non corrisponde alla presa usata, cambiando il muscolo che lavora davvero.",
+      "Iperestendere la lombare alla fine per strizzare di piu, caricando la colonna senza aggiungere lavoro alla schiena."
+    ]
+  },
+  "row_chest_supported": {
+    "en": [
+      "Peeling the chest off the pad to help pull, which discards the whole reason for using a supported row.",
+      "Setting the pad too high or too low so the elbow path is blocked, cutting the range short.",
+      "Pushing hard with the legs into the footplate to add drive, reintroducing the cheating the setup was meant to remove.",
+      "Letting the weight drop back rather than controlling the stretch, wasting the position the support makes safe."
+    ],
+    "it": [
+      "Staccare il petto dal cuscino per aiutare la tirata, buttando via l'unico motivo per cui si usa un rematore appoggiato.",
+      "Regolare il cuscino troppo alto o troppo basso bloccando la traiettoria del gomito e accorciando l'escursione.",
+      "Spingere forte con le gambe sulla pedana per dare slancio, reintroducendo proprio il baro che la macchina dovrebbe eliminare.",
+      "Lasciare tornare giu il peso di colpo invece di controllare l'allungamento, sprecando la posizione che l'appoggio rende sicura."
+    ]
+  },
+  "row_dumbbell": {
+    "en": [
+      "Rotating the torso open to lift a heavier bell, which turns the row into a twist and cheats the lat.",
+      "Pulling the elbow high and back past the torso into shoulder hyperextension, which stresses the shoulder without extra lat work.",
+      "Bending the back leaning on the bench, letting the lumbar spine round under load.",
+      "Rowing with the hand instead of driving the elbow, so the forearm fails long before the back.",
+      "Doing wildly more reps on the strong side, which quietly builds an asymmetry."
+    ],
+    "it": [
+      "Ruotare il busto per tirare su un manubrio piu pesante, trasformando il rematore in una torsione e imbrogliando il dorsale.",
+      "Portare il gomito troppo alto e indietro oltre il busto in iperestensione di spalla, stressando l'articolazione senza guadagno per il dorsale.",
+      "Curvare la schiena appoggiandosi alla panca, lasciando arrotondare la lombare sotto carico.",
+      "Tirare con la mano invece di condurre il gomito, per cui l'avambraccio cede molto prima della schiena.",
+      "Fare molte piu ripetizioni sul lato forte, costruendo in silenzio un'asimmetria."
+    ]
+  },
+  "row_inverted": {
+    "en": [
+      "Letting the hips sag so the body is no longer a straight line, which shortens the range and loads the lower back.",
+      "Stopping before the chest reaches the bar, cutting off the part of the pull where the mid-back works.",
+      "Shrugging the shoulders to the ears instead of retracting the blades, which shifts the work to the upper traps.",
+      "Bending the knees and pushing with the legs to make reps easier without admitting the progression changed."
+    ],
+    "it": [
+      "Lasciare cedere il bacino perdendo la linea del corpo, accorciando l'escursione e caricando la lombare.",
+      "Fermarsi prima che il petto tocchi la barra, tagliando il tratto in cui lavora il centro schiena.",
+      "Alzare le spalle alle orecchie invece di retrarre le scapole, spostando il lavoro sui trapezi superiori.",
+      "Piegare le ginocchia e spingere con le gambe per facilitarsi le ripetizioni senza ammettere di aver cambiato progressione."
+    ]
+  },
+  "row_landmine": {
+    "en": [
+      "Letting the torso pop up with each pull, which turns the row into a partial deadlift.",
+      "Standing at the wrong distance from the pivot, so the arc fights the pull instead of following it.",
+      "Rounding the lower back in the hinged position under load, the main risk in this setup.",
+      "Twisting the shoulders toward the loaded side on single-arm versions, losing the anti-rotation demand."
+    ],
+    "it": [
+      "Far salire il busto a ogni tirata, trasformando il rematore in mezzo stacco.",
+      "Mettersi alla distanza sbagliata dal perno, per cui l'arco contrasta la tirata invece di assecondarla.",
+      "Arrotondare la lombare in posizione piegata sotto carico, il rischio principale di questo esercizio.",
+      "Nelle versioni a un braccio ruotare le spalle verso il lato caricato, perdendo la componente anti-rotazione."
+    ]
+  },
+  "row_machine": {
+    "en": [
+      "Not adjusting the chest pad and seat height, which puts the handles above or below the intended elbow path.",
+      "Using the whole body to start the pull despite the machine being there to prevent exactly that.",
+      "Letting the stack slam back and cutting the eccentric, throwing away most of the stimulus.",
+      "Not letting the shoulder blades travel forward at the start, so the back never works through full range."
+    ],
+    "it": [
+      "Non regolare cuscino e altezza del sedile, ritrovandosi le maniglie sopra o sotto la traiettoria corretta del gomito.",
+      "Usare tutto il corpo per avviare la tirata, nonostante la macchina esista proprio per impedirlo.",
+      "Farsi riportare indietro di colpo dal pacco pesi tagliando l'eccentrica, buttando via gran parte dello stimolo.",
+      "Non lasciare andare avanti le scapole all'inizio, per cui la schiena non lavora mai a escursione completa."
+    ]
+  },
+  "russian_twist": {
+    "en": [
+      "Swinging the arms and the weight side to side while the torso stays still, so the obliques barely work.",
+      "Rounding the lower back while leaning away and twisting, combining flexion and rotation under load.",
+      "Touching the floor hard on each side to bounce into the next rep, replacing control with impact.",
+      "Going for high speed and high reps with a heavy plate, which is where the lower back complains first."
+    ],
+    "it": [
+      "Far oscillare braccia e peso da un lato all'altro tenendo fermo il busto, per cui gli obliqui non lavorano quasi.",
+      "Arrotondare la lombare mentre ci si inclina e si ruota, combinando flessione e rotazione sotto carico.",
+      "Toccare forte a terra da ogni lato per rimbalzare nella ripetizione successiva, sostituendo il controllo con l'urto.",
+      "Andare veloci e a ripetizioni alte con un disco pesante, ed e la lombare a lamentarsi per prima."
+    ]
+  },
+  "scapula_dip": {
+    "en": [
+      "Bending the elbows so the movement becomes a small dip or push-up instead of a pure scapular action.",
+      "Moving only a couple of centimetres, which is far short of the scapular range the drill is meant to train.",
+      "Rushing the reps, which skips the protraction and retraction end positions that give the drill its value.",
+      "Letting the hips sag or pike in the push-up position, moving the spine instead of the shoulder blades."
+    ],
+    "it": [
+      "Piegare i gomiti trasformando il movimento in un mezzo dip o piegamento invece di un'azione puramente scapolare.",
+      "Muoversi di due centimetri appena, molto meno dell'escursione scapolare che l'esercizio dovrebbe allenare.",
+      "Fare le ripetizioni di fretta, saltando le posizioni finali di protrazione e retrazione che danno valore all'esercizio.",
+      "Lasciare cedere o alzare il bacino in posizione di plank, muovendo la colonna invece delle scapole."
+    ]
+  },
+  "scapular_pull": {
+    "en": [
+      "Bending the elbows and turning the rep into a partial pull-up, which removes the isolated scapular depression.",
+      "Kipping the hips to lift the body, so the shoulder blades never actually do the work.",
+      "Dropping straight back into a fully passive hang between reps, losing tension and stressing the shoulder.",
+      "Moving so little that the shoulders never leave the ears, which trains nothing at all."
+    ],
+    "it": [
+      "Piegare i gomiti trasformando la ripetizione in un mezzo pull-up ed eliminando la depressione scapolare isolata.",
+      "Slanciare il bacino per sollevare il corpo, cosi le scapole non fanno mai davvero il lavoro.",
+      "Ricadere in un appeso completamente passivo tra una ripetizione e l'altra, perdendo tensione e stressando la spalla.",
+      "Muoversi cosi poco che le spalle non si staccano mai dalle orecchie, senza allenare assolutamente nulla."
+    ]
+  },
+  "side_bend": {
+    "en": [
+      "Bending toward the loaded side as well as away from it, which lets the weight do the work the obliques should do.",
+      "Holding a dumbbell in each hand, which cancels out the lateral load and makes the exercise pointless.",
+      "Adding rotation to the bend, combining side flexion and twisting under load on the lumbar spine.",
+      "Going very heavy with a short, bouncy range, which loads the spine without training the obliques."
+    ],
+    "it": [
+      "Piegarsi anche verso il lato caricato oltre che dalla parte opposta, lasciando fare al peso il lavoro degli obliqui.",
+      "Tenere un manubrio per mano, annullando il carico laterale e rendendo l'esercizio inutile.",
+      "Aggiungere rotazione alla piegata, combinando flessione laterale e torsione sotto carico sulla lombare.",
+      "Andare molto pesanti con un'escursione corta e a rimbalzo, caricando la colonna senza allenare gli obliqui."
+    ]
+  },
+  "skin_the_cat": {
+    "en": [
+      "Going through the full inversion before the shoulder can tolerate the extended position, which is how shoulders get strained.",
+      "Dropping through the bottom of the movement instead of lowering slowly, shock-loading the shoulder at end range.",
+      "Letting the grip loosen at the deepest point, the position where losing the rings is most dangerous.",
+      "Starting from a straight-body position instead of a tuck, adding lever length the shoulders are not ready for."
+    ],
+    "it": [
+      "Passare all'inversione completa prima che la spalla tolleri quella posizione estrema, ed e cosi che ci si stira la spalla.",
+      "Lasciarsi andare nel punto piu basso invece di scendere lentamente, dando uno strappo alla spalla a fine corsa.",
+      "Allentare la presa nel punto piu profondo, proprio dove perdere gli anelli e piu pericoloso.",
+      "Partire a corpo teso invece che raccolti, aggiungendo una leva che le spalle non sono pronte a reggere."
+    ]
+  },
+  "sled": {
+    "en": [
+      "Standing too upright on the push, which removes the forward lean that lets the legs actually drive.",
+      "Loading the sled so heavily that steps become a shuffle, which trains a grind instead of powerful strides.",
+      "Rounding the back and pulling with the arms rather than driving through the legs on sled pulls.",
+      "Letting the hips rise and the chest drop under fatigue, so the lower back finishes the set."
+    ],
+    "it": [
+      "Restare troppo eretti in spinta, perdendo l'inclinazione in avanti che permette alle gambe di spingere davvero.",
+      "Caricare la slitta cosi tanto che i passi diventano uno strascico, allenando la lentezza invece di passi potenti.",
+      "Nel traino curvare la schiena e tirare con le braccia invece di spingere con le gambe.",
+      "Con la fatica far salire il bacino e cadere il petto, finendo la serie con la lombare."
+    ]
+  },
+  "straight_arm_pulldown": {
+    "en": [
+      "Bending the elbows through the rep, which turns the movement into a triceps pushdown.",
+      "Leaning further forward as the set goes on, using bodyweight to move the stack instead of the lats.",
+      "Going heavy so the shoulders and pecs take over, which defeats an isolation movement.",
+      "Cutting the top of the range short so the lats never reach the stretched position where they work hardest."
+    ],
+    "it": [
+      "Piegare i gomiti durante la ripetizione, trasformando il movimento in un push down per i tricipiti.",
+      "Sbilanciarsi sempre piu in avanti man mano che la serie prosegue, usando il peso del corpo invece dei dorsali.",
+      "Caricare troppo facendo intervenire spalle e pettorali, snaturando un esercizio di isolamento.",
+      "Tagliare la parte alta dell'escursione, senza mai portare i dorsali nella posizione allungata dove lavorano di piu."
+    ]
+  },
+  "stretch": {
+    "en": [
+      "Bouncing into the stretch instead of holding, which triggers a reflex contraction and reduces the range gained.",
+      "Stretching into sharp pain rather than mild tension, which is a signal to back off, not to push.",
+      "Holding the breath during the stretch, which keeps the body tense and blocks the release.",
+      "Compensating with the lower back or the neighbouring joint, so the target tissue never actually lengthens.",
+      "Holding for a few seconds only, far too short to change tissue tolerance."
+    ],
+    "it": [
+      "Molleggiare nell'allungamento invece di tenere la posizione, innescando una contrazione riflessa e guadagnando meno escursione.",
+      "Allungare fino al dolore acuto invece che a una tensione lieve, quando il dolore e un segnale di fermarsi, non di spingere.",
+      "Trattenere il fiato durante l'allungamento, mantenendo il corpo in tensione e impedendo il rilascio.",
+      "Compensare con la lombare o con l'articolazione vicina, per cui il tessuto bersaglio non si allunga mai davvero.",
+      "Tenere solo pochi secondi, decisamente troppo poco per cambiare la tolleranza del tessuto."
+    ]
+  },
+  "superman": {
+    "en": [
+      "Cranking into maximum lumbar extension every rep, which compresses the facet joints instead of training the extensors.",
+      "Throwing the arms and legs up fast, using momentum instead of a controlled contraction.",
+      "Lifting the head and looking forward, which hyperextends the neck along with the back.",
+      "Holding the top position with a held breath, which limits how long the extensors can actually work."
+    ],
+    "it": [
+      "Spingere a ogni ripetizione nella massima estensione lombare, comprimendo le faccette articolari invece di allenare gli estensori.",
+      "Lanciare braccia e gambe in alto di scatto, usando lo slancio invece di una contrazione controllata.",
+      "Alzare la testa guardando avanti, iperestendendo il collo insieme alla schiena.",
+      "Tenere la posizione alta in apnea, limitando quanto a lungo possono lavorare davvero gli estensori."
+    ]
+  },
+  "throw": {
+    "en": [
+      "Throwing with the arms only and skipping the hip drive, which is the whole point of a power throw.",
+      "Using a ball so heavy that the throw slows down, which trains strength instead of power.",
+      "Continuing sets once throw speed drops, so the session builds fatigue rather than explosiveness.",
+      "Rotating from the lower back rather than the hips and thoracic spine on rotational throws.",
+      "Catching a rebounding ball with straight arms, which sends the impact into the elbows and shoulders."
+    ],
+    "it": [
+      "Lanciare solo di braccia saltando la spinta delle anche, che e tutto il senso di un lancio di potenza.",
+      "Usare una palla cosi pesante da rallentare il lancio, allenando forza invece di potenza.",
+      "Continuare le serie quando la velocita del lancio e gia calata, accumulando fatica invece di esplosivita.",
+      "Nei lanci rotatori ruotare dalla lombare invece che da anche e tratto dorsale.",
+      "Ricevere la palla di rimbalzo a braccia tese, mandando l'impatto su gomiti e spalle."
+    ]
+  },
+  "woodchop": {
+    "en": [
+      "Pulling the handle with the arms while the trunk stays passive, so the obliques never drive the movement.",
+      "Rotating through the lumbar spine instead of pivoting the feet and hips, concentrating stress on the low back.",
+      "Going so heavy that the cable pulls the body off balance at the end of the chop.",
+      "Letting the weight snap back on the return instead of controlling it, which is the riskiest part of the rep."
+    ],
+    "it": [
+      "Tirare l'impugnatura con le braccia lasciando passivo il tronco, per cui gli obliqui non guidano mai il movimento.",
+      "Ruotare dalla lombare invece di far perno con piedi e anche, concentrando lo stress sulla bassa schiena.",
+      "Caricare cosi tanto che il cavo sbilancia il corpo alla fine del movimento.",
+      "Farsi riportare indietro di colpo dal carico invece di controllare il ritorno, la parte piu rischiosa della ripetizione."
+    ]
+  },
+  "yoga_pose": {
+    "en": [
+      "Forcing depth to match someone else's pose, which pushes joints past their available range.",
+      "Hyperextending the elbows or knees to lock into a shape, loading the joint instead of the muscle.",
+      "Letting the lower back collapse in backbends like upward dog instead of lengthening through the whole spine.",
+      "Holding the breath to stay in a hard pose, which is exactly what the pose is meant to train against."
+    ],
+    "it": [
+      "Forzare la posizione per assomigliare a quella di qualcun altro, spingendo le articolazioni oltre la loro escursione disponibile.",
+      "Iperestendere gomiti o ginocchia per incastrarsi nella posizione, caricando l'articolazione invece del muscolo.",
+      "Nelle estensioni come l'upward dog lasciare collassare la lombare invece di allungare tutta la colonna.",
+      "Restare in apnea per tenere una posizione difficile, esattamente cio contro cui la posizione dovrebbe allenare."
+    ]
+  }
+}

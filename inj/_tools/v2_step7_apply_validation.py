@@ -237,9 +237,26 @@ def main():
                 if target == "tension":
                     normalized = normalized.split(":", 1)[-1]
                 if actual is not None and normalized != actual.lower():
-                    reject_reasons["current value no longer matches"] += 1
-                    stale += 1
-                    continue
+                    # Agents ran concurrently, so a mismatch can mean either
+                    # "written against old state" or "another agent already
+                    # reviewed this row and disagrees". Only the first is safe
+                    # to override: if the row has been reviewed since, two
+                    # judgements conflict and there is no way to tell which is
+                    # right, so the existing one stands.
+                    reviewed = False
+                    if target == "tension":
+                        cur.execute("""SELECT evidence_basis::text
+                                         FROM exercises.exercise_muscle
+                                        WHERE exercise_id = %s AND muscle_id = %s""",
+                                    (exercise_id, muscle_ids[field]))
+                        basis = cur.fetchone()
+                        reviewed = bool(basis) and basis[0] not in (
+                            "biomechanical_model", "heuristic")
+                    if reviewed:
+                        reject_reasons["conflicts with an already reviewed row"] += 1
+                        stale += 1
+                        continue
+                    reject_reasons["stale current, row never reviewed - applied"] += 1
 
             if target == "exercise":
                 cur.execute(f"UPDATE exercises.exercise SET {field} = %s, updated_at = NOW() WHERE id = %s",

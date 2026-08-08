@@ -1,0 +1,948 @@
+{
+  "band_pull_apart": {
+    "en": [
+      "Shrugging the shoulders up as the band opens, which hands the work to the upper traps instead of the rear delts.",
+      "Bending the elbows progressively to shorten the lever, which turns the movement into a weak row and cuts the range.",
+      "Choosing a band so heavy that the hands never reach the chest line, leaving the scapulae barely retracted.",
+      "Flaring the ribs and arching the lower back to finish the rep, which fakes range the shoulder does not actually have.",
+      "Letting the band snap back on the return, which throws away the eccentric where most of the rear-delt tension lives."
+    ],
+    "it": [
+      "Alzare le spalle mentre si apre l'elastico, spostando il lavoro sui trapezi superiori invece che sui deltoidi posteriori.",
+      "Piegare i gomiti sempre di più per accorciare la leva, trasformando l'esercizio in un rematore debole e riducendo il ROM.",
+      "Usare un elastico troppo duro, così le mani non arrivano mai sulla linea del petto e le scapole restano quasi ferme.",
+      "Aprire le costole e inarcare la lombare per chiudere la ripetizione, simulando un'escursione che la spalla non ha.",
+      "Lasciare tornare l'elastico di scatto, buttando via l'eccentrica dove il deltoide posteriore lavora di più."
+    ]
+  },
+  "bench_decline": {
+    "en": [
+      "Letting the head hang below the bench, which spikes blood pressure and causes dizziness on heavy sets.",
+      "Not hooking the legs properly, so the body slides up the bench and the bar path drifts toward the throat.",
+      "Touching mid-chest as on a flat bench instead of low chest, which forces the shoulder into needless flexion.",
+      "Cutting the depth because the decline feels strong, so the pecs never reach a lengthened position.",
+      "Unracking or racking a heavy bar alone, since decline is the hardest position to bail out of."
+    ],
+    "it": [
+      "Lasciare la testa penzolare oltre la panca, con capogiri e picchi pressori nelle serie pesanti.",
+      "Non bloccare bene le gambe, così il corpo scivola verso l'alto e il bilanciere devia verso la gola.",
+      "Toccare a metà petto come nella panca piana invece che sul petto basso, caricando inutilmente la spalla.",
+      "Accorciare la discesa perché in declino si spinge tanto, così il pettorale non arriva mai in allungamento.",
+      "Staccare o riporre da soli con carichi alti: in declino è la posizione peggiore da cui uscire in caso di cedimento."
+    ]
+  },
+  "bench_flat": {
+    "en": [
+      "Bouncing the bar off the ribcage, which steals load from the pecs and risks a sternum injury.",
+      "Letting the elbows flare to ninety degrees, which puts the shoulder in maximal internal rotation under load.",
+      "Losing scapular retraction and letting the shoulders roll forward at the bottom, collapsing the base of the press.",
+      "Lifting the glutes off the bench to move more weight, which turns it into an unmeasurable decline press.",
+      "Going to failure without a spotter or safety pins, which is the classic bar-pinned-on-the-chest accident."
+    ],
+    "it": [
+      "Rimbalzare il bilanciere sulle costole, togliendo carico ai pettorali e rischiando lo sterno.",
+      "Aprire i gomiti a novanta gradi, mettendo la spalla in massima intrarotazione sotto carico.",
+      "Perdere la retrazione scapolare e lasciare rotolare avanti le spalle in basso, distruggendo la base della spinta.",
+      "Staccare i glutei dalla panca per spingere di più, trasformandola in una declino non misurabile.",
+      "Andare a cedimento senza spotter né fermi di sicurezza: è l'incidente classico del bilanciere sul petto."
+    ]
+  },
+  "bench_floor": {
+    "en": [
+      "Bouncing the triceps off the floor to rebound out of the bottom, which removes the whole point of the dead stop.",
+      "Slamming the elbows down instead of controlling them, which bruises the olecranon over time.",
+      "Flaring the elbows because the range is short, loading the shoulder in the position it tolerates least.",
+      "Arching hard off the floor as if benching, which negates the reduced range the variation is chosen for.",
+      "Loading it like a full bench and letting the bar drift toward the face out of the dead stop."
+    ],
+    "it": [
+      "Rimbalzare i tricipiti a terra per ripartire dal basso, annullando il senso del fermo.",
+      "Sbattere i gomiti a terra invece di controllarli, con traumi da ripetizione sull'olecrano.",
+      "Allargare i gomiti perché il ROM è corto, caricando la spalla nella posizione che tollera meno.",
+      "Inarcare come nella panca classica, vanificando proprio il ROM ridotto per cui si sceglie l'esercizio.",
+      "Caricare come una panca completa e lasciare che dal fermo il bilanciere derivi verso il viso."
+    ]
+  },
+  "bench_incline": {
+    "en": [
+      "Setting the bench above roughly 45 degrees, which turns it into a shoulder press and drops the upper-chest stimulus.",
+      "Touching too high near the collarbone, which jams the shoulder instead of loading the clavicular pecs.",
+      "Driving the head hard into the pad to help the press, loading the cervical spine for no benefit.",
+      "Sliding down the bench rep after rep because the feet are unplanted, changing the effective incline mid-set.",
+      "Flaring the elbows wide on an incline, the angle where the front of the shoulder is already most exposed."
+    ],
+    "it": [
+      "Alzare lo schienale oltre i 45 gradi circa, trasformandola in una spinta sopra la testa e perdendo lo stimolo sul petto alto.",
+      "Toccare troppo in alto vicino alle clavicole, incastrando la spalla invece di caricare il capo clavicolare.",
+      "Spingere la testa contro lo schienale per aiutare la spinta, caricando il rachide cervicale senza alcun vantaggio.",
+      "Scivolare giù dalla panca ripetizione dopo ripetizione con i piedi instabili, cambiando l'inclinazione reale a metà serie.",
+      "Allargare troppo i gomiti proprio sull'inclinata, l'angolo dove la spalla anteriore è già più esposta."
+    ]
+  },
+  "bench_machine": {
+    "en": [
+      "Setting the seat too high or too low, so the handles do not line up with mid-chest and the shoulders take the press.",
+      "Letting the shoulders shoot forward at lockout because the machine allows it, dumping pec tension.",
+      "Slamming the stack back down on the return instead of controlling the eccentric.",
+      "Working only the strongest last few inches, which a fixed path makes very easy to get away with.",
+      "Squeezing the handles inward or outward against the fixed track, which only fatigues the wrists."
+    ],
+    "it": [
+      "Regolare male l'altezza del sedile, così le impugnature non sono all'altezza del petto e la spinta finisce sulle spalle.",
+      "Lasciare scappare le spalle in avanti a fine spinta perché la macchina lo consente, perdendo tensione sul pettorale.",
+      "Far sbattere i pesi al ritorno invece di controllare l'eccentrica.",
+      "Lavorare solo gli ultimi centimetri più forti, cosa facilissima alla macchina e pessima per lo stimolo.",
+      "Forzare le maniglie verso l'interno o l'esterno contro la traiettoria fissa, affaticando solo i polsi."
+    ]
+  },
+  "bench_smith": {
+    "en": [
+      "Positioning the bench so the fixed bar path lands on the throat or the belly rather than mid-chest.",
+      "Trusting the rail and skipping the safety stops, so failure means the bar parked on the chest.",
+      "Bouncing off the lowest rail position instead of owning a controlled touch.",
+      "Loading far more than on a free barbell because the stabilisers are removed, then expecting that number to transfer.",
+      "Forgetting to rotate the hooks at the end of the set and letting go of an unlocked bar."
+    ],
+    "it": [
+      "Posizionare male la panca, così la traiettoria fissa cade sulla gola o sull'addome invece che a metà petto.",
+      "Fidarsi del binario e non mettere i fermi, così al cedimento il bilanciere resta appoggiato sul petto.",
+      "Rimbalzare sul punto più basso del binario invece di controllare il tocco.",
+      "Caricare molto più che con il bilanciere libero perché mancano gli stabilizzatori, e poi pretendere lo stesso numero sul libero.",
+      "Dimenticare di ruotare i ganci a fine serie e mollare il bilanciere non agganciato."
+    ]
+  },
+  "cuff_rotation": {
+    "en": [
+      "Using far too much load, so the lats and pecs swing the arm instead of the rotator cuff doing the work.",
+      "Letting the elbow drift away from the ribs, which converts external rotation into an abduction cheat.",
+      "Rotating the whole torso away instead of rotating at the shoulder, faking the range.",
+      "Bending the wrist to gain a few degrees the cuff never actually sees.",
+      "Rushing the reps, when the cuff responds to slow controlled tension and not momentum."
+    ],
+    "it": [
+      "Usare troppo carico, così dorsali e pettorali fanno oscillare il braccio al posto della cuffia dei rotatori.",
+      "Lasciare allontanare il gomito dal fianco, trasformando l'extrarotazione in un compenso in abduzione.",
+      "Ruotare tutto il busto invece della sola spalla, simulando un ROM che non c'è.",
+      "Piegare il polso per guadagnare qualche grado che la cuffia non vede mai.",
+      "Andare veloci: la cuffia risponde a tensione lenta e controllata, non allo slancio."
+    ]
+  },
+  "cuff_rotation_band": {
+    "en": [
+      "Picking a band so stiff that the lats and pecs swing the arm instead of the cuff rotating it.",
+      "Letting the elbow leave the side of the ribs, which turns external rotation into an abduction cheat.",
+      "Rotating the torso away from the anchor to gain range the shoulder is not producing.",
+      "Standing so close to the anchor that the band is slack at the start of the rep.",
+      "Letting the band snap the arm back in, skipping the eccentric that the cuff needs most."
+    ],
+    "it": [
+      "Scegliere un elastico così duro che a muovere il braccio sono dorsali e pettorali invece della cuffia.",
+      "Staccare il gomito dal fianco, trasformando l'extrarotazione in un compenso in abduzione.",
+      "Ruotare il busto lontano dall'ancoraggio per guadagnare un ROM che la spalla non produce.",
+      "Stare troppo vicini all'ancoraggio, così l'elastico è lasco all'inizio della ripetizione.",
+      "Farsi riportare il braccio dentro di scatto, saltando l'eccentrica che alla cuffia serve di più."
+    ]
+  },
+  "curl_band": {
+    "en": [
+      "Letting the band snap the arm down on the eccentric, wasting the phase where the biceps is most loaded.",
+      "Anchoring the band under one foot only, so it slips mid-set and the tension shifts side to side.",
+      "Leaning back as the band gets stiff near the top, finishing the curl with the torso.",
+      "Letting the elbows travel forward at the top so the front delts take over from the biceps.",
+      "Tracking progress by reps alone, when a band that has stretched out is no longer the same resistance."
+    ],
+    "it": [
+      "Farsi riportare giù il braccio di scatto dall'elastico, sprecando la fase in cui il bicipite è più caricato.",
+      "Ancorare l'elastico sotto un piede solo, così scivola a metà serie e la tensione si sbilancia.",
+      "Inclinarsi indietro quando l'elastico si irrigidisce in alto, chiudendo il curl con il busto.",
+      "Portare i gomiti in avanti in alto, cedendo il lavoro dai bicipiti ai deltoidi anteriori.",
+      "Valutare i progressi solo con le ripetizioni: un elastico ormai lasco non è più la stessa resistenza."
+    ]
+  },
+  "curl_bayesian": {
+    "en": [
+      "Letting the arm drift forward at the bottom, which kills the stretched-position tension that is the entire point.",
+      "Standing too close to the pulley, so the cable goes slack exactly in the lengthened position.",
+      "Swinging the torso away from the tower to start the rep, turning it into a body-driven swing.",
+      "Chasing heavy loads in a deeply lengthened position, where the biceps tendon is least tolerant.",
+      "Letting the elbow ride up and forward at the top, which drops the tension the setup was built for."
+    ],
+    "it": [
+      "Lasciare scappare il braccio in avanti in basso, annullando la tensione in allungamento che è tutto il senso dell'esercizio.",
+      "Stare troppo vicini alla puleggia, così il cavo si allenta proprio nella posizione allungata.",
+      "Spostare il busto lontano dalla torre per far partire la ripetizione, trasformandolo in uno slancio.",
+      "Cercare carichi alti in massimo allungamento, la posizione meno tollerata dal tendine del bicipite.",
+      "Far salire il gomito in avanti in alto, perdendo la tensione per cui è stato costruito il setup."
+    ]
+  },
+  "curl_cable": {
+    "en": [
+      "Letting the elbows travel forward at the top so the front delts take over and the biceps unloads.",
+      "Stepping so far back that the cable pulls the shoulder into extension and the lats join the pull.",
+      "Leaning back against the stack as a counterweight, turning the curl into a mini row.",
+      "Letting the stack straighten the arm instead of resisting it, throwing away the eccentric.",
+      "Letting the plates touch down between reps, which resets the constant tension the cable is chosen for."
+    ],
+    "it": [
+      "Far scivolare i gomiti in avanti in alto, così i deltoidi anteriori prendono il lavoro e il bicipite si scarica.",
+      "Arretrare troppo, così il cavo porta la spalla in estensione e intervengono i dorsali.",
+      "Inclinarsi indietro per fare da contrappeso, trasformando il curl in un mezzo rematore.",
+      "Farsi stendere il braccio dal pacco pesi invece di frenarlo, buttando via l'eccentrica.",
+      "Far appoggiare i pesi tra una ripetizione e l'altra, annullando la tensione costante per cui si sceglie il cavo."
+    ]
+  },
+  "curl_concentration": {
+    "en": [
+      "Pushing the elbow against the thigh to lever the weight up, so the leg curls the dumbbell and not the arm.",
+      "Swinging the arm out with shoulder rotation to start the rep instead of flexing the elbow.",
+      "Straightening the torso as you curl, using hip extension as a hidden assist.",
+      "Dropping the dumbbell uncontrolled, giving up the eccentric on an exercise chosen precisely for control.",
+      "Not letting the elbow fully extend at the bottom, cutting the lengthened range the seated setup gives you."
+    ],
+    "it": [
+      "Spingere il gomito contro la coscia per far leva, così a curlare è la gamba e non il braccio.",
+      "Slanciare il braccio verso l'esterno ruotando la spalla invece di flettere il gomito.",
+      "Raddrizzare il busto mentre si curla, usando l'estensione dell'anca come aiuto nascosto.",
+      "Lasciare cadere il manubrio, rinunciando all'eccentrica proprio in un esercizio scelto per il controllo.",
+      "Non stendere del tutto il gomito in basso, sacrificando l'allungamento che la posizione seduta permette."
+    ]
+  },
+  "curl_drag": {
+    "en": [
+      "Letting the bar leave the torso, which turns it back into a normal curl and loses the shoulder-extension bias.",
+      "Shrugging to drive the bar higher, so the traps do the last third of the movement.",
+      "Leaning back so the bar can travel up without touching, defeating the constraint entirely.",
+      "Loading it like a standard barbell curl, when the shortened range calls for much less weight.",
+      "Dropping the bar down the body instead of controlling the drag on the way back."
+    ],
+    "it": [
+      "Staccare il bilanciere dal busto, tornando a un curl normale e perdendo l'enfasi sull'estensione di spalla.",
+      "Alzare le spalle per far salire di più il bilanciere, così l'ultimo terzo lo fanno i trapezi.",
+      "Inclinarsi indietro per far salire il bilanciere senza contatto, annullando il vincolo dell'esercizio.",
+      "Caricare come un curl con bilanciere classico, quando il ROM ridotto richiede molto meno peso.",
+      "Lasciare scivolare giù il bilanciere invece di controllare la risalita a contatto."
+    ]
+  },
+  "curl_incline": {
+    "en": [
+      "Letting the shoulders roll forward off the bench, so the arm loses the stretched start position.",
+      "Curling only from mid-range because the bottom feels hard, which discards the whole reason for the incline.",
+      "Setting the bench too upright, so the arms hang vertically and it becomes a seated standing curl.",
+      "Bouncing out of full extension, which loads the biceps tendon exactly where it is most vulnerable.",
+      "Kicking the hips or head off the pad to launch the first rep."
+    ],
+    "it": [
+      "Lasciare rotolare avanti le spalle staccandole dalla panca, perdendo la partenza in allungamento.",
+      "Curlare solo dal mezzo perché in basso è duro, buttando via il motivo stesso dell'inclinata.",
+      "Mettere lo schienale troppo verticale, così le braccia pendono a piombo ed è un curl in piedi fatto da seduti.",
+      "Rimbalzare dalla massima estensione, caricando il tendine del bicipite proprio dove è più fragile.",
+      "Staccare bacino o testa dallo schienale per far partire la prima ripetizione."
+    ]
+  },
+  "curl_machine": {
+    "en": [
+      "Setting the pad so the elbow axis does not line up with the machine pivot, which loads wrist and shoulder instead.",
+      "Lifting the shoulders off the pad at the top to squeeze out extra reps.",
+      "Stopping short of full extension because the cam is heavy there, skipping the lengthened position.",
+      "Letting the stack yank the arms straight on the return rather than controlling it.",
+      "Gripping so hard that the forearms give out before the biceps does."
+    ],
+    "it": [
+      "Regolare male il cuscino, così l'asse del gomito non coincide con il perno della macchina e si caricano polso e spalla.",
+      "Staccare le spalle dal supporto in alto per strappare qualche ripetizione in più.",
+      "Fermarsi prima della massima estensione perché lì la camma pesa, saltando la posizione allungata.",
+      "Farsi stendere le braccia di scatto dal pacco pesi invece di controllare il ritorno.",
+      "Stringere troppo l'impugnatura, così cedono gli avambracci prima del bicipite."
+    ]
+  },
+  "curl_overhead_cable": {
+    "en": [
+      "Letting the elbow drop below shoulder height, which removes the shortened-biceps position the exercise exists for.",
+      "Leaning the torso toward the pulley so the lat pulls the handle instead of the biceps flexing the elbow.",
+      "Using a load that drags the shoulder into extension and stresses the anterior capsule.",
+      "Rushing the peak contraction, when the whole value of the position is the squeeze in the shortened range."
+    ],
+    "it": [
+      "Far scendere il gomito sotto la linea della spalla, eliminando l'accorciamento del bicipite che è il senso dell'esercizio.",
+      "Inclinare il busto verso la puleggia, così tira il dorsale invece di flettere il gomito.",
+      "Usare un carico che trascina la spalla in estensione, stressando la capsula anteriore.",
+      "Passare di fretta sulla contrazione di picco, quando il valore della posizione sta tutto nella strizzata in accorciamento."
+    ]
+  },
+  "curl_preacher": {
+    "en": [
+      "Letting the elbows slide down the pad, which shifts the load and removes the fixed-elbow constraint.",
+      "Dropping fast into full extension at the bottom, the position where preacher curls most often strain the distal biceps tendon.",
+      "Standing up off the seat to help the bar past the sticking point.",
+      "Resting the armpit on the top of the pad instead of the triceps, so the chest supports the arm and the range shortens.",
+      "Stopping with the forearm vertical where tension drops to nothing and mistaking it for a peak contraction."
+    ],
+    "it": [
+      "Far scivolare i gomiti lungo il leggio, spostando il carico e perdendo il vincolo del gomito fisso.",
+      "Scendere di colpo in massima estensione, la posizione in cui il preacher stira più spesso il tendine distale del bicipite.",
+      "Alzarsi dal sedile per aiutare il bilanciere a superare il punto morto.",
+      "Appoggiare l'ascella sul bordo del leggio invece del tricipite, così il petto sostiene il braccio e il ROM si accorcia.",
+      "Fermarsi con l'avambraccio verticale dove la tensione è nulla, scambiandolo per un picco di contrazione."
+    ]
+  },
+  "curl_reverse": {
+    "en": [
+      "Loading it like a supinated curl, when the pronated grip is far weaker and the wrists pay for it.",
+      "Letting the wrists collapse into extension, so the forearm extensors fail long before the brachioradialis is trained.",
+      "Swinging the torso to get the bar moving, which the weak grip position makes very tempting.",
+      "Cutting the top of the range because pronated is hardest there, exactly where the target works most.",
+      "Insisting on a straight bar with aching wrists instead of an EZ bar, turning an elbow exercise into a wrist problem."
+    ],
+    "it": [
+      "Caricare come un curl supinato, quando la presa prona è molto più debole e a pagarne sono i polsi.",
+      "Lasciare cedere i polsi in estensione, così gli estensori dell'avambraccio cedono prima che lavori il brachioradiale.",
+      "Slanciare il busto per far partire il bilanciere, tentazione fortissima con una presa così debole.",
+      "Accorciare la parte alta perché in prona lì è più dura, proprio dove il target lavora di più.",
+      "Insistere con il bilanciere dritto a polsi doloranti invece di usare l'EZ, trasformando un esercizio per il gomito in un problema al polso."
+    ]
+  },
+  "curl_spider": {
+    "en": [
+      "Letting the arms hang backwards under the bench instead of vertically, which shortens the effective range.",
+      "Pressing the chest into the pad and using torso movement to start the rep.",
+      "Skipping the full stretch at the bottom because the vertical arm position feels unstable.",
+      "Overloading it, since with the shoulder blocked there is no cheat available and the elbow takes everything.",
+      "Letting the dumbbells drop back down instead of controlling the eccentric the position was chosen for."
+    ],
+    "it": [
+      "Lasciare pendere le braccia all'indietro sotto la panca invece che verticali, riducendo il ROM utile.",
+      "Schiacciare il petto sullo schienale e usare il movimento del busto per far partire la ripetizione.",
+      "Saltare l'allungamento completo in basso perché con il braccio verticale sembra instabile.",
+      "Esagerare con il carico: con la spalla bloccata non c'è alcun compenso e il gomito prende tutto.",
+      "Lasciare cadere i manubri invece di controllare l'eccentrica per cui si sceglie questa posizione."
+    ]
+  },
+  "curl_sprinter": {
+    "en": [
+      "Rotating the torso instead of driving the opposite arm back, which loses the sprint-arm pattern.",
+      "Cutting the backswing short, so the rear arm's biceps never reaches the stretched position.",
+      "Going so fast that momentum, not the biceps, moves the dumbbells.",
+      "Shrugging both shoulders through the alternation, handing the work to the traps."
+    ],
+    "it": [
+      "Ruotare il busto invece di portare indietro il braccio opposto, perdendo lo schema della corsa.",
+      "Accorciare la fase indietro, così il bicipite del braccio arretrato non arriva mai in allungamento.",
+      "Andare così veloci che a muovere i manubri è lo slancio, non il bicipite.",
+      "Alzare entrambe le spalle nell'alternanza, lasciando il lavoro ai trapezi."
+    ]
+  },
+  "curl_standing": {
+    "en": [
+      "Swinging the hips and leaning back to launch the bar, which shifts the load onto the lower back and off the biceps.",
+      "Letting the elbows drift forward at the top so the front delts finish the rep.",
+      "Dropping the weight on the way down instead of controlling the eccentric, where much of the stimulus lives.",
+      "Stopping short of full elbow extension, so the biceps never sees the lengthened position.",
+      "Shrugging the shoulders at the top to steal a few extra centimetres of travel."
+    ],
+    "it": [
+      "Slanciare il bacino e inarcare all'indietro per far partire il bilanciere, spostando il carico sulla lombare invece che sul bicipite.",
+      "Portare i gomiti in avanti in alto, così la ripetizione la chiudono i deltoidi anteriori.",
+      "Lasciare cadere il peso invece di controllare l'eccentrica, dove sta gran parte dello stimolo.",
+      "Non stendere mai del tutto il gomito, così il bicipite non vede mai la posizione allungata.",
+      "Alzare le spalle in alto per rubare qualche centimetro di corsa."
+    ]
+  },
+  "curl_wrist": {
+    "en": [
+      "Moving the elbows and forearms instead of keeping them fixed, which lets the biceps do the lifting.",
+      "Rolling the bar into the fingers and back with no wrist flexion, training grip rather than the flexors.",
+      "Loading far too heavy for such a small joint, which is how wrist tendinopathy starts.",
+      "Not resting the forearms on a bench or thigh, so the whole arm bounces and the range becomes meaningless.",
+      "Letting the bar fall back down fast, skipping the eccentric on an already short range."
+    ],
+    "it": [
+      "Muovere gomiti e avambracci invece di tenerli fermi, lasciando il lavoro al bicipite.",
+      "Far rotolare il bilanciere sulle dita e riprenderlo senza mai flettere il polso, allenando la presa e non i flessori.",
+      "Caricare troppo per un'articolazione così piccola: è così che nascono le tendinopatie del polso.",
+      "Non appoggiare gli avambracci su panca o coscia, così tutto il braccio oscilla e il ROM perde senso.",
+      "Far ricadere il bilanciere di colpo, saltando l'eccentrica su un ROM già cortissimo."
+    ]
+  },
+  "dip_machine": {
+    "en": [
+      "Setting the seat so the elbows start above shoulder height, which forces a needless loaded shoulder stretch.",
+      "Snapping into lockout at the bottom rather than finishing under control.",
+      "Letting the shoulders shrug up during the push because the seat pad does not hold you down.",
+      "Working only the short range where the triceps is strongest, which a machine makes trivially easy."
+    ],
+    "it": [
+      "Regolare il sedile con i gomiti che partono sopra la linea della spalla, imponendo un allungamento inutile sotto carico.",
+      "Bloccare i gomiti di scatto in basso invece di terminare in controllo.",
+      "Lasciare salire le spalle durante la spinta perché il fermo del sedile non trattiene.",
+      "Lavorare solo il tratto in cui il tricipite è più forte, cosa banalmente facile alla macchina."
+    ]
+  },
+  "face_pull": {
+    "en": [
+      "Using so much weight that it becomes a high row and the rear delts and external rotators drop out.",
+      "Letting the elbows fall below the hands, which removes the external rotation the exercise is chosen for.",
+      "Leaning back and pulling with the whole body instead of stabilising the torso.",
+      "Setting the pulley too low, which turns it into a chest-height row rather than a pull to the eyes.",
+      "Shrugging at the finish so the upper traps swallow the movement."
+    ],
+    "it": [
+      "Usare tanto carico da trasformarlo in un rematore alto, escludendo deltoidi posteriori ed extrarotatori.",
+      "Lasciare scendere i gomiti sotto la linea delle mani, eliminando l'extrarotazione per cui si sceglie l'esercizio.",
+      "Inclinarsi indietro e tirare con tutto il corpo invece di stabilizzare il busto.",
+      "Mettere la puleggia troppo in basso, ottenendo un rematore all'altezza del petto invece di una trazione agli occhi.",
+      "Alzare le spalle alla fine, così il movimento se lo prendono i trapezi superiori."
+    ]
+  },
+  "fly_band": {
+    "en": [
+      "Bending the elbows more and more as fatigue builds, quietly turning the fly into a press.",
+      "Letting the band recoil the arms open fast, losing control in the stretched position.",
+      "Anchoring the band too high or too low, so the resistance line no longer matches the chest.",
+      "Stepping so far forward that there is no tension at the start of the rep."
+    ],
+    "it": [
+      "Piegare sempre di più i gomiti man mano che si stanca, trasformando di nascosto le croci in una spinta.",
+      "Farsi riaprire le braccia di scatto dall'elastico, perdendo il controllo in allungamento.",
+      "Ancorare l'elastico troppo in alto o troppo in basso, così la linea di resistenza non corrisponde più al petto.",
+      "Avanzare troppo, così all'inizio della ripetizione non c'è alcuna tensione."
+    ]
+  },
+  "fly_cable": {
+    "en": [
+      "Bending and straightening the elbows during the set, which converts the fly into a press and lightens the pec.",
+      "Opening the arms far behind the body chasing a stretch, which loads the anterior shoulder capsule rather than the pecs.",
+      "Letting the shoulders roll forward at the finish instead of keeping the chest proud.",
+      "Standing bolt upright so the resistance line never crosses the chest, leaving no tension in the shortened range.",
+      "Using so much weight that the torso lurches forward on every rep."
+    ],
+    "it": [
+      "Piegare e stendere i gomiti durante la serie, trasformando le croci in una spinta e scaricando il pettorale.",
+      "Aprire le braccia molto dietro il corpo per cercare l'allungamento, caricando la capsula anteriore invece del pettorale.",
+      "Lasciare rotolare avanti le spalle alla chiusura invece di tenere il petto alto.",
+      "Restare perfettamente eretti, così la linea di resistenza non attraversa il petto e in accorciamento non c'è tensione.",
+      "Usare tanto peso da doversi buttare in avanti con il busto a ogni ripetizione."
+    ]
+  },
+  "fly_dumbbell": {
+    "en": [
+      "Dropping the arms far below the bench chasing a deeper stretch, which loads the shoulder capsule at its weakest point.",
+      "Progressively bending the elbows until it becomes a sloppy dumbbell press.",
+      "Touching the dumbbells together at the top, where the pec has almost no tension left.",
+      "Going too heavy on a movement with a huge lever arm and no safe way to bail out.",
+      "Letting the shoulders round forward at the bottom instead of keeping the blades set."
+    ],
+    "it": [
+      "Far scendere le braccia molto sotto il piano della panca per allungare di più, caricando la capsula della spalla nel punto più debole.",
+      "Piegare progressivamente i gomiti finché diventa una brutta spinta con manubri.",
+      "Far toccare i manubri in alto, dove il pettorale non ha praticamente più tensione.",
+      "Esagerare con il carico in un movimento a braccio di leva enorme e senza via d'uscita sicura.",
+      "Lasciare chiudere avanti le spalle in basso invece di tenere le scapole ferme."
+    ]
+  },
+  "fly_machine": {
+    "en": [
+      "Setting the seat so the handles sit above shoulder height, which shifts stress onto the front delt.",
+      "Starting with the arms way behind the torso on the pec deck, forcing an aggressive stretch the shoulder does not need.",
+      "Letting the stack yank the arms open on the return instead of controlling it.",
+      "Pushing the handles with bent arms like a press, which the machine will happily allow."
+    ],
+    "it": [
+      "Regolare il sedile con le maniglie sopra la linea delle spalle, spostando lo stress sul deltoide anteriore.",
+      "Partire con le braccia molto dietro il busto alla pectoral machine, imponendo un allungamento aggressivo e inutile.",
+      "Farsi riaprire le braccia dal pacco pesi invece di controllare il ritorno.",
+      "Spingere le maniglie a braccia piegate come in una spinta, cosa che la macchina consente tranquillamente."
+    ]
+  },
+  "front_raise": {
+    "en": [
+      "Swinging the hips and leaning back to throw the weight up, which loads the lower back rather than the front delt.",
+      "Raising far above shoulder height so the upper traps take over the last part of the arc.",
+      "Bending the elbows to shorten the lever, quietly reducing the resistance the delt actually feels.",
+      "Letting the weight fall back down instead of controlling the eccentric.",
+      "Piling heavy front raises on top of a lot of pressing, adding volume to an already hammered front delt."
+    ],
+    "it": [
+      "Slanciare il bacino e inarcarsi per lanciare il peso, caricando la lombare invece del deltoide anteriore.",
+      "Salire ben oltre la linea delle spalle, così l'ultima parte dell'arco la fanno i trapezi superiori.",
+      "Piegare i gomiti per accorciare la leva, riducendo di nascosto la resistenza che sente il deltoide.",
+      "Lasciare ricadere il peso invece di controllare l'eccentrica.",
+      "Aggiungere alzate frontali pesanti dopo tanto lavoro di spinta, sommando volume su un deltoide anteriore già saturo."
+    ]
+  },
+  "grip_hold": {
+    "en": [
+      "Letting the shoulders round forward and the back flex under the load instead of staying tall.",
+      "Wrapping the thumb loosely, so the bar rolls out well before the forearms are actually fatigued.",
+      "Using straps, which removes the only thing the exercise trains.",
+      "Holding the breath for the whole set, which spikes blood pressure on a long isometric.",
+      "Dropping the bar from standing height at the end instead of setting it down under control."
+    ],
+    "it": [
+      "Lasciare chiudere le spalle in avanti e flettere la schiena sotto il carico invece di restare eretti.",
+      "Chiudere male il pollice, così il bilanciere rotola via molto prima che gli avambracci siano davvero stanchi.",
+      "Usare le fasce, eliminando l'unica cosa che l'esercizio allena.",
+      "Restare in apnea per tutta la serie, con picchi pressori in un isometrico lungo.",
+      "Mollare il bilanciere da fermo in piedi invece di appoggiarlo in controllo."
+    ]
+  },
+  "hspu": {
+    "en": [
+      "Letting the head touch down first and taking bodyweight on the neck instead of the arms.",
+      "Kicking the legs and arching the lower back to bounce out of the bottom, which hides how little pressing strength is there.",
+      "Flaring the elbows straight out sideways, which shortens the base and stresses the shoulder.",
+      "Placing the hands too wide or too narrow relative to the head, leaving no stable tripod to press out of.",
+      "Attempting them without a solid strict overhead press, which is how people collapse onto the head."
+    ],
+    "it": [
+      "Toccare prima con la testa e scaricare il peso del corpo sul collo invece che sulle braccia.",
+      "Calciare con le gambe e inarcare la lombare per rimbalzare dal basso, mascherando quanta forza di spinta manchi.",
+      "Aprire i gomiti lateralmente, riducendo la base e stressando la spalla.",
+      "Mettere le mani troppo larghe o troppo strette rispetto alla testa, senza un treppiede stabile da cui spingere.",
+      "Provarle senza avere una military press solida: è così che si collassa sulla testa."
+    ]
+  },
+  "lateral_raise_cable": {
+    "en": [
+      "Standing too far from or too close to the pulley, so the resistance line stops matching the arc of abduction.",
+      "Leaning away from the tower and using the torso as a counterweight to swing the arm up.",
+      "Letting the cable drag the arm across the body at the bottom, which pre-loads a swing rather than an abduction.",
+      "Shrugging at the top instead of stopping around shoulder height, handing the finish to the traps.",
+      "Letting the stack pull the arm down fast, discarding the eccentric on an already light exercise."
+    ],
+    "it": [
+      "Stare troppo lontani o troppo vicini alla puleggia, così la linea di resistenza non segue più l'arco dell'abduzione.",
+      "Inclinarsi lontano dalla torre e usare il busto come contrappeso per slanciare il braccio.",
+      "Lasciare che il cavo porti il braccio davanti al corpo in basso, precaricando uno slancio invece di un'abduzione.",
+      "Alzare le spalle in alto invece di fermarsi sulla linea della spalla, cedendo la chiusura ai trapezi.",
+      "Farsi riportare giù il braccio dal pacco pesi, buttando via l'eccentrica in un esercizio già leggero."
+    ]
+  },
+  "lateral_raise_db": {
+    "en": [
+      "Using momentum from hips and knees to launch the dumbbells, so the delt only holds the weight at the top.",
+      "Shrugging the shoulders as the arms rise, handing the movement to the upper traps.",
+      "Raising well above shoulder height, which recruits the traps and adds no delt stimulus.",
+      "Turning the thumbs hard upward so the arm externally rotates and the front delt takes over.",
+      "Letting the arms drop back to the sides with no control, skipping the eccentric entirely."
+    ],
+    "it": [
+      "Usare lo slancio di anche e ginocchia per lanciare i manubri, così il deltoide li tiene solo in alto.",
+      "Alzare le spalle mentre salgono le braccia, cedendo il movimento ai trapezi superiori.",
+      "Salire ben oltre la linea delle spalle, reclutando i trapezi senza alcun vantaggio per il deltoide.",
+      "Ruotare i pollici troppo verso l'alto, extraruotando il braccio e passando il lavoro al deltoide anteriore.",
+      "Far ricadere le braccia lungo i fianchi senza controllo, saltando del tutto l'eccentrica."
+    ]
+  },
+  "lateral_raise_machine": {
+    "en": [
+      "Setting the seat so the pads press on the forearms instead of just above the elbows, which loads wrist and elbow.",
+      "Pushing with the hands against the handles instead of driving with the upper arms.",
+      "Letting the shoulders shrug up into the pads at the top of the arc.",
+      "Letting the stack fall back down freely, throwing away the eccentric."
+    ],
+    "it": [
+      "Regolare il sedile con i cuscinetti sugli avambracci invece che appena sopra i gomiti, caricando polso e gomito.",
+      "Spingere con le mani sulle maniglie invece di condurre con le braccia.",
+      "Lasciare salire le spalle contro i cuscinetti nella parte alta dell'arco.",
+      "Far ricadere il pacco pesi liberamente, buttando via l'eccentrica."
+    ]
+  },
+  "ohp_landmine": {
+    "en": [
+      "Leaning the torso back to press the bar up, which turns an overhead press into a standing incline press on the lumbar spine.",
+      "Letting the elbow flare wide instead of following the landmine arc.",
+      "Rotating the hips open in the half-kneeling version, which cancels the anti-rotation demand.",
+      "Losing the front-rack contact so the bar sits in the fingers and the wrist collapses.",
+      "Not bracing the abs, so the ribcage flares and the lower back absorbs the load."
+    ],
+    "it": [
+      "Inclinare il busto indietro per spingere, trasformando una spinta sopra la testa in una inclinata in piedi a carico della lombare.",
+      "Aprire il gomito verso l'esterno invece di seguire l'arco del landmine.",
+      "Ruotare il bacino nella versione in ginocchio, annullando la richiesta anti-rotatoria.",
+      "Perdere il contatto in rack, così il bilanciere finisce sulle dita e il polso cede.",
+      "Non attivare il core, così le costole si aprono e il carico va sulla lombare."
+    ]
+  },
+  "ohp_machine": {
+    "en": [
+      "Setting the seat so the handles start above the ears, forcing the shoulder to begin at end range under load.",
+      "Arching hard off the backrest to press more, defeating the point of a supported press.",
+      "Snapping into lockout instead of finishing under control.",
+      "Using only the top half of the range, which a fixed path makes very easy to get away with."
+    ],
+    "it": [
+      "Regolare il sedile con le impugnature sopra le orecchie, costringendo la spalla a partire a fine ROM sotto carico.",
+      "Inarcare staccandosi dallo schienale per spingere di più, vanificando il senso di una spinta guidata.",
+      "Chiudere il gomito di scatto invece di terminare in controllo.",
+      "Usare solo la metà alta del ROM, cosa che la traiettoria guidata rende molto facile."
+    ]
+  },
+  "ohp_seated": {
+    "en": [
+      "Arching the lower back hard against the bench to press more weight, turning it into an unsupported incline press.",
+      "Pressing behind the neck with limited shoulder mobility, which forces extreme external rotation and risks impingement.",
+      "Keeping the head forward so the bar arcs around the face instead of moving the head back through the window.",
+      "Stopping short of lockout, so the bar never gets over the mid-line and the shoulder stays in poor leverage.",
+      "Going to failure seated with heavy dumbbells and no safe way to dump them."
+    ],
+    "it": [
+      "Inarcare forte la lombare contro lo schienale per spingere di più, trasformandola in una inclinata senza supporto.",
+      "Spingere dietro il collo con poca mobilità di spalla, imponendo un'extrarotazione estrema e rischiando impingement.",
+      "Tenere la testa avanti così il bilanciere gira attorno al viso invece di arretrarla e farlo passare.",
+      "Non chiudere il lockout, così il bilanciere non arriva mai sulla verticale e la spalla resta in leva sfavorevole.",
+      "Andare a cedimento da seduti con manubri pesanti senza un modo sicuro di mollarli."
+    ]
+  },
+  "ohp_standing": {
+    "en": [
+      "Leaning back from the lumbar spine to get under the bar, which loads the lower back instead of the shoulders.",
+      "Letting the hips dip and drive, turning a strict press into an unlogged push press.",
+      "Leaving the head forward so the bar path arcs around the face instead of travelling straight up.",
+      "Letting the wrists collapse backwards, so the load sits behind the forearm.",
+      "Not bracing abs and glutes, so the ribcage flares and the trunk becomes the weak link."
+    ],
+    "it": [
+      "Inarcare la lombare per infilarsi sotto il bilanciere, caricando la schiena bassa invece delle spalle.",
+      "Lasciare cedere e spingere le gambe, trasformando una military press in una push press non registrata.",
+      "Tenere la testa avanti, così il bilanciere gira attorno al viso invece di salire dritto.",
+      "Lasciare cedere i polsi all'indietro, così il carico finisce dietro l'avambraccio.",
+      "Non contrarre addome e glutei, così le costole si aprono e il tronco diventa l'anello debole."
+    ]
+  },
+  "pike_pushup": {
+    "en": [
+      "Letting the hips drop so it becomes a decline push-up instead of a vertical shoulder press.",
+      "Touching the forehead down in front of the hands, which shortens the range and loads the neck.",
+      "Flaring the elbows sideways, which loses the tight base needed to press back up.",
+      "Walking the feet away until the shoulders are no longer stacked over the hands, so the delts stop being the target."
+    ],
+    "it": [
+      "Lasciare cadere il bacino, così diventa un piegamento in declino invece di una spinta verticale.",
+      "Toccare a terra con la fronte davanti alle mani, accorciando il ROM e caricando il collo.",
+      "Aprire i gomiti lateralmente, perdendo la base compatta da cui risalire.",
+      "Allontanare i piedi finché le spalle non sono più sopra le mani, così i deltoidi smettono di essere il bersaglio."
+    ]
+  },
+  "press_cable_chest": {
+    "en": [
+      "Letting the torso rotate with the working arm in the single-arm version, which cancels the anti-rotation demand.",
+      "Standing bolt upright so the cable line pulls the shoulder back instead of resisting a chest press.",
+      "Letting the elbow drop below the cable line, which turns the press into an awkward downward push.",
+      "Stepping too far forward so the stack bottoms out mid-set and the tension disappears.",
+      "Shrugging and throwing the shoulder forward at lockout instead of holding the chest position."
+    ],
+    "it": [
+      "Lasciare ruotare il busto con il braccio che lavora nella versione monolaterale, annullando la richiesta anti-rotatoria.",
+      "Restare troppo eretti, così il cavo tira indietro la spalla invece di opporsi a una spinta di petto.",
+      "Far scendere il gomito sotto la linea del cavo, trasformando la spinta in una spinta verso il basso poco naturale.",
+      "Avanzare troppo, così il pacco pesi tocca a metà serie e la tensione sparisce.",
+      "Alzare la spalla e proiettarla in avanti al lockout invece di tenere la posizione del petto."
+    ]
+  },
+  "push_jerk": {
+    "en": [
+      "Dipping with the knees travelling forward and the heels rising, which kills the vertical drive.",
+      "Dipping too deep and turning a fast elastic drive into a slow front squat.",
+      "Pressing the bar out with the arms instead of receiving it in a re-bent position and standing up.",
+      "Letting the bar drift forward off the shoulders during the dip, so it lands ahead of the mid-foot.",
+      "Not resetting the rack position between reps, so each rep starts from a worse shoulder position."
+    ],
+    "it": [
+      "Piegare le ginocchia in avanti con i talloni che si staccano, annullando la spinta verticale.",
+      "Scendere troppo nel dip, trasformando una spinta elastica veloce in uno squat frontale lento.",
+      "Finire il movimento spingendo di braccia invece di ricevere il bilanciere a braccia ripiegate e poi alzarsi.",
+      "Lasciare scivolare avanti il bilanciere durante il dip, così atterra davanti al mesopiede.",
+      "Non risistemare il rack tra le ripetizioni, così ogni ripetizione parte da una posizione di spalla peggiore."
+    ]
+  },
+  "pushup": {
+    "en": [
+      "Letting the hips sag so the lower back extends and the trunk stops transmitting force.",
+      "Piking the hips up to shorten the range and make the reps easier without noticing.",
+      "Flaring the elbows out to ninety degrees, which loads the front of the shoulder.",
+      "Lowering only halfway so the chest never approaches the floor and the pecs never lengthen.",
+      "Leading with the head and neck to touch down instead of moving the body as one unit."
+    ],
+    "it": [
+      "Lasciare cedere il bacino, così la lombare va in estensione e il tronco non trasmette più forza.",
+      "Alzare il bacino a V per accorciare il ROM e rendere le ripetizioni più facili senza accorgersene.",
+      "Aprire i gomiti a novanta gradi, caricando la parte anteriore della spalla.",
+      "Scendere solo a metà, così il petto non si avvicina mai a terra e i pettorali non si allungano.",
+      "Andare giù di testa e collo invece di muovere tutto il corpo come un blocco."
+    ]
+  },
+  "pushup_deficit": {
+    "en": [
+      "Chasing depth past what the shoulder can control, since the deficit is there to add range, not to force it.",
+      "Letting the shoulders roll forward in the extra range instead of keeping the blades set.",
+      "Using unstable handles or blocks that shift under load mid-set.",
+      "Losing the plank line at the bottom, because the deficit makes the hips sag far more easily.",
+      "Adding a deficit before owning a full-range push-up, so the extra range is bought with sloppy technique."
+    ],
+    "it": [
+      "Cercare più profondità di quanta la spalla ne controlli: il deficit serve ad aggiungere ROM, non a forzarlo.",
+      "Lasciare rotolare avanti le spalle nel tratto extra invece di tenere le scapole ferme.",
+      "Usare maniglie o rialzi instabili che si spostano sotto carico a metà serie.",
+      "Perdere la linea del plank in basso, perché con il deficit il bacino cede molto più facilmente.",
+      "Aggiungere il deficit senza padroneggiare il piegamento completo, comprando ROM con una tecnica sporca."
+    ]
+  },
+  "rear_delt_cable": {
+    "en": [
+      "Pulling with a bent elbow into a row, which brings in the lats and mid-traps instead of the rear delt.",
+      "Letting the shoulder shrug up as the arm travels back.",
+      "Rotating the torso open on every rep to gain range the shoulder is not producing.",
+      "Setting the pulley too low so the arm path drops below shoulder line and it becomes a pullover.",
+      "Using so much load that the eccentric is just the stack dragging the arm forward."
+    ],
+    "it": [
+      "Tirare a gomito piegato come in un rematore, coinvolgendo dorsali e trapezio medio invece del deltoide posteriore.",
+      "Lasciare salire la spalla mentre il braccio va indietro.",
+      "Ruotare il busto a ogni ripetizione per guadagnare un ROM che la spalla non produce.",
+      "Mettere la puleggia troppo in basso, così il braccio scende sotto la linea della spalla e diventa un pullover.",
+      "Usare tanto carico che l'eccentrica è solo il pacco pesi che trascina avanti il braccio."
+    ]
+  },
+  "rear_delt_fly_db": {
+    "en": [
+      "Bending the elbows and rowing the dumbbells toward the hips, which turns the fly into a back exercise.",
+      "Standing up out of the hinge as the arms rise, using the torso to throw the weight.",
+      "Going too heavy so the reps become jerky swings with no control at the top.",
+      "Squeezing the shoulder blades together instead of moving at the shoulder, handing the work to the rhomboids.",
+      "Letting the arms travel forward of the shoulder line at the top, which is really a lateral raise."
+    ],
+    "it": [
+      "Piegare i gomiti e portare i manubri verso i fianchi come in un rematore, trasformando le croci in un esercizio per la schiena.",
+      "Raddrizzarsi dall'hinge mentre le braccia salgono, usando il busto per lanciare il peso.",
+      "Esagerare con il carico, così le ripetizioni diventano slanci senza controllo in alto.",
+      "Strizzare le scapole invece di muovere la spalla, cedendo il lavoro ai romboidi.",
+      "Portare le braccia davanti alla linea della spalla in alto, ottenendo di fatto un'alzata laterale."
+    ]
+  },
+  "rear_delt_machine": {
+    "en": [
+      "Setting the seat so the handles are above shoulder height, which shifts the pull onto the traps.",
+      "Pulling the handles back by squeezing the shoulder blades rather than moving the arms.",
+      "Letting the chest come off the pad to gain a few extra degrees.",
+      "Letting the arms snap forward on the return, skipping the controlled eccentric."
+    ],
+    "it": [
+      "Regolare il sedile con le maniglie sopra la linea delle spalle, spostando la trazione sui trapezi.",
+      "Portare indietro le maniglie strizzando le scapole invece di muovere le braccia.",
+      "Staccare il petto dallo schienale per guadagnare qualche grado in più.",
+      "Farsi riportare avanti le braccia di scatto, saltando l'eccentrica controllata."
+    ]
+  },
+  "shrug": {
+    "en": [
+      "Rolling the shoulders in circles, which adds no trap work and grinds the shoulder joint.",
+      "Bending the elbows and turning it into a partial upright row once the load gets heavy.",
+      "Bouncing the load with knees and hips instead of elevating the scapulae.",
+      "Letting the head jut forward and the neck extend under a heavy bar.",
+      "Going so heavy that the grip fails first, so the traps never get a real working set."
+    ],
+    "it": [
+      "Fare rotazioni circolari con le spalle, che non aggiungono lavoro sui trapezi e infastidiscono l'articolazione.",
+      "Piegare i gomiti e trasformarlo in un mezzo rematore verticale quando il carico sale.",
+      "Rimbalzare con ginocchia e anche invece di elevare le scapole.",
+      "Portare la testa in avanti ed estendere il collo sotto un bilanciere pesante.",
+      "Caricare così tanto che cede prima la presa, così i trapezi non fanno mai una serie vera."
+    ]
+  },
+  "svend_press": {
+    "en": [
+      "Pressing out without keeping the plates squeezed together, which removes the entire adduction stimulus.",
+      "Letting the elbows drop so the arms push downward instead of straight forward at chest height.",
+      "Leaning back and lifting the plates with the shoulders rather than squeezing with the pecs.",
+      "Treating it as a loading exercise and chasing weight, when it is a squeeze-and-tension drill."
+    ],
+    "it": [
+      "Spingere senza tenere i dischi schiacciati tra loro, eliminando tutto lo stimolo in adduzione.",
+      "Far cadere i gomiti, così si spinge verso il basso invece che dritti avanti all'altezza del petto.",
+      "Inclinarsi indietro e alzare i dischi con le spalle invece di strizzare con i pettorali.",
+      "Trattarlo come un esercizio di carico e rincorrere il peso, quando è un lavoro di strizzata e tensione."
+    ]
+  },
+  "tri_band_pushdown": {
+    "en": [
+      "Letting the elbows swing back and forth, which turns the pushdown into a partial row.",
+      "Leaning over the band so bodyweight, not the triceps, drives the handle down.",
+      "Letting the band recoil the arm up fast, wasting the eccentric.",
+      "Anchoring the band too low, so it pulls forward instead of down and tension vanishes at lockout."
+    ],
+    "it": [
+      "Far oscillare i gomiti avanti e indietro, trasformando il pushdown in un mezzo rematore.",
+      "Sporgersi sopra l'elastico, così a spingere giù è il peso del corpo e non il tricipite.",
+      "Farsi risalire il braccio di scatto dall'elastico, sprecando l'eccentrica.",
+      "Ancorare l'elastico troppo in basso, così tira in avanti invece che verso il basso e al lockout non c'è tensione."
+    ]
+  },
+  "tri_bodyweight_ext": {
+    "en": [
+      "Piking the hips back so the lever shortens and the triceps barely loads.",
+      "Losing the straight line from knees or feet to shoulders, which turns it into a hip-driven push-up.",
+      "Going too deep too soon on a movement with a huge lever arm, which strains the elbow.",
+      "Bending at the hips to get back up instead of extending the elbows.",
+      "Setting up on a bar or strap that slides, so the hands shift under load at the bottom."
+    ],
+    "it": [
+      "Portare indietro il bacino, accorciando la leva e scaricando quasi del tutto il tricipite.",
+      "Perdere la linea da ginocchia o piedi alle spalle, trasformandolo in un piegamento spinto dalle anche.",
+      "Scendere troppo e troppo presto in un movimento a leva enorme, sovraccaricando il gomito.",
+      "Flettersi alle anche per risalire invece di estendere i gomiti.",
+      "Usare una barra o un anello che scivola, così le mani si spostano sotto carico nel punto basso."
+    ]
+  },
+  "tri_close_press": {
+    "en": [
+      "Gripping so narrow that the wrists bend painfully and give out before the triceps does.",
+      "Letting the elbows flare, which turns it straight back into a normal bench press.",
+      "Bouncing the bar off the sternum, where a narrow grip lands hardest.",
+      "Tucking the elbows so hard that the bar drifts toward the hips and the shoulder rolls forward.",
+      "Loading it like a competition bench, when the shorter lever calls for less weight and a spotter still matters."
+    ],
+    "it": [
+      "Stringere così tanto la presa che i polsi si piegano dolorosamente e cedono prima del tricipite.",
+      "Aprire i gomiti, tornando di fatto a una panca piana normale.",
+      "Rimbalzare il bilanciere sullo sterno, dove la presa stretta colpisce più duro.",
+      "Incollare i gomiti al busto al punto che il bilanciere deriva verso i fianchi e la spalla si chiude in avanti.",
+      "Caricare come una panca da gara, quando la leva più corta chiede meno peso e lo spotter serve comunque."
+    ]
+  },
+  "tri_dip": {
+    "en": [
+      "Dropping below the point where the shoulder stays stable, which stresses the anterior capsule far more than the triceps.",
+      "Bouncing out of the bottom instead of controlling the descent, the classic way dips hurt the sternum and shoulder.",
+      "Letting the shoulders shrug up to the ears at the bottom instead of staying depressed.",
+      "Flaring the elbows wide, which shifts load off the triceps and onto the shoulder.",
+      "Swinging the legs to generate momentum, which hides how few strict reps are actually there."
+    ],
+    "it": [
+      "Scendere oltre il punto in cui la spalla resta stabile, stressando la capsula anteriore molto più del tricipite.",
+      "Rimbalzare dal basso invece di controllare la discesa: è così che i dip fanno male a sterno e spalla.",
+      "Lasciare salire le spalle verso le orecchie in basso invece di tenerle depresse.",
+      "Aprire troppo i gomiti, spostando il carico dal tricipite alla spalla.",
+      "Slanciare le gambe per generare inerzia, mascherando quante ripetizioni strette ci siano davvero."
+    ]
+  },
+  "tri_extension_lever": {
+    "en": [
+      "Setting the pad so the elbow is not aligned with the machine axis, which loads the shoulder instead of the triceps.",
+      "Lifting the upper arms off the pad at the end of the push.",
+      "Snapping into lockout on a fixed lever, which is hard on the elbow.",
+      "Working only the last few degrees of extension where the triceps is strongest."
+    ],
+    "it": [
+      "Regolare male il supporto, così il gomito non è allineato all'asse della macchina e si carica la spalla invece del tricipite.",
+      "Staccare le braccia dal supporto a fine spinta.",
+      "Chiudere il gomito di scatto su una leva fissa, cosa poco gradita all'articolazione.",
+      "Lavorare solo gli ultimi gradi di estensione, dove il tricipite è più forte."
+    ]
+  },
+  "tri_kickback": {
+    "en": [
+      "Letting the upper arm drop below parallel, which removes the shortened position the exercise exists for.",
+      "Swinging the whole arm from the shoulder instead of extending at the elbow.",
+      "Rotating the torso open to help the arm back, especially on the last reps.",
+      "Going heavy on a movement with almost no resistance in the stretched range, so it becomes a pure swing."
+    ],
+    "it": [
+      "Far scendere il braccio sotto il parallelo, eliminando l'accorciamento che è il senso dell'esercizio.",
+      "Slanciare tutto il braccio dalla spalla invece di estendere il gomito.",
+      "Ruotare il busto per aiutare il braccio a tornare indietro, soprattutto nelle ultime ripetizioni.",
+      "Caricare pesante in un movimento che in allungamento non ha quasi resistenza, ottenendo solo uno slancio."
+    ]
+  },
+  "tri_overhead": {
+    "en": [
+      "Letting the elbows flare wide, which takes the long head out of the stretch and irritates the elbow.",
+      "Arching the lower back to keep the weight overhead instead of bracing the trunk.",
+      "Letting the upper arms drift forward as fatigue builds, quietly shrinking the range.",
+      "Bouncing out of the deep stretched position, where the elbow is most exposed.",
+      "Going too heavy overhead, where a failed rep drops the weight straight onto the head or neck."
+    ],
+    "it": [
+      "Aprire i gomiti verso l'esterno, togliendo il capo lungo dall'allungamento e infastidendo il gomito.",
+      "Inarcare la lombare per tenere il peso sopra la testa invece di attivare il core.",
+      "Lasciare cadere in avanti le braccia con la fatica, riducendo di nascosto il ROM.",
+      "Rimbalzare dal massimo allungamento, la posizione in cui il gomito è più esposto.",
+      "Usare troppo carico sopra la testa, dove una ripetizione persa fa cadere il peso su testa o collo."
+    ]
+  },
+  "tri_overhead_cable": {
+    "en": [
+      "Standing too close to the pulley, so the cable line falls behind the elbow and the tension drops off.",
+      "Letting the elbows drift down and forward, converting it into a pushdown from an odd angle.",
+      "Leaning so far forward that the lower back extends to keep the arms overhead.",
+      "Letting the stack pull the arms back fast, skipping the loaded stretch that makes this variation worth doing."
+    ],
+    "it": [
+      "Stare troppo vicini alla puleggia, così la linea del cavo cade dietro il gomito e la tensione svanisce.",
+      "Lasciare scendere i gomiti in avanti, trasformandolo in un pushdown da un angolo strano.",
+      "Sporgersi così tanto in avanti da dover inarcare la lombare per tenere le braccia sopra la testa.",
+      "Farsi tirare indietro le braccia dal pacco pesi, saltando l'allungamento sotto carico che rende utile questa variante."
+    ]
+  },
+  "tri_pushdown": {
+    "en": [
+      "Letting the elbows drift forward and back so the lats push the bar down instead of the triceps extending it.",
+      "Leaning bodyweight over the bar to force the last reps, at which point it stops being a triceps exercise.",
+      "Cutting the top of the range so the triceps never lengthens under the cable.",
+      "Letting the wrists bend as the load rises, so the forearms fail first.",
+      "Letting the stack pull the hands up fast between reps, discarding the eccentric."
+    ],
+    "it": [
+      "Far oscillare i gomiti avanti e indietro, così a spingere giù sono i dorsali invece del tricipite.",
+      "Buttare il peso del corpo sopra la barra per strappare le ultime ripetizioni, e non è più un esercizio per il tricipite.",
+      "Accorciare la parte alta del ROM, così il tricipite non si allunga mai sotto il cavo.",
+      "Lasciare piegare i polsi quando il carico sale, così cedono prima gli avambracci.",
+      "Farsi risalire le mani di scatto tra le ripetizioni, buttando via l'eccentrica."
+    ]
+  },
+  "tri_skullcrusher": {
+    "en": [
+      "Lowering the bar straight to the forehead with no shoulder angle, so tension drops and the elbow absorbs the load.",
+      "Flaring the elbows out to get past the sticking point, which turns it into a bad close-grip press.",
+      "Bouncing out of the bottom, where the elbow and the triceps tendon are most stressed.",
+      "Loading it like a press when the long lever demands a much lighter weight, and elbow pain shows up quickly.",
+      "Letting the upper arms drift back toward the head as fatigue builds, quietly shortening the working range."
+    ],
+    "it": [
+      "Portare il bilanciere dritto sulla fronte senza angolo di spalla, così la tensione cala e il carico va sul gomito.",
+      "Aprire i gomiti per superare il punto morto, trasformandolo in una brutta panca a presa stretta.",
+      "Rimbalzare dal basso, la posizione in cui gomito e tendine tricipitale sono più stressati.",
+      "Caricare come una spinta, quando la leva lunga chiede molto meno peso e il gomito protesta subito.",
+      "Lasciare arretrare le braccia verso la testa con la fatica, accorciando di nascosto il ROM utile."
+    ]
+  },
+  "upright_row": {
+    "en": [
+      "Pulling above chest height with a narrow grip, which forces internal rotation at the top and irritates the shoulder.",
+      "Letting the wrists flex sharply over the bar, loading the wrist rather than the delts and traps.",
+      "Using the hips to bounce the bar upward, which loads the lower back on an already spine-loading movement.",
+      "Leading with the hands instead of the elbows, so the arms curl the bar up rather than the shoulders abducting.",
+      "Persisting with a narrow grip when the shoulder complains, instead of widening it or changing exercise."
+    ],
+    "it": [
+      "Tirare sopra la linea del petto con presa stretta, imponendo un'intrarotazione in alto che infastidisce la spalla.",
+      "Lasciare flettere i polsi sopra il bilanciere, caricando il polso invece di deltoidi e trapezi.",
+      "Rimbalzare con le anche per far salire il bilanciere, caricando la lombare in un esercizio già impegnativo per il rachide.",
+      "Condurre con le mani invece che con i gomiti, così le braccia curlano il bilanciere invece di abdurre le spalle.",
+      "Insistere con la presa stretta quando la spalla protesta, invece di allargarla o cambiare esercizio."
+    ]
+  },
+  "wrist_roller": {
+    "en": [
+      "Letting the elbows drop as the forearms burn, which shifts the hold onto the shoulders and cuts the set short.",
+      "Rolling with big arm swings instead of alternating wrist flexion and extension.",
+      "Dropping the weight after winding it up, skipping the unwinding eccentric that is half the exercise.",
+      "Hanging a load so heavy the grip gives out after two turns, before the forearms are trained at all."
+    ],
+    "it": [
+      "Far cadere i gomiti quando gli avambracci bruciano, spostando la tenuta sulle spalle e accorciando la serie.",
+      "Arrotolare a colpi di braccia invece di alternare flessione ed estensione del polso.",
+      "Mollare il peso dopo l'avvolgimento, saltando lo svolgimento eccentrico che è metà dell'esercizio.",
+      "Appendere un carico così pesante che la presa cede dopo due giri, prima ancora di allenare gli avambracci."
+    ]
+  }
+}
