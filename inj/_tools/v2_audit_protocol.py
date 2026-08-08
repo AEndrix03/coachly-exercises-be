@@ -142,6 +142,31 @@ RULES = [
          WHERE e.deleted_at IS NULL AND t.tracking_type = 'bodyweight_plus_weight'
            AND e.bodyweight = false"""),
 
+    # Two exercises in the same family, training the same muscle, through the same
+    # primary joint actions, may legitimately carry different tension profiles - a
+    # preacher and an incline curl differ because of the shoulder, which is not in
+    # that signature. So divergence alone is NOT an error and is not flagged here.
+    # What is flagged is the decidable case: a heuristic guess contradicting a
+    # literature-backed measurement inside that same group.
+    ("coherence", "a guessed tension profile contradicts a measured one",
+     """WITH sig AS (
+            SELECT e.code, f.id AS family_id, em.muscle_id, em.evidence_basis,
+                   em.tension_lengthened::text || em.tension_midrange::text
+                     || em.tension_shortened::text AS profile,
+                   (SELECT string_agg(j.joint_action_id::text, ',' ORDER BY j.joint_action_id)
+                      FROM exercises.exercise_joint_action j
+                     WHERE j.exercise_id = e.id AND j.role = 'primary') AS actions
+              FROM exercises.exercise e
+              JOIN exercises.exercise_family f ON f.id = e.family_id
+              JOIN exercises.exercise_muscle em ON em.exercise_id = e.id
+                                               AND em.involvement = 'primary'
+             WHERE e.deleted_at IS NULL)
+        SELECT DISTINCT g.code FROM sig g JOIN sig l
+          ON l.family_id = g.family_id AND l.muscle_id = g.muscle_id
+         AND l.actions IS NOT DISTINCT FROM g.actions
+       WHERE g.actions IS NOT NULL AND g.evidence_basis = 'heuristic'
+         AND l.evidence_basis = 'literature' AND l.profile <> g.profile"""),
+
     ("integrity", "the same muscle listed twice with different involvement",
      """SELECT DISTINCT e.code FROM exercises.exercise e
           JOIN exercises.exercise_muscle m ON m.exercise_id = e.id
