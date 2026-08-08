@@ -1,0 +1,4075 @@
+[
+  {
+    "exercise_code": "dumbbell_decline_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_forward_lunge_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_two_arm_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_alternate_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_extension_across_face",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_one_arm_pronated_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_single_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_french_press_on_exercise_ball",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_triceps_extension_on_bench",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_bench_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_bent_over_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_reverse_grip_one_arm_overhead_tricep_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_bent_over_one_arm_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_bent_over_two_arm_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_tate_press",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbells_seated_triceps_extension",
+    "reason": "description is an elbow-extension triceps extension; the anterior deltoid does not extend the elbow and at most holds the upper arm in place",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_bent_over_alternate_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_alternating_tricep_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_kickback",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_tricep_kickback_with_stork_stance",
+    "reason": "description is a triceps kickback with the arm held behind the body in shoulder extension, so the anterior deltoid is an antagonist rather than the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_full_can_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_one_arm_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_iron_cross",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_lateral_raise_with_support",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_bent_arm_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_lateral_raise_v_2",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_side_lying_one_hand_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_alternate_raise",
+    "reason": "description is a lateral raise (shoulder abduction): the lateral deltoid is the prime mover, the anterior deltoid only assists, and the middle trapezius merely stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_around_world",
+    "reason": "description is a circling arm raise through abduction and flexion; the long head of the triceps does not raise the arm",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_rear_lateral_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_on_floor_rear_delt_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_one_arm_deltoid_rear",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_one_arm_rear_lateral_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_lateral_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_reverse_fly_with_support",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_rear_delt_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_rear_delt_row",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_rear_lateral_raise_support_head",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_reverse_fly",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_rotation_reverse_fly",
+    "reason": "description raises the arms into horizontal abduction to work the posterior deltoid; the posterior deltoid is the prime mover and the anterior deltoid is its direct antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_rear_delt_row",
+    "reason": "description is a prone rear-deltoid row: the posterior deltoid and rhomboids drive it, the anterior deltoid is an antagonist, and the latissimus dorsi is not the prime mover of horizontal abduction",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_incline_t_raise",
+    "reason": "description isolates the posterior deltoid from a prone position, which is horizontal abduction, not shoulder abduction driven by the anterior and lateral deltoid",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_rear_fly",
+    "reason": "description is a hip-hinged reverse fly for the posterior deltoids and rhomboids, but it is stored as a chest fly with horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_side_plank_with_rear_fly",
+    "reason": "description is a side plank combined with a rear fly for the posterior deltoids, but it is stored as a chest fly with horizontal adduction and the pectorals and latissimus as movers",
+    "muscles": [
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "lateral_flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "anti_rotation",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_incline_y_raise",
+    "reason": "description is a Y raise, an overhead elevation of the arms; shoulder adduction and the latissimus dorsi are the antagonists of that movement",
+    "muscles": [
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_decline_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_decline_one_arm_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_one_arm_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_one_arm_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_bench_fly",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_chest_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_leg_fly_on_exercise_ball",
+    "reason": "description is a pectoral isolation fly; the pectoralis major is the prime mover of horizontal adduction and the anterior deltoid only assists",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_front_raise",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_front_raise_v_2",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lateral_to_front_raise",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_front_raise",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_front_raise",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_front_raise_above_head",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_raise",
+    "reason": "description raises the dumbbells in front of the body by shoulder flexion; the middle trapezius only stabilizes the scapula and the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_shrug",
+    "reason": "description is a shrug, i.e. scapular elevation by the upper trapezius; the anterior deltoid does not elevate the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_incline_shrug",
+    "reason": "description is a shrug, i.e. scapular elevation by the upper trapezius; the anterior deltoid does not elevate the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_decline_shrug",
+    "reason": "description is a shrug, i.e. scapular elevation by the upper trapezius; the anterior deltoid does not elevate the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_decline_shrug_v_2",
+    "reason": "description is a shrug, i.e. scapular elevation by the upper trapezius; the anterior deltoid does not elevate the scapula",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_hammer_curl_on_exercise_ball",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised",
+    "reason": "description is a seated dumbbell biceps curl on a ball, but it is stored as a bench press with the pectorals as movers and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_kickbacks_on_exercise_ball",
+    "reason": "description is a dumbbell triceps extension seated on a ball, but it is stored as a bench press with the pectorals, the latissimus and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_pullover_on_exercise_ball",
+    "reason": "description is a dumbbell pullover, a shoulder-extension arc over the head, but it is stored as a horizontal press with elbow extension and scapular protraction",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_pullover_on_exercise_ball",
+    "reason": "description is a dumbbell pullover, a shoulder-extension arc over the head, but it is stored as a horizontal press with elbow extension and scapular protraction",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_pullover_on_exercise_ball",
+    "reason": "description is a dumbbell pullover, a shoulder-extension arc over the head, but it is stored as a horizontal press with elbow extension and scapular protraction",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_pullover_hip_extension_on_exercise_ball",
+    "reason": "description is a pullover combined with hip extension, but it is stored as a horizontal press with elbow extension and shoulder horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "hip_extension",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_press_on_exercise_ball",
+    "reason": "description is a vertical overhead dumbbell press, but it is stored as a horizontal press with shoulder horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_press_on_exercise_ball",
+    "reason": "description is a vertical overhead dumbbell press, but it is stored as a horizontal press with shoulder horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_hammer_press_on_exercise_ball",
+    "reason": "description is a vertical overhead dumbbell press, but it is stored as a horizontal press with shoulder horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_standing_one_arm_palm_in_press",
+    "reason": "description is a vertical overhead dumbbell press, but it is stored as a horizontal press with shoulder horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_standing_palms_in_press",
+    "reason": "description is a vertical overhead dumbbell press, but it is stored as a horizontal press with shoulder horizontal adduction and the pectorals as movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_incline_twisted_flyes",
+    "reason": "description is a dumbbell fly with a wrist rotation; the trunk does not rotate, so spinal rotation and the obliques are not the movement performed",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_decline_twist_fly",
+    "reason": "description is a dumbbell fly with a wrist rotation; the trunk does not rotate, so spinal rotation and the obliques are not the movement performed",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_twisting_bench_press",
+    "reason": "description is a dumbbell bench press with a wrist rotation; the trunk does not rotate, so spinal rotation and the obliques are not the movement performed",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press",
+    "reason": "description performs shoulder external rotation; the latissimus dorsi is an internal rotator and therefore the antagonist, and the rotator cuff rather than the anterior deltoid drives the rotation",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_cuban_press_v_2",
+    "reason": "description performs shoulder external rotation; the latissimus dorsi is an internal rotator and therefore the antagonist, and the rotator cuff rather than the anterior deltoid drives the rotation",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_external_shoulder_rotation",
+    "reason": "description rotates the forearm outward with the elbow fixed: infraspinatus and teres minor are the prime movers, the anterior deltoid is an internal rotator (antagonist), and the supraspinatus abducts rather than rotates",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_upright_shoulder_external_rotation",
+    "reason": "description rotates the forearm outward with the elbow fixed: infraspinatus and teres minor are the prime movers, the anterior deltoid is an internal rotator (antagonist), and the supraspinatus abducts rather than rotates",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_seated_neutral_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_neutral_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_one_arm_neutral_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_one_arm_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_neutral_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_palms_up_wrist_curl",
+    "reason": "description is a wrist curl with the forearm fixed and resting; the elbow never moves, so the biceps, brachialis, brachioradialis and anterior deltoid are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_wrist_curl",
+    "reason": "description is a wrist flexion isolation with the forearm resting on a surface; the rectus abdominis takes no part in it",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_reverse_wrist_curl",
+    "reason": "description is a reverse wrist curl, i.e. wrist extension by the forearm extensors, but it is stored as elbow flexion with the forearm flexors (the antagonists) as prime movers",
+    "muscles": [
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_one_arm_reverse_wrist_curl",
+    "reason": "description is a reverse wrist curl, i.e. wrist extension by the forearm extensors, but it is stored as elbow flexion with the forearm flexors (the antagonists) as prime movers",
+    "muscles": [
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_over_bench_reverse_wrist_curl",
+    "reason": "description is a reverse wrist curl, i.e. wrist extension by the forearm extensors, but it is stored as elbow flexion with the forearm flexors (the antagonists) as prime movers",
+    "muscles": [
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_reverse_wrist_curl",
+    "reason": "description is a reverse wrist curl, i.e. wrist extension by the forearm extensors, but it is stored as elbow flexion with the forearm flexors (the antagonists) as prime movers",
+    "muscles": [
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_pronation",
+    "reason": "description performs forearm pronation, but it is stored as wrist flexion, and the biceps brachii is the main supinator, i.e. the antagonist of this movement",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "pronation",
+        "role": "primary"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_pronation_on_floor",
+    "reason": "description performs forearm pronation, but it is stored as wrist flexion, and the biceps brachii is the main supinator, i.e. the antagonist of this movement",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "pronation",
+        "role": "primary"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_supination",
+    "reason": "description supinates the palms and curls the dumbbells toward the shoulders; the stored movement pattern is elbow extension, the opposite of what is performed",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "supination",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_extension",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_supination_on_floor",
+    "reason": "description supinates the palms and curls the dumbbells toward the shoulders; the stored movement pattern is elbow extension, the opposite of what is performed",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "supination",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_extension",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_arm_rotate",
+    "reason": "description is a seated forearm rotation exercise, but it is stored as an elbow-extension triceps movement with the anterior deltoid as prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "supination",
+        "role": "primary"
+      },
+      {
+        "joint": "forearm",
+        "action": "pronation",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_extension",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "donkey_calf_raise",
+    "reason": "description is a calf isolation in plantar flexion; the hamstrings, glutes and rectus abdominis do not move the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_calf_raise",
+    "reason": "description states that the seated position isolates the soleus; the hamstrings do not plantar flex the ankle and the bent knee slackens the gastrocnemius",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_leg_calf_raise",
+    "reason": "description is a seated single-leg calf raise; the hamstrings and glutes do not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_leg_calf_raise_hammer_grip",
+    "reason": "description is a seated single-leg calf raise; the hamstrings and glutes do not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_one_leg_calf_raise_palm_up",
+    "reason": "description is a seated single-leg calf raise; the hamstrings and glutes do not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_single_leg_calf_raise",
+    "reason": "description raises the heels by pushing through the toes; the tibialis anterior is the dorsiflexor and therefore the direct antagonist",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_calf_raise",
+    "reason": "description raises the heels by pushing through the toes; the tibialis anterior is the dorsiflexor and therefore the direct antagonist",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "deadlift",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "deficit_deadlift",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "depth_jump",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_clean_and_jerk",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_hip_thrust",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_overhead_press",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_overhead_squat",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_power_clean",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_push_jerk",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_snatch",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_thruster",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "double_kb_swing",
+    "reason": "the described movement performs no trunk flexion; the rectus abdominis only braces the trunk here and is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_upright_row",
+    "reason": "description lifts the dumbbells toward the chin with the elbows high: that is shoulder abduction with scapular elevation, not a horizontal pull with scapular retraction and shoulder flexion, and the trunk does not flex so the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_upright_row_back_pov",
+    "reason": "description lifts the dumbbells vertically toward the chin: that is shoulder abduction with scapular elevation and the lateral deltoid as prime mover, not a horizontal pull with scapular retraction",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_upright_row",
+    "reason": "description lifts the dumbbells vertically toward the chin: that is shoulder abduction with scapular elevation and the lateral deltoid as prime mover, not a horizontal pull with scapular retraction",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "double_overhand",
+    "reason": "description is a barbell deadlift held with a double overhand grip, yet it is stored purely as a grip hold with no hip extension, and the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_hinge",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "double_under",
+    "reason": "description is rope skipping driven by repeated ankle plantar flexion; the rectus abdominis only braces and no joint action at all was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "ankle",
+        "action": "plantar_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "plantar_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "double_under_skipping",
+    "reason": "description is rope skipping driven by repeated ankle plantar flexion; the rectus abdominis only braces and no joint action at all was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "ankle",
+        "action": "plantar_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "plantar_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dead_bug",
+    "reason": "description holds the trunk still while the limbs extend, so the erector spinae is the muscle being resisted rather than a mover, and the iliopsoas only controls the limbs",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dragon_flag",
+    "reason": "description holds the body rigid against extension; the erector spinae and multifidus resist the abdominals here and are stabilizers, not prime movers",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "multifidus",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "decline_sit_up",
+    "reason": "description is a trunk flexion sit-up; the erector spinae is the antagonist of spinal flexion",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "decline_crunch",
+    "reason": "description is a torso flexion crunch with no loaded hip flexion; the iliopsoas does not flex the spine",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_wall_ball",
+    "reason": "description is a squat plus an overhead throw; the trunk does not rotate, so spinal rotation and the obliques are not the movement performed and the leg drive is missing",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_lying_femoral",
+    "reason": "description is a lying leg curl isolating the hamstrings; the gluteus maximus does not flex the knee",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "semimembranosus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_around_pullover",
+    "reason": "description lowers the dumbbell behind the head in an arc, a shoulder extension for which the latissimus dorsi is the prime mover, not a secondary",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_lying_elbow_press",
+    "reason": "description keeps the upper arms stationary and only bends and extends the elbows; the pectoralis major is not a prime mover of elbow extension",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_shoulder_press",
+    "reason": "description presses the dumbbell overhead; the latissimus dorsi extends and adducts the shoulder and is the antagonist of that movement",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_one_arm_shoulder_press_v_2",
+    "reason": "description presses the dumbbell overhead; the latissimus dorsi extends and adducts the shoulder and is the antagonist of that movement",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_shoulder_press",
+    "reason": "description presses the dumbbell overhead; the latissimus dorsi extends and adducts the shoulder and is the antagonist of that movement",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_shoulder_press_parallel_grip",
+    "reason": "description presses the dumbbell overhead; the latissimus dorsi extends and adducts the shoulder and is the antagonist of that movement",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_standing_overhead_press",
+    "reason": "description presses the dumbbell overhead; the latissimus dorsi extends and adducts the shoulder and is the antagonist of that movement",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [],
+    "movement_patterns": []
+  },
+  {
+    "exercise_code": "dumbbell_seated_alternate_shoulder",
+    "reason": "description is a seated overhead press, but only elbow extension is stored: the shoulder flexion that drives the dumbbell overhead is missing, and the latissimus dorsi is the antagonist of it",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "elbow_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_seated_biceps_curl_to_shoulder_press",
+    "reason": "description explicitly includes an overhead shoulder press, but no shoulder action and no press pattern are stored",
+    "muscles": [],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_standing_alternate_hammer_curl_and_press",
+    "reason": "description explicitly includes an overhead press, but no shoulder action and no press pattern are stored",
+    "muscles": [],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_incline_shoulder_raise",
+    "reason": "description says these are front raises: the movement is shoulder flexion, not abduction, and the serratus anterior only stabilizes the scapula",
+    "muscles": [
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_scott_press",
+    "reason": "description presses the dumbbells upward from the preacher pad with the elbows out; the pectoralis major and triceps as prime movers do not match that, and no elbow extension is stored for a press",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_w_press",
+    "reason": "description is a vertical press, but only shoulder abduction is stored and the pectoralis major is not a mover of it",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dip_triceps_focused",
+    "reason": "description calls this a vertical push exercise, yet the primary pattern stored is a horizontal press",
+    "muscles": [],
+    "joint_actions": [],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dips",
+    "reason": "description is arm extension on parallel bars to lift the bodyweight, a vertical push rather than a horizontal press",
+    "muscles": [],
+    "joint_actions": [],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "dumbbell_burpee",
+    "reason": "description combines a squat, a push-up and a jump, but no joint action at all is stored",
+    "muscles": [],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "secondary"
+      }
+    ]
+  }
+]

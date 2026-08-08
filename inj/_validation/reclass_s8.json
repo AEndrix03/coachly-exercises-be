@@ -1,0 +1,2413 @@
+[
+  {
+    "exercise_code": "tempo_parallel_bar_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_straight_bar_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "three_bench_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tricep_dip_between_chairs",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dip_bench_leg",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dip_between_benches",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dips_floor",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_bench_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_chest_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_dips",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_straight_bar_dip",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_three_bench_dips",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_tricep_dips",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_triceps_dip_on_high_parallel_bars",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wide_grip_chest_dip_on_high_parallel_bars",
+    "reason": "description is a dip: the body is lowered and pressed back up in the sagittal plane, so the shoulder extends and the pattern is a vertical press; stored as horizontal shoulder adduction and horizontal press",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dip_parallel_bar",
+    "reason": "description is a parallel-bar dip (vertical push driven by shoulder extension), not a horizontal press; the clavicular pec is not a prime mover in a dip",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_parallel_bar_dip",
+    "reason": "description is a parallel-bar dip (vertical push driven by shoulder extension), not a horizontal press; the clavicular pec is not a prime mover in a dip",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_close_grip_handstand_push_up",
+    "reason": "description is an inverted overhead press: the arms press the body upward, so this is shoulder flexion and a vertical press, not horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_handstand_push_up",
+    "reason": "description is an inverted overhead press: the arms press the body upward, so this is shoulder flexion and a vertical press, not horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_elevated_pike_push_up",
+    "reason": "description is an inverted overhead press: the arms press the body upward, so this is shoulder flexion and a vertical press, not horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_close_grip_handstand_push_up",
+    "reason": "description is an inverted overhead press: the arms press the body upward, so this is shoulder flexion and a vertical press, not horizontal adduction",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_eccentric_calf_raise",
+    "reason": "description is ankle plantar flexion (a calf raise); the hamstrings and glutes are not movers here",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_isometric_calf_raise_hold",
+    "reason": "description is ankle plantar flexion (a calf raise); the hamstrings and glutes are not movers here",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_stair_calf_raise",
+    "reason": "description is ankle plantar flexion (a calf raise); the hamstrings and glutes are not movers here",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_toe_walk",
+    "reason": "description is ankle plantar flexion (a calf raise); the hamstrings and glutes are not movers here",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_donkey_calf_raise",
+    "reason": "description is ankle plantar flexion (a calf raise); the hamstrings and glutes are not movers here",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "toe_walk",
+    "reason": "description is walking on the balls of the feet (plantar flexion); the hamstring is not a mover and the tibialis anterior is the antagonist",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_bent_knee_calf_raise",
+    "reason": "description is plantar flexion; the tibialis anterior is the antagonist of the movement",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "toes_in_seated_calf_raise",
+    "reason": "description is plantar flexion; the tibialis anterior is the antagonist of the movement",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "toes_out_seated_calf_raise",
+    "reason": "description is plantar flexion; the tibialis anterior is the antagonist of the movement",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_bodyweight_triceps_extension",
+    "reason": "description is an elbow-extension triceps isolation; the anterior deltoid only holds the arm position, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_wall_triceps_extension",
+    "reason": "description is an elbow-extension triceps isolation; the anterior deltoid only holds the arm position, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_overhead_extension",
+    "reason": "description is an elbow-extension triceps isolation; the anterior deltoid only holds the arm position, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_press",
+    "reason": "description is an elbow-extension triceps isolation; the anterior deltoid only holds the arm position, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_triceps_extension",
+    "reason": "description is an elbow-extension triceps isolation; the anterior deltoid only holds the arm position, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tate_press",
+    "reason": "description is a dumbbell triceps isolation on a bench emphasising the lateral head; the anterior deltoid is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tricep_pushdown",
+    "reason": "description is a triceps isolation through elbow extension; the forearm flexors only grip the handle",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_dip_machine",
+    "reason": "description is a triceps isolation through elbow extension; the forearm flexors only grip the handle",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tricep_kickback_with_dumbbell",
+    "reason": "description is a dumbbell triceps kickback isolating elbow extension; the glutes and hamstrings take no part in it",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triceps_kickback",
+    "reason": "description is a dumbbell triceps kickback isolating elbow extension; the glutes and hamstrings take no part in it",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wrist_curl",
+    "reason": "description isolates the forearm flexors through wrist flexion; the biceps and brachialis are elbow flexors and do not act",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wrist_roller",
+    "reason": "description is a forearm isolation driven by the wrist; the biceps is not a mover",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wrist_rollerer",
+    "reason": "description rolls the weight using wrist flexion and extension; the biceps and triceps are not movers and the wrist extensors were missing",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "towel_curl",
+    "reason": "description is elbow flexion against a towel, not wrist flexion",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "elbow_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_air_squat",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_pistol_squat",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_split_squat",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_squat",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_wide_stance_back_squat",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_sit",
+    "reason": "description is a squat pattern: the vasti and the gluteus maximus are the prime movers of knee and hip extension and were missing or demoted",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_sissy_squat",
+    "reason": "description is a quad-focused knee extension; the vasti are prime movers and were missing",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_sissy_squat",
+    "reason": "description is a quad-dominant knee-extension movement with the hips held extended; the gluteus maximus is not the prime mover and the vasti were missing",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_ankling_drill",
+    "reason": "description is an ankle coordination and mobility drill; the rectus abdominis is not the mover and no ankle action was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "ankle",
+        "action": "plantar_flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_controlled_mountain_climber",
+    "reason": "description alternates driving the knees toward the chest: hip flexion is the movement, the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_hip_airplane",
+    "reason": "description is single-leg pelvic rotation over the stance hip; the movers are the hip rotators and abductors, not the rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_medius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "external_rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_wall_slide_reach",
+    "reason": "description is a shoulder mobility slide and reach against a wall; the rectus abdominis is not the mover and no shoulder action was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_slide_reach",
+    "reason": "description is a shoulder mobility slide and reach against a wall; the rectus abdominis is not the mover and no shoulder action was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_march",
+    "reason": "description is an alternating knee drive or march: hip flexion is the movement, the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_banded_high_knee_march",
+    "reason": "description is an alternating knee drive or march: hip flexion is the movement, the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_wall_march",
+    "reason": "description is an alternating knee drive or march: hip flexion is the movement, the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "triple_under",
+    "reason": "description is a jump-rope jump; the rectus abdominis is not the prime mover and no ankle action was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "ankle",
+        "action": "plantar_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "jump",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_wall_walk",
+    "reason": "description walks the feet up a wall into a handstand: the shoulders press and the trunk resists extension, no lower-body action is described and none was stored",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_battle_rope_waves",
+    "reason": "description is alternating vertical rope waves driven by the shoulders; no trunk rotation is performed",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_rotation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_medicine_ball_slam",
+    "reason": "description slams the ball straight down in front of the body: trunk flexion and shoulder extension, not rotation",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_plate_halo",
+    "reason": "description circles a plate around the head while the trunk stays stable: the shoulders move and the core resists rotation rather than producing it",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_rotation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "primary"
+      },
+      {
+        "pattern": "anti_rotation",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wall_ball_shot",
+    "reason": "description is a deep squat followed by a throw to a high target; there is no trunk rotation",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tuck_dragon_flag",
+    "reason": "description is an anti-extension hold of the whole body; the erector spinae is the antagonist here and the rectus abdominis is the prime mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wheel_rollerout",
+    "reason": "description is an ab-wheel rollout, an anti-extension task; the erector spinae is the antagonist, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_front_plank",
+    "reason": "description is a loaded front plank; the anterior deltoid is not a prime mover and the erector spinae is the antagonist of anti-extension",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_arch_body_hold",
+    "reason": "description is an arch (superman) hold: the spine is extended, so the erector spinae and glutes are the movers, not the rectus abdominis in anti-extension",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "anti_extension",
+        "role": "remove"
+      },
+      {
+        "pattern": "spinal_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_side_plank",
+    "reason": "description is a side plank: it resists lateral flexion and is driven by the obliques, not by anti-extension of the rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "lateral_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "anti_extension",
+        "role": "remove"
+      },
+      {
+        "pattern": "lateral_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_decline_sit_up",
+    "reason": "description is a trunk-flexion movement; the erector spinae is the antagonist of spinal flexion",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_overhead_crunch_on_stability_ball",
+    "reason": "description is a trunk-flexion movement; the erector spinae is the antagonist of spinal flexion",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_hanging_leg_hip_raise",
+    "reason": "description is a trunk-flexion movement; the erector spinae is the antagonist of spinal flexion",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_hip_hinge_good_morning",
+    "reason": "description is a hip hinge for the posterior chain; the gluteus maximus and biceps femoris are the prime movers of hip extension",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_wide_stance_good_morning",
+    "reason": "description is a loaded hip hinge; the gluteus maximus is a prime mover and the erector spinae braces the spine",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_single_leg_rdl",
+    "reason": "description is a Romanian deadlift: hip extension driven by the glutes and hamstrings, which were stored as secondary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_glute_ham_raise",
+    "reason": "description states hip extension and knee flexion; hip extension and its prime mover were missing entirely",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "semimembranosus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_hip_bridge_walkout",
+    "reason": "description is a glute bridge walkout; the gluteus maximus is the prime mover of hip extension and was missing",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "trap_bar_deadlift",
+    "reason": "description is a hip-hinge deadlift; the rectus abdominis only braces the trunk",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_hip_thrust",
+    "reason": "description is a loaded hip extension; the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "z_press",
+    "reason": "description is a seated overhead press; the rectus abdominis braces the unsupported torso, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wind_sprints",
+    "reason": "description is sprinting; hip and knee extension drive it while the rectus abdominis only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tire_flip",
+    "reason": "description is an explosive lift of a tire off the ground: a hip hinge and leg drive, not an overhead carry driven by shoulder flexion",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "carry",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_hinge",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "two_toe_touch",
+    "reason": "description is a forward bend to touch the toes; that is trunk and hip flexion, while the stored spinal extension is the opposite movement",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_front_raise",
+    "reason": "description raises straight arms in front of the body; the elbow does not flex, so the biceps is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_round_arm",
+    "reason": "description raises the dumbbells laterally to shoulder height; the lateral deltoid is the prime mover and the triceps is not a mover at all",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "weighted_standing_hand_squeeze",
+    "reason": "description is an isometric forearm and grip hold; the biceps and triceps are not movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_handstand_shrug",
+    "reason": "description is a scapular shrug: the upper trapezius elevates the scapula and is the prime mover, not the anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_prone_y_raise",
+    "reason": "description is a prone Y raise: the arms are raised overhead along the Y line, driven by the lower trapezius and shoulder abduction, not by horizontal abduction",
+    "muscles": [
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "tempo_farmer_walk_on_toes",
+    "reason": "description is a loaded carry performed on the toes; the carry and the grip were missing",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hand",
+        "action": "grip",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "carry",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "walking_high_knees_lunge",
+    "reason": "description is a walking lunge with a knee drive between steps, not a jump",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "jump",
+        "role": "remove"
+      },
+      {
+        "pattern": "locomotion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wheel_run",
+    "reason": "description is an ab-wheel rollout, a trunk anti-extension task, not lower-body locomotion driven by the quadriceps",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      },
+      {
+        "pattern": "anti_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "wrestler_bridge",
+    "reason": "description is a neck-strengthening bridge performed on the head; the neck extensors and the neck action were missing entirely",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "neck",
+        "role": "primary"
+      }
+    ]
+  }
+]

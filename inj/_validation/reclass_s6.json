@@ -1,0 +1,2600 @@
+[
+  {
+    "exercise_code": "machine_dip",
+    "reason": "description is an assisted vertical push (dip) for triceps and chest; stored as a triceps pushdown with no shoulder action and no press pattern",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "adduction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "maltese_lean",
+    "reason": "description is an isometric straight-arm lean on parallettes or rings; the abdominals brace, they are not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "manual_neck_resistance_extension",
+    "reason": "description performs neck EXTENSION; stored joint action is neck flexion and sternocleidomastoid (a neck flexor) is a prime mover",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_harness_extension",
+    "reason": "description performs neck EXTENSION; stored joint action is neck flexion and sternocleidomastoid (a neck flexor) is a prime mover",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_machine_extension",
+    "reason": "description performs neck EXTENSION; stored joint action is neck flexion and sternocleidomastoid (a neck flexor) is a prime mover",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "manual_neck_resistance_flexion",
+    "reason": "description performs neck FLEXION; splenius capitis and cervicis are neck extensors and cannot be prime movers here",
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_harness_flexion",
+    "reason": "description performs neck FLEXION; splenius capitis and cervicis are neck extensors and cannot be prime movers here",
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_machine_flexion",
+    "reason": "description performs neck FLEXION; splenius capitis and cervicis are neck extensors and cannot be prime movers here",
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "manual_neck_resistance_lateral_flexion",
+    "reason": "description performs LATERAL flexion of the neck; stored joint action is plain neck flexion",
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_harness_lateral_flexion",
+    "reason": "description performs LATERAL flexion of the neck; stored joint action is plain neck flexion",
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_machine_lateral_flexion",
+    "reason": "description performs LATERAL flexion of the neck; stored joint action is plain neck flexion",
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_rotation_manual_resistance",
+    "reason": "description is neck rotation against manual resistance; stored joint action is neck flexion",
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neck_side_stretch",
+    "reason": "description is a lateral tilt of the head stretching the neck; trapezius middle is not the muscle involved",
+    "muscles": [
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "levator_scapulae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "neck",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "march_sit_wall",
+    "reason": "description is a wall sit with alternating knee drives: hip flexion against an isometric quadriceps hold, not a trunk anti-extension drill",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "squat",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_catch_and_overhead_throw",
+    "reason": "description is an explosive overhead throw out of a squat; stored as a barbell row with elbow flexion, scapular retraction and a horizontal pull",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "secondary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "squat",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_chest_pass",
+    "reason": "description is a horizontal chest push or throw; stored as a spinal rotation exercise",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_chest_push_from_3_point_stance",
+    "reason": "description is a horizontal chest push or throw; stored as a spinal rotation exercise",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_chest_push_multiple_response",
+    "reason": "description is a horizontal chest push or throw; stored as a spinal rotation exercise",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_chest_push_single_response",
+    "reason": "description is a horizontal chest push or throw; stored as a spinal rotation exercise",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_chest_push_with_run_release",
+    "reason": "description is a horizontal chest push or throw; stored as a spinal rotation exercise",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_overhead_slam",
+    "reason": "description is an overhead-to-floor slam: shoulder extension plus trunk flexion, not trunk rotation",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_slam",
+    "reason": "description is an overhead slam driven by shoulder extension and trunk flexion; stored as rotation with no shoulder musculature at all",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "one_arm_slam_with_medicine_ball",
+    "reason": "description is a one-arm overhead slam: shoulder extension and trunk flexion, not trunk rotation",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "medicine_ball_supine_chest_throw",
+    "reason": "description is a supine explosive chest throw, a horizontal press; stored as a barbell row",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "mid_pin_press",
+    "reason": "description is a bench press from mid-range pins; the sternal pectoralis is the prime mover, not a secondary",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "monster_walk",
+    "reason": "description is a banded lateral walk; gluteus medius is the prime mover of hip abduction, not the hamstrings or the abdominals",
+    "muscles": [
+      {
+        "muscle": "gluteus_medius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_minimus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "tensor_fasciae_latae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "mountain_climber",
+    "reason": "description is alternating knee drives held in a plank; no joint action was stored at all",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "muscle_snatch",
+    "reason": "description takes the barbell from floor or hip to overhead in one motion; the overhead press component (deltoids, triceps, traps) is missing entirely",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "muscle_up_bar",
+    "reason": "description is a pull above the bar finishing with a press; latissimus dorsi is absent, teres major carries the primary role and the pressing triceps are missing",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "one_arm_pull_up",
+    "reason": "description is a one-arm vertical pull; latissimus dorsi is missing and teres major is stored as the sole primary",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "narrow_foot_leg_press",
+    "reason": "description is a narrow-stance leg press, a knee and hip extension movement; stored as a barbell row with arm and upper-back musculature and a horizontal pull pattern",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "knee_extension",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "narrow_stance_hack_squat",
+    "reason": "description is a narrow-stance hack squat, a knee and hip extension movement; stored as a barbell row with arm and upper-back musculature and a horizontal pull pattern",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "knee_extension",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "narrow_stance_smith_machine_squat",
+    "reason": "description is a narrow-stance Smith machine squat, a knee and hip extension movement; stored as a barbell row with arm and upper-back musculature and a horizontal pull pattern",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "knee_extension",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "narrow_stance_squat",
+    "reason": "description is a narrow-stance squat, a knee and hip extension movement; stored as a barbell row with arm and upper-back musculature and a horizontal pull pattern",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "knee_extension",
+        "role": "secondary"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "negative_crunch",
+    "reason": "description is a crunch, spinal flexion only; the iliopsoas produces no hip flexion here and cannot be a prime mover",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "negative_dragon_flag",
+    "reason": "description is the eccentric of a dragon flag; erector spinae is the antagonist and is stored as the primary while rectus abdominis is only secondary",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "neutral_grip_close_grip_lat_pulldown",
+    "reason": "description states the movement emphasises the latissimus dorsi, which is stored only as secondary behind the biceps",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "oblique_crunch",
+    "reason": "description is a crunch with torso rotation to target the obliques; no oblique is stored and iliopsoas is a primary",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "olympic_barbell_hammer_curl",
+    "reason": "description is a neutral-grip hammer curl; brachioradialis and brachialis are the prime movers, not the wrist and finger flexors",
+    "muscles": [
+      {
+        "muscle": "brachioradialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "olympic_barbell_triceps_extension",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "overhead_band_tricep_extension",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "overhead_tricep_extension",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "overhead_tricep_extension_with_dumbbell",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_bodyweight_triceps_extension",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_wall_triceps_extension",
+    "reason": "description is a triceps isolation at the elbow; the anterior deltoid only holds the arm overhead and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "overhead_squat_triceps_press",
+    "reason": "description combines a squat with an overhead triceps press; the squat is absent from joint actions and patterns and the anterior deltoid only holds position",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "offset_axle_deadlift_hold",
+    "reason": "description is an isometric loaded hold whose stated demand is grip and stability; no grip action or pattern was stored",
+    "joint_actions": [
+      {
+        "joint": "hand",
+        "action": "grip",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "grip",
+        "role": "secondary"
+      },
+      {
+        "pattern": "carry",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "offset_thick_bar_deadlift_hold",
+    "reason": "description is an isometric loaded hold whose stated demand is grip and stability; no grip action or pattern was stored",
+    "joint_actions": [
+      {
+        "joint": "hand",
+        "action": "grip",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "grip",
+        "role": "secondary"
+      },
+      {
+        "pattern": "carry",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "otis_up",
+    "reason": "description is a partial supine trunk lift; erector spinae is the antagonist of spinal flexion and cannot be a mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "outside_leg_kick_push_up",
+    "reason": "description is a push-up with an added leg kick; the pectorals and triceps are demoted to secondary while glutes and quadriceps hold the primary roles",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "push_up_inside_leg_kick",
+    "reason": "description is a push-up with an added lateral leg kick; the pectorals are secondary while glutes and quadriceps are stored as primaries",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pike_to_cobra_push_up",
+    "reason": "description is a push-up sequence; chest and triceps are secondary while glutes and rectus abdominis hold the primary roles",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "one_leg_donkey_calf_raise",
+    "reason": "description is a heel raise, i.e. ankle plantar flexion; hamstrings and glutes are stored as movers of a calf exercise",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_eccentric_calf_raise",
+    "reason": "description is a heel raise, i.e. ankle plantar flexion; hamstrings and glutes are stored as movers of a calf exercise",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_isometric_calf_raise_hold",
+    "reason": "description is a heel raise, i.e. ankle plantar flexion; hamstrings and glutes are stored as movers of a calf exercise",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_stair_calf_raise",
+    "reason": "description is a heel raise, i.e. ankle plantar flexion; hamstrings and glutes are stored as movers of a calf exercise",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_toe_walk",
+    "reason": "description is a heel raise, i.e. ankle plantar flexion; hamstrings and glutes are stored as movers of a calf exercise",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "one_leg_floor_calf_raise",
+    "reason": "description is a single-leg heel raise; tibialis anterior is the antagonist of plantar flexion and is stored as a primary",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pacing_row",
+    "reason": "description is rowing on an ergometer; rectus abdominis is the sole primary and every actual prime mover of the rowing stroke is missing",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "secondary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pause_conventional_deadlift",
+    "reason": "description is a hip-hinge pull; glutes and hamstrings are the prime movers while erector spinae is stored as the sole primary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pause_rack_pull",
+    "reason": "description is a hip-hinge pull; glutes and hamstrings are the prime movers while erector spinae is stored as the sole primary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pause_sumo_rack_pull",
+    "reason": "description is a hip-hinge pull; glutes and hamstrings are the prime movers while erector spinae is stored as the sole primary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pause_sumo_deficit_deadlift",
+    "reason": "description is a sumo deadlift; gluteus maximus is the prime hip extensor and is stored only as secondary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pause_wide_stance_back_squat",
+    "reason": "description is a back squat; every quadriceps head and the gluteus maximus are stored as secondary with adductor magnus the only primary",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_medialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_intermedius",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_elevated_pike_push_up",
+    "reason": "description is an inverted overhead press; stored as a horizontal press with shoulder horizontal adduction instead of shoulder flexion",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_handstand_push_up",
+    "reason": "description is an inverted overhead press; stored as a horizontal press with shoulder horizontal adduction instead of shoulder flexion",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pike_push_up",
+    "reason": "description is an inverted overhead press; stored as a horizontal press with shoulder horizontal adduction instead of shoulder flexion",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_handstand_shrug",
+    "reason": "description is a scapular shrug held in a handstand; the anterior deltoid is stored as the prime mover instead of the upper trapezius",
+    "muscles": [
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "paused_side_plank",
+    "reason": "description is a side plank; it resists lateral flexion through the obliques, not sagittal anti-extension through rectus abdominis alone",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_medius",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "lateral_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "lateral_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pelvic_tilt",
+    "reason": "description is a posterior pelvic tilt pressing the low back into the floor; erector spinae is the antagonist and no joint action or pattern was stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "spinal_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pelvic_tilt_into_bridge",
+    "reason": "description lifts the hips into a bridge, but no joint action or movement pattern was stored",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "planche_lean",
+    "reason": "description is a straight-arm forward lean supported on the hands; the anterior deltoid is the loaded prime mover and is stored as secondary",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "planche_push_up",
+    "reason": "description is a bodyweight press held parallel to the ground; both pectoral heads are secondary, serratus is the sole primary and the anterior deltoid is missing",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pseudo_planche_push_up",
+    "reason": "description is a push-up variation; the sternal pectoralis is the pressing prime mover and is stored as secondary behind serratus anterior",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "plate_halo",
+    "reason": "description circles a plate around the head while keeping the torso stable; stored as active spinal rotation with rectus abdominis as prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "anti_rotation",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "anti_rotation",
+        "role": "primary"
+      },
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "plate_neck_curl",
+    "reason": "description is neck flexion with a plate on the forehead; stored as a wrist curl with the elbow flexors as movers",
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "neck",
+        "role": "primary"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "plate_raise",
+    "reason": "description is a FRONT raise emphasising the anterior deltoid; stored as shoulder abduction",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "remove"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_abduction",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pronazione_supinazione",
+    "reason": "description is forearm rotation about its long axis; stored as wrist flexion with the biceps as a prime mover",
+    "muscles": [
+      {
+        "muscle": "brachioradialis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "forearm",
+        "action": "pronation",
+        "role": "primary"
+      },
+      {
+        "joint": "forearm",
+        "action": "supination",
+        "role": "primary"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "posterior_step_to_overhead_reach",
+    "reason": "description is a reverse lunge with an overhead reach; no joint action was stored and rectus abdominis is a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "squat",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "posterior_tibialis_stretch",
+    "reason": "description stretches the ankle and calf; hamstrings and quadriceps are stored as the muscles involved",
+    "muscles": [
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "potty_squat",
+    "reason": "description is a deep bodyweight squat; rectus abdominis is stored as a prime mover and gluteus maximus only as secondary",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "power_clean",
+    "reason": "description is an explosive floor-to-rack pull; rectus abdominis only braces the trunk and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "power_clean_and_jerk",
+    "reason": "description explicitly includes the clean from the floor; only the pressing half of the jerk is stored, with no hip extension and no glutes or hamstrings",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_hinge",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "prone_y_raise",
+    "reason": "description raises the arms into a Y from prone: shoulder flexion driven by the lower trapezius, not pure horizontal abduction",
+    "muscles": [
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "pull_in_on_stability_ball",
+    "reason": "description brings the knees toward the chest, a hip flexion movement, but only spinal flexion is stored",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "push_to_run",
+    "reason": "description combines a push-up with alternating knee drives; no joint action was stored and neither the pressing nor the hip-flexing musculature appears",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "push_up_to_side_plank",
+    "reason": "description is a push-up followed by a rotation into a side plank; the sternal pectoralis is stored as secondary behind the anterior deltoid and the obliques are absent",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "lateral_flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "lateral_flexion",
+        "role": "secondary"
+      }
+    ]
+  }
+]

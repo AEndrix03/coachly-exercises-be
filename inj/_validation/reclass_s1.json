@@ -1,0 +1,3263 @@
+[
+  {
+    "exercise_code": "air_bike",
+    "reason": "description is a supine alternating pedalling motion driven by hip flexion; no joint action was recorded at all",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "air_squat",
+    "reason": "description is a squat lowering the hips: the glutes and quadriceps extend hip and knee, the hamstring is not the prime mover",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "all_fours_squad_stretch",
+    "reason": "description is a quadriceps stretch; the hamstring is the antagonist, not the target",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_alternating_dumbbell_floor_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_ankling_drill",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_band_external_rotation_press_out",
+    "reason": "description is a shoulder external rotation; the chest is the internal-rotation antagonist and the elbow does not extend",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "external_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_battle_rope_waves",
+    "reason": "description is alternating rope waves driven by shoulder flexion and extension, not by trunk rotation",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_bottom_up_kettlebell_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_cable_pull_through",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_dumbbell_floor_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_farmer_walk_on_toes",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_front_rack_reverse_lunge",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_half_kneeling_landmine_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_hip_airplane",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_landmine_chest_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_lateral_band_walk",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_lateral_bound_stick",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_lunge_to_knee_drive",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_medicine_ball_chest_pass",
+    "reason": "description is a two-handed chest pass, i.e. a horizontal press, not a trunk rotation",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_medicine_ball_slam",
+    "reason": "description is an overhead-to-floor slam driven by shoulder extension and trunk flexion, not by rotation",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_monster_walk",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_prone_y_raise",
+    "reason": "description is a prone Y raise: the arms are lifted overhead in a Y, i.e. shoulder flexion, not horizontal abduction",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "scapular",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_rope_pull_through",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_single_arm_cable_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_single_arm_dumbbell_push_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_sled_push",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_sled_toe_push",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_split_stance_calf_pulse",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_standing_band_hip_flexion",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_step_up_to_knee_drive",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_step_up_with_knee_drive",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_tall_kneeling_band_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_tibialis_wall_raise",
+    "reason": "description is alternating dorsiflexion of the feet; the gastrocnemius is the antagonist",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "alternating_wall_slide_reach",
+    "reason": "description is a scapular wall slide with an overhead reach, not a locomotion drill",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_lower",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      },
+      {
+        "pattern": "scapular",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "american_kb_swing",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "ankling_drill",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "archer_ring_row",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "arm_slingers_hanging_bent_knee_legs",
+    "reason": "description is a hanging leg/knee raise; the anterior deltoid only supports the hang and the hip flexors are the prime movers",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "arm_slingers_hanging_straight_legs",
+    "reason": "description is a hanging leg/knee raise; the anterior deltoid only supports the hang and the hip flexors are the prime movers",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "arms_apart_circular_toe_touch",
+    "reason": "description is a forward trunk flexion touching the toes; the hamstrings, glutes and quadriceps are stretched, not prime movers",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_hanging_knee_raise_with_throw_down",
+    "reason": "description is a hanging knee raise with an explosive leg throw-down, not a barbell row",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_lying_calves_stretch",
+    "reason": "description is a calf stretch; the hamstring is not the target",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_lateral_throw_down",
+    "reason": "description is a supine straight-leg raise, not a barbell row",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_lying_leg_raise_with_throw_down",
+    "reason": "description is a supine straight-leg raise, not a barbell row",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_prone_lying_quads_stretch",
+    "reason": "description is a quadriceps stretch; the hamstring is the antagonist, not the target",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_prone_rectus_femoris_stretch",
+    "reason": "description is a rectus femoris (quadriceps) stretch; the rectus abdominis is not involved",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_side_lying_adductor_stretch",
+    "reason": "description is an adductor stretch; the hamstring is not the target",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "assisted_standing_triceps_extension_with_towel",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "back_pec_stretch",
+    "reason": "description is a chest stretch; the latissimus dorsi is not the target and the pectoralis major is",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "ball_squeeze",
+    "reason": "description is an isometric adductor squeeze of a ball between the knees; the chest is not involved",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "adductor_magnus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "adduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_adduction",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_assisted_dip",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_assisted_wheel_rollerout",
+    "reason": "description is an anti-extension rollout; the erector spinae is the antagonist being resisted, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_external_rotation_press_out",
+    "reason": "description is a shoulder external rotation; the chest is the internal-rotation antagonist and the elbow does not extend",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "external_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_front_lateral_raise",
+    "reason": "description is an arm raise to shoulder height; the middle trapezius retracts rather than raises and the latissimus dorsi is the antagonist",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_front_raise",
+    "reason": "description is a straight-arm front raise; the triceps does not flex the shoulder and the lat is the antagonist",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_hip_thrust",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_horizontal_pallof_press",
+    "reason": "description is an anti-rotation Pallof press; the chest and triceps only hold the arms extended",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "anti_rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_lying_hip_internal_rotation",
+    "reason": "description is a HIP internal rotation; the rotator-cuff muscles belong to the shoulder and are not involved",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "tensor_fasciae_latae",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_minimus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_medius",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "external_rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "external_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_lying_straight_leg_raise",
+    "reason": "description is a straight-leg raise driven by hip flexion, which was missing from the joint actions",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_neck_extension",
+    "reason": "description is neck EXTENSION; the sternocleidomastoid and scalenes are the neck flexors, i.e. the antagonists",
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "neck",
+        "action": "extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_neck_flexion",
+    "reason": "description is neck FLEXION; splenius capitis and cervicis are the neck extensors, i.e. the antagonists",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_neck_lateral_flexion",
+    "reason": "description is LATERAL neck flexion, not flexion; the sternocleidomastoid and scalenes side-bend the neck",
+    "muscles": [
+      {
+        "muscle": "splenius_capitis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "splenius_cervicis",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "scalenes",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "neck",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "neck",
+        "action": "lateral_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_chest_press",
+    "reason": "description is a chest press with a twist; the pressing joint actions and pattern were missing",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_one_arm_twisting_seated_row",
+    "reason": "description is a seated row with a twist; the pulling joint actions and pattern were missing",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_push_sit_up",
+    "reason": "description is a sit-up (trunk flexion); the anterior deltoid only holds the load against the chest",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_reverse_fly",
+    "reason": "description targets the posterior deltoid and rhomboids; the anterior deltoid is the antagonist and the lat does not horizontally abduct",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_reverse_wrist_curl",
+    "reason": "description is a wrist EXTENSION; the forearm flexors are the antagonist and the biceps/brachialis act only at the elbow",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_seated_hip_internal_rotation",
+    "reason": "description is a HIP internal rotation; the rotator-cuff muscles belong to the shoulder and are not involved",
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "tensor_fasciae_latae",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_minimus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gluteus_medius",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "external_rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "external_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_shoulder_press",
+    "reason": "description is an overhead vertical press, not a horizontal chest press",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "elevation",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_shrug",
+    "reason": "description is scapular elevation only; the anterior deltoid does not elevate the scapula and the middle trapezius retracts rather than elevates",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_side_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_single_leg_calf_raise",
+    "reason": "description is a heel raise (plantar flexion); tibialis anterior is the antagonist, not a mover",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_single_leg_reverse_calf_raise",
+    "reason": "description is a single-leg heel raise; hamstring and glute do not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_squat_row",
+    "reason": "description is a horizontal pull performed in a squat stance; the lat is a prime mover of the pull, the legs only hold the position",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_standing_rear_delt_row",
+    "reason": "description focuses on the posterior deltoid; the anterior deltoid is the antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_triceps_push_down",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_twisting_overhead_press",
+    "reason": "description is an overhead press with a twist; the pressing joint actions and pattern were missing",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_two_legs_calf_raise_band_under_both_legs_v_2",
+    "reason": "description is a heel raise (plantar flexion); tibialis anterior is the antagonist, not a mover",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_vertical_pallof_press",
+    "reason": "description is an anti-rotation Pallof press; the chest and triceps only hold the arms extended",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_rotation",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "anti_rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_wrist_curl",
+    "reason": "description is an isolated wrist flexion; the biceps and triceps do not act at the wrist",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "band_y_raise",
+    "reason": "description is an arm raise to shoulder height; the middle trapezius retracts rather than raises and the lateral deltoid is the prime mover",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "banded_fire_hydrant",
+    "reason": "description is a quadruped hip ABDUCTION, not a hip extension",
+    "muscles": [
+      {
+        "muscle": "gluteus_minimus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "abduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_extension",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_abduction",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "banded_high_knee_march",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "banded_leg_press",
+    "reason": "description is a banded leg press; the chest and triceps take no part in it",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "protraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "squat",
+        "role": "primary"
+      },
+      {
+        "pattern": "knee_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "banded_reverse_sled_march",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "banded_wall_march",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bar_facing_burpee",
+    "reason": "description is a burpee (drop to the floor plus a vertical jump); the hip extensors drive it while the trunk only braces",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_deadlift_grip",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_floor_calf_raise",
+    "reason": "description is a heel raise; the hamstring does not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_front_raise",
+    "reason": "description is a straight-arm front raise; the biceps does not flex the shoulder against the load",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_hip_thrust",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_back_of_the_head_tricep_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_close_grip_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_lifting_on_hip",
+    "reason": "description is a barbell hip lift on a bench, not a biceps curl",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_lying_triceps_extension_skull_crusher",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_narrow_stance_squat",
+    "reason": "description is a barbell squat with a narrow stance, not a row",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rectus_femoris",
+        "involvement": "primary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "ankle",
+        "action": "dorsiflexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "remove"
+      },
+      {
+        "pattern": "squat",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_palms_down_wrist_curl_over_a_bench",
+    "reason": "description is a wrist EXTENSION; the forearm flexors are the antagonist and the biceps/brachialis act only at the elbow",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_palms_up_wrist_curl_over_a_bench",
+    "reason": "description is an isolated wrist flexion with the forearms resting on a bench; the shoulder is not involved",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_press_sit_up",
+    "reason": "description is a sit-up (trunk flexion); the anterior deltoid only holds the load against the chest",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_rear_delt_raise",
+    "reason": "description targets the posterior deltoids; the anterior deltoid is the antagonist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_rear_delt_row",
+    "reason": "description focuses on the posterior deltoid; the middle trapezius assists retraction but is not the prime mover",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_revers_wrist_curl_v_2",
+    "reason": "description is a wrist EXTENSION; the forearm flexors are the antagonist and the biceps/brachialis act only at the elbow",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_reverse_grip_skullcrusher",
+    "reason": "description is a triceps extension; the forearm flexors only grip the bar",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_reverse_wrist_curl",
+    "reason": "description is a wrist EXTENSION; the forearm flexors are the antagonist and the biceps/brachialis act only at the elbow",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_rollerout",
+    "reason": "description is an anti-extension rollout; the erector spinae is the antagonist being resisted, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_rollerout_from_bench",
+    "reason": "description is an anti-extension rollout; the anterior deltoid only holds the arm position",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_seated_calf_raise",
+    "reason": "description is a seated (knee-flexed) heel raise: the soleus is the prime mover and the hamstring does not plantar flex",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_seated_close_grip_behind_neck_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_seated_overhead_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_shrug",
+    "reason": "description is scapular elevation only; the anterior deltoid does not elevate the scapula and the middle trapezius retracts rather than elevates",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_sitted_alternate_leg_raise",
+    "reason": "description is a straight-leg raise driven by hip flexion, which was missing from the joint actions",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_sitted_alternate_leg_raise_variant_b",
+    "reason": "description is a straight-leg raise driven by hip flexion, which was missing from the joint actions",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_skier",
+    "reason": "description is an explosive combined hip and knee extension with a jump, not a trunk rotation",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "jump",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_ab_rollerout",
+    "reason": "description is an anti-extension rollout; the erector spinae is the antagonist being resisted, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "erector_spinae",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "transversus_abdominis",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_back_wrist_curl",
+    "reason": "description is a wrist EXTENSION; the forearm flexors are the antagonist and the biceps/brachialis act only at the elbow",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachioradialis",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_calf_raise",
+    "reason": "description is a heel raise; the hamstring does not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_front_raise_over_head",
+    "reason": "description is a straight-arm front raise; the triceps only holds the elbow and the lat is the antagonist",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_leg_calf_raise",
+    "reason": "description is a heel raise; the hamstring does not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_overhead_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_standing_rocking_leg_calf_raise",
+    "reason": "description is a heel raise; the hamstring does not plantar flex the ankle",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_upright_row",
+    "reason": "description is an upright row led by the elbows; the upper trapezius and lateral deltoid drive it, not the middle trapezius and anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_upright_row_v_2",
+    "reason": "description is an upright row led by the elbows; the upper trapezius and lateral deltoid drive it, not the middle trapezius and anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_upright_row_v_3",
+    "reason": "description is an upright row led by the elbows; the upper trapezius and lateral deltoid drive it, not the middle trapezius and anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_wide_grip_upright_row",
+    "reason": "description is an upright row led by the elbows; the upper trapezius and lateral deltoid drive it, not the middle trapezius and anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_wrist_curl",
+    "reason": "description is an isolated wrist flexion with the forearms supported; the biceps and the trunk are not movers",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "barbell_wrist_curl_v_2",
+    "reason": "description is an isolated wrist flexion; the biceps and brachialis flex the elbow, not the wrist",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "battle_rope_waves",
+    "reason": "description is alternating rope waves driven by shoulder flexion and extension, not by trunk rotation",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "rotation",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_flexion",
+        "role": "primary"
+      },
+      {
+        "pattern": "shoulder_extension",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bear_crawl_push_up",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "behind_the_back_wrist_curl",
+    "reason": "description is a wrist flexion; the forearm extensors are the antagonist and the trunk only stands",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "behind_the_neck_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "behind_the_neck_push_jerk",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bent_knee_calf_raise",
+    "reason": "description says the knees are bent to isolate the soleus; the soleus is the prime mover and the gastrocnemius is shortened",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bent_knee_lying_twist",
+    "reason": "description is a supine trunk and leg rotation; the gluteus maximus is not a trunk rotator",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "obliquus_internus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bent_over_cable_kickback",
+    "reason": "description is a bent-over hip extension isolating the glutes; the triceps and the elbow take no part",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_extension",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bent_over_dumbbell_row",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "body_up",
+    "reason": "description is a bodyweight push from a raised support driven by elbow extension, not a trunk flexion",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "spinal_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "horizontal_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bodyweight_kneeling_triceps_extension",
+    "reason": "description is an isolated elbow extension; the anterior deltoid only holds the humerus in place, it is not a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bodyweight_standing_calf_raise",
+    "reason": "description is a heel raise (plantar flexion); tibialis anterior is the antagonist, not a mover",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bottom_up_kettlebell_press",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "box_jump",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "box_jump_over",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "bridge_mountain_climber_cross_body",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "broad_jump",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "burpee",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "burpee_box_jump_over",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "burpee_pull_up",
+    "reason": "description shows the trunk only bracing, not flexing; rectus abdominis is a stabilizer here, not a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "butterfly_yoga_pose",
+    "reason": "description is a seated adductor stretch; the hamstring is not the target",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      }
+    ]
+  }
+]

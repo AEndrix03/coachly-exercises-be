@@ -1,0 +1,1702 @@
+[
+  {
+    "exercise_code": "cable_alternate_shoulder_press",
+    "reason": "description is an overhead/vertical press; stored as a horizontal cable chest press (horizontal adduction + horizontal_press, latissimus and sternal pectoralis as movers)",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_overhead_press",
+    "reason": "description is an overhead/vertical press; stored as a horizontal cable chest press (horizontal adduction + horizontal_press, latissimus and sternal pectoralis as movers)",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_shoulder_press",
+    "reason": "description is an overhead/vertical press; stored as a horizontal cable chest press (horizontal adduction + horizontal_press, latissimus and sternal pectoralis as movers)",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_alternate_triceps_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_high_pulley_overhead_tricep_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_incline_triceps_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_kneeling_triceps_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_lying_triceps_extension_v_2",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_rope_attachment",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_overhead_triceps_extension_with_rope",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rope_high_pulley_overhead_tricep_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rope_incline_tricep_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rope_lying_on_floor_tricep_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_one_arm_triceps_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_two_arm_tricep_kickback",
+    "reason": "description is a triceps elbow-extension isolation; the anterior deltoid only holds the upper arm in position and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_concentration_extension_on_knee",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_one_arm_tricep_pushdown",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_pushdown",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_pushdown_with_rope_attachment",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_reverse_grip_pushdown",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_reverse_grip_triceps_pushdown_sz_bar_with_arm_blaster",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_triceps_pushdown_v_bar",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_triceps_pushdown_v_bar_with_arm_blaster",
+    "reason": "description is a triceps elbow-extension isolation; the forearm flexors only grip the attachment and are stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_assisted_inverse_leg_curl",
+    "reason": "description is knee flexion lying prone; gluteus maximus does not cross the knee and cannot be a prime mover of it",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "semimembranosus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_cross_over_lateral_pulldown",
+    "reason": "description is a pulldown, pulling the handles down and across the body; stored as a cable fly (horizontal adduction, horizontal_press, pectorals)",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "adduction",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "vertical_pull",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_forward_raise",
+    "reason": "description is a straight-arm front raise; the elbow never extends, the triceps only holds the arm straight",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_front_raise",
+    "reason": "description is a straight-arm front raise; the elbow never extends, the triceps only holds the arm straight",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_front_shoulder_raise",
+    "reason": "description is a straight-arm cable front raise (shoulder flexion); the middle trapezius is a scapular retractor and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "serratus_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_high_row_kneeling",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_one_arm_straight_back_high_row_kneeling",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rope_extension_incline_bench_row",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_row_v_bar",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_straight_back_seated_row",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_upper_row",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_squat_row_with_rope_attachment",
+    "reason": "description is a horizontal row; the anterior deltoid is the antagonist of the shoulder extension performed and the posterior deltoid is the real synergist",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_hip_adduction",
+    "reason": "description brings the leg across the midline; gluteus maximus is not a hip adductor prime mover and vastus lateralis does not act at the hip",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_incline_pushdown",
+    "reason": "description is a triceps pushdown isolating the triceps; latissimus dorsi only stabilises the humerus and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_pushdown_straight_arm_v_2",
+    "reason": "description is a triceps pushdown isolating the triceps; latissimus dorsi only stabilises the humerus and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_kickback",
+    "reason": "description is a cable glute kickback (hip extension pushing the leg backward); stored entirely as a triceps kickback with elbow extension, triceps and anterior deltoid",
+    "muscles": [
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "semimembranosus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "remove"
+      },
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_extension",
+        "role": "remove"
+      },
+      {
+        "pattern": "hip_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_kneeling_rear_delt_row_with_rope",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rear_delt_row_stirrups",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rear_delt_row_with_rope",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_seated_rear_lateral_raise",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_rear_delt_row_with_rope",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_cross_over_high_reverse_fly",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_supine_reverse_fly",
+    "reason": "description explicitly targets the posterior deltoid in horizontal abduction; the anterior deltoid is its direct antagonist and is stored as the prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction); the lateral deltoid is the prime mover, not the anterior deltoid or the middle trapezius",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_raise",
+    "reason": "description is a lateral raise (shoulder abduction); the lateral deltoid is the prime mover, not the anterior deltoid or the middle trapezius",
+    "muscles": [
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_one_arm_lateral_bent_over",
+    "reason": "description is a bent-over lateral raise, i.e. rear-delt horizontal abduction; stored with horizontal adduction, the anterior deltoid as prime mover and the sternal pectoralis",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_pull_through",
+    "reason": "description is a hip hinge; rectus abdominis only braces the trunk and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rear_delt_fly",
+    "reason": "description is a rear delt fly; the stored movement pattern is horizontal_press, which is the opposite movement",
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rear_drive",
+    "reason": "description is a triceps extension performed facing away from the machine; stored as a rear delt fly (shoulder horizontal abduction, scapular retraction, anterior deltoid as prime mover)",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "triceps_brachii_lateral",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_medial",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_horizontal_abduction",
+        "role": "remove"
+      },
+      {
+        "pattern": "elbow_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_reverse_curl",
+    "reason": "description is a pronated-grip curl; the forearm flexors are stored as prime movers while the extensors that hold the pronated wrist are absent",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "forearm_extensors",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_reverse_wrist_curl",
+    "reason": "description is a reverse (pronated) wrist curl targeting the forearm extensors, i.e. wrist extension; stored as elbow flexion with the biceps and the antagonist forearm flexors as movers",
+    "muscles": [
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "wrist",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "wrist_extension",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_rope_crossover_seated_row",
+    "reason": "description is a seated row pulling the handles toward the chest; stored as a cable fly (horizontal adduction, horizontal_press, pectorals)",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "horizontal_pull",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_seated_shoulder_internal_rotation",
+    "reason": "description is shoulder INTERNAL rotation; stored as external rotation with the external rotators (infraspinatus, teres minor, supraspinatus) as movers",
+    "muscles": [
+      {
+        "muscle": "supraspinatus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "infraspinatus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "subscapularis",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "external_rotation",
+        "role": "remove"
+      },
+      {
+        "joint": "shoulder",
+        "action": "internal_rotation",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_shoulder_external_rotation",
+    "reason": "description is shoulder external rotation; the external rotators are stored as secondary while the anterior deltoid (an internal rotator) and supraspinatus are the prime movers",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "supraspinatus",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "infraspinatus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "teres_minor",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_shrug",
+    "reason": "description is a scapular elevation shrug; the anterior deltoid does not elevate the scapula and the middle trapezius is a retractor, not an elevator",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "levator_scapulae",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_side_crunch",
+    "reason": "description is a standing LATERAL trunk flexion; stored as spinal flexion",
+    "joint_actions": [
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "lateral_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "spinal_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "lateral_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_back_wrist_curl",
+    "reason": "description is a wrist-flexion forearm isolation; the biceps and brachialis are elbow flexors and are stored as movers of it",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_wrist_curl",
+    "reason": "description is a wrist-flexion forearm isolation; the biceps and brachialis are elbow flexors and are stored as movers of it",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "brachialis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_one_leg_calf_raise",
+    "reason": "description is a heel raise (plantar flexion); tibialis anterior is the dorsiflexor antagonist and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "tibialis_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "calf_raise",
+    "reason": "description is an ankle plantar flexion heel raise; rectus abdominis is stored as a prime mover of it",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_pulldown_with_rope",
+    "reason": "description is a vertical pulldown; latissimus dorsi is demoted to secondary while the grip muscles are primary, and the anterior deltoid is not a mover of the pull",
+    "muscles": [
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "forearm_flexors",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_standing_twist_row_v_bar",
+    "reason": "description is a cable row with torso rotation; the pulling joint actions and pattern are missing entirely and the anterior deltoid is stored instead of the posterior",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "deltoid_posterior",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "rhomboids",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "scapula",
+        "action": "retraction",
+        "role": "secondary"
+      },
+      {
+        "joint": "shoulder",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_pull",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_straight_arm_pulldown",
+    "reason": "description is a straight-arm pulldown (shoulder extension); the anterior deltoid is the antagonist of shoulder extension and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_straight_arm_pulldown_with_rope",
+    "reason": "description keeps the arms straight, so the biceps performs no elbow flexion and cannot be a prime mover",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "teres_major",
+        "involvement": "secondary"
+      },
+      {
+        "muscle": "triceps_brachii_long",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_thibaudeau_kayak_row",
+    "reason": "description is a seated cable row; locomotion is stored as a primary movement pattern, inherited from a cardio archetype",
+    "movement_patterns": [
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_twisting_pull",
+    "reason": "description is a cable rotation targeting the obliques; the obliques are stored as secondary while the anterior deltoid and latissimus dorsi are the prime movers",
+    "muscles": [
+      {
+        "muscle": "obliquus_externus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_anterior",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "latissimus_dorsi",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cable_upright_row",
+    "reason": "description is an upright row to the chin with high elbows; rectus abdominis is stored as a prime mover and the middle trapezius stands in for the upper trapezius",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_middle",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "trapezius_upper",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "deltoid_lateral",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "calf_push_stretch_with_hands_against_wall",
+    "reason": "description is a calf stretch; biceps femoris is stored as the primary target instead of the triceps surae",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "calf_stretch_with_hands_against_wall",
+    "reason": "description is a calf stretch; biceps femoris is stored as the primary target instead of the triceps surae",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "calf_stretch_with_rope",
+    "reason": "description is a calf stretch; biceps femoris is stored as the primary target instead of the triceps surae",
+    "muscles": [
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "chair_leg_extended_stretch",
+    "reason": "description stretches the posterior chain; vastus lateralis is an anterior-thigh muscle and is stored as a primary target",
+    "muscles": [
+      {
+        "muscle": "vastus_lateralis",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "semitendinosus",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "captains_chair_straight_leg_raise",
+    "reason": "description is a straight-leg raise, driven by hip flexion; only spinal flexion is stored",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "clamshell",
+    "reason": "description is hip EXTERNAL ROTATION performed side-lying; only hip abduction is stored",
+    "muscles": [
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "external_rotation",
+        "role": "primary"
+      },
+      {
+        "joint": "hip",
+        "action": "abduction",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "clean_and_jerk",
+    "reason": "description is a lower-body / olympic lift; rectus abdominis only braces the trunk and is stored as a prime mover | description includes the pull from the floor and the drive out of the dip; hip and knee extension are missing entirely",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_hinge",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "clean_high_pull",
+    "reason": "description is a lower-body / olympic lift; rectus abdominis only braces the trunk and is stored as a prime mover | description focuses on the hip and knee extension phase, yet only shoulder abduction and elbow flexion are stored",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      },
+      {
+        "muscle": "gluteus_maximus",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "biceps_femoris_long",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "extension",
+        "role": "primary"
+      },
+      {
+        "joint": "knee",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "hip_hinge",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "clean_pull",
+    "reason": "description is a lower-body / olympic lift; rectus abdominis only braces the trunk and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cyclist_squat",
+    "reason": "description is a lower-body / olympic lift; rectus abdominis only braces the trunk and is stored as a prime mover",
+    "muscles": [
+      {
+        "muscle": "rectus_abdominis",
+        "involvement": "stabilizer"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cocoons",
+    "reason": "description is a trunk-flexion crunch; erector spinae is the antagonist of spinal flexion and is stored as a mover",
+    "muscles": [
+      {
+        "muscle": "erector_spinae",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "crunch_floor",
+    "reason": "description is a trunk-flexion crunch with the hips fixed; iliopsoas does not flex the spine and is stored as a prime mover alongside rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "crunch_hands_overhead",
+    "reason": "description is a trunk-flexion crunch with the hips fixed; iliopsoas does not flex the spine and is stored as a prime mover alongside rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball",
+    "reason": "description is a trunk-flexion crunch with the hips fixed; iliopsoas does not flex the spine and is stored as a prime mover alongside rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "crunch_on_stability_ball_arms_straight",
+    "reason": "description is a trunk-flexion crunch with the hips fixed; iliopsoas does not flex the spine and is stored as a prime mover alongside rectus abdominis",
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "controlled_mountain_climber",
+    "reason": "description is a plank with alternating knee drives; no joint action is stored at all and the pattern is locomotion, inherited from a cardio archetype",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      },
+      {
+        "pattern": "anti_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "hip_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cross_body_mountain_climber",
+    "reason": "description is a plank with alternating knee drives; no joint action is stored at all and the pattern is locomotion, inherited from a cardio archetype",
+    "joint_actions": [
+      {
+        "joint": "hip",
+        "action": "flexion",
+        "role": "primary"
+      },
+      {
+        "joint": "spine",
+        "action": "anti_extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "locomotion",
+        "role": "remove"
+      },
+      {
+        "pattern": "anti_extension",
+        "role": "primary"
+      },
+      {
+        "pattern": "hip_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "crossover_double_under",
+    "reason": "description is a jump-rope double under with an arm crossover; stored as a cable chest fly with horizontal adduction, horizontal_press and the pectorals as prime movers",
+    "muscles": [
+      {
+        "muscle": "pectoralis_major_clavicular",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "pectoralis_major_sternal",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "gastrocnemius_lateral",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "gastrocnemius_medial",
+        "involvement": "primary"
+      },
+      {
+        "muscle": "soleus",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "horizontal_adduction",
+        "role": "remove"
+      },
+      {
+        "joint": "ankle",
+        "action": "plantar_flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "horizontal_press",
+        "role": "remove"
+      },
+      {
+        "pattern": "jump",
+        "role": "primary"
+      },
+      {
+        "pattern": "plantar_flexion",
+        "role": "secondary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "curl_up",
+    "reason": "description is an abdominal curl-up (partial trunk flexion from supine); stored as a biceps curl with elbow flexion and the biceps as movers",
+    "muscles": [
+      {
+        "muscle": "biceps_brachii_long",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "biceps_brachii_short",
+        "involvement": "remove"
+      },
+      {
+        "muscle": "iliopsoas",
+        "involvement": "secondary"
+      }
+    ],
+    "joint_actions": [
+      {
+        "joint": "elbow",
+        "action": "flexion",
+        "role": "remove"
+      },
+      {
+        "joint": "spine",
+        "action": "flexion",
+        "role": "primary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "elbow_flexion",
+        "role": "remove"
+      },
+      {
+        "pattern": "spinal_flexion",
+        "role": "primary"
+      }
+    ]
+  },
+  {
+    "exercise_code": "cuban_press",
+    "reason": "description combines an upright row, an external rotation and an overhead press; only the external rotation is stored",
+    "joint_actions": [
+      {
+        "joint": "shoulder",
+        "action": "abduction",
+        "role": "primary"
+      },
+      {
+        "joint": "elbow",
+        "action": "extension",
+        "role": "secondary"
+      }
+    ],
+    "movement_patterns": [
+      {
+        "pattern": "shoulder_abduction",
+        "role": "secondary"
+      },
+      {
+        "pattern": "vertical_press",
+        "role": "secondary"
+      }
+    ]
+  }
+]
