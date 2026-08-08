@@ -1,0 +1,510 @@
+{
+ "seed": 424242,
+ "sampled_codes": [
+  "active_bar_hang",
+  "alternating_farmer_walk_on_toes",
+  "arm_slingers_hanging_straight_legs",
+  "assisted_archer_push_up",
+  "assisted_lying_glutes_stretch",
+  "assisted_prone_rectus_femoris_stretch",
+  "band_lying_straight_leg_raise",
+  "band_reverse_fly",
+  "barbell_prone_incline_curl",
+  "barbell_rear_lunge_v_2",
+  "barbell_wrist_curl_v_2",
+  "battling_ropes",
+  "bicycle_crunch",
+  "cable_crossover",
+  "cable_external_rotation",
+  "cable_rope_crossover_seated_row",
+  "cable_rope_seated_row",
+  "cable_seated_curl",
+  "cable_seated_shoulder_internal_rotation",
+  "cable_side_crunch",
+  "captains_chair_straight_leg_raise",
+  "chin_up",
+  "clapping_push_up",
+  "competition_bench_press",
+  "dumbbell_bench_seated_press",
+  "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+  "dumbbell_incline_hammer_press_on_exercise_ball",
+  "dumbbell_incline_shoulder_raise",
+  "dumbbell_incline_t_raise",
+  "dumbbell_incline_y_raise",
+  "dumbbell_lateral_to_front_raise",
+  "dumbbell_over_bench_one_arm_reverse_wrist_curl",
+  "dumbbell_push_press",
+  "dumbbell_rear_delt_row",
+  "dumbbell_seated_lateral_raise_v_2",
+  "dumbbell_twisting_bench_press",
+  "elevator",
+  "farmer_carry",
+  "high_bar_squat",
+  "incline_close_grip_push_up",
+  "jog",
+  "kettlebell_snatch",
+  "kipping_t2b",
+  "left_hook_boxing",
+  "lever_hammer_grip_preacher_curl",
+  "lever_seated_crunch_v_2",
+  "lever_shoulder_press",
+  "long_copenhagen_plank",
+  "medium_grip_bench_press",
+  "neck_harness_flexion",
+  "neutral_grip_close_grip_lat_pulldown",
+  "nordic_ham_curl",
+  "paused_hanging_knee_raise",
+  "pendlay_underhand_barbell_row",
+  "plate_pinch",
+  "push_to_run",
+  "push_up_close_grip_off_dumbbell",
+  "ring_muscle_up",
+  "ring_scapular_retraction",
+  "safety_bar_squat",
+  "scapular_push_up",
+  "seated_leg_curl_with_isometric_peak_hold",
+  "single_leg_bridge_heel_curl",
+  "sled_lying_calf_press",
+  "smith_decline_bench_press",
+  "smith_rear_delt_row",
+  "sprint_row",
+  "squat_to_overhead_reach_with_twist",
+  "standing_calf_raise_machine_bilateral",
+  "standing_calf_raise_machine_paused_top_hold",
+  "standing_wheel_rollerout",
+  "tempo_farmer_walk_on_toes",
+  "tempo_handstand_push_up",
+  "tempo_rope_pull_through",
+  "tempo_wide_stance_back_squat",
+  "toes_in_seated_calf_raise",
+  "tuck_front_lever_curl",
+  "tuck_skin_the_cat",
+  "weighted_tricep_dips",
+  "woodchop"
+ ],
+ "clean": [
+  "active_bar_hang",
+  "assisted_archer_push_up",
+  "assisted_lying_glutes_stretch",
+  "barbell_prone_incline_curl",
+  "bicycle_crunch",
+  "cable_crossover",
+  "cable_external_rotation",
+  "cable_rope_seated_row",
+  "cable_seated_curl",
+  "chin_up",
+  "clapping_push_up",
+  "competition_bench_press",
+  "dumbbell_bench_seated_press",
+  "dumbbell_incline_hammer_press_on_exercise_ball",
+  "farmer_carry",
+  "high_bar_squat",
+  "incline_close_grip_push_up",
+  "kipping_t2b",
+  "lever_hammer_grip_preacher_curl",
+  "lever_shoulder_press",
+  "long_copenhagen_plank",
+  "medium_grip_bench_press",
+  "nordic_ham_curl",
+  "paused_hanging_knee_raise",
+  "pendlay_underhand_barbell_row",
+  "plate_pinch",
+  "push_to_run",
+  "ring_muscle_up",
+  "safety_bar_squat",
+  "seated_leg_curl_with_isometric_peak_hold",
+  "smith_decline_bench_press",
+  "standing_calf_raise_machine_bilateral",
+  "standing_calf_raise_machine_paused_top_hold",
+  "tempo_rope_pull_through",
+  "tempo_wide_stance_back_squat"
+ ],
+ "findings": [
+  {
+   "exercise_code": "dumbbell_over_bench_one_arm_reverse_wrist_curl",
+   "field": "muscle_tension",
+   "current": "forearm_flexors|primary|low/high/low",
+   "proposed": "forearm_extensors|primary|low/high/low; remove biceps_brachii_long and brachialis",
+   "reason": "A REVERSE wrist curl is wrist extension. The row stores forearm_flexors as primary plus biceps_brachii_long primary and brachialis secondary, i.e. the muscle set of an elbow-flexion curl. forearm_extensors exists in the muscle vocabulary and is absent.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_twisting_bench_press",
+   "field": "muscle_tension",
+   "current": "obliquus_externus|secondary|moderate/high/moderate",
+   "proposed": "remove obliquus_externus and obliquus_internus",
+   "reason": "The 'twist' of a twisting dumbbell bench press is forearm rotation, not trunk rotation. Both obliques are stored as secondary movers and the only stored joint action is spine:rotation, which no bench press performs.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised",
+   "field": "muscle_tension",
+   "current": "pectoralis_major_sternal|secondary|high/moderate/low",
+   "proposed": "remove pectoralis_major_sternal, pectoralis_major_clavicular and deltoid_anterior",
+   "reason": "Both pectoralis heads and the anterior deltoid are stored as secondary movers of a dumbbell biceps curl; only the elbow flexors act. The row also carries shoulder:horizontal_adduction and scapula:protraction as joint actions and horizontal_press as its primary pattern.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_incline_shoulder_raise",
+   "field": "muscle_tension",
+   "current": "serratus_anterior|primary|none/moderate/high",
+   "proposed": "remove serratus_anterior",
+   "reason": "The description is a seated incline front raise. Serratus anterior is stored as a PRIMARY mover although it is a scapular protractor and no scapular action is stored; the movers are the deltoid heads.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_incline_y_raise",
+   "field": "muscle_tension",
+   "current": "latissimus_dorsi|primary|none/moderate/high",
+   "proposed": "trapezius_lower|primary|none/moderate/high; remove latissimus_dorsi",
+   "reason": "Latissimus dorsi is stored as a PRIMARY mover of a prone incline Y-raise; the lat extends and adducts the shoulder and is the direct antagonist of the movement. The stored joint action is also shoulder:adduction, the opposite of the raise.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "barbell_wrist_curl_v_2",
+   "field": "muscle_tension",
+   "current": "biceps_brachii_long|primary|low/high/low",
+   "proposed": "remove biceps_brachii_long and brachialis",
+   "reason": "A seated barbell wrist curl is pure wrist flexion with the forearms braced on the thighs; biceps brachii long is stored as a primary mover and brachialis as secondary, and the stored joint action is elbow:flexion instead of wrist:flexion.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_seated_lateral_raise_v_2",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|none/moderate/high",
+   "proposed": "deltoid_lateral|primary|none/moderate/high",
+   "reason": "In a lateral raise the prime mover is the LATERAL deltoid, stored here only as secondary, while deltoid_anterior and trapezius_middle are primary and triceps_brachii_long is stored as a secondary mover of a straight-arm raise.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "battling_ropes",
+   "field": "resistance_source",
+   "current": "hydraulic",
+   "proposed": "cable",
+   "reason": "Battle ropes are an inertial rope, not a hydraulic device. The only linked equipment is cable_attachment_rope, a cable handle rather than a battle rope.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "push_up_close_grip_off_dumbbell",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A close-grip push-up off dumbbells carries no external load; the row already stores bodyweight_leverage, bodyweight_reps and bodyweight_aware, all of which contradict bodyweight=false.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_rear_delt_row",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|low/low/low",
+   "proposed": "deltoid_posterior|primary|moderate/high/high",
+   "reason": "The exercise is named and described as targeting the posterior deltoid, yet deltoid_ANTERIOR is stored as primary with placeholder low/low/low tension and deltoid_posterior only as secondary. The anterior head is the antagonist of the stored joint action shoulder:horizontal_abduction.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "smith_rear_delt_row",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|low/low/low",
+   "proposed": "deltoid_posterior|primary|moderate/high/high",
+   "reason": "Same inversion as the dumbbell version: deltoid_anterior is primary on an exercise whose stored joint action is shoulder:horizontal_abduction, for which it is the antagonist, and deltoid_posterior is demoted to secondary with placeholder tension.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "band_reverse_fly",
+   "field": "muscle_tension",
+   "current": "latissimus_dorsi|primary|low/moderate/high",
+   "proposed": "deltoid_posterior|primary|low/moderate/high; remove latissimus_dorsi and deltoid_anterior",
+   "reason": "A reverse fly is shoulder horizontal abduction. Deltoid_anterior, a horizontal ADDuctor, and latissimus dorsi are stored as the two primaries while deltoid_posterior is only secondary.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "weighted_tricep_dips",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "The profile is bodyweight_plus_weight / added_weight / bodyweight_aware with bodyweight_leverage resistance, and the comparable loaded-bodyweight entries in the same sample (chin_up, ring_muscle_up) store bodyweight=true.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "toes_in_seated_calf_raise",
+   "field": "muscle_tension",
+   "current": "soleus|secondary|high/moderate/low",
+   "proposed": "soleus|primary|high/moderate/low, gastrocnemius demoted to secondary",
+   "reason": "In a SEATED calf raise the knee is flexed, so the gastrocnemius is slack and the soleus is the prime mover. The row stores gastrocnemius_lateral as primary with placeholder low/low/low tension and soleus as secondary; tibialis anterior, the antagonist, is stored as a stabilizer with high/high tension.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "barbell_rear_lunge_v_2",
+   "field": "unilateral",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A rear lunge loads one leg at a time with the other leg behind; every comparable split-stance entry is unilateral, and side_mode is already 'optional', which only makes sense for a per-side movement.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "jog",
+   "field": "muscle_tension",
+   "current": "rectus_abdominis|primary|low/low/low",
+   "proposed": "gluteus_maximus, vastus_lateralis and soleus as primary; demote rectus_abdominis",
+   "reason": "The only muscle linked to a jog is rectus abdominis as PRIMARY with placeholder low/low/low tension. Running is driven by the hip extensors, quadriceps and triceps surae, none of which is recorded.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "jog",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "Jogging is propelled entirely by body mass with no external load, and the stored resistance_source is already bodyweight_leverage.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "arm_slingers_hanging_straight_legs",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|moderate/high/high",
+   "proposed": "iliopsoas|primary|moderate/high/high; remove deltoid_anterior",
+   "reason": "The stored primary joint action is hip:flexion, yet deltoid_anterior is stored as a PRIMARY mover and the actual hip flexor iliopsoas is demoted to secondary. The comparable paused_hanging_knee_raise stores iliopsoas primary and no deltoid.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "neck_harness_flexion",
+   "field": "muscle_tension",
+   "current": "splenius_capitis|primary|low/low/low",
+   "proposed": "remove splenius_capitis and splenius_cervicis; keep sternocleidomastoid and scalenes as the movers",
+   "reason": "Splenius capitis and splenius cervicis are neck EXTENSORS stored as primary movers of neck FLEXION, with placeholder low/low/low tension. They are the antagonists of the stored joint action neck:flexion.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "neck_harness_flexion",
+   "field": "resistance_source",
+   "current": "cam_machine",
+   "proposed": "gravity",
+   "reason": "A head harness loaded by a hanging plate is not a cam machine, and the linked equipment is back_extension_machine, a machine the exercise does not use.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "cable_rope_crossover_seated_row",
+   "field": "muscle_tension",
+   "current": "pectoralis_major_sternal|secondary|high/high/moderate",
+   "proposed": "remove pectoralis_major_sternal and pectoralis_major_clavicular",
+   "reason": "Both pectoralis heads are stored as secondary movers of a seated row; they are antagonists of a horizontal pull. The stored primary joint action is shoulder:horizontal_adduction with pattern horizontal_press, so the row is modelled as a press.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "squat_to_overhead_reach_with_twist",
+   "field": "tracking_type",
+   "current": "bodyweight_plus_weight",
+   "proposed": "bodyweight_reps",
+   "reason": "The exercise stores bodyweight=true and has no equipment linked, but the profile is bodyweight_plus_weight / added_weight, implying an external load that does not exist.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "ring_scapular_retraction",
+   "field": "muscle_tension",
+   "current": "serratus_anterior|primary|low/high/high",
+   "proposed": "rhomboids and trapezius_middle as primary; remove serratus_anterior and triceps_brachii_long",
+   "reason": "Serratus anterior is the scapular PROTRACTOR and is stored as the primary mover of a scapular RETRACTION, alongside triceps brachii long. The retractors (rhomboids, middle trapezius) are not linked at all.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "tuck_skin_the_cat",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|high/moderate/low",
+   "proposed": "remove deltoid_anterior; keep latissimus_dorsi and teres_major as primary",
+   "reason": "The stored primary joint action is shoulder:extension, and deltoid_anterior - a shoulder flexor and therefore the antagonist - is stored as one of the primary movers.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "woodchop",
+   "field": "unilateral",
+   "current": "false",
+   "proposed": "true",
+   "reason": "A cable woodchop is performed to one side at a time; the row already stores side_mode='separate', which contradicts unilateral=false.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "assisted_prone_rectus_femoris_stretch",
+   "field": "muscle_tension",
+   "current": "rectus_abdominis|primary|high/low/none",
+   "proposed": "remove rectus_abdominis",
+   "reason": "Rectus abdominis is stored as a primary target of a prone quadriceps stretch. Pulling the heel toward the glute lengthens the knee extensors and hip flexors, not the abdominal wall.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "dumbbell_incline_t_raise",
+   "field": "muscle_tension",
+   "current": "deltoid_anterior|primary|none/moderate/high",
+   "proposed": "deltoid_posterior|primary|none/moderate/high",
+   "reason": "The stored description says the exercise isolates the POSTERIOR deltoid, yet deltoid_anterior and trapezius_middle are the primaries and deltoid_posterior is not linked at all.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "sled_lying_calf_press",
+   "field": "muscle_tension",
+   "current": "biceps_femoris_long|primary|moderate/high/moderate",
+   "proposed": "gastrocnemius and soleus as primary; remove biceps_femoris_long and gluteus_maximus",
+   "reason": "A sled calf press is ankle plantar flexion. Biceps femoris long is stored as a primary mover and gluteus maximus as secondary, and the stored joint actions are knee:flexion, hip:extension and ankle:DORSIflexion - the opposite of the movement the name and description state.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "sled_lying_calf_press",
+   "field": "joint_class",
+   "current": "multi_joint",
+   "proposed": "single_joint",
+   "reason": "The stored description calls it an isolation exercise for the calves acting at the ankle only.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "lever_seated_crunch_v_2",
+   "field": "tracking_type",
+   "current": "bodyweight_reps",
+   "proposed": "weight_reps",
+   "reason": "A lever seated crunch machine is loaded by a weight stack, but the profile stores bodyweight_reps / load none / bodyweight_aware, so the machine load can never be recorded.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "lever_seated_crunch_v_2",
+   "field": "resistance_source",
+   "current": "bodyweight_leverage",
+   "proposed": "cam_machine",
+   "reason": "Resistance comes from the machine's selectorised load, not from body leverage; the linked equipment is also back_extension_machine, the wrong machine for a seated crunch.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "alternating_farmer_walk_on_toes",
+   "field": "muscle_tension",
+   "current": "rectus_abdominis|primary|high/moderate/low",
+   "proposed": "rectus_abdominis|stabilizer|moderate/moderate/moderate",
+   "reason": "Rectus abdominis is stored as a PRIMARY mover of a loaded carry; in the sibling entry farmer_carry the same muscle is correctly a stabilizer. Nothing in a carry produces trunk flexion.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "single_leg_bridge_heel_curl",
+   "field": "bodyweight",
+   "current": "false",
+   "proposed": "true",
+   "reason": "No external load is used: resistance_source is bodyweight_leverage and the profile is bodyweight_reps / none / bodyweight_aware.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "elevator",
+   "field": "muscle_tension",
+   "current": "latissimus_dorsi|primary|moderate/high/moderate",
+   "proposed": "biceps_femoris_long and erector_spinae",
+   "reason": "The description is a standing forward trunk flexion with a neutral spine, but the linked muscles are deltoid_anterior and latissimus dorsi as primaries with middle trapezius secondary - an upper-body set that cannot produce the described movement. The stored pattern is also 'locomotion'.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "sprint_row",
+   "field": "muscle_tension",
+   "current": "rectus_abdominis|primary|low/low/low",
+   "proposed": "quadriceps, gluteus_maximus and latissimus_dorsi as primary",
+   "reason": "The only muscle linked to a rowing-ergometer sprint is rectus abdominis as PRIMARY with placeholder low/low/low tension; the leg drive and the pulling musculature are recorded nowhere.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "standing_wheel_rollerout",
+   "field": "muscle_tension",
+   "current": "erector_spinae|primary|high/moderate/none",
+   "proposed": "remove erector_spinae",
+   "reason": "Erector spinae is stored as a primary mover of an anti-extension rollout. The stored joint action is spine:anti_extension, which the erectors resist rather than produce; here they are the antagonist.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "tempo_farmer_walk_on_toes",
+   "field": "tracking_type",
+   "current": "weight_reps",
+   "proposed": "weight_distance",
+   "reason": "A loaded carry has no repetitions; the sibling alternating_farmer_walk_on_toes correctly stores weight_distance. The linked equipment is also calf_raise_machine_standing rather than a hand-held implement, so the exercise cannot be walked at all as modelled.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "left_hook_boxing",
+   "field": "muscle_tension",
+   "current": "biceps_brachii_long|primary|moderate/high/moderate",
+   "proposed": "obliquus_externus, obliquus_internus, pectoralis_major_sternal and deltoid_anterior as primary",
+   "reason": "Biceps brachii long is stored as a primary mover of a punch, which is an elbow-extension and trunk-rotation action; the obliques that generate a hook are absent and triceps is only secondary. The primary pattern is also 'locomotion'.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_lateral_to_front_raise",
+   "field": "muscle_tension",
+   "current": "trapezius_middle|primary|low/low/low",
+   "proposed": "deltoid_lateral|primary|low/high/moderate; remove trapezius_middle and biceps_brachii_long",
+   "reason": "The lateral half of the movement is driven by the lateral deltoid, which is not linked at all; instead trapezius_middle is a primary with placeholder low/low/low tension and biceps brachii long is stored as a secondary mover of a straight-arm raise.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "neutral_grip_close_grip_lat_pulldown",
+   "field": "muscle_tension",
+   "current": "latissimus_dorsi|secondary|high/high/moderate",
+   "proposed": "latissimus_dorsi|primary|high/high/moderate",
+   "reason": "The stored description states the exercise emphasises the latissimus dorsi, yet the lat is stored as SECONDARY and biceps brachii long is the sole primary of a vertical pull.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "cable_seated_shoulder_internal_rotation",
+   "field": "muscle_tension",
+   "current": "infraspinatus|secondary|low/high/high",
+   "proposed": "subscapularis|primary|low/high/high; remove infraspinatus and teres_minor",
+   "reason": "This is an INTERNAL rotation exercise, but the linked muscles are the external rotators (infraspinatus, teres minor) plus supraspinatus as primary, and subscapularis - the prime internal rotator, present in the vocabulary - is absent. The stored joint action is also shoulder:external_rotation.",
+   "confidence": "high"
+  }
+ ],
+ "non_vocabulary_findings": [
+  {
+   "exercise_code": "tuck_front_lever_curl",
+   "problem": "kinetic_chain=open, but the hands are fixed on the bar and the body is pulled around them: this is a CLOSED-chain movement by the clinical definition the catalogue uses."
+  },
+  {
+   "exercise_code": "dumbbell_over_bench_one_arm_reverse_wrist_curl",
+   "problem": "Joint action and movement pattern are elbow:flexion / elbow_flexion; the exercise is wrist extension. wrist:extension and the wrist_extension pattern both exist in the vocabulary and are unused."
+  },
+  {
+   "exercise_code": "dumbbell_twisting_bench_press",
+   "problem": "Primary movement pattern is 'rotation' and the only joint action is spine:rotation, so a horizontal press is modelled as a trunk-rotation exercise; shoulder:horizontal_adduction and elbow:extension are absent."
+  },
+  {
+   "exercise_code": "battling_ropes",
+   "problem": "kinetic_chain=closed although the hands hold free rope ends that travel through space (open chain), and the primary movement pattern is 'locomotion' for a stationary upper-body drill."
+  },
+  {
+   "exercise_code": "weighted_tricep_dips",
+   "problem": "Primary joint action is shoulder:horizontal_adduction with horizontal_press as primary pattern; a dip is a vertical press driven by shoulder flexion out of an extended position."
+  },
+  {
+   "exercise_code": "squat_to_overhead_reach_with_twist",
+   "problem": "The only joint action is spine:rotation and the only pattern is 'rotation', although the stored primary muscles are gluteus maximus and vastus lateralis: the squat half of the movement (knee and hip extension) is recorded nowhere."
+  },
+  {
+   "exercise_code": "cable_side_crunch",
+   "problem": "A standing side crunch is trunk LATERAL flexion, but the stored pattern is spinal_flexion and the joint action spine:flexion; spine:lateral_flexion and the lateral_flexion pattern both exist in the vocabulary and are unused."
+  },
+  {
+   "exercise_code": "scapular_push_up",
+   "problem": "The stored joint action is scapula:depression; a scapular push-up is scapular protraction and retraction, and scapula:protraction / scapula:retraction both exist in the vocabulary."
+  },
+  {
+   "exercise_code": "dumbbell_push_press",
+   "problem": "kinetic_chain=closed although the dumbbells are held in free hands travelling through space; by the catalogue's own rule (a bench press is open) an overhead dumbbell press is OPEN."
+  },
+  {
+   "exercise_code": "kettlebell_snatch",
+   "problem": "kinetic_chain=closed although the kettlebell is held in a free hand travelling from between the legs to overhead - an open-chain movement under the catalogue's own definition."
+  },
+  {
+   "exercise_code": "sprint_row",
+   "problem": "The linked equipment is 'treadmill' for a rowing-ergometer exercise, and the primary movement pattern is 'locomotion' rather than a pull."
+  },
+  {
+   "exercise_code": "tempo_handstand_push_up",
+   "problem": "Primary pattern horizontal_press and joint action shoulder:horizontal_adduction are stored for a handstand push-up, which is the archetypal VERTICAL press (shoulder flexion/abduction with the torso inverted)."
+  },
+  {
+   "exercise_code": "captains_chair_straight_leg_raise",
+   "problem": "The only stored joint action is spine:flexion with the spinal_flexion pattern, although iliopsoas is a stored primary and a straight-leg raise is driven by hip flexion; hip:flexion exists in the vocabulary and is used by the comparable hanging leg-raise entries."
+  },
+  {
+   "exercise_code": "band_lying_straight_leg_raise",
+   "problem": "Stored pattern is spinal_flexion and the joint action spine:flexion for a supine straight-leg raise whose own primary muscle is iliopsoas: the movement is hip flexion, and hip:flexion is unused."
+  }
+ ]
+}
