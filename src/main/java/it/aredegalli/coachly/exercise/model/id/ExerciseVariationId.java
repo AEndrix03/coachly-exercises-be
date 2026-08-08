@@ -6,6 +6,12 @@ import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
 
+/**
+ * A variation edge is identified by its two endpoints. variation_type used to
+ * be part of this key, but it was 'default' on every row and the table never
+ * had a real primary key to match; what differs between the two exercises is
+ * now the variation_axis attribute, not part of their identity.
+ */
 @Embeddable
 public class ExerciseVariationId implements Serializable {
 
@@ -15,16 +21,12 @@ public class ExerciseVariationId implements Serializable {
     @Column(name = "variant_exercise_id", nullable = false)
     private UUID variantExerciseId;
 
-    @Column(name = "variation_type", nullable = false, length = 50)
-    private String variationType;
-
     public ExerciseVariationId() {
     }
 
-    public ExerciseVariationId(UUID baseExerciseId, UUID variantExerciseId, String variationType) {
+    public ExerciseVariationId(UUID baseExerciseId, UUID variantExerciseId) {
         this.baseExerciseId = baseExerciseId;
         this.variantExerciseId = variantExerciseId;
-        this.variationType = variationType;
     }
 
     public UUID getBaseExerciseId() {
@@ -43,29 +45,20 @@ public class ExerciseVariationId implements Serializable {
         this.variantExerciseId = variantExerciseId;
     }
 
-    public String getVariationType() {
-        return variationType;
-    }
-
-    public void setVariationType(String variationType) {
-        this.variationType = variationType;
-    }
-
     @Override
-    public boolean equals(Object o) {
-        if (this == o) {
+    public boolean equals(Object other) {
+        if (this == other) {
             return true;
         }
-        if (!(o instanceof ExerciseVariationId that)) {
+        if (!(other instanceof ExerciseVariationId that)) {
             return false;
         }
         return Objects.equals(baseExerciseId, that.baseExerciseId)
-                && Objects.equals(variantExerciseId, that.variantExerciseId)
-                && Objects.equals(variationType, that.variationType);
+            && Objects.equals(variantExerciseId, that.variantExerciseId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(baseExerciseId, variantExerciseId, variationType);
+        return Objects.hash(baseExerciseId, variantExerciseId);
     }
 }

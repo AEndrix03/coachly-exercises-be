@@ -111,15 +111,24 @@ ALTER TABLE exercises.exercise_variation DROP COLUMN IF EXISTS difficulty_delta;
 -- 'default' on all 908 rows
 ALTER TABLE exercises.exercise_variation DROP COLUMN IF EXISTS variation_type;
 
--- ---------- drop now-unused enum types ----------
-DROP TYPE IF EXISTS exercises.resistance_curve;
-DROP TYPE IF EXISTS exercises.moment_arm_profile;
-DROP TYPE IF EXISTS exercises.length_bias;
-DROP TYPE IF EXISTS exercises.data_confidence;
-DROP TYPE IF EXISTS exercises.risk_level;
-DROP TYPE IF EXISTS exercises.force_type;
-DROP TYPE IF EXISTS exercises.difficulty_level;
-DROP TYPE IF EXISTS exercises.mechanics_type;
+-- The table never had a primary key: variation_type was only part of the JPA
+-- composite id, with nothing enforcing it in the database. An edge is
+-- identified by its two endpoints, so declare that properly.
+ALTER TABLE exercises.exercise_variation
+    ADD CONSTRAINT exercise_variation_pkey
+    PRIMARY KEY (base_exercise_id, variant_exercise_id);
+
+-- ---------- enum types are deliberately NOT dropped ----------
+-- risk_level, force_type, difficulty_level and mechanics_type are still used
+-- by the exercises_staging schema, which is a separate populated ingestion
+-- area (2551 rows) outside this migration's scope. DROP TYPE ... CASCADE
+-- would silently strip columns there, so the now-unused types are simply left
+-- in place: they cost nothing and can be removed once staging is migrated too.
+--
+-- The ones only this schema ever used could go, but keeping the whole set
+-- together makes the remaining cleanup a single, obvious follow-up:
+--   resistance_curve, moment_arm_profile, length_bias, data_confidence,
+--   risk_level, force_type, difficulty_level, mechanics_type
 
 -- ---------- rebuild the view on the V2 shape ----------
 CREATE VIEW exercises.v_exercise_active AS

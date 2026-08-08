@@ -18,10 +18,9 @@ public interface ExerciseVariationMapper {
 
     @Mapping(target = "baseExerciseId", source = "baseExercise.id")
     @Mapping(target = "variantExerciseId", source = "variantExercise.id")
-    @Mapping(target = "variationType", source = "id.variationType")
     ExerciseVariationDto toDto(ExerciseVariation entity);
 
-    @Mapping(target = "id", expression = "java(new ExerciseVariationId(dto.getBaseExerciseId(), dto.getVariantExerciseId(), dto.getVariationType()))")
+    @Mapping(target = "id", expression = "java(new ExerciseVariationId(dto.getBaseExerciseId(), dto.getVariantExerciseId()))")
     @Mapping(target = "baseExercise", expression = "java(exerciseFromId(dto.getBaseExerciseId()))")
     @Mapping(target = "variantExercise", expression = "java(exerciseFromId(dto.getVariantExerciseId()))")
     ExerciseVariation toEntity(ExerciseVariationDto dto);
