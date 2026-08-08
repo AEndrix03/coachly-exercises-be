@@ -109,6 +109,22 @@ def main():
             item["_source"] = path.name
             proposals.append(item)
         print(f"{path.name}: {len(payload)} proposals")
+
+    # the blind audit reports {"seed", "sampled_codes", "findings": [...]}
+    audit = VALIDATION_DIR / "audit_blind.json"
+    if audit.exists():
+        try:
+            payload = json.loads(audit.read_text(encoding="utf-8"))
+            findings = payload.get("findings", []) if isinstance(payload, dict) else []
+            for item in findings:
+                item["_source"] = audit.name
+                proposals.append(item)
+            sampled = len(payload.get("sampled_codes", [])) if isinstance(payload, dict) else 0
+            affected = len({i["exercise_code"] for i in findings if i.get("exercise_code")})
+            print(f"{audit.name}: {len(findings)} findings on {affected}/{sampled} sampled "
+                  f"({100 * affected // max(1, sampled)}% residual error rate)")
+        except Exception as exc:  # noqa: BLE001
+            print(f"!! {audit.name} unreadable: {exc}")
     print(f"total proposals: {len(proposals)}\n")
 
     with psycopg.connect(dsn, connect_timeout=30) as conn:
