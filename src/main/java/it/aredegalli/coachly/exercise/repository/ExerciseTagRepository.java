@@ -9,11 +9,16 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface ExerciseTagRepository extends JpaRepository<ExerciseTag, ExerciseTagId> {
+    /**
+     * Retired tags keep their links so the decision stays reversible, so the
+     * archived ones have to be filtered out here rather than deleted.
+     */
     @Query("""
         select exerciseTag
         from ExerciseTag exerciseTag
-        join fetch exerciseTag.tag
+        join fetch exerciseTag.tag tag
         where exerciseTag.exercise.id in :exerciseIds
+          and tag.deletedAt is null
         """)
     List<ExerciseTag> findAllByExerciseIds(Collection<UUID> exerciseIds);
 }
