@@ -1,0 +1,2915 @@
+{
+ "3_4_sit_up": {
+  "name": "3/4 Sit-up",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Lift your upper body off the ground to approximately a 45-degree angle, keeping your knees bent.",
+  "muscles": [
+   "iliopsoas|primary|moderate/high/low",
+   "rectus_abdominis|primary|low/high/high",
+   "erector_spinae|secondary|low/high/high"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "spinal_flexion"
+  ],
+  "eq": [],
+  "ja": [
+   "spine:flexion"
+  ]
+ },
+ "800m_run": {
+  "name": "800m Run",
+  "kind": "conditioning",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Continuous or interval running over a distance of 800 meters.",
+  "muscles": [
+   "rectus_abdominis|primary|low/low/low",
+   "gastrocnemius_medial|secondary|moderate/high/moderate",
+   "vastus_lateralis|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "none",
+   "non_comparable"
+  ],
+  "pat": [
+   "locomotion"
+  ],
+  "eq": [
+   "treadmill"
+  ],
+  "ja": []
+ },
+ "air_squat": {
+  "name": "Air Squat",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "A bodyweight exercise involving bending the knees and hips to lower the hips toward the ground.",
+  "muscles": [
+   "biceps_femoris_long|primary|low/moderate/low",
+   "rectus_femoris|primary|high/moderate/none",
+   "vastus_lateralis|primary|high/moderate/none",
+   "adductor_magnus|secondary|high/moderate/none",
+   "gluteus_maximus|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "alternating_plate_halo": {
+  "name": "Alternating Plate Halo",
+  "kind": "conditioning",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Mobility and stability exercise for the shoulders performed by rotating a weight plate around the head.",
+  "muscles": [
+   "rectus_abdominis|primary|moderate/moderate/moderate",
+   "deltoid_anterior|secondary|low/high/high",
+   "deltoid_posterior|secondary|low/high/high",
+   "obliquus_externus|secondary|low/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "rotation"
+  ],
+  "eq": [
+   "weight_plate"
+  ],
+  "ja": [
+   "spine:rotation"
+  ]
+ },
+ "band_external_rotation_press_out": {
+  "name": "Band External Rotation Press-Out",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Shoulder external rotation using a resistance band, combined with a press-out movement to stabilize the joint.",
+  "muscles": [
+   "infraspinatus|primary|moderate/high/moderate",
+   "rectus_abdominis|primary|moderate/moderate/moderate",
+   "teres_minor|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "band",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "resistance_band_tube"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "band_pull_through": {
+  "name": "Band Pull Through",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "A hip hinge exercise using a resistance band to target the posterior chain.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/high/moderate",
+   "gluteus_maximus|primary|high/high/moderate",
+   "erector_spinae|secondary|high/high/moderate"
+  ],
+  "bio": [
+   "band",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "hip_hinge"
+  ],
+  "eq": [
+   "resistance_band_loop"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "band_stiff_leg_deadlift": {
+  "name": "Band Stiff Leg Deadlift",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Stiff leg deadlift performed using a resistance band to provide tension.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/moderate/none",
+   "gluteus_maximus|primary|high/moderate/none",
+   "erector_spinae|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "band",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "non_comparable"
+  ],
+  "pat": [
+   "hip_hinge"
+  ],
+  "eq": [
+   "resistance_band_loop"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "banded_lying_curl": {
+  "name": "Banded Lying Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Knee flexion from a prone position using resistance band tension.",
+  "muscles": [
+   "biceps_femoris_long|primary|none/moderate/high",
+   "biceps_femoris_short|primary|none/moderate/high",
+   "semimembranosus|primary|none/moderate/high",
+   "semitendinosus|primary|none/moderate/high",
+   "gastrocnemius_lateral|secondary|none/moderate/high",
+   "gastrocnemius_medial|secondary|none/moderate/high"
+  ],
+  "bio": [
+   "band",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "knee_flexion"
+  ],
+  "eq": [
+   "resistance_band_tube"
+  ],
+  "ja": [
+   "knee:flexion"
+  ]
+ },
+ "banded_wall_march": {
+  "name": "Banded Wall March",
+  "kind": "mobility",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": null,
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "A wall-supported marching exercise using a resistance band to increase tension during the movement.",
+  "muscles": [
+   "iliopsoas|primary|moderate/high/moderate",
+   "rectus_abdominis|primary|low/low/low",
+   "gluteus_medius|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "locomotion"
+  ],
+  "eq": [
+   "resistance_band_loop"
+  ],
+  "ja": []
+ },
+ "barbell_alternate_biceps_curl": {
+  "name": "Barbell Alternate Biceps Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Alternating arm curls using a barbell or two barbells to perform elbow flexion.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "barbell_reverse_close_grip_bench_press": {
+  "name": "Barbell Reverse Close-grip Bench Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "recommended_high_effort",
+  "uni": false,
+  "bw": false,
+  "desc": "Barbell bench press with a reverse grip and narrow stance.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|high/high/low",
+   "triceps_brachii_long|primary|moderate/high/moderate",
+   "deltoid_anterior|secondary|high/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "barbell_seated_calf_raise": {
+  "name": "Barbell Seated Calf Raise",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Seated heel raises with a barbell resting on the thighs to load the calves.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/high/low",
+   "gastrocnemius_medial|primary|low/low/low",
+   "vastus_lateralis|secondary|high/high/low"
+  ],
+  "bio": [
+   "cam_machine",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "plantar_flexion"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "ankle:plantar_flexion"
+  ]
+ },
+ "barbell_standing_concentration_curl": {
+  "name": "Barbell Standing Concentration Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Barbell curl performed standing with thigh support to isolate the biceps.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low",
+   "brachialis|secondary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "barbell_zercher_squat": {
+  "name": "Barbell Zercher Squat",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Squat with the barbell held in the crooks of the elbows.",
+  "muscles": [
+   "gluteus_maximus|primary|high/moderate/none",
+   "vastus_lateralis|primary|high/moderate/none",
+   "biceps_femoris_long|secondary|high/moderate/none",
+   "gastrocnemius_medial|secondary|high/moderate/none",
+   "rectus_abdominis|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "bird_dog": {
+  "name": "Bird Dog",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "A quadruped position exercise involving the simultaneous extension of the opposite arm and leg.",
+  "muscles": [
+   "multifidus|primary|moderate/high/moderate",
+   "erector_spinae|secondary|moderate/high/moderate",
+   "gluteus_maximus|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "isometric_external",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "separate",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "anti_extension"
+  ],
+  "eq": [],
+  "ja": [
+   "spine:anti_extension"
+  ]
+ },
+ "box_jump_calf_raise": {
+  "name": "Box Jump Calf Raise",
+  "kind": "conditioning",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Technical execution of Box Jump Calf Raise: stable setup and core braced, control the eccentric without compensations. Use a useful range and finish each rep with active contraction.",
+  "muscles": [
+   "gastrocnemius_lateral|primary|high/moderate/low",
+   "gastrocnemius_medial|primary|high/moderate/low",
+   "soleus|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "high",
+   "moderate"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "jump"
+  ],
+  "eq": [
+   "box_plyo"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "cable_middle_fly": {
+  "name": "Cable Middle Fly",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Chest fly movement performed with cables at chest height in a standing position.",
+  "muscles": [
+   "deltoid_anterior|primary|high/high/moderate",
+   "pectoralis_major_sternal|primary|high/high/low",
+   "triceps_brachii_long|secondary|high/high/moderate"
+  ],
+  "bio": [
+   "cable",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "cable_crossover_machine"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction"
+  ]
+ },
+ "cable_one_arm_press_on_exercise_ball": {
+  "name": "Cable One Arm Press On Exercise Ball",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Unilateral cable press performed while seated on an exercise ball to increase instability.",
+  "muscles": [
+   "deltoid_anterior|primary|moderate/high/moderate",
+   "pectoralis_major_sternal|primary|moderate/high/moderate",
+   "triceps_brachii_long|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "cable",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "cable_crossover_machine"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "cable_straight_back_seated_row": {
+  "name": "Cable Straight Back Seated Row",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Seated cable row with the back kept straight and a horizontal pull towards the abdomen.",
+  "muscles": [
+   "biceps_brachii_long|primary|moderate/high/high",
+   "latissimus_dorsi|primary|moderate/high/high",
+   "deltoid_anterior|secondary|moderate/high/high",
+   "forearm_flexors|secondary|moderate/high/high"
+  ],
+  "bio": [
+   "cable",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "horizontal_pull"
+  ],
+  "eq": [
+   "cable_crossover_machine"
+  ],
+  "ja": [
+   "shoulder:extension",
+   "scapula:retraction",
+   "elbow:flexion"
+  ]
+ },
+ "cable_two_arm_curl_on_incline_bench": {
+  "name": "Cable Two Arm Curl On Incline Bench",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Two-arm cable curls performed on an incline bench with arms extended and elbows fixed in a retracted position.",
+  "muscles": [
+   "biceps_brachii_long|primary|moderate/high/moderate",
+   "forearm_flexors|primary|moderate/high/moderate",
+   "brachialis|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "cable",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "cable_crossover_machine"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "cambered_bar_lying_row": {
+  "name": "Cambered Bar Lying Row",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Lying barbell row using a cambered bar on a bench.",
+  "muscles": [
+   "biceps_brachii_long|primary|moderate/high/high",
+   "latissimus_dorsi|primary|moderate/high/high",
+   "forearm_flexors|secondary|moderate/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_pull"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:extension",
+   "scapula:retraction",
+   "elbow:flexion"
+  ]
+ },
+ "chest_stretch_with_exercise_ball": {
+  "name": "Chest Stretch With Exercise Ball",
+  "kind": "mobility",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": null,
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Chest stretch performed by leaning the back against a stability ball to promote thoracic opening.",
+  "muscles": [
+   "deltoid_anterior|primary|high/low/none",
+   "pectoralis_major_sternal|primary|high/low/none",
+   "triceps_brachii_long|secondary|high/low/none"
+  ],
+  "bio": [
+   "isometric_external",
+   "low",
+   "none"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [],
+  "eq": [
+   "stability_ball"
+  ],
+  "ja": []
+ },
+ "clean_high_pull": {
+  "name": "Clean High Pull",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "An explosive upward pull with a barbell, focusing on the hip and knee extension phase.",
+  "muscles": [
+   "rectus_abdominis|primary|low/low/low",
+   "trapezius_upper|primary|low/high/high",
+   "erector_spinae|secondary|low/high/high",
+   "gluteus_maximus|secondary|low/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "shoulder_abduction",
+   "elbow_flexion"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:abduction",
+   "elbow:flexion"
+  ]
+ },
+ "close_grip_chin_up": {
+  "name": "Close-Grip Chin-Up",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Pull-up performed with a supinated grip and hands positioned close together.",
+  "muscles": [
+   "biceps_brachii_long|primary|high/high/low",
+   "latissimus_dorsi|primary|high/high/low",
+   "brachialis|secondary|high/high/low",
+   "brachioradialis|secondary|high/high/low",
+   "forearm_flexors|secondary|high/high/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_plus_weight",
+   "added_weight",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "vertical_pull"
+  ],
+  "eq": [
+   "pull_up_bar"
+  ],
+  "ja": [
+   "shoulder:adduction",
+   "scapula:depression",
+   "elbow:flexion"
+  ]
+ },
+ "crunch_on_stability_ball": {
+  "name": "Crunch (on Stability Ball)",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Lifting the upper torso while lying on a stability ball.",
+  "muscles": [
+   "iliopsoas|primary|moderate/high/low",
+   "rectus_abdominis|primary|high/high/moderate",
+   "obliquus_externus|secondary|low/high/high"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "spinal_flexion"
+  ],
+  "eq": [
+   "stability_ball"
+  ],
+  "ja": [
+   "spine:flexion"
+  ]
+ },
+ "curtsey_squat": {
+  "name": "Curtsey Squat",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "A squatting movement with a diagonal cross-step to target the glutes and adductors.",
+  "muscles": [
+   "gluteus_maximus|primary|high/moderate/none",
+   "vastus_lateralis|primary|high/moderate/none",
+   "biceps_femoris_long|secondary|high/moderate/none",
+   "gastrocnemius_medial|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "donkey_kick_with_pulse": {
+  "name": "Donkey Kick with Pulse",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "Hip extension in quadruped position with small oscillating pulses at the end of range.",
+  "muscles": [
+   "gluteus_maximus|primary|low/moderate/high",
+   "gluteus_medius|secondary|low/moderate/high"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "separate",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "hip_extension"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension"
+  ]
+ },
+ "double_overhand": {
+  "name": "Double Overhand",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Barbell deadlift performed using a double overhand grip.",
+  "muscles": [
+   "erector_spinae|primary|moderate/moderate/moderate",
+   "forearm_flexors|primary|moderate/high/moderate",
+   "rectus_abdominis|primary|low/low/low",
+   "gluteus_maximus|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "isometric_external",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_time",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "grip"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "hand:grip"
+  ]
+ },
+ "dumbbell_burpee": {
+  "name": "Dumbbell Burpee",
+  "kind": "conditioning",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Full body exercise combining squat, push-up, and jump, performed while holding dumbbells throughout the movement.",
+  "muscles": [
+   "vastus_lateralis|primary|moderate/high/moderate",
+   "biceps_femoris_long|secondary|moderate/high/moderate",
+   "deltoid_anterior|secondary|moderate/high/moderate",
+   "gastrocnemius_medial|secondary|moderate/high/moderate",
+   "rectus_abdominis|secondary|moderate/high/moderate",
+   "triceps_brachii_long|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "none",
+   "non_comparable"
+  ],
+  "pat": [
+   "locomotion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": []
+ },
+ "dumbbell_clean": {
+  "name": "Dumbbell Clean",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "An explosive movement starting from the floor to bring dumbbells to the shoulders via hip and knee extension.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/moderate/low",
+   "gluteus_maximus|primary|high/moderate/low",
+   "gastrocnemius_medial|secondary|high/moderate/low",
+   "vastus_lateralis|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "hip_hinge",
+   "vertical_press"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "dumbbell_cross_body_hammer_curl": {
+  "name": "Dumbbell Cross Body Hammer Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Hammer curls with dumbbells brought across the body towards the opposite shoulder.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low",
+   "brachioradialis|secondary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "dumbbell_cuban_press": {
+  "name": "Dumbbell Cuban Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "A shoulder external rotation exercise performed with dumbbells, starting from a flexed elbow position.",
+  "muscles": [
+   "deltoid_anterior|primary|low/high/high",
+   "triceps_brachii_long|primary|low/high/high",
+   "latissimus_dorsi|secondary|low/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "rotation"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "shoulder:external_rotation"
+  ]
+ },
+ "dumbbell_incline_y_raise": {
+  "name": "Dumbbell Incline Y-raise",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Raising dumbbells in an inclined position following a Y-shaped trajectory.",
+  "muscles": [
+   "deltoid_anterior|primary|none/moderate/high",
+   "latissimus_dorsi|primary|none/moderate/high",
+   "deltoid_posterior|secondary|none/moderate/high"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "shoulder_abduction"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "shoulder:abduction"
+  ]
+ },
+ "dumbbell_one_arm_reverse_grip_press": {
+  "name": "Dumbbell One Arm Reverse Grip Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "recommended_high_effort",
+  "uni": true,
+  "bw": false,
+  "desc": "Unilateral dumbbell press performed with a reverse grip, palm facing towards the body.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|high/moderate/low",
+   "triceps_brachii_long|primary|high/moderate/low",
+   "deltoid_anterior|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "dumbbell_seated_curl": {
+  "name": "Dumbbell Seated Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Elbow flexion performed while seated using two dumbbells.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "biceps_brachii_short|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low",
+   "brachialis|secondary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "dumbbell_seated_one_leg_calf_raise_hammer_grip": {
+  "name": "Dumbbell Seated One Leg Calf Raise - Hammer Grip",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "A unilateral seated exercise targeting the calves using a dumbbell.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/moderate/low",
+   "gastrocnemius_medial|primary|high/moderate/low",
+   "gluteus_maximus|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "plantar_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "ankle:plantar_flexion"
+  ]
+ },
+ "dumbbell_standing_alternate_hammer_curl_and_press": {
+  "name": "Dumbbell Standing Alternate Hammer Curl And Press",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Compound standing dumbbell exercise combining an alternating hammer curl with an overhead press.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low",
+   "deltoid_anterior|secondary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "dumbbell_wrist_curl": {
+  "name": "Dumbbell Wrist Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Wrist flexion performed with dumbbells, keeping the forearm resting on a flat surface.",
+  "muscles": [
+   "forearm_flexors|primary|high/high/low",
+   "rectus_abdominis|primary|low/low/low"
+  ],
+  "bio": [
+   "gravity",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "wrist_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "wrist:flexion"
+  ]
+ },
+ "elevator": {
+  "name": "Elevator",
+  "kind": "mobility",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": null,
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Forward trunk flexion from a standing position, maintaining a neutral spine.",
+  "muscles": [
+   "deltoid_anterior|primary|moderate/high/moderate",
+   "latissimus_dorsi|primary|moderate/high/moderate",
+   "trapezius_middle|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "isometric_external",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "locomotion"
+  ],
+  "eq": [],
+  "ja": []
+ },
+ "ez_barbell_spider_curl": {
+  "name": "Ez Barbell Spider Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Biceps curl using an EZ bar while leaning forward with the chest supported on an inclined bench.",
+  "muscles": [
+   "biceps_brachii_long|primary|none/moderate/high",
+   "biceps_brachii_short|primary|none/moderate/high",
+   "forearm_flexors|primary|none/moderate/high",
+   "brachialis|secondary|none/moderate/high"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "preacher_curl_bench",
+   "ez_bar"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "floor_fly_with_barbell": {
+  "name": "Floor Fly (with Barbell)",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Lying flat on the floor with knees bent, perform a chest fly movement using a barbell, keeping elbows slightly bent.",
+  "muscles": [
+   "deltoid_anterior|primary|high/moderate/none",
+   "pectoralis_major_sternal|primary|high/moderate/none",
+   "triceps_brachii_long|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction"
+  ]
+ },
+ "frankenstein_squat": {
+  "name": "Frankenstein Squat",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "recommended_high_effort",
+  "uni": false,
+  "bw": false,
+  "desc": "A barbell squat variation that requires coordinated motor control between hip flexion and knee flexion.",
+  "muscles": [
+   "gluteus_maximus|primary|high/moderate/none",
+   "vastus_lateralis|primary|high/moderate/none",
+   "biceps_femoris_long|secondary|high/moderate/none",
+   "gastrocnemius_medial|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "hip_bridge_walkout": {
+  "name": "Hip Bridge Walkout",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Core and glute stability exercise involving lifting the pelvis in a bridge position, followed by a controlled forward movement of the feet.",
+  "muscles": [
+   "biceps_femoris_long|primary|low/moderate/high",
+   "semitendinosus|primary|low/moderate/high",
+   "biceps_femoris_short|secondary|low/moderate/high",
+   "gluteus_maximus|secondary|low/moderate/high"
+  ],
+  "bio": [
+   "gravity",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "hip_extension"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension"
+  ]
+ },
+ "inverted_row_with_straps": {
+  "name": "Inverted Row With Straps",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Bodyweight row using a suspension trainer or straps, performed with the body leaning back at an angle.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/high",
+   "latissimus_dorsi|primary|low/high/high",
+   "forearm_flexors|secondary|low/high/high"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "horizontal_pull"
+  ],
+  "eq": [],
+  "ja": [
+   "shoulder:extension",
+   "scapula:retraction",
+   "elbow:flexion"
+  ]
+ },
+ "jump_lunge": {
+  "name": "Jump Lunge",
+  "kind": "conditioning",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "A plyometric exercise consisting of alternating lunges with a vertical jump to develop explosive power.",
+  "muscles": [
+   "rectus_femoris|primary|high/moderate/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "high",
+   "moderate"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "jump"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "kettlebell_sdhp": {
+  "name": "Kettlebell SDHP",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Execution of the Sumo Deadlift High Pull with a kettlebell, combining a hip hinge/extension with a vertical high pull.",
+  "muscles": [
+   "rectus_abdominis|primary|low/low/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "shoulder_abduction",
+   "elbow_flexion"
+  ],
+  "eq": [
+   "kettlebell"
+  ],
+  "ja": [
+   "shoulder:abduction",
+   "elbow:flexion"
+  ]
+ },
+ "kettlebell_seesaw_press": {
+  "name": "Kettlebell Seesaw Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Alternating overhead press with two kettlebells, where one weight is lowered while the other is raised.",
+  "muscles": [
+   "deltoid_anterior|primary|high/high/low",
+   "triceps_brachii_long|primary|high/high/low",
+   "rectus_abdominis|secondary|high/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "vertical_press"
+  ],
+  "eq": [
+   "kettlebell"
+  ],
+  "ja": [
+   "shoulder:flexion",
+   "scapula:elevation",
+   "elbow:extension"
+  ]
+ },
+ "kettlebell_two_arm_clean": {
+  "name": "Kettlebell Two Arm Clean",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "An explosive movement that brings a kettlebell from the thighs to the rack position at the shoulders using hip extension.",
+  "muscles": [
+   "deltoid_anterior|primary|high/moderate/low",
+   "trapezius_middle|primary|high/moderate/low",
+   "forearm_flexors|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "hip_hinge",
+   "vertical_press"
+  ],
+  "eq": [
+   "kettlebell"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "kneeling_lat_stretch": {
+  "name": "Kneeling Lat Stretch",
+  "kind": "mobility",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": null,
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Lateral latissimus dorsi stretch in a kneeling position with arms extended overhead.",
+  "muscles": [
+   "deltoid_anterior|primary|high/low/none",
+   "latissimus_dorsi|primary|high/low/none",
+   "triceps_brachii_long|secondary|high/low/none"
+  ],
+  "bio": [
+   "isometric_external",
+   "low",
+   "none"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [],
+  "eq": [],
+  "ja": []
+ },
+ "korean_dips": {
+  "name": "Korean Dips",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "A push exercise between two parallel bars focusing on the posterior deltoids and triceps.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|high/high/low",
+   "triceps_brachii_long|primary|high/high/low",
+   "deltoid_anterior|secondary|high/high/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_plus_weight",
+   "added_weight",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "horizontal_press",
+   "vertical_press"
+  ],
+  "eq": [],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "lever_one_arm_bent_over_row": {
+  "name": "Lever One Arm Bent Over Row",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Unilateral bent over row performed with a barbell using a pivot point to create a lever effect.",
+  "muscles": [
+   "biceps_brachii_long|primary|moderate/high/high",
+   "latissimus_dorsi|primary|moderate/high/high",
+   "forearm_flexors|secondary|moderate/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_pull"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:extension",
+   "scapula:retraction",
+   "elbow:flexion"
+  ]
+ },
+ "lever_one_arm_lateral_high_row": {
+  "name": "Lever One Arm Lateral High Row",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Unilateral high row performed on a lever machine, focusing on the upper back.",
+  "muscles": [
+   "biceps_brachii_long|primary|moderate/high/high",
+   "latissimus_dorsi|primary|moderate/high/high",
+   "deltoid_anterior|secondary|moderate/high/high"
+  ],
+  "bio": [
+   "cam_machine",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "equipment_instance"
+  ],
+  "pat": [
+   "horizontal_pull"
+  ],
+  "eq": [
+   "seated_row_machine"
+  ],
+  "ja": [
+   "shoulder:extension",
+   "scapula:retraction",
+   "elbow:flexion"
+  ]
+ },
+ "lever_seated_crunch": {
+  "name": "Lever Seated Crunch",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Seated crunch performed on a leverage machine to isolate the rectus abdominis.",
+  "muscles": [
+   "obliquus_externus|primary|low/high/high",
+   "rectus_abdominis|primary|low/high/high"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "spinal_flexion"
+  ],
+  "eq": [
+   "back_extension_machine"
+  ],
+  "ja": [
+   "spine:flexion"
+  ]
+ },
+ "low_bar_squat": {
+  "name": "Low Bar Squat",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "recommended_high_effort",
+  "uni": false,
+  "bw": false,
+  "desc": "Squat variant with the barbell positioned low on the scapular spines to increase posterior chain involvement.",
+  "muscles": [
+   "gluteus_maximus|primary|high/moderate/none",
+   "rectus_femoris|primary|high/moderate/none",
+   "erector_spinae|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [
+   "barbell",
+   "squat_rack"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "pallof_press": {
+  "name": "Pallof Press",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Anti-rotation core exercise using a cable that exerts a lateral pull.",
+  "muscles": [
+   "obliquus_externus|primary|low/high/high",
+   "obliquus_internus|primary|low/high/high",
+   "deltoid_anterior|secondary|low/high/high",
+   "rectus_abdominis|secondary|low/high/high"
+  ],
+  "bio": [
+   "cable",
+   "high",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "equipment_instance"
+  ],
+  "pat": [
+   "anti_rotation"
+  ],
+  "eq": [
+   "cable_attachment_single_handle"
+  ],
+  "ja": [
+   "spine:anti_rotation"
+  ]
+ },
+ "pause_incline_bench_press": {
+  "name": "Pause Incline Bench Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "recommended_high_effort",
+  "uni": false,
+  "bw": false,
+  "desc": "Incline bench press variant with a 1-3 second pause at the chest. Eliminates elastic energy and improves neuromuscular control in the clavicular pectoral region.",
+  "muscles": [
+   "pectoralis_major_clavicular|primary|high/high/low",
+   "deltoid_anterior|secondary|high/high/low",
+   "triceps_brachii_long|secondary|high/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "horizontal_press",
+   "vertical_press"
+  ],
+  "eq": [
+   "adjustable_bench",
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "pulse_squat": {
+  "name": "Pulse Squat",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Bodyweight squat variation featuring small bouncing movements at the bottom of the range of motion.",
+  "muscles": [
+   "rectus_femoris|primary|high/moderate/none"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "push_up_to_side_plank": {
+  "name": "Push-up To Side Plank",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Push-up followed by a torso rotation into a side plank position.",
+  "muscles": [
+   "deltoid_anterior|primary|high/moderate/low",
+   "rectus_abdominis|primary|high/moderate/low",
+   "pectoralis_major_sternal|secondary|high/moderate/low",
+   "triceps_brachii_long|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "rack_pull": {
+  "name": "Rack Pull",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "A deadlift variation performed with the barbell positioned on rack pins, reducing the range of motion.",
+  "muscles": [
+   "erector_spinae|primary|high/moderate/none",
+   "gluteus_maximus|primary|high/moderate/none",
+   "rectus_abdominis|primary|high/moderate/none",
+   "biceps_femoris_long|secondary|high/moderate/none",
+   "latissimus_dorsi|secondary|high/moderate/none",
+   "trapezius_middle|secondary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "hip_hinge",
+   "squat"
+  ],
+  "eq": [
+   "power_rack",
+   "barbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "resistance_band_chest_press": {
+  "name": "Resistance Band Chest Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Horizontal push for the chest using a resistance band anchored behind the body.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|moderate/high/moderate",
+   "deltoid_anterior|secondary|moderate/high/moderate",
+   "triceps_brachii_lateral|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "band",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "resistance_band_tube"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "reverse_dumbbell_curl": {
+  "name": "Reverse Dumbbell Curl",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Elbow flexion exercise using dumbbells with a pronated grip.",
+  "muscles": [
+   "biceps_brachii_long|primary|low/high/low",
+   "forearm_flexors|primary|low/high/low",
+   "brachialis|secondary|low/high/low",
+   "brachioradialis|secondary|low/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "elbow_flexion"
+  ],
+  "eq": [
+   "dumbbell"
+  ],
+  "ja": [
+   "elbow:flexion"
+  ]
+ },
+ "shoulder_tap_push_up": {
+  "name": "Shoulder Tap Push-up",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Perform a push-up followed by an alternating shoulder tap.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|high/moderate/low",
+   "triceps_brachii_long|primary|high/moderate/low",
+   "rectus_abdominis|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [],
+  "ja": [
+   "shoulder:horizontal_adduction",
+   "scapula:protraction",
+   "elbow:extension"
+  ]
+ },
+ "single_arm_band_pushdown": {
+  "name": "Single-Arm Band Pushdown",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Single-arm elbow extension using a resistance band anchored above.",
+  "muscles": [
+   "triceps_brachii_long|primary|low/moderate/high",
+   "triceps_brachii_lateral|secondary|low/moderate/high",
+   "triceps_brachii_medial|secondary|low/moderate/high"
+  ],
+  "bio": [
+   "band",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "reps",
+   "none",
+   "optional",
+   "non_comparable"
+  ],
+  "pat": [
+   "elbow_extension"
+  ],
+  "eq": [
+   "resistance_band_loop"
+  ],
+  "ja": [
+   "elbow:extension"
+  ]
+ },
+ "single_leg_adduction_machine": {
+  "name": "Single Leg Adduction Machine",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Single leg hip adduction performed on a dedicated machine, maintaining a stable torso.",
+  "muscles": [
+   "adductor_brevis|primary|high/high/low",
+   "adductor_longus|primary|high/high/low",
+   "adductor_magnus|primary|high/high/low",
+   "gracilis|secondary|high/high/low"
+  ],
+  "bio": [
+   "cam_machine",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "hip_adduction"
+  ],
+  "eq": [
+   "adductor_machine"
+  ],
+  "ja": [
+   "hip:adduction"
+  ]
+ },
+ "sled_closer_hack_squat": {
+  "name": "Sled Closer Hack Squat",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Hack squat performed using a sled machine with feet positioned closer together on the platform.",
+  "muscles": [
+   "gluteus_maximus|primary|high/moderate/low",
+   "vastus_lateralis|primary|high/moderate/low",
+   "biceps_femoris_long|secondary|high/moderate/low",
+   "gastrocnemius_medial|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "cam_machine",
+   "low",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [
+   "hack_squat_machine"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "slow_eccentric_tempo_pec_deck_fly": {
+  "name": "Slow-Eccentric Tempo Pec Deck Fly",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Pec Deck flyes performed with a deliberately slowed eccentric phase to increase muscle tension.",
+  "muscles": [
+   "pectoralis_major_sternal|primary|moderate/high/moderate",
+   "deltoid_anterior|secondary|moderate/high/moderate",
+   "serratus_anterior|stabilizer|moderate/high/moderate"
+  ],
+  "bio": [
+   "cam_machine",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "equipment_instance"
+  ],
+  "pat": [
+   "horizontal_press"
+  ],
+  "eq": [
+   "pec_deck_machine"
+  ],
+  "ja": [
+   "shoulder:horizontal_adduction"
+  ]
+ },
+ "smith_machine_seated_press": {
+  "name": "Smith Machine Seated Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Seated overhead press performed on the Smith machine, using a bench for back support to isolate the deltoids.",
+  "muscles": [
+   "deltoid_anterior|primary|high/high/low",
+   "triceps_brachii_long|secondary|high/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "vertical_press"
+  ],
+  "eq": [
+   "smith_machine",
+   "adjustable_bench"
+  ],
+  "ja": [
+   "shoulder:flexion",
+   "scapula:elevation",
+   "elbow:extension"
+  ]
+ },
+ "smith_one_leg_floor_calf_raise": {
+  "name": "Smith One Leg Floor Calf Raise",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": false,
+  "desc": "Unilateral plantar flexion exercise performed under a Smith Machine bar with the body supported by the bar.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/moderate/low",
+   "gastrocnemius_medial|primary|high/moderate/low",
+   "gluteus_maximus|secondary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "plantar_flexion"
+  ],
+  "eq": [
+   "smith_machine"
+  ],
+  "ja": [
+   "ankle:plantar_flexion"
+  ]
+ },
+ "smith_seated_shoulder_press": {
+  "name": "Smith Seated Shoulder Press",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "A seated overhead vertical press using the Smith Machine.",
+  "muscles": [
+   "deltoid_anterior|primary|high/high/low",
+   "triceps_brachii_long|primary|high/high/low",
+   "latissimus_dorsi|secondary|high/high/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "optional",
+   "exercise"
+  ],
+  "pat": [
+   "vertical_press"
+  ],
+  "eq": [
+   "smith_machine"
+  ],
+  "ja": [
+   "shoulder:flexion",
+   "scapula:elevation",
+   "elbow:extension"
+  ]
+ },
+ "snatch_balance": {
+  "name": "Snatch Balance",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Olympic lifting exercise where the barbell is pushed upward while the athlete quickly drops into a deep squat position.",
+  "muscles": [
+   "rectus_abdominis|primary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "standing_lateral_stretch": {
+  "name": "Standing Lateral Stretch",
+  "kind": "mobility",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": null,
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Standing lateral stretch of the torso, performing a side bend of the spine.",
+  "muscles": [
+   "deltoid_anterior|primary|high/low/none",
+   "latissimus_dorsi|primary|high/low/none",
+   "obliquus_externus|secondary|high/low/none"
+  ],
+  "bio": [
+   "isometric_external",
+   "low",
+   "none"
+  ],
+  "trk": [
+   "time",
+   "none",
+   "none",
+   "bodyweight_aware"
+  ],
+  "pat": [],
+  "eq": [],
+  "ja": []
+ },
+ "straight_leg_outer_hip_abductor": {
+  "name": "Straight Leg Outer Hip Abductor",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": true,
+  "desc": "Lie on your side with legs straight and stacked. Lift the top leg upwards without rotating the hips.",
+  "muscles": [
+   "gluteus_maximus|primary|low/high/high",
+   "gluteus_medius|primary|low/high/high",
+   "biceps_femoris_long|secondary|low/high/high"
+  ],
+  "bio": [
+   "gravity",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "optional",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "hip_abduction"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:abduction"
+  ]
+ },
+ "tempo_single_leg_glute_bridge": {
+  "name": "Tempo Single-Leg Glute Bridge",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "Single-leg hip extension exercise performed with controlled tempo.",
+  "muscles": [
+   "gluteus_maximus|primary|low/moderate/high"
+  ],
+  "bio": [
+   "gravity",
+   "low",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "separate",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "hip_extension"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension"
+  ]
+ },
+ "tempo_split_squat": {
+  "name": "Tempo Split Squat",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "Split squat performed with a controlled and deliberate execution tempo to increase time under tension.",
+  "muscles": [
+   "rectus_femoris|primary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "moderate"
+  ],
+  "trk": [
+   "bodyweight_reps",
+   "none",
+   "separate",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "squat"
+  ],
+  "eq": [],
+  "ja": [
+   "hip:extension",
+   "knee:extension",
+   "ankle:dorsiflexion"
+  ]
+ },
+ "tempo_wide_stance_good_morning": {
+  "name": "Tempo Wide Stance Good Morning",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Tempo variation with a slow descent to increase time under tension and positional awareness using a wide stance.",
+  "muscles": [
+   "biceps_femoris_long|primary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "hip_hinge"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "weighted_archer_pull_up": {
+  "name": "Weighted Archer Pull-Up",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": true,
+  "bw": true,
+  "desc": "Archer pull-up performed with added external weight to increase resistance.",
+  "muscles": [
+   "biceps_brachii_long|primary|high/high/low",
+   "latissimus_dorsi|primary|high/high/low",
+   "forearm_flexors|secondary|high/high/low"
+  ],
+  "bio": [
+   "bodyweight_leverage",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "bodyweight_plus_weight",
+   "added_weight",
+   "separate",
+   "bodyweight_aware"
+  ],
+  "pat": [
+   "vertical_pull"
+  ],
+  "eq": [
+   "pull_up_bar"
+  ],
+  "ja": [
+   "shoulder:adduction",
+   "scapula:depression",
+   "elbow:flexion"
+  ]
+ },
+ "weighted_calf_raise": {
+  "name": "Weighted Calf Raise",
+  "kind": "resistance",
+  "tech": "low",
+  "joint_class": "single_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "An isolation exercise for the calves involving plantar flexion of the ankles under load.",
+  "muscles": [
+   "rectus_abdominis|primary|high/moderate/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "plantar_flexion"
+  ],
+  "eq": [
+   "dip_belt"
+  ],
+  "ja": [
+   "ankle:plantar_flexion"
+  ]
+ },
+ "weighted_kneeling_step_with_swing": {
+  "name": "Weighted Kneeling Step With Swing",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Weight swing exercise starting from a kneeling position, bringing the weights upward and overhead.",
+  "muscles": [
+   "deltoid_anterior|primary|moderate/high/moderate",
+   "triceps_brachii_long|primary|moderate/high/moderate",
+   "rectus_abdominis|secondary|moderate/high/moderate"
+  ],
+  "bio": [
+   "isometric_external",
+   "high",
+   "moderate"
+  ],
+  "trk": [
+   "weight_reps",
+   "per_implement",
+   "separate",
+   "exercise"
+  ],
+  "pat": [
+   "carry"
+  ],
+  "eq": [
+   "weight_plate"
+  ],
+  "ja": [
+   "shoulder:flexion"
+  ]
+ },
+ "weighted_thick_bar_deadlift_hold": {
+  "name": "Weighted Thick Bar Deadlift Hold",
+  "kind": "resistance",
+  "tech": "high",
+  "joint_class": "multi_joint",
+  "kc": "closed",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Isometric hold of a thick bar barbell in a deadlift lockout position.",
+  "muscles": [
+   "forearm_flexors|primary|high/moderate/none"
+  ],
+  "bio": [
+   "gravity",
+   "high",
+   "high"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "hip_hinge",
+   "squat"
+  ],
+  "eq": [
+   "dip_belt"
+  ],
+  "ja": [
+   "hip:extension",
+   "spine:anti_flexion"
+  ]
+ },
+ "wide_grip_upright_row": {
+  "name": "Wide-Grip Upright Row",
+  "kind": "resistance",
+  "tech": "moderate",
+  "joint_class": "multi_joint",
+  "kc": "open",
+  "spot": "none",
+  "uni": false,
+  "bw": false,
+  "desc": "Vertical pull of the barbell towards the chin with a grip wider than shoulder-width.",
+  "muscles": [
+   "rectus_abdominis|primary|low/low/low"
+  ],
+  "bio": [
+   "gravity",
+   "moderate",
+   "low"
+  ],
+  "trk": [
+   "weight_reps",
+   "total_load",
+   "none",
+   "exercise"
+  ],
+  "pat": [
+   "shoulder_abduction",
+   "elbow_flexion"
+  ],
+  "eq": [
+   "barbell"
+  ],
+  "ja": [
+   "shoulder:abduction",
+   "elbow:flexion"
+  ]
+ }
+}

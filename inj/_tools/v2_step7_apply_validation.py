@@ -111,8 +111,7 @@ def main():
         print(f"{path.name}: {len(payload)} proposals")
 
     # the blind audit reports {"seed", "sampled_codes", "findings": [...]}
-    audit = VALIDATION_DIR / "audit_blind.json"
-    if audit.exists():
+    for audit in sorted(VALIDATION_DIR.glob("audit_*.json")):
         try:
             payload = json.loads(audit.read_text(encoding="utf-8"))
             findings = payload.get("findings", []) if isinstance(payload, dict) else []

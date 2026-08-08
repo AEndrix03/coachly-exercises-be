@@ -1,0 +1,392 @@
+{
+ "seed": 90210,
+ "sample_size": 80,
+ "sampled_codes": [
+  "active_bar_hang",
+  "advanced_pseudo_planche_push_up",
+  "alternating_split_stance_calf_pulse",
+  "assisted_pull_up",
+  "band_fixed_back_underhand_pulldown",
+  "band_kneeling_one_arm_pulldown",
+  "band_two_legs_calf_raise_band_under_both_legs_v_2",
+  "barbell_bench_squat",
+  "barbell_high_bar_squat",
+  "barbell_overhead_extension",
+  "barbell_revers_wrist_curl_v_2",
+  "barbell_single_leg_split_squat",
+  "behind_the_back_wrist_curl",
+  "cable_assisted_inverse_leg_curl",
+  "cable_cross_over_reverse_fly",
+  "cable_high_pulley_overhead_tricep_extension",
+  "cable_middle_fly",
+  "cable_seated_rear_lateral_raise",
+  "cable_standing_fly",
+  "cable_tuck_reverse_crunch",
+  "chest_supported_row",
+  "close_grip_push_up_on_knees",
+  "competition_bench_press",
+  "crab_twist_toe_touch",
+  "cuban_press",
+  "double_under_skipping",
+  "dumbbell_clean",
+  "dumbbell_close_grip_press",
+  "dumbbell_flat_fly",
+  "dumbbell_forward_lunge_triceps_extension",
+  "dumbbell_incline_row",
+  "dumbbell_iron_cross",
+  "dumbbell_palms_in_incline_bench_press",
+  "dumbbell_seated_reverse_grip_one_arm_overhead_tricep_extension",
+  "dumbbell_seated_triceps_extension",
+  "dumbbell_standing_one_arm_extension",
+  "exercise_ball_back_extension_with_arms_extended",
+  "ez_bar_standing_french_press",
+  "farmer_walk_on_toes",
+  "kettlebell_arnold_press",
+  "kettlebell_goblet_squat",
+  "kettlebell_plyo_push_up",
+  "landmine_lateral_raise",
+  "lever_alternating_narrow_grip_seated_row",
+  "lever_back_extension",
+  "lever_deadlift",
+  "lever_hammer_grip_preacher_curl",
+  "lever_leg_extension",
+  "lever_lying_leg_curl",
+  "machine_hip_thrust",
+  "neutral_grip_chin_up",
+  "neutral_grip_floor_press",
+  "paused_hamstring_walkout",
+  "paused_handstand_hold",
+  "plate_pinch",
+  "plyo_push_up",
+  "push_up",
+  "seated_side_crunch_wall",
+  "single_leg_45_degree_back_extension",
+  "single_leg_band_calf_raise",
+  "slider_leg_curl",
+  "smith_shoulder_press",
+  "smith_single_leg_split_squat",
+  "spider_curl",
+  "split_jerk",
+  "stability_ball_crunch_full_range_hands_behind_head",
+  "sumo_squat_pulse",
+  "svend_press",
+  "tall_kneeling_band_press",
+  "tempo_elevated_pike_push_up",
+  "tempo_shrimp_squat",
+  "tempo_side_plank",
+  "tempo_single_leg_glute_bridge",
+  "triceps_pushdown",
+  "turnout_ring_support_hold",
+  "wall_reverse_sled_march",
+  "weighted_45_degree_back_extension_plate_hug",
+  "weighted_hyperextension",
+  "weighted_parallel_bar_dip",
+  "weighted_tricep_dips"
+ ],
+ "clean": [
+  "active_bar_hang",
+  "band_fixed_back_underhand_pulldown",
+  "band_kneeling_one_arm_pulldown",
+  "barbell_bench_squat",
+  "barbell_high_bar_squat",
+  "barbell_overhead_extension",
+  "barbell_single_leg_split_squat",
+  "cable_assisted_inverse_leg_curl",
+  "cable_tuck_reverse_crunch",
+  "chest_supported_row",
+  "close_grip_push_up_on_knees",
+  "competition_bench_press",
+  "dumbbell_clean",
+  "dumbbell_close_grip_press",
+  "dumbbell_flat_fly",
+  "dumbbell_palms_in_incline_bench_press",
+  "exercise_ball_back_extension_with_arms_extended",
+  "kettlebell_arnold_press",
+  "lever_alternating_narrow_grip_seated_row",
+  "lever_back_extension",
+  "lever_hammer_grip_preacher_curl",
+  "lever_lying_leg_curl",
+  "machine_hip_thrust",
+  "neutral_grip_chin_up",
+  "paused_hamstring_walkout",
+  "paused_handstand_hold",
+  "plate_pinch",
+  "plyo_push_up",
+  "push_up",
+  "seated_side_crunch_wall",
+  "single_leg_45_degree_back_extension",
+  "smith_shoulder_press",
+  "smith_single_leg_split_squat",
+  "spider_curl",
+  "svend_press",
+  "tempo_shrimp_squat",
+  "tempo_single_leg_glute_bridge",
+  "triceps_pushdown",
+  "weighted_45_degree_back_extension_plate_hug",
+  "weighted_hyperextension",
+  "weighted_tricep_dips"
+ ],
+ "findings": [
+  {
+   "exercise_code": "advanced_pseudo_planche_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "high",
+   "reason": "Pseudo-planche push-up requires extreme scapular protraction, forward lean and straight-arm control; it is an advanced calisthenics skill, not a low-demand movement.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "assisted_pull_up",
+   "field": "load_input_mode",
+   "current": "added_weight",
+   "proposed": "none",
+   "reason": "The assist machine REMOVES load. Storing it as added_weight makes the logged number mean the opposite of the resistance actually handled.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "crab_twist_toe_touch",
+   "field": "load_input_mode",
+   "current": "total_load",
+   "proposed": "none",
+   "reason": "bodyweight=true and tracking_type=bodyweight_reps, so there is no external load to input.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "crab_twist_toe_touch",
+   "field": "comparison_scope",
+   "current": "exercise",
+   "proposed": "bodyweight_aware",
+   "reason": "Pure bodyweight movement: performance depends on the athlete's mass.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "cuban_press",
+   "field": "resistance_source",
+   "current": "cable",
+   "proposed": "gravity",
+   "reason": "Equipment is dumbbell/barbell; the Cuban press is a free-weight movement with no cable stack.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "cuban_press",
+   "field": "comparison_scope",
+   "current": "equipment_instance",
+   "proposed": "exercise",
+   "reason": "A free-weight dumbbell/barbell lift is comparable across gyms; equipment_instance is for a single machine.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "double_under_skipping",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "Rope skipping carries no external load; the athlete moves only their own bodyweight.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "dumbbell_forward_lunge_triceps_extension",
+   "field": "joint_class",
+   "current": "single_joint",
+   "proposed": "multi_joint",
+   "reason": "The stored description itself calls it a compound of a forward lunge (hip + knee) plus an overhead triceps extension.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "dumbbell_incline_row",
+   "field": "spinal_loading",
+   "current": "moderate",
+   "proposed": "low",
+   "reason": "Chest-supported incline row removes the unsupported torso lever; the sibling chest_supported_row in the same catalogue stores low.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "kettlebell_goblet_squat",
+   "field": "resistance_source",
+   "current": "bodyweight_leverage",
+   "proposed": "gravity",
+   "reason": "Resistance comes from an externally held kettlebell, not from body leverage; every other loaded squat in the sample stores gravity.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "kettlebell_plyo_push_up",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "The kettlebells are only handles: tracking_type=bodyweight_reps and resistance_source=bodyweight_leverage contradict bodyweight=false.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "kettlebell_plyo_push_up",
+   "field": "technical_demand",
+   "current": "low",
+   "proposed": "moderate",
+   "reason": "Explosive push-off and landing on kettlebell handles; the plain plyo_push_up in the same sample stores moderate.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "lever_deadlift",
+   "field": "comparison_scope",
+   "current": "exercise",
+   "proposed": "equipment_instance",
+   "reason": "Load on a lever/machine deadlift depends on that machine's leverage, so it is not comparable across gyms.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "single_leg_band_calf_raise",
+   "field": "unilateral",
+   "current": "False",
+   "proposed": "True",
+   "reason": "Named and described as a single-leg heel raise.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "stability_ball_crunch_full_range_hands_behind_head",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "tracking_type=bodyweight_reps and resistance_source=bodyweight_leverage with no external load.",
+   "confidence": "moderate"
+  },
+  {
+   "exercise_code": "sumo_squat_pulse",
+   "field": "resistance_source",
+   "current": "bodyweight_leverage",
+   "proposed": "gravity",
+   "reason": "The row links a barbell and a dumbbell while tracking bodyweight_reps/bodyweight_aware; it is internally contradictory - either drop the implements or store gravity + weight_reps.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "turnout_ring_support_hold",
+   "field": "bodyweight",
+   "current": "False",
+   "proposed": "True",
+   "reason": "The ring support hold is a pure bodyweight isometric; tracking is time/bodyweight_aware.",
+   "confidence": "high"
+  },
+  {
+   "exercise_code": "wall_reverse_sled_march",
+   "field": "resistance_source",
+   "current": "isometric_external",
+   "proposed": "gravity",
+   "reason": "A reverse sled march is dynamic locomotion against sled friction/mass, not an isometric hold.",
+   "confidence": "moderate"
+  }
+ ],
+ "non_vocabulary_findings": [
+  {
+   "exercise_code": "alternating_split_stance_calf_pulse",
+   "issue": "rectus_abdominis stored as PRIMARY on a calf raise (stabilizer at most); also linked to a standing calf machine although described as a free split-stance pulse."
+  },
+  {
+   "exercise_code": "assisted_pull_up",
+   "issue": "equipment is pull_up_bar although the description requires an assisted pull-up machine."
+  },
+  {
+   "exercise_code": "band_two_legs_calf_raise_band_under_both_legs_v_2",
+   "issue": "tibialis_anterior stored as PRIMARY on a plantar-flexion exercise - it is the antagonist."
+  },
+  {
+   "exercise_code": "barbell_revers_wrist_curl_v_2",
+   "issue": "a reverse wrist curl is wrist EXTENSION, but the pattern is wrist_flexion and the primaries are forearm_flexors + biceps_brachii_long; forearm_extensors are not linked."
+  },
+  {
+   "exercise_code": "behind_the_back_wrist_curl",
+   "issue": "rectus_abdominis stored as PRIMARY on a wrist curl."
+  },
+  {
+   "exercise_code": "cable_cross_over_reverse_fly",
+   "issue": "deltoid_anterior stored as PRIMARY on a reverse fly; must be deltoid_posterior."
+  },
+  {
+   "exercise_code": "cable_seated_rear_lateral_raise",
+   "issue": "deltoid_anterior stored as PRIMARY on a rear lateral raise; the description says posterior deltoid, which is not linked at all."
+  },
+  {
+   "exercise_code": "cable_high_pulley_overhead_tricep_extension",
+   "issue": "deltoid_anterior as PRIMARY on an elbow-extension isolation, where it only holds the humerus isometrically."
+  },
+  {
+   "exercise_code": "dumbbell_seated_reverse_grip_one_arm_overhead_tricep_extension",
+   "issue": "same defect: deltoid_anterior as PRIMARY on an elbow-extension isolation."
+  },
+  {
+   "exercise_code": "dumbbell_seated_triceps_extension",
+   "issue": "same defect: deltoid_anterior as PRIMARY on an elbow-extension isolation."
+  },
+  {
+   "exercise_code": "dumbbell_standing_one_arm_extension",
+   "issue": "same defect: deltoid_anterior as PRIMARY on an elbow-extension isolation."
+  },
+  {
+   "exercise_code": "ez_bar_standing_french_press",
+   "issue": "same defect: deltoid_anterior as PRIMARY on an elbow-extension isolation."
+  },
+  {
+   "exercise_code": "dumbbell_forward_lunge_triceps_extension",
+   "issue": "deltoid_anterior stored as PRIMARY and no lower-body muscle linked at all despite the lunge."
+  },
+  {
+   "exercise_code": "cable_middle_fly",
+   "issue": "triceps_brachii_long linked as secondary on a single-joint fly where the elbow angle is fixed; movement pattern stored as horizontal_press instead of shoulder horizontal adduction."
+  },
+  {
+   "exercise_code": "cable_standing_fly",
+   "issue": "same as cable_middle_fly: triceps linked on a fly, pattern horizontal_press."
+  },
+  {
+   "exercise_code": "dumbbell_iron_cross",
+   "issue": "a lateral raise with deltoid_anterior and triceps_brachii_long as PRIMARY; deltoid_lateral is not linked."
+  },
+  {
+   "exercise_code": "landmine_lateral_raise",
+   "issue": "the description says it targets the lateral deltoid, but the primaries are deltoid_anterior and trapezius_middle; deltoid_lateral is absent."
+  },
+  {
+   "exercise_code": "lever_leg_extension",
+   "issue": "biceps_femoris_long stored as PRIMARY on a leg extension - it is the antagonist."
+  },
+  {
+   "exercise_code": "neutral_grip_floor_press",
+   "issue": "only triceps_brachii_lateral is linked; pectoralis and anterior deltoid are missing from a barbell press."
+  },
+  {
+   "exercise_code": "farmer_walk_on_toes",
+   "issue": "equipment is calf_raise_machine_standing (a loaded carry needs handles/dumbbells) and the only muscle linked is rectus_abdominis - no calves despite a plantar_flexion pattern."
+  },
+  {
+   "exercise_code": "slider_leg_curl",
+   "issue": "linked to leg_curl_machine_lying although the description is an unequipped slider/towel bridge curl."
+  },
+  {
+   "exercise_code": "split_jerk",
+   "issue": "only rectus_abdominis is linked; deltoids, triceps and quadriceps - the actual movers of an Olympic jerk - are absent."
+  },
+  {
+   "exercise_code": "tall_kneeling_band_press",
+   "issue": "only rectus_abdominis is linked on a horizontal press; pectoralis, anterior deltoid and triceps are absent."
+  },
+  {
+   "exercise_code": "tempo_elevated_pike_push_up",
+   "issue": "movement pattern horizontal_press for an overhead/vertical pressing movement; only deltoid_anterior is linked, triceps and upper traps absent."
+  },
+  {
+   "exercise_code": "tempo_side_plank",
+   "issue": "rectus_abdominis stored as PRIMARY on a side plank; obliques / quadratus lumborum, the actual anti-lateral-flexion workers, are not linked."
+  },
+  {
+   "exercise_code": "turnout_ring_support_hold",
+   "issue": "triceps not linked although elbow extension against ring instability is the defining demand."
+  },
+  {
+   "exercise_code": "wall_reverse_sled_march",
+   "issue": "only rectus_abdominis is linked; quadriceps and hip extensors are absent from a sled march."
+  },
+  {
+   "exercise_code": "weighted_parallel_bar_dip",
+   "issue": "only rectus_abdominis is linked as PRIMARY on a dip; pectoralis, triceps and anterior deltoid are absent (the sibling weighted_tricep_dips has them)."
+  }
+ ],
+ "exercises_with_error": 39,
+ "residual_error_rate_pct": 48.75,
+ "summary": "80 exercises sampled at random (seed 90210) from the 2502 active rows of the exercises schema. 39 of them carry at least one stored fact that contradicts the movement (48.75%). Enum-level fields are in reasonable shape; the residual damage is concentrated in exercise_muscle. Three recurring families account for most of it: (a) an antagonist or an unrelated muscle promoted to PRIMARY (rectus_abdominis on calf raises, wrist curls, side planks, dips, sled marches; tibialis_anterior on a calf raise; biceps_femoris on a leg extension; deltoid_anterior on reverse flies and rear raises); (b) anterior deltoid marked PRIMARY on six overhead triceps-extension isolations, where it is only an isometric stabiliser; (c) skeleton muscle sets on compound movements - split_jerk, weighted_parallel_bar_dip, tall_kneeling_band_press, neutral_grip_floor_press and wall_reverse_sled_march each have a single, mostly wrong primary and no real prime movers. A smaller cluster is equipment/tracking incoherence: farmer_walk_on_toes and alternating_split_stance_calf_pulse point at a standing calf machine, slider_leg_curl at a lying leg-curl machine, assisted_pull_up at a bare pull-up bar with load_input_mode=added_weight for a movement that subtracts load, and sumo_squat_pulse links a barbell and a dumbbell while tracking bodyweight_reps. Four bodyweight-only exercises (double_under_skipping, kettlebell_plyo_push_up, stability_ball_crunch, turnout_ring_support_hold) still store bodyweight=false while their tracking profile says otherwise. kinetic_chain, spotter_policy and spinal_loading were essentially clean across the sample."
+}
