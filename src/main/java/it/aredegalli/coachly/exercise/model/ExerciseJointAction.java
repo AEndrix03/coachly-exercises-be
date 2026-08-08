@@ -26,7 +26,7 @@ public class ExerciseJointAction {
     @JoinColumn(name = "exercise_id", nullable = false)
     private Exercise exercise;
 
-    @MapsId("jointAction")
+    @MapsId("jointActionId")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "joint_action_id", nullable = false)
     private JointAction jointAction;

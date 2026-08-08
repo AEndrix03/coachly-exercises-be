@@ -26,7 +26,7 @@ public class ExerciseMovementPattern {
     @JoinColumn(name = "exercise_id", nullable = false)
     private Exercise exercise;
 
-    @MapsId("movementPattern")
+    @MapsId("movementPatternId")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "movement_pattern_id", nullable = false)
     private MovementPattern movementPattern;
