@@ -2,6 +2,7 @@ package it.aredegalli.coachly.exercise.dto.command;
 
 import jakarta.validation.constraints.NotEmpty;
 import java.util.Map;
+import java.util.UUID;
 
 /**
  * What a user may set on a personal exercise. Classification fields the
@@ -9,6 +10,9 @@ import java.util.Map;
  * here: a user-created exercise starts unclassified and is curated later.
  */
 public class ExerciseUpsertRequestDto {
+
+    /** Client-authored id used to make offline creates safely retryable. */
+    private UUID id;
 
     @NotEmpty
     private Map<String, String> nameI18n;
@@ -21,6 +25,14 @@ public class ExerciseUpsertRequestDto {
     private Boolean isUnilateral;
     private Boolean isBodyweight;
     private String spotterPolicy;
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
 
     public Map<String, String> getNameI18n() {
         return nameI18n;

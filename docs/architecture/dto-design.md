@@ -5,6 +5,9 @@ I DTO in `src/main/java/it/aredegalli/coachly/exercise/dto` rappresentano il pay
 
 ## Regole applicate
 - Campi tecnici esclusi: `createdAt`, `updatedAt`, `deletedAt`, `status`.
+- `ExerciseUpsertRequestDto.id` e' l'eccezione intenzionale: e' un UUID
+  client-authored che rende idempotente il retry di una creazione registrata
+  offline. Non e' un dettaglio JPA e resta stabile tra app e backend.
 - Nessun riferimento JPA nei DTO (`@ManyToOne`, `@EmbeddedId`), solo valori semplici.
 - Per tabelle di join sono esposte chiavi esplicite (`exerciseId`, `muscleId`, ecc.) invece di id embeddati.
 - Tutti i DTO sono classi Lombok (`@Data`, `@Builder`, `@NoArgsConstructor`, `@AllArgsConstructor`) per uso pratico in service/controller.

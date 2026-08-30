@@ -215,7 +215,15 @@ public class ExerciseService {
 
     @Transactional
     public ExerciseDetailDto createPersonalExercise(UUID userId, ExerciseUpsertRequestDto request) {
+        if (request.getId() != null) {
+            var existing = exerciseRepository.findById(request.getId());
+            if (existing.isPresent()) {
+                ensureOwner(userId, existing.get());
+                return getExerciseDetails(userId, existing.get().getId());
+            }
+        }
         Exercise exercise = new Exercise();
+        exercise.setId(request.getId());
         applyUpsert(exercise, request);
         exercise.setOwnerUserId(userId);
         exercise.setCreatedByUserId(userId);
