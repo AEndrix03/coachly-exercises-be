@@ -18,6 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.ArgumentMatchers.contains;
@@ -49,9 +50,9 @@ class CatalogDeltaServiceTest {
     @Test
     void removesRowVersionFromThePayload() {
         givenTables("muscle");
-        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyInt()))
             .thenReturn(List.of(row(10, "m1")));
-        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyLong()))
+        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyInt()))
             .thenReturn(List.of());
 
         CatalogDelta delta = service.delta(0, 100);
@@ -65,9 +66,9 @@ class CatalogDeltaServiceTest {
     @Test
     void completeDeltaReportsTheHighestVersionSeen() {
         givenTables("muscle");
-        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyInt()))
             .thenReturn(List.of(row(10, "m1"), row(42, "m2")));
-        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyLong()))
+        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyInt()))
             .thenReturn(List.of());
 
         CatalogDelta delta = service.delta(0, 100);
@@ -82,11 +83,11 @@ class CatalogDeltaServiceTest {
         // un'altra e' completa fino a 500, restituire 500 farebbe saltare al
         // client le righe fra 101 e 500 della prima, per sempre.
         givenTables("equipment", "muscle");
-        when(jdbc.queryForList(contains("FROM exercises.equipment"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.equipment"), anyLong(), anyInt()))
             .thenReturn(List.of(row(100, "e1"), row(100, "e2")));
-        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyInt()))
             .thenReturn(List.of(row(500, "m1")));
-        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyLong()))
+        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyInt()))
             .thenReturn(List.of());
 
         CatalogDelta delta = service.delta(0, 2);
@@ -104,9 +105,9 @@ class CatalogDeltaServiceTest {
         tombstone.put("entity_key", Map.of("exercise_id", exerciseId.toString(), "tag_id", tagId.toString()));
         tombstone.put("row_version", 7L);
 
-        when(jdbc.queryForList(contains("FROM exercises.exercise_tag"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.exercise_tag"), anyLong(), anyInt()))
             .thenReturn(List.of());
-        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyLong()))
+        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyInt()))
             .thenReturn(List.of(tombstone));
 
         CatalogDelta delta = service.delta(0, 100);
@@ -120,9 +121,9 @@ class CatalogDeltaServiceTest {
     @Test
     void tablesWithoutChangesAreOmitted() {
         givenTables("muscle");
-        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyLong()))
+        when(jdbc.queryForList(contains("FROM exercises.muscle"), anyLong(), anyInt()))
             .thenReturn(List.of());
-        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyLong()))
+        when(jdbc.queryForList(contains("catalog_tombstone"), anyLong(), anyString(), anyInt()))
             .thenReturn(List.of());
 
         CatalogDelta delta = service.delta(5, 100);
