@@ -1,5 +1,6 @@
 package it.aredegalli.coachly.catalog;
 
+import it.aredegalli.coachly.exercise.CoachlyExercisesBeApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -29,7 +30,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * {@code COACHLY_DB_PASSWORD}. Ogni test sta in una transazione che viene
  * annullata, quindi non lascia niente dietro di se'.
  */
-@SpringBootTest
+// La classe applicativa vive in `...coachly.exercise`, non sopra questo
+// package: senza indicarla, Spring la cerca risalendo da `...coachly.catalog`
+// e non la trova.
+@SpringBootTest(classes = CoachlyExercisesBeApplication.class)
 @Transactional
 class CatalogProjectionIntegrationTest {
 
