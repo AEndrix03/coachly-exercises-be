@@ -11,6 +11,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -83,15 +84,28 @@ public class CatalogProjectionService {
                 : upsertProjection(exerciseId, detail);
         }
 
-        jdbc.update(
-            "DELETE FROM exercises.exercise_projection_dirty WHERE exercise_id = ANY (?)",
-            dirty.toArray(UUID[]::new)
-        );
+        clearDirty(dirty);
 
         int remaining = pendingCount();
         log.info("Catalog projection refreshed: {} dirty, {} changed, {} remaining",
             dirty.size(), changed, remaining);
         return remaining;
+    }
+
+    /**
+     * Toglie dalla coda gli esercizi appena ricostruiti.
+     *
+     * <p>Con segnaposto espliciti e non con {@code = ANY (?)}: passare un array
+     * Java a quella forma fa fallire il driver, che si aspetta un
+     * {@code java.sql.Array}. Il batch e' limitato a {@link #REFRESH_BATCH},
+     * quindi la lista di segnaposto resta piccola.
+     */
+    private void clearDirty(List<UUID> processed) {
+        String placeholders = String.join(",", Collections.nCopies(processed.size(), "?"));
+        jdbc.update(
+            "DELETE FROM exercises.exercise_projection_dirty WHERE exercise_id IN (" + placeholders + ")",
+            processed.toArray()
+        );
     }
 
     /** Quanti esercizi restano in coda di ricostruzione. */
