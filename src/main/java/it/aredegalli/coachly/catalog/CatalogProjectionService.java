@@ -3,7 +3,7 @@ package it.aredegalli.coachly.catalog;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import it.aredegalli.coachly.exercise.dto.ExerciseDetailDto;
+import it.aredegalli.coachly.exercise.dto.retrieve.ExerciseDetailDto;
 import it.aredegalli.coachly.exercise.service.ExerciseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
