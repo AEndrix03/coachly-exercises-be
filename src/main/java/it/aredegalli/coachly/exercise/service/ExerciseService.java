@@ -158,82 +158,6 @@ public class ExerciseService {
     }
 
     @Transactional(readOnly = true)
-    public List<ExerciseDetailDto> getFilteredExercises(
-        UUID userId,
-        String rawScope,
-        ExerciseFilterDto filter,
-        Integer requestedOffset,
-        Integer requestedLimit
-    ) {
-        ExerciseScope scope = ExerciseScope.parse(rawScope);
-        List<String> categoryTokens = safeTokens(filter.getCategoryIds());
-        List<String> muscleTokens = safeTokens(filter.getMuscleIds());
-        List<UUID> categoryIds = parseUuidTokens(categoryTokens);
-        List<UUID> muscleIds = parseUuidTokens(muscleTokens);
-        List<UUID> familyIds = parseUuidTokens(safeTokens(filter.getFamilyIds()));
-        List<String> muscleTextTokens = parseTextTokens(muscleTokens);
-
-        List<Exercise> exercises = findByScope(userId, scope).stream()
-            .filter(this::isActive)
-            .filter(exercise -> matchesKind(exercise, filter.getExerciseKind()))
-            .filter(exercise -> matchesTechnicalDemand(exercise, filter.getTechnicalDemand()))
-            .filter(exercise -> matchesJointClass(exercise, filter.getJointClass()))
-            .filter(exercise -> matchesKineticChain(exercise, filter.getKineticChain()))
-            .filter(exercise -> matchesUnilateral(exercise, filter.getIsUnilateral()))
-            .filter(exercise -> matchesBodyweight(exercise, filter.getIsBodyweight()))
-            .toList();
-        if (exercises.isEmpty()) {
-            return List.of();
-        }
-
-        Map<UUID, List<ExerciseCategory>> categoriesByExercise = groupByExerciseId(
-            exerciseCategoryRepository.findAllByExerciseIds(exercises.stream().map(Exercise::getId).toList()),
-            relation -> relation.getExercise().getId()
-        );
-        Map<UUID, List<ExerciseMuscle>> musclesByExercise = groupByExerciseId(
-            exerciseMuscleRepository.findAllByExerciseIds(exercises.stream().map(Exercise::getId).toList()),
-            relation -> relation.getExercise().getId()
-        );
-
-        List<Exercise> filteredExercises = exercises.stream()
-            .filter(exercise -> matchesCategories(categoriesByExercise.getOrDefault(exercise.getId(), List.of()), categoryIds))
-            .filter(exercise -> matchesMuscles(musclesByExercise.getOrDefault(exercise.getId(), List.of()), muscleIds))
-            .filter(exercise -> matchesFamily(exercise, familyIds))
-            .filter(exercise -> matchesTensionBias(
-                musclesByExercise.getOrDefault(exercise.getId(), List.of()), filter.getTensionBias()))
-            .map(exercise -> Map.entry(
-                exercise,
-                exerciseRetrieveMapper.searchScore(
-                    exercise,
-                    musclesByExercise.getOrDefault(exercise.getId(), List.of()),
-                    filter.getTextFilter(),
-                    filter.getLangFilter()
-                )
-            ))
-            .filter(entry -> filter.getTextFilter() == null || filter.getTextFilter().isBlank() || entry.getValue() > 0)
-            .filter(entry -> muscleTextTokens.isEmpty() || exerciseRetrieveMapper.matchesMuscles(
-                musclesByExercise.getOrDefault(entry.getKey().getId(), List.of()), muscleTextTokens
-            ))
-            .sorted(
-                Map.Entry.<Exercise, Integer>comparingByValue().reversed()
-                    .thenComparing(entry -> entry.getKey().getName(), String.CASE_INSENSITIVE_ORDER)
-            )
-            .map(Map.Entry::getKey)
-            .toList();
-
-        if (requestedOffset != null || requestedLimit != null) {
-            int offset = requestedOffset == null ? 0 : Math.max(0, requestedOffset);
-            int limit = requestedLimit == null ? 50 : Math.clamp(requestedLimit, 1, 100);
-            return buildDetailDtos(filteredExercises.stream()
-                .skip(offset)
-                .limit(limit)
-                .toList(), false);
-        }
-
-        return buildDetailDtos(filteredExercises, false);
-    }
-
-    @Transactional(readOnly = true)
     public List<ExerciseSummaryDto> getMyExercises(UUID userId) {
         return exerciseRepository.findPersonalExercises(ACTIVE_STATUS, userId).stream()
             .map(exerciseRetrieveMapper::toSummary)
@@ -374,24 +298,6 @@ public class ExerciseService {
         return exercise.getStatus() == RecordStatus.ACTIVE;
     }
 
-    private List<Exercise> findByScope(UUID userId, ExerciseScope scope) {
-        return switch (scope) {
-            case DEFAULT -> exerciseRepository.findDefaultExercises(ACTIVE_STATUS);
-            case MINE -> {
-                if (userId == null) {
-                    throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
-                }
-                yield exerciseRepository.findPersonalExercises(ACTIVE_STATUS, userId);
-            }
-            case COMMUNITY -> {
-                if (userId == null) {
-                    throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Missing or invalid X-User-Id header");
-                }
-                yield exerciseRepository.findCommunityExercises(ACTIVE_STATUS, userId);
-            }
-        };
-    }
-
     private boolean canAccessExercise(UUID userId, Exercise exercise) {
         UUID owner = exercise.getEffectiveCreatedByUserId();
         return owner == null || (userId != null && owner.equals(userId));
@@ -475,113 +381,10 @@ public class ExerciseService {
         }
     }
 
-    private boolean matchesKind(Exercise exercise, String exerciseKind) {
-        ExerciseKind kind = parseEnum(ExerciseKind.class, exerciseKind);
-        return kind == null || exercise.getExerciseKind() == kind;
-    }
-
-    private boolean matchesTechnicalDemand(Exercise exercise, String technicalDemand) {
-        TechnicalDemand demand = parseEnum(TechnicalDemand.class, technicalDemand);
-        return demand == null || exercise.getTechnicalDemand() == demand;
-    }
-
-    private boolean matchesJointClass(Exercise exercise, String jointClass) {
-        JointClass value = parseEnum(JointClass.class, jointClass);
-        return value == null || exercise.getJointClass() == value;
-    }
-
-    private boolean matchesKineticChain(Exercise exercise, String kineticChain) {
-        KineticChain value = parseEnum(KineticChain.class, kineticChain);
-        return value == null || exercise.getKineticChain() == value;
-    }
-
-    private boolean matchesFamily(Exercise exercise, List<UUID> familyIds) {
-        if (familyIds.isEmpty()) {
-            return true;
-        }
-        return exercise.getFamily() != null && familyIds.contains(exercise.getFamily().getId());
-    }
-
     /**
      * Where the caller wants the target muscle loaded. A muscle qualifies when
      * the requested end of its range carries at least MODERATE tension.
      */
-    private boolean matchesTensionBias(List<ExerciseMuscle> muscles, String tensionBias) {
-        if (tensionBias == null || tensionBias.isBlank()) {
-            return true;
-        }
-        String requested = tensionBias.trim().toLowerCase(Locale.ROOT).replace('-', '_');
-        return muscles.stream()
-            .filter(m -> m.getId() != null && m.getId().getInvolvement() == InvolvementLevel.PRIMARY)
-            .anyMatch(m -> meetsTension(switch (requested) {
-                case "lengthened" -> m.getTensionLengthened();
-                case "midrange", "mid_range" -> m.getTensionMidrange();
-                case "shortened" -> m.getTensionShortened();
-                default -> null;
-            }));
-    }
-
-    private boolean meetsTension(TensionLevel level) {
-        return level == TensionLevel.MODERATE || level == TensionLevel.HIGH;
-    }
-
-    private boolean matchesUnilateral(Exercise exercise, Boolean isUnilateral) {
-        return isUnilateral == null || exercise.isUnilateral() == isUnilateral;
-    }
-
-    private boolean matchesBodyweight(Exercise exercise, Boolean isBodyweight) {
-        return isBodyweight == null || exercise.isBodyweight() == isBodyweight;
-    }
-
-    private boolean matchesCategories(List<ExerciseCategory> categories, List<UUID> categoryIds) {
-        if (categoryIds.isEmpty()) {
-            return true;
-        }
-        return categories.stream()
-            .map(relation -> relation.getCategory().getId())
-            .anyMatch(categoryIds::contains);
-    }
-
-    private boolean matchesMuscles(List<ExerciseMuscle> muscles, List<UUID> muscleIds) {
-        if (muscleIds.isEmpty()) {
-            return true;
-        }
-        return muscles.stream()
-            .map(relation -> relation.getMuscle().getId())
-            .anyMatch(muscleIds::contains);
-    }
-
-    private List<String> safeTokens(List<String> rawTokens) {
-        if (rawTokens == null) {
-            return List.of();
-        }
-        return rawTokens.stream()
-            .filter(token -> token != null && !token.isBlank())
-            .map(String::trim)
-            .toList();
-    }
-
-    private List<UUID> parseUuidTokens(List<String> tokens) {
-        return tokens.stream()
-            .map(this::tryParseUuid)
-            .flatMap(Optional::stream)
-            .toList();
-    }
-
-    private List<String> parseTextTokens(List<String> tokens) {
-        return tokens.stream()
-            .filter(token -> tryParseUuid(token).isEmpty())
-            .toList();
-    }
-
-    private Optional<UUID> tryParseUuid(String token) {
-        try {
-            return Optional.of(UUID.fromString(token));
-        } catch (IllegalArgumentException ex) {
-            return Optional.empty();
-        }
-    }
-
     private <E extends Enum<E>> E parseEnum(Class<E> enumType, String rawValue) {
         if (rawValue == null || rawValue.isBlank()) {
             return null;
