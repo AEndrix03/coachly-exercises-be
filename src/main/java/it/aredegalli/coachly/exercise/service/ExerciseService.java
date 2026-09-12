@@ -119,6 +119,33 @@ public class ExerciseService {
             .toList();
     }
 
+    /**
+     * I dettagli pubblicabili nel catalogo, per un insieme di id.
+     *
+     * <p>Serve alla proiezione del canale a delta
+     * ({@code CatalogProjectionService}): usa la stessa costruzione del
+     * dettaglio servito da {@code /exercises/{id}/details}, perche' il payload
+     * che il client scarica a delta e quello che leggerebbe a richiesta devono
+     * essere lo stesso oggetto. Due costruzioni separate divergerebbero, e la
+     * divergenza sarebbe invisibile fino al primo utente che vede due dati
+     * diversi per lo stesso esercizio.
+     *
+     * <p>Un id che non compare nel risultato non e' pubblicabile: cancellato,
+     * non attivo, oppure personale di un utente. Per il catalogo sono lo stesso
+     * caso, ed e' il chiamante a decidere cosa farne.
+     */
+    @Transactional(readOnly = true)
+    public List<ExerciseDetailDto> getPublishableDetails(List<UUID> exerciseIds) {
+        if (exerciseIds == null || exerciseIds.isEmpty()) return List.of();
+
+        List<Exercise> exercises = exerciseRepository.findAllById(exerciseIds).stream()
+            .filter(this::isActive)
+            .filter(exercise -> exercise.getOwnerUserId() == null)
+            .toList();
+
+        return exercises.isEmpty() ? List.of() : buildDetailDtos(exercises, true);
+    }
+
     @Transactional(readOnly = true)
     public ExerciseDetailDto getExerciseDetails(UUID userId, UUID exerciseId) {
         Exercise exercise = exerciseRepository.findById(exerciseId)

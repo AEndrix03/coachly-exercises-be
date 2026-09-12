@@ -1,194 +1,102 @@
 package it.aredegalli.coachly.catalog;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.LinkedHashMap;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 /**
- * Calcolo del delta del catalogo.
+ * Il canale a delta del catalogo.
  *
- * <p>Legge le tabelle in modo generico invece di mappare ventidue entita': il
- * client non interpreta queste righe, le copia in SQLite. Un mapping esplicito
- * aggiungerebbe ventidue punti in cui lo schema e il trasporto possono
- * divergere in silenzio, e nessuno dei ventidue darebbe qualcosa in cambio.
+ * <p>L'unita' di versionamento e' <strong>l'esercizio come lo consuma il
+ * client</strong>, non la riga di una tabella del backend. Prima il delta
+ * restituiva righe grezze di ventidue tabelle, e il client avrebbe dovuto
+ * rifare le join del backend per ricostruirsi il dettaglio: un accoppiamento
+ * che lo schema locale rifiuta per progetto.
+ *
+ * <p>Le proiezioni le costruisce {@link CatalogProjectionService}; qui si
+ * legge soltanto.
  */
 @Service
 public class CatalogDeltaService {
 
     static final String SCHEMA = "exercises";
-    static final String TOMBSTONE_TABLE = "catalog_tombstone";
 
-    /** Tetto per tabella, per non costruire in memoria un catalogo intero. */
-    static final int MAX_ROWS_PER_TABLE = 2000;
+    /** Tetto di esercizi per risposta. */
+    static final int MAX_LIMIT = 1000;
 
     private final JdbcTemplate jdbc;
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final CatalogProjectionService projectionService;
 
-    public CatalogDeltaService(JdbcTemplate jdbc) {
+    public CatalogDeltaService(JdbcTemplate jdbc, CatalogProjectionService projectionService) {
         this.jdbc = jdbc;
+        this.projectionService = projectionService;
     }
 
-    @Transactional(readOnly = true)
-    public CatalogDelta delta(long since, int limitPerTable) {
-        int limit = Math.max(1, Math.min(limitPerTable, MAX_ROWS_PER_TABLE));
-        List<String> tables = catalogTables();
+    /**
+     * Gli esercizi cambiati da [since] in poi.
+     *
+     * <p>Prima di leggere si smaltisce la coda di ricostruzione, cosi' un
+     * client che chiede subito dopo una modifica non riceve una risposta vuota
+     * e poi si ferma: il watermark che porta a casa deve valere davvero.
+     */
+    @Transactional
+    public CatalogDelta delta(long since, int limit) {
+        projectionService.refreshDirty();
 
-        Map<String, CatalogDelta.TableDelta> result = new LinkedHashMap<>();
-        long highestSeen = since;
-        // Watermark sicuro: vedi safeVersion().
-        long lowestTruncated = Long.MAX_VALUE;
+        int pageSize = Math.max(1, Math.min(limit, MAX_LIMIT));
 
-        for (String table : tables) {
-            List<Map<String, Object>> rows = jdbc.queryForList(
-                "SELECT * FROM %s.%s WHERE row_version > ? ORDER BY row_version ASC LIMIT ?"
-                    .formatted(SCHEMA, quoted(table)),
-                since, limit
-            );
+        List<Map<String, Object>> rows = jdbc.queryForList(
+            """
+            SELECT exercise_id, payload, sha, deleted, row_version
+            FROM %s.exercise_projection
+            WHERE row_version > ?
+            ORDER BY row_version ASC
+            LIMIT ?
+            """.formatted(SCHEMA),
+            since, pageSize
+        );
 
-            List<Map<String, Object>> deleted = jdbc.queryForList(
-                """
-                SELECT entity_key, row_version
-                FROM %s.%s
-                WHERE row_version > ? AND table_name = ?
-                ORDER BY row_version ASC
-                LIMIT ?
-                """.formatted(SCHEMA, TOMBSTONE_TABLE),
-                since, table, limit
-            );
+        List<CatalogDelta.ExerciseChange> changes = new ArrayList<>(rows.size());
+        long watermark = since;
 
-            long tableMax = since;
-            for (Map<String, Object> row : rows) {
-                tableMax = Math.max(tableMax, toLong(row.get("row_version")));
-            }
-            for (Map<String, Object> row : deleted) {
-                tableMax = Math.max(tableMax, toLong(row.get("row_version")));
-            }
-            highestSeen = Math.max(highestSeen, tableMax);
-
-            if (rows.size() == limit || deleted.size() == limit) {
-                lowestTruncated = Math.min(lowestTruncated, tableMax);
-            }
-
-            CatalogDelta.TableDelta tableDelta = new CatalogDelta.TableDelta(
-                rows.stream().map(CatalogDeltaService::normalizeRow).toList(),
-                deleted.stream().map(this::entityKeyOf).toList()
-            );
-            if (!tableDelta.isEmpty()) {
-                result.put(table, tableDelta);
-            }
+        for (Map<String, Object> row : rows) {
+            watermark = Math.max(watermark, ((Number) row.get("row_version")).longValue());
+            changes.add(new CatalogDelta.ExerciseChange(
+                String.valueOf(row.get("exercise_id")),
+                (String) row.get("sha"),
+                Boolean.TRUE.equals(row.get("deleted")),
+                // Il payload viaggia come oggetto, non come stringa: il client
+                // lo salva cosi' com'e'.
+                String.valueOf(row.get("payload"))
+            ));
         }
 
-        boolean complete = lowestTruncated == Long.MAX_VALUE;
-
+        boolean complete = rows.size() < pageSize;
         return new CatalogDelta(
-            since, safeVersion(lowestTruncated, highestSeen), complete, result);
-    }
-
-    /**
-     * Il watermark restituito deve rispettare un invariante: <em>tutte</em> le
-     * righe con versione minore o uguale sono nella risposta.
-     *
-     * <p>Con un tetto per tabella il massimo globale non lo rispetta. Se la
-     * tabella A e' stata troncata a versione 100 e la tabella B e' completa
-     * fino a 500, restituire 500 farebbe ripartire il client da li', e le
-     * righe di A fra 101 e 500 non le vedrebbe mai piu'. Per questo, quando
-     * c'e' un troncamento, il watermark e' il <strong>minimo</strong> fra i
-     * massimi delle tabelle troncate: le righe ordinate per versione
-     * garantiscono che sotto quella soglia non manchi nulla. Il client rilegge
-     * qualcosa due volte, e va bene: l'applicazione del delta e' un upsert per
-     * chiave, quindi e' idempotente.
-     */
-    private static long safeVersion(long lowestTruncated, long highestSeen) {
-        return lowestTruncated == Long.MAX_VALUE ? highestSeen : lowestTruncated;
-    }
-
-    /** Versione corrente del catalogo, senza scaricare nulla. */
-    @Transactional(readOnly = true)
-    public long currentVersion() {
-        Long value = jdbc.queryForObject(
-            "SELECT last_value FROM %s.catalog_version".formatted(SCHEMA), Long.class);
-        return value == null ? 0L : value;
-    }
-
-    /**
-     * Le tabelle versionate, lette dal catalogo di sistema invece che da un
-     * elenco scritto a mano: una tabella aggiunta al catalogo e coperta dalla
-     * migrazione entra nel delta da sola.
-     */
-    List<String> catalogTables() {
-        return jdbc.queryForList(
-            """
-            SELECT table_name
-            FROM information_schema.columns
-            WHERE table_schema = ?
-              AND column_name = 'row_version'
-              AND table_name <> ?
-            ORDER BY table_name
-            """,
-            String.class, SCHEMA, TOMBSTONE_TABLE
+            since,
+            complete ? currentVersion() : watermark,
+            complete,
+            changes
         );
     }
 
     /**
-     * `row_version` serve al server per calcolare il watermark, non al client:
-     * togliendolo si evita che finisca dentro SQLite come se fosse un campo
-     * del dominio.
+     * Versione corrente del catalogo.
+     *
+     * <p>E' la chiamata che nel caso normale — nessun cambiamento — sostituisce
+     * un trasferimento: si confronta un intero invece di scaricare un delta
+     * vuoto.
      */
-    private static Map<String, Object> normalizeRow(Map<String, Object> row) {
-        Map<String, Object> copy = new LinkedHashMap<>(row);
-        copy.remove("row_version");
-        copy.replaceAll((key, value) -> normalizeValue(value));
-        return copy;
+    @Transactional(readOnly = true)
+    public long currentVersion() {
+        Long value = jdbc.queryForObject(
+            "SELECT COALESCE(max(row_version), 0) FROM %s.exercise_projection".formatted(SCHEMA),
+            Long.class
+        );
+        return value == null ? 0L : value;
     }
-
-    @SuppressWarnings("unchecked")
-    private Map<String, Object> entityKeyOf(Map<String, Object> tombstone) {
-        Object key = tombstone.get("entity_key");
-        if (key instanceof Map<?, ?> map) {
-            return (Map<String, Object>) map;
-        }
-        // `entity_key` arriva come jsonb, quindi come PGobject: va riportato a
-        // oggetto, altrimenti il client riceverebbe una stringa da riparsare.
-        try {
-            return objectMapper.readValue(String.valueOf(key), new TypeReference<>() {
-            });
-        } catch (JsonProcessingException e) {
-            throw new IllegalStateException("Malformed tombstone key: " + key, e);
-        }
-    }
-
-    /**
-     * I tipi Postgres che Jackson non serializza da solo diventano stringhe.
-     * `jsonb` arriva come {@code PGobject}, e senza questa conversione
-     * finirebbe nel JSON come un oggetto con dentro {@code type} e
-     * {@code value} invece che come il suo contenuto.
-     */
-    private static Object normalizeValue(Object value) {
-        if (value == null) return null;
-        String className = value.getClass().getName();
-        if (className.equals("org.postgresql.util.PGobject")) {
-            return String.valueOf(value);
-        }
-        return value;
-    }
-
-    private static long toLong(Object value) {
-        return value instanceof Number number ? number.longValue() : 0L;
-    }
-
-    /** Il nome arriva dal catalogo di sistema, ma non si concatena mai grezzo. */
-    private static String quoted(String identifier) {
-        if (!identifier.matches("[a-z_][a-z0-9_]*")) {
-            throw new IllegalStateException("Unexpected table name: " + identifier);
-        }
-        return identifier;
-    }
-
 }

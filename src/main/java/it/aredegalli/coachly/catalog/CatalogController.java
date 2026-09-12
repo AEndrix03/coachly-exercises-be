@@ -2,6 +2,7 @@ package it.aredegalli.coachly.catalog;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,9 +22,14 @@ import java.util.Map;
 public class CatalogController {
 
     private final CatalogDeltaService deltaService;
+    private final CatalogProjectionService projectionService;
 
-    public CatalogController(CatalogDeltaService deltaService) {
+    public CatalogController(
+        CatalogDeltaService deltaService,
+        CatalogProjectionService projectionService
+    ) {
         this.deltaService = deltaService;
+        this.projectionService = projectionService;
     }
 
     /**
@@ -46,5 +52,19 @@ public class CatalogController {
     @GetMapping("/version")
     public Map<String, Long> version() {
         return Map.of("version", deltaService.currentVersion());
+    }
+
+    /**
+     * Smaltisce la coda di ricostruzione della proiezione.
+     *
+     * <p>Il delta la smaltisce gia' da solo; questo endpoint serve dopo un
+     * import massivo, per non far pagare la ricostruzione al primo client che
+     * chiede un delta.
+     *
+     * @return quanti esercizi restano da ricostruire
+     */
+    @PostMapping("/projection/refresh")
+    public Map<String, Integer> refreshProjection() {
+        return Map.of("remaining", projectionService.refreshDirty());
     }
 }
