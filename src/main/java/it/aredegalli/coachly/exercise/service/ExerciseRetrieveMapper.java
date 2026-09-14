@@ -9,6 +9,7 @@ import it.aredegalli.coachly.exercise.enums.Visibility;
 import it.aredegalli.coachly.exercise.model.Category;
 import it.aredegalli.coachly.exercise.model.Equipment;
 import it.aredegalli.coachly.exercise.model.Exercise;
+import it.aredegalli.coachly.exercise.model.ExerciseAlias;
 import it.aredegalli.coachly.exercise.model.ExerciseBiomechanics;
 import it.aredegalli.coachly.exercise.model.ExerciseCategory;
 import it.aredegalli.coachly.exercise.model.ExerciseEquipment;
@@ -74,7 +75,8 @@ public class ExerciseRetrieveMapper {
         ExerciseTrackingProfile tracking,
         List<ExerciseMovementPattern> movementPatterns,
         List<ExerciseJointAction> jointActions,
-        Map<UUID, List<MuscleGroup>> groupsByMuscleId
+        Map<UUID, List<MuscleGroup>> groupsByMuscleId,
+        List<ExerciseAlias> aliases
     ) {
         TranslationEnvelope translations = parseTranslations(exercise.getTranslations());
         return ExerciseDetailDto.builder()
@@ -109,6 +111,19 @@ public class ExerciseRetrieveMapper {
             .media(media.stream().map(this::toMedia).toList())
             .categories(categories.stream().map(this::toCategory).toList())
             .tags(tags.stream().map(this::toTag).toList())
+            .aliases(aliases.stream().map(this::toAlias).toList())
+            .build();
+    }
+
+    private ExerciseDetailDto.AliasDto toAlias(ExerciseAlias alias) {
+        return ExerciseDetailDto.AliasDto.builder()
+            .id(alias.getId())
+            .locale(alias.getLocale())
+            .label(alias.getLabel())
+            .aliasType(enumValue(alias.getAliasType()))
+            .weight(alias.getWeight())
+            .status(enumValue(alias.getStatus()))
+            .replacedById(alias.getReplacedBy() == null ? null : alias.getReplacedBy().getId())
             .build();
     }
 

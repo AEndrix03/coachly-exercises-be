@@ -33,6 +33,7 @@ import it.aredegalli.coachly.exercise.model.ExerciseMuscle;
 import it.aredegalli.coachly.exercise.model.ExerciseTag;
 import it.aredegalli.coachly.exercise.model.ExerciseVariation;
 import it.aredegalli.coachly.exercise.repository.ExerciseBiomechanicsRepository;
+import it.aredegalli.coachly.exercise.repository.ExerciseAliasRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseCategoryRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseJointActionRepository;
 import it.aredegalli.coachly.exercise.repository.ExerciseMovementPatternRepository;
@@ -67,6 +68,7 @@ public class ExerciseService {
     private static final String ACTIVE_STATUS = RecordStatus.ACTIVE.name().toLowerCase(Locale.ROOT);
 
     private final ExerciseRepository exerciseRepository;
+    private final ExerciseAliasRepository exerciseAliasRepository;
     private final ExerciseBiomechanicsRepository exerciseBiomechanicsRepository;
     private final ExerciseTrackingProfileRepository exerciseTrackingProfileRepository;
     private final ExerciseMovementPatternRepository exerciseMovementPatternRepository;
@@ -83,6 +85,7 @@ public class ExerciseService {
 
     public ExerciseService(
         ExerciseRepository exerciseRepository,
+        ExerciseAliasRepository exerciseAliasRepository,
         ExerciseBiomechanicsRepository exerciseBiomechanicsRepository,
         ExerciseTrackingProfileRepository exerciseTrackingProfileRepository,
         ExerciseMovementPatternRepository exerciseMovementPatternRepository,
@@ -97,6 +100,7 @@ public class ExerciseService {
         ExerciseRetrieveMapper exerciseRetrieveMapper
     ) {
         this.exerciseRepository = exerciseRepository;
+        this.exerciseAliasRepository = exerciseAliasRepository;
         this.exerciseBiomechanicsRepository = exerciseBiomechanicsRepository;
         this.exerciseTrackingProfileRepository = exerciseTrackingProfileRepository;
         this.exerciseMovementPatternRepository = exerciseMovementPatternRepository;
@@ -243,6 +247,10 @@ public class ExerciseService {
             exerciseTagRepository.findAllByExerciseIds(exerciseIds),
             relation -> relation.getExercise().getId()
         );
+        Map<UUID, List<it.aredegalli.coachly.exercise.model.ExerciseAlias>> aliasesByExercise = groupByExerciseId(
+            exerciseAliasRepository.findAllByExerciseIds(exerciseIds),
+            relation -> relation.getExercise().getId()
+        );
         Map<UUID, ExerciseBiomechanics> biomechanicsByExercise = exerciseBiomechanicsRepository
             .findAllByExerciseIds(exerciseIds).stream()
             .collect(Collectors.toMap(ExerciseBiomechanics::getExerciseId, Function.identity(), (first, ignored) -> first));
@@ -281,7 +289,8 @@ public class ExerciseService {
                 trackingByExercise.get(exercise.getId()),
                 patternsByExercise.getOrDefault(exercise.getId(), List.of()),
                 jointActionsByExercise.getOrDefault(exercise.getId(), List.of()),
-                groupsByMuscleId
+                groupsByMuscleId,
+                aliasesByExercise.getOrDefault(exercise.getId(), List.of())
             ))
             .toList();
     }

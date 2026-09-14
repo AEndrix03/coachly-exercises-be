@@ -19,6 +19,9 @@ I DTO in `src/main/java/it/aredegalli/coachly/exercise/dto` rappresentano il pay
 - `ExerciseMuscleDto`, `ExerciseEquipmentDto`, `ExerciseTagDto`, `ExerciseCategoryDto`: relazioni many-to-many con soli dati utili al dominio.
 - `ExerciseMediaDto`: metadati media funzionali per presentazione e utilizzo.
 - `ExerciseVariationDto`: relazione base/variante e delta difficolta.
+- `ExerciseDetailDto.AliasDto`: nomi alternativi curati, localizzati e pesati;
+  la lista vuota viene omessa dal JSON e ogni modifica invalida la proiezione
+  del catalogo, cosi' gli alias viaggiano sul canale delta esistente.
 
 ## Nota operativa
 Con MapStruct nel `pom.xml`, i mapper Entity <-> DTO possono essere introdotti in `service`/`controller` senza leak di dettagli JPA all'esterno.
