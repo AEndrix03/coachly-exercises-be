@@ -1,0 +1,11 @@
+exercise_code,locale,alias,type,weight
+cable_seated_row,it,Pulley,common_name,100
+cable_seated_row,it,Pulley basso,common_name,95
+barbell_bench_press,it,Panca piana,common_name,100
+lat_pulldown,it,Lat Machine,common_name,100
+romanian_deadlift,en,RDL,abbreviation,100
+overhead_press,en,OHP,abbreviation,100
+dumbbell_flat_fly,it,Croci,common_name,95
+leg_press,it,Pressa,common_name,100
+overhead_triceps_extension,it,French Press,common_name,95
+band_tricep_pushdown,en,Pushdown,common_name,95
