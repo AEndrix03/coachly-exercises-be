@@ -14,6 +14,7 @@ import it.aredegalli.coachly.exercise.enums.InvolvementLevel;
 import it.aredegalli.coachly.exercise.enums.JointClass;
 import it.aredegalli.coachly.exercise.enums.KineticChain;
 import it.aredegalli.coachly.exercise.enums.LoadLevel;
+import it.aredegalli.coachly.exercise.enums.RankingTier;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
 import it.aredegalli.coachly.exercise.enums.TechnicalDemand;
@@ -343,6 +344,14 @@ public class ExerciseService {
         // a user-created exercise has not been reviewed by anyone
         if (exercise.getCatalogStatus() == null) {
             exercise.setCatalogStatus(CatalogStatus.DRAFT);
+        }
+        // JPA does not fall back to the column DEFAULT on insert: an unset
+        // value here would be sent as NULL and violate the NOT NULL constraint.
+        if (exercise.getRankingTier() == null) {
+            exercise.setRankingTier(RankingTier.STANDARD);
+        }
+        if (exercise.getDataExclusions() == null) {
+            exercise.setDataExclusions(serializeJson(Map.of()));
         }
 
         Map<String, Object> translations = new HashMap<>();

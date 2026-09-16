@@ -42,6 +42,7 @@ import java.util.UUID;
 public class ExerciseRetrieveMapper {
 
     private static final TypeReference<Map<String, Object>> MAP_TYPE = new TypeReference<>() {};
+    private static final TypeReference<Map<String, String>> STRING_MAP_TYPE = new TypeReference<>() {};
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -112,6 +113,8 @@ public class ExerciseRetrieveMapper {
             .categories(categories.stream().map(this::toCategory).toList())
             .tags(tags.stream().map(this::toTag).toList())
             .aliases(aliases.stream().map(this::toAlias).toList())
+            .dataExclusions(parseDataExclusions(exercise.getDataExclusions()))
+            .rankingTier(enumValue(exercise.getRankingTier()))
             .build();
     }
 
@@ -536,6 +539,22 @@ public class ExerciseRetrieveMapper {
 
     private String enumValue(Enum<?> value) {
         return value == null ? null : value.name().toLowerCase(Locale.ROOT);
+    }
+
+    /**
+     * `data_exclusions` is a flat field-to-reason map, unlike `translations`
+     * which nests by locale - no {@link TranslationEnvelope} needed.
+     */
+    private Map<String, String> parseDataExclusions(String rawDataExclusions) {
+        if (rawDataExclusions == null || rawDataExclusions.isBlank()) {
+            return Map.of();
+        }
+        try {
+            Map<String, String> parsed = objectMapper.readValue(rawDataExclusions, STRING_MAP_TYPE);
+            return parsed == null ? Map.of() : parsed;
+        } catch (Exception ex) {
+            return Map.of();
+        }
     }
 
     private TranslationEnvelope parseTranslations(String rawTranslations) {

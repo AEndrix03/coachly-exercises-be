@@ -4,6 +4,7 @@ import it.aredegalli.coachly.exercise.enums.CatalogStatus;
 import it.aredegalli.coachly.exercise.enums.ExerciseKind;
 import it.aredegalli.coachly.exercise.enums.JointClass;
 import it.aredegalli.coachly.exercise.enums.KineticChain;
+import it.aredegalli.coachly.exercise.enums.RankingTier;
 import it.aredegalli.coachly.exercise.enums.RecordStatus;
 import it.aredegalli.coachly.exercise.enums.SpotterPolicy;
 import it.aredegalli.coachly.exercise.enums.TechnicalDemand;
@@ -12,6 +13,7 @@ import it.aredegalli.coachly.exercise.model.converter.CatalogStatusConverter;
 import it.aredegalli.coachly.exercise.model.converter.ExerciseKindConverter;
 import it.aredegalli.coachly.exercise.model.converter.JointClassConverter;
 import it.aredegalli.coachly.exercise.model.converter.KineticChainConverter;
+import it.aredegalli.coachly.exercise.model.converter.RankingTierConverter;
 import it.aredegalli.coachly.exercise.model.converter.RecordStatusConverter;
 import it.aredegalli.coachly.exercise.model.converter.SpotterPolicyConverter;
 import it.aredegalli.coachly.exercise.model.converter.TechnicalDemandConverter;
@@ -107,6 +109,15 @@ public class Exercise {
 
     @Column(name = "translations", nullable = false, columnDefinition = "jsonb")
     private String translations;
+
+    /** Campo -> motivazione testuale del perche' quel campo e' legittimamente vuoto qui. */
+    @Column(name = "data_exclusions", nullable = false, columnDefinition = "jsonb")
+    private String dataExclusions;
+
+    /** Dove l'esercizio sta nella distribuzione d'uso reale, non nella qualita' editoriale. */
+    @Convert(converter = RankingTierConverter.class)
+    @Column(name = "ranking_tier", nullable = false, columnDefinition = "exercises.ranking_tier")
+    private RankingTier rankingTier;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
@@ -260,6 +271,22 @@ public class Exercise {
 
     public void setTranslations(String translations) {
         this.translations = translations;
+    }
+
+    public String getDataExclusions() {
+        return dataExclusions;
+    }
+
+    public void setDataExclusions(String dataExclusions) {
+        this.dataExclusions = dataExclusions;
+    }
+
+    public RankingTier getRankingTier() {
+        return rankingTier;
+    }
+
+    public void setRankingTier(RankingTier rankingTier) {
+        this.rankingTier = rankingTier;
     }
 
     public OffsetDateTime getCreatedAt() {
